@@ -1,0 +1,183 @@
+@import 'tailwindcss';
+
+/*
+ * v0.1은 "담백한" 기본 톤만 세운다. 브랜드 색·타이포는 v0.2 디자이너 몫이므로
+ * 여기서는 zinc 계열 중립 팔레트와 상태 라벨 5종의 대비만 확정한다.
+ * 모든 색 쌍의 대비는 docs/tools/programmer-01/contrast-check.mjs 로 실측한다(12/12 PASS).
+ * 다크 테마는 v0.1에 넣지 않는다 — 토글이 없어 검증할 수 없는 코드가 되므로 v0.2로 넘긴다.
+ */
+
+:root {
+  color-scheme: light;
+
+  --background: #ffffff;
+  --foreground: #18181b;
+  --surface: #fafafa;
+  --surface-strong: #f4f4f5;
+  --muted-foreground: #52525b;
+  --border: #e4e4e7;
+  --link: #1d4ed8;
+  --ring: #1d4ed8;
+  --radius: 0.625rem;
+
+  /*
+   * v0.1은 웹폰트를 쓰지 않는다. 시스템 한글 폰트 스택이 담백한 톤에 맞고,
+   * 추가 네트워크 요청·CLS·빌드 시점 폰트 다운로드 의존성이 전혀 없다.
+   * 브랜드 서체 도입은 v0.2 디자이너 결정 항목이다.
+   */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Malgun Gothic',
+    'Noto Sans KR', 'Helvetica Neue', Arial, sans-serif;
+
+  --status-doubt-bg: #fef3c7;
+  --status-doubt-fg: #713f12;
+  --status-doubt-border: #fde68a;
+
+  --status-investigating-bg: #dbeafe;
+  --status-investigating-fg: #1e3a8a;
+  --status-investigating-border: #bfdbfe;
+
+  --status-indicted-bg: #ede9fe;
+  --status-indicted-fg: #4c1d95;
+  --status-indicted-border: #ddd6fe;
+
+  --status-convicted-bg: #fee2e2;
+  --status-convicted-fg: #7f1d1d;
+  --status-convicted-border: #fecaca;
+
+  --status-closed-bg: #f4f4f5;
+  --status-closed-fg: #3f3f46;
+  --status-closed-border: #e4e4e7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-link: var(--link);
+  --color-ring: var(--ring);
+  --radius-card: var(--radius);
+  --font-sans: var(--font-sans);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    /* 한글 가독성 — 기본 줄간격을 넉넉하게 둔다. */
+    line-height: 1.65;
+    text-wrap: pretty;
+  }
+
+  /* 키보드 탐색 인디케이터. 마우스 클릭에는 나타나지 않는다. */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* 게시물 본문(마크다운 렌더 결과) — prose 플러그인 없이 최소 규칙만 둔다. */
+.post-body {
+  font-size: 1rem;
+}
+.post-body > * + * {
+  margin-top: 1rem;
+}
+.post-body h2 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.post-body h3 {
+  margin-top: 1.5rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.post-body a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.post-body ul,
+.post-body ol {
+  padding-left: 1.25rem;
+}
+.post-body ul {
+  list-style: disc;
+}
+.post-body ol {
+  list-style: decimal;
+}
+.post-body li + li {
+  margin-top: 0.375rem;
+}
+.post-body blockquote {
+  padding-left: 0.875rem;
+  border-left: 3px solid var(--border);
+  color: var(--muted-foreground);
+}
+.post-body code {
+  padding: 0.125rem 0.3rem;
+  background-color: var(--surface-strong);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.post-body pre {
+  padding: 0.875rem 1rem;
+  overflow-x: auto;
+  background-color: var(--surface-strong);
+  border-radius: var(--radius);
+}
+.post-body pre code {
+  padding: 0;
+  background: none;
+}
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+.post-body th,
+.post-body td {
+  padding: 0.5rem 0.625rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.post-body th {
+  background-color: var(--surface-strong);
+}
