@@ -27,6 +27,7 @@
 - [x] 2026-09-21 Google Search Console URL 접두어 속성 `https://ihatekongsandang.vercel.app/` — HTML 파일 방식 소유권 확인(`public/google327acae7b08ebffd.html`, 삭제 금지) · `sitemap.xml` 제출
   - ⚠️ GA 방식 인증은 실패(gtag가 body에 삽입) → 프로그래머 03: 메타태그 env(`NEXT_PUBLIC_GSC_VERIFICATION`·`NEXT_PUBLIC_NAVER_VERIFICATION`) 지원 추가
 - [x] 2026-09-21 **네이버 서치어드바이저** — 사이트 등록 · HTML 파일 소유확인(`public/naver67b2b45ea951e8e891d41348c0878938.html`, 삭제 금지) · robots.txt 검증 통과(16:40 수집) · sitemap.xml 제출 · 웹 페이지 수집요청(/, /about)
+- [ ] 네이버 서치어드바이저 **웹 페이지 수집요청** — 첫 게시물 3건: `/post/2026-09-20-kimeunhye-jeonse-reel` · `/post/2026-09-20-hanmibro-academy-merger-cards` · `/post/2026-09-20-nowandhere-mdl-mine-briefing-reel` (GSC는 sitemap으로 자동)
 - [ ] GA 실데이터 수집 확인(24~48h 후) · 카드 노출/클릭 이벤트 도달 확인 → v0.1.5 DoD
 
 ## 3. 도메인 (선택, 출시 전)
