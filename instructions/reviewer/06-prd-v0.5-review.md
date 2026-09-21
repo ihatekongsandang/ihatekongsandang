@@ -1,0 +1,42 @@
+# md오더: 리뷰어 (Fable 5.1) - 06-prd-v0.5-review
+
+**작성일**: 2026-09-21 | **작성자**: 슈퍼바이저 (Opus 5) | **순번**: 06
+**세션**: 🔴 새 세션 — 리뷰어 05 판정값 반영 결과 판정 + 소재 확장이라는 큰 변경.
+**범위**: PRD v0.5 문서 + 슈퍼바이저 초안 2건. 코드는 프로그래머 03 이후 리뷰어 07.
+
+---
+
+## 자격·역할 (Required)
+리뷰어 (Fable 5.1). 판정 권한. 산출물 직접 수정 금지. 대전제 + 🔴 저장소 독립 원칙.
+
+## 선행 검토 문서 (Required)
+- `CLAUDE.md`(🔴 소재 확장·게시물 2원화 개정), `PROJECT_STATUS.md`, `history/2026-09-21.md`
+- 리뷰어 05 보고서 `docs/reviews/planner-04-prd-v0.4-review.md`(K1~K4·H·h·§10)
+- 기획자 05 오더 `instructions/planner/processed/05-prd-v0.5.md`(🔴 추가 절 11~16 포함) · 핸드오프 `docs/handoffs/planner-05-prd-v0.5.md`
+- 검토 대상: `planning/prd.md` v0.5 · `planning/user-questions.md`
+- 슈퍼바이저 초안 2건(내용 판정 대상): `docs/supervisor/drafts/2026-09-21-kimeunhye-reel.md` · `docs/supervisor/drafts/2026-09-21-hanmibro-threads-academy.md`
+- 플레이북 `docs/supervisor/photo-post-workflow.md` · 코드 스키마 참고 `content/README.md`·`src/lib/content/schema.ts`(읽기만 — 프로그래머 03 변경 목록 검증용)
+- 비교 `git diff HEAD -- planning/`
+
+## 임무
+1. **반영 대조 전수** — K1~K4(4)+H1~H5(5)+h1~h8(8)+소재 확장 11~16(6) = **23항목**.
+2. **🔴 `kind` 2원화 정합** — §3.1·§3.3·§3.4·§4.4·§6 적용 범위가 서로 모순 없는가. `kind: statement`의 `sources[]` 조건부 결정(원문 링크가 1차 증거) 타당성. 비공인 발언자 "원칙적으로 게시 안 함" 기본값의 타당성과 예외 기준.
+3. **K3 `closureReason` 10값 배타성** — 검찰사건사무규칙 §115③·형소법 325~328·255조 독립 재확인.
+4. **K1 공인 예외 최종 정의** — 지위 기준이 실무에서 판정 가능한가(정당 간부·공공기관장 범위).
+5. **🔴 슈퍼바이저 초안 2건 판정** — v0.5 §3.4·§5.4·§6④ 기준으로 (a) 게시 가능 여부 (b) 제목·요약의 단정 문구 (c) 출처 적정성(포털 전재 URL을 출처로 쓴 것 포함 — 원 매체 URL로 바꿔야 하는지) (d) 발언자 표기(공인 실명 / 비공인 계정명) (e) 미확인 주장을 요약에서 뺀 처리. 특히 스레드 초안은 비공인 개인의 "보도 정리+의견" — 기본값 예외에 해당하는지 판정.
+6. **프로그래머 03 스키마 변경 목록**(핸드오프 표) — 현재 코드 `schema.ts`와 대조해 누락·충돌 없는지, 하위 호환(기존 3건 `kind: case`) 확인.
+7. 교차참조·저장소 독립 grep·핸드오프 형식.
+
+판정: 승인 / 조건부 승인 / 재작업. 대조 N/23.
+
+## 산출물 (Required)
+- `docs/reviews/planner-05-prd-v0.5-review.md` — 판정 + 23항목 표 + 초안 2건 판정(수정 지시 포함) + **프로그래머 03 착수 제약 목록**(§7 형식으로)
+
+## 핸드오프 (Required)
+- `docs/handoffs/reviewer-06-prd-v0.5-review.md` · `docs/triggers/reviewer-06-prd-v0.5-review-COMPLETE.md`(🔴 필수) · processed/ · history
+
+## 완료 보고 양식
+```
+📋 리뷰 완료 보고 — 리뷰어 (Fable 5.1) · 06-prd-v0.5-review
+- 판정 · 대조 N/23 · 결함 N · 권고 N · 초안 2건 판정 · 프로그래머 03 제약 N개
+```
