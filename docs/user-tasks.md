@@ -9,7 +9,7 @@
 - [x] 2026-09-21 GitHub 계정 `ihatekongsandang` 생성 — Vercel·Supabase도 이 계정으로
 
 ## 1. GitHub 저장소 생성 (구현 착수 전)
-- [x] 2026-09-21 https://github.com/ihatekongsandang/ihatekongsandang 생성 + fine-grained PAT(Contents RW) 키체인 저장 → 골조 푸시 완료
+- [x] 2026-09-21 https://github.com/ihatekongsandang/ihatekongsandang 생성 + fine-grained PAT(Contents RW) 키체인 저장 → 골조 푸시 완료. 2026-09-21 레포 삭제·재생성(서버 잔존 객체 정리) — 재생성 시 PAT Repository access 재선택 필요했음
 - ⚠️ GitHub Actions 워크플로우 파일 커밋 시 PAT에 **Workflows: Read and write** 추가 필요
 
 ## 2. Vercel 프로젝트 연결 (첫 배포 전) — **새 계정**
