@@ -1,50 +1,45 @@
-# md오더: 프로그래머 (Opus 5) - 03-statement-kind
+# md오더: 프로그래머 (Opus 5) - 03-statement-kind → **개정: 03-remove-status-label**
 
-**작성일**: 2026-09-21 | **작성자**: 슈퍼바이저 (Opus 5) | **순번**: 03
+**작성일**: 2026-09-21 (17:00 전면 개정 — 사용자 지시 "사건 상태 라벨 없애") | **작성자**: 슈퍼바이저 (Opus 5) | **순번**: 03
 **세션**: 02를 처리한 세션에서 이어서 해도 된다.
-**🔴 긴급도**: 사용자가 첫 게시물 2건(발언·논평 유형)을 올리려는데 현 스키마가 막고 있다. 이 오더가 끝나야 게시된다.
+**🔴 긴급도**: 사용자가 첫 게시물 2건을 올리려는데 현 스키마(status 필수)가 막고 있다. 이 오더가 끝나야 게시된다.
+**⚠️ 이 파일의 이전 버전(kind 2원화·closureReason 등)은 폐기됐다. 아래만 따른다.**
 
 ---
 
 ## 자격·역할 (Required)
-프로그래머 (Opus 5). PRD v0.5의 게시물 2원화(`kind: case | statement`)를 코드에 반영하고, 소재 확장 문구·검증 메타태그 env를 추가한다. 🔴 커밋 금지(리뷰어 07 판정 후 슈퍼바이저). 대전제 + 저장소 독립 원칙.
+프로그래머 (Opus 5). 게시물 스키마에서 **사건 상태 라벨과 그 파생 필드를 전부 제거**하고 단일 게시물 스키마로 단순화한다. 소재 확장 문구·검증 메타태그 env도 반영. 🔴 커밋 금지(리뷰어 07 판정 후 슈퍼바이저). 대전제 + 저장소 독립 원칙.
 
 ## 선행 검토 문서 (Required)
-- 🔴 `planning/prd.md` **v0.5** — §0.5·§1(소재 확장·용어)·§3.1(`kind`·`closureReason`·`closureNote`·`priorVerdict`)·§3.3(빌드 검증 kind 분기)·**§3.4(발언·논평 게시물 스키마)**·§4.4(배지 체계)·§5.4(SNS 인용)·§6 적용 범위
-- `docs/handoffs/planner-05-prd-v0.5.md` "프로그래머 03 스키마 변경 목록" 표
-- `docs/reviews/programmer-01-v0.1-prototype-review.md` §6 R4·R6(이월분), §7 제약
-- ⚠️ 리뷰어 06이 PRD v0.5를 병행 판정 중이다(`docs/triggers/reviewer-06-*` 생기면 보고서 §를 읽고 `closureReason` enum·`kind` 정의에 변경이 있으면 반영). 없으면 v0.5 그대로.
-- 게시 예정 초안 2건(내용 수정 금지, 스키마 검증용): `docs/supervisor/drafts/2026-09-21-kimeunhye-reel.md` · `docs/supervisor/drafts/2026-09-21-hanmibro-threads-academy.md`
-- `content/README.md`, `src/lib/content/schema.ts`, `scripts/validate-content.ts`, `src/lib/config.ts`, `src/app/about/page.tsx`, `src/app/llms.txt/route.ts`
+- `CLAUDE.md` 🔴 개정본 — 확정 결정 표 "상태 라벨 폐지·단일 스키마" · 핵심 축 6(출처 기반·단정 금지)
+- `planning/prd.md` v0.5 — §1(소재 확장 문구)·§3(스키마 요구사항 중 **라벨 무관 부분만**: id·title·description·publishedAt·sourceType·대표 이미지·alt·`sources[]`·`useSourceImage`)·§4.4·§5(rel·OG·SNS 인용)·§6②④(출처·단정 금지). ⚠️ §3.1 상태 라벨·§3.4 kind·§6①③⑤⑥ 라벨 의존 부분은 **PRD v0.6에서 삭제 예정 — 구현하지 않는다.**
+- `docs/reviews/programmer-01-v0.1-prototype-review.md` §6 R4(폐기 ID 검사 공유)
+- 게시 예정 초안 2건(내용 수정 금지, 검증용): `docs/supervisor/drafts/2026-09-21-kimeunhye-reel.md` · `docs/supervisor/drafts/2026-09-21-hanmibro-threads-academy.md` — 초안의 `kind`·`statementType` 필드는 **무시**(슈퍼바이저가 게시 시 제거).
+- `content/README.md`, `src/lib/content/schema.ts`, `scripts/validate-content.ts`, `src/lib/config.ts`, `src/components/status-badge.tsx`, `src/app/about/page.tsx`, `src/app/llms.txt/route.ts`
 
 ## 임무
 
-### 1. `kind` 2원화 (스키마·검증·렌더)
-- `kind: case | statement` 필수. **기존 3건 샘플은 `kind: case`로 하위 호환**(누락 시 기본 `case` 허용 여부는 명시 결정·근거).
-- `case`: 현행 필수 필드 유지 + `closureReason`(PRD v0.5 §3.1 10값 enum, `종결`일 때 필수) + `closureNote`(`기타`일 때 필수) + `priorVerdict`(`기소` 선택 병기, 자유 텍스트). 대응 상태가 아닐 때 이 필드가 있으면 오류(h3).
-- `statement`: `status` **불요**(있으면 오류). 필수 `statementType`(PRD §3.4 enum — 발언/논평/정책 등 PRD 값 그대로) · `speaker{name, affiliation, publicFigure}` · `sourceUrl` · `sources[]`는 PRD §3.4 조건부 규칙 그대로(원문 링크가 있으면 0건 허용) · 공통 필수(`id`·`title`·`description`·`publishedAt`·`sourceType`·`tags` 선택).
-- 카드 배지: `case` → 상태 배지(현행), `statement` → 유형 배지(`statementType`), **시각 구분**(색·아이콘 — 디자이너 전이라 최소한만).
-- 상세: `statement`는 발언자(이름·소속) · 원문 링크(외부 CTA) · 보도 출처 목록(있으면 "배경 보도"로 라벨 — 기획자 05 권고: 발언 자체 보도가 아닐 수 있음) · "원문 캡션(출처 인용)" 라벨 표시.
-- 빌드 검증 kind 분기 + 게이트 오류 케이스(statement에 status / case에 statementType / 종결인데 closureReason 없음 / 기타인데 closureNote 없음) 실측.
-- `content/README.md` §에 `kind` 필드·statement 완성 예시·enum 표 갱신. `og-draft.mjs`에 `kind` 프롬프트(기본 `statement`? 판단·근거).
+### 1. 상태 라벨 제거 — 단일 스키마
+- `status`·`courtLevel`·`statusHistory[]`·상태 배지 컴포넌트·상태별 통계·`og-draft`의 status 프롬프트·README 라벨 절 **전부 제거**. 검증에서 `status`가 있으면 **오류**(옛 파일 잔존 방지).
+- 남는 스키마: 필수 `id`·`title`·`description`·`publishedAt`·`sourceType`(`url|photo|photo_text`)·출처 표기(`attribution`) · 유형별(`sourceUrl`+`og`/`images[]`+`alt`) · **`sources[]` 선택**(`url` 유형에서 `sourceUrl`이 있으면 0건 허용, `photo`·`photo_text`는 최소 1건 유지 — 근거: 사진 게시는 원문 링크가 없어 출처가 유일한 근거) · 선택 `speaker{name, affiliation}` · `tags[]` · `image` · `useSourceImage`(기본 false).
+- 카드 = **제목 + 이미지(플레이스홀더)만** (사용자 원안). 상세 = 요약 · 원문 링크(외부 CTA) · 출처 목록("배경 보도" 라벨) · 발언자(있으면) · 태그 · "원문 제목/요약(출처 인용)" 라벨.
+- 기존 샘플 3건 → 새 스키마로 수정(status 제거). `retired-ids` 검사를 `load.ts`와 공유(R4).
+- 게이트 오류 케이스 실측: status 잔존 / photo에 sources 0 / 필수 누락 / id 중복 / alt 누락.
 
-### 2. 소재 확장 문구 (`SITE`·about·llms.txt·JSON-LD·OG alt)
-PRD v0.5 §1 서비스 정의 문구 기준으로 "간첩 행위·간첩 의혹" 한정 문구 전부 교체 — 정치·시사 이슈 큐레이션 전반, 형사 사건은 상태 라벨·발언은 유형 배지. about 페이지에 두 종류 설명 + §6 요약 갱신. 문구는 PRD 문장에서 가져오되 단정·선동 표현 없이 정보 전달형.
+### 2. 소재 확장 문구
+`SITE.tagline/description`·about·llms.txt·JSON-LD·OG alt·footer의 "간첩 행위·간첩 의혹"·"상태 라벨" 문구 전부 교체 — CLAUDE.md 개요 "정치·시사 이슈 큐레이션 전반(정책 비판·발언·논평·안보·간첩)" 기준, 정보 전달형·단정 없음. about에는 출처 정책(§6②)·인용문 표기 원칙(§6④)·정정·삭제 요청 채널만.
 
 ### 3. 검색엔진 검증 메타태그 env
-`NEXT_PUBLIC_GSC_VERIFICATION`·`NEXT_PUBLIC_NAVER_VERIFICATION` → `<head>` `<meta name="google-site-verification">`·`<meta name="naver-site-verification">` (값 없으면 미출력). `.env.example` 갱신. ⚠️ `public/google*.html`·`public/naver*.html` 은 **삭제하지 않는다**(현재 소유확인 수단).
+`NEXT_PUBLIC_GSC_VERIFICATION`·`NEXT_PUBLIC_NAVER_VERIFICATION` → `<head>` meta(값 없으면 미출력). `.env.example`. ⚠️ `public/google*.html`·`public/naver*.html` 삭제 금지.
 
 ### 4. 검증
-validate/typecheck/lint/build · 로컬 프로덕션에서 초안 2건을 `content/posts/`에 임시 투입해 **빌드 통과 + 카드·상세 렌더 캡처**(모바일 390/데스크톱 1280) 후 제거(게시는 슈퍼바이저) · 게이트 오류 케이스 실측 · 독립 grep 0 · 기존 샘플 3건 회귀.
+validate/typecheck/lint/build · 초안 2건을 새 스키마로 변환해 `content/posts/`에 임시 투입 → 빌드 통과 + 카드·상세 캡처(390/1280) → 제거(게시는 슈퍼바이저) · 게이트 케이스 · 독립 grep 0 · 라우트 회귀.
 
-## 산출물
-`src/**` 변경분 · `scripts/validate-content.ts` · `content/README.md` · `.env.example` · `docs/qa/programmer-03/`
-
-## 핸드오프
-`docs/handoffs/programmer-03-statement-kind.md`(PRD §3.1·§3.3·§3.4 요구 → 구현 위치 표, 초안 2건 검증 결과, 자체 결정) · `docs/triggers/programmer-03-statement-kind-COMPLETE.md`(🔴 필수) · processed/ · history. **커밋 금지.**
+## 산출물 · 핸드오프
+`src/**`·`scripts/`·`content/README.md`·`content/posts/example-*`·`.env.example`·`docs/qa/programmer-03/` / `docs/handoffs/programmer-03-remove-status-label.md`(제거 항목 표·초안 2건 변환 frontmatter 전문·검증 숫자) · `docs/triggers/programmer-03-remove-status-label-COMPLETE.md`(🔴 필수) · processed/ · history. **커밋 금지.**
 
 ## 완료 보고 양식
 ```
-📋 작업 완료 보고 — 프로그래머 (Opus 5) · 03-statement-kind
-- 구현 표 · 초안 2건 빌드/렌더 결과 · 게이트 케이스 N/N · 빌드 결과 · grep 0 · 자체 결정 · 미해결
+📋 작업 완료 보고 — 프로그래머 (Opus 5) · 03-remove-status-label
+- 제거 표 · 초안 2건 빌드/렌더 · 게이트 N/N · 빌드 · grep 0 · 자체 결정 · 미해결
 ```
