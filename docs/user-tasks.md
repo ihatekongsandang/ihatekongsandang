@@ -26,9 +26,7 @@
 - [x] 2026-09-21 GA4 새 속성 **공산당이싫어요**(뉴스·대한민국·KRW) + 웹 스트림 `공산당이싫어요 웹`(ID 15815211648), 측정 ID `G-ZM1GPRXYZD` → Vercel `NEXT_PUBLIC_GA_ID`(Production만) → 재배포, 배포 HTML에 gtag 반영 확인
 - [x] 2026-09-21 Google Search Console URL 접두어 속성 `https://ihatekongsandang.vercel.app/` — HTML 파일 방식 소유권 확인(`public/google327acae7b08ebffd.html`, 삭제 금지) · `sitemap.xml` 제출
   - ⚠️ GA 방식 인증은 실패(gtag가 body에 삽입) → 프로그래머 03: 메타태그 env(`NEXT_PUBLIC_GSC_VERIFICATION`·`NEXT_PUBLIC_NAVER_VERIFICATION`) 지원 추가
-- [ ] 🔴 **네이버 서치어드바이저** — 브라우저 확장이 `searchadvisor.naver.com` 접근을 차단해 슈퍼바이저 대행 불가. 두 가지 중 택일:
-  (a) Claude in Chrome 확장 설정 → 사이트 권한에 `searchadvisor.naver.com` 허용 후 "네이버 해줘"
-  (b) 직접: https://searchadvisor.naver.com → 웹마스터 도구 → 사이트 등록 `https://ihatekongsandang.vercel.app` → 소유확인 **HTML 파일 업로드** 방식 선택 → 파일명(`naverXXXXXXXX.html`)을 슈퍼바이저에게 전달(파일 생성·배포 대행) → 확인 → 사이트맵 제출 `https://ihatekongsandang.vercel.app/sitemap.xml` · robots.txt 검증
+- [x] 2026-09-21 **네이버 서치어드바이저** — 사이트 등록 · HTML 파일 소유확인(`public/naver67b2b45ea951e8e891d41348c0878938.html`, 삭제 금지) · robots.txt 검증 통과(16:40 수집) · sitemap.xml 제출 · 웹 페이지 수집요청(/, /about)
 - [ ] GA 실데이터 수집 확인(24~48h 후) · 카드 노출/클릭 이벤트 도달 확인 → v0.1.5 DoD
 
 ## 3. 도메인 (선택, 출시 전)
