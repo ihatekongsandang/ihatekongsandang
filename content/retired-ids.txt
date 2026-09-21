@@ -6,3 +6,6 @@
 #  id를 재사용하면 과거 데이터가 엉뚱한 게시물에 붙는다.)
 #
 # 형식: 한 줄에 id 하나. `#` 뒤는 주석.
+example-case-a
+example-case-b
+example-case-c
