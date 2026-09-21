@@ -1,31 +1,23 @@
 import type * as React from 'react'
-import { cva, type VariantProps } from 'class-variance-authority'
 import { cn } from '@/lib/utils'
 
-const badgeVariants = cva(
-  'inline-flex w-fit shrink-0 items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium whitespace-nowrap',
-  {
-    variants: {
-      tone: {
-        neutral: 'border-border bg-surface-strong text-foreground',
-        doubt:
-          'border-[var(--status-doubt-border)] bg-[var(--status-doubt-bg)] text-[var(--status-doubt-fg)]',
-        investigating:
-          'border-[var(--status-investigating-border)] bg-[var(--status-investigating-bg)] text-[var(--status-investigating-fg)]',
-        indicted:
-          'border-[var(--status-indicted-border)] bg-[var(--status-indicted-bg)] text-[var(--status-indicted-fg)]',
-        convicted:
-          'border-[var(--status-convicted-border)] bg-[var(--status-convicted-bg)] text-[var(--status-convicted-fg)]',
-        closed:
-          'border-[var(--status-closed-border)] bg-[var(--status-closed-bg)] text-[var(--status-closed-fg)]',
-      },
-    },
-    defaultVariants: { tone: 'neutral' },
-  },
-)
-
-function Badge({ className, tone, ...props }: React.ComponentProps<'span'> & VariantProps<typeof badgeVariants>) {
-  return <span data-slot="badge" className={cn(badgeVariants({ tone }), className)} {...props} />
+/**
+ * 작은 라벨. 출처 종류·유형·태그 표시에 쓴다.
+ *
+ * 사건 상태 라벨이 폐지되면서(2026-09-21 사용자 지시) 색으로 단계를 구분하던 variant를 전부 없앴다.
+ * 남은 것은 중립 한 종류다 — 배지로 판단을 암시하지 않는다.
+ */
+function Badge({ className, ...props }: React.ComponentProps<'span'>) {
+  return (
+    <span
+      data-slot="badge"
+      className={cn(
+        'inline-flex w-fit shrink-0 items-center gap-1 rounded-full border border-border bg-surface-strong px-2 py-0.5 text-xs font-medium whitespace-nowrap text-foreground',
+        className,
+      )}
+      {...props}
+    />
+  )
 }
 
-export { Badge, badgeVariants }
+export { Badge }

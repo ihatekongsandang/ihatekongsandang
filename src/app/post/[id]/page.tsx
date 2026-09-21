@@ -6,14 +6,12 @@ import { ExternalLink } from '@/components/external-link'
 import { Gallery } from '@/components/gallery'
 import { JsonLd } from '@/components/json-ld'
 import { SourceList } from '@/components/source-list'
-import { StatusBadge } from '@/components/status-badge'
-import { StatusHistory } from '@/components/status-history'
 import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/button'
 import { CardMedia } from '@/components/card-media'
 import { getAllPosts, getPostById } from '@/lib/content/load'
 import { renderMarkdown } from '@/lib/content/markdown'
-import { STATUS_DEFINITIONS, resolveCardMedia } from '@/lib/content/schema'
+import { resolveCardMedia } from '@/lib/content/schema'
 import { SOURCE_TYPE_LABELS } from '@/lib/content/view'
 import { breadcrumbJsonLd, postJsonLd } from '@/lib/seo'
 import { cn, formatKoreanDate } from '@/lib/utils'
@@ -66,6 +64,9 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
   const body = post.body.trim().length > 0 ? await renderMarkdown(post.body) : ''
   const media = resolveCardMedia(post)
   const isUrlPost = post.sourceType === 'url'
+  /** 원문에서 인용해 보여 줄 것이 하나라도 있는가(썸네일·원문 제목·원문 요약). */
+  const hasPreview =
+    media.kind !== 'placeholder' || Boolean(post.og?.title) || Boolean(post.og?.description)
 
   return (
     <article className="mx-auto w-full max-w-3xl space-y-8">
@@ -79,8 +80,14 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
 
       <header className="space-y-4">
         <div className="flex flex-wrap items-center gap-2">
-          <StatusBadge status={post.status} courtLevel={post.courtLevel} />
           <Badge>{SOURCE_TYPE_LABELS[post.sourceType]}</Badge>
+          {post.speaker ? (
+            <Badge>
+              <span className="sr-only">발언자: </span>
+              {post.speaker.name}
+              {post.speaker.affiliation ? ` · ${post.speaker.affiliation}` : ''}
+            </Badge>
+          ) : null}
           {post.submittedBy ? <Badge>제보: {post.submittedBy}</Badge> : null}
         </div>
 
@@ -110,20 +117,26 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
         </dl>
 
         <p className="rounded-[var(--radius-card)] border border-dashed p-3 text-xs text-muted-foreground">
-          <strong className="font-semibold text-foreground">{post.status}</strong> — {STATUS_DEFINITIONS[post.status]}{' '}
+          공개된 보도·발표·자료를 정리한 글입니다. 아래 원문과 배경 보도에서 직접 확인할 수 있습니다.{' '}
           <Link href="/about" className="text-link underline underline-offset-2">
-            상태 라벨 정의 전체 보기
+            출처·표기 원칙 보기
           </Link>
         </p>
       </header>
 
       {isUrlPost ? (
         <section aria-labelledby="source-preview-heading" className="space-y-4">
-          <h2 id="source-preview-heading" className="text-sm font-semibold">
+          <h2 id="source-preview-heading" className={hasPreview ? 'text-sm font-semibold' : 'sr-only'}>
             원문 미리보기
           </h2>
+          {/*
+            인용할 것이 하나도 없으면 미리보기 상자를 아예 그리지 않는다.
+            SNS 글은 OG 메타를 비공개로 두는 경우가 많아, 상자를 늘 그리면 상세 화면의
+            큰 면적이 빈 플레이스홀더로 채워진다(실측으로 확인). 원문으로 가는 버튼만 남긴다.
+          */}
+          {hasPreview ? (
           <div className="overflow-hidden rounded-[var(--radius-card)] border">
-            <CardMedia media={media} priority />
+            {media.kind === 'placeholder' ? null : <CardMedia media={media} priority />}
             <div className="space-y-2 p-4">
               {post.og?.siteName ? (
                 <p className="text-xs text-muted-foreground">{post.og.siteName}</p>
@@ -148,6 +161,7 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
               </p>
             </div>
           </div>
+          ) : null}
 
           {post.sourceUrl ? (
             <a
@@ -180,8 +194,7 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
         </section>
       ) : null}
 
-      <SourceList sources={post.sources} />
-      <StatusHistory history={post.statusHistory} />
+      {post.sources.length > 0 ? <SourceList sources={post.sources} /> : null}
 
       {post.tags.length > 0 ? (
         <section aria-labelledby="tags-heading" className="space-y-2">

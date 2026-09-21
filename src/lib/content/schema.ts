@@ -8,13 +8,22 @@
  * 규칙을 바꿀 때는 `content/README.md`의 필드 표도 함께 갱신한다.
  */
 
-/** 상태 라벨 — 확장 가능한 문자열 유니언. 기획 확정 명칭이 오면 이 배열의 값만 교체한다. */
-export const STATUS_LABELS = ['의혹', '수사중', '기소', '유죄판결', '종결'] as const
-export type StatusLabel = (typeof STATUS_LABELS)[number]
-
-/** `유죄판결` 라벨에만 필수인 심급. 카드 배지에 병기한다. */
-export const COURT_LEVELS = ['1심', '2심', '확정'] as const
-export type CourtLevel = (typeof COURT_LEVELS)[number]
+/**
+ * 🔴 사건 상태 라벨 폐지 (2026-09-21 사용자 지시).
+ *
+ * `status`(의혹/수사중/기소/유죄판결/종결)·`courtLevel`·`statusHistory[]`는 스키마에서 사라졌다.
+ * 사실 확인이 어느 단계인지는 **요약 문장과 출처 목록으로만** 전달한다.
+ * 게시물 종류 구분(형사 사건/발언·논평)도 두지 않는다 — 단일 스키마다.
+ *
+ * 옛 게시 파일이 남아 있으면 조용히 무시되지 않도록 아래 필드는 **오류**로 막는다.
+ */
+const REMOVED_FIELDS: Record<string, string> = {
+  status: '사건 상태 라벨은 폐지되었습니다. 이 줄을 지우고, 사실 확인 단계는 description 문장과 sources[]로 전달하세요.',
+  courtLevel: '심급 필드는 폐지되었습니다(상태 라벨과 함께 제거). 필요하면 description에 인용문 형태로 적으세요.',
+  statusHistory: '상태 갱신 이력 필드는 폐지되었습니다. 경과는 description 또는 본문에 적고 근거는 sources[]에 넣으세요.',
+  kind: '게시물 종류 구분(형사 사건/발언·논평)은 두지 않습니다 — 단일 스키마입니다. 이 줄을 지우세요.',
+  statementType: '발언/논평 구분 필드는 두지 않습니다. 이 줄을 지우세요.',
+}
 
 /** 게시물 유형 — 카드·상세 렌더링 분기 기준. */
 export const SOURCE_TYPES = ['url', 'photo', 'photo_text'] as const
@@ -23,15 +32,6 @@ export type SourceType = (typeof SOURCE_TYPES)[number]
 /** 근거 출처의 종류. 미등록 매체·1인 미디어·SNS 단독은 `기타`로도 허용하지 않는다(운영 규칙). */
 export const SOURCE_KINDS = ['언론', '수사기관', '법원', '기타'] as const
 export type SourceKind = (typeof SOURCE_KINDS)[number]
-
-/** 상태 라벨별 사람이 읽는 정의 — `/about`과 `content/README.md`가 같은 문구를 쓴다. */
-export const STATUS_DEFINITIONS: Record<StatusLabel, string> = {
-  의혹: '언론 보도, 국회·시민단체 등의 주장·제보에 근거하며 아직 공적으로 확인되지 않은 단계.',
-  수사중: '수사기관의 수사 개시·압수수색 등 공식 조치가 보도된 단계. 기소 전.',
-  기소: '검사의 공소 제기가 보도·발표된 단계. 재판 중을 포함하며 유죄 판단이 아니다.',
-  유죄판결: '유죄 판결이 보도되었거나 판결문으로 확인된 단계. 심급(1심·2심·확정)을 함께 표기한다.',
-  종결: '무혐의·불기소·무죄·공소기각·공소취소 등으로 종결된 단계. 사유는 상세 페이지에 표기한다.',
-}
 
 export interface PostSource {
   type: SourceKind
@@ -46,12 +46,10 @@ export interface PostImage {
   caption?: string
 }
 
-export interface StatusChange {
-  date: string
-  from: StatusLabel
-  to: StatusLabel
-  note?: string
-  sourceUrl?: string
+/** 발언·논평을 정리한 게시물에서 누구의 말인지 표기한다(선택). */
+export interface PostSpeaker {
+  name: string
+  affiliation?: string
 }
 
 export interface PostOg {
@@ -74,14 +72,18 @@ export interface Post {
   publishedAt: string
   publishedAtTime: number
   updatedAt?: string
-  status: StatusLabel
-  courtLevel?: CourtLevel
   sourceType: SourceType
   /** 출처 표기 — URL 유형은 원문 출처명, 사진 유형은 촬영자·제공처. */
   attribution: string
+  /**
+   * 배경 보도 — 이 게시물의 서술을 뒷받침하는 공개 보도·발표·판결문.
+   * `photo`·`photo_text`는 최소 1건 필수(원문 링크가 없어 유일한 근거다).
+   * `url` 유형은 `sourceUrl` 자체가 원문이므로 0건도 허용한다.
+   */
   sources: PostSource[]
   tags: string[]
-  statusHistory: StatusChange[]
+  /** 발언·논평을 정리한 게시물의 발언자(선택). */
+  speaker?: PostSpeaker
   /** v0.3 제보 대비 — 제보 경유 게시물 표기용(선택). */
   submittedBy?: string
   /** 대표 이미지(저장소 보유). 없으면 유형별 규칙으로 결정한다. */
@@ -249,20 +251,9 @@ export function validatePost(
     errors.push(`updatedAt: \`YYYY-MM-DD\` 형식이어야 합니다. (받은 값: ${String(data.updatedAt)})`)
   }
 
-  // --- 상태 라벨 ---
-  const statusRaw = asTrimmedString(data.status)
-  const status = STATUS_LABELS.find((label) => label === statusRaw)
-  if (!status) {
-    errors.push(`status: 다음 5종 중 하나여야 합니다 — ${STATUS_LABELS.join(' / ')}. (받은 값: ${String(data.status)})`)
-  }
-  const courtLevelRaw = asTrimmedString(data.courtLevel)
-  const courtLevel = COURT_LEVELS.find((level) => level === courtLevelRaw)
-  if (status === '유죄판결') {
-    if (!courtLevel) {
-      errors.push(`courtLevel: status가 \`유죄판결\`이면 필수입니다 — ${COURT_LEVELS.join(' / ')} 중 하나.`)
-    }
-  } else if (courtLevelRaw) {
-    errors.push('courtLevel: status가 `유죄판결`일 때만 쓸 수 있습니다.')
+  // --- 폐지된 필드가 남아 있으면 막는다 ---
+  for (const [field, guidance] of Object.entries(REMOVED_FIELDS)) {
+    if (data[field] !== undefined) errors.push(`${field}: ${guidance}`)
   }
 
   // --- 유형 ---
@@ -278,10 +269,19 @@ export function validatePost(
     errors.push('attribution: 필수입니다(URL 유형은 원문 출처명, 사진 유형은 촬영자·제공처).')
   }
 
-  // --- 근거 출처 sources[] ---
+  // --- 배경 보도 sources[] ---
+  // 사진 게시물은 원문 링크가 없어 출처가 유일한 근거이므로 최소 1건을 강제한다.
+  // URL 게시물은 `sourceUrl` 자체가 원문이므로 0건도 허용한다(배경 보도가 늘 있는 것은 아니다).
   const sources: PostSource[] = []
-  if (!Array.isArray(data.sources) || data.sources.length === 0) {
-    errors.push('sources: 최소 1건 필요합니다(편집 정책 — 허용 출처 없이는 게시 불가).')
+  const sourcesRequired = sourceTypeRaw === 'photo' || sourceTypeRaw === 'photo_text'
+  if (data.sources !== undefined && data.sources !== null && !Array.isArray(data.sources)) {
+    errors.push('sources: 배열이어야 합니다.')
+  } else if (!Array.isArray(data.sources) || data.sources.length === 0) {
+    if (sourcesRequired) {
+      errors.push(
+        `sources: sourceType이 \`${String(sourceTypeRaw)}\`이면 최소 1건 필요합니다 — 원문 링크가 없으므로 출처가 유일한 근거입니다.`,
+      )
+    }
   } else {
     data.sources.forEach((entry, index) => {
       const label = `sources[${index}]`
@@ -341,45 +341,23 @@ export function validatePost(
     }
   }
 
-  // --- 상태 이력 ---
-  const statusHistory: StatusChange[] = []
-  if (data.statusHistory !== undefined && data.statusHistory !== null) {
-    if (!Array.isArray(data.statusHistory)) {
-      errors.push('statusHistory: 배열이어야 합니다.')
+  // --- 발언자 ---
+  let speaker: PostSpeaker | undefined
+  if (data.speaker !== undefined && data.speaker !== null) {
+    if (!isPlainObject(data.speaker)) {
+      errors.push('speaker: 객체여야 합니다(name·affiliation).')
     } else {
-      data.statusHistory.forEach((entry, index) => {
-        const label = `statusHistory[${index}]`
-        if (!isPlainObject(entry)) {
-          errors.push(`${label}: 객체여야 합니다(date·from·to).`)
-          return
+      const name = asTrimmedString(data.speaker.name)
+      if (!name) {
+        errors.push('speaker.name: 발언자를 적을 때는 이름(또는 계정명)이 필요합니다.')
+      } else {
+        const affiliation = asTrimmedString(data.speaker.affiliation)
+        speaker = { name, ...(affiliation ? { affiliation } : {}) }
+      }
+      for (const key of Object.keys(data.speaker)) {
+        if (key !== 'name' && key !== 'affiliation') {
+          notices.push(`speaker.${key}는 쓰이지 않습니다 — name·affiliation만 화면에 나옵니다.`)
         }
-        const date = toIsoDate(entry.date)
-        const from = STATUS_LABELS.find((value) => value === asTrimmedString(entry.from))
-        const to = STATUS_LABELS.find((value) => value === asTrimmedString(entry.to))
-        if (!date) errors.push(`${label}.date: \`YYYY-MM-DD\` 형식이어야 합니다.`)
-        if (!from) errors.push(`${label}.from: 상태 라벨 5종 중 하나여야 합니다. (받은 값: ${String(entry.from)})`)
-        if (!to) errors.push(`${label}.to: 상태 라벨 5종 중 하나여야 합니다. (받은 값: ${String(entry.to)})`)
-        if (entry.sourceUrl !== undefined && entry.sourceUrl !== null && !isHttpUrl(entry.sourceUrl)) {
-          errors.push(`${label}.sourceUrl: http(s) URL이어야 합니다.`)
-        }
-        if (date && from && to) {
-          const note = asTrimmedString(entry.note)
-          const sourceUrl = asTrimmedString(entry.sourceUrl)
-          statusHistory.push({
-            date,
-            from,
-            to,
-            ...(note ? { note } : {}),
-            ...(sourceUrl ? { sourceUrl } : {}),
-          })
-        }
-      })
-      statusHistory.sort((a, b) => a.date.localeCompare(b.date))
-      const last = statusHistory.at(-1)
-      if (last && status && last.to !== status) {
-        errors.push(
-          `statusHistory의 마지막 to(\`${last.to}\`)가 현재 status(\`${status}\`)와 다릅니다 — 라벨을 갱신할 때 이력도 함께 추가하세요.`,
-        )
       }
     }
   }
@@ -460,11 +438,14 @@ export function validatePost(
 
   const known = new Set([
     'id', 'title', 'titleOverride', 'description', 'descriptionOverride', 'publishedAt', 'updatedAt',
-    'status', 'courtLevel', 'sourceType', 'attribution', 'sources', 'tags', 'statusHistory',
+    'sourceType', 'attribution', 'sources', 'tags', 'speaker',
     'submittedBy', 'image', 'images', 'sourceUrl', 'useSourceImage', 'og',
   ])
   for (const key of Object.keys(data)) {
-    if (!known.has(key)) notices.push(`알 수 없는 필드 \`${key}\`는 무시됩니다 — 오타가 아닌지 확인하세요.`)
+    // 폐지된 필드는 위에서 이미 오류로 잡았으므로 여기서 다시 알리지 않는다.
+    if (!known.has(key) && !(key in REMOVED_FIELDS)) {
+      notices.push(`알 수 없는 필드 \`${key}\`는 무시됩니다 — 오타가 아닌지 확인하세요.`)
+    }
   }
 
   if (errors.length > 0) return { errors, notices }
@@ -478,13 +459,11 @@ export function validatePost(
     publishedAt: publishedAt as string,
     publishedAtTime: new Date(`${publishedAt}T00:00:00Z`).getTime(),
     ...(updatedAt ? { updatedAt } : {}),
-    status: status as StatusLabel,
-    ...(courtLevel ? { courtLevel } : {}),
     sourceType: sourceType as SourceType,
     attribution: attribution as string,
     sources,
     tags,
-    statusHistory,
+    ...(speaker ? { speaker } : {}),
     ...(submittedBy ? { submittedBy } : {}),
     ...(image ? { image } : {}),
     images,

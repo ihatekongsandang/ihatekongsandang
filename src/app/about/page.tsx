@@ -1,14 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { JsonLd } from '@/components/json-ld'
-import { Badge } from '@/components/ui/badge'
 import { SITE } from '@/lib/config'
-import { STATUS_DEFINITIONS, STATUS_LABELS } from '@/lib/content/schema'
 import { aboutJsonLd } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: '소개',
-  description: `${SITE.name}의 운영 방식, 출처·저작권 정책, 상태 라벨 정의, 정정·삭제 요청 절차를 안내합니다.`,
+  description: `${SITE.name}의 운영 방식, 출처 정책, 표기 원칙, 정정·삭제 요청 절차를 안내합니다.`,
   alternates: { canonical: '/about' },
 }
 
@@ -45,7 +43,9 @@ export default function AboutPage() {
             이 사이트는 <strong className="font-semibold">익명으로 운영</strong>합니다. 운영자의 실명·소속·직함을
             공개하지 않습니다.
           </li>
-          <li>게시물은 언론 보도·수사기관 발표·법원 판결문 등 공개된 출처를 정리한 것입니다.</li>
+          <li>
+            정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 공개된 보도와 자료에서 골라 카드로 정리합니다.
+          </li>
           <li>
             열람에는 로그인이 필요하지 않고, 회원 가입·댓글·후원 기능이 없습니다. 방문자에게서 개인정보를 수집하지
             않습니다.
@@ -53,56 +53,53 @@ export default function AboutPage() {
         </ul>
       </Section>
 
-      <Section id="status-labels" title="상태 라벨 정의">
-        <p className="text-sm text-muted-foreground">
-          모든 게시물은 사실 확인이 어느 단계까지 이루어졌는지 라벨로 표기합니다. 기소는 검사의 공소 제기이며 유죄
-          판단이 아닙니다. 헌법과 형사소송법은 유죄 판결이 확정될 때까지 무죄로 추정한다고 정하고 있으므로, 이
-          사이트는 기소 단계를 &lsquo;확정&rsquo;이라고 표기하지 않습니다.
-        </p>
-        <dl className="space-y-3">
-          {STATUS_LABELS.map((label) => (
-            <div key={label} className="flex flex-col gap-1.5 border-t pt-3 sm:flex-row sm:gap-4">
-              <dt className="sm:w-28 sm:shrink-0">
-                <Badge
-                  tone={
-                    label === '의혹'
-                      ? 'doubt'
-                      : label === '수사중'
-                        ? 'investigating'
-                        : label === '기소'
-                          ? 'indicted'
-                          : label === '유죄판결'
-                            ? 'convicted'
-                            : 'closed'
-                  }
-                >
-                  {label}
-                </Badge>
-              </dt>
-              <dd className="text-sm text-muted-foreground">{STATUS_DEFINITIONS[label]}</dd>
-            </div>
-          ))}
-        </dl>
-        <p className="text-sm text-muted-foreground">
-          사건이 진행되면 새 게시물을 만들지 않고 같은 게시물의 라벨을 갱신하며, 상세 페이지에 갱신 이력을 남깁니다.
-          무혐의·불기소·무죄 등으로 끝난 사건도 게시물을 지우지 않고 <strong className="font-semibold">종결</strong>{' '}
-          라벨로 갱신해 결과가 함께 보이도록 합니다.
-        </p>
+      <Section id="sources" title="출처 정책">
+        <ul className="space-y-2 text-sm">
+          <li>
+            게시물은 <strong className="font-semibold">공개된 출처에 근거해서만</strong> 올립니다. 근거로 삼는 것은
+            언론사 보도, 수사기관(검찰·경찰·국가정보원 등)의 공식 발표·보도자료, 공개된 법원 판결문입니다.
+          </li>
+          <li>
+            언론사는 「신문 등의 진흥에 관한 법률」에 따라 등록된 신문·인터넷신문, 뉴스통신사, 방송사업자를
+            기준으로 봅니다. 미등록 매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다.
+          </li>
+          <li>
+            발언·게시물을 소개할 때는 원문 링크를 함께 두고, 그 내용을 뒷받침하거나 배경이 되는 보도를{' '}
+            <strong className="font-semibold">&lsquo;배경 보도&rsquo;</strong> 목록으로 표시합니다.
+          </li>
+          <li>검색으로 확인하지 못한 주장은 요약에 넣지 않습니다.</li>
+        </ul>
       </Section>
 
-      <Section id="sources" title="출처·저작권 정책">
+      <Section id="wording" title="표기 원칙">
         <ul className="space-y-2 text-sm">
-          <li>게시물마다 근거가 된 출처를 최소 1건 이상 링크로 표기합니다. 출처 없는 게시물은 올리지 않습니다.</li>
           <li>
-            외부 기사는 <strong className="font-semibold">본문을 전재하지 않습니다.</strong> 원문의 메타 정보(제목·요약·
-            썸네일)만 인용하고, 원문 링크를 함께 제공합니다.
+            제목과 요약은 <strong className="font-semibold">단정하지 않고 인용하는 형태</strong>로 씁니다. &ldquo;~로
+            보도됨&rdquo;·&ldquo;~라는 의혹이 제기됨&rdquo;·&ldquo;~라고 비판함&rdquo;처럼 적고, &ldquo;~가
+            밝혀졌다&rdquo; 같은 단정 서술을 쓰지 않습니다.
+          </li>
+          <li>
+            법원이 확정하지 않은 죄명을 운영자가 스스로 붙이지 않고, 발언자의 의도나 숨은 목적을 단정하지 않습니다.
+          </li>
+          <li>
+            사실 확인이 어디까지 된 일인지는 <strong className="font-semibold">요약 문장과 출처 목록</strong>으로
+            전달합니다. 카드에 단계를 나타내는 라벨을 붙이지 않습니다 — 한 단어짜리 라벨은 진행 중인 사안을
+            실제보다 확정적으로 읽히게 만들기 때문입니다.
+          </li>
+        </ul>
+      </Section>
+
+      <Section id="copyright" title="인용·저작권">
+        <ul className="space-y-2 text-sm">
+          <li>
+            외부 글은 <strong className="font-semibold">본문을 전재하지 않습니다.</strong> 원문의 메타
+            정보(제목·요약·썸네일)만 인용하고 원문 링크를 함께 제공합니다.
           </li>
           <li>원문 썸네일은 원 사이트의 이미지를 그대로 참조(핫링크)하며 이 사이트에 복제해 두지 않습니다.</li>
           <li>
-            공유 미리보기 이미지에는 원문 썸네일을 쓰지 않고 이 사이트의 자체 이미지를 씁니다. 인물의 얼굴이 식별되는
-            원문 썸네일은 사용하지 않고 대체 이미지로 표시합니다.
+            공유 미리보기 이미지에는 원문 썸네일을 쓰지 않고 이 사이트의 자체 이미지를 씁니다. 인물의 얼굴이
+            식별되는 원문 썸네일은 사용하지 않고 대체 이미지로 표시합니다.
           </li>
-          <li>운영자가 제목·요약을 직접 쓸 때는 단정 표현을 쓰지 않고 보도·발표를 인용하는 형태로 적습니다.</li>
         </ul>
       </Section>
 
@@ -123,8 +120,8 @@ export default function AboutPage() {
         <ul className="space-y-2 text-sm">
           <li>접수 후 3영업일 이내에 1차 답변을 드립니다(법정 기한이 아닌 자체 기준입니다).</li>
           <li>
-            원 출처를 다시 확인한 뒤 상태 라벨 갱신·게시물 수정·비공개 중 필요한 조치를 취하고, 이미지 사용 중단
-            요청은 확인 즉시 대체 이미지로 바꿉니다.
+            원 출처를 다시 확인한 뒤 게시물 수정·비공개 중 필요한 조치를 취하고, 이미지 사용 중단 요청은 확인 즉시
+            대체 이미지로 바꿉니다.
           </li>
         </ul>
       </Section>

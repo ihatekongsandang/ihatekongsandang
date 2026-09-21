@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
+import { readRetiredIds, retiredIdMessage } from './retired-ids'
 import { validatePost, type Post } from './schema'
 
 const POSTS_DIR = path.join(process.cwd(), 'content', 'posts')
@@ -37,6 +38,7 @@ export function getAllPosts(): Post[] {
   const posts: Post[] = []
   const seen = new Map<string, string>()
   const failures: string[] = []
+  const retired = readRetiredIds()
 
   for (const fileName of listPostFiles()) {
     const { data, body } = readPostFile(fileName)
@@ -48,6 +50,10 @@ export function getAllPosts(): Post[] {
     const duplicate = seen.get(result.post.id)
     if (duplicate) {
       failures.push(`${fileName}\n  - id \`${result.post.id}\`가 ${duplicate}와 중복됩니다.`)
+      continue
+    }
+    if (retired.has(result.post.id)) {
+      failures.push(`${fileName}\n  - ${retiredIdMessage(result.post.id)}`)
       continue
     }
     seen.set(result.post.id, fileName)

@@ -10,29 +10,15 @@ import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
+import { readRetiredIds, retiredIdMessage } from '../src/lib/content/retired-ids'
 import { validatePost } from '../src/lib/content/schema'
 
 const ROOT = process.cwd()
 const POSTS_DIR = path.join(ROOT, 'content', 'posts')
 const PUBLIC_DIR = path.join(ROOT, 'public')
-const RETIRED_IDS_FILE = path.join(ROOT, 'content', 'retired-ids.txt')
 
 function localImageExists(src: string): boolean {
   return fs.existsSync(path.join(PUBLIC_DIR, src.replace(/^\//, '')))
-}
-
-/**
- * 삭제·비공개 처리된 게시물의 id 목록. 안정 ID 원칙 3번(재사용 금지)의 집행 수단이다.
- * 게시물을 내릴 때 파일을 지우고 이 목록에 id를 한 줄 추가한다.
- */
-function readRetiredIds(): Set<string> {
-  if (!fs.existsSync(RETIRED_IDS_FILE)) return new Set()
-  const lines = fs
-    .readFileSync(RETIRED_IDS_FILE, 'utf8')
-    .split('\n')
-    .map((line) => line.replace(/#.*$/, '').trim())
-    .filter((line) => line.length > 0)
-  return new Set(lines)
 }
 
 interface FileReport {
@@ -51,9 +37,10 @@ function main(): void {
   const retired = readRetiredIds()
   const reports: FileReport[] = []
   const idOwner = new Map<string, string>()
-  const statusCount = new Map<string, number>()
   const typeCount = new Map<string, number>()
   let imageCount = 0
+  let sourceCount = 0
+  let speakerCount = 0
 
   for (const fileName of fileNames) {
     const errors: string[] = []
@@ -81,16 +68,15 @@ function main(): void {
           idOwner.set(id, fileName)
         }
         if (retired.has(id)) {
-          errors.push(
-            `id \`${id}\`는 content/retired-ids.txt에 등록된 폐기 ID입니다. 재사용하면 과거 반응·댓글 데이터가 잘못 연결됩니다.`,
-          )
+          errors.push(retiredIdMessage(id))
         }
       }
 
       if (result.post) {
-        statusCount.set(result.post.status, (statusCount.get(result.post.status) ?? 0) + 1)
         typeCount.set(result.post.sourceType, (typeCount.get(result.post.sourceType) ?? 0) + 1)
         imageCount += result.post.images.length + (result.post.image ? 1 : 0)
+        sourceCount += result.post.sources.length
+        if (result.post.speaker) speakerCount += 1
       }
     }
 
@@ -121,7 +107,7 @@ function main(): void {
       `검사 파일 ${fileNames.length}건 · 통과 ${fileNames.length - failed.length}건 · 실패 ${failed.length}건 (오류 ${errorTotal}개)`,
       `고유 id ${idOwner.size}개 · 폐기 id 목록 ${retired.size}개`,
       `유형별: ${[...typeCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
-      `상태별: ${[...statusCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
+      `배경 보도 출처: ${sourceCount}건 · 발언자 표기: ${speakerCount}건`,
       `검사한 이미지 alt ${imageCount}개`,
     ].join('\n'),
   )

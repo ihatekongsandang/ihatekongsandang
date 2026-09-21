@@ -3,12 +3,15 @@ import { Badge } from '@/components/ui/badge'
 import type { PostSource } from '@/lib/content/schema'
 import { formatKoreanDate } from '@/lib/utils'
 
-/** 상태 라벨의 근거가 된 출처. 최소 1건이 빌드 검증으로 강제된다. */
+/**
+ * 배경 보도 — 이 게시물의 서술을 뒷받침하는 공개 보도·발표·판결문.
+ * 사진 게시물은 원문 링크가 없어 최소 1건이 빌드 검증으로 강제된다.
+ */
 export function SourceList({ sources }: { sources: PostSource[] }) {
   return (
     <section aria-labelledby="sources-heading" className="rounded-[var(--radius-card)] border bg-surface p-4">
       <h2 id="sources-heading" className="text-sm font-semibold">
-        근거 출처
+        배경 보도
       </h2>
       <ul className="mt-3 space-y-2.5">
         {sources.map((source) => (

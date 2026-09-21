@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardTitle } from '@/components/ui/card'
 import { CardMedia } from '@/components/card-media'
-import { StatusBadge } from '@/components/status-badge'
 import { GA_EVENTS, trackEvent } from '@/lib/analytics'
 import { SOURCE_TYPE_LABELS, type PostCardView } from '@/lib/content/view'
 import { formatKoreanDate } from '@/lib/utils'
@@ -18,7 +17,8 @@ interface PostCardProps {
 }
 
 /**
- * 피드 카드 = 제목 + 이미지(없으면 플레이스홀더) + 상태 배지. 본문·요약은 노출하지 않는다.
+ * 피드 카드 = 제목 + 이미지(없으면 플레이스홀더). 본문·요약은 노출하지 않는다.
+ * 사건 상태 배지는 폐지됐다(2026-09-21 사용자 지시) — 사실 확인 단계는 상세의 요약·출처로만 전달한다.
  * 카드 전체가 상세 페이지로 가는 하나의 링크다 — 제목을 링크로 두고 가상 요소로 카드 전면을 덮어
  * 탭 정지점은 하나, 링크의 접근성 이름은 제목이 되게 한다(이미지 alt는 별도로 읽힌다).
  */
@@ -53,7 +53,6 @@ export function PostCard({ post, position, priority = false }: PostCardProps) {
     >
       <CardMedia media={post.media} priority={priority} />
       <CardContent>
-        <StatusBadge status={post.status} courtLevel={post.courtLevel} />
         <CardTitle>
           <Link
             href={`/post/${post.id}`}

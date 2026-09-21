@@ -1,11 +1,9 @@
-import { resolveCardMedia, type CardMedia, type CourtLevel, type Post, type SourceType, type StatusLabel } from './schema'
+import { resolveCardMedia, type CardMedia, type Post, type SourceType } from './schema'
 
 /** 카드가 실제로 쓰는 필드만 골라낸다 — 클라이언트 컴포넌트로 넘기는 데이터를 최소화한다. */
 export interface PostCardView {
   id: string
   title: string
-  status: StatusLabel
-  courtLevel?: CourtLevel
   publishedAt: string
   sourceType: SourceType
   media: CardMedia
@@ -15,8 +13,6 @@ export function toCardView(post: Post): PostCardView {
   return {
     id: post.id,
     title: post.title,
-    ...(post.courtLevel ? { courtLevel: post.courtLevel } : {}),
-    status: post.status,
     publishedAt: post.publishedAt,
     sourceType: post.sourceType,
     media: resolveCardMedia(post),

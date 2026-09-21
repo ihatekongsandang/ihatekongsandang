@@ -2,10 +2,14 @@
 
 export const SITE = {
   name: '공산당이싫어요',
-  /** 검색 결과·OG에 쓰는 한 줄 설명. */
-  tagline: '간첩 행위·간첩 의혹을 출처와 상태로 정리하는 카드형 소식지',
+  /**
+   * 검색 결과·OG에 쓰는 한 줄 설명.
+   * 소재가 "정치·시사 이슈 큐레이션 전반"으로 확장되었다(2026-09-21 사용자 확정) —
+   * 정책 비판·정치인 발언·논평·안보·간첩 의혹을 모두 포함한다.
+   */
+  tagline: '정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지',
   description:
-    '국내에서 활동하는 간첩 행위와 간첩 의혹을 언론 보도·수사기관 발표·판결문 등 출처에 근거해 카드로 정리합니다. 각 게시물은 의혹·수사중·기소·유죄판결·종결 중 어느 단계인지 표기합니다.',
+    '정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.',
   locale: 'ko_KR',
   language: 'ko',
   /** 정정·삭제·이미지 제거 요청 채널. 사용자 확정 전 플레이스홀더. */
@@ -40,3 +44,10 @@ export function absoluteUrl(path: string): string {
 }
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID?.trim() ?? ''
+
+/**
+ * 검색엔진 사이트 소유 확인용 메타 태그 값.
+ * `public/` 의 HTML 파일 방식과 병행할 수 있다 — 값이 없으면 메타 태그를 넣지 않는다.
+ */
+export const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_VERIFICATION?.trim() ?? ''
+export const NAVER_VERIFICATION = process.env.NEXT_PUBLIC_NAVER_VERIFICATION?.trim() ?? ''

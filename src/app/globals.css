@@ -28,26 +28,6 @@
   --font-sans:
     -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Malgun Gothic',
     'Noto Sans KR', 'Helvetica Neue', Arial, sans-serif;
-
-  --status-doubt-bg: #fef3c7;
-  --status-doubt-fg: #713f12;
-  --status-doubt-border: #fde68a;
-
-  --status-investigating-bg: #dbeafe;
-  --status-investigating-fg: #1e3a8a;
-  --status-investigating-border: #bfdbfe;
-
-  --status-indicted-bg: #ede9fe;
-  --status-indicted-fg: #4c1d95;
-  --status-indicted-border: #ddd6fe;
-
-  --status-convicted-bg: #fee2e2;
-  --status-convicted-fg: #7f1d1d;
-  --status-convicted-border: #fecaca;
-
-  --status-closed-bg: #f4f4f5;
-  --status-closed-fg: #3f3f46;
-  --status-closed-border: #e4e4e7;
 }
 
 @theme inline {

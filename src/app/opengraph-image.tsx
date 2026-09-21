@@ -13,7 +13,7 @@ export const alt = `${SITE.name} — ${SITE.tagline}`
  *
  * 문자를 넣지 않은 이유: ImageResponse의 내장 폰트는 한글 글리프가 없어 한글을 그리면 두부가 된다.
  * 한글 서체 파일을 저장소에 넣는 것은 브랜드 서체 결정(v0.2 디자이너)과 묶여야 하므로,
- * v0.1은 상태 라벨 5종의 색을 그대로 쓴 무문자 도형으로 둔다. 타이포 OG는 v0.2 과제다.
+ * v0.1은 무문자 도형으로 둔다. 타이포 OG는 v0.2 과제다.
  */
 const BARS = ['#FDE68A', '#BFDBFE', '#DDD6FE', '#FECACA', '#E4E4E7']
 

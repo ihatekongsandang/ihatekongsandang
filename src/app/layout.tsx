@@ -3,7 +3,7 @@ import { GoogleAnalytics } from '@/components/analytics/ga-script'
 import { JsonLd } from '@/components/json-ld'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
-import { SITE, getSiteUrl } from '@/lib/config'
+import { GSC_VERIFICATION, NAVER_VERIFICATION, SITE, getSiteUrl } from '@/lib/config'
 import { websiteJsonLd } from '@/lib/seo'
 import './globals.css'
 
@@ -26,6 +26,16 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image' },
   robots: { index: true, follow: true },
+  // 검색엔진 소유 확인 메타 태그. 값이 없으면 태그 자체가 나가지 않는다.
+  // (`public/google*.html`·`public/naver*.html` 파일 방식과 병행할 수 있다.)
+  ...(GSC_VERIFICATION || NAVER_VERIFICATION
+    ? {
+        verification: {
+          ...(GSC_VERIFICATION ? { google: GSC_VERIFICATION } : {}),
+          ...(NAVER_VERIFICATION ? { other: { 'naver-site-verification': NAVER_VERIFICATION } } : {}),
+        },
+      }
+    : {}),
   formatDetection: { telephone: false, address: false, email: false },
 }
 

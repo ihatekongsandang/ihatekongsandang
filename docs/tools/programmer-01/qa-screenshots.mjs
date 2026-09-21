@@ -37,6 +37,13 @@ const SETS = {
     ['hotlink-card', '/'],
     ['hotlink-detail', '/post/example-hotlink-broken'],
   ],
+  // 03: 상태 라벨 폐지 후 초안 2건 렌더 확인용
+  drafts: [
+    ['feed', '/'],
+    ['draft-reel', '/post/2026-09-20-kimeunhye-jeonse-reel'],
+    ['draft-threads', '/post/2026-09-20-hanmibro-academy-merger-cards'],
+    ['about', '/about'],
+  ],
 }
 
 const VIEWPORTS = [
