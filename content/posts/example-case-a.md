@@ -3,7 +3,6 @@ id: example-case-a
 title: "예시 사건 A — 반도체 공정 자료 유출 의혹으로 기소된 것으로 보도됨"
 description: "가상의 예시 게시물입니다. 예시신문이 예시 사건 A의 피고인이 공정 자료 유출 혐의로 기소되었다고 보도한 내용을 정리했습니다."
 publishedAt: 2026-09-18
-status: 기소
 sourceType: url
 attribution: 예시신문
 sources:

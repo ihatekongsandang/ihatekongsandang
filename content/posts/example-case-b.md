@@ -3,7 +3,6 @@ id: example-case-b
 title: "예시 사건 B — 연구시설 출입 기록 관련 의혹이 제기됨"
 description: "가상의 예시 게시물입니다. 예시 사건 B와 관련해 연구시설 출입 기록에 의문이 제기되었다는 주장이 보도된 내용을 정리했습니다."
 publishedAt: 2026-09-19
-status: 의혹
 sourceType: photo
 attribution: "직접 촬영(가상 예시 이미지)"
 sources:
