@@ -12,20 +12,24 @@
 - [x] 2026-09-21 https://github.com/ihatekongsandang/ihatekongsandang 생성 + fine-grained PAT(Contents RW) 키체인 저장 → 골조 푸시 완료. 2026-09-21 레포 삭제·재생성(서버 잔존 객체 정리) — 재생성 시 PAT Repository access 재선택 필요했음
 - ⚠️ GitHub Actions 워크플로우 파일 커밋 시 PAT에 **Workflows: Read and write** 추가 필요
 
-## 2. Vercel 프로젝트 연결 (🔴 지금 — 코드 첫 커밋 f6217f0 푸시됨) — **새 계정**
-- [ ] `ihatekongsandang` 계정으로 Vercel 가입/로그인 → https://vercel.com/new → Import Git Repository → `ihatekongsandang/ihatekongsandang` (GitHub 앱 권한 부여 시 이 레포만)
-- [ ] Framework: Next.js 자동 감지 · Root Directory `.` · Build Command 기본(`npm run build` — prebuild 검증 포함) · Node 20.x 이상
-- [ ] **Environment Variables**: `NEXT_PUBLIC_SITE_URL` = 배포 URL(임시 `https://<프로젝트>.vercel.app`, 도메인 확정 후 교체). `NEXT_PUBLIC_GA_ID`는 v0.1.5에서
-- [ ] Deploy → 배포 URL을 슈퍼바이저에게 전달 (리뷰어 04 §7 `curl` 2회 확인 예정)
-- 전용 계정이므로 무료 한도(ISR Reads 등)가 다른 프로젝트와 분리됨
+## 2. Vercel 프로젝트 연결 — ✅ 2026-09-21 완료 (슈퍼바이저 브라우저 대행, 새 계정)
+- [x] GitHub App(이 레포만) → Import → Hobby 팀 `ihatekongsandang's projects` → 첫 배포 성공
+- [x] 배포 URL **https://ihatekongsandang.vercel.app** · `NEXT_PUBLIC_SITE_URL` 설정(Production+Preview)
+- [x] 배포 직후 확인(리뷰어 04 §7): 보안 헤더 6/6 · 상세 og:image 절대 URL ✅
+- [ ] 도메인 확정 시 `NEXT_PUBLIC_SITE_URL` 교체 + GA 스트림 URL·GSC 속성 추가
 
 ## 2-1. Supabase 프로젝트 (v0.3 제보 기능 착수 전) — **새 계정**
 - [ ] 새 계정으로 Supabase 프로젝트 생성 → URL·publishable key·secret key → `.env.local`
 - ⚠️ 다른 프로젝트 키 재사용 금지
 
-## 2-2. GA4 속성 · 검색엔진 등록 (v0.1 첫 배포 직후, **디자인 전 필수**) — 기존 통계 계정
-- [ ] 같은 GA 계정에 **새 속성** 생성 → 측정 ID → `.env.local` `NEXT_PUBLIC_GA_ID=`
-- [ ] Google Search Console · 네이버 서치어드바이저 — 동일 계정에 새 사이트 등록 (도메인 확정 후)
+## 2-2. GA4 · 검색엔진 등록 (v0.1.5) — 기존 통계 계정 (authuser=2)
+- [x] 2026-09-21 GA4 새 속성 **공산당이싫어요**(뉴스·대한민국·KRW) + 웹 스트림 `공산당이싫어요 웹`(ID 15815211648), 측정 ID `G-ZM1GPRXYZD` → Vercel `NEXT_PUBLIC_GA_ID`(Production만) → 재배포, 배포 HTML에 gtag 반영 확인
+- [x] 2026-09-21 Google Search Console URL 접두어 속성 `https://ihatekongsandang.vercel.app/` — HTML 파일 방식 소유권 확인(`public/google327acae7b08ebffd.html`, 삭제 금지) · `sitemap.xml` 제출
+  - ⚠️ GA 방식 인증은 실패(gtag가 body에 삽입) → 프로그래머 03: 메타태그 env(`NEXT_PUBLIC_GSC_VERIFICATION`·`NEXT_PUBLIC_NAVER_VERIFICATION`) 지원 추가
+- [ ] 🔴 **네이버 서치어드바이저** — 브라우저 확장이 `searchadvisor.naver.com` 접근을 차단해 슈퍼바이저 대행 불가. 두 가지 중 택일:
+  (a) Claude in Chrome 확장 설정 → 사이트 권한에 `searchadvisor.naver.com` 허용 후 "네이버 해줘"
+  (b) 직접: https://searchadvisor.naver.com → 웹마스터 도구 → 사이트 등록 `https://ihatekongsandang.vercel.app` → 소유확인 **HTML 파일 업로드** 방식 선택 → 파일명(`naverXXXXXXXX.html`)을 슈퍼바이저에게 전달(파일 생성·배포 대행) → 확인 → 사이트맵 제출 `https://ihatekongsandang.vercel.app/sitemap.xml` · robots.txt 검증
+- [ ] GA 실데이터 수집 확인(24~48h 후) · 카드 노출/클릭 이벤트 도달 확인 → v0.1.5 DoD
 
 ## 3. 도메인 (선택, 출시 전)
 - [ ] 미정 — 기획 단계에서 서비스명 확정 후
