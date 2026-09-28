@@ -18,7 +18,7 @@
 ### 1. 배너 사양
 - **링크**: `https://signforkorea.com/re` (🔴 https 고정. 사용자가 보낸 원본의 `fbclid` 추적 파라미터는 제거한다.)
 - **문구(슈퍼바이저 확정, 임의 변경 금지)**
-  - 제목: `재판재개 촉구 국민 서명운동`
+  - 제목: `이재명 재판재개 촉구 국민 서명운동` (사용자 지정 문구)
   - 보조: `외부 사이트로 이동합니다`
 - **설정값화**: `src/lib/config.ts`에 `FLOATING_BANNER = { enabled, href, title, subtitle }`로 둔다. `enabled: false`면 렌더하지 않는다(나중에 내리기 쉽게).
 - **위치**
