@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DccueANRDO5/
 attribution: 인스타그램 @dictatorshipnono (깨어있는눈)
 useSourceImage: false
+image:
+  src: /images/2026-08-24-dictatorshipnono-jeju-missing-false-closure/thumb.jpg
+  alt: "'속보 제주도는 중국땅' 문구와 해변의 깃발, 줄 선 사람들이 담긴 릴스 첫 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

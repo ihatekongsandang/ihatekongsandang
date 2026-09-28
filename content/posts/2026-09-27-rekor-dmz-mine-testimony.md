@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddz3z4KgU4Y/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
+image:
+  src: /images/2026-09-27-rekor-dmz-mine-testimony/thumb.jpg
+  alt: "수풀 속 인물이 흐릿하게 찍힌 저화질 이미지"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
