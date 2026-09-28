@@ -1,11 +1,11 @@
 ---
 id: 2026-09-28-firstincome-kctu-spy-case-summary
 title: 전 민주노총 간부 간첩 사건 총정리 — 미군기지 사진 수집·이태원 지령, 2심 감형 후 대법원 확정
-description: 인스타그램 경제 시사 매거진 '퍼스트인컴'이 전 민주노총 간부 간첩 사건의 수사부터 대법원 확정까지를 정리함. 전 조직쟁의국장 석모 씨는 1심 징역 15년에서 항소심 9년6개월로 감형돼 2025년 9월 확정됐고, 함께 기소된 간부 중 일부는 무죄가 확정된 것으로 보도됐습니다.
+description: 인스타그램 @firstincome_now(퍼스트인컴)이 전 민주노총 간부 간첩 사건의 수사부터 대법원 확정까지를 정리함. 전 조직쟁의국장 석모 씨는 1심 징역 15년에서 항소심 9년6개월로 감형돼 2025년 9월 확정됐고, 함께 기소된 간부 중 일부는 무죄가 확정된 것으로 보도됐습니다.
 publishedAt: 2026-09-28
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/Da2YKVyRNXZ/
-attribution: 인스타그램 경제 시사 매거진 퍼스트인컴
+attribution: 인스타그램 @firstincome_now (퍼스트인컴)
 useSourceImage: false
 image:
   src: /images/2026-09-28-firstincome-kctu-spy-case-summary/thumb.jpg
