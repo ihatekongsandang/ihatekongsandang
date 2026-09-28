@@ -10,6 +10,10 @@ speaker:
   name: "@emong0_0_"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-22-emong-nk-contact-law/thumb.jpg
+  alt: "풀밭에서 먹이를 먹는 마멋 사진"
+  caption: 게시자 프로필 이미지
 og:
   siteName: Threads
 sources:

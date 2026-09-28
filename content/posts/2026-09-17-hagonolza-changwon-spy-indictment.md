@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdY6YGgCYIZ/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
+image:
+  src: /images/2026-09-17-hagonolza-changwon-spy-indictment/thumb.jpg
+  alt: "마스크를 쓴 남성과 얼굴이 흐리게 처리된 여성이 이동하는 모습"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

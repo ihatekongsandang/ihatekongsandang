@@ -10,6 +10,10 @@ speaker:
   name: "@_lotuslantern"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-22-lotuslantern-25div-death/thumb.jpg
+  alt: "전시장에 놓인 연꽃 모양 조명 작품들"
+  caption: 게시자 프로필 이미지
 og:
   siteName: Threads
 sources:
