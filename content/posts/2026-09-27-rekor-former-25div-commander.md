@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddz8DYfAf8_/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
+image:
+  src: /images/2026-09-27-rekor-former-25div-commander/thumb.jpg
+  alt: "이재명 대통령과 한기성 당시 25사단장이 나란히 선 사진"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

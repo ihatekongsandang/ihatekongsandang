@@ -10,6 +10,10 @@ speaker:
   name: "@geonwoo.vibes"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-07-28-geonwoo-ebs-video-removal/thumb.jpg
+  alt: "'EBS 영상이 사라졌다 언론, 교육통제?' 자막이 들어간 릴스 첫 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

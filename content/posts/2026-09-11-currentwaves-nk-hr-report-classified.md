@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdJIccOz8Lg/
 attribution: 인스타그램 @current_waves_ (커런트 웨이브스)
 useSourceImage: false
+image:
+  src: /images/2026-09-11-currentwaves-nk-hr-report-classified/thumb.jpg
+  alt: "김정은 위원장 사진 위에 '북한인권보고서 비공개' 문구가 들어간 카드"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

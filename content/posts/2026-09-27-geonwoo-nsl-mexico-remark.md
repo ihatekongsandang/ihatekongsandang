@@ -10,6 +10,10 @@ speaker:
   name: "@geonwoo.vibes"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-27-geonwoo-nsl-mexico-remark/thumb.jpg
+  alt: "'멕시코까지 가서 국가보안법 폐지?' 자막이 들어간 이재명 대통령 영상 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

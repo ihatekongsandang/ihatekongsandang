@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DaZSKZQzu9T/
 attribution: 인스타그램 @idontknowpolitics (나정치)
 useSourceImage: false
+image:
+  src: /images/2026-07-04-idontknowpolitics-2018-freedom-deletion/thumb.jpg
+  alt: "'헌법서 자유 삭제' 제목과 함께 민주당 브리핑 뉴스 화면이 담긴 릴스 첫 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

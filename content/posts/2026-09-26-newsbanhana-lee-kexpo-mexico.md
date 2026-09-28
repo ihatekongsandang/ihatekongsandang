@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdxrFomyLC4/
 attribution: 인스타그램 @news_banhana (뉴스반하나)
 useSourceImage: false
+image:
+  src: /images/2026-09-26-newsbanhana-lee-kexpo-mexico/thumb.jpg
+  alt: "멕시코 K-엑스포 무대에서 박수 치는 이재명 대통령과 '지뢰 사고 나흘 뒤 지금 이럴 때?' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

@@ -10,6 +10,10 @@ speaker:
   name: 김민수
   affiliation: 국민의힘 최고위원(발언 주체)
 useSourceImage: false
+image:
+  src: /images/2026-07-22-geonwoo-kimminsoo-defense/thumb.jpg
+  alt: "'면제 이재명! 방위 안규백! 물어볼께' 자막과 발언하는 남성"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

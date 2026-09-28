@@ -10,6 +10,10 @@ speaker:
   name: "@nonjeomjikjin"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-26-nonjeomjikjin-dmz-chae-standard/thumb.jpg
+  alt: "집회 현장을 배경으로 한 이재명 대통령 사진"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

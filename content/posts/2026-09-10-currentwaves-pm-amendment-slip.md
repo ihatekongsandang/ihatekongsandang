@@ -10,6 +10,10 @@ speaker:
   name: 한성숙
   affiliation: 국무총리(발언 주체)
 useSourceImage: false
+image:
+  src: /images/2026-09-10-currentwaves-pm-amendment-slip/thumb.jpg
+  alt: "대정부질문에서 답변하는 한성숙 총리 화면과 ''개헌'입니다!' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

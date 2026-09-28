@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdbHikNmAyO/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
+image:
+  src: /images/2026-09-18-shindawit-asiangames-nk-anthem/thumb.jpg
+  alt: "경기장 전광판에 표시된 태극기와 'REPUBLIC OF' 글자"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

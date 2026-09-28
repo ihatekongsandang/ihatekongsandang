@@ -10,6 +10,10 @@ speaker:
   name: "@hanmibro"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-20-hanmibro-academy-merger-cards/thumb.jpg
+  alt: "마이크를 든 장동혁 대표와 '사관학교 합치면 주적은 이재명' 문구"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Threads
 sources:

@@ -10,6 +10,10 @@ speaker:
   name: "@oreun_boy"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-21-oreunboy-dmz-mine-explosion/thumb.jpg
+  alt: "발언하는 여성과 국방부 관련 자막이 보이는 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

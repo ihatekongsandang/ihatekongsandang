@@ -10,6 +10,10 @@ speaker:
   name: 자유와혁신
   affiliation: 인스타그램 @freedominnovation
 useSourceImage: false
+image:
+  src: /images/2026-09-10-freedominnovation-nec-bill/thumb.jpg
+  alt: "건물 앞에서 종이를 들고 입장을 밝히는 남성과 옆에 선 인물"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

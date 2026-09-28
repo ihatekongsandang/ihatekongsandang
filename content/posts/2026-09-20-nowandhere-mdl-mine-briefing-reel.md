@@ -10,6 +10,10 @@ speaker:
   name: "@im_nowandhere"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-20-nowandhere-mdl-mine-briefing-reel/thumb.jpg
+  alt: "DMZ 인근 풍경과 '북한 지뢰에 군인이 다쳤는데 북한이 매설했다는 말을 못한다' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

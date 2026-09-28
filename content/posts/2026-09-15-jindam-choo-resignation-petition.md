@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdVrfmKxXEH/
 attribution: 인스타그램 @jindammedia (정치진담)
 useSourceImage: false
+image:
+  src: /images/2026-09-15-jindam-choo-resignation-petition/thumb.jpg
+  alt: "경기 부동산 콘퍼런스에서 웃으며 마이크를 든 추미애 지사와 '저 추미애 안 쫓겨납니다' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

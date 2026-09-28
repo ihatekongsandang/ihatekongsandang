@@ -10,6 +10,10 @@ speaker:
   name: 윤상현
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  src: /images/2026-07-20-yoonsanghyun-special-counsel-filibuster/thumb.jpg
+  alt: "국회 본회의장에서 발언하는 윤상현 의원과 '민주당 정권 1년 만에 벌어진 일들' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

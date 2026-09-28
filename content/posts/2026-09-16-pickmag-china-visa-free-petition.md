@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdWOFjkg-nW/
 attribution: 인스타그램 @pickmag_zip (픽 매거진)
 useSourceImage: false
+image:
+  src: /images/2026-09-16-pickmag-china-visa-free-petition/thumb.jpg
+  alt: "국회 국민동의청원 화면과 중국 국기, '중국인 이제 못 와! 청원 6만명 돌파' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

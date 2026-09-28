@@ -10,6 +10,10 @@ speaker:
   name: 주진우
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  src: /images/2026-09-15-joojinwoo-kimseungwon-hearing/thumb.jpg
+  alt: "두 손을 들고 말하는 주진우 의원과 '김현지가 발작버튼? 민주당 단체 지령 받았어?' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

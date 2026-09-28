@@ -10,6 +10,10 @@ speaker:
   name: "@geonwoo.vibes"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-27-geonwoo-farmland-survey/thumb.jpg
+  alt: "발언하는 이재명 대통령과 '대통령 농지 전수조사 전혀 모르고' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

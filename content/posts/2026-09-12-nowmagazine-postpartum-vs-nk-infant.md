@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdNXd_XMIVL/
 attribution: 인스타그램 @now._.magazine (나우 매거진)
 useSourceImage: false
+image:
+  src: /images/2026-09-12-nowmagazine-postpartum-vs-nk-infant/thumb.jpg
+  alt: "행사장에서 박수를 치는 이재명 대통령"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

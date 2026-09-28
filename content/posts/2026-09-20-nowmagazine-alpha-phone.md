@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdhscoJSArL/
 attribution: 인스타그램 @now._.magazine (나우 매거진)
 useSourceImage: false
+image:
+  src: /images/2026-09-20-nowmagazine-alpha-phone/thumb.jpg
+  alt: "국회 로고 앞에서 발언하는 남성"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

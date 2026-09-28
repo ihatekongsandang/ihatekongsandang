@@ -10,6 +10,10 @@ speaker:
   name: "@liilllidototoriliillli"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-21-dotori-nk-medical-equipment/thumb.jpg
+  alt: "수풀 속에서 지뢰 탐지 작업을 하는 장병들과 '최전방 작전 중 지뢰 폭발' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Threads
 sources:

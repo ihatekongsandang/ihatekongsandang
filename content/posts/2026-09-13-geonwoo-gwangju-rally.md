@@ -10,6 +10,10 @@ speaker:
   name: "@geonwoo.vibes"
   affiliation: 인스타그램 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-13-geonwoo-gwangju-rally/thumb.jpg
+  alt: "2026년 9월 12일 광주 야간 행진 현장, 태극기와 피켓을 든 참가자들과 '전라도 광주 일어났다' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

@@ -10,6 +10,10 @@ speaker:
   name: 이재명
   affiliation: 대통령(발언 주체)
 useSourceImage: false
+image:
+  src: /images/2026-07-01-amhaengeosa-lee-nk-military-remark/thumb.jpg
+  alt: "이재명 대통령 얼굴 클로즈업에 '북한 옹호 발언' 자막이 들어간 릴스 첫 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

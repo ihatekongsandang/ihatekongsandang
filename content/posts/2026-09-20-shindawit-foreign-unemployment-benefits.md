@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdgKYeMmNk7/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
+image:
+  src: /images/2026-09-20-shindawit-foreign-unemployment-benefits/thumb.jpg
+  alt: "고용센터 실업급여 창구 앞에 선 사람들"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

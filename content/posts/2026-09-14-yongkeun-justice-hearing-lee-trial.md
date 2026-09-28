@@ -10,6 +10,10 @@ speaker:
   name: 윤용근
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  src: /images/2026-09-14-yongkeun-justice-hearing-lee-trial/thumb.jpg
+  alt: "대법관 인사청문회에서 질의하는 윤용근 의원과 답변하는 김성수 후보자, '이재명 이미 기소됐는데 왜 재판은 멈췄습니까?' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

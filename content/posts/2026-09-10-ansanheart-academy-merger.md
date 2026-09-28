@@ -10,6 +10,10 @@ speaker:
   name: 김요엘
   affiliation: 인스타그램 이용자 (@ansanheart)
 useSourceImage: false
+image:
+  src: /images/2026-09-10-ansanheart-academy-merger/thumb.jpg
+  alt: "국군사관학교 창설 공청회에서 마이크를 든 전 해군사관학교장과 '완벽한 논리로 박수 받은 전 해군사관학교장' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

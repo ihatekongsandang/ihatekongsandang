@@ -10,6 +10,10 @@ speaker:
   name: 김은혜
   affiliation: 국민의힘 국회의원(성남 분당을)
 useSourceImage: false
+image:
+  src: /images/2026-09-20-kimeunhye-jeonse-reel/thumb.jpg
+  alt: "인사청문회에서 질의하는 김은혜 의원과 '집값은 못잡고 국민만 잡아요' 자막"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

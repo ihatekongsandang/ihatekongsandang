@@ -10,6 +10,10 @@ speaker:
   name: 유용원
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  src: /images/2026-09-21-yuyongweon-mdl-disclosure/thumb.jpg
+  alt: "국회 소통관 기자회견 화면과 'MDL 남쪽 지뢰지대 설치와 25사단 지뢰폭발 사고 관련 진실 공개 촉구' 문구"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

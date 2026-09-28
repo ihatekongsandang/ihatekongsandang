@@ -10,6 +10,10 @@ speaker:
   name: "@lee_prenotion"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  src: /images/2026-09-21-leeprenotion-assembly-holiday-bonus/thumb.jpg
+  alt: "국회의원 수당 표에서 명절휴가비 8,495,880원 항목에 표시한 카드와 '국회의원 명절 휴가비 849만원' 문구"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Threads
 sources:

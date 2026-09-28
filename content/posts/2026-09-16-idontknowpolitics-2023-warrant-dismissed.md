@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdXz7GKu4zb/
 attribution: 인스타그램 @idontknowpolitics (나정치)
 useSourceImage: false
+image:
+  src: /images/2026-09-16-idontknowpolitics-2023-warrant-dismissed/thumb.jpg
+  alt: "'2023년 이재명 구속영장 전말 36년 또는 무기징역' 제목과 뉴스 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

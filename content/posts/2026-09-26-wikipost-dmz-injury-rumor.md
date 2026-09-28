@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdvzVv0H8ue/
 attribution: 인스타그램 @wikipost_daily (위키포스트)
 useSourceImage: false
+image:
+  src: /images/2026-09-26-wikipost-dmz-injury-rumor/thumb.jpg
+  alt: "철조망이 쳐진 전방 경계 시설"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

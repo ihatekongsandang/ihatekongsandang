@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdyuMm4hACd/
 attribution: 인스타그램 @news1_min (1분 뉴스)
 useSourceImage: false
+image:
+  src: /images/2026-09-27-news1min-cpi-31st/thumb.jpg
+  alt: "이재명 대통령 얼굴 사진"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

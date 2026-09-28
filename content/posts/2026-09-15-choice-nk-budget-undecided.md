@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdTSOszCAPk/
 attribution: 인스타그램 @choice_301 (초이스 매거진)
 useSourceImage: false
+image:
+  src: /images/2026-09-15-choice-nk-budget-undecided/thumb.jpg
+  alt: "정면을 바라보는 이재명 대통령 사진"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
