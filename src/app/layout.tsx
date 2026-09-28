@@ -1,10 +1,13 @@
 import type { Metadata, Viewport } from 'next'
 import { GoogleAnalytics } from '@/components/analytics/ga-script'
+import { FloatingBanner } from '@/components/floating-banner'
 import { JsonLd } from '@/components/json-ld'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
 import { GSC_VERIFICATION, NAVER_VERIFICATION, SITE, getSiteUrl } from '@/lib/config'
+import { FLOATING_BANNER_GUTTER } from '@/lib/floating-banner'
 import { websiteJsonLd } from '@/lib/seo'
+import { cn } from '@/lib/utils'
 import './globals.css'
 
 const siteUrl = getSiteUrl()
@@ -47,7 +50,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={SITE.language}>
+    <html lang={SITE.language} className={FLOATING_BANNER_GUTTER.html || undefined}>
       <body className="flex min-h-dvh flex-col">
         <a
           href="#main"
@@ -56,10 +59,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           본문으로 건너뛰기
         </a>
         <SiteHeader />
-        <main id="main" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+        <main id="main" className={cn('mx-auto w-full max-w-6xl flex-1 px-4 py-8', FLOATING_BANNER_GUTTER.main)}>
           {children}
         </main>
         <SiteFooter />
+        {/* 본문·푸터 뒤에 두어 탭 순서상 본문을 앞지르지 않게 한다. */}
+        <FloatingBanner />
         <JsonLd data={websiteJsonLd()} />
         <GoogleAnalytics />
       </body>

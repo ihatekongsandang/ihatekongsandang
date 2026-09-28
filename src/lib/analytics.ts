@@ -12,6 +12,8 @@ export const GA_EVENTS = {
   viewCard: 'view_card',
   /** 카드 클릭 — CTR의 분자. */
   selectCard: 'select_card',
+  /** 우측 플로팅 배너(외부 링크) 클릭. */
+  floatingBannerClick: 'floating_banner_click',
 } as const
 
 export function isAnalyticsEnabled(): boolean {

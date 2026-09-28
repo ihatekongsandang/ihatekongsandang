@@ -1,0 +1,5 @@
+PASS  GA 빌드 — window.gtag 정의됨(인라인 초기화 스크립트)
+PASS  dataLayer에 floating_banner_click 1건 — ["event","floating_banner_click",{"link_url":"https://signforkorea.com/re"}]
+PASS  이벤트 파라미터 link_url = 배너 주소
+
+ga: 실패 0건

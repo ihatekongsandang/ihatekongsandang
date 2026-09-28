@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import { SITE } from '@/lib/config'
+import { FLOATING_BANNER_GUTTER } from '@/lib/floating-banner'
+import { cn } from '@/lib/utils'
 
 export function SiteFooter() {
   return (
-    <footer className="mt-16 border-t bg-surface">
+    <footer className={cn('mt-16 border-t bg-surface', FLOATING_BANNER_GUTTER.footer)}>
       <div className="mx-auto w-full max-w-6xl space-y-2 px-4 py-8 text-sm text-muted-foreground">
         <p className="font-medium text-foreground">{SITE.name}</p>
         <p>{SITE.tagline}</p>

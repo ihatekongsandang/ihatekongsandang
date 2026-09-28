@@ -1,0 +1,5 @@
+측정 60회 · 최대 CLS 0.0000 · 배너가 원인인 이동 0건
+PASS  배너가 원인인 layout-shift 0
+PASS  CLS 0.1 미만(Good) — 0.0000
+
+cls: 실패 0건

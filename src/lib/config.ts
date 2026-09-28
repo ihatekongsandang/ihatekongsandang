@@ -51,3 +51,16 @@ export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID?.trim() ?? ''
  */
 export const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_VERIFICATION?.trim() ?? ''
 export const NAVER_VERIFICATION = process.env.NEXT_PUBLIC_NAVER_VERIFICATION?.trim() ?? ''
+
+/**
+ * 전 페이지 우측 플로팅 배너(외부 캠페인 링크). 2026-09-28 사용자 지시로 추가.
+ * 문구는 슈퍼바이저 확정값이다 — 임의로 바꾸지 않는다.
+ * 내릴 때는 `enabled`만 `false`로 바꾼다. 그러면 배너와 배너용 여백이 함께 사라진다.
+ * `href`에는 추적 파라미터(`fbclid` 등)를 붙이지 않는다.
+ */
+export const FLOATING_BANNER = {
+  enabled: true,
+  href: 'https://signforkorea.com/re',
+  title: '이재명 재판재개 촉구 국민 서명운동',
+  subtitle: '외부 사이트로 이동합니다',
+} as const

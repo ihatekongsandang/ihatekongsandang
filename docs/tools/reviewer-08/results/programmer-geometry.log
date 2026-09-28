@@ -1,0 +1,19 @@
+① 대표 경로 × 폭 320~1440px (1px 간격)
+PASS  / — 1,121개 폭
+PASS  /?page=4 — 1,121개 폭
+PASS  /post/2026-09-27-rekor-dmz-mine-testimony — 1,121개 폭
+PASS  /about — 1,121개 폭
+PASS  /tag/이재명 — 1,121개 폭
+PASS  /__qa-not-found__ — 1,121개 폭
+PASS  낮은 화면 1024x600 — 헤더·화면 경계 — 배너 172~428px, 헤더 bottom 57px
+PASS  낮은 화면 1280x640 — 헤더·화면 경계 — 배너 192~448px, 헤더 bottom 57px
+PASS  낮은 화면 1440x700 — 헤더·화면 경계 — 배너 222~478px, 헤더 bottom 57px
+
+② 빌드된 전 HTML 경로 135개 × 경계 폭 10종
+PASS  전 경로 배너 렌더 — 135/135
+PASS  전 경로 × 경계 폭 겹침 0 — 검사 1350건 · 실패 0
+
+측정 총 8,079회 · 데스크톱 최소 가로 간격 8.0px (/ @1024px)
+
+geometry: 실패 0건
+EXIT=0

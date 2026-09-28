@@ -1,0 +1,39 @@
+
+── 390px ──
+PASS  href = https://signforkorea.com/re — https://signforkorea.com/re
+PASS  href에 fbclid 없음(배너·문서 전체)
+PASS  target=_blank
+PASS  rel = "noopener nofollow" — noopener nofollow
+PASS  문구(제목+보조) 일치 — 이재명 재판재개 촉구 국민 서명운동외부 사이트로 이동합니다
+PASS  링크 aria-label에 표시 문구 + "새 창" — 이재명 재판재개 촉구 국민 서명운동 — 외부 사이트로 이동합니다 (새 창에서 열림)
+PASS  닫기 버튼 없음(button 0개 · 포커스 가능 요소는 링크 1개) — button 0 · 포커스 가능 1
+PASS  배너 안 이미지 0개
+PASS  GA 미로드 상태 링크 클릭 — 오류 없음
+PASS  링크 클릭 후에도 배너 유지
+PASS  내부 링크 이동 후에도 표시 — /about
+PASS  직접 진입·새로 고침 후에도 표시
+
+── 1280px ──
+PASS  href = https://signforkorea.com/re — https://signforkorea.com/re
+PASS  href에 fbclid 없음(배너·문서 전체)
+PASS  target=_blank
+PASS  rel = "noopener nofollow" — noopener nofollow
+PASS  문구(제목+보조) 일치 — 이재명 재판재개 촉구 국민 서명운동외부 사이트로 이동합니다
+PASS  링크 aria-label에 표시 문구 + "새 창" — 이재명 재판재개 촉구 국민 서명운동 — 외부 사이트로 이동합니다 (새 창에서 열림)
+PASS  닫기 버튼 없음(button 0개 · 포커스 가능 요소는 링크 1개) — button 0 · 포커스 가능 1
+PASS  배너 안 이미지 0개
+PASS  GA 미로드 상태 링크 클릭 — 오류 없음
+PASS  링크 클릭 후에도 배너 유지
+PASS  내부 링크 이동 후에도 표시 — /about
+PASS  직접 진입·새로 고침 후에도 표시
+
+── 키보드 ──
+PASS  390px — Tab으로 배너 링크 도달 — 8번째 Tab, 직전 요소: A "출처·저작권 정책과 정정·삭제 요청 절차"
+PASS  390px — 배너 링크 포커스 표시(흰 2px 실선) — solid 2px rgb(255, 255, 255) offset -4px
+PASS  390px — 다음 Tab은 배너 밖으로 나감(배너 안 탭 정지점 1개)
+PASS  1280px — Tab으로 배너 링크 도달 — 8번째 Tab, 직전 요소: A "출처·저작권 정책과 정정·삭제 요청 절차"
+PASS  1280px — 배너 링크 포커스 표시(흰 2px 실선) — solid 2px rgb(255, 255, 255) offset -4px
+PASS  1280px — 다음 Tab은 배너 밖으로 나감(배너 안 탭 정지점 1개)
+PASS  behavior 전 과정 콘솔 오류·예외 0건
+
+behavior: 실패 0건
