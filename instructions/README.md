@@ -25,7 +25,7 @@ instructions/
 │   └── processed/
 ├── data-engineer/                  ← 데이터엔지니어 (Sonnet)
 │   └── processed/
-├── reviewer/                       ← 리뷰어 (Fable 5.1, 간헐 호출)
+├── reviewer/                       ← 리뷰어 (Opus 5, 간헐 호출)
 │   └── processed/
 └── tester/                         ← 테스터 (Sonnet)
     └── processed/
