@@ -7,6 +7,10 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DbMoQNRSsqI/
 attribution: 인스타그램 @korea_live0603 (대한민국 실시간 업로드)
 useSourceImage: false
+image:
+  src: /images/2026-07-24-korealive-woohai-moreugo/thumb.jpg
+  alt: "태극기를 든 야간 집회 현장 영상과 '국민이 개돼지가 맞는 이유' 자막이 들어간 릴스 첫 화면"
+  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
