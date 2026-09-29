@@ -28,7 +28,7 @@ tags:
   - 수사권
 ---
 
-이 게시물은 원문 이미지 문구와 캡션("꼭 당해봐야 정신을 차리나")을 기준으로 정리했습니다. 관련 게시물: [김문수 "검찰청 폐지" 비판](/post/2026-09-21-kimmoonsoo-prosecution-abolition) · [북한 '검찰개혁안 1단계 목표' 지령 다시보기](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+이 게시물은 원문 이미지 문구와 캡션("꼭 당해야봐야 정신을 차리나")을 기준으로 정리했습니다. 관련 게시물: [김문수 "검찰청 폐지" 비판](/post/2026-09-21-kimmoonsoo-prosecution-abolition) · [북한 '검찰개혁안 1단계 목표' 지령 다시보기](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
 
 ## 원문 주장 (게시자 의견)
 
