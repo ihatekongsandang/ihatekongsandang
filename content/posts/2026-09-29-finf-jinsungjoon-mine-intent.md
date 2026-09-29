@@ -29,6 +29,10 @@ sources:
     name: 파이낸셜뉴스 — 합참 DMZ 폭발 잔해물서 TNT·RDX 검출
     url: https://www.fnnews.com/news/202609282108146625
     date: 2026-09-28
+  - type: 언론
+    name: "The Korea Times — UNC, S. Korean gov't clash over NK's border activity"
+    url: https://www.koreatimes.co.kr/southkorea/defense/20260624/unc-s-korean-govt-clash-over-nks-border-activity
+    date: 2026-06-24
 tags:
   - dmz
   - 목함지뢰
@@ -36,7 +40,7 @@ tags:
   - 국방위원회
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 같은 발언을 다룬 [브리프 태그 릴스](https://www.instagram.com/reel/Dd3GGVZy74R/)도 있어 별도 게시물 대신 여기에 함께 적습니다. 그 릴스 썸네일의 "고의성 없으면 좀은 봐주자"는 진 위원장의 실제 발언이 아니라 요약 표현이며, 진 위원장은 "엄중하고 단호한 항의 조치가 필요하다"고도 말했습니다. 이 사안의 이전 경과: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions).
+이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 같은 발언을 다룬 [브리프 태그 릴스](https://www.instagram.com/reel/Dd3GGVZy74R/)도 있어 별도 게시물 대신 여기에 함께 적습니다. 그 릴스 썸네일의 "고의성 없으면 좀은 봐주자"는 진 위원장의 실제 발언이 아니라 요약 표현이며, 진 위원장은 "엄중하고 단호한 항의 조치가 필요하다"고도 말했습니다. 이 사안의 이전 경과: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions). 또 [PAGE_MEMO_ZIP 릴스](https://www.instagram.com/reel/Dd3PX9QzYbA/)도 같은 발언을 KBS 원 보도와 연합뉴스로 교차 확인해 정리했습니다. 이 릴스는 유엔군사령부 자료(「UNC Fact Sheet: DMZ Armistice Enforcement & Recent DPRK Activity」)를 인용해, MDL 북쪽에 방어 목적으로 지뢰를 묻는 것은 허용되지만 MDL 남쪽 매설은 방어 행위로 볼 수 없다는 기준을 함께 짚었습니다. 유엔사는 이 자료([원문](https://www.unc.mil/Resources/Fact-Sheets/Article/4524832/unc-fact-sheet-dmz-armistice-enforcement-recent-dprk-activity/))에서 MDL 북쪽에 머무는 방어적 지뢰 매설·펜스 설치는 정전협정 위반이 아니라고 밝혀, 북한 국경선 요새화를 두고 정부와 견해차를 보인 것으로 보도됐습니다(2026년 6월).
 
 ## 원문 주장 (게시자 의견)
 
