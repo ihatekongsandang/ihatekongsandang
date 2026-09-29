@@ -36,7 +36,7 @@ tags:
   - 국방위원회
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 이 사안의 이전 경과: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions).
+이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 같은 발언을 다룬 [브리프 태그 릴스](https://www.instagram.com/reel/Dd3GGVZy74R/)도 있어 별도 게시물 대신 여기에 함께 적습니다. 그 릴스 썸네일의 "고의성 없으면 좀은 봐주자"는 진 위원장의 실제 발언이 아니라 요약 표현이며, 진 위원장은 "엄중하고 단호한 항의 조치가 필요하다"고도 말했습니다. 이 사안의 이전 경과: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions).
 
 ## 원문 주장 (게시자 의견)
 
