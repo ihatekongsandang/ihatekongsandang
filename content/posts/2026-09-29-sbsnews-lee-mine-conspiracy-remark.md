@@ -36,7 +36,7 @@ tags:
   - 국무회의
 ---
 
-이 게시물은 SBS 보도 릴스의 캡션·썸네일과 SBS 기사를 기준으로 정리했으며, 영상 전체는 확인하지 않았습니다. 이 사안의 다른 게시물: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [진성준 '고의성' 발언](/post/2026-09-29-finf-jinsungjoon-mine-intent) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions).
+이 게시물은 SBS 보도 릴스의 캡션·썸네일과 SBS 기사를 기준으로 정리했으며, 영상 전체는 확인하지 않았습니다. 같은 발언을 다룬 [위키포스트 릴스](https://www.instagram.com/reel/Dd3WXxTS6ls/)도 있어 별도 게시물 대신 여기에 함께 적습니다. 그 릴스 캡션은 보도와 같지만, 썸네일의 "자꾸 북한 소행이라 하면 이유 불문하고 처벌받아"는 대통령이 한 말이 아니며 보도된 발언에도 처벌 언급은 없습니다. 이 사안의 다른 게시물: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [진성준 '고의성' 발언](/post/2026-09-29-finf-jinsungjoon-mine-intent) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions).
 
 ## 보도로 확인된 내용
 
