@@ -33,7 +33,7 @@ tags:
   - 유엔사
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 이 사안의 다른 게시물: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [이 대통령 "음모론 없길"](/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 같은 내용을 다룬 [한민규TV 카드](https://www.instagram.com/p/Dd4B2uOEg_M/)도 있어 별도 게시물 대신 여기에 함께 적습니다. 그 카드의 "1년간 구경만 했다"는 게시자의 평가이며, 합참은 그동안 유엔사와 협의해 왔다고 설명했습니다. 이 사안의 다른 게시물: [합참 중간조사 결과](/post/2026-09-28-pagememo-jcs-interim-result) · [조사 지연 의문](/post/2026-09-28-minkyuhan-dmz-delay-questions) · [나경원 "최초 보고서 삭제" 주장](/post/2026-09-28-nakyungwon-mine-report-deletion) · [이 대통령 "음모론 없길"](/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark).
 
 ## 원문 주장 (게시자 의견)
 
