@@ -1,8 +1,8 @@
 ---
 id: 2026-09-29-nowandhere-defense-minister-nk-responsibility
-title: "Defense Minister Kang Sin-cheol: \"Clear armistice violation, North Korea responsible… countermeasures step by step\" — laid, not washed away; one more anti-personnel mine found"
+title: "Defense Minister Kang Shin-chul: \"Clear armistice violation, North Korea responsible… countermeasures step by step\" — laid, not washed away; one more anti-personnel mine found"
 description: "Instagram @im_nowandhere says the defense minister admitted North Korea's responsibility for the DMZ mine blast, contrasting it with the president's remarks."
-imageAlt: "Card showing Defense Minister Kang Sin-cheol at the National Assembly listening to a military official beside him, overlaid with the text 'Mine incident, armistice violation, North Korea is responsible'"
+imageAlt: "Card showing Defense Minister Kang Shin-chul at the National Assembly listening to a military official beside him, overlaid with the text 'Mine incident, armistice violation, North Korea is responsible'"
 imageCaption: First slide of the original post
 attribution: "Instagram @im_nowandhere (나우앤히어)"
 translatedAt: 2026-09-29
@@ -12,7 +12,7 @@ This post is based on the caption and first image of the original post. Other po
 
 ## What the original post claims (the poster's opinion)
 
-- It says Defense Minister Kang Sin-cheol (강신철) acknowledged an armistice violation and North Korea's responsibility and even mentioned countermeasures, so the head of the Defense Ministry has in the end admitted that North Korea did it.
+- It says Defense Minister Kang Shin-chul (강신철) acknowledged an armistice violation and North Korea's responsibility and even mentioned countermeasures, so the head of the Defense Ministry has in the end admitted that North Korea did it.
 - It says the president told an official event the same day "don't make fake news" about the North Korean mine, and sarcastically wonders whether the president will call the minister's remarks fake news too.
 
 ## What reports confirm

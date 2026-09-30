@@ -2,7 +2,7 @@
 id: 2026-09-29-osj17x-hankiho-president-instruction
 title: "Han Ki-ho: \"The battalion commander was injured — was there no presidential instruction until he returned?\" — ruling party calls it \"fake news\""
 description: "Rep. Han Ki-ho asked whether the president gave no instructions after the DMZ blast; reports do not confirm the JCS chairman said there were none."
-imageAlt: "Broadcast still of Rep. Han Ki-ho questioning and Defense Minister Kang Sin-cheol at the witness stand, with the caption 'So it basically became a place where they only make excuses for what they did'"
+imageAlt: "Broadcast still of Rep. Han Ki-ho questioning and Defense Minister Kang Shin-chul at the witness stand, with the caption 'So it basically became a place where they only make excuses for what they did'"
 imageCaption: "A scene from the video attached to the original post (Channel A broadcast)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Threads @osj17x"
@@ -18,7 +18,7 @@ This post is based on the original text and one scene from the attached video; t
 ## What reports confirm
 
 - At the Defense Committee's emergency session on Sept. 29, Han reportedly said, "Calling it two patients when there were more is itself an attempt to downplay it," and "Isn't it true there was no instruction at all from the president until he returned, even though the battalion commander was injured?" He also criticized the unusual deployment of the battalion commander himself on the route-clearing mission and the lack of tracking surveillance footage.
-- JCS Chairman Jin Young-seung (진영승) reportedly replied, "The chairman managed the matter as a whole, and as for the timing of deployment, I held situation assessments with the ground operations commander, corps commander and division commander from that day through the 22nd." Defense Minister Kang Sin-cheol said battalion commanders often join patrols and ambushes to check the field themselves, and that while there is no body-camera footage of the moment of the blast, footage from before and after has been secured.
+- JCS Chairman Jin Young-seung (진영승) reportedly replied, "The chairman managed the matter as a whole, and as for the timing of deployment, I held situation assessments with the ground operations commander, corps commander and division commander from that day through the 22nd." Defense Minister Kang Shin-chul said battalion commanders often join patrols and ambushes to check the field themselves, and that while there is no body-camera footage of the moment of the blast, footage from before and after has been secured.
 - The ruling and opposition parties clashed over whether the president gave instructions, and the Democratic Party reportedly dismissed the opposition's claims as "fake news."
 
 ## What we left out of the summary
