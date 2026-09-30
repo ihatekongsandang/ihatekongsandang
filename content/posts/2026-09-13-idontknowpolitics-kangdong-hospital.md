@@ -3,6 +3,7 @@ id: 2026-09-13-idontknowpolitics-kangdong-hospital
 title: 정부, 김정은 역점사업 '평양 강동군병원'에 의료장비 166종 지원 준비 — "북 호응 시 즉시 착수"
 description: 인스타그램 @idontknowpolitics가 정부의 평양 강동군병원 의료장비 166종 지원 계획을 정리함. 통일부는 5월 유엔 대북제재 면제 승인을 받았고 남북협력기금을 재원으로, 북측 호응이 있으면 곧바로 착수할 준비를 하고 있다고 밝힌 것으로 보도됐습니다.
 publishedAt: 2026-09-28
+updatedAt: 2026-10-01
 sourceType: url
 sourceUrl: https://www.instagram.com/p/DdQB2z3Jn7-/
 attribution: 인스타그램 @idontknowpolitics (나정치)
@@ -28,7 +29,7 @@ tags:
   - 남북협력기금
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했습니다. 같은 사안을 다른 게시자의 비판과 함께 다룬 게시물도 있습니다: [대북 의료장비 지원 비판 스레드](/post/2026-09-21-dotori-nk-medical-equipment).
+이 게시물은 원문 캡션을 기준으로 정리했습니다. 같은 사안을 다른 게시자의 비판과 함께 다룬 게시물도 있습니다: [대북 의료장비 지원 비판 스레드](/post/2026-09-21-dotori-nk-medical-equipment). 같은 지원을 비판한 [인스타그램 @geonwoo.vibes 릴스](https://www.instagram.com/reel/Ddo6-eIzKY8/)(9월 23일)도 별도 게시물 대신 여기에 함께 적습니다. 이 릴스는 약 93억 원 규모·166종 1,431개 의료장비 지원이 추진된다며, 핵·미사일로 안보를 위협하는 북한에 세금을 쓰기보다 국민과 장병의 안전이 먼저라고 주장했습니다(게시자 의견). '약 93억 원'이라는 금액은 이 게시물이 확인한 보도에는 나오지 않습니다.
 
 ## 보도로 확인된 내용
 

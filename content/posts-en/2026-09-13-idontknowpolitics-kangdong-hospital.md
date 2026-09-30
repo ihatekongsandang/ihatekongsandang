@@ -5,10 +5,10 @@ description: "Instagram @idontknowpolitics details plans to give a Pyongyang hos
 imageAlt: "President Lee Jae-myung raising his right hand to take an oath in front of a blue background"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @idontknowpolitics (나정치)"
-translatedAt: 2026-09-30
+translatedAt: 2026-10-01
 ---
 
-This post is based on the original caption. Another post covers the same matter along with a different poster's criticism: [Thread criticizing medical equipment aid to North Korea](/post/2026-09-21-dotori-nk-medical-equipment).
+This post is based on the original caption. Another post covers the same matter along with a different poster's criticism: [Thread criticizing medical equipment aid to North Korea](/post/2026-09-21-dotori-nk-medical-equipment). An [Instagram reel by @geonwoo.vibes](https://www.instagram.com/reel/Ddo6-eIzKY8/) (Sept. 23) criticizing the same aid is noted here instead of in a separate post. It says aid of about 9.3 billion won — 1,431 items of 166 types of medical equipment — is being pursued, and argues that the safety of the public and troops should come before spending tax money on North Korea, which threatens South Korea's security with nuclear weapons and missiles (the poster's opinion). The figure of 'about 9.3 billion won' does not appear in the reports this post checked.
 
 ## What reports confirm
 
