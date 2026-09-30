@@ -6,10 +6,10 @@ imageAlt: "President Lee Jae-myung speaking, with the caption 'The president, kn
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
-translatedAt: 2026-09-30
+translatedAt: 2026-10-01
 ---
 
-This post is based on the original caption; the video content was not reviewed.
+This post is based on the original caption; the video content was not reviewed. A [follow-up reel](https://www.instagram.com/reel/Dd6KJN5TUdC/) the same account posted on Sept. 30 is noted here instead of in a separate post. It worries that, depending on the survey results, tenant farmers may have to give their land back and that a surge in listings could lower farmland prices and the collateral value held by farmers and agricultural cooperatives; it criticizes fiscal spending such as consumption coupons and urges farmers to make their voices heard in front of the presidential office, even by driving tractors there (the poster's opinion).
 
 ## What the original post claims (the poster's opinion)
 
@@ -27,4 +27,4 @@ This post is based on the original caption; the video content was not reviewed.
 
 ## What we left out of the summary
 
-The field concern in the original that "farmland transactions have dropped sharply and prices are falling" was reported as part of the partisan dispute, but we could not confirm it with transaction-volume or price statistics.
+The field concern in the original that "farmland transactions have dropped sharply and prices are falling" was reported as part of the partisan dispute, but we could not confirm it with transaction-volume or price statistics. The follow-up reel's concerns about tenant farmers returning land and falling collateral value are also the poster's projections; as noted above, the government and ruling party reportedly offered supplementary measures giving customary tenancies a chance to be regularized.
