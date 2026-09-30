@@ -1,5 +1,5 @@
 import { SITE, absoluteUrl } from '@/lib/config'
-import { getAllPosts, getAllTags } from '@/lib/content/load'
+import { getAllPosts, getAllTags, getAllTranslations } from '@/lib/content/load'
 
 /**
  * `llms.txt` — 도입한다.
@@ -35,6 +35,7 @@ export function GET(): Response {
     `- [최신 게시물](${absoluteUrl('/')})`,
     `- [소개·출처 정책·표기 원칙·정정 요청](${absoluteUrl('/about')})`,
     `- [사이트맵](${absoluteUrl('/sitemap.xml')})`,
+    `- [English version](${absoluteUrl('/en')}) — 영어본이 있는 게시물만 영어로 제공합니다(${getAllTranslations().size}건, 편집자 번역). 영어와 한국어가 다르면 한국어 원문이 우선합니다.`,
     '',
   ]
 

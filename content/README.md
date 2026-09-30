@@ -334,3 +334,50 @@ tags: [○○정책]
 | 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
 | `description` 160자 초과, 파일명과 `id` 불일치, 모르는 필드, `speaker`의 모르는 하위 필드 | 경고만 (빌드는 진행) |
 | 본문에 마크다운 이미지(`![…](…)`) — 렌더에서 제거됨 | 경고만 (빌드는 진행) |
+
+---
+
+## 9. 영어본 (`content/posts-en/`) — `/en/post/{id}`
+
+영어 페이지는 같은 사이트의 `/en` 경로로 나간다. 영어본은 **한국어 원본에 덧붙는 파일**이다 —
+한국어 게시물은 영어본이 없어도 되고(부분 번역), 영어본만 있고 원본이 없으면 빌드가 멈춘다.
+
+1. `content/posts-en/{id}.md`를 만든다. **파일명·`id` 모두 한국어 원본과 같다.**
+2. frontmatter에는 **번역이 필요한 필드만** 쓴다. 날짜·원문 링크·발언자 이름·이미지 경로·배경 보도·태그·OG는 한국어 원본 값이 그대로 쓰인다(적어도 무시되고 경고가 나온다). 출처 표기(`attribution`)·발언자 소속(`speakerAffiliation`)은 선택 — 적으면 영어 표기, 없으면 원본 값.
+3. `npm run validate:content` — 요약 줄에 `영어본 N건 / 전체 M건`이 나온다.
+
+```yaml
+---
+id: 2026-09-29-example-post          # 한국어 원본과 동일 (필수)
+title: "..."                          # 영어 제목 (필수)
+description: "..."                    # 영어 요약 (필수, 160자 넘으면 경고)
+imageAlt: "..."                       # 원본에 image가 있으면 필수
+imageCaption: "..."                   # 원본 image.caption이 있으면 필수
+speakerAffiliation: "..."             # 원본 speaker에 소속이 있을 때 선택 (없으면 원본 값 그대로)
+attribution: "..."                    # 선택 — 출처 표기의 영어 표기 (없으면 원본 값 그대로). 플랫폼명만 번역
+translatedAt: 2026-09-29              # 필수 (YYYY-MM-DD)
+---
+
+(영어 본문 — 마크다운)
+```
+
+| 규칙 | 실패 시 |
+|---|---|
+| 원본(`content/posts/{id}.md`)이 없거나 검증 실패 · 파일명과 `id` 불일치 | 빌드 중단 |
+| `title`·`description`·`translatedAt` 누락, `translatedAt` 형식 오류 | 빌드 중단 |
+| 원본에 `image`가 있는데 `imageAlt` 없음 · 원본 캡션이 있는데 `imageCaption` 없음 | 빌드 중단 |
+| 원본이 사진 유형(`images[]`)인데 영어 `images: [{alt, caption}]`이 같은 개수로 없음 | 빌드 중단 |
+| 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
+| 영어 title·description·alt·caption·speakerAffiliation·attribution·본문에 한글이 섞임 (괄호 안 병기 `Chung Dong-young (정동영)`은 제외) | 경고만 |
+| `attribution`에 한국어 원본의 계정 핸들(`@…`)이 빠짐 | 경고만 |
+| 원본이 번역 이후 갱신됨(`updatedAt` > `translatedAt`) · 원본 값을 쓰는 필드를 적음 · 모르는 필드 | 경고만 |
+
+- **출처 표기 `attribution`** — 저작권 표시 성격이라 **플랫폼명만** 영어로 바꾼다(인스타그램 → Instagram, 스레드 → Threads, 유튜브 → YouTube, 페이스북 → Facebook). 계정 핸들과 괄호 안 원문 이름은 원본 그대로 둔다.
+  예: 원본 `인스타그램 @im_nowandhere (나우앤히어)` → 영어본 `Instagram @im_nowandhere (나우앤히어)`. 언론사명처럼 공식 영문 표기를 확인하지 못한 이름은 번역하지 않는다(필드를 비우면 원본 값이 나간다).
+- 본문의 내부 링크 `/post/{id}`는 **그 글의 영어본이 있으면** 영어 페이지에서 `/en/post/{id}`로 자동으로 바뀐다. 없으면 한국어 페이지로 그대로 간다.
+  그래서 **링크 문구나 링크 바로 뒤에 "(in Korean)"을 붙이지 않는다** — 대상 글이 나중에 번역되면 링크는 영어로 바뀌는데 문구만 "(in Korean)"으로 남는다.
+  한국어 페이지일 수 있다는 안내가 필요하면 링크 목록 앞에 한 번만 둔다: `Other posts on this issue (some may be available only in Korean): [..](/post/…) · [..](/post/…)`.
+  `/about`·`/tag/…` 같은 다른 내부 링크는 자동으로 바뀌지 않는다 — 영어 소개는 `/en/about`으로 직접 적고, 태그 링크는 영어 페이지에 쓰지 않는다.
+- 배경 보도의 기사 제목은 번역하지 않는다(한국어 원문 그대로 나가고, 목록 위에 "Sources are in Korean." 안내가 붙는다).
+- 영어 페이지에는 태그 칩·플로팅 배너가 나오지 않는다.
+- 번역은 원본 내용 범위 안에서만 한다. 원본에 없는 단정·정보를 더하지 않는다(§5 원칙 동일). 인명은 로마자 뒤 괄호에 한글을 병기하면 경고 없이 통과한다.

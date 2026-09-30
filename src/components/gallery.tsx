@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import type { PostImage } from '@/lib/content/schema'
+import { t, type Locale } from '@/lib/i18n'
 
 /**
  * 사진 게시물의 이미지 열람.
  * 여러 장이면 가로 스와이프(CSS scroll-snap) — JS 캐러셀을 쓰지 않아 스크립트가 없어도 동작하고
  * 키보드·스크린리더로도 그대로 스크롤된다. 과도한 압축을 피하려 품질을 기본값보다 높인다.
  */
-export function Gallery({ images }: { images: PostImage[] }) {
+export function Gallery({ images, locale = 'ko' }: { images: PostImage[]; locale?: Locale }) {
   if (images.length === 0) return null
 
   const isSingle = images.length === 1
@@ -18,7 +19,7 @@ export function Gallery({ images }: { images: PostImage[] }) {
           ? 'space-y-2'
           : 'flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 [scrollbar-width:thin]'
       }
-      {...(isSingle ? {} : { role: 'group', 'aria-label': `사진 ${images.length}장 — 가로로 넘겨 보세요` })}
+      {...(isSingle ? {} : { role: 'group', 'aria-label': t(locale).photosGroup(images.length) })}
     >
       {images.map((image, index) => (
         <figure

@@ -8,6 +8,8 @@
  * 규칙을 바꿀 때는 `content/README.md`의 필드 표도 함께 갱신한다.
  */
 
+import { t, type Locale } from '../i18n'
+
 /**
  * 🔴 사건 상태 라벨 폐지 (2026-09-21 사용자 지시).
  *
@@ -483,12 +485,13 @@ export type CardMedia =
   | { kind: 'remote'; src: string; alt: string }
   | { kind: 'placeholder' }
 
-export function resolveCardMedia(post: Post): CardMedia {
+/** `locale`은 원문 썸네일(핫링크) 대체 텍스트의 언어만 정한다 — 저장소 이미지 alt는 게시물(영어본이면 영어) 값을 쓴다. */
+export function resolveCardMedia(post: Post, locale: Locale = 'ko'): CardMedia {
   if (post.image) return { kind: 'local', src: post.image.src, alt: post.image.alt }
   const first = post.images[0]
   if (first) return { kind: 'local', src: first.src, alt: first.alt }
   if (post.sourceType === 'url' && post.useSourceImage && post.og?.image) {
-    return { kind: 'remote', src: post.og.image, alt: `${post.title} — 원문 미리보기 이미지` }
+    return { kind: 'remote', src: post.og.image, alt: t(locale).sourcePreviewAlt(post.title) }
   }
   return { kind: 'placeholder' }
 }

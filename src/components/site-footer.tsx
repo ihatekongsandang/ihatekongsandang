@@ -1,21 +1,30 @@
 import Link from 'next/link'
-import { SITE } from '@/lib/config'
-import { FLOATING_BANNER_GUTTER } from '@/lib/floating-banner'
+import { SITE, SITE_EN } from '@/lib/config'
+import { floatingBannerGutter } from '@/lib/floating-banner'
+import { aboutPath, t, type Locale } from '@/lib/i18n'
 import { cn } from '@/lib/utils'
 
-export function SiteFooter() {
+export function SiteFooter({ locale }: { locale: Locale }) {
+  const dict = t(locale)
+  const site = locale === 'en' ? SITE_EN : SITE
+
   return (
-    <footer className={cn('mt-16 border-t bg-surface', FLOATING_BANNER_GUTTER.footer)}>
+    <footer className={cn('mt-16 border-t bg-surface', floatingBannerGutter(locale).footer)}>
       <div className="mx-auto w-full max-w-6xl space-y-2 px-4 py-8 text-sm text-muted-foreground">
-        <p className="font-medium text-foreground">{SITE.name}</p>
-        <p>{SITE.tagline}</p>
-        <p>
-          모든 게시물은 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 정리하며, 원문을 전재하지 않습니다.
-          제목·요약은 단정하지 않고 보도를 인용하는 형태로 씁니다.
+        <p className="font-medium text-foreground">
+          {locale === 'en' ? (
+            <>
+              <span lang="ko">{SITE_EN.nameKo}</span> {SITE_EN.subtitle}
+            </>
+          ) : (
+            SITE.name
+          )}
         </p>
+        <p>{site.tagline}</p>
+        <p>{dict.footerPolicy}</p>
         <p>
-          <Link href="/about" className="text-link underline underline-offset-2">
-            출처·저작권 정책과 정정·삭제 요청 절차
+          <Link href={aboutPath(locale)} className="text-link underline underline-offset-2">
+            {dict.footerPolicyLink}
           </Link>
         </p>
       </div>

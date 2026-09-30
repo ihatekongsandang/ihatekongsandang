@@ -1,0 +1,55 @@
+   ▲ Next.js 15.5.25
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 4.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/371) ...
+   Generating static pages (92/371) 
+   Generating static pages (185/371) 
+   Generating static pages (278/371) 
+ ✓ Generating static pages (371/371)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                   Size  First Load JS
+┌ ○ /                                                        132 B         123 kB
+├ ○ /_not-found                                              135 B         103 kB
+├ ○ /about                                                   165 B         106 kB
+├ ○ /icon.svg                                                  0 B            0 B
+├ ○ /llms.txt                                                135 B         103 kB
+├ ○ /opengraph-image                                         135 B         103 kB
+├ ● /page/[page]                                             132 B         123 kB
+├   ├ /page/2
+├   ├ /page/3
+├   ├ /page/4
+├   └ [+7 more paths]
+├ ● /post/[id]                                               864 B         113 kB
+├   ├ /post/2026-09-29-2pro-prosecution-sign-removal-cost
+├   ├ /post/2026-09-29-finf-jcs-terrain-change-year
+├   ├ /post/2026-09-29-finf-jinsungjoon-mine-intent
+├   └ [+126 more paths]
+├ ○ /robots.txt                                              135 B         103 kB
+├ ○ /sitemap.xml                                             135 B         103 kB
+├ ● /tag/[slug]                                              131 B         123 kB
+├   ├ /tag/dmz
+├   ├ /tag/이재명
+├   ├ /tag/목함지뢰
+├   └ [+214 more paths]
+└ ● /tag/[slug]/page/[page]                                  132 B         123 kB
+    ├ /tag/dmz/page/2
+    ├ /tag/dmz/page/3
+    ├ /tag/이재명/page/2
+    └ [+2 more paths]
++ First Load JS shared by all                               103 kB
+  ├ chunks/255-37e0f0325134c4d7.js                         46.4 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js                    54.2 kB
+  └ other shared chunks (total)                            1.92 kB
+
+
+ƒ Middleware                                               34.3 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

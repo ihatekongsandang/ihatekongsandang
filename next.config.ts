@@ -42,6 +42,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
   poweredByHeader: false,
+  // 루트 레이아웃이 언어별 라우트 그룹 두 개(`(ko)`·`(en)`)로 나뉘어 있어, 경로가 없는 요청의 404를
+  // `app/global-not-found.tsx`가 `<html lang>`부터 직접 그리게 한다(프로그래머 05 — 사유는 그 파일 주석).
+  experimental: { globalNotFound: true },
   reactStrictMode: true,
 
   ...(runningOnVercel ? {} : { headers: async () => localHeaderRules() }),

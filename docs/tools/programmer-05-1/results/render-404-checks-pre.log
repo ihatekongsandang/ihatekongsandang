@@ -1,0 +1,146 @@
+PASS  /?page=999 @320 lang
+FAIL  /?page=999 @320 h1 — 실제 404 (1개)
+FAIL  /?page=999 @320 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /?page=999 @320 배너 있음
+FAIL  /?page=999 @320 언어 전환 nav — 실제 0
+FAIL  /?page=999 @320 홈 링크 / — 실제 
+PASS  /?page=999 @320 가로 넘침 0
+PASS  /?page=999 @320 콘솔 오류 0
+PASS  /tag/dmz?page=99 @320 lang
+FAIL  /tag/dmz?page=99 @320 h1 — 실제 404 (1개)
+FAIL  /tag/dmz?page=99 @320 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /tag/dmz?page=99 @320 배너 있음
+FAIL  /tag/dmz?page=99 @320 언어 전환 nav — 실제 0
+FAIL  /tag/dmz?page=99 @320 홈 링크 / — 실제 
+PASS  /tag/dmz?page=99 @320 가로 넘침 0
+PASS  /tag/dmz?page=99 @320 콘솔 오류 0
+PASS  /en?page=99 @320 lang
+FAIL  /en?page=99 @320 h1 — 실제 404 (1개)
+FAIL  /en?page=99 @320 헤더·main·푸터·건너뛰기 — {"lang":"en","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":false,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /en?page=99 @320 배너 없음
+FAIL  /en?page=99 @320 언어 전환 nav — 실제 0
+FAIL  /en?page=99 @320 홈 링크 /en — 실제 
+PASS  /en?page=99 @320 가로 넘침 0
+PASS  /en?page=99 @320 콘솔 오류 0
+PASS  /page/999 @320 lang
+PASS  /page/999 @320 h1
+PASS  /page/999 @320 헤더·main·푸터·건너뛰기
+PASS  /page/999 @320 배너 있음
+PASS  /page/999 @320 언어 전환 nav
+PASS  /page/999 @320 홈 링크 /
+PASS  /page/999 @320 가로 넘침 0
+PASS  /page/999 @320 콘솔 오류 0
+PASS  /post/no-such @320 lang
+PASS  /post/no-such @320 h1
+PASS  /post/no-such @320 헤더·main·푸터·건너뛰기
+PASS  /post/no-such @320 배너 있음
+PASS  /post/no-such @320 언어 전환 nav
+PASS  /post/no-such @320 홈 링크 /
+PASS  /post/no-such @320 가로 넘침 0
+PASS  /post/no-such @320 콘솔 오류 0
+PASS  /en/post/no-such @320 lang
+PASS  /en/post/no-such @320 h1
+PASS  /en/post/no-such @320 헤더·main·푸터·건너뛰기
+PASS  /en/post/no-such @320 배너 있음
+PASS  /en/post/no-such @320 언어 전환 nav
+PASS  /en/post/no-such @320 홈 링크 /
+PASS  /en/post/no-such @320 가로 넘침 0
+PASS  /en/post/no-such @320 콘솔 오류 0
+PASS  /?page=999 @390 lang
+FAIL  /?page=999 @390 h1 — 실제 404 (1개)
+FAIL  /?page=999 @390 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /?page=999 @390 배너 있음
+FAIL  /?page=999 @390 언어 전환 nav — 실제 0
+FAIL  /?page=999 @390 홈 링크 / — 실제 
+PASS  /?page=999 @390 가로 넘침 0
+PASS  /?page=999 @390 콘솔 오류 0
+PASS  /tag/dmz?page=99 @390 lang
+FAIL  /tag/dmz?page=99 @390 h1 — 실제 404 (1개)
+FAIL  /tag/dmz?page=99 @390 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /tag/dmz?page=99 @390 배너 있음
+FAIL  /tag/dmz?page=99 @390 언어 전환 nav — 실제 0
+FAIL  /tag/dmz?page=99 @390 홈 링크 / — 실제 
+PASS  /tag/dmz?page=99 @390 가로 넘침 0
+PASS  /tag/dmz?page=99 @390 콘솔 오류 0
+PASS  /en?page=99 @390 lang
+FAIL  /en?page=99 @390 h1 — 실제 404 (1개)
+FAIL  /en?page=99 @390 헤더·main·푸터·건너뛰기 — {"lang":"en","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":false,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /en?page=99 @390 배너 없음
+FAIL  /en?page=99 @390 언어 전환 nav — 실제 0
+FAIL  /en?page=99 @390 홈 링크 /en — 실제 
+PASS  /en?page=99 @390 가로 넘침 0
+PASS  /en?page=99 @390 콘솔 오류 0
+PASS  /page/999 @390 lang
+PASS  /page/999 @390 h1
+PASS  /page/999 @390 헤더·main·푸터·건너뛰기
+PASS  /page/999 @390 배너 있음
+PASS  /page/999 @390 언어 전환 nav
+PASS  /page/999 @390 홈 링크 /
+PASS  /page/999 @390 가로 넘침 0
+PASS  /page/999 @390 콘솔 오류 0
+PASS  /post/no-such @390 lang
+PASS  /post/no-such @390 h1
+PASS  /post/no-such @390 헤더·main·푸터·건너뛰기
+PASS  /post/no-such @390 배너 있음
+PASS  /post/no-such @390 언어 전환 nav
+PASS  /post/no-such @390 홈 링크 /
+PASS  /post/no-such @390 가로 넘침 0
+PASS  /post/no-such @390 콘솔 오류 0
+PASS  /en/post/no-such @390 lang
+PASS  /en/post/no-such @390 h1
+PASS  /en/post/no-such @390 헤더·main·푸터·건너뛰기
+PASS  /en/post/no-such @390 배너 있음
+PASS  /en/post/no-such @390 언어 전환 nav
+PASS  /en/post/no-such @390 홈 링크 /
+PASS  /en/post/no-such @390 가로 넘침 0
+PASS  /en/post/no-such @390 콘솔 오류 0
+PASS  /?page=999 @1280 lang
+FAIL  /?page=999 @1280 h1 — 실제 404 (1개)
+FAIL  /?page=999 @1280 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /?page=999 @1280 배너 있음
+FAIL  /?page=999 @1280 언어 전환 nav — 실제 0
+FAIL  /?page=999 @1280 홈 링크 / — 실제 
+PASS  /?page=999 @1280 가로 넘침 0
+PASS  /?page=999 @1280 콘솔 오류 0
+PASS  /tag/dmz?page=99 @1280 lang
+FAIL  /tag/dmz?page=99 @1280 h1 — 실제 404 (1개)
+FAIL  /tag/dmz?page=99 @1280 헤더·main·푸터·건너뛰기 — {"lang":"ko","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":true,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /tag/dmz?page=99 @1280 배너 있음
+FAIL  /tag/dmz?page=99 @1280 언어 전환 nav — 실제 0
+FAIL  /tag/dmz?page=99 @1280 홈 링크 / — 실제 
+PASS  /tag/dmz?page=99 @1280 가로 넘침 0
+PASS  /tag/dmz?page=99 @1280 콘솔 오류 0
+PASS  /en?page=99 @1280 lang
+FAIL  /en?page=99 @1280 h1 — 실제 404 (1개)
+FAIL  /en?page=99 @1280 헤더·main·푸터·건너뛰기 — {"lang":"en","h1":"404","h1Count":1,"header":0,"footer":0,"main":0,"skip":true,"banner":false,"langNav":0,"homeLink":[],"overflow":0}
+PASS  /en?page=99 @1280 배너 없음
+FAIL  /en?page=99 @1280 언어 전환 nav — 실제 0
+FAIL  /en?page=99 @1280 홈 링크 /en — 실제 
+PASS  /en?page=99 @1280 가로 넘침 0
+PASS  /en?page=99 @1280 콘솔 오류 0
+PASS  /page/999 @1280 lang
+PASS  /page/999 @1280 h1
+PASS  /page/999 @1280 헤더·main·푸터·건너뛰기
+PASS  /page/999 @1280 배너 있음
+PASS  /page/999 @1280 언어 전환 nav
+PASS  /page/999 @1280 홈 링크 /
+PASS  /page/999 @1280 가로 넘침 0
+PASS  /page/999 @1280 콘솔 오류 0
+PASS  /post/no-such @1280 lang
+PASS  /post/no-such @1280 h1
+PASS  /post/no-such @1280 헤더·main·푸터·건너뛰기
+PASS  /post/no-such @1280 배너 있음
+PASS  /post/no-such @1280 언어 전환 nav
+PASS  /post/no-such @1280 홈 링크 /
+PASS  /post/no-such @1280 가로 넘침 0
+PASS  /post/no-such @1280 콘솔 오류 0
+PASS  /en/post/no-such @1280 lang
+PASS  /en/post/no-such @1280 h1
+PASS  /en/post/no-such @1280 헤더·main·푸터·건너뛰기
+PASS  /en/post/no-such @1280 배너 있음
+PASS  /en/post/no-such @1280 언어 전환 nav
+PASS  /en/post/no-such @1280 홈 링크 /
+PASS  /en/post/no-such @1280 가로 넘침 0
+PASS  /en/post/no-such @1280 콘솔 오류 0
+
+검사 144개 · 통과 108 · 실패 36

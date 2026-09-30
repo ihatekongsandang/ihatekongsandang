@@ -11,10 +11,13 @@ import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
 import { readRetiredIds, retiredIdMessage } from '../src/lib/content/retired-ids'
-import { validatePost } from '../src/lib/content/schema'
+import { validatePost, type Post } from '../src/lib/content/schema'
+import { validateTranslation } from '../src/lib/content/translation'
 
 const ROOT = process.cwd()
 const POSTS_DIR = path.join(ROOT, 'content', 'posts')
+/** 영어본(프로그래머 05) — 한국어 원본에 덧붙는 파일. 폴더가 없어도 된다(부분 번역 허용). */
+const POSTS_EN_DIR = path.join(ROOT, 'content', 'posts-en')
 const PUBLIC_DIR = path.join(ROOT, 'public')
 
 function localImageExists(src: string): boolean {
@@ -41,6 +44,8 @@ function main(): void {
   let imageCount = 0
   let sourceCount = 0
   let speakerCount = 0
+  /** 검증을 통과한 한국어 원본 — 영어본이 짝을 찾는 대상. id 중복·폐기 id는 제외한다. */
+  const validPosts = new Map<string, Post>()
 
   for (const fileName of fileNames) {
     const errors: string[] = []
@@ -72,6 +77,10 @@ function main(): void {
         }
       }
 
+      if (result.post && idOwner.get(result.post.id) === fileName && !retired.has(result.post.id)) {
+        validPosts.set(result.post.id, result.post)
+      }
+
       if (result.post) {
         typeCount.set(result.post.sourceType, (typeCount.get(result.post.sourceType) ?? 0) + 1)
         imageCount += result.post.images.length + (result.post.image ? 1 : 0)
@@ -83,10 +92,38 @@ function main(): void {
     reports.push({ fileName, errors, notices })
   }
 
+  // --- 영어본 content/posts-en/*.md ---
+  const enFileNames = fs.existsSync(POSTS_EN_DIR)
+    ? fs.readdirSync(POSTS_EN_DIR).filter((name) => name.endsWith('.md')).sort()
+    : []
+  const enIds = new Set<string>()
+  for (const fileName of enFileNames) {
+    const errors: string[] = []
+    const notices: string[] = []
+    const raw = fs.readFileSync(path.join(POSTS_EN_DIR, fileName), 'utf8')
+
+    let parsed: matter.GrayMatterFile<string> | undefined
+    try {
+      parsed = matter(raw)
+    } catch (error) {
+      errors.push(`frontmatter(YAML) 파싱 실패: ${error instanceof Error ? error.message : String(error)}`)
+    }
+
+    if (parsed) {
+      const id = typeof parsed.data?.id === 'string' ? parsed.data.id.trim() : undefined
+      const result = validateTranslation(parsed.data, parsed.content, fileName, id ? validPosts.get(id) : undefined)
+      errors.push(...result.errors)
+      notices.push(...result.notices)
+      if (result.translation) enIds.add(result.translation.id)
+    }
+
+    reports.push({ fileName: `posts-en/${fileName}`, errors, notices })
+  }
+
   const failed = reports.filter((report) => report.errors.length > 0)
   const noticed = reports.filter((report) => report.notices.length > 0)
 
-  console.log(`콘텐츠 검증 — content/posts/*.md ${fileNames.length}건`)
+  console.log(`콘텐츠 검증 — content/posts/*.md ${fileNames.length}건 · content/posts-en/*.md ${enFileNames.length}건`)
 
   for (const report of noticed) {
     console.log(`\n🟡 ${report.fileName}`)
@@ -104,11 +141,12 @@ function main(): void {
     [
       '',
       '── 요약 ──',
-      `검사 파일 ${fileNames.length}건 · 통과 ${fileNames.length - failed.length}건 · 실패 ${failed.length}건 (오류 ${errorTotal}개)`,
+      `검사 파일 ${fileNames.length + enFileNames.length}건(한국어 ${fileNames.length} · 영어본 ${enFileNames.length}) · 통과 ${reports.length - failed.length}건 · 실패 ${failed.length}건 (오류 ${errorTotal}개)`,
       `고유 id ${idOwner.size}개 · 폐기 id 목록 ${retired.size}개`,
       `유형별: ${[...typeCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
       `배경 보도 출처: ${sourceCount}건 · 발언자 표기: ${speakerCount}건`,
       `검사한 이미지 alt ${imageCount}개`,
+      `영어본 ${enIds.size}건 / 전체 ${validPosts.size}건`,
     ].join('\n'),
   )
 

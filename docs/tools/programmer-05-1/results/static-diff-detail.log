@@ -1,0 +1,14 @@
+== _not-found.html — 조각 92 → 94, 변경 2
++ <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"공산당이싫어요","url":"http://localhost:3000/","description":"정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.","inLanguage":"ko","publisher":{"@type":"Organization","name":"공산당이싫어요","url":"http://localhost:3000/"}}
++ </script>
+== en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility.html — 조각 303 → 307, 변경 10
+- <dd lang="ko">인스타그램 @im_nowandhere (나우앤히어)
++ <dd>Instagram @im_nowandhere 
++ <span lang="ko">(나우앤히어)
++ </span>
+- <p>This post is based on the caption and first image of the original post. Other posts on this issue (in Korean): 
++ <p>This post is based on the caption and first image of the original post. Other posts on this issue (some may be available only in Korean): 
+- <span lang="ko">인스타그램 @im_nowandhere (나우앤히어)
++ <span>Instagram @im_nowandhere 
++ <span lang="ko">(나우앤히어)
++ </span>

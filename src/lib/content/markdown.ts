@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import { unified } from 'unified'
+import { t, type Locale } from '../i18n'
 
 /**
  * 게시물 본문 마크다운 → 안전한 HTML.
@@ -37,25 +38,64 @@ const bodySchema = {
   ...defaultSchema,
   tagNames: (defaultSchema.tagNames ?? []).filter((tagName) => tagName !== 'img'),
 }
-const processor = unified()
-  .use(remarkParse)
-  .use(remarkGfm)
-  .use(remarkRehype)
-  .use(rehypeSanitize, bodySchema)
-  .use(rehypeExternalLinks, {
-    target: '_blank',
-    rel: ['noopener'],
-    protocols: ['http', 'https'],
-    content: {
-      type: 'element',
-      tagName: 'span',
-      properties: { className: ['sr-only'] },
-      children: [{ type: 'text', value: ' (새 창에서 열림)' }],
-    },
-  })
-  .use(rehypeStringify)
+/** hast 트리의 `<a href>`를 바꾸는 최소 플러그인(추가 의존성 없이 재귀 순회). */
+interface HastNode {
+  type: string
+  tagName?: string
+  properties?: Record<string, unknown>
+  children?: HastNode[]
+}
+
+function rehypeRewriteLinks(options: { rewrite: (href: string) => string }) {
+  const visit = (node: HastNode) => {
+    if (node.type === 'element' && node.tagName === 'a' && typeof node.properties?.href === 'string') {
+      node.properties.href = options.rewrite(node.properties.href)
+    }
+    node.children?.forEach(visit)
+  }
+  return (tree: HastNode) => {
+    visit(tree)
+  }
+}
+
+function createProcessor(locale: Locale, rewriteHref?: (href: string) => string) {
+  const base = unified().use(remarkParse).use(remarkGfm).use(remarkRehype).use(rehypeSanitize, bodySchema)
+  const withLinks = rewriteHref ? base.use(rehypeRewriteLinks, { rewrite: rewriteHref }) : base
+  return withLinks
+    .use(rehypeExternalLinks, {
+      target: '_blank',
+      rel: ['noopener'],
+      protocols: ['http', 'https'],
+      content: {
+        type: 'element',
+        tagName: 'span',
+        properties: { className: ['sr-only'] },
+        children: [{ type: 'text', value: t(locale).opensInNewTab }],
+      },
+    })
+    .use(rehypeStringify)
+}
+
+const koProcessor = createProcessor('ko')
 
 export async function renderMarkdown(markdown: string): Promise<string> {
+  const file = await koProcessor.process(markdown)
+  return String(file)
+}
+
+/**
+ * 영어본 본문 렌더. 본문 안의 내부 게시물 링크 `/post/{id}`는 **대상 영어본이 있을 때만**
+ * `/en/post/{id}`로 바꾸고, 없으면 한국어 페이지 링크를 그대로 둔다(프로그래머 05 오더 §1).
+ * 치환은 sanitize를 통과한 뒤의 `href` 값에만 적용한다 — 경로 형태가 정확히 맞을 때만 바꾸고
+ * 쿼리·해시는 보존한다. 외부 링크·다른 내부 경로는 건드리지 않는다.
+ */
+export async function renderEnglishMarkdown(markdown: string, hasEnglish: (id: string) => boolean): Promise<string> {
+  const processor = createProcessor('en', (href) => {
+    const match = /^\/post\/([a-z0-9]+(?:-[a-z0-9]+)*)(\/?)([?#].*)?$/.exec(href)
+    if (!match) return href
+    const [, id, , suffix = ''] = match
+    return id && hasEnglish(id) ? `/en/post/${id}${suffix}` : href
+  })
   const file = await processor.process(markdown)
   return String(file)
 }

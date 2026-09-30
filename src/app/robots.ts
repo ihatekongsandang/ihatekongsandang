@@ -10,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         // 페이지네이션의 내부 rewrite 경로. 공개 URL은 `?page=n` 쪽이다.
-        disallow: ['/page/', '/tag/*/page/'],
+        disallow: ['/page/', '/tag/*/page/', '/en/page/'],
       },
     ],
     ...(siteUrl ? { sitemap: absoluteUrl('/sitemap.xml'), host: siteUrl } : {}),

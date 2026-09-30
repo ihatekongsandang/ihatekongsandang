@@ -1,0 +1,70 @@
+   ▲ Next.js 15.5.25
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ✓ globalNotFound
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 4.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/375) ...
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (93/375) 
+   Generating static pages (187/375) 
+   Generating static pages (281/375) 
+ ✓ Generating static pages (375/375)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                                 Size  First Load JS
+┌ ○ /                                                                      132 B         125 kB
+├ ○ /_not-found                                                            194 B         108 kB
+├ ○ /about                                                                 165 B         106 kB
+├ ○ /en                                                                    132 B         125 kB
+├ ○ /en/about                                                              165 B         106 kB
+├ ○ /en/opengraph-image-1nh35u                                             135 B         103 kB
+├ ● /en/page/[page]                                                        132 B         125 kB
+├ ● /en/post/[id]                                                        3.22 kB         115 kB
+├   └ /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility
+├ ○ /icon.svg                                                                0 B            0 B
+├ ○ /llms.txt                                                              135 B         103 kB
+├ ○ /opengraph-image                                                       135 B         103 kB
+├ ● /page/[page]                                                           131 B         125 kB
+├   ├ /page/2
+├   ├ /page/3
+├   ├ /page/4
+├   └ [+7 more paths]
+├ ● /post/[id]                                                           3.22 kB         115 kB
+├   ├ /post/2026-09-29-2pro-prosecution-sign-removal-cost
+├   ├ /post/2026-09-29-finf-jcs-terrain-change-year
+├   ├ /post/2026-09-29-finf-jinsungjoon-mine-intent
+├   └ [+126 more paths]
+├ ○ /robots.txt                                                            135 B         103 kB
+├ ○ /sitemap.xml                                                           135 B         103 kB
+├ ● /tag/[slug]                                                            131 B         125 kB
+├   ├ /tag/dmz
+├   ├ /tag/이재명
+├   ├ /tag/목함지뢰
+├   └ [+214 more paths]
+└ ● /tag/[slug]/page/[page]                                                132 B         125 kB
+    ├ /tag/dmz/page/2
+    ├ /tag/dmz/page/3
+    ├ /tag/이재명/page/2
+    └ [+2 more paths]
++ First Load JS shared by all                                             103 kB
+  ├ chunks/255-37e0f0325134c4d7.js                                       46.4 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js                                  54.2 kB
+  └ other shared chunks (total)                                          1.92 kB
+
+
+ƒ Middleware                                                               34 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

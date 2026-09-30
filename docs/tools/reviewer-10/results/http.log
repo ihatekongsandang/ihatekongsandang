@@ -1,0 +1,31 @@
+User-Agent: *
+Allow: /
+Disallow: /page/
+Disallow: /tag/*/page/
+Disallow: /en/page/
+
+Host: http://localhost:3000
+Sitemap: http://localhost:3000/sitemap.xml
+
+20:- [English version](http://localhost:3000/en) — 영어본이 있는 게시물만 영어로 제공합니다(1건, 편집자 번역). 영어와 한국어가 다르면 한국어 원문이 우선합니다.
+sitemap <url>      343 · xhtml:link       18
+<loc>http://localhost:3000/en</loc>
+<loc>http://localhost:3000/en/about</loc>
+<loc>http://localhost:3000/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility</loc>
+/ → 200 
+/en → 200 
+/en?page=1 → 200 
+/en?page=2 → 404 
+/en/page/2 → 404 
+/en/page/1 → 404 
+/en/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark → 404 
+/en/post/no-such → 404 
+/en/about → 200 
+/en/tag/dmz → 404 
+/en/ → 308 http://localhost:3105/en
+/post/no-such → 404 
+/page/999 → 404 
+/?page=2 → 200 
+/en?page=1 본문 = /en: yes
+<!DOCTYPE html><!--6Gc4uRZTghrqP36OKcOII--><html lang="ko" class="max-lg:scroll-pb-[calc(5.5rem+env(safe-area-inset-bottom))]"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-
+sitemap URL 200: 343 · 비200: 0

@@ -1,0 +1,130 @@
+PASS  / @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  / @320 콘솔 오류 0
+PASS  / @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  / @390 콘솔 오류 0
+PASS  / <html lang="ko"> — 실제 ko
+PASS  / canonical 1개 = 자기 자신 — ["http://localhost:3000"]
+PASS  / hreflang ko·en·x-default — {"ko":"http://localhost:3000","en":"http://localhost:3000/en","x-default":"http://localhost:3000"}
+PASS  / 헤더 전환 → /en — /en lang=en hreflang=en
+PASS  / 헤더 현재 언어 표시 — 한국어
+PASS  / 플로팅 배너 표시
+PASS  / 배너 여백 클래스 유지
+PASS  / 전환 클릭 → /en (lang=en) — {"path":"/en","lang":"en"}
+PASS  / @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  / @1280 콘솔 오류 0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @320 콘솔 오류 0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @390 콘솔 오류 0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility <html lang="ko"> — 실제 ko
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility canonical 1개 = 자기 자신 — ["http://localhost:3000/post/2026-09-29-nowandhere-defense-minister-nk-responsibility"]
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility hreflang ko·en·x-default — {"ko":"http://localhost:3000/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","en":"http://localhost:3000/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","x-default":"http://localhost:3000/post/2026-09-29-nowandhere-defense-minister-nk-responsibility"}
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 헤더 전환 → /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility — /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility lang=en hreflang=en
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 헤더 현재 언어 표시 — 한국어
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 상세 "Read in English" 링크 — {"text":"Read in English","href":"/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","lang":"en"}
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 플로팅 배너 표시
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 배너 여백 클래스 유지
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility 전환 클릭 → /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility (lang=en) — {"path":"/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","lang":"en"}
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-nowandhere-defense-minister-nk-responsibility @1280 콘솔 오류 0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @320 콘솔 오류 0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @390 콘솔 오류 0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark <html lang="ko"> — 실제 ko
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark canonical 1개 = 자기 자신 — ["http://localhost:3000/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark"]
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark hreflang 없음(짝 없음) — {}
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 헤더 전환 → /en — /en lang=en hreflang=en
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 헤더 현재 언어 표시 — 한국어
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 영어본 없으니 Read in English 없음 — null
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 플로팅 배너 표시
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 배너 여백 클래스 유지
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 전환 클릭 → /en (lang=en) — {"path":"/en","lang":"en"}
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /post/2026-09-29-sbsnews-lee-mine-conspiracy-remark @1280 콘솔 오류 0
+PASS  /about @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /about @320 콘솔 오류 0
+PASS  /about @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /about @390 콘솔 오류 0
+PASS  /about <html lang="ko"> — 실제 ko
+PASS  /about canonical 1개 = 자기 자신 — ["http://localhost:3000/about"]
+PASS  /about hreflang ko·en·x-default — {"ko":"http://localhost:3000/about","en":"http://localhost:3000/en/about","x-default":"http://localhost:3000/about"}
+PASS  /about 헤더 전환 → /en/about — /en/about lang=en hreflang=en
+PASS  /about 헤더 현재 언어 표시 — 한국어
+PASS  /about 플로팅 배너 표시
+PASS  /about 배너 여백 클래스 유지
+PASS  /about 전환 클릭 → /en/about (lang=en) — {"path":"/en/about","lang":"en"}
+PASS  /about @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /about @1280 콘솔 오류 0
+PASS  /tag/dmz @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /tag/dmz @320 콘솔 오류 0
+PASS  /tag/dmz @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /tag/dmz @390 콘솔 오류 0
+PASS  /tag/dmz <html lang="ko"> — 실제 ko
+PASS  /tag/dmz canonical 1개 = 자기 자신 — ["http://localhost:3000/tag/dmz"]
+PASS  /tag/dmz hreflang 없음(짝 없음) — {}
+PASS  /tag/dmz 헤더 전환 → /en — /en lang=en hreflang=en
+PASS  /tag/dmz 헤더 현재 언어 표시 — 한국어
+PASS  /tag/dmz 플로팅 배너 표시
+PASS  /tag/dmz 배너 여백 클래스 유지
+PASS  /tag/dmz 전환 클릭 → /en (lang=en) — {"path":"/en","lang":"en"}
+PASS  /tag/dmz @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /tag/dmz @1280 콘솔 오류 0
+PASS  /en @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en @320 콘솔 오류 0
+PASS  /en @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en @390 콘솔 오류 0
+PASS  /en <html lang="en"> — 실제 en
+PASS  /en canonical 1개 = 자기 자신 — ["http://localhost:3000/en"]
+PASS  /en hreflang ko·en·x-default — {"ko":"http://localhost:3000","en":"http://localhost:3000/en","x-default":"http://localhost:3000"}
+PASS  /en 헤더 전환 → / — / lang=ko hreflang=ko
+PASS  /en 헤더 현재 언어 표시 — English
+PASS  /en 플로팅 배너 미표시
+PASS  /en 배너 여백 없음 — null / mx-auto w-full max-w-6xl flex-1 px-4 py-8 / mt-16 border-t bg-surface
+PASS  /en 태그 칩·태그 링크 없음 — tag links 0
+PASS  /en 전환 클릭 → / (lang=ko) — {"path":"/","lang":"ko"}
+PASS  /en @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en @1280 콘솔 오류 0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @320 콘솔 오류 0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @390 콘솔 오류 0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility <html lang="en"> — 실제 en
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility canonical 1개 = 자기 자신 — ["http://localhost:3000/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility"]
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility hreflang ko·en·x-default — {"ko":"http://localhost:3000/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","en":"http://localhost:3000/en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","x-default":"http://localhost:3000/post/2026-09-29-nowandhere-defense-minister-nk-responsibility"}
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 헤더 전환 → /post/2026-09-29-nowandhere-defense-minister-nk-responsibility — /post/2026-09-29-nowandhere-defense-minister-nk-responsibility lang=ko hreflang=ko
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 헤더 현재 언어 표시 — English
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 상세 "한국어 원문 보기" 링크 — {"text":"한국어 원문 보기","href":"/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","lang":"ko"}
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 플로팅 배너 미표시
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 배너 여백 없음 — null / mx-auto w-full max-w-6xl flex-1 px-4 py-8 / mt-16 border-t bg-surface
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 태그 칩·태그 링크 없음 — tag links 0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility "Sources are in Korean." 안내 — ["Sources are in Korean."]
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility 전환 클릭 → /post/2026-09-29-nowandhere-defense-minister-nk-responsibility (lang=ko) — {"path":"/post/2026-09-29-nowandhere-defense-minister-nk-responsibility","lang":"ko"}
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility @1280 콘솔 오류 0
+PASS  /en/about @320 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/about @320 콘솔 오류 0
+PASS  /en/about @390 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/about @390 콘솔 오류 0
+PASS  /en/about <html lang="en"> — 실제 en
+PASS  /en/about canonical 1개 = 자기 자신 — ["http://localhost:3000/en/about"]
+PASS  /en/about hreflang ko·en·x-default — {"ko":"http://localhost:3000/about","en":"http://localhost:3000/en/about","x-default":"http://localhost:3000/about"}
+PASS  /en/about 헤더 전환 → /about — /about lang=ko hreflang=ko
+PASS  /en/about 헤더 현재 언어 표시 — English
+PASS  /en/about 플로팅 배너 미표시
+PASS  /en/about 배너 여백 없음 — null / mx-auto w-full max-w-6xl flex-1 px-4 py-8 / mt-16 border-t bg-surface
+PASS  /en/about 태그 칩·태그 링크 없음 — tag links 0
+PASS  /en/about 전환 클릭 → /about (lang=ko) — {"path":"/about","lang":"ko"}
+PASS  /en/about @1280 가로 넘침 없음 — scrollWidth-innerWidth=0
+PASS  /en/about @1280 콘솔 오류 0
+PASS  HTTP /en/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark → 404 — 실제 404
+PASS  HTTP /en/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark 404 문서 lang=ko·안내 문구
+PASS  HTTP /en/post/no-such-id → 404 — 실제 404
+PASS  HTTP /en/post/no-such-id 404 문서 lang=ko·안내 문구
+PASS  HTTP /en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility → 200 — 실제 200
+PASS  HTTP /en → 200 — 실제 200
+PASS  HTTP /en/about → 200 — 실제 200
+PASS  HTTP /en?page=1 → 200 — 실제 200
+PASS  HTTP /post/2026-09-29-nowandhere-defense-minister-nk-responsibility → 200 — 실제 200
+
+검사 128개 · 통과 128 · 실패 0

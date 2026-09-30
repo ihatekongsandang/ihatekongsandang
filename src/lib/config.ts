@@ -17,6 +17,22 @@ export const SITE = {
 } as const
 
 /**
+ * 영어 페이지(`/en/**`)의 사이트 표기. 문구는 슈퍼바이저 확정값이다(프로그래머 05 오더 §5) — 임의로 바꾸지 않는다.
+ * 사이트명은 한국어 이름 + 괄호 영문 부제 한 덩어리다. 화면에서는 `nameKo`에 `lang="ko"`를 달고
+ * 괄호 부분(`subtitle`)만 줄바꿈할 수 있게 나눠 그린다. `<title>`·OG처럼 문자열만 쓰는 곳은 `name`.
+ */
+export const SITE_EN = {
+  name: `${SITE.name} (Korea Politics & Security Brief)`,
+  nameKo: SITE.name,
+  subtitle: '(Korea Politics & Security Brief)',
+  tagline: 'Korean politics and security issues, summarized with sources and links to the originals',
+  description:
+    "A card-style digest of Korean politics and security issues — policy criticism, politicians' remarks, commentary and national security — based on news reports, official announcements and court records. Each card summarizes the original post and links to its sources instead of republishing it.",
+  locale: 'en_US',
+  language: 'en',
+} as const
+
+/**
  * 피드 한 페이지에 노출할 카드 수.
  *
  * 기본값 12의 근거: 그리드가 모바일 1열 → 태블릿 2열 → 데스크톱 3열/4열로 바뀌는데
@@ -56,10 +72,12 @@ export const NAVER_VERIFICATION = process.env.NEXT_PUBLIC_NAVER_VERIFICATION?.tr
  * 전 페이지 우측 플로팅 배너(외부 캠페인 링크). 2026-09-28 사용자 지시로 추가.
  * 문구는 슈퍼바이저 확정값이다 — 임의로 바꾸지 않는다.
  * 내릴 때는 `enabled`만 `false`로 바꾼다. 그러면 배너와 배너용 여백이 함께 사라진다.
+ * `showOnEnglish`: 국내 서명운동 링크라 영어 페이지(`/en/**`)에서는 배너와 배너용 여백을 모두 두지 않는다(프로그래머 05).
  * `href`에는 추적 파라미터(`fbclid` 등)를 붙이지 않는다.
  */
 export const FLOATING_BANNER = {
   enabled: true,
+  showOnEnglish: false,
   href: 'https://signforkorea.com/re',
   title: '이재명 재판재개 촉구 국민 서명운동',
   subtitle: '외부 사이트로 이동합니다',

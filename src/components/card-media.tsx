@@ -4,8 +4,9 @@ import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { ImageOff } from 'lucide-react'
 import type { CardMedia } from '@/lib/content/schema'
+import { t, type Locale } from '@/lib/i18n'
 
-function Placeholder({ label }: { label: string }) {
+function Placeholder({ label, text }: { label: string; text: string }) {
   return (
     <div
       className="flex aspect-[16/9] w-full flex-col items-center justify-center gap-1.5 bg-surface-strong"
@@ -13,7 +14,7 @@ function Placeholder({ label }: { label: string }) {
       aria-label={label}
     >
       <ImageOff aria-hidden="true" className="size-6 text-muted-foreground" />
-      <span className="text-xs text-muted-foreground">이미지 없음</span>
+      <span className="text-xs text-muted-foreground">{text}</span>
     </div>
   )
 }
@@ -27,7 +28,15 @@ function Placeholder({ label }: { label: string }) {
  * - 핫링크가 4xx/5xx·타임아웃으로 깨지면 onError로 플레이스홀더로 자동 전환한다.
  * - 이미지가 아예 없어도 카드 형태를 유지하도록 항상 같은 비율의 슬롯을 차지한다.
  */
-export function CardMedia({ media, priority = false }: { media: CardMedia; priority?: boolean }) {
+export function CardMedia({
+  media,
+  priority = false,
+  locale = 'ko',
+}: {
+  media: CardMedia
+  priority?: boolean
+  locale?: Locale
+}) {
   const [remoteFailed, setRemoteFailed] = useState(false)
   const imageRef = useRef<HTMLImageElement | null>(null)
 
@@ -44,7 +53,8 @@ export function CardMedia({ media, priority = false }: { media: CardMedia; prior
   }, [media])
 
   if (media.kind === 'placeholder' || (media.kind === 'remote' && remoteFailed)) {
-    return <Placeholder label="대표 이미지가 없어 대체 표시된 영역" />
+    const dict = t(locale)
+    return <Placeholder label={dict.noImageLabel} text={dict.noImage} />
   }
 
   if (media.kind === 'local') {

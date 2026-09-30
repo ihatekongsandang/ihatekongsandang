@@ -1,0 +1,8 @@
+node docs/tools/reviewer-11/hydrated-dom-same.mjs $S/pre/.next/server/app      94.65s user 50.17s system 29% cpu 8:17.92 total
+rc=0
+폭 390 · 경로 367개
+하이드레이션 후 DOM 동일 366/367 · 차이 1: en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility.html
+탭 정지점 목록 동일 366/367 (B 정지점 합계 55340) · 차이 1: en/post/2026-09-29-nowandhere-defense-minister-nk-responsibility.html(19→19)
+콘솔 오류·예외 A 0 · B 0
+
+[exited with code 0]

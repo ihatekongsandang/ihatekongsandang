@@ -1,0 +1,14 @@
+
+> ihatekongsandang@0.1.0 lint
+> eslint .
+
+
+./work/docs/tools/reviewer-04/keyboard-tab.mjs
+  36:7  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+./work/docs/tools/reviewer-10/html-same.mjs
+   9:150  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  19:3    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 3 problems (0 errors, 3 warnings)
+

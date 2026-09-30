@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardTitle } from '@/components/ui/card'
 import { CardMedia } from '@/components/card-media'
 import { GA_EVENTS, trackEvent } from '@/lib/analytics'
-import { SOURCE_TYPE_LABELS, type PostCardView } from '@/lib/content/view'
-import { formatKoreanDate } from '@/lib/utils'
+import type { PostCardView } from '@/lib/content/view'
+import { formatDate, postPath, t, type Locale } from '@/lib/i18n'
 
 interface PostCardProps {
   post: PostCardView
@@ -14,6 +14,7 @@ interface PostCardProps {
   position: number
   /** 첫 화면 카드는 이미지를 우선 로딩한다. */
   priority?: boolean
+  locale?: Locale
 }
 
 /**
@@ -22,7 +23,7 @@ interface PostCardProps {
  * 카드 전체가 상세 페이지로 가는 하나의 링크다 — 제목을 링크로 두고 가상 요소로 카드 전면을 덮어
  * 탭 정지점은 하나, 링크의 접근성 이름은 제목이 되게 한다(이미지 alt는 별도로 읽힌다).
  */
-export function PostCard({ post, position, priority = false }: PostCardProps) {
+export function PostCard({ post, position, priority = false, locale = 'ko' }: PostCardProps) {
   const ref = useRef<HTMLDivElement | null>(null)
   const reported = useRef(false)
 
@@ -36,7 +37,7 @@ export function PostCard({ post, position, priority = false }: PostCardProps) {
         for (const entry of entries) {
           if (!entry.isIntersecting || reported.current) continue
           reported.current = true
-          trackEvent(GA_EVENTS.viewCard, { post_id: post.id, position })
+          trackEvent(GA_EVENTS.viewCard, { post_id: post.id, position, ...(locale === 'en' ? { language: 'en' } : {}) })
           observer.disconnect()
         }
       },
@@ -44,19 +45,21 @@ export function PostCard({ post, position, priority = false }: PostCardProps) {
     )
     observer.observe(element)
     return () => observer.disconnect()
-  }, [post.id, position])
+  }, [post.id, position, locale])
 
   return (
     <Card
       ref={ref}
       className="relative transition-colors hover:bg-surface has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-[var(--ring)]"
     >
-      <CardMedia media={post.media} priority={priority} />
+      <CardMedia media={post.media} priority={priority} locale={locale} />
       <CardContent>
         <CardTitle>
           <Link
-            href={`/post/${post.id}`}
-            onClick={() => trackEvent(GA_EVENTS.selectCard, { post_id: post.id, position })}
+            href={postPath(locale, post.id)}
+            onClick={() =>
+              trackEvent(GA_EVENTS.selectCard, { post_id: post.id, position, ...(locale === 'en' ? { language: 'en' } : {}) })
+            }
             className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none"
           >
             {post.title}
@@ -64,9 +67,9 @@ export function PostCard({ post, position, priority = false }: PostCardProps) {
         </CardTitle>
       </CardContent>
       <CardFooter>
-        <time dateTime={post.publishedAt}>{formatKoreanDate(post.publishedAt)}</time>
+        <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, locale)}</time>
         <span aria-hidden="true">·</span>
-        <span>{SOURCE_TYPE_LABELS[post.sourceType]}</span>
+        <span>{t(locale).sourceTypes[post.sourceType]}</span>
       </CardFooter>
     </Card>
   )

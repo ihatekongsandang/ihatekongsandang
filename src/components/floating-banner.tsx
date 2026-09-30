@@ -1,13 +1,16 @@
 import { FloatingBannerLink } from '@/components/floating-banner-link'
 import { FLOATING_BANNER } from '@/lib/config'
+import { isFloatingBannerShown } from '@/lib/floating-banner'
+import type { Locale } from '@/lib/i18n'
 
 /**
  * 전 페이지 우측 플로팅 배너 — 외부 캠페인 링크(2026-09-28 사용자 지시).
  *
  * - 데스크톱(≥1024px): 화면 우측 세로 중앙에 붙은 폭 3rem 세로 탭.
  * - 모바일·태블릿(<1024px): 우측 하단 고정 버튼(iOS safe-area 반영).
- * 본문을 가리지 않기 위한 레이아웃 여백은 `FLOATING_BANNER_GUTTER`가 맡는다.
+ * 본문을 가리지 않기 위한 레이아웃 여백은 `floatingBannerGutter(locale)`가 맡는다.
  * 닫기 버튼은 두지 않는다(2026-09-28 사용자 지시 "배너 닫기 없애"). 내릴 때는 `FLOATING_BANNER.enabled`.
+ * 영어 페이지(`/en/**`)에는 띄우지 않는다 — 국내 서명운동 링크다(`FLOATING_BANNER.showOnEnglish`, 프로그래머 05).
  * 배너 본체는 서버 컴포넌트다. 클릭 이벤트 전송만 `FloatingBannerLink`(클라이언트)가 맡는다 —
  * 그래서 `enabled: false`면 문구·주소가 HTML뿐 아니라 클라이언트 JS 청크에도 남지 않는다(리뷰어 08 R2·R3).
  *
@@ -21,8 +24,8 @@ import { FLOATING_BANNER } from '@/lib/config'
  * 논리 속성(py/px = padding-block/inline)을 쓰면 위아래·좌우가 뒤바뀐다(캡처로 확인하고 고침).
  * 어두운 면 위의 포커스 표시는 사이트 기본 파란 링(대비 부족) 대신 흰 링을 안쪽으로 그린다.
  */
-export function FloatingBanner() {
-  if (!FLOATING_BANNER.enabled) return null
+export function FloatingBanner({ locale }: { locale: Locale }) {
+  if (!isFloatingBannerShown(locale)) return null
 
   const { href, title, subtitle } = FLOATING_BANNER
 

@@ -1,0 +1,13 @@
+[숫자] 입력=123 → 오류 0 · 경고 0 · 쓰인 값="인스타그램 @im_nowandhere (나우앤히어)"
+[배열] 입력=["Instagram @im_nowandhere"] → 오류 0 · 경고 0 · 쓰인 값="인스타그램 @im_nowandhere (나우앤히어)"
+[객체] 입력={"en":"Instagram"} → 오류 0 · 경고 0 · 쓰인 값="인스타그램 @im_nowandhere (나우앤히어)"
+[null] 입력=null → 오류 0 · 경고 0 · 쓰인 값="인스타그램 @im_nowandhere (나우앤히어)"
+[핸들 추가] 입력="Instagram @im_nowandhere @other (나우앤히어)" → 오류 0 · 경고 0 · 쓰인 값="Instagram @im_nowandhere @other (나우앤히어)"
+[괄호 밖 한글(홑낫표)] 입력="Instagram @im_nowandhere 「나우앤히어」" → 오류 0 · 경고 1 ["attribution에 한글이 섞여 있습니다(괄호 안 병기 제외): 「나우앤히어」"] · 쓰인 값="Instagram @im_nowandhere 「나우앤히어」"
+[중첩 괄호 안 한글] 입력="Instagram @im_nowandhere (Now and Here (나우앤히어))" → 오류 0 · 경고 0 · 쓰인 값="Instagram @im_nowandhere (Now and Here (나우앤히어))"
+[핸들 뒤 마침표 원본] 입력="Instagram @abc." → 오류 0 · 경고 0 · 쓰인 값="Instagram @abc."
+[원본 핸들 2개 중 1개 누락] 입력="Threads @a" → 오류 0 · 경고 1 ["attribution: 한국어 원본의 계정 핸들 @b이(가) 영어 표기에 없습니다 — 핸들은 원본 그대로 두고 플랫폼명만 바꾸세요."] · 쓰인 값="Threads @a"
+[render en] "Instagram @im_nowandhere (Now and Here (나우앤히어))" → 감싸는 요소 lang=(없음) · Instagram @im_nowandhere (Now and Here <span lang="ko">(나우앤히어)</span>)
+[render en] "Instagram @im_nowandhere （나우앤히어）" → 감싸는 요소 lang=(없음) · Instagram @im_nowandhere <span lang="ko">（나우앤히어）</span>
+[render en] "Instagram @a (나우) and Threads @b (앤히어)" → 감싸는 요소 lang=(없음) · Instagram @a <span lang="ko">(나우)</span> and Threads @b <span lang="ko">(앤히어)</span>
+[render en] "Instagram @im_nowandhere (Now and Here)" → 감싸는 요소 lang=(없음) · Instagram @im_nowandhere (Now and Here)

@@ -1,0 +1,14 @@
+start 00:17:02
+경로 356개 × 폭 7종
+./docs/tools/programmer-04/cdp.mjs:62
+            reject(new Error('이벤트 대기 시간 초과'))
+                   ^
+
+Error: 이벤트 대기 시간 초과
+    at Timeout._onTimeout (./docs/tools/programmer-04/cdp.mjs:62:20)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+Node.js v24.14.0
+exit 1
+end 00:18:10

@@ -1,0 +1,81 @@
+
+> ihatekongsandang@0.1.0 validate:content
+> tsx scripts/validate-content.ts
+
+콘텐츠 검증 — content/posts/*.md 129건 · content/posts-en/*.md 1건
+
+🟡 2026-07-12-judypia-real-estate-supervisory-bill.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.md
+   · description이 186자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-28-geonwoo-yoon-final-statement-australia.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-08-03-pagememo-nk-prosecution-reform-directive.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-08-kimsohee-ppp-seven-pledges.md
+   · description이 173자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-10-brieftag-nk-contact-reports-china.md
+   · description이 163자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-13-geonwoo-518-list-disclosure-citizen.md
+   · description이 178자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-20-hagonolza-constitution-amendment-points.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-21-centrism-dmz-summary.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-23-shindawit-army-lecture-trump.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-24-hagonolza-kctu-itaewon-claim.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-25-peoplepower7-tankday-vs-mine.md
+   · description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-26-neveragain-mexico-tariff-visit.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-facteye-dmz-mine-similar-object.md
+   · description이 167자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md
+   · description이 180자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark.md
+   · description이 162자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-solsol-mexico-17-agreements.md
+   · description이 181자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-sonit-nk-aid-vs-elderly-support.md
+   · description이 175자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-2pro-prosecution-sign-removal-cost.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-leejinsook-assassins-film-distortion.md
+   · description이 169자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-nowandhere-defense-minister-nk-responsibility.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-shindawit-cxmt-samsung-threat.md
+   · description이 170자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+── 요약 ──
+검사 파일 130건(한국어 129 · 영어본 1) · 통과 130건 · 실패 0건 (오류 0개)
+고유 id 129개 · 폐기 id 목록 3개
+유형별: url 129
+배경 보도 출처: 346건 · 발언자 표기: 49건
+검사한 이미지 alt 129개
+영어본 1건 / 전체 129건
+
+✅ 검증 통과

@@ -1,0 +1,7 @@
+T1-no-original · validate 실패 · next build(prebuild 없이) 실패 · ✗ 한국어 원본이 없습니다 — content/posts/no-such-id.md가 없거나 검증을 통과하지 못했습니다. 원본 없는 영어본은 둘 수 없습니다.
+T2-id-mismatch · validate 실패 · next build(prebuild 없이) 실패 · ✗ id(2026-09-29-sbsnews-lee-mine-conspiracy-remark)가 파일명(2026-09-29-nowandhere-defense-minister-nk-responsibility)과 다릅니다
+T3-no-title · validate 실패 · next build(prebuild 없이) 실패 · ✗ title: 필수입니다(영어 제목).
+T4-bad-yaml · validate 실패 · next build(prebuild 없이) 실패 · ✗ frontmatter(YAML) 파싱 실패: missed comma between flow collection entries at line 4, column 1:
+T5-no-imagealt · validate 실패 · next build(prebuild 없이) 실패 · ✗ imageAlt: 한국어 원본에 image가 있으므로 필수입니다(영어 대체 텍스트, WCAG 1.1.1).
+T6-no-caption · validate 실패 · next build(prebuild 없이) 실패 · ✗ imageCaption: 한국어 원본에 image.caption이 있으므로 필수입니다(영어 캡션).
+T7-bad-date · validate 실패 · next build(prebuild 없이) 실패 · ✗ translatedAt: 필수이며 `YYYY-MM-DD` 형식이어야 합니다. (받은 값: 2026-9-29)
