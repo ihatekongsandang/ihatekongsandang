@@ -27,7 +27,9 @@ instructions/
 │   └── processed/
 ├── reviewer/                       ← 리뷰어 (Opus 5.5, 간헐 호출)
 │   └── processed/
-└── tester/                         ← 테스터 (Sonnet)
+├── tester/                         ← 테스터 (Sonnet)
+│   └── processed/
+└── translator/                     ← 번역가 (Sonnet 5, 영어본 content/posts-en/)
     └── processed/
 ```
 
