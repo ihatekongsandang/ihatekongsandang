@@ -8,7 +8,7 @@ attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. The original cites reports by Yonhap, Newsis, Wolyo Shinmun (월요신문) and The Financial News. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation](/post/2026-09-30-2pro-unc-armistice-violation) · [Kim Kye-ri (김계리) on North Korean POWs in Ukraine](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. The original cites reports by Yonhap, Newsis, Wolyo Shinmun (월요신문) and The Financial News. A [Threads post by @haru_eunhye](https://www.threads.com/@haru_eunhye/post/Dd5_EDXD_Kt) reporting the same absences is noted here instead of in a separate post. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation](/post/2026-09-30-2pro-unc-armistice-violation) · [Kim Kye-ri (김계리) on North Korean POWs in Ukraine](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
 
 ## What the original post claims (the poster's opinion)
 
