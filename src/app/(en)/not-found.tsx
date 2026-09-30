@@ -1,5 +1,10 @@
+import type { Metadata } from 'next'
 import { NotFoundMessage } from '@/components/not-found-message'
 import { PageFrame } from '@/components/page-frame'
+
+// 레이아웃의 robots(`index, follow`)를 덮어쓴다 — 없으면 Next가 넣는 `noindex`와 모순된 지시가 함께 나간다
+// (리뷰어 11 P2-C, 스크래치 시험 `docs/tools/reviewer-11/robots-experiment/`). 전역 404와 같은 `noindex, follow`.
+export const metadata: Metadata = { robots: { index: false, follow: true } }
 
 /**
  * 영어 그룹 안의 404 (프로그래머 05-1 — 리뷰어 10 D1).

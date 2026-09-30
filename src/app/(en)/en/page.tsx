@@ -3,19 +3,23 @@ import { FeedView } from '@/components/feed-view'
 import { JsonLd } from '@/components/json-ld'
 import { PageFrame } from '@/components/page-frame'
 import { FEED_PAGE_SIZE, SITE_EN } from '@/lib/config'
-import { getAllEnglishPosts, paginate } from '@/lib/content/load'
-import { toCardView } from '@/lib/content/view'
+import { getEnglishFeedPosts, paginate } from '@/lib/content/load'
+import { englishFeedPostHref, toCardView } from '@/lib/content/view'
+import { t } from '@/lib/i18n'
 import { collectionJsonLd, languageAlternates } from '@/lib/seo'
 import { EnglishSiteHeading } from '@/components/english-site-heading'
 
-/** 영어 홈 — 영어본이 있는 게시물만 최신순(한국어 피드와 같은 카드 그리드·페이지 크기). */
+/**
+ * 영어 홈 — 한국어 피드와 같은 게시물 전체·같은 순서·같은 페이지 크기(프로그래머 06).
+ * 영어본 있는 글은 영어 카드(→ `/en/post/{id}`), 없는 글은 한국어 원본 카드("Korean only", → `/post/{id}`).
+ */
 export const metadata: Metadata = {
   alternates: { canonical: '/en', languages: languageAlternates('/', '/en') },
 }
 
 export default function EnglishHomePage() {
-  const posts = getAllEnglishPosts()
-  const page = paginate(posts, 1, FEED_PAGE_SIZE)
+  const entries = getEnglishFeedPosts()
+  const page = paginate(entries, 1, FEED_PAGE_SIZE)
 
   return (
     <PageFrame locale="en" languageLinks={{ ko: '/', en: '/en' }}>
@@ -23,8 +27,9 @@ export default function EnglishHomePage() {
         heading={SITE_EN.name}
         headingNode={<EnglishSiteHeading />}
         lead={SITE_EN.description}
+        notice={t('en').koreanOnlyFeedNotice}
         basePath="/en"
-        posts={page.items.map((post) => toCardView(post, 'en'))}
+        posts={page.items.map(({ post, translated }) => toCardView(post, 'en', translated))}
         page={page.page}
         totalPages={page.totalPages}
         totalItems={page.totalItems}
@@ -36,8 +41,9 @@ export default function EnglishHomePage() {
           name: SITE_EN.name,
           description: SITE_EN.description,
           path: '/en',
-          posts: page.items,
+          posts: page.items.map(({ post }) => post),
           locale: 'en',
+          postHref: englishFeedPostHref(page.items),
         })}
       />
     </PageFrame>

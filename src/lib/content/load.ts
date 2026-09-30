@@ -159,12 +159,22 @@ export function hasTranslation(id: string): boolean {
   return getAllTranslations().has(id)
 }
 
-/** 영어본이 있는 게시물만, 영어 필드로 갈아 끼운 채 한국어 피드와 같은 순서(최신순)로. */
-export function getAllEnglishPosts(): Post[] {
+export interface EnglishFeedEntry {
+  post: Post
+  /** 영어본이 있으면 `post`는 영어 필드로 갈아 끼운 값, 없으면 한국어 원본 그대로다. */
+  translated: boolean
+}
+
+/**
+ * 영어 피드(`/en`) — 한국어 피드와 같은 게시물 전체·같은 순서(최신순) (프로그래머 06).
+ * 영어본이 있는 글은 영어 필드로, 없는 글은 한국어 원본 그대로 넘긴다(카드에 "Korean only" 표시·한국어 상세로 링크).
+ */
+export function getEnglishFeedPosts(): EnglishFeedEntry[] {
   const translations = getAllTranslations()
-  return getAllPosts()
-    .filter((post) => translations.has(post.id))
-    .map((post) => localizePost(post, translations.get(post.id) as PostTranslation))
+  return getAllPosts().map((post) => {
+    const translation = translations.get(post.id)
+    return translation ? { post: localizePost(post, translation), translated: true } : { post, translated: false }
+  })
 }
 
 export function getEnglishPostById(id: string): Post | undefined {

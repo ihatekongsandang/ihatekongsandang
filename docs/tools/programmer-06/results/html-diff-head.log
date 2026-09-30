@@ -1,0 +1,9 @@
+기준 HTML 372개(한국어·404 364 · 영어 8) · 작업 HTML 382개
+기준에 있고 작업에 없는 파일: 0개
+작업에만 있는 파일: 10개 — en/page/10.html, en/page/11.html, en/page/2.html, en/page/3.html, en/page/4.html, en/page/5.html, en/page/6.html, en/page/7.html, en/page/8.html, en/page/9.html
+한국어·404 동일: 364 / 364 · 다름 0
+영어 동일: 7 · 다름 1 — en.html
+
+· en.html
+  기준: …izes the original post and links to its sources instead of republishing it.</p></div><div class="flex items-baseline justify-between gap-4 border-t pt-6"><h2 class="text-sm font-semibold">Latest posts</h2><p class="text-xs text-muted-foreground">6 posts · Page 1 of 1</p></div><ul…
+  작업: …izes the original post and links to its sources instead of republishing it.</p><p class="max-w-3xl text-sm text-muted-foreground">Posts marked &quot;Korean only&quot; have not been translated yet and open in Korean.</p></div><div class="flex items-baseline justify-between gap-4 b…

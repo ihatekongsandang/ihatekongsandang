@@ -1,0 +1,12 @@
+[실데이터] 게시물 129 · 핸들 포함 attribution 129 · 원본 그대로 넣었을 때 핸들 경고 0건
+[관찰 기준 원본] 2026-09-29-2pro-prosecution-sign-removal-cost — attribution "스레드 @2.pro.official (이프로)"
+[관찰] 핸들 뒤 마침표
+  errors 2(imageAlt,imageCaption) · notices: attribution: 한국어 원본의 계정 핸들 @2.pro.official이(가) 영어 표기에 없습니다 — 핸들은 원본 그대로 두고 플랫폼명만 바꾸세요. / attribution: 한국어 원본에 없는 계정 핸들 @2.pro.official.이(가) 영어 표기에 있습니다 — 출처 표기에는 원본의 핸들만 둡니다.
+[관찰] 이메일 주소 포함
+  errors 2(imageAlt,imageCaption) · notices: attribution: 한국어 원본에 없는 계정 핸들 @example.com이(가) 영어 표기에 있습니다 — 출처 표기에는 원본의 핸들만 둡니다.
+[관찰] Date 값
+  errors 2(imageAlt,imageCaption) · notices: attribution: 문자열이 아니라 무시됩니다(받은 값: 날짜) — 따옴표로 감싼 한 줄 문자열로 적으세요. 지금은 한국어 원본 값이 나갑니다.
+[관찰] 빈 문자열
+  errors 2(imageAlt,imageCaption) · notices: (없음)
+[관찰] 발언자 없는 원본에 speakerAffiliation 숫자
+  errors 2(imageAlt,imageCaption) · notices: speakerAffiliation: 문자열이 아니라 무시됩니다(받은 값: 숫자) — 따옴표로 감싼 한 줄 문자열로 적으세요. 지금은 한국어 원본 값이 나갑니다.

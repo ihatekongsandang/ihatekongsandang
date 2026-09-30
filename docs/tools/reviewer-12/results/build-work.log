@@ -1,0 +1,182 @@
+
+> ihatekongsandang@0.1.0 prebuild
+> npm run validate:content
+
+
+> ihatekongsandang@0.1.0 validate:content
+> tsx scripts/validate-content.ts
+
+콘텐츠 검증 — content/posts/*.md 129건 · content/posts-en/*.md 6건
+
+🟡 2026-07-12-judypia-real-estate-supervisory-bill.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.md
+   · description이 186자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-28-geonwoo-yoon-final-statement-australia.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-08-03-pagememo-nk-prosecution-reform-directive.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-08-kimsohee-ppp-seven-pledges.md
+   · description이 173자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-10-brieftag-nk-contact-reports-china.md
+   · description이 163자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-13-geonwoo-518-list-disclosure-citizen.md
+   · description이 178자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-20-hagonolza-constitution-amendment-points.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-21-centrism-dmz-summary.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-23-shindawit-army-lecture-trump.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-24-hagonolza-kctu-itaewon-claim.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-25-peoplepower7-tankday-vs-mine.md
+   · description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-26-neveragain-mexico-tariff-visit.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-facteye-dmz-mine-similar-object.md
+   · description이 167자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md
+   · description이 180자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark.md
+   · description이 162자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-solsol-mexico-17-agreements.md
+   · description이 181자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-sonit-nk-aid-vs-elderly-support.md
+   · description이 175자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-2pro-prosecution-sign-removal-cost.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-leejinsook-assassins-film-distortion.md
+   · description이 169자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-nowandhere-defense-minister-nk-responsibility.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-shindawit-cxmt-samsung-threat.md
+   · description이 170자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 posts-en/2026-09-28-nakyungwon-mine-report-deletion.md
+   · description이 228자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 posts-en/2026-09-28-pagememo-jcs-interim-result.md
+   · description이 232자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 posts-en/2026-09-29-finf-jcs-terrain-change-year.md
+   · description이 253자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 posts-en/2026-09-29-finf-jinsungjoon-mine-intent.md
+   · description이 264자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 posts-en/2026-09-29-sbsnews-lee-mine-conspiracy-remark.md
+   · description이 239자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+── 요약 ──
+검사 파일 135건(한국어 129 · 영어본 6) · 통과 135건 · 실패 0건 (오류 0개)
+고유 id 129개 · 폐기 id 목록 3개
+유형별: url 129
+배경 보도 출처: 346건 · 발언자 표기: 49건
+검사한 이미지 alt 129개
+영어본 6건 / 전체 129건
+
+✅ 검증 통과
+
+> ihatekongsandang@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.25
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ✓ globalNotFound
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 3.8s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/390) ...
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (97/390) 
+   Generating static pages (194/390) 
+   Generating static pages (292/390) 
+ ✓ Generating static pages (390/390)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                   Size  First Load JS
+┌ ○ /                                                        131 B         125 kB
+├ ○ /_not-found                                              196 B         108 kB
+├ ○ /about                                                   170 B         106 kB
+├ ○ /en                                                      131 B         125 kB
+├ ○ /en/about                                                170 B         106 kB
+├ ○ /en/opengraph-image-1nh35u                               136 B         103 kB
+├ ● /en/page/[page]                                          131 B         125 kB
+├   ├ /en/page/2
+├   ├ /en/page/3
+├   ├ /en/page/4
+├   └ [+7 more paths]
+├ ● /en/post/[id]                                           3.3 kB         115 kB
+├   ├ /en/post/2026-09-28-nakyungwon-mine-report-deletion
+├   ├ /en/post/2026-09-28-pagememo-jcs-interim-result
+├   ├ /en/post/2026-09-29-finf-jcs-terrain-change-year
+├   └ [+3 more paths]
+├ ○ /icon.svg                                                  0 B            0 B
+├ ○ /llms.txt                                                136 B         103 kB
+├ ○ /opengraph-image                                         136 B         103 kB
+├ ● /page/[page]                                             130 B         125 kB
+├   ├ /page/2
+├   ├ /page/3
+├   ├ /page/4
+├   └ [+7 more paths]
+├ ● /post/[id]                                              3.3 kB         115 kB
+├   ├ /post/2026-09-29-2pro-prosecution-sign-removal-cost
+├   ├ /post/2026-09-29-finf-jcs-terrain-change-year
+├   ├ /post/2026-09-29-finf-jinsungjoon-mine-intent
+├   └ [+126 more paths]
+├ ○ /robots.txt                                              136 B         103 kB
+├ ○ /sitemap.xml                                             136 B         103 kB
+├ ● /tag/[slug]                                              131 B         125 kB
+├   ├ /tag/dmz
+├   ├ /tag/이재명
+├   ├ /tag/목함지뢰
+├   └ [+214 more paths]
+└ ● /tag/[slug]/page/[page]                                  131 B         125 kB
+    ├ /tag/dmz/page/2
+    ├ /tag/dmz/page/3
+    ├ /tag/이재명/page/2
+    └ [+2 more paths]
++ First Load JS shared by all                               103 kB
+  ├ chunks/813-105509dc5378bb65.js                         46.3 kB
+  ├ chunks/8b2b8c00-88b8ac29e2f7c09f.js                    54.2 kB
+  └ other shared chunks (total)                            1.92 kB
+
+
+ƒ Middleware                                                 34 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+exit 0

@@ -80,8 +80,11 @@ export function collectionJsonLd(input: {
   path: string
   posts: Post[]
   locale?: Locale
+  /** 목록 항목의 경로. 기본은 같은 언어 상세 — 영어 피드의 영어본 없는 글은 한국어 상세를 넘긴다(프로그래머 06). */
+  postHref?: (post: Post) => string
 }) {
   const locale = input.locale ?? 'ko'
+  const postHref = input.postHref ?? ((post: Post) => postPath(locale, post.id))
   const site = siteFor(locale)
   return {
     '@context': 'https://schema.org',
@@ -97,7 +100,7 @@ export function collectionJsonLd(input: {
       itemListElement: input.posts.map((post, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: absoluteUrl(postPath(locale, post.id)),
+        url: absoluteUrl(postHref(post)),
         name: post.title,
       })),
     },

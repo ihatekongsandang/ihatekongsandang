@@ -1,0 +1,8 @@
+피드 페이지 ko 11 · en 1 · 한국어 카드 12 · 영어 카드 6(영어본 6 · Korean only 0) · 영어본 id 6
+검사 37개 · 통과 31 · 실패 6
+FAIL 피드 페이지 수 한국어 = 영어 — ko 11 · en 1
+FAIL p1 카드 수 동일 — ko 12 · en 6
+FAIL p1 id 순서 동일
+FAIL p1 영어 안내 1회
+FAIL p1 건수 표시 일치 — 129,1,11 / 6,1,1
+FAIL p1 Load more — undefined

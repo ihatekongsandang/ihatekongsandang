@@ -369,7 +369,8 @@ translatedAt: 2026-09-29              # 필수 (YYYY-MM-DD)
 | 원본이 사진 유형(`images[]`)인데 영어 `images: [{alt, caption}]`이 같은 개수로 없음 | 빌드 중단 |
 | 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
 | 영어 title·description·alt·caption·speakerAffiliation·attribution·본문에 한글이 섞임 (괄호 안 병기 `Chung Dong-young (정동영)`은 제외) | 경고만 |
-| `attribution`에 한국어 원본의 계정 핸들(`@…`)이 빠짐 | 경고만 |
+| `attribution`에 한국어 원본의 계정 핸들(`@…`)이 빠짐 · 원본에 없는 핸들이 들어감 | 경고만 |
+| `attribution`·`speakerAffiliation`이 문자열이 아님(목록·숫자 등 — 무시되고 원본 값이 나감) | 경고만 |
 | 원본이 번역 이후 갱신됨(`updatedAt` > `translatedAt`) · 원본 값을 쓰는 필드를 적음 · 모르는 필드 | 경고만 |
 
 - **출처 표기 `attribution`** — 저작권 표시 성격이라 **플랫폼명만** 영어로 바꾼다(인스타그램 → Instagram, 스레드 → Threads, 유튜브 → YouTube, 페이스북 → Facebook). 계정 핸들과 괄호 안 원문 이름은 원본 그대로 둔다.
@@ -380,4 +381,5 @@ translatedAt: 2026-09-29              # 필수 (YYYY-MM-DD)
   `/about`·`/tag/…` 같은 다른 내부 링크는 자동으로 바뀌지 않는다 — 영어 소개는 `/en/about`으로 직접 적고, 태그 링크는 영어 페이지에 쓰지 않는다.
 - 배경 보도의 기사 제목은 번역하지 않는다(한국어 원문 그대로 나가고, 목록 위에 "Sources are in Korean." 안내가 붙는다).
 - 영어 페이지에는 태그 칩·플로팅 배너가 나오지 않는다.
+- 영어 피드(`/en`)에는 **영어본이 없는 글도 모두** 한국어 피드와 같은 순서로 나온다 — 한국어 원본 카드에 "Korean only" 표시가 붙고 한국어 상세(`/post/{id}`)로 연결된다. 영어본을 추가하면 그 카드가 영어 카드(`/en/post/{id}`)로 바뀐다. 영어 상세 페이지·sitemap의 `/en/post/…`는 영어본 있는 글만이다.
 - 번역은 원본 내용 범위 안에서만 한다. 원본에 없는 단정·정보를 더하지 않는다(§5 원칙 동일). 인명은 로마자 뒤 괄호에 한글을 병기하면 경고 없이 통과한다.

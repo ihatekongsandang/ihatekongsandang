@@ -64,6 +64,10 @@ interface Dictionary {
   sourceCheck: string
   /** 상대 언어본으로 가는 상세 링크(한국어 상세 → 영어본, 영어 상세 → 한국어 원문). */
   otherLanguageVersion: string
+  /** 영어 피드의 영어본 없는 카드 표시. 한국어 페이지에서는 빈 값(표시하지 않음). */
+  koreanOnly: string
+  /** 영어 피드 상단 안내(슈퍼바이저 확정 문구). 한국어 페이지에서는 빈 값(표시하지 않음). */
+  koreanOnlyFeedNotice: string
 }
 
 const ko: Dictionary = {
@@ -117,6 +121,8 @@ const ko: Dictionary = {
   correctionAfter: '를 통해 알려주세요. ',
   sourceCheck: '원문 확인: ',
   otherLanguageVersion: 'Read in English',
+  koreanOnly: '',
+  koreanOnlyFeedNotice: '',
 }
 
 
@@ -172,6 +178,8 @@ const en: Dictionary = {
   correctionAfter: '. ',
   sourceCheck: 'Original: ',
   otherLanguageVersion: '한국어 원문 보기',
+  koreanOnly: 'Korean only',
+  koreanOnlyFeedNotice: 'Posts marked "Korean only" have not been translated yet and open in Korean.',
 }
 
 export const DICTIONARY: Record<Locale, Dictionary> = { ko, en }

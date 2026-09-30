@@ -1,0 +1,17 @@
+PASS  클릭 /en koreanOnly 카드 있음 — {"href":"/post/2026-09-29-2pro-prosecution-sign-removal-cost","position":1,"events":[["select_card",{"post_id":"2026-09-29-2pro-prosecution-sign-removal-cost","position":1,"language":"en","translated":false}]],"gtag":"function"}
+PASS  클릭 /en koreanOnly gtag 준비 — function
+PASS  클릭 /en koreanOnly select_card payload — {"post_id":"2026-09-29-2pro-prosecution-sign-removal-cost","position":1,"language":"en","translated":false}
+PASS  클릭 /en koreanOnly 도착 /post/2026-09-29-2pro-prosecution-sign-removal-cost (lang=ko) — {"path":"/post/2026-09-29-2pro-prosecution-sign-removal-cost","lang":"ko"}
+PASS  클릭 /en translated 카드 있음 — {"href":"/en/post/2026-09-29-finf-jcs-terrain-change-year","position":2,"events":[["select_card",{"post_id":"2026-09-29-finf-jcs-terrain-change-year","position":2,"language":"en","translated":true}]],"gtag":"function"}
+PASS  클릭 /en translated gtag 준비 — function
+PASS  클릭 /en translated select_card payload — {"post_id":"2026-09-29-finf-jcs-terrain-change-year","position":2,"language":"en","translated":true}
+PASS  클릭 /en translated 도착 /en/post/2026-09-29-finf-jcs-terrain-change-year (lang=en) — {"path":"/en/post/2026-09-29-finf-jcs-terrain-change-year","lang":"en"}
+PASS  클릭 / any 카드 있음 — {"href":"/post/2026-09-29-2pro-prosecution-sign-removal-cost","position":1,"events":[["select_card",{"post_id":"2026-09-29-2pro-prosecution-sign-removal-cost","position":1}]],"gtag":"function"}
+PASS  클릭 / any gtag 준비 — function
+PASS  클릭 / any select_card payload — {"post_id":"2026-09-29-2pro-prosecution-sign-removal-cost","position":1}
+PASS  클릭 / any 도착 /post/2026-09-29-2pro-prosecution-sign-removal-cost (lang=ko) — {"path":"/post/2026-09-29-2pro-prosecution-sign-removal-cost","lang":"ko"}
+PASS  view_card /en 12건 payload — []
+PASS  view_card /en — translated true·false 둘 다 관측 — [false,true]
+PASS  view_card / 12건 payload — []
+
+검사 15개 · 통과 15 · 실패 0

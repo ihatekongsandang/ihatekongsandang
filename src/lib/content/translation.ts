@@ -126,6 +126,16 @@ export function validateTranslation(
   const attribution = asTrimmedString(data.attribution)
   let images: PostTranslation['images']
 
+  // 선택 필드라 값이 없으면 원본 값으로 폴백한다 — 문자열이 아닌 값(오타로 생긴 배열·숫자 등)이 조용히 묻히지 않게 알린다(리뷰어 11 P2-A).
+  for (const key of ['attribution', 'speakerAffiliation'] as const) {
+    const value = data[key]
+    if (value !== undefined && value !== null && typeof value !== 'string') {
+      notices.push(
+        `${key}: 문자열이 아니라 무시됩니다(받은 값: ${describeType(value)}) — 따옴표로 감싼 한 줄 문자열로 적으세요. 지금은 한국어 원본 값이 나갑니다.`,
+      )
+    }
+  }
+
   if (original) {
     if (original.image) {
       if (!imageAlt) errors.push('imageAlt: 한국어 원본에 image가 있으므로 필수입니다(영어 대체 텍스트, WCAG 1.1.1).')
@@ -148,10 +158,19 @@ export function validateTranslation(
 
     if (attribution) {
       // 출처 표기는 저작권 표시 성격이라 원본의 계정 핸들이 빠지거나 바뀌면 안 된다 — 번역은 플랫폼명까지만.
-      const missing = handlesIn(original.attribution).filter((handle) => !handlesIn(attribution).includes(handle))
+      const originalHandles = handlesIn(original.attribution)
+      const translatedHandles = handlesIn(attribution)
+      const missing = originalHandles.filter((handle) => !translatedHandles.includes(handle))
       if (missing.length > 0) {
         notices.push(
           `attribution: 한국어 원본의 계정 핸들 ${missing.join(', ')}이(가) 영어 표기에 없습니다 — 핸들은 원본 그대로 두고 플랫폼명만 바꾸세요.`,
+        )
+      }
+      // 반대 방향도 같은 원칙 — 원본에 없는 계정을 출처 표기에 더하지 않는다(리뷰어 11 P2-B).
+      const added = [...new Set(translatedHandles.filter((handle) => !originalHandles.includes(handle)))]
+      if (added.length > 0) {
+        notices.push(
+          `attribution: 한국어 원본에 없는 계정 핸들 ${added.join(', ')}이(가) 영어 표기에 있습니다 — 출처 표기에는 원본의 핸들만 둡니다.`,
         )
       }
     }
@@ -217,6 +236,13 @@ export function validateTranslation(
     fileName,
   }
   return { errors, notices, translation }
+}
+
+function describeType(value: unknown): string {
+  if (Array.isArray(value)) return '목록'
+  if (value instanceof Date) return '날짜'
+  if (typeof value === 'object') return '객체'
+  return typeof value === 'number' ? '숫자' : typeof value === 'boolean' ? '참/거짓' : typeof value
 }
 
 /** 출처 표기 속 계정 핸들(`@im_nowandhere`). 대소문자까지 원본과 같아야 같은 핸들로 본다. */

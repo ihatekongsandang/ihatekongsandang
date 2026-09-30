@@ -35,7 +35,7 @@ export function GET(): Response {
     `- [최신 게시물](${absoluteUrl('/')})`,
     `- [소개·출처 정책·표기 원칙·정정 요청](${absoluteUrl('/about')})`,
     `- [사이트맵](${absoluteUrl('/sitemap.xml')})`,
-    `- [English version](${absoluteUrl('/en')}) — 영어본이 있는 게시물만 영어로 제공합니다(${getAllTranslations().size}건, 편집자 번역). 영어와 한국어가 다르면 한국어 원문이 우선합니다.`,
+    `- [English version](${absoluteUrl('/en')}) — 영어 피드에는 전체 게시물이 나오며, 영어본이 있는 게시물만 영어로 제공합니다(${getAllTranslations().size}건, 편집자 번역). 나머지는 "Korean only"로 표시되고 한국어 페이지로 연결됩니다. 영어와 한국어가 다르면 한국어 원문이 우선합니다.`,
     '',
   ]
 

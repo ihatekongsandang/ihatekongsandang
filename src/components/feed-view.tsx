@@ -19,6 +19,8 @@ interface FeedViewProps {
   locale?: Locale
   /** 제목을 문자열 대신 직접 그릴 때(영어 사이트명의 한국어 부분에 `lang`을 달기 위해). */
   headingNode?: React.ReactNode
+  /** 설명 아래 안내 한 줄(영어 피드의 "Korean only" 안내, 프로그래머 06). */
+  notice?: string
 }
 
 export function FeedView({
@@ -33,13 +35,23 @@ export function FeedView({
   activeTag,
   locale = 'ko',
   headingNode,
+  notice,
 }: FeedViewProps) {
   const dict = t(locale)
+  const leadNode = lead ? <p className="max-w-3xl text-sm text-muted-foreground sm:text-base">{lead}</p> : null
   return (
     <div className="space-y-6">
       <div className="space-y-3">
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{headingNode ?? heading}</h1>
-        {lead ? <p className="max-w-3xl text-sm text-muted-foreground sm:text-base">{lead}</p> : null}
+        {/* 안내가 없을 때는 설명 한 슬롯만 둔다 — 한국어 피드의 서버 트리(RSC)를 이전과 같게 유지(프로그래머 06). */}
+        {notice ? (
+          <>
+            {leadNode}
+            <p className="max-w-3xl text-sm text-muted-foreground">{notice}</p>
+          </>
+        ) : (
+          leadNode
+        )}
       </div>
 
       {/* 영어 페이지는 태그 칩을 두지 않는다 — 한국어 태그 페이지로 보내지 않기 위해(프로그래머 05). */}

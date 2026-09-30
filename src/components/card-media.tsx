@@ -32,10 +32,13 @@ export function CardMedia({
   media,
   priority = false,
   locale = 'ko',
+  altLang,
 }: {
   media: CardMedia
   priority?: boolean
   locale?: Locale
+  /** 대체 텍스트가 페이지 언어와 다를 때(영어 피드의 한국어 원본 카드 → `'ko'`). 플레이스홀더 문구는 UI 문구라 해당 없음. */
+  altLang?: 'ko'
 }) {
   const [remoteFailed, setRemoteFailed] = useState(false)
   const imageRef = useRef<HTMLImageElement | null>(null)
@@ -63,6 +66,7 @@ export function CardMedia({
         <Image
           src={media.src}
           alt={media.alt}
+          lang={altLang}
           fill
           priority={priority}
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -79,6 +83,7 @@ export function CardMedia({
         ref={imageRef}
         src={media.src}
         alt={media.alt}
+        lang={altLang}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
         onError={() => setRemoteFailed(true)}
