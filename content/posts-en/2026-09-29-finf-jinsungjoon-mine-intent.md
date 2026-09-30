@@ -1,7 +1,7 @@
 ---
 id: 2026-09-29-finf-jinsungjoon-mine-intent
 title: "Defense Committee chair Jin Sung-joon: \"North Korea is responsible, but whether the mine was laid to harm our troops must be examined\" — controversy over 'caution on intent' a day after the JCS announcement"
-description: "Instagram @finf_media criticized Defense Committee chair Jin Sung-joon for saying on the radio, a day after the JCS interim findings, that the response should depend on intent. He accepted North Korea's responsibility but drew a line with the 2015 box-mine attack."
+description: "Defense Committee chair Jin Sung-joon said North Korea is responsible for the DMZ mine but whether it was laid to harm troops must be examined."
 imageAlt: "Thumbnail of Rep. Jin Sung-joon's face against a Korean flag background, with the publisher's logo"
 imageCaption: "First slide of the original post"
 speakerAffiliation: "Democratic Party lawmaker (chair of the National Assembly Defense Committee)"

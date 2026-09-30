@@ -1,7 +1,7 @@
 ---
 id: 2026-09-29-finf-jcs-terrain-change-year
 title: "JCS: \"Traces of North Korean mine-laying first spotted by satellite last September\" — nearly a year of UNC consultations; reporters ask \"What was done in the meantime?\""
-description: "Instagram @finf_media criticized the JCS after it said terrain changes near the MDL were spotted by satellite last September but not verified before the blast. The JCS said it had been consulting the UN Command and is reviewing more surveillance assets."
+description: "The JCS says it spotted signs of North Korean mine-laying by satellite last September but had not verified them on site before the Sept. 21 blast."
 imageAlt: "Thumbnail showing a military official answering questions at a Defense Ministry briefing, overlaid with the text 'Reporters rebuke JCS explanation: what did you do for a year?'"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @finf_media (핀프)"

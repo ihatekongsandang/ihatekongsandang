@@ -1,7 +1,7 @@
 ---
 id: 2026-09-28-pagememo-jcs-interim-result
 title: "JCS interim probe into DMZ blast: \"very likely a North Korean mine\" — 10 m south of the MDL, TNT and brown residue; \"corresponding measures\" if confirmed"
-description: "Instagram @page_memo_zip summarized the Joint Chiefs of Staff's Sept. 28 interim findings on the DMZ mine blast, cross-checked against three newspapers. The JCS said it was not a South Korean mine and very likely a North Korean one."
+description: "The JCS's Sept. 28 interim findings on the DMZ blast: not a South Korean mine and very likely a North Korean one, found 10 m south of the MDL."
 imageAlt: "Illustration of a wooden box-shaped mine buried in the ground, with barbed wire and a guard post in the background"
 imageCaption: "Thumbnail of the original post (appears to be an illustration, not an on-site photo)"
 attribution: "Instagram @page_memo_zip (PAGE_MEMO_ZIP)"

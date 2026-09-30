@@ -1,7 +1,7 @@
 ---
 id: 2026-09-28-nakyungwon-mine-report-deletion
 title: "Na Kyung-won: \"The initial military report said 'suspected North Korean box mine,' then it was deleted\" — calls for probe into who removed it and why"
-description: "Instagram @kyungwon.na (Rep. Na Kyung-won) said the phrase 'suspected North Korean box mine' was in the military's initial report on the DMZ blast and later deleted. That evening the JCS said a North Korean mine was very likely."
+description: "Rep. Na Kyung-won says the first military report on the DMZ blast said 'suspected North Korean box mine' before it was deleted, and asks why."
 imageAlt: "Thumbnail combining a photo of Kim Jong-un giving a speech and a 'mine' warning sign on barbed wire, with the text 'North Korea deleted from the report — who ordered it?'"
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker"
