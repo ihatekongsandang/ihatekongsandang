@@ -1,0 +1,13 @@
+복사 파일 수: 757 → $SCRATCH/gateneg/repo
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm notice
+npm notice New minor version of npm available! 11.9.0 -> 11.20.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.20.0
+npm notice To update run: npm install -g npm@11.20.0
+npm notice
+docs/tools/reviewer-12/attribution-edge.tsx(38,11): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(40,8): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,27): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,55): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(46,17): error TS18048: 'sample' is possibly 'undefined'.
+EXIT=2

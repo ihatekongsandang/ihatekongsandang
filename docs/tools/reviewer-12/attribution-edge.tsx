@@ -33,6 +33,8 @@ console.log(`[실데이터] 게시물 ${posts.length} · 핸들 포함 attributi
 
 const sample = posts.find((p) => /@[A-Za-z0-9_]+/.test(p.attribution)) ?? posts[0]
 const noSpeaker = posts.find((p) => !p.speaker) ?? posts[0]
+// 게시물이 0건이면 관찰 기준이 없다(타입상 undefined 가능 — 운영 빌드 타입 검사 대상이었다, 프로그래머 06-1).
+if (!sample || !noSpeaker) throw new Error('게시물이 없어 관찰 기준 원본을 정할 수 없다')
 const run = (label: string, data: Record<string, unknown>, original = sample) => {
   const r = validateTranslation(
     { id: original.id, title: 'T', description: 'D', translatedAt: '2026-09-30', ...data },

@@ -1,0 +1,5 @@
+docs/tools/reviewer-12/attribution-edge.tsx(38,11): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(40,8): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,27): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,55): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(46,17): error TS18048: 'sample' is possibly 'undefined'.
