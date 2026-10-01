@@ -51,3 +51,13 @@
 ## 참고 링크
 - 사이트: https://ihatekongsandang.vercel.app · 영어: /en
 - 레포: https://github.com/ihatekongsandang/ihatekongsandang
+
+## 세션 역할 분담 (2026-10-01 사용자 결정)
+| 세션 | 담당 | 하지 않는 것 |
+|---|---|---|
+| **반공-업로더** (Opus 5.5) | 사용자가 보내는 URL 전담 — 원문 수집·보도 대조·게시/병합/보류/게시 불가 판단·한·영 작성·`content/`·`public/images/` 커밋·배포·라이브 확인, held-recheck·history 기록 | md오더 발행, 코드·설정 변경 |
+| **반공-슈퍼바이저** (Opus 5.5) | 사용자 커뮤니케이션(기능·운영), md오더 발행(프로그래머·리뷰어·테스터·기획자·디자이너·번역가), 담당 세션 완료 확인(트리거·핸드오프 Read), 리뷰어 게이트 후 코드 커밋·배포, 검색 노출·백로그·user-tasks 관리, 업로더 판단 기준(편집 정책) 정비 | URL 게시 작업(업로더에게 넘김), 코드 직접 수정 |
+
+- 두 세션이 같은 작업 폴더·git 인덱스를 쓴다. **각자 자기 파일만 `git add <경로>` 후 바로 커밋**하고 `git add -A`·`git commit -a`는 쓰지 않는다. push 전 `git status --porcelain`으로 남의 변경이 섞이지 않았는지 확인.
+- 빌드(`npm run build`)는 슈퍼바이저 쪽 담당 세션만 돌린다(업로더는 `validate:content`만).
+- held-recheck·history는 둘 다 append만 한다(덮어쓰기 금지).
