@@ -4,16 +4,15 @@ title: "트럼프 '알래스카 LNG' 일방 발표엔 하루 만에 \"유감\" �
 description: 트럼프 대통령의 알래스카 LNG 투자 발표에 정부는 하루 만에 "합의보다 더 나갔다"며 유감을 표명한 것으로 보도됨. 장병이 발목을 잃은 DMZ 北 지뢰 사고엔 군이 사과를 촉구했지만 상응조치는 공개되지 않았고, 야당은 대통령의 침묵을 비판함.
 publishedAt: 2026-10-02
 sourceType: url
-sourceUrl: https://www.mt.co.kr/index.php/amp/economy/2026/10/01/2026100109141281474
-attribution: 머니투데이 외 언론 보도 종합
+sourceUrl: https://www.instagram.com/reel/Dd-XM05DTOJ/
+attribution: 인스타그램 @kbsnews (KBS 뉴스)
 useSourceImage: false
 image:
   src: /images/2026-10-02-alaska-lng-vs-dmz-mine-response/thumb.jpg
   alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '알래스카 LNG와 北 지뢰, 같은 주 정부 대응 정리 / 9/30 트럼프 발표 → 10/1 산업장관 합의보다 더 나가 유감 표명 / 9/30 합참 북한에 사과 촉구 · 10/1 대통령 불의의 사고 표현 논란' 문구가 적힌 카드"
   caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
-  title: "한미 공동자료엔 '검토', 트럼프는 '한국이 투자'...알래스카 투자 압박용?"
-  siteName: 머니투데이
+  siteName: Instagram
 sources:
   - type: 언론
     name: "머니투데이 — 한미 공동자료엔 '검토', 트럼프는 '한국이 투자'...알래스카 투자 압박용?"
@@ -52,7 +51,7 @@ tags:
   - 이재명
 ---
 
-같은 주에 일어난 두 사안을 두고 정부가 미국 발표에는 곧바로 선을 그었으면서, 장병이 크게 다친 북한 지뢰 사고에는 확실하게 대응하지 못했다는 문제 제기가 있어, 두 사안의 정부 대응을 보도로 나란히 정리했습니다. 지뢰 사고를 다룬 다른 게시물: [유엔사 "정전협정 위반" 판단](/post/2026-09-30-2pro-unc-armistice-violation) · [이 대통령 "근거 없는 음모론" 발언](/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark) · [외통위 현안질의 민주당 불참](/post/2026-09-30-rekor-foreign-committee-dp-absence).
+KBS 뉴스 인스타그램 릴스("'추진'이지 '확정' 아냐 — 한국, 트럼프 발표에 항의")는 트럼프 대통령이 알래스카 LNG 투자 확정을 발표하자 정부가 '추진 단계'라고 항의했다고 전했습니다. 같은 주에 일어난 두 사안을 두고 정부가 미국 발표에는 곧바로 선을 그었으면서, 장병이 크게 다친 북한 지뢰 사고에는 확실하게 대응하지 못했다는 문제 제기가 있어, 두 사안의 정부 대응을 보도로 나란히 정리했습니다. 지뢰 사고를 다룬 다른 게시물: [유엔사 "정전협정 위반" 판단](/post/2026-09-30-2pro-unc-armistice-violation) · [이 대통령 "근거 없는 음모론" 발언](/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark) · [외통위 현안질의 민주당 불참](/post/2026-09-30-rekor-foreign-committee-dp-absence).
 
 ## 알래스카 LNG — 미국 발표와 정부 반응
 
