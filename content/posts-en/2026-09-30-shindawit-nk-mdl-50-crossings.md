@@ -5,10 +5,10 @@ description: "Instagram @shin_dawit slams Kim Yo-jong's complaint about warning 
 imageAlt: "Photo of a soldier seen from behind looking at a dug-up border strip in front of a 'Military Demarcation Line' sign, overlaid with the text 'North Korea crossed into our country 50 times in August–September' and the label 'Shin Dawit's Briefing'"
 imageCaption: "First slide of the original post"
 attribution: "Instagram @shin_dawit (신다윗)"
-translatedAt: 2026-10-01
+translatedAt: 2026-10-04
 ---
 
-This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation; Kim Yo-jong calls it "staged"](/post/2026-09-30-2pro-unc-armistice-violation) · [earlier post on North Korean MDL crossings](/post/2026-09-23-jeichi-nk-mdl-crossing).
+A [Threads post by @xhfnfn2](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp) on the same issue (a card reading "Defense ministry's lie exposed — said North Korean troops crossed about 50 times, 'turns out it was 200'") is noted here instead of in a separate post. This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation; Kim Yo-jong calls it "staged"](/post/2026-09-30-2pro-unc-armistice-violation) · [earlier post on North Korean MDL crossings](/post/2026-09-23-jeichi-nk-mdl-crossing).
 
 ## What the original post claims (the poster's opinion)
 
@@ -27,3 +27,4 @@ This post is based on the original caption and first slide; it is a multi-slide 
 
 - We found no basis in the reports we checked for the claim that "each round trip is counted once, so there were actually over 100." One outlet (Sandtimes) reported "around 60" over the two months, so figures differ across outlets.
 - The distance threshold of "tens of meters" for warning broadcasts was not confirmed in reports, which describe it as "signs of a crossing, such as approaching the MDL."
+- On the "defense ministry's lie exposed — turns out it was 200" card shared by Threads user @xhfnfn2: an active-duty officer working in a frontline situation room on the eastern front reportedly told Weekly Chosun (주간조선), regarding the defense ministry's statement that North Korean troops crossed the MDL about 17 times last year, that "about 17 is just what was reported; if you compile all corps, including unreported cases, it's over 200" (as cited by Cheonji Ilbo (천지일보) on Oct. 2). However, that "over 200" figure is reportedly not for the same period as this year's roughly 50 crossings in August–September, and no counting period was given. Reports did not establish that the military's announcement was false.
