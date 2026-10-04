@@ -38,7 +38,7 @@ tags:
   - 팩트체크
 ---
 
-같은 집회를 다룬 [스레드 @idolovekorea 글](https://www.threads.com/@idolovekorea/post/DeDZKkukiG_)("개천절 광화문 20만" 카드), 같은 카드에 "뉴스로는 나오질 않넹"이라고 쓴 [스레드 @5nly__u 글](https://www.threads.com/@5nly__u/post/DeEJFMrEVj-), "기사 하나 안 나오는 처참한 현실"이라며 집회 항공 영상을 올린 [스레드 @yujin.park99 글](https://www.threads.com/@yujin.park99/post/DeDPg9rEnZC), '뉴스에 안 나온 개천절 진짜 장면들' 카드를 올린 [스레드 @asiaqqq1023 글](https://www.threads.com/@asiaqqq1023/post/DeCmCOKjzEX)도 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 글과 첫 장 이미지를 기준으로 정리했습니다. 원문은 이미지 6장짜리이며 첫 장만 확인했습니다. 첫 장에는 이재명 대통령 얼굴 사진과 광화문 일대 집회 항공사진이 함께 실려 있어, 원문 이미지 대신 자체 제작 카드를 썼습니다. 이 집회의 사전 참여 독려 게시물들은 게시하지 않았고, 집회가 열린 뒤 보도를 기준으로 이 글을 정리했습니다.
+같은 집회를 다룬 [스레드 @idolovekorea 글](https://www.threads.com/@idolovekorea/post/DeDZKkukiG_)("개천절 광화문 20만" 카드), 같은 카드에 "뉴스로는 나오질 않넹"이라고 쓴 [스레드 @5nly__u 글](https://www.threads.com/@5nly__u/post/DeEJFMrEVj-), "기사 하나 안 나오는 처참한 현실"이라며 집회 항공 영상을 올린 [스레드 @yujin.park99 글](https://www.threads.com/@yujin.park99/post/DeDPg9rEnZC), '뉴스에 안 나온 개천절 진짜 장면들' 카드를 올린 [스레드 @asiaqqq1023 글](https://www.threads.com/@asiaqqq1023/post/DeCmCOKjzEX), "지상파 카메라가 아무리 외면해도 이 규모는 못 숨긴다"고 쓴 [스레드 @jwapaloma 글](https://www.threads.com/@jwapaloma/post/DeDnpr8D8EK)도 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 글과 첫 장 이미지를 기준으로 정리했습니다. 원문은 이미지 6장짜리이며 첫 장만 확인했습니다. 첫 장에는 이재명 대통령 얼굴 사진과 광화문 일대 집회 항공사진이 함께 실려 있어, 원문 이미지 대신 자체 제작 카드를 썼습니다. 이 집회의 사전 참여 독려 게시물들은 게시하지 않았고, 집회가 열린 뒤 보도를 기준으로 이 글을 정리했습니다.
 
 ## 원문 주장 (게시자 의견)
 
