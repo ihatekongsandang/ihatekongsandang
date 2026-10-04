@@ -8,7 +8,7 @@ attribution: "Threads @y_cherish_2026"
 translatedAt: 2026-10-04
 ---
 
-This post is based on the original text and first image; the original has six images, of which only the first was reviewed. The first image combines a photo of President Lee Jae-myung's face with an aerial photo of a rally around Gwanghwamun, so we used a card made by this site instead of the original image. Posts urging people to attend this rally in advance were not published; this post is based on reports after the rally took place.
+A [Threads post by @idolovekorea](https://www.threads.com/@idolovekorea/post/DeDZKkukiG_) on the same rally (a card reading "200,000 at Gwanghwamun on National Foundation Day") is noted here instead of in a separate post. This post is based on the original text and first image; the original has six images, of which only the first was reviewed. The first image combines a photo of President Lee Jae-myung's face with an aerial photo of a rally around Gwanghwamun, so we used a card made by this site instead of the original image. Posts urging people to attend this rally in advance were not published; this post is based on reports after the rally took place.
 
 ## What the original post claims (the poster's opinion)
 
@@ -28,3 +28,4 @@ This post is based on the original text and first image; the original has six im
 - We could not confirm whether the aerial photo in the first image was taken at the Oct. 3 rally.
 - Reported attendance at the People Power Party rally at Sungnyemun varied (9,000 per Segye Ilbo, Herald Economy and others; about 100 per Hankook Ilbo).
 - Slogans about election fraud chanted at the rally are unverified claims and were left out of the summary.
+- **"200,000 at Gwanghwamun on National Foundation Day"** (@idolovekorea's card): The reports we checked put attendance at the Liberty Unification Party's Gwanghwamun rally at about 28,000, and we found no report of "200,000" even including the People Power Party rally at Sungnyemun. We also could not confirm whether the three aerial photos of Gwanghwamun and Sejong-daero used in the card were taken on Oct. 3.
