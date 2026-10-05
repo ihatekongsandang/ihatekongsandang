@@ -8,7 +8,7 @@ attribution: "Instagram @jeichi_l"
 translatedAt: 2026-10-05
 ---
 
-This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
+A [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO) on the same issue (a card reading "[Shocking breaking news] 'Empty guns' found across the entire front, a serious guard situation") is noted here instead of in a separate post. This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
 
 ## What the original post claims (the poster's opinion)
 
