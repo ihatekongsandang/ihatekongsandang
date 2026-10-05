@@ -245,3 +245,7 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 - 공수처 개편: @pinnews_1 DeG4yOdsB_D · @got_dem_catch DeG6SVIk_zQ → `2026-10-05-wendmag-cio-investigation-scope`
 - 개천절 집회 규모: @swing.mag DeEhXzkh-7P · @haru_wiki_day DeEZvriSGLo(제목 '20만8천' vs 본문 '2만8천' 불일치) · @feed_scoop.mag DeEvsPMxA46('30만 주최 측 주장' vs 경찰 추산) → `2026-10-03-oct3-gwanghwamun-rally-scale`
 - 언론 보도 주장: @9yk0ng_ DeEdH9qSe0R(올림픽공원, "언론 죽어도 보도 안 해") → `2026-10-04-ycherish-oct3-rally-media`
+
+### 보류 — threads @balbari1234567890 DeHadw2AaiX (2026-10-05 게시, 2026-10-06 검토)
+- 본문 없음. 이미지는 @chanhyeokgim 카드 첫 장("이대남의 우회전 / 계엄 이유 또 드러나! '간첩이 더 있었다' [계속 드러나는 진실들]", 윤석열 전 대통령 자료사진). 2장 이후는 확인 불가.
+- 어떤 간첩 사건을 가리키는지 첫 장에 없고, 10월 신규 간첩 적발·기소 보도를 찾지 못함(검색상 2026년 4월 '경찰 전담 후 간첩 기소 0건' 보도만 확인). '계엄 이유'로 연결하는 것은 근거 없는 암시 → 보류. 카드 전체(또는 원 인스타그램 링크)가 오면 해당 사건 보도 기준으로 재검토.
