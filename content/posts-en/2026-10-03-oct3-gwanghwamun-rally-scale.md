@@ -8,7 +8,7 @@ attribution: "Compiled from Munhwa Ilbo (문화일보) and other news reports an
 translatedAt: 2026-10-05
 ---
 
-After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
+Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/) and [@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) citing reported figures are noted here instead of in separate posts. After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
 
 ## What reports confirm
 
@@ -27,3 +27,5 @@ After the Oct. 3 rallies, posts showing the same scenes appeared one after anoth
 - We could not confirm the exact time each photo or video was taken. The photo above was also shared on Oct. 4, and the time it was taken is not shown in the original.
 - One outlet (Hankook Ilbo) reported attendance at the People Power Party rally as "about 100," differing from other reports (about 9,000).
 - Slogans about election fraud chanted at the rally are unverified claims and were not reproduced.
+- @haru_wiki_day's caption headline reads "Gwanghwamun 208,000, Sungnyemun 90,000" and its first frame "300,000 at National Foundation Day protests / not reported once on the news," but the body of the same caption says "about 28,000 by unofficial police estimate," so its headline and body figures contradict each other. The reported estimate for the Sungnyemun rally is about 9,000.
+- @feed_scoop.mag's post described the gap between organizers' and participants' claims of "hundreds of thousands to 300,000" and the unofficial police estimates (about 28,000 and 9,000). We could not find the reports it mentions of "about 30,000 at Gwanghwamun by some outlets" or "over 100,000 across downtown."

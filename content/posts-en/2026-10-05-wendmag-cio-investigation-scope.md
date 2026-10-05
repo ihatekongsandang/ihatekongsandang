@@ -8,7 +8,7 @@ attribution: "Instagram @wend.mag"
 translatedAt: 2026-10-05
 ---
 
-This post is based on the original caption and the first frame of the reel. The first frame reads "President, Democratic lawmakers banned from investigation / can't be punished unless it's a violent crime," which differs from reports, so we used a card made by this site instead of the original image. Related post on the abolition of the Prosecution Service (may be available only in Korean): [Prosecution Service abolished tomorrow: a guide for victims](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
+Instagram posts by [@pinnews_1](https://www.instagram.com/p/DeG4yOdsB_D/) and [@got_dem_catch](https://www.instagram.com/p/DeG6SVIk_zQ/) on the same issue are noted here instead of in separate posts. This post is based on the original caption and the first frame of the reel. The first frame reads "President, Democratic lawmakers banned from investigation / can't be punished unless it's a violent crime," which differs from reports, so we used a card made by this site instead of the original image. Related post on the abolition of the Prosecution Service (may be available only in Korean): [Prosecution Service abolished tomorrow: a guide for victims](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
 
 ## What the original post claims (the poster's opinion)
 
@@ -28,3 +28,4 @@ This post is based on the original caption and the first frame of the reel. The 
 - **"President, Democratic lawmakers banned from investigation"**: The reported plan removes the president and lawmakers from the CIO's remit, with investigations of them handled by the Serious Crimes Investigation Agency. No report says investigating them would be banned, and the change covers all lawmakers, not only "Democratic lawmakers."
 - **"Can't be punished unless it's a violent crime"**: We found no report supporting this. The reported expansion of investigative scope (to crimes in general) concerns the judicial officials who would remain under the CIO.
 - The bill was reportedly still at the draft-review stage and had not yet been introduced.
+- The phrases "strengthening privileges" and "invincible bulletproofing" in @got_dem_catch's post are the poster's assessment. @pinnews_1's post notes that "it is not yet law, and it is accurate to say the Democratic Party is pushing an amendment to exclude them, not that they have been excluded," consistent with reports.

@@ -240,3 +240,8 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 
 ### 보류 — threads @freering_ DeEv38ZEkhZ (2026-10-04 게시, 2026-10-05 검토)
 - 본문 "간첩이었어???" 한 줄 + 다른 계정(@bdh0859, 9월 26일 게시물) 인용. 인용된 원글 내용은 임베드로 확인 불가. 누구를 간첩으로 지목하는지 알 수 없고 근거 없는 간첩 암시 → 보류(@kingcong09 선례와 동일). 인용 원글 링크나 캡처가 오면 재검토.
+
+### 병합 — 인스타그램 6건 (2026-10-05)
+- 공수처 개편: @pinnews_1 DeG4yOdsB_D · @got_dem_catch DeG6SVIk_zQ → `2026-10-05-wendmag-cio-investigation-scope`
+- 개천절 집회 규모: @swing.mag DeEhXzkh-7P · @haru_wiki_day DeEZvriSGLo(제목 '20만8천' vs 본문 '2만8천' 불일치) · @feed_scoop.mag DeEvsPMxA46('30만 주최 측 주장' vs 경찰 추산) → `2026-10-03-oct3-gwanghwamun-rally-scale`
+- 언론 보도 주장: @9yk0ng_ DeEdH9qSe0R(올림픽공원, "언론 죽어도 보도 안 해") → `2026-10-04-ycherish-oct3-rally-media`
