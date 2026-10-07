@@ -5,7 +5,7 @@ description: "Instagram @idontknowpolitics details plans to give a Pyongyang hos
 imageAlt: "President Lee Jae-myung raising his right hand to take an oath in front of a blue background"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @idontknowpolitics (나정치)"
-translatedAt: 2026-10-01
+translatedAt: 2026-10-08
 ---
 
 This post is based on the original caption. Another post covers the same matter along with a different poster's criticism: [Thread criticizing medical equipment aid to North Korea](/post/2026-09-21-dotori-nk-medical-equipment). An [Instagram reel by @geonwoo.vibes](https://www.instagram.com/reel/Ddo6-eIzKY8/) (Sept. 23) criticizing the same aid is noted here instead of in a separate post. It says aid of about 9.3 billion won — 1,431 items of 166 types of medical equipment — is being pursued, and argues that the safety of the public and troops should come before spending tax money on North Korea, which threatens South Korea's security with nuclear weapons and missiles (the poster's opinion). The figure of 'about 9.3 billion won' does not appear in the reports this post checked.
@@ -16,6 +16,11 @@ This post is based on the original caption. Another post covers the same matter 
 - Unification Ministry spokesperson Yoon Min-ho (윤민호) reportedly said, "We received a UN Security Council sanctions exemption last May," and "We are preparing so that the related project can start right away if the North responds." Because UN Security Council Resolution 2397 bans the transfer of industrial machinery to North Korea, a sanctions exemption is reportedly required for medical equipment aid.
 - The funding will reportedly come from the "other economic cooperation projects" budget of the Inter-Korean Cooperation Fund, and the ministry reportedly reported the plan to the National Assembly's Foreign Affairs and Unification Committee in August.
 - The aid items were later reportedly set at 1,431.
+
+## Additional reports on Oct. 7 (update)
+
+- According to materials the Ministry of Unification submitted on Oct. 7 to People Power Party Rep. Kim Dae-sik (김대식), the government reportedly requested a sanctions exemption from the UN Security Council's North Korea sanctions committee to send 1,431 items of 166 types of medical equipment (about $6.75 million, or 9.3 billion won) to Kangdong County Hospital through the Korea Foundation for International Healthcare, and after being notified of approval on May 22, set Nov. 22 — within six months of approval — as the tentative shipping deadline. It reportedly also reported a plan to ship via Incheon, Dandong in China and Nampo, with Hyundai Asan tentatively chosen as the shipper, and to send a six-member joint monitoring team to check against diversion.
+- A [Threads post by @xhfnfn2](https://www.threads.com/@xhfnfn2/post/DeL_BlGk861) describing this as "couldn't wait and sent 9.3 billion won to North Korea" is noted here instead of in a separate post. The Gangwon Ilbo (강원일보) headline it captured originally read "…sends medical equipment" but now reads "…announces plan to provide medical equipment," and the article describes a shipping plan. We found no report that the equipment has actually been sent.
 
 ## What we left out of the summary
 
