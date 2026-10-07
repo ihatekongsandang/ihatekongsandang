@@ -42,7 +42,7 @@ tags:
   - 북한
 ---
 
-같은 사안을 다룬 [스레드 @xhfnfn2 글](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp)("국방부, 거짓말 들통났다 — 북한군 50번 정도 침범했다더니 '알고보니 200번'" 카드)은 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 관련 게시물: [유엔사 "정전협정 위반" 판단·김여정 "자작극" 담화](/post/2026-09-30-2pro-unc-armistice-violation) · [北 MDL 월선 관련 앞선 게시물](/post/2026-09-23-jeichi-nk-mdl-crossing).
+같은 증언을 정리한 [인스타그램 @signal__korea 게시물](https://www.instagram.com/p/DeA0hrCkoGa/)과 [스레드 @xhfnfn2 글](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp)("국방부, 거짓말 들통났다 — 북한군 50번 정도 침범했다더니 '알고보니 200번'" 카드)도 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물이며 첫 장만 확인했습니다. 관련 게시물: [유엔사 "정전협정 위반" 판단·김여정 "자작극" 담화](/post/2026-09-30-2pro-unc-armistice-violation) · [北 MDL 월선 관련 앞선 게시물](/post/2026-09-23-jeichi-nk-mdl-crossing).
 
 ## 원문 주장 (게시자 의견)
 
