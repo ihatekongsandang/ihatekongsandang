@@ -1,7 +1,7 @@
 ---
 id: 2026-10-07-gotdemcatch-kimminseok-chief-justice-resign
 title: "Democratic Party leader Kim Min-seok: \"If Cho Hee-dae can't resolve the re-nomination issue, he'd better step down\" — reported as pressure to resign amid the Supreme Court justice re-nomination dispute; the lines 'removing Cho' and 'if he won't listen to Lee Jae-myung' were not his words"
-description: "Instagram @got_dem_catch faults Kim Min-seok's pressure on the chief justice; Kim reportedly said Cho had better quit if he can't resolve the re-nomination issue."
+description: "Instagram @got_dem_catch faults Kim Min-seok's pressure on the chief justice; Kim reportedly said Cho had better quit if he can't fix the re-nomination issue."
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Kim Min-seok: \"If Cho Hee-dae can't resolve the re-nomination, he'd better step down\" / Remarks on the Democratic Party's YouTube show Minti 07 on Oct. 7 — the Supreme Court justice re-nomination dispute / The chief justice's position was reportedly that re-nomination has no basis in the Constitution'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Leader of the Democratic Party of Korea"

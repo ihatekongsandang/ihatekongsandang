@@ -3,6 +3,7 @@ id: 2026-10-03-oct3-gwanghwamun-rally-scale
 title: "개천절 광화문·숭례문 일대 수만 명 운집 — 경찰 비공식 추산 자유통일당 약 2만8천 명·국민의힘 약 9천 명, 세종대로 일대 메운 인파 사진 SNS 잇따라 공유"
 description: 10월 3일 광화문 세종대로 일대 자유통일당 집회에 경찰 비공식 추산 약 2만8천 명, 숭례문 국민의힘 집회에 약 9천 명이 모인 것으로 보도됨. 세종대로를 메운 인파를 담은 사진·영상이 여러 스레드 계정에서 잇따라 공유됐습니다.
 publishedAt: 2026-10-05
+updatedAt: 2026-10-07
 sourceType: url
 sourceUrl: https://www.munhwa.com/article/11621258
 attribution: 문화일보 외 언론 보도·스레드 게시물 종합
@@ -27,13 +28,17 @@ sources:
     name: 세계일보 — 개천절 도심 대규모 집회·행진 잇달아…강남에선 축제 퍼레이드
     url: https://www.segye.com/newsView/20261003505217
     date: 2026-10-03
+  - type: 언론
+    name: 주간경향 — 국민의힘 1년 만에 대규모 장외집회 “사법파괴에 국민분노”
+    url: https://weekly.khan.co.kr/article/202610032042001/
+    date: 2026-10-03
 tags:
   - 집회
   - 개천절
   - 광화문
 ---
 
-보도 수치를 인용한 [인스타그램 @swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/)·[@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/)·[@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) 게시물은 별도 게시물 대신 여기에 함께 적습니다. 10월 3일 집회 뒤 같은 장면을 담은 게시물이 여러 계정에서 잇따라 올라와, 보도된 규모와 함께 정리했습니다. '언론이 보도하지 않았다'는 주장에 대한 대조는 [개천절 광화문 집회, '언론에선 조용'했나?](/post/2026-10-04-ycherish-oct3-rally-media)에 따로 정리했습니다.
+숭례문 집회를 정리한 [인스타그램 @conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/)과 보도 수치를 인용한 [인스타그램 @swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/)·[@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/)·[@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) 게시물은 별도 게시물 대신 여기에 함께 적습니다. 10월 3일 집회 뒤 같은 장면을 담은 게시물이 여러 계정에서 잇따라 올라와, 보도된 규모와 함께 정리했습니다. '언론이 보도하지 않았다'는 주장에 대한 대조는 [개천절 광화문 집회, '언론에선 조용'했나?](/post/2026-10-04-ycherish-oct3-rally-media)에 따로 정리했습니다.
 
 ## 보도로 확인된 내용
 
@@ -54,3 +59,4 @@ tags:
 - 집회에서 나온 선거 부정 관련 구호는 근거가 확인되지 않은 주장이라 옮기지 않았습니다.
 - @haru_wiki_day 게시물은 캡션 제목에 '광화문 20만8000명·숭례문 90000명', 첫 화면에 '개천절 시위 총 30만명 / 뉴스에는 단 한번도 보도 안돼'라고 적었지만, 같은 캡션 본문에는 '경찰 비공식 추산 약 2만8000명'이라고 적어 제목과 본문 수치가 서로 다릅니다. 보도된 숭례문 집회 추산은 약 9천 명입니다.
 - @feed_scoop.mag 게시물은 주최 측·참가자들의 '수십만~30만 명' 주장과 경찰 비공식 추산(약 2만8천·9천 명)의 차이를 소개했습니다. 이 게시물이 언급한 '일부 매체 광화문 약 3만 명', '도심 전체 십여만 명 이상' 보도는 이번에 찾지 못했습니다.
+- @conpoli88 게시물은 국민의힘이 숭례문 집회 인원을 '오후 4시 기준 약 20만 명'으로 자체 추산했다고 적었습니다. 주간경향·아주경제도 당이 "총 20만 명가량이 모였다"고 주장했고 현역 의원 70여 명이 참석했다고 보도했습니다. 같은 집회의 경찰 추산은 매체에 따라 약 9천 명(문화일보 등) 또는 약 1만 명(주간경향)으로 보도됐습니다.

@@ -5,10 +5,10 @@ description: "Instagram @sonit.kr contrasts a 667.6B won North Korea aid budget 
 imageAlt: "Text card on a white background reading, 'There's money to give North Korea 667.6 billion won for its people, but no 5.2 billion won for elderly South Koreans' hypertension or diabetes treatment and medication?'"
 imageCaption: "Image of the original post"
 attribution: "Instagram @sonit.kr (소니트)"
-translatedAt: 2026-09-30
+translatedAt: 2026-10-07
 ---
 
-This post is based on the text in the original image. The original caption is empty. Both figures are covered in more detail in earlier posts (some may be available only in Korean): [77.3% of the 667.6B won North Korea budget still has no spending plan](/post/2026-09-15-choice-nk-budget-undecided) · [push to end elderly hypertension/diabetes support](/post/2026-09-29-rekor-hypertension-diabetes-support-cut).
+A follow-up post by the same account ([Instagram @sonit.kr](https://www.instagram.com/p/DeLpsf6OCgY/), Oct. 7) is noted here instead of in a separate post. This post is based on the text in the original image. The original caption is empty. Both figures are covered in more detail in earlier posts (some may be available only in Korean): [77.3% of the 667.6B won North Korea budget still has no spending plan](/post/2026-09-15-choice-nk-budget-undecided) · [push to end elderly hypertension/diabetes support](/post/2026-09-29-rekor-hypertension-diabetes-support-cut).
 
 ## What the original post claims (the poster's opinion)
 
@@ -23,3 +23,4 @@ This post is based on the text in the original image. The original caption is em
 ## What we left out of the summary
 
 - The two figures are from different years (the 2026 budget vs. the 2027 budget proposal) and different agencies (the Unification Ministry's fund vs. the KDCA's program), so this does not mean one budget was shifted to the other.
+- The Oct. 7 follow-up lists items it says were halted or cut "for lack of money" — school-zone CCTV, postpartum care support, childcare teachers' pay, daycare support, menstrual products for girls, family care allowances, elderly caregiver costs and elderly hypertension and diabetes support — against "North Korea = 667,600,000,000 won in aid." As above, the 667.6 billion won is a 2026 budget allocation, not aid actually delivered. Apart from the elderly hypertension and diabetes support, we did not check the listed cuts against individual reports this time.

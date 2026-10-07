@@ -5,10 +5,10 @@ description: "About 28,000 reportedly joined the Oct. 3 Liberty Unification Part
 imageAlt: "View from a high-rise over Sejong-daero in Seoul, with the multi-lane road packed with rally participants and blue and white tents lining the street"
 imageCaption: "Photo of the Sejong-daero area shared by Threads user @jwapaloma on Oct. 4 (the time it was taken is not shown in the original)"
 attribution: "Compiled from Munhwa Ilbo (문화일보) and other news reports and Threads posts"
-translatedAt: 2026-10-05
+translatedAt: 2026-10-07
 ---
 
-Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/) and [@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) citing reported figures are noted here instead of in separate posts. After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
+An Instagram post by [@conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/) summarizing the Sungnyemun rally and Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/) and [@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) citing reported figures are noted here instead of in separate posts. After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
 
 ## What reports confirm
 
@@ -29,3 +29,4 @@ Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@har
 - Slogans about election fraud chanted at the rally are unverified claims and were not reproduced.
 - @haru_wiki_day's caption headline reads "Gwanghwamun 208,000, Sungnyemun 90,000" and its first frame "300,000 at National Foundation Day protests / not reported once on the news," but the body of the same caption says "about 28,000 by unofficial police estimate," so its headline and body figures contradict each other. The reported estimate for the Sungnyemun rally is about 9,000.
 - @feed_scoop.mag's post described the gap between organizers' and participants' claims of "hundreds of thousands to 300,000" and the unofficial police estimates (about 28,000 and 9,000). We could not find the reports it mentions of "about 30,000 at Gwanghwamun by some outlets" or "over 100,000 across downtown."
+- @conpoli88's post says the People Power Party estimated attendance at its Sungnyemun rally at "about 200,000 as of 4 p.m." Weekly Kyunghyang (주간경향) and Aju Business Daily (아주경제) also reported that the party claimed "about 200,000 in total" and that some 70 sitting lawmakers attended. The police estimate for the same rally was reported as about 9,000 (Munhwa Ilbo and others) or about 10,000 (Weekly Kyunghyang), depending on the outlet.
