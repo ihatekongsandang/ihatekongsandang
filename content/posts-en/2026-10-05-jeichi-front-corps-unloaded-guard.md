@@ -5,10 +5,10 @@ description: "Instagram @jeichi_l faults frontline guard duty; a ministry check 
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Frontline corps \"empty-gun guard duty\" — confirmed in the 1st, 2nd, 3rd and 5th Corps and the 2nd Marine Division / Guard duty at GP and GOP posts without ammunition loaded — August defense ministry inspection / Institutional warnings for Ground Operations Command, 1st and 2nd Corps and 22nd Division; corrective action for the JCS (reported Oct. 5)'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @jeichi_l"
-translatedAt: 2026-10-05
+translatedAt: 2026-10-07
 ---
 
-A [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO) on the same issue (a card reading "[Shocking breaking news] 'Empty guns' found across the entire front, a serious guard situation") is noted here instead of in a separate post. This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
+An [Instagram post by @hagonolza](https://www.instagram.com/p/DeK8M3jz4lG/) (sharing a capture of the Chosun Ilbo exclusive) and a [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO) on the same issue (a card reading "[Shocking breaking news] 'Empty guns' found across the entire front, a serious guard situation") are noted here instead of in separate posts. This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
 
 ## What the original post claims (the poster's opinion)
 
@@ -25,6 +25,6 @@ A [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/
 ## What we left out of the summary
 
 - **"Without live ammunition"**: What was reported is "unloaded" operation — ammunition carried or kept in boxes but not inserted into the weapons. It does not mean there was no ammunition.
-- **"Every frontline corps"**: The units confirmed in reports are the Army's 1st, 2nd, 3rd and 5th Corps and the 2nd Marine Division, with different weapons and periods for each. The ministry reportedly said "the timing of changes to how ammunition was carried was decided by each corps and differs in every case."
+- **"Every frontline corps"**: Chosun Ilbo (조선일보) reported in an Oct. 5 exclusive that "every frontline corps of our military, from Ganghwa Island to the east coast, had cases of 'empty-gun guard duty,'" with "every corps" referring to the Army's 1st, 2nd, 3rd and 5th Corps, which handle GP and GOP guard duty on the front (plus the 2nd Marine Division). The original's wording is consistent with reports. However, the weapons and periods differ by unit, and the ministry reportedly said "the timing of changes to how ammunition was carried was decided by each corps and differs in every case." (Corrected Oct. 7: when first posted, this item wrongly suggested the original's wording differed from reports.)
 - **"North Korean troops crossed 200 times"**: Defense intelligence assessed about 50 crossings in August–September; "over 200" was reported as an active-duty officer's claim with no counting period given (see the related post).
 - We did not check the president's X posts mentioned in the original against the original posts. The assessment that "all they think about is extracting taxes and property" is the poster's opinion.
