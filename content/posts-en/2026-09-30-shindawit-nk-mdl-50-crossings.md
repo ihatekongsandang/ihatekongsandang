@@ -8,7 +8,7 @@ attribution: "Instagram @shin_dawit (신다윗)"
 translatedAt: 2026-10-04
 ---
 
-An [Instagram post by @signal__korea](https://www.instagram.com/p/DeA0hrCkoGa/) summarizing the same testimony and a [Threads post by @xhfnfn2](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp) on the same issue (a card reading "Defense ministry's lie exposed — said North Korean troops crossed about 50 times, 'turns out it was 200'") is noted here instead of in a separate post. This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation; Kim Yo-jong calls it "staged"](/post/2026-09-30-2pro-unc-armistice-violation) · [earlier post on North Korean MDL crossings](/post/2026-09-23-jeichi-nk-mdl-crossing).
+An [Instagram post by @signal__korea](https://www.instagram.com/p/DeA0hrCkoGa/) summarizing the same testimony and a [Threads post by @xhfnfn2](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp) on the same issue (a card reading "Defense ministry's lie exposed — said North Korean troops crossed about 50 times, 'turns out it was 200'") are noted here instead of in separate posts. This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation; Kim Yo-jong calls it "staged"](/post/2026-09-30-2pro-unc-armistice-violation) · [earlier post on North Korean MDL crossings](/post/2026-09-23-jeichi-nk-mdl-crossing).
 
 ## What the original post claims (the poster's opinion)
 
