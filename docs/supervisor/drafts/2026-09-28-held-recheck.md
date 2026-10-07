@@ -284,3 +284,7 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 
 ### 병합 — instagram @signal__korea DeA0hrCkoGa (2026-10-07)
 - "국방부 '연 17차례'…현역 장교 '사실상 매일'"(주간조선 인용, AI 생성 참고 이미지) → `2026-09-30-shindawit-nk-mdl-50-crossings`에 병합(현역 장교 '200차례 이상' 주장은 기간 미제시로 이미 명시).
+
+### 병합 — instagram @got_dem_catch DdJa_20TYKN · @ccp_out_korea DdshPP0DJok (2026-10-07)
+- @got_dem_catch(실업급여 부정수급 332억·외국인 수급자 1만2658명) → `2026-09-20-shindawit-foreign-unemployment-benefits`. 부정수급 332억은 뉴스1 6/23 확인, 외국인 수급자 수는 기존 보도(1만6789명)와 달라 기준 연도 미확인 명시.
+- @ccp_out_korea(제주 무사증 악용 화물차·화물선 불법 이동 알선) → `2026-09-16-pickmag-china-visa-free-petition`. 서울신문 8/12 검거 보도 확인, '1인당 300만 원'·'불법체류자 85%'·'범죄 피의자 70%'는 미확인·시점 불명 명시.
