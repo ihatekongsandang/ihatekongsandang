@@ -5,10 +5,10 @@ description: "Instagram @swing.mag on prison terms for three who surrounded an o
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Three who surrounded and threatened an officer shouting \"fake police\" — 6 months in prison at first instance / June protest near the Olympic Park ballot-counting site — special obstruction of official duties / The court noted they could have checked by calling 112 if they suspected impersonation (Oct. 6)'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @swing.mag"
-translatedAt: 2026-10-07
+translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and the first frame of the reel. The first frame shows faces of protesters and police officers along with the text "Jailed one after another for shouting 'fake police' / Now protest and you go straight to prison," so we used a card made by this site instead of the original image. The defendants are private individuals, so their names are not given.
+An [Instagram reel by @jchive.log](https://www.instagram.com/reel/DeMib6kNQ0X/) on the same ruling (caption "Korea-China, a crazy country"; thumbnail "South Korea proven a communist state, going the same way as Hong Kong. Olympic Park young people jailed."; its first frame shows an SBS subtitled-news article) is noted here instead of in a separate post. This post is based on the original caption and the first frame of the reel. The first frame shows faces of protesters and police officers along with the text "Jailed one after another for shouting 'fake police' / Now protest and you go straight to prison," so we used a card made by this site instead of the original image. The defendants are private individuals, so their names are not given.
 
 ## What the original post claims (the poster's opinion)
 
@@ -24,5 +24,6 @@ This post is based on the original caption and the first frame of the reel. The 
 ## What we left out of the summary
 
 - **"Jailed for shouting 'fake police'" and "protest and you go straight to prison"**: The reported conviction concerns not just the shouting but surrounding and threatening an officer (special obstruction of official duties), not punishment for joining a protest as such.
-- **"People in their 20s"**: One defendant's age was reported differently by outlet — 35 (The Financial News, Seoul Economic Daily) and 25 (Seoul Shinmun).
+- **"People in their 20s"**: One defendant's age was reported differently by outlet — 35 (The Financial News, Seoul Economic Daily) and 25 (Seoul Shinmun, SBS). SBS reported the three as 25, 23 and 24.
+- **"South Korea proven a communist state, going the same way as Hong Kong" (@jchive.log)**: This is the poster's assessment. The SBS headline shown in the video reads "Aren't you Chinese police?", but the same article's body says they were charged with shouting "fake police" at the officer.
 - This is a first-instance ruling; whether an appeal was filed was not confirmed in the reports.
