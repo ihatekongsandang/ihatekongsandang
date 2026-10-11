@@ -30,6 +30,8 @@ This post is based on the original caption and its three images (a photo, a capt
 
 - An [Instagram reel by @now.new.mag](https://www.instagram.com/reel/DeThmyZy73e/) (Oct. 10) presenting the same issue as "allegations the NIS 'refused to participate'" (thumbnail: "Is the NIS on North Korea's side too? / The U.S. proposed a meeting to stop North Korean hacking and it refused") is also noted here. According to reports, the NIS did not refuse; **the U.S. asked for the NIS's exclusion and the NIS was left out of the meeting** (as an NIS official acknowledged). "Is the NIS on North Korea's side too?" is an unfounded insinuation and is not included in the summary.
 
+- An [Instagram post by @monarchreport25](https://www.instagram.com/p/DePJPErDT3_/) presenting the same issue in English (Oct. 8, "The U.S. said no to South Korea's top spy agency") is also noted here. Its account that the U.S. asked to keep the NIS out and that the NIS missed the June meeting for the first time matches the reports above.
+
 ## What we left out of the summary
 
 - That the U.S. asked for the exclusion over classified-information security is, even in the report, a sources' account phrased as "apparently" and "reportedly"; we did not find an official U.S. government statement.
