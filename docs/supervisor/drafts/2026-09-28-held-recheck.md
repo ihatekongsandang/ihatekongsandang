@@ -357,3 +357,7 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 ### 병합 — instagram @real_news_rn DeVwIIAPItv (2026-10-11 게시, 2026-10-11 검토)
 - "고성군도 벌벌 떨고 있다 / 지뢰에 이어 인민군 모자 발견 / 대한민국 뭘 숨기고 있나" + 고성 자작도 해변 인민군 모자 발견 캡션.
 - 강원도민일보 10/10 보도로 발견 사실 확인(맨발걷기 단체 수거, 계급장 없음, 오래전 유실 추정). '뭘 숨기고 있나'는 근거 없는 암시 → `2026-10-08-focusone-ganghwa-drifting-mine`에 북한발 유실물 절로 병합(한·영).
+
+### 재검토 해제 — 파주 인민군 묘역 추모제 (2026-10-11)
+- 10/10 개최·규탄 집회 보도(프리진뉴스·펜앤마이크 10/11) 확인 → instagram @seoulmediatv DeTY6iSPcKr 기준 `2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial` 게시(한·영).
+- 앞서 보류한 threads @wonkkongtuwang DeB3sO_H-LA, instagram @rekor.rgt Dd_guP3gYh7은 같은 게시물에 병합(행사 후 보도 기준, 비하·단정 표현 미전재). 원문 썸네일은 일반인 얼굴 포함으로 자체 카드.
