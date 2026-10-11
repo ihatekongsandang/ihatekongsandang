@@ -5,8 +5,10 @@ description: "Instagram @rekor.rgt faults the presidential Committee of Light on
 imageAlt: "Photo of an office entrance with a vertical sign reading 'Presidential Committee of Light' and a matching horizontal sign behind the information desk, overlaid with the text 'Presidential committee — no website, no member list' and the REKOR logo"
 imageCaption: "First slide of the original post (photo credited to New Daily (뉴데일리) in the original)"
 attribution: "Instagram @rekor.rgt (REKOR)"
-translatedAt: 2026-10-01
+translatedAt: 2026-10-11
 ---
+
+An [Instagram post by @news1_min](https://www.instagram.com/p/DeV2K8EhG4e/) that reshared the same New Daily report on Oct. 11 (first image: "13 billion won spent but no member list — 'Light Committee' civilian members from Yoon impeachment groups") is noted here instead of in a separate post. Its first image covers President Lee Jae-myung's eyes with the text "It's under the president, why disclose it!!!!" — no report says the president said this; it is wording added by the poster. Its caption reproduces the Sept. 17 New Daily report.
 
 This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. The original cites a Sept. 17 exclusive by New Daily (뉴데일리), a government Policy Briefing (정책브리핑) article (March 10) and a Chosun Biz (조선비즈) article (Feb. 9). We checked the New Daily report against the original article. We could not locate the Policy Briefing and Chosun Biz articles, so we checked the committee's establishment and makeup against other news reports instead.
 
