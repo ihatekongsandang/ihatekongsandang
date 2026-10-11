@@ -361,3 +361,15 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 ### 재검토 해제 — 파주 인민군 묘역 추모제 (2026-10-11)
 - 10/10 개최·규탄 집회 보도(프리진뉴스·펜앤마이크 10/11) 확인 → instagram @seoulmediatv DeTY6iSPcKr 기준 `2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial` 게시(한·영).
 - 앞서 보류한 threads @wonkkongtuwang DeB3sO_H-LA, instagram @rekor.rgt Dd_guP3gYh7은 같은 게시물에 병합(행사 후 보도 기준, 비하·단정 표현 미전재). 원문 썸네일은 일반인 얼굴 포함으로 자체 카드.
+
+### 병합 — instagram @issue_bongbong DeUEBxQSNZt · @now.new.mag DeThmyZy73e (2026-10-10 게시, 2026-10-11 검토)
+- issue_bongbong: 썸네일 "트럼프 한국정부에 경고 / 동맹 깨자는거냐 / 한국 믿을수가 없다" — 보도상 발언 주체는 익명 미 행정부 고위당국자(10/9 서면답변 '정보·방첩 동맹 기준 준수 기대'), 해당 문구 미확인.
+- now.new.mag: "국정원 '참여 거절' 의혹 / 국정원도 북한편?" — 보도는 미국의 배제 요청(국정원 관계자 시인), 거절 아님·암시 미전재.
+- 둘 다 `2026-10-08-shindawit-us-nis-cyber-group-excluded` 갱신 절로 병합(한·영).
+
+### 병합 — instagram @pinnews_1 DeF2oB7MD7h · @got_dem_catch DeULKQNTj4B (2026-10-11 검토)
+- pinnews_1: 10/3 숭례문 집회, 캡션 스스로 '20만=당 자체 추산' 구분 → `2026-10-03-oct3-gwanghwamun-rally-scale` 병합.
+- got_dem_catch: 고성 인민군 모자(real_news_rn과 같은 캡션), "우리가 모르는 무언가" 암시 미전재 → `2026-10-08-focusone-ganghwa-drifting-mine` 병합.
+
+### 보류 — instagram @jeichi_l DeTMiojJwYM (2026-10-10 게시, 2026-10-11 검토)
+- 캡션 없음, 썸네일 "우리가 평생 살아갈 땅, 대한민국이 좆된 이유."(비속어), 영상 파일을 임베드에서 받을 수 없어 본문 주장 확인 불가 → 보류. 영상 속 구체 주장이 확인되면 재검토.
