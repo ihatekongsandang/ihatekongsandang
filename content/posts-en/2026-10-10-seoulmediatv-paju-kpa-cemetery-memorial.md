@@ -23,6 +23,8 @@ This post is based on the original reel's caption ("Live: invading the Paju KPA 
 
 ## What we left out of the summary
 
+- An [Instagram reel by @j_yuuura](https://www.instagram.com/reel/DeUaiNjh5Q4/) posting footage of the same protest (Oct. 11, thumbnail "Counter-rally against the Paju KPA memorial / Leftist anti-state forces ran away in fear") is also noted here instead of in a separate post. According to reports, the memorial's organizers said they moved it to the morning after hearing of plans to disrupt it; "ran away" and "leftist anti-state forces" are the poster's words.
+
 - The thumbnail's "invade" and "patriots" are the poster's words. We do not reproduce some of the protesters' banners and slogans (such as "send the traitors north") or participants' derogatory remarks.
 - The organizers' claim that this was the 21st memorial and its past history were not separately confirmed in reports.
 - The previously held @wonkkongtuwang post's "Is Gyeonggi already North Korea? Or China?" and the @rekor.rgt post's "the person who set fire to the MacArthur statue" (Pastor Lee was reportedly booked for violating the assembly law after setting fire to a pile of cloth next to the MacArthur statue in Jayu Park, Incheon, in 2018, with no damage to the statue) are those posters' expressions and descriptions and were not included in the summary.
