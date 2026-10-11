@@ -3,7 +3,7 @@ id: 2026-10-03-oct3-gwanghwamun-rally-scale
 title: "개천절 광화문·숭례문 일대 수만 명 운집 — 경찰 비공식 추산 자유통일당 약 2만8천 명·국민의힘 약 9천 명, 세종대로 일대 메운 인파 사진 SNS 잇따라 공유"
 description: 10월 3일 광화문 세종대로 일대 자유통일당 집회에 경찰 비공식 추산 약 2만8천 명, 숭례문 국민의힘 집회에 약 9천 명이 모인 것으로 보도됨. 세종대로를 메운 인파를 담은 사진·영상이 여러 스레드 계정에서 잇따라 공유됐습니다.
 publishedAt: 2026-10-05
-updatedAt: 2026-10-07
+updatedAt: 2026-10-11
 sourceType: url
 sourceUrl: https://www.munhwa.com/article/11621258
 attribution: 문화일보 외 언론 보도·스레드 게시물 종합
@@ -38,7 +38,7 @@ tags:
   - 광화문
 ---
 
-숭례문 집회를 정리한 [인스타그램 @conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/)과 보도 수치를 인용한 [인스타그램 @swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/)·[@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/)·[@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) 게시물은 별도 게시물 대신 여기에 함께 적습니다. 10월 3일 집회 뒤 같은 장면을 담은 게시물이 여러 계정에서 잇따라 올라와, 보도된 규모와 함께 정리했습니다. '언론이 보도하지 않았다'는 주장에 대한 대조는 [개천절 광화문 집회, '언론에선 조용'했나?](/post/2026-10-04-ycherish-oct3-rally-media)에 따로 정리했습니다.
+숭례문 집회를 정리한 [인스타그램 @conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/)과 보도 수치를 인용한 [인스타그램 @swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/)·[@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/)·[@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/), [@pinnews_1](https://www.instagram.com/p/DeF2oB7MD7h/)(썸네일 "국민들 거리로 다 모였다 / 다 함께 이재명 탄핵!") 게시물은 별도 게시물 대신 여기에 함께 적습니다. @pinnews_1 캡션은 20만 명이 국민의힘 자체 추산이며 경찰 공식 집계가 아니라고 구분해 적었습니다. 10월 3일 집회 뒤 같은 장면을 담은 게시물이 여러 계정에서 잇따라 올라와, 보도된 규모와 함께 정리했습니다. '언론이 보도하지 않았다'는 주장에 대한 대조는 [개천절 광화문 집회, '언론에선 조용'했나?](/post/2026-10-04-ycherish-oct3-rally-media)에 따로 정리했습니다.
 
 ## 보도로 확인된 내용
 

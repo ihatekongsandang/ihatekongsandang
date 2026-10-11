@@ -24,7 +24,7 @@ This post is based on the original caption and the reel's thumbnail. The thumbna
 ## North Korean army cap on Jajakdo Beach, Goseong, Oct. 10 (update)
 
 - At 6:30 a.m. on Oct. 10, a barefoot-walking group doing regular marine litter collection at the end of Jajakdo Beach in Jugwang-myeon, Goseong County, Gangwon Province, collected a cap presumed to be a North Korean army cap; its rank insignia had already come off, and it is believed to have drifted down long ago, it was reported. Debris from the North reportedly washes up periodically on Goseong's coast, a divided border area.
-- The @real_news_rn caption itself notes there are no signs that North Korean soldiers came down or infiltrated and that the cap is presumed to have been lost long ago. The thumbnail's "Goseong is trembling too" and "What is South Korea hiding?" are the poster's words; we found no basis in reports for anything being hidden.
+- The @real_news_rn caption itself notes there are no signs that North Korean soldiers came down or infiltrated and that the cap is presumed to have been lost long ago. The thumbnail's "Goseong is trembling too" and "What is South Korea hiding?" are the poster's words; we found no basis in reports for anything being hidden. An [Instagram post by @got_dem_catch](https://www.instagram.com/reel/DeULKQNTj4B/) with the same caption (Oct. 10, thumbnail "Is there something we don't know?") is also noted here; for the same reason, its thumbnail insinuation is not included in the summary.
 
 ## What we left out of the summary
 

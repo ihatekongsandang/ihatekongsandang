@@ -5,10 +5,10 @@ description: "About 28,000 reportedly joined the Oct. 3 Liberty Unification Part
 imageAlt: "View from a high-rise over Sejong-daero in Seoul, with the multi-lane road packed with rally participants and blue and white tents lining the street"
 imageCaption: "Photo of the Sejong-daero area shared by Threads user @jwapaloma on Oct. 4 (the time it was taken is not shown in the original)"
 attribution: "Compiled from Munhwa Ilbo (문화일보) and other news reports and Threads posts"
-translatedAt: 2026-10-07
+translatedAt: 2026-10-11
 ---
 
-An Instagram post by [@conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/) summarizing the Sungnyemun rally and Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/) and [@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) citing reported figures are noted here instead of in separate posts. After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
+An Instagram post by [@conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/) summarizing the Sungnyemun rally and Instagram posts by [@swing.mag](https://www.instagram.com/p/DeEhXzkh-7P/), [@haru_wiki_day](https://www.instagram.com/reel/DeEZvriSGLo/) and [@feed_scoop.mag](https://www.instagram.com/reel/DeEvsPMxA46/) citing reported figures, and by [@pinnews_1](https://www.instagram.com/p/DeF2oB7MD7h/) (thumbnail "The people all took to the streets / Impeach Lee Jae-myung together!"), are noted here instead of in separate posts. The @pinnews_1 caption itself distinguishes the 200,000 as the People Power Party's own estimate, not an official police count. After the Oct. 3 rallies, posts showing the same scenes appeared one after another from many accounts, so we have set them out together with the reported attendance. Claims that "the media did not report it" are checked separately in [National Foundation Day rally in Gwanghwamun — was the media silent?](/post/2026-10-04-ycherish-oct3-rally-media).
 
 ## What reports confirm
 
