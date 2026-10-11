@@ -6,7 +6,7 @@ imageAlt: "A man holding a sheet of paper and stating a position in front of a b
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram @freedominnovation"
 attribution: "Instagram @freedominnovation (자유와혁신)"
-translatedAt: 2026-09-30
+translatedAt: 2026-10-12
 ---
 
 ## What reports confirm
@@ -19,6 +19,11 @@ translatedAt: 2026-09-30
 The Democratic Party reportedly **withdrew the amendment on Sept. 10** after the controversy. Floor spokesperson Lee Ju-hee (이주희) reportedly said that "in the recent process of adjusting 140 bills all at once to fit the amended Criminal Procedure Act, the special counsel law amendment was drafted and introduced in a way that differed from the intent of the agreement," and that the party plans to reintroduce it so that the special counsel's dispatched prosecutors can investigate.
 
 The original post predates the withdrawal.
+
+## Later special counsel investigation (updated Oct. 12)
+
+- The special counsel team on the National Election Commission led by Lee Tae-han (이태한), launched on Sept. 7, is investigating the ballot shortage in the June 3 local elections and related matters for up to 150 days and raided the National Election Commission on Sept. 17, it was reported. The team is pursuing an evidence check in which ballots stored at the Olympic Park Handball Gymnasium in Songpa-gu, Seoul (a counting site at the time) would be compared one by one in front of the media and the public; Oct. 29 is the likely date but may change depending on consultations with relevant agencies, according to reports. The team reportedly said the procedure is an evidence check, not a recount challenging the election result.
+- An [Instagram post by @got_dem_catch](https://www.instagram.com/p/DeXAuj5k6YF/) (Oct. 12) summarizing this under the title "Will the truth about election fraud come out?" is noted here instead of in a separate post. The original caption itself says "no election fraud has been confirmed so far," and this site does not cover claims of election fraud, relaying only the special counsel's official procedure. The first image's photo of a "new election" placard and the line "Korea's election fraud truth revealed?" were not included in the summary.
 
 ## The poster's opinion
 
