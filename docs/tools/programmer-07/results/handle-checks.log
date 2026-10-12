@@ -1,0 +1,27 @@
+PASS 모서리 "@2.pro.official." — 기대 ["@2.pro.official"] · 결과 ["@2.pro.official"]
+PASS 모서리 "Instagram @2.pro.official." — 기대 ["@2.pro.official"] · 결과 ["@2.pro.official"]
+PASS 모서리 "editor@example.com" — 기대 [] · 결과 []
+PASS 모서리 "Instagram @a_b (contact: editor@example.com)" — 기대 ["@a_b"] · 결과 ["@a_b"]
+PASS 모서리 "(@a_b)" — 기대 ["@a_b"] · 결과 ["@a_b"]
+PASS 모서리 "@a.b" — 기대 ["@a.b"] · 결과 ["@a.b"]
+PASS 모서리 "@a.." — 기대 ["@a"] · 결과 ["@a"]
+PASS 모서리 "@." — 기대 [] · 결과 []
+PASS 모서리 "@" — 기대 [] · 결과 []
+PASS 모서리 "john_@example.com" — 기대 [] · 결과 []
+PASS 모서리 "first.last+tag@example.co.kr" — 기대 [] · 결과 []
+PASS 모서리 "인스타그램@im_nowandhere" — 기대 ["@im_nowandhere"] · 결과 ["@im_nowandhere"]
+PASS 모서리 "인스타그램 @im_nowandhere (나우앤히어)" — 기대 ["@im_nowandhere"] · 결과 ["@im_nowandhere"]
+PASS 모서리 "@kim_1 · @lee.2" — 기대 ["@kim_1","@lee.2"] · 결과 ["@kim_1","@lee.2"]
+PASS 모서리 "스레드 @a_b, @c.d." — 기대 ["@a_b","@c.d"] · 결과 ["@a_b","@c.d"]
+PASS 모서리 "@Upper.Case_9" — 기대 ["@Upper.Case_9"] · 결과 ["@Upper.Case_9"]
+[기준 원본] 2026-09-17-rekor-light-committee-disclosure — "인스타그램 @rekor.rgt (REKOR)"
+PASS 핸들 뒤 마침표 → 핸들 경고 0
+PASS 이메일 덧붙임 → 핸들 경고 0
+PASS 핸들 빠짐 → 누락 경고 유지
+PASS 다른 핸들 추가 → 추가 경고 유지
+[실데이터] 파일 284(content/posts + content/posts-en) · attribution 문자열 284 · 핸들 포함 284 · 핸들 284개
+PASS 실데이터 옛/새 정규식 결과 차이 0 — 0건
+[실데이터] 영어본 142건(한국어 원본 142건) · 핸들 경고 0건
+PASS 실데이터 영어본 핸들 경고 0
+검사 22개 · 통과 22 · 실패 0
+exit=0

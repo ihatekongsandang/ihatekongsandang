@@ -1,0 +1,14 @@
+── 게이트 모드: --staged · HEAD 92a6c97 (docs: 슈퍼바이저 인수 확인 트리거 · rekor 빛의위원회 보류 해제 기록 · history)
+HEAD 대비 스테이징된 변경(이번 커밋에 들어감): 1개
+    A	src/gate-negative.ts
+제외 — 미스테이징 변경(작업 트리에만 있음): 0개
+제외 — 미추적 파일: 0개
+포함 파일 수: 945 (꺼낸 파일 945) → $TMPDIR/tmp.wFiwVrveFu/repo
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm notice
+npm notice New minor version of npm available! 11.9.0 -> 11.21.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.0
+npm notice To update run: npm install -g npm@11.21.0
+npm notice
+src/gate-negative.ts(2,14): error TS2322: Type 'string' is not assignable to type 'number'.
+exit=2

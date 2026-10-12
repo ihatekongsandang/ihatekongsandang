@@ -1,0 +1,59 @@
+[index.html] {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "공산당이싫어요",
+  "url": "https://example.invalid/",
+  "description": "정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.",
+  "inLanguage": "ko",
+  "publisher": {
+    "@type": "Organization",
+    "name": "공산당이싫어요",
+    "url": "https://example.invalid/"
+  }
+}
+[en.html] {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "공산당이싫어요 (Korea Politics & Security Brief)",
+  "url": "https://example.invalid/en",
+  "description": "A card-style digest of Korean politics and security issues — policy criticism, politicians' remarks, commentary and national security — based on news reports, official announcements and court records. Each card summarizes the original post and links to its sources instead of republishing it.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "공산당이싫어요 (Korea Politics & Security Brief)",
+    "url": "https://example.invalid/en"
+  }
+}
+HTML 544개 · JSON-LD 블록 1599개 파싱 · WebSite alternateName 일치 — 한국어·404 0 · 영어 0
+FAIL index.html: 기대값과 다르다
+FAIL en.html: 기대값과 다르다
+FAIL _not-found.html: alternateName 다름
+FAIL about.html: alternateName 다름
+FAIL en.html: alternateName 다름
+FAIL en/about.html: alternateName 다름
+FAIL en/page/10.html: alternateName 다름
+FAIL en/page/11.html: alternateName 다름
+FAIL en/page/12.html: alternateName 다름
+FAIL en/page/2.html: alternateName 다름
+FAIL en/page/3.html: alternateName 다름
+FAIL en/page/4.html: alternateName 다름
+FAIL en/page/5.html: alternateName 다름
+FAIL en/page/6.html: alternateName 다름
+FAIL en/page/7.html: alternateName 다름
+FAIL en/page/8.html: alternateName 다름
+FAIL en/page/9.html: alternateName 다름
+FAIL en/post/2026-07-01-amhaengeosa-lee-nk-military-remark.html: alternateName 다름
+FAIL en/post/2026-07-04-idontknowpolitics-2018-freedom-deletion.html: alternateName 다름
+FAIL en/post/2026-07-05-idontknowpolitics-kctu-appeal.html: alternateName 다름
+FAIL en/post/2026-07-12-judypia-real-estate-supervisory-bill.html: alternateName 다름
+FAIL en/post/2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.html: alternateName 다름
+FAIL en/post/2026-07-14-kasamo7-cnn-surprise-attack-article.html: alternateName 다름
+FAIL en/post/2026-07-19-amhaengeosa-kctu-itaewon-directive.html: alternateName 다름
+FAIL en/post/2026-07-20-yoonsanghyun-special-counsel-filibuster.html: alternateName 다름
+FAIL en/post/2026-07-22-geonwoo-kimminsoo-defense.html: alternateName 다름
+FAIL en/post/2026-07-24-firstincome-seoul-edu-unification-textbook.html: alternateName 다름
+FAIL en/post/2026-07-24-korealive-woohai-moreugo.html: alternateName 다름
+FAIL en/post/2026-07-25-idontknowpolitics-cheongju-spy-directives.html: alternateName 다름
+FAIL en/post/2026-07-28-geonwoo-ebs-video-removal.html: alternateName 다름
+실패 546건
+exit=1

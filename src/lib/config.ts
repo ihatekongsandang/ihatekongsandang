@@ -12,9 +12,17 @@ export const SITE = {
     '정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.',
   locale: 'ko_KR',
   language: 'ko',
+  /**
+   * WebSite JSON-LD `alternateName` — 브랜드 검색 보조(프로그래머 07). 슈퍼바이저 지정값이다.
+   * 띄어 쓴 표기로 검색하는 경우와 슬러그(도메인·레포 이름)를 같은 사이트로 묶는다.
+   */
+  alternateName: ['공산당이 싫어요', 'ihatekongsandang'],
   /** 정정·삭제·이미지 제거 요청 채널. 사용자 확정 전 플레이스홀더. */
   contactEmail: 'contact@example.invalid',
 } as const
+
+/** 영어 사이트명의 괄호 영문 부제(괄호 제외). 슈퍼바이저 확정값(프로그래머 05 오더 §5). */
+const EN_SUBTITLE = 'Korea Politics & Security Brief'
 
 /**
  * 영어 페이지(`/en/**`)의 사이트 표기. 문구는 슈퍼바이저 확정값이다(프로그래머 05 오더 §5) — 임의로 바꾸지 않는다.
@@ -22,14 +30,20 @@ export const SITE = {
  * 괄호 부분(`subtitle`)만 줄바꿈할 수 있게 나눠 그린다. `<title>`·OG처럼 문자열만 쓰는 곳은 `name`.
  */
 export const SITE_EN = {
-  name: `${SITE.name} (Korea Politics & Security Brief)`,
+  name: `${SITE.name} (${EN_SUBTITLE})`,
   nameKo: SITE.name,
-  subtitle: '(Korea Politics & Security Brief)',
+  subtitle: `(${EN_SUBTITLE})`,
   tagline: 'Korean politics and security issues, summarized with sources and links to the originals',
   description:
     "A card-style digest of Korean politics and security issues — policy criticism, politicians' remarks, commentary and national security — based on news reports, official announcements and court records. Each card summarizes the original post and links to its sources instead of republishing it.",
   locale: 'en_US',
   language: 'en',
+  /**
+   * 영어 WebSite JSON-LD `alternateName`(프로그래머 07 판단). 영어 사이트명은 "한국어 이름 + 괄호 영문 부제" 한 덩어리라
+   * 그 구성 요소를 각각 다른 이름으로 둔다: 한국어 이름 단독(영어 페이지 머리글·바닥글도 이 이름을 따로 그린다 — `nameKo`) ·
+   * 한국어 띄어쓰기 표기 · 영문 부제 단독(괄호 없이) · 슬러그. 한국어 쪽 값과 같은 출처(`SITE`)에서 만들어 어긋나지 않게 한다.
+   */
+  alternateName: [SITE.name, SITE.alternateName[0], EN_SUBTITLE, SITE.alternateName[1]],
 } as const
 
 /**

@@ -1,0 +1,18 @@
+{
+ "plugins": [
+  {
+   "name": "next"
+  }
+ ],
+ "paths": {
+  "@/*": [
+   "./src/*"
+  ]
+ },
+ "exclude": [
+  "node_modules",
+  "docs"
+ ],
+ "files": 77,
+ "docsFiles": 0
+}

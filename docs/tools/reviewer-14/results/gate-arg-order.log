@@ -1,0 +1,73 @@
+── 게이트 모드: --staged · HEAD 2296e89 (post: 독일 하닝 전 BND 국장 간첩 혐의 체포 — '러시아 스파이'는 보도와 달라 (minkyuhan)
+HEAD 대비 스테이징된 변경(이번 커밋에 들어감): 43개
+    A	docs/handoffs/programmer-07-gate-staged-a11y-seo.md
+    A	docs/tools/programmer-07/README.md
+    A	docs/tools/programmer-07/a11y-describedby.mjs
+    A	docs/tools/programmer-07/build-variants.sh
+    A	docs/tools/programmer-07/clean-clone-gate.sh
+    A	docs/tools/programmer-07/handle-checks.ts
+    A	docs/tools/programmer-07/html-diff.mjs
+    A	docs/tools/programmer-07/jsonld-website.mjs
+    A	docs/tools/programmer-07/results/a11y-describedby-NEGATIVE-head-code.log
+    A	docs/tools/programmer-07/results/a11y-describedby-real.log
+    A	docs/tools/programmer-07/results/a11y-describedby-var.log
+    A	docs/tools/programmer-07/results/b-tsconfig-build-split.log
+    A	docs/tools/programmer-07/results/build-variants.log
+    A	docs/tools/programmer-07/results/gate-contrast-worktree-untracked.log
+    A	docs/tools/programmer-07/results/gate-final-head.log
+    A	docs/tools/programmer-07/results/gate-final-staged.log
+    A	docs/tools/programmer-07/results/gate-negative1-staged-error.log
+    A	docs/tools/programmer-07/results/gate-negative1b-staged-error-worktree-fixed.log
+    A	docs/tools/programmer-07/results/gate-negative2-untracked-only.log
+    A	docs/tools/programmer-07/results/gate-negative3-head-commit-error.log
+    A	docs/tools/programmer-07/results/gate-positive-head.log
+    A	docs/tools/programmer-07/results/gate-positive-staged.log
+    A	docs/tools/programmer-07/results/handle-checks.log
+    A	docs/tools/programmer-07/results/html-diff-base-real-vs-work-real.log
+    A	docs/tools/programmer-07/results/html-diff-base-var-vs-work-var.log
+    A	docs/tools/programmer-07/results/html-diff-base-var2-vs-work-var.log
+    A	docs/tools/programmer-07/results/html-diff-tool-negative.log
+    A	docs/tools/programmer-07/results/jsonld-website-NEGATIVE-base-real.log
+    A	docs/tools/programmer-07/results/jsonld-website-work-real.log
+    A	docs/tools/programmer-07/results/reviewer12-a11y-cards-work-var.log
+    A	docs/tools/programmer-07/results/tsx-reviewer-12-attribution-edge.log
+    A	docs/tools/programmer-07/results/tsx-tools.log
+    A	docs/tools/programmer-07/results/typecheck-worktree.log
+    A	docs/tools/programmer-07/results/validate-after.log
+    A	docs/tools/programmer-07/results/validate-diff.log
+    A	docs/triggers/programmer-07-gate-staged-a11y-seo-COMPLETE.md
+    A	instructions/programmer/processed/07-gate-staged-a11y-seo.md
+    M	next.config.ts
+    M	src/components/post-card.tsx
+    M	src/lib/config.ts
+    M	src/lib/content/translation.ts
+    M	src/lib/seo.ts
+    A	tsconfig.build.json
+제외 — 미스테이징 변경(작업 트리에만 있음): 1개
+    M	history/2026-10-01.md
+제외 — 미추적 파일: 24개
+    docs/handoffs/tester-01-deployed-image-loading.md
+    docs/qa/tester-01/ko-page1-loaded-after-stress.jpg
+    docs/qa/tester-01/results.md
+    docs/tools/planner-07/check-log.md
+    docs/tools/planner-07/korea_rss_list.html
+    docs/tools/planner-07/mnd_rss.xml
+    docs/tools/planner-07/unikorea_rss.xml
+    docs/tools/tester-01/image-load-check.js
+    docs/triggers/supervisor-2026-10-12-security-feed-kickoff-COMPLETE.md
+    docs/triggers/tester-01-deployed-image-loading-COMPLETE.md
+    history/2026-10-02.md
+    history/2026-10-03.md
+    history/2026-10-04.md
+    history/2026-10-05.md
+    history/2026-10-06.md
+    history/2026-10-07.md
+    history/2026-10-08.md
+    history/2026-10-09.md
+    history/2026-10-10.md
+    history/2026-10-11.md
+    history/2026-10-12.md
+    instructions/planner/07-security-feed-collector-spec.md
+    instructions/reviewer/14-programmer-07-gate-staged-a11y-seo.md
+    instructions/tester/processed/01-deployed-image-loading.md
+포함 파일 수: 1102 (꺼낸 파일 1102) → $SCRATCH/argtest/repo

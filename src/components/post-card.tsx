@@ -25,6 +25,9 @@ interface PostCardProps {
  *
  * 영어 피드의 영어본 없는 글(`post.koreanOnly`, 프로그래머 06)은 한국어 원본 카드다 — 제목·alt에 `lang="ko"`,
  * 링크는 한국어 상세(`/post/{id}`, `hrefLang="ko"`), 날짜 옆에 "Korean only" 표시.
+ * 그 표시는 링크의 접근성 설명(`aria-describedby`)으로 연결한다(프로그래머 07, 리뷰 12 P2-1) — 링크 단위로 이동해도
+ * "한국어 페이지로 간다"가 들리게. 표시 문구는 영어라 `lang="ko"` 링크 안에 넣지 않고 링크 밖에 둔다(탭 정지점도 1개 유지).
+ * id는 게시물 id(`[a-z0-9-]`, 스키마 검증)로 만든다 — 한 피드 페이지에 같은 게시물은 한 번만 나온다.
  */
 export function PostCard({ post, position, priority = false, locale = 'ko' }: PostCardProps) {
   const ref = useRef<HTMLDivElement | null>(null)
@@ -33,6 +36,7 @@ export function PostCard({ post, position, priority = false, locale = 'ko' }: Po
   const dict = t(locale)
   // 영어 피드 이벤트는 피드 언어 기준 `language: 'en'` + 영어본 여부. 한국어 이벤트 payload는 그대로.
   const translated = !koreanOnly
+  const koreanOnlyId = koreanOnly ? `korean-only-${post.id}` : undefined
 
   // 카드 노출 이벤트 — CTR의 분모. 측정 ID가 없으면 trackEvent가 no-op이다.
   useEffect(() => {
@@ -66,6 +70,7 @@ export function PostCard({ post, position, priority = false, locale = 'ko' }: Po
             href={postPath(koreanOnly ? 'ko' : locale, post.id)}
             hrefLang={koreanOnly ? 'ko' : undefined}
             lang={koreanOnly ? 'ko' : undefined}
+            aria-describedby={koreanOnlyId}
             onClick={() =>
               trackEvent(GA_EVENTS.selectCard, { post_id: post.id, position, ...(locale === 'en' ? { language: 'en', translated } : {}) })
             }
@@ -80,7 +85,9 @@ export function PostCard({ post, position, priority = false, locale = 'ko' }: Po
         <span aria-hidden="true">·</span>
         <span>{dict.sourceTypes[post.sourceType]}</span>
         {koreanOnly ? (
-          <span className="ml-auto shrink-0 rounded-sm border px-1.5 py-0.5 leading-none">{dict.koreanOnly}</span>
+          <span id={koreanOnlyId} className="ml-auto shrink-0 rounded-sm border px-1.5 py-0.5 leading-none">
+            {dict.koreanOnly}
+          </span>
         ) : null}
       </CardFooter>
     </Card>

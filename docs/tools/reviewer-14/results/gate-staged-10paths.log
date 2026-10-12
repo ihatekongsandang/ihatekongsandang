@@ -1,0 +1,265 @@
+── 게이트 모드: --staged · HEAD 2296e89 (post: 독일 하닝 전 BND 국장 간첩 혐의 체포 — '러시아 스파이'는 보도와 달라 (minkyuhan)
+HEAD 대비 스테이징된 변경(이번 커밋에 들어감): 43개
+    A	docs/handoffs/programmer-07-gate-staged-a11y-seo.md
+    A	docs/tools/programmer-07/README.md
+    A	docs/tools/programmer-07/a11y-describedby.mjs
+    A	docs/tools/programmer-07/build-variants.sh
+    A	docs/tools/programmer-07/clean-clone-gate.sh
+    A	docs/tools/programmer-07/handle-checks.ts
+    A	docs/tools/programmer-07/html-diff.mjs
+    A	docs/tools/programmer-07/jsonld-website.mjs
+    A	docs/tools/programmer-07/results/a11y-describedby-NEGATIVE-head-code.log
+    A	docs/tools/programmer-07/results/a11y-describedby-real.log
+    A	docs/tools/programmer-07/results/a11y-describedby-var.log
+    A	docs/tools/programmer-07/results/b-tsconfig-build-split.log
+    A	docs/tools/programmer-07/results/build-variants.log
+    A	docs/tools/programmer-07/results/gate-contrast-worktree-untracked.log
+    A	docs/tools/programmer-07/results/gate-final-head.log
+    A	docs/tools/programmer-07/results/gate-final-staged.log
+    A	docs/tools/programmer-07/results/gate-negative1-staged-error.log
+    A	docs/tools/programmer-07/results/gate-negative1b-staged-error-worktree-fixed.log
+    A	docs/tools/programmer-07/results/gate-negative2-untracked-only.log
+    A	docs/tools/programmer-07/results/gate-negative3-head-commit-error.log
+    A	docs/tools/programmer-07/results/gate-positive-head.log
+    A	docs/tools/programmer-07/results/gate-positive-staged.log
+    A	docs/tools/programmer-07/results/handle-checks.log
+    A	docs/tools/programmer-07/results/html-diff-base-real-vs-work-real.log
+    A	docs/tools/programmer-07/results/html-diff-base-var-vs-work-var.log
+    A	docs/tools/programmer-07/results/html-diff-base-var2-vs-work-var.log
+    A	docs/tools/programmer-07/results/html-diff-tool-negative.log
+    A	docs/tools/programmer-07/results/jsonld-website-NEGATIVE-base-real.log
+    A	docs/tools/programmer-07/results/jsonld-website-work-real.log
+    A	docs/tools/programmer-07/results/reviewer12-a11y-cards-work-var.log
+    A	docs/tools/programmer-07/results/tsx-reviewer-12-attribution-edge.log
+    A	docs/tools/programmer-07/results/tsx-tools.log
+    A	docs/tools/programmer-07/results/typecheck-worktree.log
+    A	docs/tools/programmer-07/results/validate-after.log
+    A	docs/tools/programmer-07/results/validate-diff.log
+    A	docs/triggers/programmer-07-gate-staged-a11y-seo-COMPLETE.md
+    A	instructions/programmer/processed/07-gate-staged-a11y-seo.md
+    M	next.config.ts
+    M	src/components/post-card.tsx
+    M	src/lib/config.ts
+    M	src/lib/content/translation.ts
+    M	src/lib/seo.ts
+    A	tsconfig.build.json
+제외 — 미스테이징 변경(작업 트리에만 있음): 1개
+    M	history/2026-10-01.md
+제외 — 미추적 파일: 24개
+    docs/handoffs/tester-01-deployed-image-loading.md
+    docs/qa/tester-01/ko-page1-loaded-after-stress.jpg
+    docs/qa/tester-01/results.md
+    docs/tools/planner-07/check-log.md
+    docs/tools/planner-07/korea_rss_list.html
+    docs/tools/planner-07/mnd_rss.xml
+    docs/tools/planner-07/unikorea_rss.xml
+    docs/tools/tester-01/image-load-check.js
+    docs/triggers/supervisor-2026-10-12-security-feed-kickoff-COMPLETE.md
+    docs/triggers/tester-01-deployed-image-loading-COMPLETE.md
+    history/2026-10-02.md
+    history/2026-10-03.md
+    history/2026-10-04.md
+    history/2026-10-05.md
+    history/2026-10-06.md
+    history/2026-10-07.md
+    history/2026-10-08.md
+    history/2026-10-09.md
+    history/2026-10-10.md
+    history/2026-10-11.md
+    history/2026-10-12.md
+    instructions/planner/07-security-feed-collector-spec.md
+    instructions/reviewer/14-programmer-07-gate-staged-a11y-seo.md
+    instructions/tester/processed/01-deployed-image-loading.md
+포함 파일 수: 1102 (꺼낸 파일 1102) → $SCRATCH/g-staged/repo
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm notice
+npm notice New minor version of npm available! 11.9.0 -> 11.21.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.0
+npm notice To update run: npm install -g npm@11.21.0
+npm notice
+✅ typecheck
+
+$SCRATCH/g-staged/repo/docs/tools/reviewer-04/keyboard-tab.mjs
+  36:7  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+$SCRATCH/g-staged/repo/docs/tools/reviewer-10/html-same.mjs
+   9:150  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  19:3    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 3 problems (0 errors, 3 warnings)
+
+✅ lint
+
+> ihatekongsandang@0.1.0 prebuild
+> npm run validate:content
+
+
+> ihatekongsandang@0.1.0 validate:content
+> tsx scripts/validate-content.ts
+
+콘텐츠 검증 — content/posts/*.md 181건 · content/posts-en/*.md 181건
+
+🟡 2026-07-12-judypia-real-estate-supervisory-bill.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.md
+   · description이 186자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-28-geonwoo-yoon-final-statement-australia.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-08-03-pagememo-nk-prosecution-reform-directive.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-08-kimsohee-ppp-seven-pledges.md
+   · description이 173자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-10-brieftag-nk-contact-reports-china.md
+   · description이 163자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-13-geonwoo-518-list-disclosure-citizen.md
+   · description이 178자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-20-hagonolza-constitution-amendment-points.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-21-centrism-dmz-summary.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-23-shindawit-army-lecture-trump.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-24-hagonolza-kctu-itaewon-claim.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-25-peoplepower7-tankday-vs-mine.md
+   · description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-26-neveragain-mexico-tariff-visit.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-facteye-dmz-mine-similar-object.md
+   · description이 167자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md
+   · description이 180자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark.md
+   · description이 162자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-solsol-mexico-17-agreements.md
+   · description이 181자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-sonit-nk-aid-vs-elderly-support.md
+   · description이 175자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-2pro-prosecution-sign-removal-cost.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-leejinsook-assassins-film-distortion.md
+   · description이 169자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-nowandhere-defense-minister-nk-responsibility.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-shindawit-cxmt-samsung-threat.md
+   · description이 170자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+── 요약 ──
+검사 파일 362건(한국어 181 · 영어본 181) · 통과 362건 · 실패 0건 (오류 0개)
+고유 id 181개 · 폐기 id 목록 3개
+유형별: url 181
+배경 보도 출처: 536건 · 발언자 표기: 56건
+검사한 이미지 alt 181개
+영어본 181건 / 전체 181건
+
+✅ 검증 통과
+
+> ihatekongsandang@0.1.0 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 15.5.25
+   - Experiments (use with caution):
+     ✓ globalNotFound
+
+   Creating an optimized production build ...
+   Using tsconfig file: tsconfig.build.json
+   Using tsconfig file: tsconfig.build.json
+   Using tsconfig file: tsconfig.build.json
+ ✓ Compiled successfully in 4.7s
+   Linting and checking validity of types ...
+   
+Your tsconfig.json extends another configuration, which means we cannot add the Next.js TypeScript plugin automatically. To improve your development experience, we recommend adding the Next.js plugin (`"plugins": [{ "name": "next" }]`) manually to your TypeScript configuration. Learn more: https://nextjs.org/docs/app/api-reference/config/typescript#the-typescript-plugin
+
+   Collecting page data ...
+   Generating static pages (0/708) ...
+   Generating static pages (177/708) 
+   Generating static pages (354/708) 
+   Generating static pages (531/708) 
+ ✓ Generating static pages (708/708)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                           Size  First Load JS
+┌ ○ /                                                                132 B         125 kB
+├ ○ /_not-found                                                      193 B         109 kB
+├ ○ /about                                                           171 B         106 kB
+├ ○ /en                                                              132 B         125 kB
+├ ○ /en/about                                                        171 B         106 kB
+├ ○ /en/opengraph-image-1nh35u                                       135 B         103 kB
+├ ● /en/page/[page]                                                  132 B         125 kB
+├   ├ /en/page/2
+├   ├ /en/page/3
+├   ├ /en/page/4
+├   └ [+12 more paths]
+├ ● /en/post/[id]                                                   3.3 kB         115 kB
+├   ├ /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+├   ├ /en/post/2026-07-04-idontknowpolitics-2018-freedom-deletion
+├   ├ /en/post/2026-07-05-idontknowpolitics-kctu-appeal
+├   └ [+178 more paths]
+├ ○ /icon.svg                                                          0 B            0 B
+├ ○ /llms.txt                                                        135 B         103 kB
+├ ○ /opengraph-image                                                 135 B         103 kB
+├ ● /page/[page]                                                     131 B         125 kB
+├   ├ /page/2
+├   ├ /page/3
+├   ├ /page/4
+├   └ [+12 more paths]
+├ ● /post/[id]                                                      3.3 kB         115 kB
+├   ├ /post/2026-10-12-minkyuhantv-german-spy-chief
+├   ├ /post/2026-10-11-knn-joojinwoo-taereung-golf
+├   ├ /post/2026-10-08-finf-un-first-committee-mine-clash
+├   └ [+178 more paths]
+├ ○ /robots.txt                                                      135 B         103 kB
+├ ○ /sitemap.xml                                                     135 B         103 kB
+├ ● /tag/[slug]                                                      132 B         125 kB
+├   ├ /tag/dmz
+├   ├ /tag/이재명
+├   ├ /tag/25사단
+├   └ [+290 more paths]
+└ ● /tag/[slug]/page/[page]                                          132 B         125 kB
+    ├ /tag/dmz/page/2
+    ├ /tag/dmz/page/3
+    ├ /tag/dmz/page/4
+    └ [+7 more paths]
++ First Load JS shared by all                                       103 kB
+  ├ chunks/255-37e0f0325134c4d7.js                                 46.4 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js                            54.2 kB
+  └ other shared chunks (total)                                    1.92 kB
+
+
+ƒ Middleware                                                       34.3 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+✅ build(validate 포함)
+✅ 깨끗한 복제본 게이트 통과 (--staged)
+bash docs/tools/programmer-07/clean-clone-gate.sh --staged $S/g-staged  55.53s user 11.34s system 252% cpu 26.523 total
+exit=0

@@ -1,0 +1,12 @@
+## (a) docs/tools 에 타입 오류 파일
+docs/tools/reviewer14-neg/neg.ts(1,14): error TS2322: Type 'string' is not assignable to type 'number'.
+typecheck exit=2
+build exit=0
+tsconfig.build.json 사용 줄: 3
+## (b) src 에 타입 오류 파일
+build exit=1
+Failed to compile.
+./src/reviewer14-neg.ts:1:14
+Type error: Type 'string' is not assignable to type 'number'.
+## (c) 원복 후 typecheck
+typecheck exit=0

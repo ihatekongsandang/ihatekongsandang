@@ -1,0 +1,34 @@
+영어 피드 12페이지 · 카드 141(한국어 게시물 141) · Korean only 21(기대 21) · 영어본 카드 120
+예: p1#2 2026-09-30-20hoon-prosecution-abolition-victim-guide: link name ""검찰청 폐지 D-1, 피해자·고소인이 챙길 3가지" 변호사 카드 — '검사 면담 진술은 증거로 못 쓴다'는 개정 형사소송법 조문으로 확인" · description "" · aria-describedby="null"
+검사 491개 · 통과 428 · 실패 63
+FAIL p1#2 2026-09-30-20hoon-prosecution-abolition-victim-guide AX 설명에 "Korean only" — ""
+FAIL p1#2 2026-09-30-20hoon-prosecution-abolition-victim-guide aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-30-20hoon-prosecution-abolition-victim-guide","title":"\"검찰청 폐지 D-1, 피해자·고소인이 챙길 3가지\" 변호사 카드 — '검사 면담 진술은 증거로 못 쓴다'는 개정 형사소송법 조문으로 확인","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p1#2 2026-09-30-20hoon-prosecution-abolition-victim-guide 대상 문구·언어(en) — null / null
+FAIL p1#9 2026-09-30-toktok-lee-classified-doc-sns AX 설명에 "Korean only" — ""
+FAIL p1#9 2026-09-30-toktok-lee-classified-doc-sns aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-30-toktok-lee-classified-doc-sns","title":"이 대통령, SNS에 '대외비' 표시 문건 게시 논란 — 野 \"선관위 특검 사찰\", 청와대 \"경찰 치안 보고, 대통령 공개는 문제없다\"; 썸네일 '징역 2년'은 법정형 상한","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p1#9 2026-09-30-toktok-lee-classified-doc-sns 대상 문구·언어(en) — null / null
+FAIL p2#3 2026-09-29-momamour-westsea-vs-dmz-comparison AX 설명에 "Korean only" — ""
+FAIL p2#3 2026-09-29-momamour-westsea-vs-dmz-comparison aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-29-momamour-westsea-vs-dmz-comparison","title":"서해 공무원 피격(문재인 정부) vs DMZ 지뢰 사고(이재명 정부) 대응 비교 게시물 — 확인된 사실 정리","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p2#3 2026-09-29-momamour-westsea-vs-dmz-comparison 대상 문구·언어(en) — null / null
+FAIL p2#10 2026-07-01-amhaengeosa-lee-nk-military-remark AX 설명에 "Korean only" — ""
+FAIL p2#10 2026-07-01-amhaengeosa-lee-nk-military-remark aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-07-01-amhaengeosa-lee-nk-military-remark","title":"이재명 대통령 \"꽤 오랜 시간 北에 군사적 공격행위…북한 편들었다고 종북이라 할 건가\" — 방중 간담회 발언 비판 릴스","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p2#10 2026-07-01-amhaengeosa-lee-nk-military-remark 대상 문구·언어(en) — null / null
+FAIL p3#4 2026-07-20-yoonsanghyun-special-counsel-filibuster AX 설명에 "Korean only" — ""
+FAIL p3#4 2026-07-20-yoonsanghyun-special-counsel-filibuster aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-07-20-yoonsanghyun-special-counsel-filibuster","title":"윤상현 의원 \"특검을 상설 정치 권력기관으로\" — 2차 종합특검 연장법 반대 필리버스터 릴스","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p3#4 2026-07-20-yoonsanghyun-special-counsel-filibuster 대상 문구·언어(en) — null / null
+FAIL p3#12 2026-09-11-currentwaves-nk-hr-report-classified AX 설명에 "Korean only" — ""
+FAIL p3#12 2026-09-11-currentwaves-nk-hr-report-classified aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-11-currentwaves-nk-hr-report-classified","title":"통일부 '북한인권보고서' 다시 3급 비밀로 비공개 — 정권마다 공개·비공개 오락가락 비판","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p3#12 2026-09-11-currentwaves-nk-hr-report-classified 대상 문구·언어(en) — null / null
+FAIL p4#8 2026-09-15-jindam-choo-resignation-petition AX 설명에 "Korean only" — ""
+FAIL p4#8 2026-09-15-jindam-choo-resignation-petition aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-15-jindam-choo-resignation-petition","title":"추미애 경기지사 사퇴 청원 3만명 동의 후 '답변 완료' 조기 종료 — 추 지사 \"저 추미애가 안 쫓겨납니다\"","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p4#8 2026-09-15-jindam-choo-resignation-petition 대상 문구·언어(en) — null / null
+FAIL p5#9 2026-09-21-leeprenotion-assembly-holiday-bonus AX 설명에 "Korean only" — ""
+FAIL p5#9 2026-09-21-leeprenotion-assembly-holiday-bonus aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-21-leeprenotion-assembly-holiday-bonus","title":"국회의원 명절휴가비 연 880만원 수준 — \"혈세 아깝다\" 스레드","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p5#9 2026-09-21-leeprenotion-assembly-holiday-bonus 대상 문구·언어(en) — null / null
+FAIL p5#11 2026-09-22-taekyu-chief-justice-refusal AX 설명에 "Korean only" — ""
+FAIL p5#11 2026-09-22-taekyu-chief-justice-refusal aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-22-taekyu-chief-justice-refusal","title":"김태규 의원 \"대법관 제청권 끝까지 지켜낸 조희대 대법원장에 존경\" — 재제청 거부 지지 논평","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p5#11 2026-09-22-taekyu-chief-justice-refusal 대상 문구·언어(en) — null / null
+FAIL p6#8 2026-09-26-rekor-dmz-dispute AX 설명에 "Korean only" — ""
+FAIL p6#8 2026-09-26-rekor-dmz-dispute aria-describedby 대상 1개·카드 안·링크 밖 — {"href":"/post/2026-09-26-rekor-dmz-dispute","title":"민주당 \"안보는 추측으로 하는 것 아냐\" vs 국민의힘 \"北 목함지뢰 가능성\" — DMZ 폭발 여야 공방 카드","ref":null,"targetCount":0,"targetText":null,"targetInLink":false,"targetInCard":false,"targetLang":null,"focusables":1}
+FAIL p6#8 2026-09-26-rekor-dmz-dispute 대상 문구·언어(en) — null / null
+exit=1

@@ -1,0 +1,11 @@
+── 게이트 모드: --head · HEAD f8b645a (scratch: 게이트 음성 대조 — 타입 오류 커밋)
+푸시 대상: origin/main 보다 앞선 커밋 1개
+    f8b645a scratch: 게이트 음성 대조 — 타입 오류 커밋
+제외 — 스테이징만 되고 커밋 안 됨: 0개
+제외 — 미스테이징 변경: 1개
+    M	src/gate-negative.ts
+제외 — 미추적 파일: 0개
+포함 파일 수: 945 (꺼낸 파일 945) → $TMPDIR/tmp.sull6ESkOK/repo
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+src/gate-negative.ts(2,14): error TS2322: Type 'string' is not assignable to type 'number'.
+exit=2

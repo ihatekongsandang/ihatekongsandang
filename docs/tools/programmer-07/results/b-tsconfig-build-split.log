@@ -1,0 +1,24 @@
+## B-1 도구 타입 오류(docs/tools/reviewer-12/attribution-edge.tsx 06-1 수정 되돌림) + 작업 코드
+ docs/tools/reviewer-12/attribution-edge.tsx | 2 --
+ 1 file changed, 2 deletions(-)
+### npm run typecheck (루트 tsconfig)
+docs/tools/reviewer-12/attribution-edge.tsx(38,11): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(40,8): error TS18048: 'original' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,27): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(45,55): error TS18048: 'sample' is possibly 'undefined'.
+docs/tools/reviewer-12/attribution-edge.tsx(46,17): error TS18048: 'sample' is possibly 'undefined'.
+typecheck_exit=2
+### VERCEL=1 CI=1 npm run build (tsconfig.build.json)
+build_exit=0
+3
+ ✓ Generating static pages (552/552)
+도구 수정 재적용(diff 0)
+## B-2 운영 코드 타입 오류(src/gate-negative.ts) + 작업 코드 → build가 여전히 막아야 한다
+build_exit=1
+Failed to compile.
+
+./src/gate-negative.ts:2:14
+Type error: Type 'string' is not assignable to type 'number'.
+
+[0m [90m 1 |[39m [90m// 음성 대조용 — 의도한 타입 오류[39m
+오류 파일 제거

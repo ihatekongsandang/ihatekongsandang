@@ -1,0 +1,17 @@
+기준 HTML 544개 · 작업 HTML 544개 · 누락 0 · 추가 0
+한국어·404: 390개 · 의도 변경 걷은 뒤 동일 388/390 · alternateName 1회 389개 파일 · Korean only 연결 1개 · RSC 동일 390/390
+영어(en/**): 154개 · 의도 변경 걷은 뒤 동일 154/154 · alternateName 1회 154개 파일 · Korean only 연결 0개 · RSC 동일 154/154
+.rsc 동일 543/544 · .body 동일 6/6 · .meta 동일 550/550 · .json 동일 17/17
+FAIL about.html: 의도한 변경을 걷어 낸 뒤에도 다르다
+    기준 …e":"WebSite","name":"공산당이싫어요","url":"https://example.invalid/"}}</script></div></main><footer class="mt-16 border-t bg-surface max-lg:pb-[calc(5.5rem+env(safe-area-inset-bottom))] lg:max-[77rem]:pr-10"><div class="mx-auto w-full max-w-6xl s…
+    작업 …e":"WebSite","name":"공산당이싫어요","url":"https://example.invalid/"}}</script></div><p>x</p></main><footer class="mt-16 border-t bg-surface max-lg:pb-[calc(5.5rem+env(safe-area-inset-bottom))] lg:max-[77rem]:pr-10"><div class="mx-auto w-full max…
+FAIL index.html: 기대값과 다른 alternateName이 있다
+FAIL index.html: alternateName 0회(WebSite JSON-LD 있음)
+FAIL index.html: 의도한 변경을 걷어 낸 뒤에도 다르다
+    기준 …n/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"공산당이싫어요","url":"https://example.invalid/","description":"정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.","inLa…
+    작업 …n/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"공산당이싫어요","alternateName":["공산당이 싫어요","ihatekongsandang","extra"],"url":"https://example.invalid/","description":"정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된…
+FAIL page/2.html: 한국어 HTML에 Korean only 속성 1/0
+FAIL page/2.html: aria-describedby 1 ↔ 배지 id 0 불일치
+FAIL en.rsc: 다르다
+실패 7건
+exit=1

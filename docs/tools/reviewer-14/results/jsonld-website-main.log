@@ -1,0 +1,38 @@
+## index.html
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "공산당이싫어요",
+ "alternateName": [
+  "공산당이 싫어요",
+  "ihatekongsandang"
+ ],
+ "url": "https://example.invalid/",
+ "description": "정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.",
+ "inLanguage": "ko",
+ "publisher": {
+  "@type": "Organization",
+  "name": "공산당이싫어요",
+  "url": "https://example.invalid/"
+ }
+}
+## en.html
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "공산당이싫어요 (Korea Politics & Security Brief)",
+ "alternateName": [
+  "공산당이싫어요",
+  "공산당이 싫어요",
+  "Korea Politics & Security Brief",
+  "ihatekongsandang"
+ ],
+ "url": "https://example.invalid/en",
+ "description": "A card-style digest of Korean politics and security issues — policy criticism, politicians' remarks, commentary and national security — based on news reports, official announcements and court records. Each card summarizes the original post and links to its sources instead of republishing it.",
+ "inLanguage": "en",
+ "publisher": {
+  "@type": "Organization",
+  "name": "공산당이싫어요 (Korea Politics & Security Brief)",
+  "url": "https://example.invalid/en"
+ }
+}

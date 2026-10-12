@@ -1,0 +1,39 @@
+HEAD 92a6c97
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm notice
+npm notice New minor version of npm available! 11.9.0 -> 11.21.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.0
+npm notice To update run: npm install -g npm@11.21.0
+npm notice
+base-real build exit=0 · HTML 544개
+work-real build exit=0 · HTML 544개
+변형 콘텐츠: 영어본 120건 / 한국어 141건
+base-var build exit=0 · HTML 523개
+work-var build exit=0 · HTML 523개
+  작업 폴더 변경:  D content/posts-en/2026-07-01-amhaengeosa-lee-nk-military-remark.md
+  작업 폴더 변경:  D content/posts-en/2026-07-20-yoonsanghyun-special-counsel-filibuster.md
+  작업 폴더 변경:  D content/posts-en/2026-08-03-pagememo-nk-prosecution-reform-directive.md
+  작업 폴더 변경:  D content/posts-en/2026-09-08-sonit-criminal-record-card.md
+  작업 폴더 변경:  D content/posts-en/2026-09-11-currentwaves-nk-hr-report-classified.md
+  작업 폴더 변경:  D content/posts-en/2026-09-13-geonwoo-leejinsook-518-merit-disclosure.md
+  작업 폴더 변경:  D content/posts-en/2026-09-15-jindam-choo-resignation-petition.md
+  작업 폴더 변경:  D content/posts-en/2026-09-17-idontknowpolitics-sergeant-leak-china.md
+  작업 폴더 변경:  D content/posts-en/2026-09-20-kimeunhye-jeonse-reel.md
+  작업 폴더 변경:  D content/posts-en/2026-09-21-leeprenotion-assembly-holiday-bonus.md
+  작업 폴더 변경:  D content/posts-en/2026-09-22-taekyu-chief-justice-refusal.md
+  작업 폴더 변경:  D content/posts-en/2026-09-25-kimkyelee-nk-pow-ukraine.md
+  작업 폴더 변경:  D content/posts-en/2026-09-26-rekor-dmz-dispute.md
+  작업 폴더 변경:  D content/posts-en/2026-09-27-leejinsook-lee-parents-grave-farmland.md
+  작업 폴더 변경:  D content/posts-en/2026-09-28-boxplus-2019-forced-repatriation.md
+  작업 폴더 변경:  D content/posts-en/2026-09-28-kimjanggyeom-hanjunho-kbs-complaint.md
+  작업 폴더 변경:  D content/posts-en/2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md
+  작업 폴더 변경:  D content/posts-en/2026-09-28-todayissuepicks-dmz-hand-pick-escape.md
+  작업 폴더 변경:  D content/posts-en/2026-09-29-momamour-westsea-vs-dmz-comparison.md
+  작업 폴더 변경:  D content/posts-en/2026-09-30-20hoon-prosecution-abolition-victim-guide.md
+  작업 폴더 변경:  D content/posts-en/2026-09-30-toktok-lee-classified-doc-sns.md
+  작업 폴더 변경:  M next.config.ts
+  작업 폴더 변경:  M src/components/post-card.tsx
+  작업 폴더 변경:  M src/lib/config.ts
+  작업 폴더 변경:  M src/lib/content/translation.ts
+  작업 폴더 변경:  M src/lib/seo.ts
+  작업 폴더 변경: ?? tsconfig.build.json

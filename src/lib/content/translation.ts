@@ -245,9 +245,16 @@ function describeType(value: unknown): string {
   return typeof value === 'number' ? '숫자' : typeof value === 'boolean' ? '참/거짓' : typeof value
 }
 
-/** 출처 표기 속 계정 핸들(`@im_nowandhere`). 대소문자까지 원본과 같아야 같은 핸들로 본다. */
-function handlesIn(text: string): string[] {
-  return text.match(/@[A-Za-z0-9._]+/g) ?? []
+/**
+ * 출처 표기 속 계정 핸들 — `@` 뒤 영숫자·`.`·`_`, 끝 글자는 `.`이 아니다
+ * (문장 끝 마침표 `@2.pro.official.`, 프로그래머 07 / 리뷰 12 P2-2). 플랫폼 계정명도 `.`로 끝날 수 없다.
+ *
+ * 바로 앞 글자가 이메일 로컬 파트 문자(영숫자 `.` `_` `%` `+` `-`)면 핸들로 보지 않는다
+ * (`editor@example.com`·`john_@example.com`의 `@example.com`). 공백·괄호·한글 뒤나 문자열 맨 앞은 핸들이다.
+ * 대소문자까지 원본과 같아야 같은 핸들로 본다.
+ */
+export function handlesIn(text: string): string[] {
+  return text.match(/(?<![A-Za-z0-9._%+-])@[A-Za-z0-9._]*[A-Za-z0-9_]/g) ?? []
 }
 
 /**

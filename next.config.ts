@@ -46,6 +46,11 @@ const nextConfig: NextConfig = {
   // `app/global-not-found.tsx`가 `<html lang>`부터 직접 그리게 한다(프로그래머 05 — 사유는 그 파일 주석).
   experimental: { globalNotFound: true },
   reactStrictMode: true,
+  // 빌드 타입 검사는 `docs/`(리뷰·측정 도구)를 뺀 `tsconfig.build.json`으로 한다(프로그래머 07).
+  // 루트 `tsconfig.json`의 `include: **/*.tsx`가 도구 파일까지 잡아, 도구의 타입 오류 하나가 운영 배포를 세운 적이 있다(06-1).
+  // 루트는 그대로 둔다 — 도구별 tsconfig가 루트를 extends 하므로 루트에서 빼면 도구 실행이 깨지고(06-1 실측),
+  // 도구 타입 검사는 `npm run typecheck`(루트 기준)와 커밋 전 게이트가 계속 맡는다.
+  typescript: { tsconfigPath: 'tsconfig.build.json' },
 
   ...(runningOnVercel ? {} : { headers: async () => localHeaderRules() }),
 }

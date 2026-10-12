@@ -32,6 +32,8 @@ export function websiteJsonLd(locale: Locale = 'ko') {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: site.name,
+    // 브랜드 표기 변형(띄어쓰기·슬러그 등) — 값은 `config.ts`에서 관리한다(프로그래머 07).
+    alternateName: site.alternateName,
     url: absoluteUrl(homePath(locale)),
     description: site.description,
     inLanguage: site.language,

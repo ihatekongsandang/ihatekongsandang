@@ -1,0 +1,7 @@
+programmer-05/unit-checks.ts exit=0 · 출력 마지막 줄: 케이스 53개 · 통과 53 · 실패 0
+programmer-05-1/unit-checks.tsx exit=0 · 출력 마지막 줄: 케이스 25개 · 통과 25 · 실패 0
+programmer-06/unit-checks.tsx exit=0 · 출력 마지막 줄: 검사 35개 · 통과 35 · 실패 0
+reviewer-11/attribution-edge.tsx exit=0 · 출력 마지막 줄: [render en] "Instagram @im_nowandhere (Now and Here)" → 감싸는 요소 lang=(없음) · Instagram @im_nowandhere (Now and Here)
+reviewer-12/attribution-edge.tsx exit=0 · 출력 마지막 줄:   errors 2(imageAlt,imageCaption) · notices: speakerAffiliation: 문자열이 아니라 무시됩니다(받은 값: 숫자) — 따옴표로 감싼 한 줄 문자열로 적으세요. 지금은 한
+programmer-07/handle-checks.ts exit=0 · 출력 마지막 줄: 검사 22개 · 통과 22 · 실패 0
+도구 6종 · exit 0 6종

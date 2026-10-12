@@ -1,0 +1,19 @@
+p1: 카드 12 · Korean only 3 · aria-describedby 3
+p2: 카드 12 · Korean only 0 · aria-describedby 0
+p3: 카드 12 · Korean only 3 · aria-describedby 3
+p4: 카드 12 · Korean only 1 · aria-describedby 1
+p5: 카드 12 · Korean only 2 · aria-describedby 2
+p6: 카드 12 · Korean only 3 · aria-describedby 3
+p7: 카드 12 · Korean only 1 · aria-describedby 1
+p8: 카드 12 · Korean only 1 · aria-describedby 1
+p9: 카드 12 · Korean only 3 · aria-describedby 3
+p10: 카드 12 · Korean only 2 · aria-describedby 2
+p11: 카드 12 · Korean only 2 · aria-describedby 2
+p12: 카드 12 · Korean only 2 · aria-describedby 2
+p13: 카드 12 · Korean only 1 · aria-describedby 1
+p14: 카드 12 · Korean only 4 · aria-describedby 4
+p15: 카드 12 · Korean only 2 · aria-describedby 2
+p16: 카드 1 · Korean only 0 · aria-describedby 0
+영어 피드 16페이지 · 카드 181 · Korean only 30(기대 30)
+예: p1 2026-10-08-finf-un-first-committee-mine-clash: name="유엔서 DMZ 지뢰 남북 설전 — 차지훈 대사 "북한군이 MDL 이남에 의도적으로 매설", 北은 정동영 장관 국감 발언 인용해 책임 부인" description="Korean only" aria-describedby="korean-only-2026-10-08-finf-un-first-committee-mine-clash"
+검사 624 · 통과 624 · 실패 0
