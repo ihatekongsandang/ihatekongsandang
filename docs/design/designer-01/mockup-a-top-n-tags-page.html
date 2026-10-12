@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>시안 A — 상위 N개 + 전체 태그 보기 (/tags)</title>
+<style>
+  :root {
+    --background: #ffffff;
+    --foreground: #18181b;
+    --surface-strong: #f4f4f5;
+    --muted-foreground: #52525b;
+    --border: #e4e4e7;
+    --ring: #1d4ed8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px 80px; }
+  header.site {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+  }
+  header.site .brand { font-weight: 700; }
+  header.site nav a { margin-left: 16px; color: var(--foreground); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 28px; margin: 0 0 12px; }
+  p.lead { color: var(--muted-foreground); font-size: 15px; line-height: 1.6; max-width: 640px; margin: 0 0 24px; }
+  .note-label { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .02em; color: #fff; background: var(--ring); border-radius: 4px; padding: 2px 8px; margin-bottom: 10px; }
+
+  nav.tagnav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    border: 1px solid var(--border); background: var(--surface-strong);
+    border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 500;
+    text-decoration: none; color: var(--foreground); white-space: nowrap;
+  }
+  .badge:hover { border-color: rgba(24,24,27,.4); }
+  .badge .count { color: var(--muted-foreground); }
+  a.badge-link { border-radius: 999px; }
+  a.badge-link:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+  .more-tags-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px dashed var(--border); border-radius: 999px; padding: 4px 12px;
+    font-size: 13px; font-weight: 600; color: var(--foreground); text-decoration: none;
+  }
+  .more-tags-link:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+  .more-tags-link:hover { background: var(--surface-strong); }
+
+  section.compare { margin-top: 56px; padding-top: 32px; border-top: 1px dashed var(--border); }
+  section.compare h2 { font-size: 16px; }
+  .before-badges { display: flex; flex-wrap: wrap; gap: 8px; opacity: .55; }
+
+  .tags-page-preview { margin-top: 56px; border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .tags-page-preview h2 { margin-top: 0; font-size: 18px; }
+  .sort-toggle { display: flex; gap: 8px; margin: 12px 0 16px; font-size: 13px; }
+  .sort-toggle button {
+    border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: 4px 12px;
+    font-size: 13px; cursor: pointer;
+  }
+  .sort-toggle button[aria-pressed="true"] { background: var(--foreground); color: #fff; border-color: var(--foreground); }
+  .full-tag-grid { display: flex; flex-wrap: wrap; gap: 8px; max-height: 220px; overflow-y: auto; }
+
+  footer.meta { margin-top: 40px; font-size: 12px; color: var(--muted-foreground); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="brand">공산당이싫어요</div>
+    <nav><a href="#">홈</a><a href="#">소개</a><a href="#">한국어 / English</a></nav>
+  </header>
+
+  <span class="note-label">시안 A — 메인 페이지</span>
+  <h1>공산당이싫어요</h1>
+  <p class="lead">정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.</p>
+
+  <nav class="tagnav" aria-label="태그">
+    <a class="badge badge-link" href="#"><span>#dmz</span><span class="count" aria-hidden="true">40</span><span class="sr-only">게시물 40건</span></a>
+    <a class="badge badge-link" href="#"><span>#이재명</span><span class="count" aria-hidden="true">26</span></a>
+    <a class="badge badge-link" href="#"><span>#25사단</span><span class="count" aria-hidden="true">17</span></a>
+    <a class="badge badge-link" href="#"><span>#목함지뢰</span><span class="count" aria-hidden="true">16</span></a>
+    <a class="badge badge-link" href="#"><span>#중국</span><span class="count" aria-hidden="true">15</span></a>
+    <a class="badge badge-link" href="#"><span>#합참</span><span class="count" aria-hidden="true">14</span></a>
+    <a class="badge badge-link" href="#"><span>#국가보안법</span><span class="count" aria-hidden="true">13</span></a>
+    <a class="badge badge-link" href="#"><span>#국민의힘</span><span class="count" aria-hidden="true">11</span></a>
+    <a class="badge badge-link" href="#"><span>#지뢰</span><span class="count" aria-hidden="true">11</span></a>
+    <a class="badge badge-link" href="#"><span>#더불어민주당</span><span class="count" aria-hidden="true">10</span></a>
+    <a class="badge badge-link" href="#"><span>#북한</span><span class="count" aria-hidden="true">10</span></a>
+    <a class="badge badge-link" href="#"><span>#집회</span><span class="count" aria-hidden="true">10</span></a>
+    <a class="more-tags-link" href="#tags-preview" aria-label="전체 태그 285개 더 보기">전체 태그 보기 (297개) →</a>
+  </nav>
+
+  <section class="compare" aria-hidden="true">
+    <h2>지금(배포본) — 비교용, 실제 목업 아님</h2>
+    <p style="font-size:13px;color:var(--muted-foreground)">297개 전부 나열 · nav 높이 데스크톱(1920px) 783px / 585px 폭 1609px → 첫 카드까지 각 1.45 / 3.08뷰포트 스크롤</p>
+  </section>
+
+  <div class="tags-page-preview" id="tags-preview">
+    <span class="note-label" style="background:var(--muted-foreground)">신규 라우트 미리보기 — /tags</span>
+    <h2>전체 태그 (297개)</h2>
+    <div class="sort-toggle" role="group" aria-label="정렬 기준">
+      <button type="button" aria-pressed="true">건수순</button>
+      <button type="button" aria-pressed="false">가나다순</button>
+    </div>
+    <div class="full-tag-grid">
+      <a class="badge badge-link" href="#">#dmz <span class="count">40</span></a>
+      <a class="badge badge-link" href="#">#이재명 <span class="count">26</span></a>
+      <a class="badge badge-link" href="#">#25사단 <span class="count">17</span></a>
+      <a class="badge badge-link" href="#">#목함지뢰 <span class="count">16</span></a>
+      <a class="badge badge-link" href="#">#중국 <span class="count">15</span></a>
+      <a class="badge badge-link" href="#">#합참 <span class="count">14</span></a>
+      <a class="badge badge-link" href="#">#국가보안법 <span class="count">13</span></a>
+      <a class="badge badge-link" href="#">#국민의힘 <span class="count">11</span></a>
+      <a class="badge badge-link" href="#">#지뢰 <span class="count">11</span></a>
+      <a class="badge badge-link" href="#">#더불어민주당 <span class="count">10</span></a>
+      <a class="badge badge-link" href="#">#북한 <span class="count">10</span></a>
+      <a class="badge badge-link" href="#">#집회 <span class="count">10</span></a>
+      <a class="badge badge-link" href="#">#통일부 <span class="count">9</span></a>
+      <a class="badge badge-link" href="#">#간첩 <span class="count">8</span></a>
+      <a class="badge badge-link" href="#">#대북지원 <span class="count">7</span></a>
+      <a class="badge badge-link" href="#">#팩트체크 <span class="count">6</span></a>
+      <a class="badge badge-link" href="#">#개헌 <span class="count">5</span></a>
+      <a class="badge badge-link" href="#">#검찰개혁 <span class="count">5</span></a>
+      <a class="badge badge-link" href="#">… (1건짜리 190개 포함 나머지 285개)</a>
+    </div>
+    <p style="font-size:12px;color:var(--muted-foreground);margin-top:10px">실제 구현: SSG 정적 라우트 1개(<code>/tags/page.tsx</code>), 데이터는 기존 <code>getAllTags()</code> 그대로 사용(서버 데이터 의존 없음). 정렬 토글은 클라이언트 컴포넌트.</p>
+  </div>
+
+  <footer class="meta">목업 — docs/design/designer-01/mockup-a-top-n-tags-page.html · 실제 배포본 아님 · src/ 미수정</footer>
+</div>
+</body>
+</html>

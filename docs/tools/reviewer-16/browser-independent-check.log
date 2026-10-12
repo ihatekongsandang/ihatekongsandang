@@ -1,0 +1,51 @@
+# 리뷰어 16 — 독립 대조·브라우저 실측 (2026-10-12 18:3x~18:5x, 로컬 `next start -p 3216`, 같은 빌드)
+# 프로그래머 측정 스크립트와 별개로, 기대값은 content/posts frontmatter를 리뷰어가 따로 집계했고(태그 301, 정렬 건수↓·이름 localeCompare('ko')),
+# HTML은 정규식이 아니라 브라우저 DOMParser로 파싱했다. 경로는 파일이 아니라 공개 URL(`?page=n` → 미들웨어 rewrite 경유)로 요청했다.
+
+## 1) 전수 대조 (claude-in-chrome javascript_tool, fetch + DOMParser)
+- 태그 피드: 301개 태그 × ceil(건수/12) 페이지 = 311 URL (`/tag/{enc}` 301 + `/tag/{enc}?page=n` 10) → 전부 200
+  - 상위 12 태그 1페이지 12 + 상위 태그 n페이지 10 = 22쪽: 칩 12 (`tag:top|12 → 22`)
+  - 상위 밖 289쪽: 칩 13, 맨 앞 = 현재 태그, aria-current="page" 1개 (`tag:outside|13 → 289`)
+  - 모든 쪽: nav[aria-label="태그"] 정확히 1개, 칩 순서·sr-only 건수 = 기대값, nav 마지막 요소 = `/tags` 링크,
+    링크 textContent = "전체 태그 보기 (301개)→", aria-current 없음
+- 홈: `/`, `/?page=2`~`/?page=16` 16쪽 전부 칩 12 + 전체 보기 1, aria-current 없음 · `/?page=17` → 404
+- 영어: `/en`, `/en?page=2`~`16` 16쪽 전부 태그 nav 0 · `/tags` 링크 0 · `/en?page=17` → 404
+- `/tags`: main 안 태그 링크 301 = 기대 301, `ul[role=list][aria-label="태그 목록"] > li` 301, 순서·건수(태그:건수 문자열) 전수 일치, 상단 태그 nav 0, h1 1개("전체 태그")
+- sitemap.xml: `<url>` 674 · `/tags` 포함 · `/tag/*` 301 · 그중 `/tags`에서 링크되지 않은 태그 0
+- 실패 0건
+
+## 2) 라우팅
+- `/tags/` → 308 `/tags` (curl) · `/tags?page=2` 200(본문 = /tags, 미들웨어 matcher에 /tags 없음) · `/en/tags` 404 · `/tag/tags` 404 · `/tag/dmz?page=5` 404
+- `/en/tags` 404 HTML: `<html lang="ko">`, robots meta 2개(`noindex` / `noindex, follow`) — 다른 없는 `/en/*` 경로와 동일.
+  배포본(HEAD) `/en/nonexistent-xyz`도 같은 2개 → 기존 동작, 이번 변경 무관.
+
+## 3) 칩 HTML 변경 전후 비교 (TagChip 분리 회귀)
+- 변경 전: 배포본(HEAD 364a2a9) `/tag/dmz` curl 1회 · 변경 후: 로컬 `/tag/dmz`
+- `<nav aria-label="태그" class="flex flex-wrap items-center gap-2">` 여는 태그 동일
+- 상위 12개 칩 `<a>…</a>` 바이트 단위 동일 12/12 (활성 칩 dmz의 aria-current·검정 배경 클래스 포함)
+- 문서 크기 `/tag/dmz` 479,215 B → 102,754 B (−78.6%)
+
+## 4) 대비·크기 (getComputedStyle, 1280px, 라이트 — 사이트에 다크 모드 토큰 없음: globals.css에 prefers-color-scheme·.dark 없음)
+| 요소 | 글자색 / 배경 | 대비 |
+|---|---|---|
+| 활성 칩 태그명 | #fff / rgb(24,24,27) | 17.72:1 |
+| 활성 칩 건수 숫자(`text-muted-foreground`, 12px·500) | rgb(82,82,91) / rgb(24,24,27) | **2.29:1** (AA 4.5:1 미달) |
+| 비활성 칩 건수 숫자 | rgb(82,82,91) / rgb(244,244,245) | 7.03:1 |
+| "전체 태그 보기" 문구(12px·600) | rgb(24,24,27) / 페이지 배경 | 17.72:1 |
+- 칩·전체 보기 링크 높이 26.4px (WCAG 2.5.8 최소 24px 충족)
+- 활성 칩 클래스는 HEAD의 tag-nav.tsx와 동일(`bg-foreground text-background` + 숫자 `text-muted-foreground`) → 기존 결함
+
+## 5) 키보드 (실제 Tab 키, /tag/1군단)
+- 양수 tabindex 0개. DOM 포커스 순서: … English → 칩 13개(#1군단 → dmz … 집회) → "전체 태그 보기" → 첫 게시물 카드
+- h1 클릭 후 Tab 14회 → "전체 태그 보기"에 포커스 링(파란 outline) 육안 확인 (zoom 스크린샷)
+
+## 6) 모바일 390px (재현 방식 주의)
+- `resize_window` 390 요청 → innerWidth 1280 그대로(디자이너 01이 보고한 도구 제약 재현). X-Frame-Options: DENY라 iframe 직접 로드 불가.
+- 대안: 페이지 HTML을 스크립트 제거 후 `srcdoc` iframe(폭 390, `<base>`로 같은 CSS)에 넣어 측정 — innerWidth 390, sm 미적용 확인
+| 경로 | 태그 nav 높이 | 첫 카드 top | 가로 넘침 |
+|---|---|---|---|
+| `/` | 130px | 658px (뷰포트 844 안) | 없음(scrollWidth 390) |
+| `/tag/1군단` (13칩) | 130px | 638px | 없음 |
+| `/tag/dmz` | 130px | 638px | 없음 |
+| `/tags` | 목록 높이 2631px | — | 없음 |
+- 실기기·실브라우저 폭이 아니므로 테스터 재확인 대상(변경 전 디자이너 01 585px 실측 nav 1609px).

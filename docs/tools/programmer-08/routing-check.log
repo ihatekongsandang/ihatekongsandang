@@ -1,0 +1,66 @@
+# 프로그래머 08 라우팅 실측 (next start, 로컬 프로덕션 빌드) 2026-10-12 16:29:27
+/ → 200  · h1=공산당이싫어요 · tagnav=1 · tags링크=1
+/tags → 200  · h1=전체 태그 · tagnav=0 · tags링크=0
+/tags?page=2 → 200  · h1=전체 태그 · tagnav=0 · tags링크=0
+/tags/ → 308 http://localhost:3108/tags · h1= · tagnav=0 · tags링크=0
+/en/tags → 404  · h1=페이지를 찾을 수 없습니다 · tagnav=0 · tags링크=0
+/en/tags?page=2 → 404  · h1=페이지를 찾을 수 없습니다 · tagnav=0 · tags링크=0
+/tag/dmz → 200  · h1=#dmz · tagnav=1 · tags링크=1
+/tag/dmz?page=2 → 200  · h1=#dmz · tagnav=1 · tags링크=1
+/tag/%EC%9D%B4%EC%9E%AC%EB%AA%85 → 200  · h1=#이재명 · tagnav=1 · tags링크=1
+/tag/1%EA%B5%B0%EB%8B%A8 → 200  · h1=#1군단 · tagnav=1 · tags링크=1
+/tag/tags → 404  · h1=페이지를 찾을 수 없습니다 · tagnav=0 · tags링크=0
+/en → 200  · h1= · tagnav=0 · tags링크=0
+/sitemap.xml → 200  · h1= · tagnav=0 · tags링크=0
+/robots.txt → 200  · h1= · tagnav=0 · tags링크=0
+
+## /tags?page=2 와 /tags 본문 동일 여부
+동일
+
+## robots.txt
+User-Agent: *
+Allow: /
+Disallow: /page/
+Disallow: /tag/*/page/
+Disallow: /en/page/
+
+Host: http://localhost:3000
+Sitemap: http://localhost:3000/sitemap.xml
+
+## sitemap: /tags 항목
+<loc>http://localhost:3000/tags</loc>
+sitemap <url> 총수: 674
+
+## /tags head 메타
+<title>전체 태그 · 공산당이싫어요</title>
+<meta name="description" content="공산당이싫어요의 태그 301개를 게시물이 많은 순으로 모았습니다. 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="http://localhost:3000/tags"/>
+<meta property="og:title" content="공산당이싫어요 — 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta property="og:description" content="정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다."/>
+<meta property="og:locale" content="ko_KR"/>
+<meta property="og:image:alt" content="공산당이싫어요 — 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image" content="http://localhost:3000/opengraph-image?c90019eef1282dc6"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="공산당이싫어요 — 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta name="twitter:description" content="정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다."/>
+<meta name="twitter:image" content="http://localhost:3000/opengraph-image?c90019eef1282dc6"/>
+
+## 비교: /about head OG 메타
+<meta property="og:title" content="공산당이싫어요 — 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta property="og:description" content="정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다."/>
+<meta property="og:locale" content="ko_KR"/>
+<meta property="og:image:alt" content="공산당이싫어요 — 정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image" content="http://localhost:3000/opengraph-image?c90019eef1282dc6"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:type" content="website"/>
+
+## /tags 언어 전환 링크·JSON-LD
+hrefLang="en" class="underline-offset-2 hover:text-foreground hover:underline" href="/en">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"http://localhost:3000/"},{"@type":"ListItem","position":2,"name":"전체 태그","item":"http://localhost:3000/tags"}]}

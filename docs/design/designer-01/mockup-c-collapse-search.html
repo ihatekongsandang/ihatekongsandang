@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>시안 C — 접힘 기본 + 클라이언트 펼치기·검색</title>
+<style>
+  :root {
+    --background: #ffffff;
+    --foreground: #18181b;
+    --surface-strong: #f4f4f5;
+    --muted-foreground: #52525b;
+    --border: #e4e4e7;
+    --ring: #1d4ed8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px 80px; }
+  header.site {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+  }
+  header.site .brand { font-weight: 700; }
+  header.site nav a { margin-left: 16px; color: var(--foreground); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 28px; margin: 0 0 12px; }
+  p.lead { color: var(--muted-foreground); font-size: 15px; line-height: 1.6; max-width: 640px; margin: 0 0 24px; }
+  .note-label { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .02em; color: #fff; background: var(--ring); border-radius: 4px; padding: 2px 8px; margin-bottom: 10px; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    border: 1px solid var(--border); background: var(--surface-strong);
+    border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 500;
+    text-decoration: none; color: var(--foreground); white-space: nowrap;
+  }
+  .badge:hover { border-color: rgba(24,24,27,.4); }
+  .badge .count { color: var(--muted-foreground); }
+  .badge:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+  .badge[data-hidden="true"] { display: none; }
+
+  .tagnav-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+  .more-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); background: #fff; border-radius: 999px;
+    padding: 5px 14px; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--foreground);
+  }
+  .more-btn:hover { background: var(--surface-strong); }
+  .more-btn:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+  .search-row { margin-top: 14px; display: none; }
+  .search-row.visible { display: block; }
+  .search-row input {
+    width: 100%; max-width: 320px; border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 10px; font-size: 14px; color: var(--foreground);
+  }
+  .search-row input:focus-visible { outline: 2px solid var(--ring); outline-offset: 1px; }
+  .search-row label { display: block; font-size: 12px; color: var(--muted-foreground); margin-bottom: 4px; }
+
+  .no-result { font-size: 13px; color: var(--muted-foreground); margin-top: 10px; display: none; }
+
+  footer.meta { margin-top: 40px; font-size: 12px; color: var(--muted-foreground); }
+  .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="brand">공산당이싫어요</div>
+    <nav><a href="#">홈</a><a href="#">소개</a><a href="#">한국어 / English</a></nav>
+  </header>
+
+  <span class="note-label">시안 C — 메인 페이지</span>
+  <h1>공산당이싫어요</h1>
+  <p class="lead">정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.</p>
+
+  <nav aria-label="태그" id="tagNav">
+    <div class="tagnav-row" id="tagRow">
+      <!-- 상위 20개: 기본 노출 -->
+      <a class="badge" href="#" data-tag="dmz">#dmz <span class="count">40</span></a>
+      <a class="badge" href="#" data-tag="이재명">#이재명 <span class="count">26</span></a>
+      <a class="badge" href="#" data-tag="25사단">#25사단 <span class="count">17</span></a>
+      <a class="badge" href="#" data-tag="목함지뢰">#목함지뢰 <span class="count">16</span></a>
+      <a class="badge" href="#" data-tag="중국">#중국 <span class="count">15</span></a>
+      <a class="badge" href="#" data-tag="합참">#합참 <span class="count">14</span></a>
+      <a class="badge" href="#" data-tag="국가보안법">#국가보안법 <span class="count">13</span></a>
+      <a class="badge" href="#" data-tag="국민의힘">#국민의힘 <span class="count">11</span></a>
+      <a class="badge" href="#" data-tag="지뢰">#지뢰 <span class="count">11</span></a>
+      <a class="badge" href="#" data-tag="더불어민주당">#더불어민주당 <span class="count">10</span></a>
+      <a class="badge" href="#" data-tag="북한">#북한 <span class="count">10</span></a>
+      <a class="badge" href="#" data-tag="집회">#집회 <span class="count">10</span></a>
+      <a class="badge" href="#" data-tag="통일부">#통일부 <span class="count">9</span></a>
+      <a class="badge" href="#" data-tag="간첩">#간첩 <span class="count">8</span></a>
+      <a class="badge" href="#" data-tag="대북지원">#대북지원 <span class="count">7</span></a>
+      <a class="badge" href="#" data-tag="팩트체크">#팩트체크 <span class="count">6</span></a>
+      <a class="badge" href="#" data-tag="개헌">#개헌 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="검찰개혁">#검찰개혁 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="국방부">#국방부 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="국회">#국회 <span class="count">5</span></a>
+
+      <!-- 나머지 277개: 기본 숨김, "더보기"로만 노출 -->
+      <a class="badge" href="#" data-tag="농지" data-hidden="true">#농지 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="재판" data-hidden="true">#재판 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="정동영" data-hidden="true">#정동영 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="탈북민" data-hidden="true">#탈북민 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="헌법" data-hidden="true">#헌법 <span class="count">5</span></a>
+      <a class="badge" href="#" data-tag="윤석열" data-hidden="true">#윤석열 <span class="count">2</span></a>
+      <a class="badge" href="#" data-tag="문재인" data-hidden="true">#문재인 <span class="count">1</span></a>
+      <a class="badge" href="#" data-tag="나경원" data-hidden="true">#나경원 <span class="count">1</span></a>
+      <span class="sr-only">(목업 축약 — 실제는 1건짜리 190개 포함 나머지 277개 전부 DOM에 존재)</span>
+    </div>
+
+    <button type="button" class="more-btn" id="moreBtn" aria-expanded="false">
+      <span id="moreBtnLabel">태그 더 보기 (277개) · 검색</span>
+    </button>
+
+    <div class="search-row" id="searchRow">
+      <label for="tagSearch">태그 검색</label>
+      <input type="text" id="tagSearch" placeholder="예: 지뢰, 간첩, 국회" autocomplete="off" />
+      <p class="no-result" id="noResult" role="status">일치하는 태그가 없습니다.</p>
+    </div>
+  </nav>
+
+  <footer class="meta">목업 — docs/design/designer-01/mockup-c-collapse-search.html · 실제 배포본 아님 · src/ 미수정<br/>
+  검색·펼치기는 전부 클라이언트 JS(이미 렌더된 297개 중 표시 여부만 토글) — 서버 요청 없음, SSG 그대로 유지.</footer>
+</div>
+<script>
+  const moreBtn = document.getElementById('moreBtn');
+  const moreBtnLabel = document.getElementById('moreBtnLabel');
+  const searchRow = document.getElementById('searchRow');
+  const tagSearch = document.getElementById('tagSearch');
+  const noResult = document.getElementById('noResult');
+  const allBadges = Array.from(document.querySelectorAll('#tagRow .badge'));
+
+  moreBtn.addEventListener('click', () => {
+    const expanded = moreBtn.getAttribute('aria-expanded') === 'true';
+    moreBtn.setAttribute('aria-expanded', String(!expanded));
+    searchRow.classList.toggle('visible', !expanded);
+    allBadges.forEach(b => { if (b.dataset.hidden === 'true') b.style.display = !expanded ? '' : 'none'; });
+    moreBtnLabel.textContent = !expanded ? '태그 접기' : '태그 더 보기 (277개) · 검색';
+    if (!expanded) tagSearch.focus();
+  });
+
+  tagSearch.addEventListener('input', () => {
+    const q = tagSearch.value.trim().toLowerCase();
+    let visibleCount = 0;
+    allBadges.forEach(b => {
+      const match = !q || b.dataset.tag.toLowerCase().includes(q);
+      b.style.display = match ? '' : 'none';
+      if (match) visibleCount++;
+    });
+    noResult.style.display = visibleCount === 0 ? 'block' : 'none';
+  });
+</script>
+</body>
+</html>

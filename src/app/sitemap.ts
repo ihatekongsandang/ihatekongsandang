@@ -43,6 +43,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
       ...languages('/about', '/en/about'),
     },
+    // 전체 태그 허브(프로그래머 08). 피드 칩은 상위 몇 개뿐이라 나머지 태그 페이지로 가는 내부 링크는 여기에 모인다.
+    // 영어 짝이 없어 대체 언어를 달지 않는다.
+    {
+      url: absoluteUrl('/tags'),
+      changeFrequency: 'weekly' as const,
+      priority: 0.5,
+    },
     ...getAllTags().map(({ tag }) => ({
       url: absoluteUrl(`/tag/${encodeURIComponent(tag)}`),
       changeFrequency: 'weekly' as const,

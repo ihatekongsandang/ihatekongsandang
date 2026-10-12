@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>시안 B — 한 줄 가로 스크롤 칩 + 펼치기</title>
+<style>
+  :root {
+    --background: #ffffff;
+    --foreground: #18181b;
+    --surface-strong: #f4f4f5;
+    --muted-foreground: #52525b;
+    --border: #e4e4e7;
+    --ring: #1d4ed8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px 80px; }
+  header.site {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+  }
+  header.site .brand { font-weight: 700; }
+  header.site nav a { margin-left: 16px; color: var(--foreground); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 28px; margin: 0 0 12px; }
+  p.lead { color: var(--muted-foreground); font-size: 15px; line-height: 1.6; max-width: 640px; margin: 0 0 24px; }
+  .note-label { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .02em; color: #fff; background: var(--ring); border-radius: 4px; padding: 2px 8px; margin-bottom: 10px; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    border: 1px solid var(--border); background: var(--surface-strong);
+    border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 500;
+    text-decoration: none; color: var(--foreground); white-space: nowrap; flex: 0 0 auto;
+  }
+  .badge:hover { border-color: rgba(24,24,27,.4); }
+  .badge .count { color: var(--muted-foreground); }
+  .badge:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+  .scrollrow-wrap { position: relative; }
+  .scrollrow {
+    display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrollrow::after { content: ""; flex: 0 0 1px; }
+  .fade-right {
+    position: absolute; top: 0; right: 0; bottom: 10px; width: 36px;
+    background: linear-gradient(to right, rgba(255,255,255,0), #fff);
+    pointer-events: none;
+  }
+
+  .expand-btn {
+    margin-top: 10px; display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); background: #fff; border-radius: 999px;
+    padding: 5px 14px; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--foreground);
+  }
+  .expand-btn:hover { background: var(--surface-strong); }
+  .expand-btn:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+  .expand-btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
+  .chev { transition: transform .15s; }
+
+  .full-list {
+    display: none; flex-wrap: wrap; gap: 8px; margin-top: 12px;
+    border-top: 1px dashed var(--border); padding-top: 12px;
+    max-height: 260px; overflow-y: auto;
+  }
+  .full-list.open { display: flex; }
+
+  footer.meta { margin-top: 40px; font-size: 12px; color: var(--muted-foreground); }
+  .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="brand">공산당이싫어요</div>
+    <nav><a href="#">홈</a><a href="#">소개</a><a href="#">한국어 / English</a></nav>
+  </header>
+
+  <span class="note-label">시안 B — 메인 페이지</span>
+  <h1>공산당이싫어요</h1>
+  <p class="lead">정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.</p>
+
+  <nav aria-label="태그">
+    <div class="scrollrow-wrap">
+      <div class="scrollrow" id="scrollrow" tabindex="0" aria-label="태그 가로 스크롤 영역, 좌우 화살표 키로 이동">
+        <a class="badge" href="#">#dmz <span class="count">40</span></a>
+        <a class="badge" href="#">#이재명 <span class="count">26</span></a>
+        <a class="badge" href="#">#25사단 <span class="count">17</span></a>
+        <a class="badge" href="#">#목함지뢰 <span class="count">16</span></a>
+        <a class="badge" href="#">#중국 <span class="count">15</span></a>
+        <a class="badge" href="#">#합참 <span class="count">14</span></a>
+        <a class="badge" href="#">#국가보안법 <span class="count">13</span></a>
+        <a class="badge" href="#">#국민의힘 <span class="count">11</span></a>
+        <a class="badge" href="#">#지뢰 <span class="count">11</span></a>
+        <a class="badge" href="#">#더불어민주당 <span class="count">10</span></a>
+        <a class="badge" href="#">#북한 <span class="count">10</span></a>
+        <a class="badge" href="#">#집회 <span class="count">10</span></a>
+        <a class="badge" href="#">#통일부 <span class="count">9</span></a>
+      </div>
+      <div class="fade-right" aria-hidden="true"></div>
+    </div>
+
+    <button type="button" class="expand-btn" id="expandBtn" aria-expanded="false" aria-controls="fullList">
+      <span>태그 전체 펼치기 (297개)</span><span class="chev" aria-hidden="true">▾</span>
+    </button>
+
+    <div class="full-list" id="fullList">
+      <a class="badge" href="#">#간첩 <span class="count">8</span></a>
+      <a class="badge" href="#">#대북지원 <span class="count">7</span></a>
+      <a class="badge" href="#">#팩트체크 <span class="count">6</span></a>
+      <a class="badge" href="#">#개헌 <span class="count">5</span></a>
+      <a class="badge" href="#">#검찰개혁 <span class="count">5</span></a>
+      <a class="badge" href="#">#국방부 <span class="count">5</span></a>
+      <a class="badge" href="#">… (이하 1건짜리 190개 포함 278개 생략, 실제는 전부 렌더)</a>
+    </div>
+  </nav>
+
+  <footer class="meta">목업 — docs/design/designer-01/mockup-b-scroll-chips.html · 실제 배포본 아님 · src/ 미수정<br/>
+  참고: 가로 스크롤 행은 좌우 화살표 키·Tab으로 포커스 이동 가능해야 함(네이티브 overflow-x:auto는 마우스 휠·터치는 되지만 키보드 포커스 확보를 위해 scrollrow에 tabindex="0" 필요 — 위 예시 반영).</footer>
+</div>
+<script>
+  document.getElementById('expandBtn').addEventListener('click', function () {
+    const btn = this;
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    document.getElementById('fullList').classList.toggle('open', !expanded);
+    btn.querySelector('span').textContent = !expanded ? '태그 접기' : '태그 전체 펼치기 (297개)';
+  });
+</script>
+</body>
+</html>
