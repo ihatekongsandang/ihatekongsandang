@@ -5,7 +5,7 @@ description: "Instagram @now._.magazine contrasts Gyeonggi ending postpartum aid
 imageAlt: "President Lee Jae-myung clapping at an event"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @now._.magazine (나우 매거진)"
-translatedAt: 2026-09-30
+translatedAt: 2026-10-13
 ---
 
 This post is based on the original caption. The original states on its image that it "includes content reconstructed using AI," and the image content was not reviewed. A [Wikipost reel](https://www.instagram.com/reel/DdNBbxRzjxD/) making the same comparison is noted here instead of in a separate post. That reel said in its caption that "the two programs differ in the agencies in charge and the purposes of their budgets, so they are hard to compare simply," but its thumbnail read, "North Korea before South Korean citizens."
@@ -20,6 +20,12 @@ This post is based on the original caption. The original states on its image tha
 - A petition by provincial residents against the abolition, posted on Sept. 9, reportedly passed 10,000 signatures in a day and became subject to a response from the governor, with the petitioners reportedly taking issue with the mid-year halt without advance notice and the exclusion of babies born in October through December.
 - The Unification Ministry's 2026 Inter-Korean Cooperation Fund budget for "support for North Korean infants and others" was reported as 155.815 billion won, with its spending status "undecided" as of the third quarter, and government aid delivered to North Korean residents last year was reported as zero won. The ministry reportedly explained that it increased the budget for humanitarian cooperation projects to support its policy of peaceful coexistence on the Korean Peninsula.
 - Seongnam Mayor Shin Sang-jin (신상진) reportedly criticized on social media on Sept. 17: "There's no 500,000 won for our children's postpartum care, but there's 155.8 billion won for North Korean infants?"
+
+## October reshare (update)
+
+- An [Instagram reel by @ne_ws_daily](https://www.instagram.com/reel/DeYt5uHTqU8/) (Oct. 12) revisits Seongnam Mayor Shin Sang-jin (신상진)'s Sept. 17 criticism, sets out both the case for stronger domestic birth support and the humanitarian case, and concludes that comparing different programs' budgets by amount alone can miss their policy purposes (the poster's opinion). It is noted here instead of in a separate post.
+- Its thumbnail places the words "Postpartum care subsidy halted / Daycare subsidies halted too / 155.8 billion won for North Korean infants" over a photo of President Lee Jae-myung, but the postpartum care subsidy was a Gyeonggi Province program that ended with applications through Sept. 30, not something halted by the president or the central government. Mayor Shin reportedly said Gyeonggi had decided to lower its subsidy rates for some provincially funded birth and care programs from October, but we could not confirm "daycare subsidies halted" in reports.
+- Gyeonggi reportedly expanded general infertility treatment support to 95.6 billion won this year and explained that ending some programs was part of eliminating overlap with national programs.
 
 ## What we left out of the summary
 
