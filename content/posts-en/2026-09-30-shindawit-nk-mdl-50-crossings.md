@@ -5,14 +5,14 @@ description: "Instagram @shin_dawit slams Kim Yo-jong's complaint about warning 
 imageAlt: "Photo of a soldier seen from behind looking at a dug-up border strip in front of a 'Military Demarcation Line' sign, overlaid with the text 'North Korea crossed into our country 50 times in August–September' and the label 'Shin Dawit's Briefing'"
 imageCaption: "First slide of the original post"
 attribution: "Instagram @shin_dawit (신다윗)"
-translatedAt: 2026-10-04
+translatedAt: 2026-10-14
 ---
 
 An [Instagram post by @signal__korea](https://www.instagram.com/p/DeA0hrCkoGa/) summarizing the same testimony and a [Threads post by @xhfnfn2](https://www.threads.com/@xhfnfn2/post/DeBw6B7E1kp) on the same issue (a card reading "Defense ministry's lie exposed — said North Korean troops crossed about 50 times, 'turns out it was 200'") are noted here instead of in separate posts. This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. Related posts (some may be available only in Korean): [UN Command finds an Armistice violation; Kim Yo-jong calls it "staged"](/post/2026-09-30-2pro-unc-armistice-violation) · [earlier post on North Korean MDL crossings](/post/2026-09-23-jeichi-nk-mdl-crossing).
 
 ## What the original post claims (the poster's opinion)
 
-- It criticizes Kim Yo-jong (김여정) for "blaming the victim," saying that although she denounced South Korean troops for "carrying out warning broadcasts and shots every day," the cause was North Korean troops crossing the MDL.
+- It criticizes Kim Yo-jong (김여정) for "blaming the victim," saying that although Kim denounced South Korean troops for "carrying out warning broadcasts and shots every day," the cause was North Korean troops crossing the MDL.
 - It says there were about 50 crossings south of the MDL in August and September combined, and that South Korean troops issue warning broadcasts when North Korean soldiers come within tens of meters and fire when they cross.
 - It claims each round trip is counted once, so the actual number is likely over 100, and cites criticism that North Korea, nearing the end of its fortification work, is shifting the blame.
 
@@ -22,6 +22,13 @@ An [Instagram post by @signal__korea](https://www.instagram.com/p/DeA0hrCkoGa/) 
 - North Korean MDL crossings reportedly first occurred this year on the eastern front in mid-August and have been repeated since, recently concentrated in the area of the 21st Division on the eastern front, with what appear to be North Korean patrols of a few soldiers crossing and then withdrawing after South Korean warning shots.
 - Under its rules of engagement, the South Korean military reportedly issues warning broadcasts when there are signs of a crossing, such as troops approaching the MDL, and fires warning shots to drive them back when they actually cross.
 - In a statement the same day, Kim Yo-jong, director of the Workers' Party General Affairs Department, reportedly said that "since August, the enemy has been carrying out warning broadcasts and warning shots almost every day," and that North Korea "decided to take measures to reinforce tactical counterattack means" toward the DMZ facing the 21st Division.
+
+## JCS briefing on Oct. 12: patrol route south of the MDL (update)
+
+- An [Instagram post by @peoplepower_korea7](https://www.instagram.com/p/DeblxF6h3yc/) (Oct. 13, "North Korean troops brazenly patrolling on South Korean soil (south of the MDL) / Openly operating, claiming it as North Korean land") criticizes the government for failing to respond at all while North Korean troops patrol south of the MDL almost daily, effectively taking territory (the poster's opinion). It is noted here instead of in a separate post.
+- At a regular briefing on Oct. 12, JCS public affairs chief Jang Do-young (장도영) reportedly said "the situation has continued more than 40 times at one location on the eastern front" and "enemy troops are moving along a patrol road, and it is still continuing." The patrol route is about 10 meters south of the MDL, and the military is responding with warning broadcasts and warning shots, it was explained; North Korean troops were also reportedly seen unfolding maps to recheck the MDL line North Korea claims. A special investigation with the UN Command is also under way, according to reports.
+- People Power Party lawmaker Yu Yong-weon (유용원) reportedly said the warning shots are "not effective," and the JCS, asked whether it would fire aimed shots if troops do not withdraw after warning shots, reportedly answered that it "follows operational procedures."
+- "Failing to respond at all" is the poster's assessment; according to reports, the military is responding with warning broadcasts and warning shots, though their effectiveness has been criticized. "Effectively taking territory" is also the poster's wording. We could not confirm when or where the original image's photo of North Korean troops working was taken.
 
 ## What we left out of the summary
 
