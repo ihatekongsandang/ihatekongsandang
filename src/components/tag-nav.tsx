@@ -19,7 +19,8 @@ export function TagChip({ tag, count, isActive = false }: TagSummary & { isActiv
         }
       >
         #{tag}
-        <span className="text-muted-foreground" aria-hidden="true">
+        {/* 활성 칩은 배경이 검정이라 muted 색(2.29:1)을 못 쓴다 — 글자색의 70%로 낮춰 구분만 남긴다(1.4.3, 프로그래머 09 실측). */}
+        <span className={isActive ? 'text-background/70' : 'text-muted-foreground'} aria-hidden="true">
           {count}
         </span>
         <span className="sr-only">게시물 {count}건</span>

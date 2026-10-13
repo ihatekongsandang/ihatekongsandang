@@ -1,0 +1,18 @@
+$ chip-html-snapshot.mjs dump (변경 전 = HEAD 545a720 git archive 복사본 빌드)
+html 파일 715 · 칩 있는 파일 328 · 칩 4514 · 활성 칩 311
+$ chip-html-snapshot.mjs dump (변경 후 = 같은 복사본 + 작업 트리 tag-nav.tsx)
+html 파일 715 · 칩 있는 파일 328 · 칩 4514 · 활성 칩 311
+$ chip-html-snapshot.mjs compare
+파일 집합 동일: true (변경 전 328 · 변경 후 328)
+칩 수가 다른 파일: 0
+비교한 칩: 4514
+class 외 차이가 있는 칩: 0
+class 차이 종류:
+  311건 · 활성 | class[2] "text-muted-foreground" → "text-background/70"
+✅ class 외 변경 없음
+exit=0
+
+$ python3 docs/tools/reviewer-17/dom-compare.py <변경 전>/.next/server/app <변경 후>/.next/server/app
+html 파일 715 715 집합 동일 True
+비교 요소 수 95544 · class 외 차이 파일 0
+311 건 | text-muted-foreground → text-background/70

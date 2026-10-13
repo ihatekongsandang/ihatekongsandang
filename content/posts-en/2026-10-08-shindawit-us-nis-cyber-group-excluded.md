@@ -5,7 +5,7 @@ description: "Instagram @shin_dawit on a Dong-A Ilbo exclusive that the U.S. ask
 imageAlt: "Photo of the National Intelligence Service's round emblem etched on a glass door, with the text 'The U.S. refused NIS participation in a meeting on North Korean hacking' and the label 'Shin Dawit's Briefing'"
 imageCaption: "First image of the original post"
 attribution: "Instagram @shin_dawit"
-translatedAt: 2026-10-11
+translatedAt: 2026-10-13
 ---
 
 This post is based on the original caption and its three images (a photo, a capture of the Dong-A Ilbo headline and a summary card). The original relays a Dong-A Ilbo exclusive citing current and former senior government sources; it has not been officially confirmed by the U.S. government. An [Instagram reel by @issue_bongbong](https://www.instagram.com/reel/DeUEBxQSNZt/) (Oct. 10) presenting a later U.S. official's remark as "Trump warns the South Korean government" is noted here instead of in a separate post (see the "Follow-up reports" section). Related post (may be available only in Korean): [Cho Hyun and Chung Dong-young reportedly clashed at the NSC over cyber sanctions on North Korea](/post/2026-10-05-issueradar-nsc-cyber-sanctions-clash).
@@ -31,6 +31,14 @@ This post is based on the original caption and its three images (a photo, a capt
 - An [Instagram reel by @now.new.mag](https://www.instagram.com/reel/DeThmyZy73e/) (Oct. 10) presenting the same issue as "allegations the NIS 'refused to participate'" (thumbnail: "Is the NIS on North Korea's side too? / The U.S. proposed a meeting to stop North Korean hacking and it refused") is also noted here. According to reports, the NIS did not refuse; **the U.S. asked for the NIS's exclusion and the NIS was left out of the meeting** (as an NIS official acknowledged). "Is the NIS on North Korea's side too?" is an unfounded insinuation and is not included in the summary.
 
 - An [Instagram post by @monarchreport25](https://www.instagram.com/p/DePJPErDT3_/) presenting the same issue in English (Oct. 8, "The U.S. said no to South Korea's top spy agency") is also noted here. Its account that the U.S. asked to keep the NIS out and that the NIS missed the June meeting for the first time matches the reports above.
+
+## Remarks by Minister Chung and Ambassador Kang on Oct. 12 (update)
+
+- An [Instagram reel by @got_dem_catch](https://www.instagram.com/reel/DeavjLBzNKG/) (Oct. 13, "Chung Dong-young says the alliance is fine, but Kang Kyung-wha can't even communicate with the White House?") points to discord within the government's security team and asks whether concrete steps to restore South Korea–U.S. intelligence cooperation are needed more than a blame game (the poster's opinion). It is noted here instead of in a separate post.
+- At an Oct. 12 press meeting, Minister Chung Dong-young (정동영) reportedly said "there is nothing wrong with the South Korea–U.S. alliance" and rejected the U.S. view that Chung's remark about a "North Korean nuclear facility in Kusong" leaked classified information provided by the U.S., calling it a "misunderstanding" and saying "the U.S. is wrong." Chung reportedly explained that the facility had been mentioned publicly since the July 2025 confirmation hearing.
+- The same day (local time), at the parliamentary audit of the embassy in Washington, Ambassador to the U.S. Kang Kyung-wha (강경화) reportedly named intelligence cooperation as the hardest issue between the two countries, said the U.S. raised it directly at the Sept. 18 meeting between Foreign Minister Cho Hyun and Secretary of State Marco Rubio, and said "I don't think the problem has yet been resolved as much as the U.S. expects." Kang also reportedly said "I admit there are limits to communication with the White House" and that high-level consultations are not happening "to the point that even I find it frustrating," and confirmed relaying Minister Chung's explanation to U.S. officials after a phone call from Chung. Kang also said support for the alliance in Washington and the bond between the two countries remain firm.
+- On the North Korean mine explosion, Minister Chung has kept a cautious position that it cannot yet be determined whether it was a deliberate attack, while Ambassador Kang reportedly answered that it was "clearly not an unforeseen accident" and that "it is clear North Korea laid them."
+- After the ambassador's remarks, the People Power Party and other opposition figures reportedly demanded the immediate dismissal of Minister Chung and NIS Director Lee Jong-seok (이종석).
 
 ## What we left out of the summary
 

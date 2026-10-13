@@ -1,0 +1,7 @@
+파일 집합 동일: true (변경 전 328 · 변경 후 328)
+칩 수가 다른 파일: 0
+비교한 칩: 4514
+class 외 차이가 있는 칩: 0
+class 차이 종류:
+  311건 · 활성 | class[2] "text-muted-foreground" → "text-background/70"
+✅ class 외 변경 없음

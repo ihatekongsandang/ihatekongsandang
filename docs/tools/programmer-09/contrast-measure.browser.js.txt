@@ -1,0 +1,43 @@
+// 브라우저 콘솔(로컬 next start 페이지)에서 실행. 반환: 실제 페이지 nav 칩 측정 + 전 페이지 칩 주입 렌더 전수 측정.
+const cv = document.createElement('canvas'); cv.width = cv.height = 1
+const cx = cv.getContext('2d', { willReadFrequently: true })
+// 브라우저가 해석한 색을 캔버스에 배경 → 글자 순으로 칠해 합성된 sRGB 픽셀을 읽는다(알파·oklab·color-mix 모두 브라우저가 처리).
+function paint(bg, fg) {
+  cx.clearRect(0, 0, 1, 1); cx.fillStyle = '#fff'; cx.fillRect(0, 0, 1, 1)
+  cx.fillStyle = bg; cx.fillRect(0, 0, 1, 1)
+  if (fg) { cx.fillStyle = fg; cx.fillRect(0, 0, 1, 1) }
+  return [...cx.getImageData(0, 0, 1, 1).data.slice(0, 3)]
+}
+const lin = (c) => { c /= 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4 }
+const L = ([r, g, b]) => 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b)
+const ratio = (a, b) => { const [x, y] = [L(a), L(b)].sort((p, q) => q - p); return Math.round(((x + 0.05) / (y + 0.05)) * 100) / 100 }
+function chipInfo(a) {
+  const badge = a.querySelector('[data-slot="badge"]')
+  const num = badge.querySelector('span[aria-hidden="true"]')
+  const bgRaw = getComputedStyle(badge).backgroundColor
+  const fgRaw = getComputedStyle(num).color
+  const labelRaw = getComputedStyle(badge).color
+  const bg = paint(bgRaw), fg = paint(bgRaw, fgRaw), label = paint(bgRaw, labelRaw)
+  const st = getComputedStyle(num)
+  return { active: a.getAttribute('aria-current') === 'page', bgRaw, fgRaw, bg, fg, numRatio: ratio(fg, bg), labelRatio: ratio(label, bg), font: `${st.fontSize}/${st.fontWeight}` }
+}
+const live = [...document.querySelectorAll('nav[aria-label="태그"] a[href^="/tag/"]')].map(chipInfo)
+const liveSummary = { url: decodeURIComponent(location.pathname), innerWidth, chips: live.length, first: live[0], firstInactive: live.find((c) => !c.active) }
+// 전수: 칩이 있는 모든 페이지 HTML을 받아 칩 <a>를 그대로 현재 문서(main 안)에 넣고 렌더된 computed style을 잰다.
+const urls = await fetch('http://localhost:3110/').then((r) => r.json())
+const box = document.createElement('div'); box.className = 'flex flex-wrap gap-2'; document.querySelector('main').prepend(box)
+const groups = new Map(); let total = 0, pages = 0
+for (const u of urls) {
+  const html = await fetch(u).then((r) => r.text()); pages++
+  const doc = new DOMParser().parseFromString(html, 'text/html')
+  const chips = [...doc.querySelectorAll('a[href^="/tag/"]')].filter((a) => a.querySelector('[data-slot="badge"]'))
+  box.replaceChildren(...chips.map((a) => document.importNode(a, true)))
+  for (const a of box.children) {
+    const i = chipInfo(a); total++
+    const k = JSON.stringify([i.active, i.bgRaw, i.fgRaw, i.bg, i.fg, i.numRatio, i.labelRatio, i.font])
+    groups.set(k, (groups.get(k) ?? 0) + 1)
+  }
+}
+box.remove()
+// 출력: [건수, 활성, 배경 computed, 숫자 computed, 배경 sRGB, 숫자 합성 sRGB, 숫자 대비, 태그명 대비, 숫자 글꼴]
+JSON.stringify({ live: [liveSummary.url, liveSummary.innerWidth, liveSummary.chips, liveSummary.first, liveSummary.firstInactive].map((v) => (typeof v === 'object' ? Object.values(v) : v)), sweep: [pages, total, ...[...groups].map(([k, n]) => [n, ...JSON.parse(k)])] })

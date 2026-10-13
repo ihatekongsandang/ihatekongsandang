@@ -1,0 +1,40 @@
+// 리뷰어 17 — 태그 칩 건수 숫자 대비 전수 측정(브라우저 콘솔, 로컬 next start 페이지의 /tag/1군단 에서 실행. top-level await).
+// 프로그래머 09 스크립트와 독립: URL 목록을 /tags 에서 재구성하고, 알파 합성은 캔버스가 아니라 직접 계산한다
+// (글자색만 투명 캔버스에 칠해 RGBA를 읽고, 배경과 out = fg·a + bg·(1−a) 로 합성).
+// 저장소 lint·typecheck 대상에서 빼려고 확장자를 .txt 로 둔다.
+const U = await (async () => {
+  const home = ['/', ...Array.from({ length: 15 }, (_, i) => '/page/' + (i + 2))]
+  const tagsDoc = new DOMParser().parseFromString(await (await fetch('/tags')).text(), 'text/html')
+  const tags = [...tagsDoc.querySelectorAll('ul[aria-label="태그 목록"] a')].map((a) => a.getAttribute('href'))
+  // 2쪽 이상인 태그 피드(빌드 산출물 tag/{태그}/page/{n}.html 목록에서 확인한 값)
+  const sub = { '/tag/25사단': 2, '/tag/dmz': 4, '/tag/국가보안법': 2, '/tag/목함지뢰': 2, '/tag/이재명': 3, '/tag/중국': 2, '/tag/합참': 2 }
+  const extra = []
+  for (const [t, n] of Object.entries(sub)) for (let p = 2; p <= n; p++) extra.push(encodeURI(t) + '/page/' + p)
+  return [...home, ...tags, ...extra, '/tags']
+})()
+const cv = document.createElement('canvas'); cv.width = cv.height = 1
+const g = cv.getContext('2d', { willReadFrequently: true })
+const rgba = (c) => { g.clearRect(0, 0, 1, 1); g.fillStyle = c; g.fillRect(0, 0, 1, 1); const d = g.getImageData(0, 0, 1, 1).data; return [d[0], d[1], d[2], d[3] / 255] }
+const over = (f, b) => [0, 1, 2].map((i) => f[i] * f[3] + b[i] * (1 - f[3]))
+const lin = (c) => { c /= 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4 }
+const L = ([r, gg, b]) => 0.2126 * lin(r) + 0.7152 * lin(gg) + 0.0722 * lin(b)
+const cr = (a, b) => { const [x, y] = [L(a), L(b)].sort((p, q) => q - p); return +((x + 0.05) / (y + 0.05)).toFixed(3) }
+const one = (a) => {
+  const badge = a.querySelector('[data-slot="badge"]'); const num = badge.querySelector('span[aria-hidden="true"]')
+  const bgc = getComputedStyle(badge).backgroundColor, fgc = getComputedStyle(num).color
+  const bg = rgba(bgc).slice(0, 3); const fg = over(rgba(fgc), bg)
+  return JSON.stringify([a.getAttribute('aria-current') === 'page', bgc, fgc, fg.map((v) => +v.toFixed(1)), cr(fg, bg)])
+}
+const live = [...document.querySelectorAll('nav[aria-label="태그"] a[href^="/tag/"]')].map(one)
+const host = document.createElement('div'); document.querySelector('main').prepend(host)
+const groups = {}; let pages = 0, chips = 0, bad = 0
+for (const u of U) {
+  const res = await fetch(u); if (!res.ok) { bad++; continue }
+  const doc = new DOMParser().parseFromString(await res.text(), 'text/html'); pages++
+  const list = [...doc.querySelectorAll('a[href^="/tag/"]')].filter((a) => a.querySelector('[data-slot="badge"]'))
+  host.replaceChildren(...list.map((a) => document.importNode(a, true)))
+  for (const a of host.children) { chips++; const k = one(a); groups[k] = (groups[k] || 0) + 1 }
+}
+host.remove()
+// 출력 groups 키: [활성, 배경 computed, 숫자 computed, 합성 숫자 sRGB, 숫자 대비]
+JSON.stringify({ origin: location.origin, urls: U.length, bad, liveChips: live.length, liveKinds: [...new Set(live)], pages, chips, groups })

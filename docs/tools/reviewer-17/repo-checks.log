@@ -1,0 +1,47 @@
+$ npm run typecheck
+
+> ihatekongsandang@0.1.0 typecheck
+> tsc --noEmit
+
+exit=0
+$ npm run lint
+
+> ihatekongsandang@0.1.0 lint
+> eslint .
+
+
+$HOME/ihatekongsandang/docs/tools/reviewer-04/keyboard-tab.mjs
+  36:7  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+$HOME/ihatekongsandang/docs/tools/reviewer-10/html-same.mjs
+   9:150  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  19:3    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 3 problems (0 errors, 3 warnings)
+
+exit=0
+$ npm run validate:content
+배경 보도 출처: 554건 · 발언자 표기: 58건
+검사한 이미지 alt 184개
+영어본 184건 / 전체 184건
+
+✅ 검증 통과
+exit=0
+$ npm run build
+exit=0
+   Generating static pages (542/723) 
+ ✓ Generating static pages (723/723)
+$ node docs/tools/programmer-08/measure-tag-nav.mjs --expect-limit 12
+tags.html  <title>=전체 태그 · 공산당이싫어요  canonical=http://localhost:3000/tags
+게시물 184건 · 전체 태그(frontmatter 직접 집계) 301개 · 기대 상한 12
+검사 페이지: 홈 16 · 태그 피드 311(1페이지 301) · 영어 피드 16 · /tags 링크 301
+구분|칩 수 → 페이지 수
+  en:nav|0 → 16
+  home|12 → 16
+  tag-page-n:top|12 → 10
+  tag:outside|13 → 289
+  tag:top|12 → 12
+상위 12: dmz 40 · 이재명 26 · 25사단 17 · 목함지뢰 16 · 중국 15 · 합참 14 · 국가보안법 13 · 국민의힘 11 · 지뢰 11 · 더불어민주당 10 · 북한 10 · 집회 10
+13위: 통일부 9
+✅ 전수 대조 통과
+exit=0
