@@ -2,7 +2,7 @@
 id: 2026-09-10-freedominnovation-nec-bill
 title: "\"Bill to delete dispatched prosecutors' investigative powers introduced the day after the NEC special counsel launched\" — post by Freedom and Innovation criticizing it"
 description: "Freedom and Innovation slams a DP bill filed a day after the NEC counsel began to cut its prosecutors' probe powers; DP reportedly pulled it Sept. 10 to refile."
-imageAlt: "A man holding a sheet of paper and stating a position in front of a building, with another person standing beside him"
+imageAlt: "A person holding a sheet of paper and stating a position in front of a building, with another person standing beside them"
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram @freedominnovation"
 attribution: "Instagram @freedominnovation (자유와혁신)"
