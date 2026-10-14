@@ -6,7 +6,7 @@ imageAlt: "A man holding a sheet of paper and stating a position in front of a b
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram @freedominnovation"
 attribution: "Instagram @freedominnovation (자유와혁신)"
-translatedAt: 2026-10-12
+translatedAt: 2026-10-14
 ---
 
 ## What reports confirm
@@ -24,6 +24,8 @@ The original post predates the withdrawal.
 
 - The special counsel team on the National Election Commission led by Lee Tae-han (이태한), launched on Sept. 7, is investigating the ballot shortage in the June 3 local elections and related matters for up to 150 days and raided the National Election Commission on Sept. 17, it was reported. The team is pursuing an evidence check in which ballots stored at the Olympic Park Handball Gymnasium in Songpa-gu, Seoul (a counting site at the time) would be compared one by one in front of the media and the public; Oct. 29 is the likely date but may change depending on consultations with relevant agencies, according to reports. The team reportedly said the procedure is an evidence check, not a recount challenging the election result.
 - An [Instagram post by @got_dem_catch](https://www.instagram.com/p/DeXAuj5k6YF/) (Oct. 12) summarizing this under the title "Will the truth about election fraud come out?" is noted here instead of in a separate post. The original caption itself says "no election fraud has been confirmed so far," and this site does not cover claims of election fraud, relaying only the special counsel's official procedure. The first image's photo of a "new election" placard and the line "Korea's election fraud truth revealed?" were not included in the summary.
+
+- An [Instagram reel by @issue_target](https://www.instagram.com/reel/Dedn0ipvevf/) (Oct. 14, "Joint investigation HQ finds signs of falsely entered turnout figures… raids the election commission") on the investigation by the joint prosecution-police investigation headquarters, before the special counsel was launched, is noted here as well. The reel presents it as recent news, but the raid took place on July 23, 2026: that day the headquarters raided the National Election Commission and the Songpa, Gangnam and Seocho district election commissions in Seoul, and said it had found signs that officials of the National Election Commission and the Gyeonggi Provincial Election Commission falsely entered turnout figures, also raiding those involved on charges of falsifying public electronic records and obstructing official duties, according to reports. The case was later handed to the special counsel launched in September. The original caption itself says "signs of altered computer figures do not immediately mean vote rigging or manipulation of election results," and the thumbnail's "Election commission manipulation suspicion caught / Young people's cries are being proven true" and rally photo were not included in the summary.
 
 ## The poster's opinion
 
