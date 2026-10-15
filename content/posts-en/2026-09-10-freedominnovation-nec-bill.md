@@ -6,7 +6,7 @@ imageAlt: "A person holding a sheet of paper and stating a position in front of 
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram @freedominnovation"
 attribution: "Instagram @freedominnovation (자유와혁신)"
-translatedAt: 2026-10-14
+translatedAt: 2026-10-15
 ---
 
 ## What reports confirm
@@ -26,6 +26,8 @@ The original post predates the withdrawal.
 - An [Instagram post by @got_dem_catch](https://www.instagram.com/p/DeXAuj5k6YF/) (Oct. 12) summarizing this under the title "Will the truth about election fraud come out?" is noted here instead of in a separate post. The original caption itself says "no election fraud has been confirmed so far," and this site does not cover claims of election fraud, relaying only the special counsel's official procedure. The first image's photo of a "new election" placard and the line "Korea's election fraud truth revealed?" were not included in the summary.
 
 - An [Instagram reel by @issue_target](https://www.instagram.com/reel/Dedn0ipvevf/) (Oct. 14, "Joint investigation HQ finds signs of falsely entered turnout figures… raids the election commission") on the investigation by the joint prosecution-police investigation headquarters, before the special counsel was launched, is noted here as well. The reel presents it as recent news, but the raid took place on July 23, 2026: that day the headquarters raided the National Election Commission and the Songpa, Gangnam and Seocho district election commissions in Seoul, and said it had found signs that officials of the National Election Commission and the Gyeonggi Provincial Election Commission falsely entered turnout figures, also raiding those involved on charges of falsifying public electronic records and obstructing official duties, according to reports. The case was later handed to the special counsel launched in September. The original caption itself says "signs of altered computer figures do not immediately mean vote rigging or manipulation of election results," and the thumbnail's "Election commission manipulation suspicion caught / Young people's cries are being proven true" and rally photo were not included in the summary.
+
+- On Oct. 15, the special counsel team simultaneously raided seven election commissions, including the National Election Commission, the South Chungcheong, South Gyeongsang and Gangwon provincial commissions, the South Jeolla-Gwangju commission, and the Busan Nam District and Jeju Seogwipo commissions, and said that, adding 25 to the five (including Seocho and Gangnam districts in Seoul) identified by the joint investigation headquarters, it had found signs that voter counts were falsely entered on election day at 30 city, county and district election commissions nationwide, according to reports. It explained that when voter counts wrongly entered for certain hours exceeded the final voter count, staff later altered the overall figures to make them look normal, or entered identical values or fixed increments, and that it had questioned some 70 officials in charge of real-time turnout reporting, it was reported. An [Instagram reel by @geonwoo.vibes](https://www.instagram.com/reel/DegBXbUzjb2/) (Oct. 15, citing Yonhap News TV footage) covering this is also noted here. What the special counsel disclosed are signs of false entries in hourly voter count tallies, not an announcement that final election results changed.
 
 ## The poster's opinion
 
