@@ -1,7 +1,7 @@
 ---
 id: 2026-10-18-wikipost-equal-pay-equal-work-roadmap
 title: "\"The government will pay socialist wages\"? — the labor ministry is considering writing 'equal pay for work of equal value' into the Labor Standards Act, with a roadmap due in December"
-description: "Instagram @wikipost_mag reports the labor ministry's plan to codify equal pay for equal-value work by a December roadmap; 'socialist wages' is the poster's phrase."
+description: "Instagram @wikipost_mag reports a labor ministry plan to codify equal pay for equal-value work, with a December roadmap; 'socialist wages' is its own phrase."
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Labor ministry considering writing \"equal pay for work of equal value\" into the Labor Standards Act — roadmap due in December / The principle is now in the Equal Employment Opportunity Act; extending it to discrimination by employment type is under review / Plans objective criteria based on wage data by job, position and tenure / Issues: shift from seniority-based to job-based pay, unions' concern about wage cuts'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @wikipost_mag (Wikipost)"
