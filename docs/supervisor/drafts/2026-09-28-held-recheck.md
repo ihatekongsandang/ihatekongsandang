@@ -519,3 +519,7 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 ### 게시 불가 — instagram @jongchaekim DeIquS0Ezk2 (2026-10-05 게시, 2026-10-20 검토)
 - embed 차단(broken)으로 og 메타만 수집: 캡션 "USAID와 AWEB은 연결되있고 결국 드러나게된다 #electionfraud #MAGA #부정선거 #USAID #AWEB", 첫 장(640px 크롭) 일론 머스크 X 글 캡처("…engaged in election interference and regime change aro… causing massive strife")와 백악관 앞 머스크·트럼프 사진. 나머지 장(사용자 링크 img_index=9) 미확인.
 - 근거 제시 없는 선거 부정 연결 주장(#부정선거) → 게시 불가(선거 부정 주장 정책). 머스크 글의 원문·맥락은 별도 확인하지 않음.
+
+### 게시 불가 — threads @koreavictory_ Dex5SzqFPAZ → 인용 instagram @ppoppoqqq DexiaZAEsws (2026-10-21 게시, 2026-10-22 검토)
+- 스레드 본문 "개소름이다" + 인용 카드 11장 "간첩이 서로를 알아보는 법": 과거 남파 공작원 김동식·이선실 사례(접선 표식 '금반지')를 소개한 뒤, 한 개인(국보법 위반 전력 인물의 자녀로 지목)의 인스타그램 스토리 속 반지·편지·사진·생활(애플·나이키 등) 캡처를 이어 붙여 간첩 표식처럼 암시. 민주당 인사에 대한 '포섭·500만원' 주장도 근거 없이 포함.
+- 사적 개인의 SNS 사생활을 수집해 근거 없이 간첩으로 암시 → 게시 불가(사적 개인·사생활·근거 없는 간첩 암시). 개인 이름은 이 기록에도 남기지 않음.
