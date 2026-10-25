@@ -1,7 +1,7 @@
 ---
 id: 2026-09-28-firstincome-kctu-spy-case-summary
 title: "Full recap of the former KCTU official spy case — U.S. base photos, an Itaewon directive, reduced on appeal, then finalized by the Supreme Court"
-description: "Instagram @firstincome_now recaps the ex-KCTU spy case; Mr. Seok's 15-year term was reportedly cut to 9.5 years, finalized Sept. 2025; some were acquitted."
+description: "Instagram @firstincome_now recaps the ex-KCTU spy case; Seok's 15-year term was reportedly cut to 9.5 years, finalized Sept. 2025; some were acquitted."
 imageAlt: "Blurred-face figure next to a photo of Kim Jong Un (김정은), with the caption 'Stir up anger over the Itaewon disaster — KCTU official who took orders from North Korea'"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @firstincome_now (퍼스트인컴)"
@@ -12,10 +12,10 @@ This post is based on the original caption; the video content was not reviewed. 
 
 ## What reports confirm
 
-- Four people, including former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief Mr. Seok, were reportedly indicted without bail in May 2023 on charges of receiving North Korean directives 102 times between 2018 and 2022 and meeting North Korean agents in China, Cambodia and elsewhere.
+- Four people, including former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief Seok, were reportedly indicted without bail in May 2023 on charges of receiving North Korean directives 102 times between 2018 and 2022 and meeting North Korean agents in China, Cambodia and elsewhere.
 - They were reportedly found to have, on North Korean instructions, collected information on the factions and leanings of candidates in KCTU chairperson elections, as well as photos of facilities and military equipment at the U.S. military base in Pyeongtaek and Osan Air Base.
 - A directive received in November 2022, about two weeks after the Itaewon crowd crush, reportedly instructed them to "create a political climate like the truth-seeking struggle over the Sewol ferry disaster" and to "maximize outrage across all segments of society."
-- The trial court reportedly sentenced Mr. Seok to 15 years in prison, but the appellate court acquitted Seok on some charges and reduced the sentence to nine years and six months; the Supreme Court reportedly finalized on Sept. 25, 2025 the sentences of Mr. Seok (nine years and six months) and former Korean Health and Medical Workers' Union organizing chief Mr. Kim (three years), along with acquittals for two others, including former Korean Metal Workers' Union deputy chair Mr. Yang.
+- The trial court reportedly sentenced Seok to 15 years in prison, but the appellate court acquitted Seok on some charges and reduced the sentence to nine years and six months; the Supreme Court reportedly finalized on Sept. 25, 2025 the sentences of Seok (nine years and six months) and former Korean Health and Medical Workers' Union organizing chief Kim (three years), along with acquittals for two others, including former Korean Metal Workers' Union deputy chair Yang.
 
 ## Former President Yoon Suk Yeol's remarks at the insurrection appeal hearing on Oct. 22 (update)
 
