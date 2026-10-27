@@ -5,7 +5,7 @@ description: "Instagram @firstincome_now recaps the ex-KCTU spy case; Seok's 15-
 imageAlt: "Blurred-face figure next to a photo of Kim Jong Un (김정은), with the caption 'Stir up anger over the Itaewon disaster — KCTU official who took orders from North Korea'"
 imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @firstincome_now (퍼스트인컴)"
-translatedAt: 2026-10-25
+translatedAt: 2026-10-27
 ---
 
 This post is based on the original caption; the video content was not reviewed. Other posts on the same case (some may be available only in Korean): [Itaewon directive — sentence reduced on appeal and finalized](/post/2026-07-19-amhaengeosa-kctu-itaewon-directive) · [correction on the "directive to cause the Itaewon disaster" claim](/post/2026-09-24-hagonolza-kctu-itaewon-claim).
@@ -22,6 +22,11 @@ This post is based on the original caption; the video content was not reviewed. 
 - An [Instagram reel by @hanmibro](https://www.instagram.com/reel/De34B0sjqRq/) (Oct. 24, "Yoon's words sophistry? 102 North Korean directives alone") pushes back on the Kyunghyang Shinmun calling former President Yoon Suk Yeol (윤석열)'s remark that "North Korean directives matched the Democratic Party's moves" sophistry, citing the ruling in this case (the poster's opinion). It is noted here instead of in a separate post.
 - At the defendant examination in the insurrection-leadership appeal at the Seoul High Court on Oct. 22, when defense counsel presented reports on directives to a spy ring, Yoon reportedly said that, as president, Yoon could not think of a public party as a spy party or pro-North party, but "could not help thinking that subversive, anti-state forces are considerably connected to and influencing this huge public party."
 - Among the reel's grounds, the "102 directives" and the Supreme Court's finalization are confirmed by the reports above. However, the claim that directives in the ruling included content on stirring anti-Japan sentiment over treated wastewater and "the spark of an impeachment struggle" (citing a February 2025 CBS NoCut News report) was not checked this time, and overlap between directive content and a party's activities does not by itself establish that the party followed the directives.
+
+## October reshare (update)
+
+- An [Instagram reel by @hotnews24_today](https://www.instagram.com/reel/De8Ze6bgkju/) (Oct. 26, "Sow division with the Itaewon disaster / KCTU official who received North Korean directives / Even pledged loyalty to Kim Jong-un") also revisited this case and is noted here instead of in a separate post. Citing an MBN report, its caption summarizes the Itaewon directive, the photographing of U.S. and Air Force bases and the reporting on KCTU election trends, adding that directive content and criminal facts should be viewed separately based on the court's judgment.
+- That Seok sent North Korea loyalty pledges to the Kim Jong-un family and results of ideological study was confirmed in reports at the time the Supreme Court finalized the case. The original thumbnail's photo of the crowd at the Itaewon scene was not used because it shows members of the public at the time of the disaster.
 
 ## What we left out of the summary
 
