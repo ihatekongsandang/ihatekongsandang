@@ -19,7 +19,7 @@ sources:
     url: https://www.news1.kr/world/northeast-asia/6336414
     date: 2026-10-29
   - type: 언론
-    name: 서울신문 — "항공모함까지 떴다"…코앞에 몰려든 중국 군함 53척에 대만이 발끈한 이유 [밀리터리노트]
+    name: 서울신문 — 대만 NSC가 공개한 중국 함정 53척 배치와 오스미 해협 통과 [밀리터리노트]
     url: https://www.seoul.co.kr/news/international/china/2026/10/29/20261029500205
     date: 2026-10-29
 tags:

@@ -23,7 +23,7 @@ sources:
     url: https://www.donga.com/news/Politics/article/all/20261024/134900535/2
     date: 2026-10-24
   - type: 언론
-    name: 동아일보 — 김정은, 北중대장대회 참가자와 기념촬영…"싸울 준비 완성" 강조
+    name: 동아일보 — 김정은, 제3차 중대장대회 참가자들과 기념촬영(조선중앙통신 28일 보도 인용)
     url: https://www.donga.com/news/Politics/article/all/20261028/134922215/2
     date: 2026-10-28
 tags:
