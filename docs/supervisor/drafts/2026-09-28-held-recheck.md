@@ -690,3 +690,9 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
   - DfMhfgsBhRC → `2026-11-01-eodguri-war-term-extension-claim` (2026-11-02 사용자 지시 "출연자 개인 의견 명시하고 게시")
 - 보류 1건: Dfa3L7WAcfH @picknews_kr(유튜버 감동란 라이브 방송 차단 주장). Google News 검색 결과 0건으로 근거 보도가 없음. 재검토 조건: 보도가 나오면 다시 봄.
 - 제외 2건(DfFKqzZTmpx·DfFk6b4zmLk): 요청대로 손대지 않음(사용자 결정 대기).
+
+### 게시 불가 — 열람 불가 — instagram DfFKqzZTmpx (2026-10-29 게시, 2026-11-08 정리)
+- embed가 'may be broken or removed'로 막혀 있고 og도 비어 있음(프로그래머 10 실측). 2026-11-08 사용자 결정에 따라 열람 불가로 정리함. 재검토 조건 없음, 캡처는 요청하지 않음.
+
+### 게시 불가 — 열람 불가 — instagram DfFk6b4zmLk (2026-10-30 게시, 2026-11-08 정리)
+- embed가 'may be broken or removed'로 막혀 있고 og도 비어 있음(프로그래머 10 실측). 2026-11-08 사용자 결정에 따라 열람 불가로 정리함. 재검토 조건 없음, 캡처는 요청하지 않음.
