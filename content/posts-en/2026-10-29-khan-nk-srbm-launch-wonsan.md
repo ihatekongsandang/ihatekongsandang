@@ -8,7 +8,7 @@ attribution: "Kyunghyang Shinmun"
 translatedAt: 2026-11-05
 ---
 
-This post is based on news reports. A related post on North Korea's submarine-launched cruise missile test (may be available only in Korean): [North Korea's SLCM announcement and the JCS](/post/2026-10-14-2pro-nk-slcm-not-announced).
+This post is based on news reports. An earlier post on North Korean missiles (may be available only in Korean): [North Korea's SLCM announcement and the JCS](/post/2026-10-14-2pro-nk-slcm-not-announced).
 
 ## What reports confirm
 
