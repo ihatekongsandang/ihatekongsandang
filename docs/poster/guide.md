@@ -62,8 +62,13 @@ SNS 글이 게시 불가여도 그 안에 실제로 보도된 사건이 들어 �
 npm run --silent og:draft -- "URL" > /tmp/og.txt
 
 # 인스타그램 — 전체 이미지·캡션 (코드 = /p/{code}/ 또는 /reel/{code}/)
+#   🔴 UA는 반드시 "Mozilla/5.0" 그대로. 브라우저 전체 UA(Chrome/… 등)로 바꾸면 JS 전용 페이지(약 50만 바이트)가 와서
+#   캡션·이미지가 비어 보인다(2026-10-29~11-08 수집 실패 25건 원인, docs/tools/programmer-10/instagram-collect-report.md).
 curl -sL -A "Mozilla/5.0" "https://www.instagram.com/p/{code}/embed/captioned/" > /tmp/ig.html
 #   이미지: <img class="EmbeddedMediaImage" … src="…">, 캡션: class="Caption"
+#   성공 확인: grep -c 'class="CaptionUsername"' /tmp/ig.html → 1. 0이면 다음 순서로:
+#   "may be broken" 문구 있음(embed 차단·삭제) → og:draft 로 og:description·og:image 확인 → 그것도 비면 캡처 요청
+#   "may be broken" 문구도 없음(응답 약 50만 바이트 JS 페이지) → UA가 "Mozilla/5.0" 그대로인지 확인하고 위 명령으로 1회 재요청 → 그래도 0이면 og:draft → 캡처 요청
 
 # 스레드 — 공유 링크 해석 후 embed
 U=$(curl -sL -o /dev/null -w '%{url_effective}' "공유링크"); P=${U%%\?*}

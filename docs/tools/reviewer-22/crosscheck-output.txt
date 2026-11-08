@@ -1,0 +1,10 @@
+표 행 31 · 불일치 0 (측정 14열 + 판정 2열 + 구분)
+fail18 검사 18 A 16 B 16 A∨B 16
+fail-extra 검사 8 A 7 B 8 A∨B 8
+control 검사 5 A 5 B 5 A∨B 5
+당시 요청 행 126 {'plain-Mozilla/5.0': 99, 'other': 2, 'chrome130-full': 25}
+chrome 첫·끝 2026-10-29T03:52Z 2026-11-08T12:18Z 크기 범위 499901 512880
+마커 출력 있는 chrome 행 18 전부 0: True 첫 행 2026-10-29T04:55Z DfCPqoxmvJ1
+plain 행 99 마지막 2026-10-29T03:38Z
+chrome 코드 중 현재 A 성공 22 크기 221853 315050
+Des0mDXEZbq 당시 행: [['2026-10-20T23:21Z', 'other', 'Des0mDXEZbq', ''], ['2026-10-20T23:21Z', 'plain-Mozilla/5.0', 'Des0mDXEZbq', '']]
