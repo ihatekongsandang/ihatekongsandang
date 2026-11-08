@@ -1,6 +1,6 @@
 ---
 id: 2026-11-05-dduddd-kimtaekyu-expulsion-resolution
-title: "[Breaking] \"Resolution urging expulsion of lawmaker Kim Tae-kyu passes, led by the Democratic Party\" — 166 in favor, People Power Party boycotts the vote (reports)"
+title: "Threads post labeled \"[Breaking]\": \"Resolution urging expulsion of lawmaker Kim Tae-kyu passes, led by the Democratic Party,\" with 166 in favor as the People Power Party boycotts the vote (reports)"
 description: "Threads @_ddu._dd relays a resolution urging lawmaker Kim Tae-kyu's expulsion; reports say it passed with 166 votes, and actual expulsion needs more steps."
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Resolution urging lawmaker Kim Tae-kyu's expulsion passes plenary — 166 in favor, 1 invalid / Nov. 5, led by the Democratic Party; People Power Party boycotted (reports) / Triggered by Sept. 30 YouTube remark \"Yoon Suk Yeol and Chun Doo-hwan were not insurrection\" / Actual expulsion requires an ethics committee review and two-thirds of all members'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
