@@ -4,7 +4,7 @@
 - 요청: 반공-슈퍼바이저(사용자 D7=7b 후속). 근거는 docs/tools/programmer-10/instagram-collect-report.md, 대상 목록은 codes.txt
 - 수집: guide §3 그대로 `curl -sL -A "Mozilla/5.0" …/embed/captioned/`. 23건 모두 `CaptionUsername`=1(캡션·이미지·영상 확인), DfDolMhEoz-는 'may be broken'이라 og:draft로 확인. 재수집 시점에 삭제되거나 바뀐 게시물은 없었음.
 - 검사 수: 24/24 (제외 2건 DfFKqzZTmpx·DfFk6b4zmLk는 손대지 않음)
-- 커밋: (아래 '커밋' 줄에 기록)
+- 커밋: 14cd427 (경로 지정 25파일, clean-clone gate 통과, GitHub status success, 배포 9개 게시물 /post·/en/post 모두 200)
 
 ## 코드별 판단
 | # | 코드 | 계정 | 판단 | 결과 id / 사유 |
