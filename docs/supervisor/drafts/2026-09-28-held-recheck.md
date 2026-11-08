@@ -655,3 +655,38 @@ og 메타데이터 재수집 + 첫 번째 미디어 이미지 판독. 인스타 
 
 ### 주제 전환 하지 않음 — 철원 하사 사망 3건 · @check901 선관위 직원 사망 (2026-11-05 §1-1 0항)
 - 사용자의 소급 적용 지시로 검토했으나 개정 §1-1 0항(사적 개인의 사망·사고, 원인 조사 중·극단적 선택 가능성, 재검토 조건 기재 사안)에 해당해 주제 전환하지 않음. 기존 보류·게시 불가 판단과 재검토 조건은 그대로 둠.
+
+### 인스타그램 재수집 24건 판단 (2026-11-08, 반공-슈퍼바이저 요청·programmer-10 원인 실측 후속)
+- 원인: 10/29부터 업로더가 guide §3과 다른 브라우저 전체 UA로 embed를 요청해 JS 전용 페이지를 받았음. guide §3 그대로 `-A "Mozilla/5.0"`로 다시 받아 23건 모두 `CaptionUsername` 1을 확인했고, DfDolMhEoz-는 embed 차단('may be broken')이라 og:draft로 확인.
+- 게시 불가 14건
+  - DfCZVaSBZDU @eodguri123(특검 비하 + 영상)
+  - DfCyv6jJdot @junhyeong7919("재검표로 확보한 증거 선관위한테 다시 준다", 선거 부정 암시·사적 개인 얼굴)
+  - DfDw6Q_jW0i @sbsnews(장동혁 대표 "부정선거 증거…도적질하듯 투표함" 발언 보도 = 선거 부정 주장 자체를 다룬 보도, §1-1 0항)
+  - DfCTv8Zv2gL @_1waynews("완벽한 사기")
+  - DfCPqoxmvJ1 @issue_target('벽돌 투표지' 의혹 재점화)
+  - DfDqgBXTEgx @na86_wbffpro(출처 없는 주장 목록, 선관위 투표 조작·장기 관련 주장 포함)
+  - DfErj1kgp2O @knn.news("부정 밝혀줄거라 믿었는데" 청년 국회 회견, 선거 부정 주장 자체)
+  - DfFA9pemaCJ @free.mandoo(투표지 의혹 정리·수사요청서)
+  - DfDolMhEoz- @politics_crush(og 확인: 도태우 변호사 "부정선거 증거 15가지")
+  - Dfd6jzqD-YD @five.zzal(부정선거 의혹 집회 "15만"·언론 침묵 주장)
+  - DfEVd6AyJHG @pickd.kr(대통령 계정 팔로우 캡처 주장, 2026-10-30 @vienna_8805 선례)
+  - DfVcFZ9zmJu @geonwoo.vibes(썸네일 비하 표현 "빨갱이·간첩·매국놈")
+  - DfFwBQ8krKd @minkyuhantv("찐 간첩" 단정 + 후원 계좌 노출, 계좌번호는 옮기지 않음)
+  - DfV6JKfTwum @_1waynews(라디오 영상 재편집, 비하성 문구)
+- 주제 전환 → 기존 게시물 갱신(§1-1 6항, SNS 링크 없이 새 보도만)
+  - DfFwBQ8krKd → `2026-09-28-drumtong119-jinsungjoon-nsl-past` (미국 비자 거부 10/28·발급 10/31, 경향)
+  - Dfd6jzqD-YD·DfV6JKfTwum → `2026-09-30-hagonolza-lee-case-dismissal-two-routes` (조작기소 특검법 11/6 본회의 통과, 오마이뉴스·파이낸셜뉴스)
+  - DfVcFZ9zmJu → 아래 @letuknow_12 병합과 같은 갱신 절
+- 병합(SNS 링크 포함 일반 병합) 4건
+  - DfBjtOqTFQb @recmag.kr → nec-bill (10/28 검증 시작 지연·촬영 허용 범위)
+  - DfWH9UZkceX @kbsnews → nec-bill (투표록 사후 위·변조 지시 의혹 압수수색, 데일리안 11/5)
+  - DfUnZM_Gfay @letuknow_12 → `2026-10-05-issueradar-nsc-cyber-sanctions-clash` (KBS 11/4 단독, 미·호주·EU 제재 동참 요청에 불참)
+  - DfT6s46iYjy @jugwan_ilbo → 새 게시물 `2026-11-04-leejinsook-martial-law-soldiers-presser`
+- 게시 5건
+  - Des0mDXEZbq → `2026-10-20-monarchreport25-lee-kim-held-back-2025`
+  - DfQtLMShFCw → `2026-11-03-happenbosu-lee-kimilsung-remark-2024`
+  - DfRPl-wOlhj → `2026-11-03-wikipost-marine-officer-kimjongun-photo`
+  - DfUDA3zJXBT → `2026-11-04-leejinsook-martial-law-soldiers-presser`
+  - DfMhfgsBhRC → `2026-11-01-eodguri-war-term-extension-claim` (2026-11-02 사용자 지시 "출연자 개인 의견 명시하고 게시")
+- 보류 1건: Dfa3L7WAcfH @picknews_kr(유튜버 감동란 라이브 방송 차단 주장). Google News 검색 결과 0건으로 근거 보도가 없음. 재검토 조건: 보도가 나오면 다시 봄.
+- 제외 2건(DfFKqzZTmpx·DfFk6b4zmLk): 요청대로 손대지 않음(사용자 결정 대기).

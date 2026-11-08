@@ -5,7 +5,7 @@ description: "Instagram @drumtong119 revisits Jin Sung-joon's 1989 National Secu
 imageAlt: "Illustration of a single military boot on muddy ground in front of a barbed-wire fence, overlaid with the text 'Mine blast · National Assembly Defense Committee chair Rep. Jin Sung-joon'"
 imageCaption: "First slide of the original post (illustration)"
 attribution: "Instagram @drumtong119 (드럼통119)"
-translatedAt: 2026-09-30
+translatedAt: 2026-11-08
 ---
 
 This post is based on the original caption. It is a multi-slide post of which only the first slide was reviewed. A [Threads post by @sangwoosang84](https://www.threads.com/@sangwoosang84/post/Dd3UzB4GDTP) covering the same court-ruling content, and an [Instagram card by @rekor.rgt](https://www.instagram.com/p/Dd58eSzgbM5/) (Sept. 30) on the same record, are noted here instead of in separate posts. The REKOR card says Jin enlisted in 1989, served as a rifleman, formed the "Righteous Army Association" and received a prison sentence from a court-martial. Chair Jin's own radio remarks are covered in the [post on his "intent" remark](/post/2026-09-29-finf-jinsungjoon-mine-intent).
@@ -22,6 +22,11 @@ This post is based on the original caption. It is a multi-slide post of which on
 - According to the same column, Jin took the lead in founding a "Righteous Army Association" (의병회) within the unit and, at its founding meeting, reportedly said, "U.S. forces must withdraw to build a self-reliant national army." According to the column, the 35th Division General Military Court sentenced him to six years in prison, and the Army High Military Court to three years on appeal. The column criticizes him for being elected Defense Committee chair in June 2026 without reflection or explanation.
 - Channel A reported on July 2 that People Power Party supreme council member Kim Min-soo (김민수) attacked the appointment, asking, "Can you seat a National Security Act violator as Defense Committee chair?" It reported that Jin was sentenced in 1991 to three years in prison and a three-year suspension of qualifications for violating the National Security Act, and that when running for office he had said he "was indicted during military service for activities in the struggle against dictatorship and for democracy, and was recognized as part of the democratization movement in 2003."
 - Chair Jin reportedly said on the radio on Sept. 29 that "whether displaced or laid, North Korea is responsible," but that the response should differ depending on whether it was deliberately planted to injure troops.
+
+## Later developments (updated Nov. 8)
+
+- The U.S. visa application of Jin Sung-joon, chair of the National Assembly's National Defense Committee, was rejected on Oct. 28, according to reports. Jin reportedly expressed strong regret, calling it an obstruction of "the official legislative activity of the National Assembly, which represents the people of the Republic of Korea."
+- Jin received a U.S. visa on Oct. 31, three days after the rejection, and the delegation led by the committee chair decided to go ahead with its Nov. 1-5 visit to the U.S. Indo-Pacific Command, it was reported. Kyunghyang Shinmun reported that the reason for the rejection was not clearly known, though some analysts suggested the 1991 National Security Act conviction (three years in prison, three years' suspension of qualifications) may have played a role.
 
 ## What we left out of the summary
 

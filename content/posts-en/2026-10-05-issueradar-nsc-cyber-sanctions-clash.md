@@ -5,7 +5,7 @@ description: "Instagram @issueradar_kr on an NSC clash over the mine response; C
 imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Heated NSC debate over the North Korean mine response — Cho Hyun's unilateral cyber sanctions vs. Chung Dong-young's opposition / Oct. 1 NSC standing committee — foreign ministry: \"under internal review, nothing confirmed\" / Oct. 5 JCS final conclusion: \"a typical North Korean mine that was planted\"'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @issueradar_kr"
-translatedAt: 2026-10-06
+translatedAt: 2026-11-08
 ---
 
 This post is based on the original caption and the first frame of the reel. The first frame's "Don't sanction North Korean hacking" reads as if Unification Minister Chung Dong-young said it, but it is not a reported remark, so we used a card made by this site instead of the original image. Other posts on the response to the mine incident (some may be available only in Korean): [Alaska LNG and the North Korean mine: the government's responses](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [Frontline corps' "empty-gun guard duty"](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
@@ -23,6 +23,12 @@ This post is based on the original caption and the first frame of the reel. The 
 - A foreign ministry official reportedly said on Oct. 5 that it is "at the internal review stage, and nothing has been confirmed," while explaining that North Korea's illicit cyber activities are a major funding source for its nuclear and missile programs and that the government is responding in cooperation with the international community.
 - Resuming loudspeaker broadcasts toward the North reportedly is not under consideration, while the government is reportedly discussing details of demanding an apology from North Korea, a demonstration of the military's advanced capabilities and the need for military talks to resolve the mismatch over the MDL baseline.
 - At its final investigation briefing on Oct. 5, the JCS reportedly said it was "not a drifted mine but a typical North Korean mine that was planted," and that the North Korean minefield south of the MDL was removed that day.
+
+## Later developments (updated Nov. 8)
+
+- In an exclusive report on Nov. 4, KBS said the U.S., together with Australia and the European Union, pursued additional unilateral sanctions on North Korea and asked South Korea several times to join, but the government did not. The requesting countries reportedly stressed the importance of "coordinated sanctions" timed together.
+- Earlier, on Nov. 3, the Ministry of Unification reportedly said it was not yet discussing additional sanctions on North Korea after the U.S. FBI named a North Korea-linked group behind the Binance crypto hack, and that the FBI had shared no information with South Korean agencies (The Financial News).
+- An [Instagram post by @letuknow_12](https://www.instagram.com/p/DfUnZM_Gfay/) (Nov. 4) summarizing this is also noted here. Citing KBS, the original says Unification Minister Chung Dong-young (정동영) opposed joining over doubts about effectiveness, that South Korea joined only a joint statement, and that the foreign ministry says it is still reviewing unilateral sanctions. We could not check the minister's specific remarks against the article text reviewed for this post.
 
 ## What we left out of the summary
 

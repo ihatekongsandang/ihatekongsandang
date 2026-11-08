@@ -5,7 +5,7 @@ description: "Instagram @hagonolza explains a chart claiming two routes to dropp
 imageAlt: "Capture of a Threads post by @inve_insight ('They say the fabricated-indictment special counsel and the fact-finding team are the real scenario for dropping Lee Jae-myung's cases') above a chart titled 'Dropping Lee Jae-myung's indictments: two routes' — Route A, fabricated-indictment special counsel act (president: 'take that clause out'; counsel investigation → referral to prosecutors); Route B, prosecution fact-finding team (justice minister's order, Supreme Prosecutors' Office fact-finding team on 19 cases, acting prosecutor general Lee Jung-hyun); end point 'withdrawal of indictment (Criminal Procedure Act Art. 255, possible until the first-instance verdict)'"
 imageCaption: "First slide of the original post (capture of a Threads post)"
 attribution: "Instagram @hagonolza (하놀)"
-translatedAt: 2026-10-01
+translatedAt: 2026-11-08
 ---
 
 This post is based on the original caption and first slide; it is a multi-slide post of which only the first slide was reviewed. The first slide is a capture of a Threads post by @inve_insight and the chart attached to it. Related posts (some may be available only in Korean): [Trial-resumption challenge](/post/2026-09-27-minjoojuhee-trial-resume-challenge) · [Cost of replacing prosecution signage](/post/2026-09-29-2pro-prosecution-sign-removal-cost).
@@ -23,6 +23,11 @@ This post is based on the original caption and first slide; it is a multi-slide 
 - At a Sept. 18 press conference, President Lee reportedly asked the National Assembly to "delete the provisions on transferring or disposing of existing indicted cases and focus only on finding the truth." The Democratic Party reportedly decided to remove the clause but on Sept. 29 held off on bringing the bill to a vote, saying it would revisit it after the parliamentary audit.
 - A fact-finding team under the Justice Ministry's Committee on Respect for Human Rights and the Future of the Prosecution (launched in June) is reportedly examining 19 cases, including eight directly or indirectly involving President Lee, such as the Daejang-dong, Baekhyeon-dong and Wirye developments and the Ssangbangwool remittances to North Korea; in six of them, Lee is reportedly a defendant whose first-instance trial has been suspended.
 - On his first day on Sept. 23, acting Prosecutor General Lee Jung-hyun (이정현) reportedly answered a question about possibly dropping the cases by saying, "The fact-finding team's inquiry is under way, so I think we have to look at its results." Legal circles reportedly offered interpretations and criticism that the findings could be used to justify withdrawing indictments.
+
+## Later developments (updated Nov. 8)
+
+- The revised bill for a special counsel on "fabricated indictments" passed the National Assembly's Legislation and Judiciary Committee on Nov. 4, led by the ruling bloc, and the provision giving the special counsel the power to withdraw indictments was deleted in the process, according to reports (The Financial News).
+- The revised bill passed the plenary session on Nov. 6 with 167 of the 168 members present in favor and one against, it was reported. The People Power Party reportedly did not vote after its filibuster was ended by a cloture vote after about 24 hours. OhmyNews reported that the revised bill narrows the existing scope of investigation but adds cases related to the Moon Jae-in (문재인) government (bribery allegations over the former president's son-in-law's employment, the killing of a fisheries official in the West Sea and the forced repatriation of North Korean fishermen, among others), and allows up to 200 days of activity and up to 309 staff. The bill is to be sent to the government and promulgated by the president before a special counsel is appointed, it was reported.
 
 ## What we left out of the summary
 
