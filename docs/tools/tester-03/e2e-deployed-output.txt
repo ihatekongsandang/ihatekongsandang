@@ -1,0 +1,219 @@
+독립 재계산 기준 오늘(Asia/Seoul, 시스템 시계): 2026-11-09
+독립 재계산: updatedAt 보유 31건 중 7일 이내(갱신 표시 대상) 5건
+  - 2026-08-29-idontknowpolitics-martial-law-nk-policy (2026-11-09, 0일 전)
+  - 2026-09-10-freedominnovation-nec-bill (2026-11-08, 1일 전)
+  - 2026-09-28-drumtong119-jinsungjoon-nsl-past (2026-11-08, 1일 전)
+  - 2026-09-30-hagonolza-lee-case-dismissal-two-routes (2026-11-08, 1일 전)
+  - 2026-10-05-issueradar-nsc-cyber-sanctions-clash (2026-11-08, 1일 전)
+독립 재집계: content/posts 207건 · content/posts-en 207건
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X href url = canonical — https://ihatekongsandang.vercel.app/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 href url = canonical
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X text = 제목 그대로 — text=트럼프 '알래스카 LNG' 일방 발표엔 하루 만에 "유감" — 장병이 발목을 잃은 北 지뢰 사고엔 같은 주 "청와대 음소거"·"불의의 사고" 비판 나와, 군은 사과 촉구했지만 상응조치는 미공개로 보도
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 text = 제목 그대로
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → 클립보드 = 페이지 절대 URL — https://ihatekongsandang.vercel.app/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → 버튼 "복사됨" — 복사됨
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → status "링크가 복사되었습니다." — 링크가 복사되었습니다.
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response GA dataLayer share 이벤트(copy_link, 실제 네트워크는 차단·대체 확인 — 사유는 핸드오프 참조) — {"method":"copy_link","content_type":"post","item_id":"2026-10-02-alaska-lng-vs-dmz-mine-response"}
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 2초 뒤 원상 복귀 — {"btn":"링크 복사","status":""}
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response GA dataLayer share 이벤트(x·threads, 실제 클릭) — x,threads
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 3회 = 공유 3개 순서
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response :focus-visible 외곽선 2px solid — 2px solid / 2px solid / 2px solid
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 전수 순회(35개) = DOM 순서 일치 — 실측 35개 / DOM 35개
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 이동 전체(35회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X href url = canonical — https://ihatekongsandang.vercel.app/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 href url = canonical
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X text 없음(예산 초과 — 24건 중 1) — ?url=https%3A%2F%2Fihatekongsandang.vercel.app%2Fen%2Fpost%2F2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 text = 제목 그대로
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → 클립보드 = 페이지 절대 URL — https://ihatekongsandang.vercel.app/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → 버튼 "Copied" — Copied
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 실제 클릭 → status "Link copied." — Link copied.
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response GA dataLayer share 이벤트(copy_link, 실제 네트워크는 차단·대체 확인 — 사유는 핸드오프 참조) — {"method":"copy_link","content_type":"post","item_id":"2026-10-02-alaska-lng-vs-dmz-mine-response","language":"en"}
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 2초 뒤 원상 복귀 — {"btn":"Copy link","status":""}
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response GA dataLayer share 이벤트(x·threads, 실제 클릭) — x,threads
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 3회 = 공유 3개 순서
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response :focus-visible 외곽선 2px solid — 2px solid / 2px solid / 2px solid
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 전수 순회(28개) = DOM 순서 일치 — 실측 28개 / DOM 28개
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 이동 전체(28회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /about h1 = "소개" — 소개
+PASS  [mobile] /about example.invalid·mailto 0
+PASS  [mobile] /about 준비 중 상자 존재 — ["연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다."]
+PASS  [mobile] /about 상호 링크 → /terms — /terms,/
+PASS  [mobile] /about 푸터 약관 링크
+PASS  [mobile] /about 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [mobile] /about 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /about 가로 스크롤 없음
+PASS  [mobile] /about html lang = ko — ko
+PASS  [mobile] /about canonical = /about — https://ihatekongsandang.vercel.app/about
+PASS  [mobile] /about hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/about"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/about"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/about"}]
+PASS  [mobile] /about Tab 전수 순회(10개) = DOM 순서 일치 — 실측 10개 / DOM 10개
+PASS  [mobile] /about Tab 이동 전체(10회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /en/about h1 = "About" — About
+PASS  [mobile] /en/about example.invalid·mailto 0
+PASS  [mobile] /en/about 준비 중 상자 존재 — ["Contact channel: pending a decision. This page will be updated once it’s finalized."]
+PASS  [mobile] /en/about 상호 링크 → /en/terms — /en/terms,/en
+PASS  [mobile] /en/about 푸터 약관 링크
+PASS  [mobile] /en/about 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [mobile] /en/about 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /en/about 가로 스크롤 없음
+PASS  [mobile] /en/about html lang = en — en
+PASS  [mobile] /en/about canonical = /en/about — https://ihatekongsandang.vercel.app/en/about
+PASS  [mobile] /en/about hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/about"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/about"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/about"}]
+PASS  [mobile] /en/about Tab 전수 순회(9개) = DOM 순서 일치 — 실측 9개 / DOM 9개
+PASS  [mobile] /en/about Tab 이동 전체(9회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /terms h1 = "이용약관·운영 정책" — 이용약관·운영 정책
+PASS  [mobile] /terms example.invalid·mailto 0
+PASS  [mobile] /terms 준비 중 상자 존재 — ["연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다."]
+PASS  [mobile] /terms 상호 링크 → /about — /about
+PASS  [mobile] /terms 푸터 약관 링크
+PASS  [mobile] /terms 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [mobile] /terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /terms 가로 스크롤 없음
+PASS  [mobile] /terms html lang = ko — ko
+PASS  [mobile] /terms canonical = /terms — https://ihatekongsandang.vercel.app/terms
+PASS  [mobile] /terms hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/terms"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/terms"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/terms"}]
+PASS  [mobile] /terms h2 6개 — 운영 목적 / 직접 취재하지 않음 / 출처 원칙 / 정정·삭제 요청 방법과 처리 기준 / 익명 운영과 연락 경로 / 게시물 성격
+PASS  [mobile] /terms Tab 전수 순회(9개) = DOM 순서 일치 — 실측 9개 / DOM 9개
+PASS  [mobile] /terms Tab 이동 전체(9회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /en/terms h1 = "Terms and Operating Policy" — Terms and Operating Policy
+PASS  [mobile] /en/terms example.invalid·mailto 0
+PASS  [mobile] /en/terms 준비 중 상자 존재 — ["Contact channel: pending a decision. This page will be updated once it’s finalized."]
+PASS  [mobile] /en/terms 상호 링크 → /en/about — /en/about
+PASS  [mobile] /en/terms 푸터 약관 링크
+PASS  [mobile] /en/terms 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [mobile] /en/terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /en/terms 가로 스크롤 없음
+PASS  [mobile] /en/terms html lang = en — en
+PASS  [mobile] /en/terms canonical = /en/terms — https://ihatekongsandang.vercel.app/en/terms
+PASS  [mobile] /en/terms hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/terms"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/terms"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/terms"}]
+PASS  [mobile] /en/terms h2 6개 — What this site does / We do not do our own reporting / Sourcing principles / How to request a correction or removal, and how we handle it / Anonymous operation and contact / What kind of content this is
+PASS  [mobile] /en/terms Tab 전수 순회(8개) = DOM 순서 일치 — 실측 8개 / DOM 8개
+PASS  [mobile] /en/terms Tab 이동 전체(8회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [mobile] /about P2-1 개인정보 신규 문구 포함
+PASS  [mobile] /about P2-1 개인정보 옛 문구 0
+PASS  [mobile] /about P2-2 매체 구분 신규 문구 포함
+PASS  [mobile] /about P2-2 매체 구분 옛 문구 0
+PASS  [mobile] /en/about P2-4 aboutIntro 신규 문구 포함
+PASS  [mobile] /en/about P2-4 aboutIntro 옛 문구 0
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X href url = canonical — https://ihatekongsandang.vercel.app/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 href url = canonical
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X text = 제목 그대로 — text=트럼프 '알래스카 LNG' 일방 발표엔 하루 만에 "유감" — 장병이 발목을 잃은 北 지뢰 사고엔 같은 주 "청와대 음소거"·"불의의 사고" 비판 나와, 군은 사과 촉구했지만 상응조치는 미공개로 보도
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 text = 제목 그대로
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X href url = canonical — https://ihatekongsandang.vercel.app/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 href url = canonical
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X text 없음(예산 초과 — 24건 중 1) — ?url=https%3A%2F%2Fihatekongsandang.vercel.app%2Fen%2Fpost%2F2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 text = 제목 그대로
+PASS  [desktop] /about h1 = "소개" — 소개
+PASS  [desktop] /about example.invalid·mailto 0
+PASS  [desktop] /about 준비 중 상자 존재 — ["연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다."]
+PASS  [desktop] /about 상호 링크 → /terms — /terms,/
+PASS  [desktop] /about 푸터 약관 링크
+PASS  [desktop] /about 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [desktop] /about 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /about 가로 스크롤 없음
+PASS  [desktop] /about html lang = ko — ko
+PASS  [desktop] /about canonical = /about — https://ihatekongsandang.vercel.app/about
+PASS  [desktop] /about hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/about"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/about"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/about"}]
+PASS  [desktop] /about Tab 전수 순회(10개) = DOM 순서 일치 — 실측 10개 / DOM 10개
+PASS  [desktop] /about Tab 이동 전체(10회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [desktop] /en/about h1 = "About" — About
+PASS  [desktop] /en/about example.invalid·mailto 0
+PASS  [desktop] /en/about 준비 중 상자 존재 — ["Contact channel: pending a decision. This page will be updated once it’s finalized."]
+PASS  [desktop] /en/about 상호 링크 → /en/terms — /en/terms,/en
+PASS  [desktop] /en/about 푸터 약관 링크
+PASS  [desktop] /en/about 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [desktop] /en/about 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /en/about 가로 스크롤 없음
+PASS  [desktop] /en/about html lang = en — en
+PASS  [desktop] /en/about canonical = /en/about — https://ihatekongsandang.vercel.app/en/about
+PASS  [desktop] /en/about hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/about"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/about"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/about"}]
+PASS  [desktop] /en/about Tab 전수 순회(9개) = DOM 순서 일치 — 실측 9개 / DOM 9개
+PASS  [desktop] /en/about Tab 이동 전체(9회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [desktop] /terms h1 = "이용약관·운영 정책" — 이용약관·운영 정책
+PASS  [desktop] /terms example.invalid·mailto 0
+PASS  [desktop] /terms 준비 중 상자 존재 — ["연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다."]
+PASS  [desktop] /terms 상호 링크 → /about — /about
+PASS  [desktop] /terms 푸터 약관 링크
+PASS  [desktop] /terms 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [desktop] /terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /terms 가로 스크롤 없음
+PASS  [desktop] /terms html lang = ko — ko
+PASS  [desktop] /terms canonical = /terms — https://ihatekongsandang.vercel.app/terms
+PASS  [desktop] /terms hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/terms"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/terms"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/terms"}]
+PASS  [desktop] /terms h2 6개 — 운영 목적 / 직접 취재하지 않음 / 출처 원칙 / 정정·삭제 요청 방법과 처리 기준 / 익명 운영과 연락 경로 / 게시물 성격
+PASS  [desktop] /terms Tab 전수 순회(9개) = DOM 순서 일치 — 실측 9개 / DOM 9개
+PASS  [desktop] /terms Tab 이동 전체(9회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [desktop] /en/terms h1 = "Terms and Operating Policy" — Terms and Operating Policy
+PASS  [desktop] /en/terms example.invalid·mailto 0
+PASS  [desktop] /en/terms 준비 중 상자 존재 — ["Contact channel: pending a decision. This page will be updated once it’s finalized."]
+PASS  [desktop] /en/terms 상호 링크 → /en/about — /en/about
+PASS  [desktop] /en/terms 푸터 약관 링크
+PASS  [desktop] /en/terms 푸터 링크 대비 ≥ 4.5 — 6.42,6.42
+PASS  [desktop] /en/terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /en/terms 가로 스크롤 없음
+PASS  [desktop] /en/terms html lang = en — en
+PASS  [desktop] /en/terms canonical = /en/terms — https://ihatekongsandang.vercel.app/en/terms
+PASS  [desktop] /en/terms hreflang ko·en·x-default 3개 — [{"hl":"ko","href":"https://ihatekongsandang.vercel.app/terms"},{"hl":"en","href":"https://ihatekongsandang.vercel.app/en/terms"},{"hl":"x-default","href":"https://ihatekongsandang.vercel.app/terms"}]
+PASS  [desktop] /en/terms h2 6개 — What this site does / We do not do our own reporting / Sourcing principles / How to request a correction or removal, and how we handle it / Anonymous operation and contact / What kind of content this is
+PASS  [desktop] /en/terms Tab 전수 순회(8개) = DOM 순서 일치 — 실측 8개 / DOM 8개
+PASS  [desktop] /en/terms Tab 이동 전체(8회) 포커스 표시 보임 — 0건 표시 없음
+PASS  [desktop] /about P2-1 개인정보 신규 문구 포함
+PASS  [desktop] /about P2-1 개인정보 옛 문구 0
+PASS  [desktop] /about P2-2 매체 구분 신규 문구 포함
+PASS  [desktop] /about P2-2 매체 구분 옛 문구 0
+PASS  [desktop] /en/about P2-4 aboutIntro 신규 문구 포함
+PASS  [desktop] /en/about P2-4 aboutIntro 옛 문구 0
+PASS  [ko] 피드 전체 건수 추출 — 전체 207건 · 1 / 18 페이지
+PASS  [ko] 전체 피드 순회 18페이지 완료 — 페이지 1~18
+PASS  [ko] 갱신 카드 수 = 5건(독립 재계산) — 실측 5건
+PASS  [ko] 갱신 카드 id 일치 — 실측 ["2026-08-29-idontknowpolitics-martial-law-nk-policy","2026-09-10-freedominnovation-nec-bill","2026-09-28-drumtong119-jinsungjoon-nsl-past","2026-09-30-hagonolza-lee-case-dismissal-two-routes","2026-10-05-issueradar-nsc-cyber-sanctions-clash"] / 기대 ["2026-08-29-idontknowpolitics-martial-law-nk-policy","2026-09-10-freedominnovation-nec-bill","2026-09-28-drumtong119-jinsungjoon-nsl-past","2026-09-30-hagonolza-lee-case-dismissal-two-routes","2026-10-05-issueradar-nsc-cyber-sanctions-clash"]
+PASS  [ko] 평문(테두리 0·배경 투명·aria-label 없음)
+PASS  [ko] 2026-08-29-idontknowpolitics-martial-law-nk-policy 표시 문자열 — 11/09 갱신
+PASS  [ko] 2026-08-29-idontknowpolitics-martial-law-nk-policy sr-only 전체 날짜 — 최근 갱신: 2026년 11월 9일
+PASS  [ko] 2026-08-29-idontknowpolitics-martial-law-nk-policy dateTime = 2026-11-09 — 2026-11-09
+PASS  [ko] 2026-09-10-freedominnovation-nec-bill 표시 문자열 — 11/08 갱신
+PASS  [ko] 2026-09-10-freedominnovation-nec-bill sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [ko] 2026-09-10-freedominnovation-nec-bill dateTime = 2026-11-08 — 2026-11-08
+PASS  [ko] 2026-09-28-drumtong119-jinsungjoon-nsl-past 표시 문자열 — 11/08 갱신
+PASS  [ko] 2026-09-28-drumtong119-jinsungjoon-nsl-past sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [ko] 2026-09-28-drumtong119-jinsungjoon-nsl-past dateTime = 2026-11-08 — 2026-11-08
+PASS  [ko] 2026-09-30-hagonolza-lee-case-dismissal-two-routes 표시 문자열 — 11/08 갱신
+PASS  [ko] 2026-09-30-hagonolza-lee-case-dismissal-two-routes sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [ko] 2026-09-30-hagonolza-lee-case-dismissal-two-routes dateTime = 2026-11-08 — 2026-11-08
+PASS  [ko] 2026-10-05-issueradar-nsc-cyber-sanctions-clash 표시 문자열 — 11/08 갱신
+PASS  [ko] 2026-10-05-issueradar-nsc-cyber-sanctions-clash sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [ko] 2026-10-05-issueradar-nsc-cyber-sanctions-clash dateTime = 2026-11-08 — 2026-11-08
+PASS  [ko] 갱신 글자 대비 전부 ≥ 4.5 — 7.73,7.73,7.73,7.73,7.73
+PASS  [en] 피드 전체 건수 추출 — 207 posts · Page 1 of 18
+PASS  [en] 전체 피드 순회 18페이지 완료 — 페이지 1~18
+PASS  [en] 갱신 카드 수 = 5건(독립 재계산) — 실측 5건
+PASS  [en] 갱신 카드 id 일치 — 실측 ["2026-08-29-idontknowpolitics-martial-law-nk-policy","2026-09-10-freedominnovation-nec-bill","2026-09-28-drumtong119-jinsungjoon-nsl-past","2026-09-30-hagonolza-lee-case-dismissal-two-routes","2026-10-05-issueradar-nsc-cyber-sanctions-clash"] / 기대 ["2026-08-29-idontknowpolitics-martial-law-nk-policy","2026-09-10-freedominnovation-nec-bill","2026-09-28-drumtong119-jinsungjoon-nsl-past","2026-09-30-hagonolza-lee-case-dismissal-two-routes","2026-10-05-issueradar-nsc-cyber-sanctions-clash"]
+PASS  [en] 평문(테두리 0·배경 투명·aria-label 없음)
+PASS  [en] 2026-08-29-idontknowpolitics-martial-law-nk-policy 표시 문자열 — Updated Nov 9
+PASS  [en] 2026-08-29-idontknowpolitics-martial-law-nk-policy sr-only 전체 날짜 — Recently updated: Nov 9, 2026
+PASS  [en] 2026-08-29-idontknowpolitics-martial-law-nk-policy dateTime = 2026-11-09 — 2026-11-09
+PASS  [en] 2026-09-10-freedominnovation-nec-bill 표시 문자열 — Updated Nov 8
+PASS  [en] 2026-09-10-freedominnovation-nec-bill sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [en] 2026-09-10-freedominnovation-nec-bill dateTime = 2026-11-08 — 2026-11-08
+PASS  [en] 2026-09-28-drumtong119-jinsungjoon-nsl-past 표시 문자열 — Updated Nov 8
+PASS  [en] 2026-09-28-drumtong119-jinsungjoon-nsl-past sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [en] 2026-09-28-drumtong119-jinsungjoon-nsl-past dateTime = 2026-11-08 — 2026-11-08
+PASS  [en] 2026-09-30-hagonolza-lee-case-dismissal-two-routes 표시 문자열 — Updated Nov 8
+PASS  [en] 2026-09-30-hagonolza-lee-case-dismissal-two-routes sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [en] 2026-09-30-hagonolza-lee-case-dismissal-two-routes dateTime = 2026-11-08 — 2026-11-08
+PASS  [en] 2026-10-05-issueradar-nsc-cyber-sanctions-clash 표시 문자열 — Updated Nov 8
+PASS  [en] 2026-10-05-issueradar-nsc-cyber-sanctions-clash sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [en] 2026-10-05-issueradar-nsc-cyber-sanctions-clash dateTime = 2026-11-08 — 2026-11-08
+PASS  [en] 갱신 글자 대비 전부 ≥ 4.5 — 7.73,7.73,7.73,7.73,7.73
+PASS  [ko] 홈 피드 카드 ≥ 1 — 12
+PASS  [ko] 태그 내비 존재
+PASS  [ko] 이미지 12개 전부 로드 완료(naturalWidth>0 또는 플레이스홀더 SVG) — []
+PASS  [en] 홈 피드 카드 ≥ 1 — 12
+PASS  [en] 영어 피드 태그 내비 없음(의도된 동작)
+PASS  [en] 이미지 12개 전부 로드 완료(naturalWidth>0 또는 플레이스홀더 SVG) — []
+PASS  [regression] 태그 칩 클릭 → /tag/dmz 이동 — /tag/dmz
+
+합계 209건 · PASS 209 · FAIL 0
