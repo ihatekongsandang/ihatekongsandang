@@ -1,0 +1,10 @@
+PASS  /post/2026-10-02-alaska-lng-vs-dmz-mine-response canonical 상대 경로(대체값 상황 재현) → /post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /post/2026-10-02-alaska-lng-vs-dmz-mine-response X url = origin+경로 → http://127.0.0.1:3027/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 url = origin+경로 → http://127.0.0.1:3027/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /post/2026-10-02-alaska-lng-vs-dmz-mine-response 클립보드 = origin+경로 → http://127.0.0.1:3027/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response canonical 상대 경로(대체값 상황 재현) → /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X url = origin+경로 → http://127.0.0.1:3027/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 url = origin+경로 → http://127.0.0.1:3027/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 클립보드 = origin+경로 → http://127.0.0.1:3027/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+
+합계 8건 · PASS 8 · FAIL 0

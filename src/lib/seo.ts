@@ -1,6 +1,6 @@
 import { SITE, SITE_EN, absoluteUrl } from './config'
 import type { Post } from './content/schema'
-import { homePath, aboutPath, postPath, type Locale } from './i18n'
+import { homePath, aboutPath, postPath, termsPath, type Locale } from './i18n'
 
 /**
  * JSON-LD 타입 선택 — 게시물은 `NewsArticle`이 아니라 `Article`을 쓴다.
@@ -116,6 +116,19 @@ export function aboutJsonLd(locale: Locale = 'ko') {
     '@type': 'AboutPage',
     name: locale === 'en' ? `About ${site.name}` : `${site.name} 소개`,
     url: absoluteUrl(aboutPath(locale)),
+    inLanguage: site.language,
+    isPartOf: { '@type': 'WebSite', name: site.name, url: absoluteUrl(homePath(locale)) },
+  }
+}
+
+/** 이용약관·운영 정책 페이지(프로그래머 11) — 전용 타입이 없어 `WebPage`. `aboutJsonLd`와 같은 수준. */
+export function termsJsonLd(locale: Locale = 'ko') {
+  const site = siteFor(locale)
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: locale === 'en' ? `Terms and Operating Policy — ${site.name}` : `${site.name} 이용약관·운영 정책`,
+    url: absoluteUrl(termsPath(locale)),
     inLanguage: site.language,
     isPartOf: { '@type': 'WebSite', name: site.name, url: absoluteUrl(homePath(locale)) },
   }

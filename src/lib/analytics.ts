@@ -14,6 +14,11 @@ export const GA_EVENTS = {
   selectCard: 'select_card',
   /** 우측 플로팅 배너(외부 링크) 클릭. */
   floatingBannerClick: 'floating_banner_click',
+  /**
+   * 상세 공유 버튼 클릭(프로그래머 11). GA4 추천 이벤트 `share` — 파라미터 이름이 고정이라 `post_id`가 아니라 `item_id`를 쓴다.
+   * `method`: `copy_link` | `x` | `threads`, `content_type`: `post`.
+   */
+  share: 'share',
 } as const
 
 export function isAnalyticsEnabled(): boolean {

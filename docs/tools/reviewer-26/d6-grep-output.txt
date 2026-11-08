@@ -1,0 +1,10 @@
+# 리뷰어 26 — D6 자칭 금지어 grep (src/ 전체 + 신규·수정 파일 diff 추가분)
+기자	src전체=0	diff추가=0
+속보	src전체=0	diff추가=0
+본지	src전체=0	diff추가=0
+편집국	src전체=0	diff추가=0
+바이라인	src전체=0	diff추가=0
+reporter	src전체=0	diff추가=0
+breaking	src전체=0	diff추가=0
+newsroom	src전체=0	diff추가=0
+byline	src전체=0	diff추가=0

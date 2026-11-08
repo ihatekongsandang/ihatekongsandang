@@ -1,0 +1,2 @@
+PRD D1 == SITE.description: True (126자)
+SITE_EN.description 길이: 157 (160 이하: True )

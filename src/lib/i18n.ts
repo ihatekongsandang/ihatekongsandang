@@ -20,6 +20,8 @@ interface Dictionary {
   languageNav: string
   footerPolicy: string
   footerPolicyLink: string
+  /** 푸터의 약관 페이지 링크(프로그래머 11, 시안 04). */
+  footerTermsLink: string
   latestPosts: string
   feedCount: (total: number, page: number, totalPages: number) => string
   noPosts: string
@@ -68,6 +70,17 @@ interface Dictionary {
   koreanOnly: string
   /** 영어 피드 상단 안내(슈퍼바이저 확정 문구). 한국어 페이지에서는 빈 값(표시하지 않음). */
   koreanOnlyFeedNotice: string
+  /** 상세 공유 버튼(프로그래머 11, 시안 01 §4). 보이는 텍스트가 곧 접근성 이름이다(리뷰 25 P3-1 — `aria-label` 없음). */
+  shareHeading: string
+  shareCopyLink: string
+  shareCopied: string
+  shareCopyFailed: string
+  shareCopiedAnnounce: string
+  shareCopyFailedAnnounce: string
+  shareX: string
+  shareThreads: string
+  /** 카드 갱신 표시(5a)의 스크린리더 문구 — 보이는 축약 표기("11/04 갱신") 대신 읽힌다(리뷰 25 P2-2). */
+  renewedSr: (fullDate: string) => string
 }
 
 const ko: Dictionary = {
@@ -79,6 +92,7 @@ const ko: Dictionary = {
   footerPolicy:
     '모든 게시물은 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 정리하며, 원문을 전재하지 않습니다. 제목·요약은 단정하지 않고 보도를 인용하는 형태로 씁니다.',
   footerPolicyLink: '출처·저작권 정책과 정정·삭제 요청 절차',
+  footerTermsLink: '이용약관',
   latestPosts: '최신 게시물',
   feedCount: (total, page, totalPages) => `전체 ${total}건 · ${page} / ${totalPages} 페이지`,
   noPosts: '아직 게시물이 없습니다.',
@@ -123,6 +137,15 @@ const ko: Dictionary = {
   otherLanguageVersion: 'Read in English',
   koreanOnly: '',
   koreanOnlyFeedNotice: '',
+  shareHeading: '공유',
+  shareCopyLink: '링크 복사',
+  shareCopied: '복사됨',
+  shareCopyFailed: '복사 실패',
+  shareCopiedAnnounce: '링크가 복사되었습니다.',
+  shareCopyFailedAnnounce: '복사에 실패했습니다. 주소창에서 직접 복사해 주세요.',
+  shareX: 'X에 공유',
+  shareThreads: '스레드에 공유',
+  renewedSr: (fullDate) => `최근 갱신: ${fullDate}`,
 }
 
 
@@ -135,6 +158,7 @@ const en: Dictionary = {
   footerPolicy:
     'Every post is based on public sources such as news reports, announcements by investigative authorities and court rulings, and does not republish the original. Titles and summaries quote the reports rather than stating conclusions.',
   footerPolicyLink: 'About this site and how to request a correction or removal',
+  footerTermsLink: 'Terms',
   latestPosts: 'Latest posts',
   feedCount: (total, page, totalPages) => `${total} ${total === 1 ? 'post' : 'posts'} · Page ${page} of ${totalPages}`,
   noPosts: 'No posts yet.',
@@ -180,6 +204,15 @@ const en: Dictionary = {
   otherLanguageVersion: '한국어 원문 보기',
   koreanOnly: 'Korean only',
   koreanOnlyFeedNotice: 'Posts marked "Korean only" have not been translated yet and open in Korean.',
+  shareHeading: 'Share',
+  shareCopyLink: 'Copy link',
+  shareCopied: 'Copied',
+  shareCopyFailed: 'Copy failed',
+  shareCopiedAnnounce: 'Link copied.',
+  shareCopyFailedAnnounce: 'Copy failed. Please copy the address manually.',
+  shareX: 'Share on X',
+  shareThreads: 'Share on Threads',
+  renewedSr: (fullDate) => `Recently updated: ${fullDate}`,
 }
 
 export const DICTIONARY: Record<Locale, Dictionary> = { ko, en }
@@ -209,6 +242,11 @@ export function postPath(locale: Locale, id: string): string {
   return `${localePrefix(locale)}/post/${id}`
 }
 
+/** 이용약관·운영 정책 페이지(프로그래머 11, D2). */
+export function termsPath(locale: Locale): string {
+  return `${localePrefix(locale)}/terms`
+}
+
 const EN_MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] as const
 
 /**
@@ -222,6 +260,18 @@ export function formatDate(iso: string, locale: Locale): string {
   const name = EN_MONTHS[Number(month) - 1]
   if (!name) return iso
   return `${name} ${Number(day)}, ${year}`
+}
+
+/**
+ * 카드 갱신 표시(5a)의 보이는 축약 표기 — `2026-11-04` → 한국어 `11/04 갱신` · 영어 `Updated Nov 4`(시안 05 §2.3).
+ * `formatDate`와 같이 문자열만 나눈다(시간대 영향 없음). 표시 여부 판정은 `lib/content/renewal.ts`.
+ */
+export function formatShortUpdated(iso: string, locale: Locale): string {
+  const [, month, day] = iso.split('-')
+  if (!month || !day) return iso
+  if (locale === 'ko') return `${month}/${day} 갱신`
+  const name = EN_MONTHS[Number(month) - 1]
+  return name ? `Updated ${name} ${Number(day)}` : iso
 }
 
 /** 한글(완성형·자모)이 들어 있는가. 영어 페이지에서 한국어 원문 조각에 `lang="ko"`를 달 때 쓴다. */

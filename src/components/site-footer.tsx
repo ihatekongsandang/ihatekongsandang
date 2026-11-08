@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { SITE, SITE_EN } from '@/lib/config'
 import { floatingBannerGutter } from '@/lib/floating-banner'
-import { aboutPath, t, type Locale } from '@/lib/i18n'
+import { aboutPath, t, termsPath, type Locale } from '@/lib/i18n'
 import { cn } from '@/lib/utils'
 
 export function SiteFooter({ locale }: { locale: Locale }) {
@@ -25,6 +25,10 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         <p>
           <Link href={aboutPath(locale)} className="text-link underline underline-offset-2">
             {dict.footerPolicyLink}
+          </Link>
+          <span aria-hidden="true"> · </span>
+          <Link href={termsPath(locale)} className="text-link underline underline-offset-2">
+            {dict.footerTermsLink}
           </Link>
         </p>
       </div>

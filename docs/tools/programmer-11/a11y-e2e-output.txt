@@ -1,0 +1,174 @@
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 위치 = header 바로 뒤 — HEADER
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 3개(button 1·a 2)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response aria-label 없음(P3-1)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 높이 44px — 44,44,44
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 넘침 없음
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 페이지 가로 스크롤 없음
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 대비 ≥ 4.5 — 17.72,17.72,17.72
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response status aria-live=polite·초기 빈 값
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X 엔드포인트·url — http://localhost:3000/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 엔드포인트·url
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 새 창 링크 rel=noopener
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 버튼 이름 = "링크 복사" — 링크 복사
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 X(새 창 안내 포함) — X에 공유 (새 창에서 열림)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 스레드(새 창 안내 포함)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 3회 = 공유 3개 순서 — 링크 복사 → X에 공유 (새 창에서 열림) → 스레드에 공유 (새 창에서 열림)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response :focus-visible 외곽선 2px solid — 2px solid rgb(26, 49, 113) / 2px solid rgb(26, 49, 113) / 2px solid rgb(26, 49, 113)
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 포커스 외곽선 대비 ≥ 3 — 12.2
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → 클립보드 = 페이지 절대 URL — http://localhost:3000/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → 버튼 "복사됨"·AX 이름 동일
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → status "링크가 복사되었습니다." — 링크가 복사되었습니다.
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response GA share 이벤트(copy_link) — {"method":"copy_link","content_type":"post","item_id":"2026-10-02-alaska-lng-vs-dmz-mine-response"}
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 2초 뒤 원상 복귀 — {"btn":"링크 복사","status":""}
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 실패 → "복사 실패"·안내 문구(alert 없음) — {"btn":"복사 실패","status":"복사에 실패했습니다. 주소창에서 직접 복사해 주세요."}
+PASS  [mobile] /post/2026-10-02-alaska-lng-vs-dmz-mine-response GA share 이벤트(x·threads) — x,threads
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 위치 = header 바로 뒤 — HEADER
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 3개(button 1·a 2)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response aria-label 없음(P3-1)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 높이 44px — 44,44,44
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 넘침 없음
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 페이지 가로 스크롤 없음
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 대비 ≥ 4.5 — 17.72,17.72,17.72
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response status aria-live=polite·초기 빈 값
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X 엔드포인트·url — http://localhost:3000/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 엔드포인트·url
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 새 창 링크 rel=noopener
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 버튼 이름 = "Copy link" — Copy link
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 X(새 창 안내 포함) — Share on X (opens in a new tab)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 스레드(새 창 안내 포함)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response Tab 3회 = 공유 3개 순서 — Copy link → Share on X (opens in a new tab) → Share on Threads (opens in a new tab)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response :focus-visible 외곽선 2px solid — 2px solid rgb(26, 49, 113) / 2px solid rgb(26, 49, 113) / 2px solid rgb(26, 49, 113)
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 포커스 외곽선 대비 ≥ 3 — 12.2
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → 클립보드 = 페이지 절대 URL — http://localhost:3000/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → 버튼 "Copied"·AX 이름 동일
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 성공 → status "Link copied." — Link copied.
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response GA share 이벤트(copy_link) — {"method":"copy_link","content_type":"post","item_id":"2026-10-02-alaska-lng-vs-dmz-mine-response","language":"en"}
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 2초 뒤 원상 복귀 — {"btn":"Copy link","status":""}
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 복사 실패 → "Copy failed"·안내 문구(alert 없음) — {"btn":"Copy failed","status":"Copy failed. Please copy the address manually."}
+PASS  [mobile] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response GA share 이벤트(x·threads) — x,threads
+PASS  [mobile] /?page=4 갱신 표시 카드 ≥ 1 — 1개
+PASS  [mobile] /?page=4 평문(테두리 0·배경 투명·aria-label 없음, P2-1·P2-2)
+PASS  [mobile] /?page=4 "·" 구분자 aria-hidden
+PASS  [mobile] /?page=4 sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [mobile] /?page=4 갱신 글자 대비 ≥ 4.5 — 7.73
+PASS  [mobile] /?page=4 AX 트리에 sr 문구 읽힘·축약 표기 안 읽힘
+PASS  [mobile] /en?page=4 갱신 표시 카드 ≥ 1 — 1개
+PASS  [mobile] /en?page=4 평문(테두리 0·배경 투명·aria-label 없음, P2-1·P2-2)
+PASS  [mobile] /en?page=4 "·" 구분자 aria-hidden
+PASS  [mobile] /en?page=4 sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [mobile] /en?page=4 갱신 글자 대비 ≥ 4.5 — 7.73
+PASS  [mobile] /en?page=4 AX 트리에 sr 문구 읽힘·축약 표기 안 읽힘
+PASS  [mobile] /about example.invalid·mailto 0
+PASS  [mobile] /about 준비 중 상자 — 연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.
+PASS  [mobile] /about 상호 링크 → /terms
+PASS  [mobile] /about 푸터 약관 링크
+PASS  [mobile] /about 푸터 링크 대비 ≥ 4.5 — 출처·저작권 정책과 정정·삭제 요청 절차:6.42, 이용약관:6.42
+PASS  [mobile] /about 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /about 가로 스크롤 없음
+PASS  [mobile] /about html lang — ko
+PASS  [mobile] /en/about example.invalid·mailto 0
+PASS  [mobile] /en/about 준비 중 상자 — Contact channel: pending a decision. This page will be updated once it’s finalized.
+PASS  [mobile] /en/about 상호 링크 → /en/terms
+PASS  [mobile] /en/about 푸터 약관 링크
+PASS  [mobile] /en/about 푸터 링크 대비 ≥ 4.5 — About this site and how to request a correction or removal:6.42, Terms:6.42
+PASS  [mobile] /en/about 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /en/about 가로 스크롤 없음
+PASS  [mobile] /en/about html lang — en
+PASS  [mobile] /terms example.invalid·mailto 0
+PASS  [mobile] /terms 준비 중 상자 — 연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.
+PASS  [mobile] /terms 상호 링크 → /about
+PASS  [mobile] /terms 푸터 약관 링크
+PASS  [mobile] /terms 푸터 링크 대비 ≥ 4.5 — 출처·저작권 정책과 정정·삭제 요청 절차:6.42, 이용약관:6.42
+PASS  [mobile] /terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /terms 가로 스크롤 없음
+PASS  [mobile] /terms html lang — ko
+PASS  [mobile] /terms h2 6개 — 운영 목적 / 직접 취재하지 않음 / 출처 원칙 / 정정·삭제 요청 방법과 처리 기준 / 익명 운영과 연락 경로 / 게시물 성격
+PASS  [mobile] /en/terms example.invalid·mailto 0
+PASS  [mobile] /en/terms 준비 중 상자 — Contact channel: pending a decision. This page will be updated once it’s finalized.
+PASS  [mobile] /en/terms 상호 링크 → /en/about
+PASS  [mobile] /en/terms 푸터 약관 링크
+PASS  [mobile] /en/terms 푸터 링크 대비 ≥ 4.5 — About this site and how to request a correction or removal:6.42, Terms:6.42
+PASS  [mobile] /en/terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [mobile] /en/terms 가로 스크롤 없음
+PASS  [mobile] /en/terms html lang — en
+PASS  [mobile] /en/terms h2 6개 — What this site does / We do not do our own reporting / Sourcing principles / How to request a correction or removal, and how we handle it / Anonymous operation and contact / What kind of content this is
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 위치 = header 바로 뒤 — HEADER
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 3개(button 1·a 2)
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response aria-label 없음(P3-1)
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 높이 44px — 44,44,44
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 넘침 없음
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 페이지 가로 스크롤 없음
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 대비 ≥ 4.5 — 17.72,17.72,17.72
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response status aria-live=polite·초기 빈 값
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response X 엔드포인트·url — http://localhost:3000/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 엔드포인트·url
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response 새 창 링크 rel=noopener
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 버튼 이름 = "링크 복사" — 링크 복사
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 X(새 창 안내 포함) — X에 공유 (새 창에서 열림)
+PASS  [desktop] /post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 스레드(새 창 안내 포함)
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 공유 section 존재
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 위치 = header 바로 뒤 — HEADER
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 3개(button 1·a 2)
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response aria-label 없음(P3-1)
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 높이 44px — 44,44,44
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 넘침 없음
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 페이지 가로 스크롤 없음
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 버튼 글자 대비 ≥ 4.5 — 17.72,17.72,17.72
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response status aria-live=polite·초기 빈 값
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response X 엔드포인트·url — http://localhost:3000/en/post/2026-10-02-alaska-lng-vs-dmz-mine-response
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 스레드 엔드포인트·url
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response 새 창 링크 rel=noopener
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 버튼 이름 = "Copy link" — Copy link
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 X(새 창 안내 포함) — Share on X (opens in a new tab)
+PASS  [desktop] /en/post/2026-10-02-alaska-lng-vs-dmz-mine-response AX 링크 이름 스레드(새 창 안내 포함)
+PASS  [desktop] /?page=4 갱신 표시 카드 ≥ 1 — 1개
+PASS  [desktop] /?page=4 평문(테두리 0·배경 투명·aria-label 없음, P2-1·P2-2)
+PASS  [desktop] /?page=4 "·" 구분자 aria-hidden
+PASS  [desktop] /?page=4 sr-only 전체 날짜 — 최근 갱신: 2026년 11월 8일
+PASS  [desktop] /?page=4 갱신 글자 대비 ≥ 4.5 — 7.73
+PASS  [desktop] /?page=4 AX 트리에 sr 문구 읽힘·축약 표기 안 읽힘
+PASS  [desktop] /en?page=4 갱신 표시 카드 ≥ 1 — 1개
+PASS  [desktop] /en?page=4 평문(테두리 0·배경 투명·aria-label 없음, P2-1·P2-2)
+PASS  [desktop] /en?page=4 "·" 구분자 aria-hidden
+PASS  [desktop] /en?page=4 sr-only 전체 날짜 — Recently updated: Nov 8, 2026
+PASS  [desktop] /en?page=4 갱신 글자 대비 ≥ 4.5 — 7.73
+PASS  [desktop] /en?page=4 AX 트리에 sr 문구 읽힘·축약 표기 안 읽힘
+PASS  [desktop] /about example.invalid·mailto 0
+PASS  [desktop] /about 준비 중 상자 — 연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.
+PASS  [desktop] /about 상호 링크 → /terms
+PASS  [desktop] /about 푸터 약관 링크
+PASS  [desktop] /about 푸터 링크 대비 ≥ 4.5 — 출처·저작권 정책과 정정·삭제 요청 절차:6.42, 이용약관:6.42
+PASS  [desktop] /about 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /about 가로 스크롤 없음
+PASS  [desktop] /about html lang — ko
+PASS  [desktop] /en/about example.invalid·mailto 0
+PASS  [desktop] /en/about 준비 중 상자 — Contact channel: pending a decision. This page will be updated once it’s finalized.
+PASS  [desktop] /en/about 상호 링크 → /en/terms
+PASS  [desktop] /en/about 푸터 약관 링크
+PASS  [desktop] /en/about 푸터 링크 대비 ≥ 4.5 — About this site and how to request a correction or removal:6.42, Terms:6.42
+PASS  [desktop] /en/about 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /en/about 가로 스크롤 없음
+PASS  [desktop] /en/about html lang — en
+PASS  [desktop] /terms example.invalid·mailto 0
+PASS  [desktop] /terms 준비 중 상자 — 연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.
+PASS  [desktop] /terms 상호 링크 → /about
+PASS  [desktop] /terms 푸터 약관 링크
+PASS  [desktop] /terms 푸터 링크 대비 ≥ 4.5 — 출처·저작권 정책과 정정·삭제 요청 절차:6.42, 이용약관:6.42
+PASS  [desktop] /terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /terms 가로 스크롤 없음
+PASS  [desktop] /terms html lang — ko
+PASS  [desktop] /terms h2 6개 — 운영 목적 / 직접 취재하지 않음 / 출처 원칙 / 정정·삭제 요청 방법과 처리 기준 / 익명 운영과 연락 경로 / 게시물 성격
+PASS  [desktop] /en/terms example.invalid·mailto 0
+PASS  [desktop] /en/terms 준비 중 상자 — Contact channel: pending a decision. This page will be updated once it’s finalized.
+PASS  [desktop] /en/terms 상호 링크 → /en/about
+PASS  [desktop] /en/terms 푸터 약관 링크
+PASS  [desktop] /en/terms 푸터 링크 대비 ≥ 4.5 — About this site and how to request a correction or removal:6.42, Terms:6.42
+PASS  [desktop] /en/terms 본문 글자 대비 4.5 미만 0 — []
+PASS  [desktop] /en/terms 가로 스크롤 없음
+PASS  [desktop] /en/terms html lang — en
+PASS  [desktop] /en/terms h2 6개 — What this site does / We do not do our own reporting / Sourcing principles / How to request a correction or removal, and how we handle it / Anonymous operation and contact / What kind of content this is
+
+합계 172건 · PASS 172 · FAIL 0

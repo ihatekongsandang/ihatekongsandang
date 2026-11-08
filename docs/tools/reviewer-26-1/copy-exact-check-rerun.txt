@@ -1,0 +1,13 @@
+PASS  P2-1 /about 운영 방식 문장 일치
+PASS  P2-2 /about 출처 정책 문장 일치
+PASS  P2-4 /en/about 헤더 문단 = 기획자 10 aboutIntro 전문
+PASS  SITE_EN.description 불변 = 기획자 10 description 전문 (157자)
+PASS  옛 문구 0: /about "방문자에게서 개인정보를 수집하지 않습니다…"
+PASS  옛 문구 0: /en/about "방문자에게서 개인정보를 수집하지 않습니다…"
+PASS  옛 문구 0: /about "등록된 신문·인터넷신문, 뉴스통신사, 방송사…"
+PASS  옛 문구 0: /en/about "등록된 신문·인터넷신문, 뉴스통신사, 방송사…"
+PASS  옛 문구 0: /about "We do not state how far …"
+PASS  옛 문구 0: /en/about "We do not state how far …"
+PASS  /en/about 개인정보 언급 없음(personal|privacy)
+PASS  /en/about 매체 나열(news agenc|broadcast) 없음
+FAIL 0

@@ -1,0 +1,16 @@
+PASS  기획자 10 트리거 aboutIntro = planning §4 aboutIntro
+PASS  기획자 10 트리거 description = planning §4 description
+PASS  기획자 10 aboutIntro 셋째 문장 = 리뷰 26 §5.1 수정 문구 안
+PASS  P2-1 소스 `<li>` = 리뷰 26 §6 수정 문구(완전 일치)
+PASS  P2-2 소스 `<li>` = 리뷰 26 §6 수정 문구(완전 일치)
+PASS  옛 문구 0 (소스 about ko): 방문자에게서 개인정보를 수집하지
+PASS  옛 문구 0 (소스 about ko): 등록된 신문·인터넷신문, 뉴스통신사, 방송사업자를
+PASS  P2-4 SITE_EN.aboutIntro 소스 = 기획자 10 최종 문구(완전 일치)
+PASS  SITE_EN.description 소스 = 기획자 10 description (157자)
+PASS  옛 문구 0 (config.ts): We do not state
+PASS  빌드 HTML 상세 페이지 수 412 (실측 412)
+PASS  ko X text 없는 href 0 (실측 0)
+PASS  en X text 없는 href 목록 = share-check url만 목록 (24 / 24)
+PASS  X text = h1 제목 그대로 388 (실측 388)
+PASS  스레드 text = h1 제목·url = X url 412 (실측 412)
+FAIL 0

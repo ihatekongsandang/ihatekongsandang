@@ -1,0 +1,76 @@
+검사 제목: ko 206 · en 206 · 합계 412
+X: 최대 가중치(자른 뒤, 공백·URL 포함) 278 / 280
+잘린 제목: ko 0 · en 24 (리뷰 25 영어 초과 24건과 일치 ✅)
+스레드: 최대 길이(text+공백+url, 코드 포인트) 404 / 500
+  286→24	2026-07-28-jeichi-amendment-term-claim	
+  285→24	2026-08-06-owloffreedom-kimhyuntae-sentencing	
+  282→24	2026-09-12-peoplepower7-kimminwoong-dp-card	
+  313→24	2026-09-17-rekor-light-committee-disclosure	
+  300→24	2026-09-24-sewodream-nk-agent-private-detective	
+  317→24	2026-09-26-ccpoutkorea-ocsc-overseas-police	
+  313→24	2026-09-30-hagonolza-lee-case-dismissal-two-routes	
+  285→24	2026-09-30-monarch-morsetan-church-claims	
+  331→24	2026-09-30-toktok-lee-classified-doc-sns	
+  290→24	2026-10-01-rekor-15div-mine-field	
+  350→24	2026-10-02-alaska-lng-vs-dmz-mine-response	
+  306→24	2026-10-03-oct3-gwanghwamun-rally-scale	
+  324→24	2026-10-05-issueradar-nsc-cyber-sanctions-clash	
+  316→24	2026-10-05-jeichi-front-corps-unloaded-guard	
+  294→24	2026-10-05-shindawit-mdl-south-minefields-20m	
+  315→24	2026-10-05-wendmag-cio-investigation-scope	
+  337→24	2026-10-07-geonwoovibes-defector-repatriation-claim	
+  312→24	2026-10-07-gotdemcatch-kimminseok-chief-justice-resign	
+  287→24	2026-10-07-rinha-chosun-column-chongryon-visit	
+  347→24	2026-10-07-swingmag-fake-police-protest-sentence	
+  296→24	2026-10-08-peoplepower7-ukraine-korea-oil-claim	
+  289→24	2026-10-08-shindawit-nis-chief-nga-visit-report	
+  301→24	2026-10-08-shindawit-us-nis-cyber-group-excluded	
+  283→24	2026-10-10-ribonpig-gyeonggi-childcare-budget	
+FAIL 말줄임 없음: 2026-07-28-jeichi-amendment-term-claim
+FAIL X 인코딩 왕복: 2026-07-28-jeichi-amendment-term-claim
+FAIL 말줄임 없음: 2026-08-06-owloffreedom-kimhyuntae-sentencing
+FAIL X 인코딩 왕복: 2026-08-06-owloffreedom-kimhyuntae-sentencing
+FAIL 말줄임 없음: 2026-09-12-peoplepower7-kimminwoong-dp-card
+FAIL X 인코딩 왕복: 2026-09-12-peoplepower7-kimminwoong-dp-card
+FAIL 말줄임 없음: 2026-09-17-rekor-light-committee-disclosure
+FAIL X 인코딩 왕복: 2026-09-17-rekor-light-committee-disclosure
+FAIL 말줄임 없음: 2026-09-24-sewodream-nk-agent-private-detective
+FAIL X 인코딩 왕복: 2026-09-24-sewodream-nk-agent-private-detective
+FAIL 말줄임 없음: 2026-09-26-ccpoutkorea-ocsc-overseas-police
+FAIL X 인코딩 왕복: 2026-09-26-ccpoutkorea-ocsc-overseas-police
+FAIL 말줄임 없음: 2026-09-30-hagonolza-lee-case-dismissal-two-routes
+FAIL X 인코딩 왕복: 2026-09-30-hagonolza-lee-case-dismissal-two-routes
+FAIL 말줄임 없음: 2026-09-30-monarch-morsetan-church-claims
+FAIL X 인코딩 왕복: 2026-09-30-monarch-morsetan-church-claims
+FAIL 말줄임 없음: 2026-09-30-toktok-lee-classified-doc-sns
+FAIL X 인코딩 왕복: 2026-09-30-toktok-lee-classified-doc-sns
+FAIL 말줄임 없음: 2026-10-01-rekor-15div-mine-field
+FAIL X 인코딩 왕복: 2026-10-01-rekor-15div-mine-field
+FAIL 말줄임 없음: 2026-10-02-alaska-lng-vs-dmz-mine-response
+FAIL X 인코딩 왕복: 2026-10-02-alaska-lng-vs-dmz-mine-response
+FAIL 말줄임 없음: 2026-10-03-oct3-gwanghwamun-rally-scale
+FAIL X 인코딩 왕복: 2026-10-03-oct3-gwanghwamun-rally-scale
+FAIL 말줄임 없음: 2026-10-05-issueradar-nsc-cyber-sanctions-clash
+FAIL X 인코딩 왕복: 2026-10-05-issueradar-nsc-cyber-sanctions-clash
+FAIL 말줄임 없음: 2026-10-05-jeichi-front-corps-unloaded-guard
+FAIL X 인코딩 왕복: 2026-10-05-jeichi-front-corps-unloaded-guard
+FAIL 말줄임 없음: 2026-10-05-shindawit-mdl-south-minefields-20m
+FAIL X 인코딩 왕복: 2026-10-05-shindawit-mdl-south-minefields-20m
+FAIL 말줄임 없음: 2026-10-05-wendmag-cio-investigation-scope
+FAIL X 인코딩 왕복: 2026-10-05-wendmag-cio-investigation-scope
+FAIL 말줄임 없음: 2026-10-07-geonwoovibes-defector-repatriation-claim
+FAIL X 인코딩 왕복: 2026-10-07-geonwoovibes-defector-repatriation-claim
+FAIL 말줄임 없음: 2026-10-07-gotdemcatch-kimminseok-chief-justice-resign
+FAIL X 인코딩 왕복: 2026-10-07-gotdemcatch-kimminseok-chief-justice-resign
+FAIL 말줄임 없음: 2026-10-07-rinha-chosun-column-chongryon-visit
+FAIL X 인코딩 왕복: 2026-10-07-rinha-chosun-column-chongryon-visit
+FAIL 말줄임 없음: 2026-10-07-swingmag-fake-police-protest-sentence
+FAIL X 인코딩 왕복: 2026-10-07-swingmag-fake-police-protest-sentence
+FAIL 말줄임 없음: 2026-10-08-peoplepower7-ukraine-korea-oil-claim
+FAIL X 인코딩 왕복: 2026-10-08-peoplepower7-ukraine-korea-oil-claim
+FAIL 말줄임 없음: 2026-10-08-shindawit-nis-chief-nga-visit-report
+FAIL X 인코딩 왕복: 2026-10-08-shindawit-nis-chief-nga-visit-report
+FAIL 말줄임 없음: 2026-10-08-shindawit-us-nis-cyber-group-excluded
+FAIL X 인코딩 왕복: 2026-10-08-shindawit-us-nis-cyber-group-excluded
+FAIL 말줄임 없음: 2026-10-10-ribonpig-gyeonggi-childcare-budget
+FAIL X 인코딩 왕복: 2026-10-10-ribonpig-gyeonggi-childcare-budget

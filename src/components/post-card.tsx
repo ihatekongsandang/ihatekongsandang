@@ -6,7 +6,7 @@ import { Card, CardContent, CardFooter, CardTitle } from '@/components/ui/card'
 import { CardMedia } from '@/components/card-media'
 import { GA_EVENTS, trackEvent } from '@/lib/analytics'
 import type { PostCardView } from '@/lib/content/view'
-import { formatDate, postPath, t, type Locale } from '@/lib/i18n'
+import { formatDate, formatShortUpdated, postPath, t, type Locale } from '@/lib/i18n'
 
 interface PostCardProps {
   post: PostCardView
@@ -28,6 +28,10 @@ interface PostCardProps {
  * 그 표시는 링크의 접근성 설명(`aria-describedby`)으로 연결한다(프로그래머 07, 리뷰 12 P2-1) — 링크 단위로 이동해도
  * "한국어 페이지로 간다"가 들리게. 표시 문구는 영어라 `lang="ko"` 링크 안에 넣지 않고 링크 밖에 둔다(탭 정지점도 1개 유지).
  * id는 게시물 id(`[a-z0-9-]`, 스키마 검증)로 만든다 — 한 피드 페이지에 같은 게시물은 한 번만 나온다.
+ *
+ * 갱신 표시(사용자 결정 5a, 프로그래머 11): `post.updatedAt`이 있으면(=빌드 시점 기준 갱신 후 7일 이내, `toCardView`에서 판정)
+ * 유형 라벨 뒤에 "·" + "11/04 갱신"을 **평문**으로 붙인다 — `Badge`를 쓰지 않는다(리뷰 25 P2-1, scope 2.4-1 "배지·아이콘 아님").
+ * 보이는 축약 표기는 `aria-hidden`, 스크린리더에는 sr-only로 전체 날짜를 읽힌다(리뷰 25 P2-2 — generic `span`에 `aria-label` 금지).
  */
 export function PostCard({ post, position, priority = false, locale = 'ko' }: PostCardProps) {
   const ref = useRef<HTMLDivElement | null>(null)
@@ -84,6 +88,17 @@ export function PostCard({ post, position, priority = false, locale = 'ko' }: Po
         <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, locale)}</time>
         <span aria-hidden="true">·</span>
         <span>{dict.sourceTypes[post.sourceType]}</span>
+        {post.updatedAt ? (
+          <>
+            <span aria-hidden="true">·</span>
+            <span>
+              <time dateTime={post.updatedAt} aria-hidden="true">
+                {formatShortUpdated(post.updatedAt, locale)}
+              </time>
+              <span className="sr-only">{dict.renewedSr(formatDate(post.updatedAt, locale))}</span>
+            </span>
+          </>
+        ) : null}
         {koreanOnly ? (
           <span id={koreanOnlyId} className="ml-auto shrink-0 rounded-sm border px-1.5 py-0.5 leading-none">
             {dict.koreanOnly}

@@ -1,4 +1,5 @@
 import { postPath, type Locale } from '../i18n'
+import { isRecentlyUpdated, seoulDate } from './renewal'
 import { resolveCardMedia, type CardMedia, type Post, type SourceType } from './schema'
 
 /** 카드가 실제로 쓰는 필드만 골라낸다 — 클라이언트 컴포넌트로 넘기는 데이터를 최소화한다. */
@@ -13,13 +14,22 @@ export interface PostCardView {
    * 카드는 한국어 상세로 링크하며 "Korean only"를 표시한다. 한국어 피드에서는 항상 없다(카드 데이터 불변).
    */
   koreanOnly?: true
+  /** 내용을 고친 날(`YYYY-MM-DD`). 갱신 표시(5a)가 켜진 카드에만 싣는다(리뷰 25 P3-6 — 카드 데이터 최소화). */
+  updatedAt?: string
 }
 
 /**
  * `translated`는 영어 피드에서만 의미가 있다 — `false`면 한국어 원본 카드(`koreanOnly`)로 만든다.
+ * `today`(Asia/Seoul 날짜)는 갱신 표시 판정 기준이다. 기본값은 이 함수가 실행되는 순간 = 정적 생성(빌드) 시점(오더 11 A안).
  */
-export function toCardView(post: Post, locale: Locale = 'ko', translated = true): PostCardView {
+export function toCardView(
+  post: Post,
+  locale: Locale = 'ko',
+  translated = true,
+  today: string = seoulDate(new Date()),
+): PostCardView {
   const koreanOnly = locale === 'en' && !translated
+  const renewed = isRecentlyUpdated(post.updatedAt, today)
   return {
     id: post.id,
     title: post.title,
@@ -28,6 +38,7 @@ export function toCardView(post: Post, locale: Locale = 'ko', translated = true)
     // 영어본 없는 글의 원문 썸네일 alt도 한국어 원본 제목으로 만든다(제목과 같은 언어).
     media: resolveCardMedia(post, koreanOnly ? 'ko' : locale),
     ...(koreanOnly ? { koreanOnly: true as const } : {}),
+    ...(renewed && post.updatedAt ? { updatedAt: post.updatedAt } : {}),
   }
 }
 

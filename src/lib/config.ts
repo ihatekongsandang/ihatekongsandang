@@ -8,8 +8,12 @@ export const SITE = {
    * 정책 비판·정치인 발언·논평·안보·간첩 의혹을 모두 포함한다.
    */
   tagline: '정치·시사 이슈를 출처와 원문 링크로 정리하는 카드형 소식지',
+  /**
+   * 소개 문구 — PRD v0.7 §1 "소개 문구"(D1 안 3, 2026-11-08 사용자 확정) 전문. 의역·축약하지 않는다(126자, 160자 이하).
+   * `/about` 헤더 문단·meta description·OG·WebSite JSON-LD·피드 머리 문단이 모두 이 값을 쓴다(프로그래머 11).
+   */
   description:
-    '정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 카드로 정리합니다. 원문을 전재하지 않고 요약과 출처 링크로 전달합니다.',
+    '여러 언론 보도를 모아 정리하는 카드형 뉴스 소식지입니다. 직접 취재하지 않고, 언론 보도(신문법 등에 따라 등록된 매체)·수사기관 발표·판결을 출처로 밝혀 정리합니다. 사실 확인 단계는 단정하지 않고 보도 그대로 인용합니다.',
   locale: 'ko_KR',
   language: 'ko',
   /**
@@ -17,8 +21,12 @@ export const SITE = {
    * 띄어 쓴 표기로 검색하는 경우와 슬러그(도메인·레포 이름)를 같은 사이트로 묶는다.
    */
   alternateName: ['공산당이 싫어요', 'ihatekongsandang'],
-  /** 정정·삭제·이미지 제거 요청 채널. 사용자 확정 전 플레이스홀더. */
-  contactEmail: 'contact@example.invalid',
+  /**
+   * 정정·삭제·이미지 제거 요청 채널. 사용자가 아직 정하지 않았다(2026-11-08 사용자 결정 4c: "연락 창구 준비 중" 표시).
+   * `null`이면 `/about`·`/terms`(ko/en)가 "연락 창구 준비 중" 상자를 그린다. 실제 주소를 임의로 채우지 않는다 —
+   * 사용자가 정한 값으로만 바꾼다(프로그래머 11, 종전 `.invalid` 예약 도메인 플레이스홀더는 메일이 전달되지 않아 제거).
+   */
+  contactEmail: null as string | null,
 } as const
 
 /** 영어 사이트명의 괄호 영문 부제(괄호 제외). 슈퍼바이저 확정값(프로그래머 05 오더 §5). */
@@ -34,8 +42,19 @@ export const SITE_EN = {
   nameKo: SITE.name,
   subtitle: `(${EN_SUBTITLE})`,
   tagline: 'Korean politics and security issues, summarized with sources and links to the originals',
+  /**
+   * meta description·OG·WebSite JSON-LD·영어 피드 머리 문단용 한 줄(160자 이하). D1 영어 전문(`aboutIntro`)을 같은 취지로 줄였다.
+   * 프로그래머 11 번역 — 의미 동등성은 리뷰어 게이트(오더 11 슈퍼바이저 판단 3).
+   */
   description:
-    "A card-style digest of Korean politics and security issues — policy criticism, politicians' remarks, commentary and national security — based on news reports, official announcements and court records. Each card summarizes the original post and links to its sources instead of republishing it.",
+    'A card-style news digest that gathers reports from multiple news outlets. We do no reporting of our own and cite reports, official announcements and rulings.',
+  /**
+   * `/en/about` 헤더 문단 — D1(PRD v0.7 §1 안 3) 한국어 전문의 영어 번역(프로그래머 11). 시안 03 §1.2에는 위치만 있고
+   * 영어 문구가 없어(리뷰 25 §2 2.1-2) 한국어 확정문을 직접 옮겼다. "registered"는 출처 매체에만 걸리게 괄호로 분리했다(scope 2.1-4).
+   * 프로그래머 11-1: 셋째 문장을 리뷰 26 P2-4 수정 문구로 교체(기획자 10 재확인 최종 문구, "단정하지 않고" 의미 동등).
+   */
+  aboutIntro:
+    "A card-style news digest that gathers and organizes reporting from multiple news outlets. We do not do our own reporting; we organize each story with its sources named: news reports (from outlets registered under Korea's Act on the Promotion of Newspapers and related laws), announcements by investigative authorities, and court rulings. We do not make definitive claims about how far the facts have been established; we quote the reports as they are.",
   locale: 'en_US',
   language: 'en',
   /**

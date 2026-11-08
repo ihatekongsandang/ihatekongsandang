@@ -5,6 +5,7 @@ import { ExternalLink } from '@/components/external-link'
 import { Gallery } from '@/components/gallery'
 import { JsonLd } from '@/components/json-ld'
 import { MixedLangText } from '@/components/mixed-lang-text'
+import { ShareButtons } from '@/components/share-buttons'
 import { SourceList } from '@/components/source-list'
 import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/button'
@@ -31,6 +32,8 @@ interface PostDetailProps {
  *  - 출처 기사 제목·원문 인용(OG 제목·요약)·발언자 이름은 한국어 그대로 두고 `lang="ko"`
  *  - 출처 표기·발언자 소속은 영어본에 영어 표기가 있으면 그것을 쓰고(05-1), 괄호 안 한국어 병기만 `lang="ko"`
  *  - 태그 칩은 표시하지 않는다(한국어 태그 페이지로 보내지 않기 위해)
+ *
+ * 공유 버튼(프로그래머 11, 시안 01 §1): 헤더 바로 뒤·원문 미리보기/사진 앞에 한 곳만 둔다. 공유 URL은 지금 페이지 언어의 상세 주소다.
  */
 export function PostDetail({ post, body, locale, otherLanguageHref, translatedAt }: PostDetailProps) {
   const dict = t(locale)
@@ -148,6 +151,8 @@ export function PostDetail({ post, body, locale, otherLanguageHref, translatedAt
           </Link>
         </p>
       </header>
+
+      <ShareButtons id={post.id} title={post.title} locale={locale} />
 
       {isUrlPost ? (
         <section aria-labelledby="source-preview-heading" className="space-y-4">

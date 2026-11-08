@@ -9,6 +9,8 @@ import { postPath } from '@/lib/i18n'
  * 페이지네이션 경로(`/page/n`, `/tag/{slug}/page/n`, `/en/page/n`)는 넣지 않는다. 그 주소는 미들웨어의
  * rewrite 대상일 뿐이고 공개 URL은 `?page=n`이며, 2페이지 이후는 1페이지에서 링크로 도달할 수 있다.
  *
+ * 이용약관(프로그래머 11): `/terms`·`/en/terms`를 짝으로 넣는다.
+ *
  * 영어 페이지(프로그래머 05): `/en`·`/en/about`·`/en/post/{id}`(영어본 있는 것만)를 넣고, 짝이 있는
  * 한국어·영어 항목 모두에 `xhtml:link` 대체 언어(ko·en·x-default=ko)를 단다 — 페이지의 hreflang과 같은 값.
  *
@@ -43,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
       ...languages('/about', '/en/about'),
     },
+    {
+      url: absoluteUrl('/terms'),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+      ...languages('/terms', '/en/terms'),
+    },
     // 전체 태그 허브(프로그래머 08). 피드 칩은 상위 몇 개뿐이라 나머지 태그 페이지로 가는 내부 링크는 여기에 모인다.
     // 영어 짝이 없어 대체 언어를 달지 않는다.
     {
@@ -76,6 +84,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly',
       priority: 0.2,
       ...languages('/about', '/en/about'),
+    },
+    {
+      url: absoluteUrl('/en/terms'),
+      changeFrequency: 'yearly',
+      priority: 0.2,
+      ...languages('/terms', '/en/terms'),
     },
     ...englishPosts.map((post) => {
       const translatedAt = translations.get(post.id)?.translatedAt

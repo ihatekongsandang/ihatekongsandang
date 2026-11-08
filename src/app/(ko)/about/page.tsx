@@ -2,32 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { JsonLd } from '@/components/json-ld'
 import { PageFrame } from '@/components/page-frame'
+import { ContactPendingNotice, PageSection as Section } from '@/components/page-section'
 import { SITE } from '@/lib/config'
+import { termsPath } from '@/lib/i18n'
 import { aboutJsonLd, languageAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: '소개',
   description: `${SITE.name}의 운영 방식, 출처 정책, 표기 원칙, 정정·삭제 요청 절차를 안내합니다.`,
   alternates: { canonical: '/about', languages: languageAlternates('/about', '/en/about') },
-}
-
-function Section({
-  id,
-  title,
-  children,
-}: {
-  id: string
-  title: string
-  children: React.ReactNode
-}) {
-  return (
-    <section aria-labelledby={id} className="space-y-3">
-      <h2 id={id} className="text-lg font-semibold tracking-tight">
-        {title}
-      </h2>
-      {children}
-    </section>
-  )
 }
 
 export default function AboutPage() {
@@ -49,8 +32,8 @@ export default function AboutPage() {
               정책 비판·정치인 발언·논평·안보 현안 등 정치·시사 이슈를 공개된 보도와 자료에서 골라 카드로 정리합니다.
             </li>
             <li>
-              열람에는 로그인이 필요하지 않고, 회원 가입·댓글·후원 기능이 없습니다. 방문자에게서 개인정보를 수집하지
-              않습니다.
+              열람에는 로그인이 필요하지 않고, 회원 가입·댓글·후원 기능이 없습니다. 가입·결제 등을 위해 별도로
+              개인정보를 받지는 않지만, 방문 통계는 GA4로 집계됩니다.
             </li>
           </ul>
         </Section>
@@ -62,8 +45,9 @@ export default function AboutPage() {
               언론사 보도, 수사기관(검찰·경찰·국가정보원 등)의 공식 발표·보도자료, 공개된 법원 판결문입니다.
             </li>
             <li>
-              언론사는 「신문 등의 진흥에 관한 법률」에 따라 등록된 신문·인터넷신문, 뉴스통신사, 방송사업자를
-              기준으로 봅니다. 미등록 매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다.
+              언론사는 「신문 등의 진흥에 관한 법률」에 따라 등록된 신문·인터넷신문을 기준으로 보고, 뉴스통신사는
+              「뉴스통신 진흥에 관한 법률」, 방송사업자는 「방송법」의 사업자를 기준으로 봅니다. 미등록 매체·1인
+              미디어·유튜브는 단독 근거로 쓰지 않습니다.
             </li>
             <li>
               발언·게시물을 소개할 때는 원문 링크를 함께 두고, 그 내용을 뒷받침하거나 배경이 되는 보도를{' '}
@@ -109,16 +93,16 @@ export default function AboutPage() {
           <p className="text-sm">
             사실과 다른 내용, 원문 이미지 사용 중단, 게시물 삭제 요청은 아래로 알려주세요.
           </p>
-          <p className="rounded-[var(--radius-card)] border bg-surface p-4 text-sm">
-            이메일{' '}
-            <a href={`mailto:${SITE.contactEmail}`} className="text-link underline underline-offset-2">
-              {SITE.contactEmail}
-            </a>
-            <br />
-            <span className="text-xs text-muted-foreground">
-              ※ 연락 채널은 확정 전 임시 주소입니다. 확정되면 이 페이지를 갱신합니다.
-            </span>
-          </p>
+          {SITE.contactEmail ? (
+            <p className="rounded-[var(--radius-card)] border bg-surface p-4 text-sm">
+              이메일{' '}
+              <a href={`mailto:${SITE.contactEmail}`} className="text-link underline underline-offset-2">
+                {SITE.contactEmail}
+              </a>
+            </p>
+          ) : (
+            <ContactPendingNotice>연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.</ContactPendingNotice>
+          )}
           <ul className="space-y-2 text-sm">
             <li>접수 후 3영업일 이내에 1차 답변을 드립니다(법정 기한이 아닌 자체 기준입니다).</li>
             <li>
@@ -126,6 +110,13 @@ export default function AboutPage() {
               대체 이미지로 바꿉니다.
             </li>
           </ul>
+          <p className="text-sm">
+            처리 기준과 운영 원칙 전문은{' '}
+            <Link href={termsPath('ko')} className="text-link underline underline-offset-2">
+              이용약관·운영 정책
+            </Link>
+            에서 볼 수 있습니다.
+          </p>
         </Section>
 
         <p className="border-t pt-6 text-sm">
