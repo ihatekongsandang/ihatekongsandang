@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>시안 — 카드 "갱신" 표시(5a, 7일)</title>
+<style>
+  :root {
+    --background: #ffffff;
+    --foreground: #18181b;
+    --surface: #fafafa;
+    --surface-strong: #f4f4f5;
+    --muted-foreground: #52525b;
+    --border: #e4e4e7;
+    --ring: #1d4ed8;
+    --radius-card: 0.625rem;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #e9e9ec;
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+    padding: 24px;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .lead { color: var(--muted-foreground); font-size: 13px; margin: 0 0 28px; max-width: 760px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+
+  .card-wrap .frame-label { font-size: 12px; font-weight: 700; color: var(--muted-foreground); margin-bottom: 8px; }
+
+  .card {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .media {
+    aspect-ratio: 16/9; width: 100%;
+    background: var(--surface-strong);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted-foreground); font-size: 12px;
+  }
+  .content { padding: 12px 14px 0; }
+  .card-title { font-size: 14px; font-weight: 600; line-height: 1.4; margin: 0 0 10px; }
+  .footer {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    padding: 0 14px 12px; font-size: 11.5px; color: var(--muted-foreground);
+  }
+  .footer .sep { opacity: .6; }
+  .badge {
+    display: inline-flex; align-items: center; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface-strong);
+    padding: 1px 8px; font-size: 11px; font-weight: 500; color: var(--foreground);
+    white-space: nowrap;
+  }
+  .ml-auto { margin-left: auto; }
+
+  .note {
+    max-width: 780px; font-size: 12.5px; color: var(--muted-foreground);
+    border-left: 3px solid var(--border); padding-left: 12px; margin: 24px 0;
+  }
+  .sr-demo {
+    font-size: 11px; color: #9333ea; background: #faf5ff; border: 1px dashed #d8b4fe;
+    border-radius: 6px; padding: 6px 10px; margin-top: 8px; display: block;
+  }
+</style>
+</head>
+<body>
+  <h1>카드 "갱신" 표시 시안 — 5a(7일)</h1>
+  <p class="lead">
+    기존 <code>Badge</code> 컴포넌트를 그대로 재사용한다(새 색·새 variant 없음). 배지는 <code>CardFooter</code>의 날짜·유형 라벨 줄에 이어 붙이고,
+    이미지·제목 영역은 건드리지 않는다. 아래 4가지 상태를 비교한다.
+  </p>
+
+  <div class="grid">
+    <div class="card-wrap">
+      <div class="frame-label">① 갱신 없음 (기준)</div>
+      <div class="card">
+        <div class="media">대표 이미지</div>
+        <div class="content">
+          <p class="card-title">○○ 사건 — "…"라는 의혹이 제기됨</p>
+        </div>
+        <div class="footer">
+          <time>2026년 9월 18일</time>
+          <span class="sep" aria-hidden="true">·</span>
+          <span>링크</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-wrap">
+      <div class="frame-label">② 갱신 있음 — 한국어 피드</div>
+      <div class="card">
+        <div class="media">대표 이미지</div>
+        <div class="content">
+          <p class="card-title">○○ 사건 — 1심에서 유죄가 선고된 것으로 보도됨</p>
+        </div>
+        <div class="footer">
+          <time>2026년 9월 18일</time>
+          <span class="sep" aria-hidden="true">·</span>
+          <span>링크</span>
+          <span class="sep" aria-hidden="true">·</span>
+          <span class="badge"><time>11/04 갱신</time></span>
+        </div>
+      </div>
+      <span class="sr-demo">aria-label(배지 전체): "최근 갱신: 2026년 11월 4일"</span>
+    </div>
+
+    <div class="card-wrap">
+      <div class="frame-label">③ 갱신 있음 — 영어 피드</div>
+      <div class="card">
+        <div class="media">Featured image</div>
+        <div class="content">
+          <p class="card-title">○○ Case — reportedly found guilty in first trial</p>
+        </div>
+        <div class="footer">
+          <time>Sep 18, 2026</time>
+          <span class="sep" aria-hidden="true">·</span>
+          <span>Link</span>
+          <span class="sep" aria-hidden="true">·</span>
+          <span class="badge"><time>Updated Nov 4</time></span>
+        </div>
+      </div>
+      <span class="sr-demo">aria-label: "Recently updated: Nov 4, 2026"</span>
+    </div>
+
+    <div class="card-wrap">
+      <div class="frame-label">④ 영어 피드 — "한국어만" + 갱신 동시</div>
+      <div class="card">
+        <div class="media">대표 이미지</div>
+        <div class="content">
+          <p class="card-title" lang="ko">○○ 사건 — "…"라며 전한 스레드</p>
+        </div>
+        <div class="footer">
+          <time>Sep 18, 2026</time>
+          <span class="sep" aria-hidden="true">·</span>
+          <span>Link</span>
+          <span class="sep" aria-hidden="true">·</span>
+          <span class="badge"><time>Updated Nov 4</time></span>
+          <span class="badge ml-auto">Korean only</span>
+        </div>
+      </div>
+      <span class="sr-demo">두 배지가 겹치지 않는 이유: "한국어만"은 ml-auto로 줄 끝에 고정, 갱신 배지는 날짜·유형 옆에 흐름대로 배치</span>
+    </div>
+  </div>
+
+  <p class="note">
+    배지 색: <code>--foreground</code>(#18181b) on <code>--surface-strong</code>(#f4f4f5) — 기존 출처 유형 배지·태그와 같은 토큰이라
+    이미 통과된 조합(≈17:1, AA 4.5:1 통과). 7일 판정은 빌드(SSG) 시점 기준 — 상세는 <code>05-post-card-renewal-badge.md</code> §3.
+  </p>
+</body>
+</html>
