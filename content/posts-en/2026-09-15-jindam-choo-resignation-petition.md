@@ -2,8 +2,6 @@
 id: 2026-09-15-jindam-choo-resignation-petition
 title: "Petition for Gyeonggi Governor Choo Mi-ae's resignation closed early as 'answered' after 30,000 signatures — Choo: \"I, Choo Mi-ae, won't be driven out\""
 description: "Instagram @jindammedia on how Gyeonggi closed Gov. Choo's resignation petition after 30,000 signed; the same day she reportedly said she \"won't be driven out.\""
-imageAlt: "Governor Choo Mi-ae smiling and holding a microphone at a Gyeonggi real estate conference, with the caption 'I, Choo Mi-ae, won't be driven out'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @jindammedia (정치진담)"
 translatedAt: 2026-09-30
 ---

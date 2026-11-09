@@ -2,8 +2,6 @@
 id: 2026-09-13-geonwoo-gwangju-rally
 title: "Sept. 12 march in downtown Gwangju: \"Lee Jae-myung, stand trial\" — video posted by a participant"
 description: "Instagram @geonwoo.vibes posts video of a Sept. 12, 2026, Gwangju march denouncing President Lee and urging his trial; we found no press reports on this rally."
-imageAlt: "Night march in Gwangju on Sept. 12, 2026, with participants holding Taegeukgi flags and pickets, and the caption 'Gwangju in Jeolla has risen'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

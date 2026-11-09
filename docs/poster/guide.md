@@ -109,6 +109,7 @@ qlmanage -t -s 800 -o . file.mp4
   - 계급·직위는 사진 설명뿐 아니라 **기사 본문 전체**에서 찾는다(본문에 적힌 계급도 인정). 깃발·현판·명패 글자는 실제로 읽어 그대로 적는다(리뷰 41). 법령상 장성급 직위를 직위만으로 공인 인정할지는 정책 보완 전까지 쓰지 않는다.
   - 매체가 자기 이미지를 클라우드 저장소(예: `edge.naverncp.com`)에 두는 것은 포털 CDN이 아니다 — 금지는 포털이 전재 기사에 다시 올린 이미지(pstatic·daumcdn·nateimg 등). 판단 근거(같은 호스트가 그 매체 사이트 자체 파일도 내보내는지)를 트리거에 적는다(리뷰 43).
   - 여러 정당이 함께 연 집회는 사진 설명·현장 글자가 정당 공동 행사로 적으면 정당 공식 집회로 본다(리뷰 43). 방송 진행자·앵커는 비공인이다.
+  - 판사·검사(퇴직자 포함)는 정책 §3.1 앵커(공수처법 제2조 1호)상 공인이다. 다만 재직·퇴직 사실이 사진 설명·본문에 없으면 신원 미확인으로 둔다. 인사청문 후보자 처리는 정책 보완 전까지 보수적으로(얼굴 사진 쓰지 않음)(리뷰 45).
 - frontmatter는 `image.kind`(public/news)·`creditName`·`creditNameEn`·`sourcePageUrl`(= `sources[].url` 그대로)·`license`(public만 `kogl-1`)·`retrievedAt`·`faceNote`·`caption`. 예시는 `content/README.md` §3.6.
 - **작업 단위**: 첫 묶음 5건, 이후 10건 안팎. 묶음마다 트리거를 만들고 리뷰어 게이트 후 커밋.
 - **주 1회** `npm run check:hotlinks` → 깨진 것 처리 → `docs/operations/hotlink-check-log.md` 기록. HEAD 요청에 404를 주고 GET에는 200을 주는 이미지 서버가 있다 — HEAD 결과만으로 깨짐 판정하지 않는다.

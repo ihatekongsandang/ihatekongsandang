@@ -1,0 +1,28 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-13-geonwoo-gwangju-rally	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-13-geonwoo-gwangju-rally/thumb.jpg
+2026-09-13-idontknowpolitics-kangdong-hospital	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-13-idontknowpolitics-kangdong-hospital/thumb.jpg
+2026-09-14-yongkeun-justice-hearing-lee-trial	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-14-yongkeun-justice-hearing-lee-trial/thumb.jpg
+2026-09-15-choice-nk-budget-undecided	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-15-choice-nk-budget-undecided/thumb.jpg
+2026-09-15-jindam-choo-resignation-petition	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-15-jindam-choo-resignation-petition/thumb.jpg
+2026-09-15-joojinwoo-kimseungwon-hearing	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-15-joojinwoo-kimseungwon-hearing/thumb.jpg
+2026-09-16-idontknowpolitics-2023-warrant-dismissed	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-16-idontknowpolitics-2023-warrant-dismissed/thumb.jpg
+2026-09-16-pickmag-china-visa-free-petition	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-16-pickmag-china-visa-free-petition/thumb.jpg
+2026-09-16-sisabriefing-nk-budget	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-16-sisabriefing-nk-budget/thumb.jpg
+2026-09-17-hagonolza-changwon-spy-indictment	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-17-hagonolza-changwon-spy-indictment/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 137 · 자체 제작 67 · SNS 원문 저장본 70
+작업 트리: self 127 · 자체 제작 67 · SNS 원문 저장본 60
+
+결함 0건

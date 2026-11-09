@@ -2,8 +2,6 @@
 id: 2026-09-16-idontknowpolitics-2023-warrant-dismissed
 title: "Prosecutors argued for \"36 years and 6 months or life in prison,\" but Lee Jae-myung's arrest warrant was denied — reel recapping the 2023 warrant request"
 description: "Instagram @idontknowpolitics on the 2023 denial of Lee's arrest warrant despite prosecutors citing up to 36.5 years or life—their claim, it notes, not a ruling."
-imageAlt: "Title reading 'The full story of Lee Jae-myung's 2023 arrest warrant: 36 years or life in prison' with a news screen"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-09-30
 ---

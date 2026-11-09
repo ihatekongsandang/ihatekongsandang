@@ -2,8 +2,6 @@
 id: 2026-09-17-hagonolza-changwon-spy-indictment
 title: "'Changwon spy ring' indictment: \"posed as members of conservative YouTube channels on North Korean orders\" — trial resumes three years after indictment"
 description: "Instagram @hagonolza on the 'Changwon spy ring' indictment's order to infiltrate conservative YouTube; reports say 4 were indicted in 2023, trial resumed Sept."
-imageAlt: "A man wearing a mask and a woman with her face blurred on the move"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-09-30
 ---

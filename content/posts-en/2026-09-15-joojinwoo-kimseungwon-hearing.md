@@ -2,8 +2,6 @@
 id: 2026-09-15-joojinwoo-kimseungwon-hearing
 title: "Rep. Joo Jin-woo: \"Did you get a directive from Kim Hyun-ji?\" — reel on a shouting clash at Justice Minister nominee Kim Seung-won's confirmation hearing"
 description: "Rep. Joo Jin-woo's reel on a \"Kim Hyun-ji directive\" remark sparking shouting at nominee Kim Seung-won's hearing on alleged co-op favors; Kim was later dropped."
-imageAlt: "Rep. Joo Jin-woo speaking with both hands raised, with the caption 'Kim Hyun-ji is their trigger button? Did the Democrats get a group directive?'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_joojinwoo (주진우)"
 translatedAt: 2026-09-30

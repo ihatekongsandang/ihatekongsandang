@@ -2,8 +2,6 @@
 id: 2026-09-13-idontknowpolitics-kangdong-hospital
 title: "Government prepares to provide 166 types of medical equipment to Pyongyang's Kangdong County Hospital, a Kim Jong Un priority project — \"will start immediately if the North responds\""
 description: "Instagram @idontknowpolitics details plans to give a Pyongyang hospital 166 kinds of medical gear; the ministry reportedly got a UN waiver and awaits the North."
-imageAlt: "President Lee Jae-myung raising the right hand to take an oath in front of a blue background"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-10-08
 ---

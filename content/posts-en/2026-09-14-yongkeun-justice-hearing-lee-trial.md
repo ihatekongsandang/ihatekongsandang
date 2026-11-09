@@ -2,8 +2,6 @@
 id: 2026-09-14-yongkeun-justice-hearing-lee-trial
 title: "Rep. Yoon Yong-geun: \"Should defendant Lee Jae-myung's criminal trial resume right away?\" — reel of his questioning at Supreme Court justice nominee Kim Sung-soo's hearing"
 description: "PPP Rep. Yoon Yong-geun's reel grills nominee Kim Sung-soo on halting Lee's trial; Kim reportedly said specific cases are for the trial panel to judge."
-imageAlt: "Rep. Yoon Yong-geun questioning and nominee Kim Sung-soo answering at a Supreme Court justice confirmation hearing, with the caption 'Lee Jae-myung was already indicted, so why has the trial stopped?'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @yong__keun (윤용근)"
 translatedAt: 2026-09-30

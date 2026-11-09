@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdX3Xzzv_CU/
 attribution: 인스타그램 @sisa_brieffing (시사 브리핑)
 useSourceImage: false
-image:
-  src: /images/2026-09-16-sisabriefing-nk-budget/thumb.jpg
-  alt: "턱을 괴고 생각에 잠긴 이재명 대통령 사진 위에 '다시 생각해도 보내야, 대북지원사업 6676억원, 나라살림은 모르겠고' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

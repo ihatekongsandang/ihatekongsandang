@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdQB2z3Jn7-/
 attribution: 인스타그램 @idontknowpolitics (나정치)
 useSourceImage: false
-image:
-  src: /images/2026-09-13-idontknowpolitics-kangdong-hospital/thumb.jpg
-  alt: "파란 배경 앞에서 오른손을 들고 선서하는 이재명 대통령"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
