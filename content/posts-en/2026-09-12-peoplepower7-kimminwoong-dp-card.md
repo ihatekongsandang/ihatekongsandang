@@ -2,13 +2,11 @@
 id: 2026-09-12-peoplepower7-kimminwoong-dp-card
 title: "Card: \"DP leader Kim Min-seok's brother Kim Min-woong is a sex-crime convict and pro-North, anti-American — this is the Democratic Party's true face\" — his final conviction was a suspended prison sentence for disclosing a victim's identity, not a prison term"
 description: "A card lists DP leader Kim Min-seok's brother's record; he reportedly got a suspended term for revealing a victim's identity, not a prison sentence."
-imageAlt: "Card titled 'Who is Kim Min-woong, older brother of DP leader Kim Min-seok?' listing 'argued for adopting the justice and politics of the dictatorship Venezuela,' 'argued for USFK withdrawal and dissolving the ROK-U.S. alliance,' 'second-degree offender in the Park Won-soon sexual assault case, conviction finalized by the Supreme Court with a prison sentence (sex-crime record),' 'Cheonan sinking conspiracy theory' and more, with a rally photo marking President Lee Jae-myung and Kim Min-woong in red boxes and the text 'This is the Democratic Party's true face… anti-state forces'"
-imageCaption: "Image from the original post"
 attribution: "Instagram @peoplepower_korea7 (자유대한 늬우스)"
 translatedAt: 2026-10-01
 ---
 
-This post is based on the original caption and one image.
+This post is based on the original caption and one image from the original post.
 
 ## What the original post claims (the poster's opinion)
 
@@ -24,6 +22,6 @@ This post is based on the original caption and one image.
 
 ## What we left out of the summary
 
-- The card's "prison sentence" is inaccurate. The finalized sentence was a **suspended** prison term, and the offense was breaching confidentiality by disclosing the victim's identity under the sexual crimes act.
+- The original card's "prison sentence" is inaccurate. The finalized sentence was a **suspended** prison term, and the offense was breaching confidentiality by disclosing the victim's identity under the sexual crimes act.
 - We could not find reports directly supporting the claims that he argued for Venezuelan-style justice and politics, said "Korea's greatest enemy is the United States," claimed the Cheonan was sunk by an internal explosion, or campaigned on Fukushima treated water, so we did not summarize them.
 - Labeling the entire Democratic Party a "force pursuing communist dictatorship" or "anti-state forces" on the basis of Kim's remarks and record is the poster's claim.

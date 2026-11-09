@@ -2,8 +2,6 @@
 id: 2026-09-14-kimminsoo-spy-law-enforcement
 title: "Espionage law expanded from 'enemy state' to 'foreign country' takes effect Sept. 13 — Kim Min-soo: \"Is there anyone left to catch spies?\""
 description: "Instagram @kim_minsoo_ppp flags the new spy law, doubting probe capacity; it reportedly took effect Sept. 13 amid expert worry over police spy-probe capacity."
-imageAlt: "Thumbnail with a photo of supreme council member Kim Min-soo speaking in front of a microphone, overlaid with the caption 'Even if there are spies, there's no one to catch them'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party supreme council member"
 attribution: "Instagram @kim_minsoo_ppp (김민수)"
 translatedAt: 2026-09-30

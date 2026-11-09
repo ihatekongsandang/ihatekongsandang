@@ -10,10 +10,6 @@ speaker:
   name: "@centrism_kr_"
   affiliation: 스레드 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-21-centrism-dmz-summary/thumb.jpg
-  alt: "뉴시스 'DMZ 수색작전 軍간부, 지뢰 폭발 추정 부상…발목 절단' 기사 화면과 DMZ 전경 사진"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Threads
 sources:
@@ -31,7 +27,7 @@ tags:
   - 북한
 ---
 
-이 게시물은 원문 텍스트를 기준으로 정리했으며, 첨부 이미지 1장의 내용은 확인하지 않았습니다.
+이 게시물은 원문 텍스트를 기준으로 정리했으며, 원문 첨부 이미지 1장의 내용은 확인하지 않았습니다.
 
 ## 보도로 확인된 내용
 

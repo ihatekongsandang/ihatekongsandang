@@ -2,14 +2,12 @@
 id: 2026-09-21-oreunboy-dmz-mine-explosion
 title: "\"[Breaking] Accident presumed to be a mine explosion during DMZ operation\" — post summarizing reports of three injured 25th Division officers"
 description: "Instagram user @oreun_boy summarizes reports that three 25th Division officers were hurt in a presumed DMZ mine blast on Sept. 21; who laid it is under probe."
-imageAlt: "Screen showing a woman speaking with captions related to the Defense Ministry"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @oreun_boy"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the content of the one attached image was not reviewed.
+This post is based on the original caption; the content of the one image attached to the original post was not reviewed.
 
 ## What reports confirm
 

@@ -2,8 +2,6 @@
 id: 2026-07-24-firstincome-seoul-edu-unification-textbook
 title: "Controversy over the Seoul education office's peace and unification textbook saying \"North Korea's nukes were curbed during dialogue\" revisited — overlapping with Chung Dong-young's 'peace first' announcement"
 description: "Instagram @firstincome_now revisits a disputed 2022 Seoul unification textbook, calling it the same logic as Chung Dong-young's July 23 'peace first' shift."
-imageAlt: "Thumbnail with a photo of the Kim Il Sung and Kim Jong Il statues on Mansu Hill in Pyongyang, overlaid with the text 'Education office recommends North Korean regime-propaganda tourist sites to children'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @firstincome_now"
 translatedAt: 2026-09-30
 ---

@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdIJ2NizYNQ/
 attribution: 인스타그램 @brief_tag (브리프 태그)
 useSourceImage: false
-image:
-  src: /images/2026-09-10-brieftag-nk-contact-reports-china/thumb.jpg
-  alt: "이재명 대통령과 정동영 통일부 장관이 나란히 선 사진 위에 '이재명 정부 중국서 북한 간첩 만나도 돼, 북한 주민 접촉 9배 늘었다, 통일부장관이 문 열어줬다' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -44,4 +40,4 @@ tags:
 
 ## 요약에 넣지 않은 내용
 
-- 썸네일의 "중국서 북한 간첩 만나도 돼"는 게시자의 표현이며, 신고된 접촉 상대가 공작원이었다는 사실이 확인된 것은 아닙니다.
+- 원문 썸네일의 "중국서 북한 간첩 만나도 돼"는 게시자의 표현이며, 신고된 접촉 상대가 공작원이었다는 사실이 확인된 것은 아닙니다.

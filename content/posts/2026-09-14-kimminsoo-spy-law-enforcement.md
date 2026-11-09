@@ -10,10 +10,6 @@ speaker:
   name: 김민수
   affiliation: 국민의힘 최고위원
 useSourceImage: false
-image:
-  src: /images/2026-09-14-kimminsoo-spy-law-enforcement/thumb.jpg
-  alt: "마이크 앞에서 발언하는 김민수 최고위원 사진 위에 '간첩이 있어도 잡을 사람이 없어요' 자막이 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

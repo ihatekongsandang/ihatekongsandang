@@ -2,8 +2,6 @@
 id: 2026-08-12-citynewsmeme-parksangyong-oath-refusal
 title: "Prosecutor Park Sang-yong twice refuses the witness oath at a parliamentary investigation and is ordered out — \"The special counsel must not withdraw the indictment against Lee Jae-myung\""
 description: "Instagram @citynews_meme backs Prosecutor Park Sang-yong's oath refusal as upholding a constitutional right; he was reportedly ordered out on April 3 and 14."
-imageAlt: "Black-and-white scene at a parliamentary investigation hearing in which witnesses raise their right hands to take the oath while one person remains seated, with the caption 'Honorable' in the middle"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @citynews_meme (정치밈)"
 translatedAt: 2026-09-30
 ---

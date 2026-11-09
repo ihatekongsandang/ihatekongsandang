@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdPR4-ATIaw/
 attribution: 인스타그램 @sonit.kr (소니트)
 useSourceImage: false
-image:
-  src: /images/2026-09-13-sonit-625-book-ban-claim/thumb.jpg
-  alt: "흰 바탕에 '서점에서 북한과 김정은 책은 팔면서 왜 대한민국 건국이나 6.25전쟁에 관한 일부 도서들은 역사왜곡논란 도서가 되어서 출판금지가 되어버린거야??' 문구가 적힌 카드"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

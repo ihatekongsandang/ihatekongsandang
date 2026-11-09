@@ -11,9 +11,15 @@ speaker:
   affiliation: 국민의힘 국회의원
 useSourceImage: false
 image:
-  src: /images/2026-09-08-kimsohee-ppp-seven-pledges/thumb.jpg
-  alt: "'보완수사권 폐지=범죄도시, 민주당 입법폭주 즉각 철회!' 손팻말을 든 국민의힘 의원들 사진 위에 '국민의힘이 약속합니다, 국민의 안전 - 보완수사권 부활' 문구가 얹힌 카드"
-  caption: 원문 게시물 첫 장
+  kind: news
+  src: https://img.etoday.co.kr/pto_db/2026/09/20260908111541_2384746_1199_799.jpg
+  alt: "국회 본회의장 연단에서 원고를 앞에 두고 연설하는 정장 차림의 원내대표"
+  caption: "2026년 9월 8일 국회 본회의, 정점식 국민의힘 원내대표가 교섭단체 대표 연설을 하는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.etoday.co.kr/news/view/2623035
+  retrievedAt: 2026-11-10
+  faceNote: 정당 간부(국민의힘 원내대표) — 국회 본회의 교섭단체 대표 연설 — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:
@@ -32,7 +38,7 @@ tags:
   - 전술핵
 ---
 
-이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물입니다. 관련 게시물: [EGO "검찰·경찰공화국" 카드](/post/2026-09-22-ego-police-republic-concern) · [보완수사권 폐지법 통과와 과거 지령 재조명](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+이 게시물은 원문 캡션과 원문 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물입니다. 관련 게시물: [EGO "검찰·경찰공화국" 카드](/post/2026-09-22-ego-police-republic-concern) · [보완수사권 폐지법 통과와 과거 지령 재조명](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
 
 ## 원문 주장 (게시자 의견)
 

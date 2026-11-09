@@ -2,8 +2,6 @@
 id: 2026-09-13-sonit-625-book-ban-claim
 title: "\"Korean War books banned from publication while Kim Jong Un books are sold\"? — in fact, a controversy over the Defense Ministry recalling and discarding 'Stories of the Korean War' from its barracks library"
 description: "Instagram @sonit.kr says books on Korea's founding and the Korean War were banned; the confirmed case is the Defense Ministry pulling one from troop libraries."
-imageAlt: "Card on a white background reading 'Why do bookstores sell books on North Korea and Kim Jong Un, while some books on the founding of South Korea or the Korean War became \"history distortion\" books and got banned from publication??'"
-imageCaption: "Image of the original post"
 attribution: "Instagram @sonit.kr (소니트)"
 translatedAt: 2026-09-30
 ---

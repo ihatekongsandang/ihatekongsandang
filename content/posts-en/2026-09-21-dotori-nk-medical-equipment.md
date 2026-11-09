@@ -2,14 +2,12 @@
 id: 2026-09-21-dotori-nk-medical-equipment
 title: "\"There's money to give North Korea medical equipment, but for the soldiers who were attacked?\" — thread criticizing medical equipment aid to the North"
 description: "Threads user @liilllidototoriliillli contrasts NK hospital aid with troops hurt in a presumed DMZ mine blast; reports put it at 1,431 items, not \"160 units.\""
-imageAlt: "Soldiers conducting mine-detection work in the brush, with the caption 'Mine explosion during a frontline operation'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Threads user"
 attribution: "Threads @liilllidototoriliillli"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original text; the content of the three attached images was not reviewed.
+This post is based on the original text; the content of the three images attached to the original post was not reviewed.
 
 ## The original post (full text, translated)
 

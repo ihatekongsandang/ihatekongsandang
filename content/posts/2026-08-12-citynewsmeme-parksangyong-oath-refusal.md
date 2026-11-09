@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Db8olQLs8_I/
 attribution: 인스타그램 @citynews_meme (정치밈)
 useSourceImage: false
-image:
-  src: /images/2026-08-12-citynewsmeme-parksangyong-oath-refusal/thumb.jpg
-  alt: "국정조사 청문회장에서 증인들이 오른손을 들고 선서하는 가운데 한 사람만 앉아 있는 흑백 장면, 가운데 'Honorable' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

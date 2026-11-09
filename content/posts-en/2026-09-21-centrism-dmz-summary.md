@@ -2,14 +2,12 @@
 id: 2026-09-21-centrism-dmz-summary
 title: "\"DMZ blast summary\" — thread criticizing the government's response, linking it to the possibility of North Korean mine-laying"
 description: "Threads user @centrism_kr_ links the presumed DMZ mine blast to signs of North Korean mine-laying south of the MDL (opinion); who laid it is under probe."
-imageAlt: "Screen of a Newsis article, 'Military officer injured in presumed mine blast during DMZ search operation — foot amputated at the ankle,' alongside a photo of the DMZ landscape"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Threads user"
 attribution: "Threads @centrism_kr_"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original text; the content of the one attached image was not reviewed.
+This post is based on the original text; the content of the one image attached to the original post was not reviewed.
 
 ## What reports confirm
 

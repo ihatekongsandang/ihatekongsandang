@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DbNLcpsxL9F/
 attribution: 인스타그램 @firstincome_now
 useSourceImage: false
-image:
-  src: /images/2026-07-24-firstincome-seoul-edu-unification-textbook/thumb.jpg
-  alt: "평양 만수대 언덕의 김일성·김정일 동상 사진 위에 '교육청, 아이들에게 북한 체제 선전 관광지 추천' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

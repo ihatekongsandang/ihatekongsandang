@@ -1,0 +1,69 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+<#1 centrism>	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/<#1 centrism>/thumb.jpg
+  본문 수정 content/posts/<#1 centrism>.md: -1 +1
+    -이 게시물은 원문 텍스트를 기준으로 정리했으며, 첨부 이미지 1장의 내용은 확인하지 않았습니다.
+    +이 게시물은 원문 텍스트를 기준으로 정리했으며, 원문 첨부 이미지 1장의 내용은 확인하지 않았습니다.
+  본문 수정 content/posts-en/<#1 centrism>.md: -1 +1
+    -This post is based on the original text; the content of the one attached image was not reviewed.
+    +This post is based on the original text; the content of the one image attached to the original post was not reviewed.
+<#2 dotori>	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/<#2 dotori>/thumb.jpg
+  본문 수정 content/posts/<#2 dotori>.md: -1 +1
+    -이 게시물은 원문 텍스트를 기준으로 정리했으며, 첨부된 이미지 3장의 내용은 확인하지 않았습니다.
+    +이 게시물은 원문 텍스트를 기준으로 정리했으며, 원문에 첨부된 이미지 3장의 내용은 확인하지 않았습니다.
+  본문 수정 content/posts-en/<#2 dotori>.md: -1 +1
+    -This post is based on the original text; the content of the three attached images was not reviewed.
+    +This post is based on the original text; the content of the three images attached to the original post was not reviewed.
+<#3 oreunboy>	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/<#3 oreunboy>/thumb.jpg
+  본문 수정 content/posts/<#3 oreunboy>.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 첨부 이미지 1장의 내용은 확인하지 않았습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 첨부 이미지 1장의 내용은 확인하지 않았습니다.
+  본문 수정 content/posts-en/<#3 oreunboy>.md: -1 +1
+    -This post is based on the original caption; the content of the one attached image was not reviewed.
+    +This post is based on the original caption; the content of the one image attached to the original post was not reviewed.
+<#4 kimminsoo>	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/<#4 kimminsoo>/thumb.jpg
+<#5 sonit>	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/<#5 sonit>/thumb.jpg
+<#6 peoplepower7>	③	(없음)	-/-	0	없음	8
+  HEAD 파일: public/images/<#6 peoplepower7>/thumb.jpg
+  본문 수정 content/posts/<#6 peoplepower7>.md: -2 +2
+    -이 게시물은 원문 캡션과 이미지 1장을 기준으로 정리했습니다.
+    +이 게시물은 원문 캡션과 원문 이미지 1장을 기준으로 정리했습니다.
+    -- 카드의 "실형 선고"는 사실과 다릅니다. 확정된 형은 징역형 **집행유예**이며, 죄명은 피해자 신상을 공개한 비밀준수 위반(성폭력처벌법)입니다.
+    +- 원문 카드의 "실형 선고"는 사실과 다릅니다. 확정된 형은 징역형 **집행유예**이며, 죄명은 피해자 신상을 공개한 비밀준수 위반(성폭력처벌법)입니다.
+  본문 수정 content/posts-en/<#6 peoplepower7>.md: -2 +2
+    -This post is based on the original caption and one image.
+    +This post is based on the original caption and one image from the original post.
+    -- The card's "prison sentence" is inaccurate. The finalized sentence was a **suspended** prison term, and the offense was breaching confidentiality by disclosing the victim's identity under the sexual crimes act.
+    +- The original card's "prison sentence" is inaccurate. The finalized sentence was a **suspended** prison term, and the offense was breaching confidentiality by disclosing the victim's identity under the sexual crimes act.
+<#7 brieftag>	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/<#7 brieftag>/thumb.jpg
+  본문 수정 content/posts/<#7 brieftag>.md: -1 +1
+    -- 썸네일의 "중국서 북한 간첩 만나도 돼"는 게시자의 표현이며, 신고된 접촉 상대가 공작원이었다는 사실이 확인된 것은 아닙니다.
+    +- 원문 썸네일의 "중국서 북한 간첩 만나도 돼"는 게시자의 표현이며, 신고된 접촉 상대가 공작원이었다는 사실이 확인된 것은 아닙니다.
+  본문 수정 content/posts-en/<#7 brieftag>.md: -1 +1
+    -- The thumbnail's "OK to meet North Korean spies in China" is the poster's wording; it has not been confirmed that any reported contact was with an operative.
+    +- The original thumbnail's "OK to meet North Korean spies in China" is the poster's wording; it has not been confirmed that any reported contact was with an operative.
+<#8 kimsohee>	②	news	alt/cap	0	없음	4
+  HEAD 파일: public/images/<#8 kimsohee>/thumb.jpg
+  본문 수정 content/posts/<#8 kimsohee>.md: -1 +1
+    -이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물입니다. 관련 게시물: [EGO "검찰·경찰공화국" 카드](/post/2026-09-22-ego-police-republic-concern) · [보완수사권 폐지법 통과와 과거 지령 재조명](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+    +이 게시물은 원문 캡션과 원문 첫 장 이미지를 기준으로 정리했습니다. 원문은 여러 장짜리 게시물입니다. 관련 게시물: [EGO "검찰·경찰공화국" 카드](/post/2026-09-22-ego-police-republic-concern) · [보완수사권 폐지법 통과와 과거 지령 재조명](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+  본문 수정 content/posts-en/<#8 kimsohee>.md: -1 +1
+    -This post is based on the original caption and the first slide. The original is a multi-slide post. Related posts (some may be available only in Korean): [EGO's "prosecutors' republic vs. police republic" card](/post/2026-09-22-ego-police-republic-concern) · [Passage of the law abolishing supplementary investigation powers and a past directive revisited](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+    +This post is based on the original caption and the original post's first slide. The original is a multi-slide post. Related posts (some may be available only in Korean): [EGO's "prosecutors' republic vs. police republic" card](/post/2026-09-22-ego-police-republic-concern) · [Passage of the law abolishing supplementary investigation powers and a past directive revisited](/post/2026-08-03-pagememo-nk-prosecution-reform-directive).
+  caption 68자 · imageCaption 201자 · imageAlt 108자 · retrievedAt 2026-11-10
+<#9 citynewsmeme>	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/<#9 citynewsmeme>/thumb.jpg
+<#10 firstincome>	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/<#10 firstincome>/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 77 · 자체 제작 67 · SNS 원문 저장본 10
+작업 트리: self 67 · 자체 제작 67 · SNS 원문 저장본 0
+
+결함 0건

@@ -10,10 +10,6 @@ speaker:
   name: "@liilllidototoriliillli"
   affiliation: 스레드 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-21-dotori-nk-medical-equipment/thumb.jpg
-  alt: "수풀 속에서 지뢰 탐지 작업을 하는 장병들과 '최전방 작전 중 지뢰 폭발' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Threads
 sources:
@@ -35,7 +31,7 @@ tags:
   - 지뢰
 ---
 
-이 게시물은 원문 텍스트를 기준으로 정리했으며, 첨부된 이미지 3장의 내용은 확인하지 않았습니다.
+이 게시물은 원문 텍스트를 기준으로 정리했으며, 원문에 첨부된 이미지 3장의 내용은 확인하지 않았습니다.
 
 ## 원문 (그대로)
 
