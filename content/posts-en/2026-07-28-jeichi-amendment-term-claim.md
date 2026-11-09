@@ -2,8 +2,6 @@
 id: 2026-07-28-jeichi-amendment-term-claim
 title: "\"If the amendment passes, Lee Jae-myung gets a second term = 8 years\"? — under Article 128(2) of the Constitution, a term amendment has no effect for the president in office when it is proposed, and the National Assembly Research Service reportedly said the same"
 description: "Instagram @jeichi_l claims an amendment would give President Lee 8 years; Article 128(2) bars term changes for the sitting president, the NARS reportedly said."
-imageAlt: "Illustration of the National Assembly building under a lightning-streaked sky and a cracked book titled 'Constitution of the Republic of Korea,' overlaid with the text '2027 constitutional amendment crisis! How will it end?!'"
-imageCaption: "First frame of the original reel"
 attribution: "Instagram @jeichi_l"
 translatedAt: 2026-10-02
 ---

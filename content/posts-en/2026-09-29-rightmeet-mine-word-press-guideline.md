@@ -2,8 +2,6 @@
 id: 2026-09-29-rightmeet-mine-word-press-guideline
 title: "Thread shares card on a reporter saying \"we couldn't even use the word 'mine' at first\" — the JCS's first notice did say 'unidentified explosion,' but 'suspected mine' reports appeared on day one"
 description: "A card says media couldn't write 'mine' at first. The JCS's first notice did say 'unidentified explosion,' yet some outlets wrote 'suspected mine' that day."
-imageAlt: "Navy card with the Channel A News logo and the text 'Channel A, at the start of the incident, per guidelines: we couldn't even use the word mine,' with the FINF logo at the top"
-imageCaption: "FINF (@finf_media) card image shared by the original post"
 attribution: "Threads @right_meet"
 translatedAt: 2026-09-30
 ---

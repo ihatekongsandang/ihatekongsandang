@@ -2,8 +2,6 @@
 id: 2026-09-30-kimeunhye-farmland-china-solar
 title: "Kim Eun-hye: \"Take farmland, then Chinese solar?\" — reel criticizing President Lee's 'solar farming' remark; the remark is confirmed by reports, the 'Chinese-made' link is not"
 description: "Rep. Kim Eun-hye's reel asks 'Take farmland, then Chinese solar?'; Lee's solar-farming remark was reported, but no report links it to Chinese panels."
-imageAlt: "Rep. Kim Eun-hye speaking in a car, above the text 'Seize farmland for Chinese solar' and a composite image of President Lee Jae-myung shaking hands with a man against a Chinese flag and solar panels"
-imageCaption: "Thumbnail of the original reel"
 speakerAffiliation: "People Power Party lawmaker (Seongnam Bundang B)"
 attribution: "Instagram @kimeunhye_official"
 translatedAt: 2026-10-01

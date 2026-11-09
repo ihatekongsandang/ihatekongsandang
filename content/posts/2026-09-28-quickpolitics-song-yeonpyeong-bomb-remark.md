@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd3Gkl9tTF3/
 attribution: 인스타그램 @quick_politics1 (퀵정치)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark/thumb.jpg
-  alt: "연평도 포격 피해 가게에서 소주병을 살펴보는 송영길 당시 인천시장 뉴스 화면 위에 '연평도 포격 직후 현장을 찾은 이들은, 이게 진짜 폭탄주네 하하하' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(MBN 뉴스 화면 인용)
 og:
   siteName: Instagram
 sources:

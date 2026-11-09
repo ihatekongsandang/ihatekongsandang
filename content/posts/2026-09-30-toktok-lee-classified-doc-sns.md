@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd6K3OEP7cC/
 attribution: 인스타그램 @toktok_daily_issue
 useSourceImage: false
-image:
-  src: /images/2026-09-30-toktok-lee-classified-doc-sns/thumb.jpg
-  alt: "이재명 대통령 사진과 '對外秘' 표시·2026. 9. 29.(화) 날짜가 있는 문건 캡처 위에 'SNS 중독 이재명, 성과 자랑때문에 대외비 노출, 비밀누설죄 징역2년' 문구"
-  caption: 원문 릴스 썸네일
 og:
   siteName: Instagram
 sources:

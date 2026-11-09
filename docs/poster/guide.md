@@ -99,9 +99,16 @@ qlmanage -t -s 800 -o . file.mp4
 - 🔴 **public·news 이미지는 모두 `image.caption` 필수**(없으면 빌드 중단), 영어본 `imageCaption`도 필수. 의혹·수사·재판 사안 사진은 정책 §3.6 형식의 설명 문구를 반드시 넣는다. 영어본에 옛 alt·caption이 남아도 검증이 못 잡으니 직접 바꾼다.
 - 🔴 **착수 조건**: 얼굴 없는 사진은 지금 가능. **공인 얼굴 사진은 프로그래머 16(소개 문구 C4) 배포 뒤부터** 올린다(그 전에 올리면 소개 페이지 문구가 거짓이 된다).
 - 캡션·촬영 시점 정보가 없는 인물 사진은 쓰지 않는다.
+- **판단 선례**(리뷰 38·39, SNS 묶음 1·2):
+  - 매체 워터마크가 있는 사진은 쓰지 않는다. "재판매·DB 금지" 표기도 불가.
+  - 의혹·재판 당사자인 공인 본인의 얼굴은 허용하되 정책 §3.6의 맞는 행(당사자 본인이면 2행)을 글자 그대로 넣는다.
+  - 현장 실물(현수막·명패·손에 든 문서)의 글자는 §5.3-11(덧씌운 자막) 대상이 아니다. 단 문구가 단정형이면 제목과 합쳐 읽힐 위험을 따로 본다.
+  - 정당 직위가 정책 §3.1 공인 범위표 밖이면(예: 당 법률자문위원장 등 위원회 위원장) 비공인으로 본다. 계급·직위를 계급장·자리 배치로 추정하지 않는다(사진 설명·본문에 적힌 것만).
+  - 다른 일정 사진은 제목과 관계없이 쓰지 않는다(4a). 특히 제목이 의혹·비난형이면 공인 얼굴이라도 결합 위험이 크다.
+  - 불가 사유는 사진 설명 글자만 보고 적지 않는다. **후보 og:image는 모두 직접 열어 보고**, 크기는 받은 파일에서 잰다(리뷰 40).
 - frontmatter는 `image.kind`(public/news)·`creditName`·`creditNameEn`·`sourcePageUrl`(= `sources[].url` 그대로)·`license`(public만 `kogl-1`)·`retrievedAt`·`faceNote`·`caption`. 예시는 `content/README.md` §3.6.
 - **작업 단위**: 첫 묶음 5건, 이후 10건 안팎. 묶음마다 트리거를 만들고 리뷰어 게이트 후 커밋.
-- **주 1회** `npm run check:hotlinks` → 깨진 것 처리 → `docs/operations/hotlink-check-log.md` 기록.
+- **주 1회** `npm run check:hotlinks` → 깨진 것 처리 → `docs/operations/hotlink-check-log.md` 기록. HEAD 요청에 404를 주고 GET에는 200을 주는 이미지 서버가 있다 — HEAD 결과만으로 깨짐 판정하지 않는다.
 - 이미지 제거 요청은 `planning/image-removal-procedure.md`.
 - **영어본 동시 작성**: `content/posts-en/{id}.md` — `content/README.md` §9 + 기존 영어본 문체. description ≤160자(직접 세기), "reportedly" 등 유보 표현 유지, 인명 `Romanized (한글)`.
 

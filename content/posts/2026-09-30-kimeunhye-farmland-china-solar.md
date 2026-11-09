@@ -10,10 +10,6 @@ speaker:
   name: 김은혜
   affiliation: 국민의힘 국회의원(성남 분당을)
 useSourceImage: false
-image:
-  src: /images/2026-09-30-kimeunhye-farmland-china-solar/thumb.jpg
-  alt: "차 안에서 말하는 김은혜 의원 화면 아래 '농지 빼앗아 중국 태양광' 문구와, 중국 국기·태양광 패널을 배경으로 이재명 대통령과 남성이 악수하는 합성 이미지"
-  caption: 원문 릴스 썸네일
 og:
   siteName: Instagram
 sources:

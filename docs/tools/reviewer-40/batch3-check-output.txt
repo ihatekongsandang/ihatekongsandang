@@ -1,0 +1,32 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark/thumb.jpg
+2026-09-29-limjongdeuk-dmz-operation-criticism	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-limjongdeuk-dmz-operation-criticism/thumb.jpg
+2026-09-29-osj17x-hankiho-president-instruction	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-osj17x-hankiho-president-instruction/thumb.jpg
+2026-09-29-rightmeet-mine-word-press-guideline	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-rightmeet-mine-word-press-guideline/thumb.jpg
+2026-09-30-kimeunhye-farmland-china-solar	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-kimeunhye-farmland-china-solar/thumb.jpg
+2026-09-30-toktok-lee-classified-doc-sns	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-toktok-lee-classified-doc-sns/thumb.jpg
+2026-09-17-rekor-light-committee-disclosure	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-17-rekor-light-committee-disclosure/thumb.jpg
+2026-07-28-jeichi-amendment-term-claim	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-28-jeichi-amendment-term-claim/thumb.jpg
+2026-10-03-oct3-gwanghwamun-rally-scale	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-10-03-oct3-gwanghwamun-rally-scale/thumb.jpg
+  본문 수정 content/posts/2026-10-03-oct3-gwanghwamun-rally-scale.md: -1 +1
+    -- 개별 사진·영상의 정확한 촬영 시각은 확인하지 못했습니다. 위 사진도 10월 4일에 공유된 것이며 촬영 시각은 원문에 표시되지 않았습니다.
+    +- 개별 사진·영상의 정확한 촬영 시각은 확인하지 못했습니다. 10월 4일에 공유된 세종대로 일대 사진도 촬영 시각이 원문에 표시되지 않았습니다.
+  본문 수정 content/posts-en/2026-10-03-oct3-gwanghwamun-rally-scale.md: -1 +1
+    -- We could not confirm the exact time each photo or video was taken. The photo above was also shared on Oct. 4, and the time it was taken is not shown in the original.
+    +- We could not confirm the exact time each photo or video was taken. A photo of the Sejong-daero area shared on Oct. 4 also does not show when it was taken.
+
+삭제된 public/images 파일 9개
+
+HEAD: 게시물 209 · self 186 · 자체 제작 67 · SNS 원문 저장본 119
+작업 트리: self 177 · 자체 제작 67 · SNS 원문 저장본 110
+
+결함 0건

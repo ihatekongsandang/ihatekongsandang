@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdYPDiPAcQw/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-17-rekor-light-committee-disclosure/thumb.jpg
-  alt: "'대통령직속 빛의 위원회' 세로 현판과 안내데스크 뒤 같은 이름의 가로 현판이 보이는 사무실 입구 사진 위에 '대통령 직속 위원회 홈페이지도 명단도 없다' 문구와 REKOR 로고"
-  caption: 원문 게시물 첫 장(사진 출처는 원문 표기상 뉴데일리)
 og:
   siteName: Instagram
 sources:

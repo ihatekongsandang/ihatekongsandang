@@ -2,8 +2,6 @@
 id: 2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark
 title: "Revisiting then-Incheon mayor Song Young-gil's 2010 remark at the Yeonpyeong Island shelling site: \"this really is a bomb drink\""
 description: "Instagram @quick_politics1 revisits then-Incheon mayor Song Young-gil's 2010 'this really is a bomb drink' remark at the Yeonpyeong shelling site."
-imageAlt: "News screen showing then-Incheon mayor Song Young-gil examining a soju bottle at a shop damaged in the Yeonpyeong Island shelling, overlaid with the text 'Those who visited right after the Yeonpyeong shelling: this really is a bomb drink, haha'"
-imageCaption: "Thumbnail of the original post (citing an MBN news broadcast)"
 attribution: "Instagram @quick_politics1 (퀵정치)"
 translatedAt: 2026-09-30
 ---

@@ -2,8 +2,6 @@
 id: 2026-10-03-oct3-gwanghwamun-rally-scale
 title: "Tens of thousands gather around Gwanghwamun and Sungnyemun on National Foundation Day — police unofficially estimated about 28,000 at the Liberty Unification Party rally and about 9,000 at the People Power Party rally, as photos of crowds filling Sejong-daero spread on social media"
 description: "About 28,000 reportedly joined the Oct. 3 Liberty Unification Party rally in Gwanghwamun and about 9,000 the PPP rally, per unofficial police estimates."
-imageAlt: "View from a high-rise over Sejong-daero in Seoul, with the multi-lane road packed with rally participants and blue and white tents lining the street"
-imageCaption: "Photo of the Sejong-daero area shared by Threads user @jwapaloma on Oct. 4 (the time it was taken is not shown in the original)"
 attribution: "Compiled from Munhwa Ilbo (문화일보) and other news reports and Threads posts"
 translatedAt: 2026-10-11
 ---
@@ -24,7 +22,7 @@ An Instagram post by [@conpoli88](https://www.instagram.com/reel/DeCfC1dhtqI/) s
 ## What we left out of the summary
 
 - For attendance, we used only the figures reported as unofficial police estimates. We found no reports supporting figures such as "200,000" cited by some posts, and the number of photos and videos on social media cannot by itself establish a headcount.
-- We could not confirm the exact time each photo or video was taken. The photo above was also shared on Oct. 4, and the time it was taken is not shown in the original.
+- We could not confirm the exact time each photo or video was taken. A photo of the Sejong-daero area shared on Oct. 4 also does not show when it was taken.
 - One outlet (Hankook Ilbo) reported attendance at the People Power Party rally as "about 100," differing from other reports (about 9,000).
 - Slogans about election fraud chanted at the rally are unverified claims and were not reproduced.
 - @haru_wiki_day's caption headline reads "Gwanghwamun 208,000, Sungnyemun 90,000" and its first frame "300,000 at National Foundation Day protests / not reported once on the news," but the body of the same caption says "about 28,000 by unofficial police estimate," so its headline and body figures contradict each other. The reported estimate for the Sungnyemun rally is about 9,000.

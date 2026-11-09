@@ -2,8 +2,6 @@
 id: 2026-09-30-toktok-lee-classified-doc-sns
 title: "Controversy over President Lee posting a document marked 'confidential' on social media — opposition alleges 'surveillance of the election-commission special counsel'; presidential office says it was a police report and posting it was no problem; the thumbnail's '2 years in prison' is the statutory maximum"
 description: "A reel says Lee posted a document marked 'confidential'; the PPP reportedly cited a special-counsel line, and his office said it was a police report."
-imageAlt: "Photo of President Lee Jae-myung beside a captured document marked '對外秘' (confidential) and dated Sept. 29, 2026 (Tue.), overlaid with the text 'Lee Jae-myung, addicted to social media, exposes a confidential document to boast of results — leaking secrets: 2 years in prison'"
-imageCaption: "Thumbnail of the original reel"
 attribution: "Instagram @toktok_daily_issue"
 translatedAt: 2026-09-30
 ---

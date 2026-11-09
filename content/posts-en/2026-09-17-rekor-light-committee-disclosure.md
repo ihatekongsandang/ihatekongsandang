@@ -2,8 +2,6 @@
 id: 2026-09-17-rekor-light-committee-disclosure
 title: "\"A presidential committee with no website and no member list\" — New Daily (뉴데일리) reports the 'Committee of Light' (빛의위원회) was allotted 4.85 billion won in reserve funds this year and 7.88 billion won for next year, while its civilian member list is not easy for the public to find"
 description: "Instagram @rekor.rgt faults the presidential Committee of Light on disclosure; it reportedly has no website or public member list despite 12.7bn won budgeted."
-imageAlt: "Photo of an office entrance with a vertical sign reading 'Presidential Committee of Light' and a matching horizontal sign behind the information desk, overlaid with the text 'Presidential committee — no website, no member list' and the REKOR logo"
-imageCaption: "First slide of the original post (photo credited to New Daily (뉴데일리) in the original)"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-10-11
 ---

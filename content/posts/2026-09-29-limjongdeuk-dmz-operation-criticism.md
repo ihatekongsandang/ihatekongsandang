@@ -10,10 +10,6 @@ speaker:
   name: 임종득
   affiliation: 국민의힘 국회의원(예비역 육군 소장)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-limjongdeuk-dmz-operation-criticism/thumb.jpg
-  alt: "국방위원회에서 질의하는 임종득 의원과 강신철 국방부 장관 방송 화면 위에 '38년 군생활 하면서 이런 작전은 본 적이 없어요!' 문구가 얹힌 영상 장면"
-  caption: 원문 영상의 한 장면
 og:
   siteName: Threads
 sources:

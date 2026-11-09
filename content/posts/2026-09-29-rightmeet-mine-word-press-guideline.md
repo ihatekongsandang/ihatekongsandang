@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@right_meet/post/Dd5YdeICaTc
 attribution: 스레드 @right_meet
 useSourceImage: false
-image:
-  src: /images/2026-09-29-rightmeet-mine-word-press-guideline/thumb.jpg
-  alt: "남색 바탕에 채널A 뉴스 로고와 '채널A, 사건초기에 지침으로 \"지뢰라는 말도 못 썼다\"' 문구, 상단에 핀프 로고"
-  caption: 원문이 공유한 핀프(@finf_media) 카드 이미지
 og:
   siteName: Threads
 sources:

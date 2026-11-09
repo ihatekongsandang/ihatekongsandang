@@ -10,10 +10,6 @@ speaker:
   name: 한기호
   affiliation: 국민의힘 국회의원
 useSourceImage: false
-image:
-  src: /images/2026-09-29-osj17x-hankiho-president-instruction/thumb.jpg
-  alt: "국회 국방위원회에서 질의하는 한기호 의원과 답변석의 강신철 국방부 장관 방송 화면에 '그러니까 근본적으로 자신들이 한 행동에 대해서 변명만 하는 자리가 된 거예요' 자막"
-  caption: 원문이 첨부한 영상의 한 장면(채널A 중계 화면)
 og:
   siteName: Threads
 sources:

@@ -2,8 +2,6 @@
 id: 2026-09-29-osj17x-hankiho-president-instruction
 title: "Han Ki-ho: \"The battalion commander was injured — was there no presidential instruction until he returned?\" — ruling party calls it \"fake news\""
 description: "Rep. Han Ki-ho asked whether the president gave no instructions after the DMZ blast; reports do not confirm the JCS chairman said there were none."
-imageAlt: "Broadcast still of Rep. Han Ki-ho questioning and Defense Minister Kang Shin-chul at the witness stand, with the caption 'So it basically became a place where they only make excuses for what they did'"
-imageCaption: "A scene from the video attached to the original post (Channel A broadcast)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Threads @osj17x"
 translatedAt: 2026-09-30

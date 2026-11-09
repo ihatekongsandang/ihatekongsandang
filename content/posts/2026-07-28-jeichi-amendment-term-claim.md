@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DbU-2fEpXUB/
 attribution: 인스타그램 @jeichi_l
 useSourceImage: false
-image:
-  src: /images/2026-07-28-jeichi-amendment-term-claim/thumb.jpg
-  alt: "번개 치는 하늘 아래 국회의사당과 금이 간 '대한민국 헌법' 책 그림 위에 '2027년도 개헌 위기! 그 결말은?!' 문구"
-  caption: 원문 릴스 첫 화면
 og:
   siteName: Instagram
 sources:
