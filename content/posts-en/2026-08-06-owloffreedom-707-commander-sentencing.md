@@ -1,5 +1,5 @@
 ---
-id: 2026-08-06-owloffreedom-kimhyuntae-sentencing
+id: 2026-08-06-owloffreedom-707-commander-sentencing
 title: "Ex-707th Special Mission Group commander K: 18 years sought at the closing hearing, then sentenced to 12 years and taken into custody at first instance — the original relayed a final statement that 'martial law was the president's power, not illegal'"
 description: "Instagram @owl.of.freedom on ex-707th commander K's closing hearing; prosecutors sought 18 years on July 28, and a court reportedly gave 12 years on Aug. 27."
 attribution: "Instagram @owl.of.freedom"
@@ -16,7 +16,7 @@ This post is based on the original caption and first image. The original was pos
 ## What reports confirm
 
 - At the closing hearing before the Seoul Central District Court's Criminal Agreement Division 37-2 on July 28, the insurrection special counsel team led by Cho Eun-suk sought 18 years for the former 707th commander K, charged with engaging in critical duties of insurrection, 15 years for Lee and 12 years for Kim Dae-woo, among others, it was reported. The counsel reportedly likened them to "enforcers who, on the boss's orders, led gang members to commit violence."
-- On Aug. 27, the court sentenced the former 707th commander K to 12 years and took K into custody in court; Lee received 10 years and Kim Dae-woo 5 years, while former Defense Ministry investigation headquarters chief Park Heon-su (박헌수) and former Defense Intelligence Command planning chief K were acquitted, it was reported. Explaining the sentence, the court reportedly said, in effect, that the former 707th commander K showed no remorse, claiming to have followed a superior's lawful orders, and distorted the facts; K appealed the same day, according to reports.
+- On Aug. 27, the court sentenced the former 707th commander K to 12 years and took the former 707th commander K into custody in court; Lee received 10 years and Kim Dae-woo 5 years, while former Defense Ministry investigation headquarters chief Park Heon-su (박헌수) and former Defense Intelligence Command planning chief K were acquitted, it was reported. Explaining the sentence, the court reportedly said, in effect, that the former 707th commander K showed no remorse, claiming to have followed a superior's lawful orders, and distorted the facts; the former 707th commander K appealed the same day, according to reports.
 
 ## What we left out of the summary
 

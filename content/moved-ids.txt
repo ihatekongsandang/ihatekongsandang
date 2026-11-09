@@ -2,3 +2,4 @@
 # 형식: 한 줄에 `옛id 새id` (공백으로 구분). `#` 뒤는 주석.
 # 여기 적는 옛 id는 반드시 retired-ids.txt에도 있어야 한다(재사용 금지).
 # 예: example-old-id example-new-id
+2026-08-06-owloffreedom-kimhyuntae-sentencing 2026-08-06-owloffreedom-707-commander-sentencing

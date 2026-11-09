@@ -1,5 +1,5 @@
 ---
-id: 2026-08-06-owloffreedom-kimhyuntae-sentencing
+id: 2026-08-06-owloffreedom-707-commander-sentencing
 title: "전 707특임단장 ㄱ씨, 결심서 징역 18년 구형 후 1심 징역 12년·법정구속 — 원문은 결심 직후 '비상계엄은 대통령 권한, 불법 아냐' 최후진술을 전한 게시물"
 description: 인스타그램 @owl.of.freedom이 전 707특임단장 ㄱ씨의 결심공판 발언과 특검 구형을 전함. 특검은 7월 28일 징역 18년을 구형했고, 서울중앙지법은 8월 27일 내란중요임무종사 혐의로 징역 12년을 선고하고 법정구속한 것으로 보도됐습니다.
 publishedAt: 2026-08-06

@@ -1,0 +1,9 @@
+moved entries: 1
+rules: 2
+{"source":"/post/<OLD>","destination":"/post/2026-08-06-owloffreedom-707-commander-sentencing","permanent":true}
+{"source":"/en/post/<OLD>","destination":"/en/post/2026-08-06-owloffreedom-707-commander-sentencing","permanent":true}
+PASS /post/<OLD> -> /post/2026-08-06-owloffreedom-707-commander-sentencing
+PASS /en/post/<OLD> -> /en/post/2026-08-06-owloffreedom-707-commander-sentencing
+en translation exists for new id: true
+collectMovedIdErrors: 0
+ALL PASS
