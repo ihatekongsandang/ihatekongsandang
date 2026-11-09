@@ -10,10 +10,6 @@ speaker:
   name: 이진숙
   affiliation: 국민의힘 국회의원
 useSourceImage: false
-image:
-  src: /images/2026-09-29-leejinsook-assassins-film-distortion/thumb.jpg
-  alt: "국회 소통관에서 발언하는 이진숙 의원 사진 위에 '위대한 지도자를 패륜적 인물로 몰아가는 구역질 나는 거짓 선동, 역사 왜곡' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

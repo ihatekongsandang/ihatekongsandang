@@ -1,0 +1,30 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-10-01-hagonolza-opcon-transfer-risks	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-10-01-hagonolza-opcon-transfer-risks/thumb.jpg
+  caption 69자 · imageCaption 180자 · imageAlt 114자 · retrievedAt 2026-11-10
+2026-10-01-rekor-15div-mine-field	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-10-01-rekor-15div-mine-field/thumb.jpg
+2026-09-30-20hoon-prosecution-abolition-victim-guide	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-20hoon-prosecution-abolition-victim-guide/thumb.jpg
+2026-09-30-rekor-foreign-committee-dp-absence	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-rekor-foreign-committee-dp-absence/thumb.jpg
+2026-09-30-shindawit-nk-mdl-50-crossings	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-shindawit-nk-mdl-50-crossings/thumb.jpg
+2026-09-30-taekyu-assassins-film-fund-china	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-30-taekyu-assassins-film-fund-china/thumb.jpg
+2026-09-29-2pro-prosecution-sign-removal-cost	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-29-2pro-prosecution-sign-removal-cost/thumb.jpg
+  caption 74자 · imageCaption 224자 · imageAlt 186자 · retrievedAt 2026-11-10
+2026-09-29-finf-jcs-terrain-change-year	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-finf-jcs-terrain-change-year/thumb.jpg
+2026-09-29-finf-jinsungjoon-mine-intent	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-finf-jinsungjoon-mine-intent/thumb.jpg
+2026-09-29-leejinsook-assassins-film-distortion	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-leejinsook-assassins-film-distortion/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 167 · 자체 제작 67 · SNS 원문 저장본 100
+작업 트리: self 157 · 자체 제작 67 · SNS 원문 저장본 90
+
+결함 0건

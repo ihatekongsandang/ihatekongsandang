@@ -10,10 +10,6 @@ speaker:
   name: 김태규
   affiliation: 국민의힘 국회의원·원내수석대변인
 useSourceImage: false
-image:
-  src: /images/2026-09-30-taekyu-assassins-film-fund-china/thumb.jpg
-  alt: "영화 '암살자(들)' 스틸 이미지 위에 '상상력 빈곤을 역사 왜곡으로 채운 문화계와 비겁하게 침묵하는 당국을 규탄한다', '촬영 다 끝난 영화에 뒤늦게 투입된 거액의 혈세와 제작사로 흘러들어간 중국 국유 자본 유입 의혹' 문구, 하단에 국민의힘 김태규 원내수석대변인 논평 표시"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

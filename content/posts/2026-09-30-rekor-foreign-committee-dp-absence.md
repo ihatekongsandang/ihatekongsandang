@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd6FYuWgX_Y/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-30-rekor-foreign-committee-dp-absence/thumb.jpg
-  alt: "빈 의원석과 마이크가 놓인 국회 회의장 책상 사진 위에 'DMZ 대응 외친 민주당 국회 현안질의 전원 불참' 문구와 REKOR 로고"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

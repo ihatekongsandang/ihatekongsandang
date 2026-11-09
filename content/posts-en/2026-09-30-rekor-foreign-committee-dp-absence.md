@@ -2,8 +2,6 @@
 id: 2026-09-30-rekor-foreign-committee-dp-absence
 title: "\"Democratic Party called for a DMZ response, then skipped the Assembly inquiry\" — the Sept. 30 Foreign Affairs Committee session on the DMZ mine and North Korean POWs went ahead with only the People Power Party"
 description: "Instagram @rekor.rgt faults the DP for skipping a DMZ mine and POW inquiry; the Sept. 30 session reportedly ran PPP-only, without the two ministers."
-imageAlt: "Photo of a National Assembly committee table with empty lawmakers' seats and microphones, overlaid with the text 'The Democratic Party that called for a DMZ response — all absent from the Assembly inquiry' and the REKOR logo"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---

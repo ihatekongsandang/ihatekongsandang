@@ -2,8 +2,6 @@
 id: 2026-09-29-leejinsook-assassins-film-distortion
 title: "Lee Jin-sook: \"They wouldn't even allow debate on May 18, but the film 'Assassin(s)' hints Park Chung-hee was behind Yuk Young-soo's assassination\" — filmmakers face a complaint, call it 'cinematic imagination'"
 description: "Instagram @_leejinsook (Rep. Lee Jin-sook) says film 'Assassin(s)' implies Park Chung-hee was behind Yuk Young-soo's death; makers cite 'cinematic imagination.'"
-imageAlt: "Photo of Rep. Lee Jin-sook speaking at the National Assembly press room, overlaid with the text 'A nauseating, false smear campaign trying to paint a great leader as a monstrous figure — historical distortion'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_leejinsook (이진숙)"
 translatedAt: 2026-09-30

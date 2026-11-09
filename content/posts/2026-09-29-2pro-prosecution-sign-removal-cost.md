@@ -8,9 +8,15 @@ sourceUrl: https://www.threads.com/@2.pro.official/post/Dd4_uyADwiC
 attribution: 스레드 @2.pro.official (이프로)
 useSourceImage: false
 image:
-  src: /images/2026-09-29-2pro-prosecution-sign-removal-cost/thumb.jpg
-  alt: "'검찰' 글자를 떼어 낸 자국이 남은 청사 외벽과 '서울동부지방공소청' 간판 사진 위에 '검찰 이름 지우기 시작에만 65억 사용, 검찰청 폐지 D-2' 문구가 얹힌 이미지"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://newsimg.hankookilbo.com/2026/09/29/f815d647-4e1b-4892-b734-08fa029bde49.jpg
+  alt: "건물 위 '서울동부지방공소청' 글자 간판과, 아래 외벽에 떼어 낸 '검찰' 글자 자국 옆 '종합민원' 글자"
+  caption: "2026년 9월 29일 서울 송파구, 공소청 출범을 앞두고 '동부지방공소청'으로 바뀐 동부지방검찰청 현판(원 기사 사진 설명 기준)."
+  creditName: 한국일보
+  creditNameEn: The Hankook Ilbo
+  sourcePageUrl: https://www.hankookilbo.com/news/article/A2026092912590005163
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(건물 외벽·간판)
 og:
   siteName: Threads
 sources:

@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd6lb3tmA_8/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-09-30-shindawit-nk-mdl-50-crossings/thumb.jpg
-  alt: "'군사분계선 MILITARY DEMARCATION LINE' 표지판 앞에서 파헤쳐진 경계 지대를 바라보는 군인의 뒷모습 사진 위에 '북한, 8~9월 우리나라 50회 침범' 문구와 '신다윗의 브리핑' 표시"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

@@ -1,0 +1,36 @@
+1	hagonolza-opcon-transfer-risk	200	200 image/jpeg 33331
+2	hagonolza-opcon-transfer-risk	200	200 image/jpeg 96971
+3	hagonolza-opcon-transfer-risk	200	200 image/jpeg 123925
+4	hagonolza-opcon-transfer-risk	200	200 image/jpeg 841406
+5	rekor-15div-mine-field	200	200 image/jpeg 45321
+6	rekor-foreign-committee-dp-ab	200	200 image/jpeg 65030
+7	rekor-foreign-committee-dp-ab	200	200 image/jpeg 37462
+8	rekor-foreign-committee-dp-ab	200	200 image/jpeg 88699
+9	rekor-foreign-committee-dp-ab	200	200 image/jpeg 31144
+10	rekor-foreign-committee-dp-ab	200	200 image/jpeg 103291
+11	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 199535
+12	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 39895
+13	shindawit-nk-mdl-50-crossings	200	200 image/png 2200686
+14	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 84457
+15	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 24864
+16	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 68587
+17	shindawit-nk-mdl-50-crossings	200	200 image/jpeg 122227
+18	shindawit-nk-mdl-50-crossings	200	  0
+19	taekyu-assassins-film-fund-ch	200	200 image/jpeg 17525
+20	taekyu-assassins-film-fund-ch	200	200 image/jpeg 68414
+21	taekyu-assassins-film-fund-ch	200	200 image/jpeg 39695
+22	taekyu-assassins-film-fund-ch	200	200 image/jpeg 21768
+23	2pro-prosecution-sign-removal	200	200 image/jpeg 131695
+24	2pro-prosecution-sign-removal	200	200 image/jpeg 63251
+25	2pro-prosecution-sign-removal	200	200 image/jpeg 197045
+26	finf-jcs-terrain-change-year	200	200 image/jpeg 1752727
+27	finf-jcs-terrain-change-year	200	200 image/jpeg 28998
+28	finf-jcs-terrain-change-year	200	200 image/jpeg 37885
+29	finf-jinsungjoon-mine-intent	200	200 image/jpeg 1046645
+30	finf-jinsungjoon-mine-intent	200	200 image/jpeg 37019
+31	finf-jinsungjoon-mine-intent	200	200 image/jpeg 71221
+32	finf-jinsungjoon-mine-intent	200	200 image/jpeg 1270332
+33	leejinsook-assassins-film-dis	200	200 image/jpeg 241685
+34	leejinsook-assassins-film-dis	200	200 image/jpeg 117609
+35	leejinsook-assassins-film-dis	200	200 image/jpeg 323654
+기사 35건

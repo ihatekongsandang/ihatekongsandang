@@ -2,8 +2,6 @@
 id: 2026-09-30-taekyu-assassins-film-fund-china
 title: "Kim Tae-gyu: \"Taxpayer money for 'Assassin(s)' after filming ended, suspicions of Chinese state capital — why is the culture ministry silent?\" — the 34 billion won figure is the fund's government share; the producer says \"no Chinese capital at all\""
 description: "PPP spokesperson Kim Tae-gyu alleges late public funding and Chinese state capital behind 'Assassin(s)'; the producer reportedly denies any Chinese capital."
-imageAlt: "Still from the film 'Assassin(s)' overlaid with the text 'We condemn the cultural sector that filled its poverty of imagination with historical distortion and the authorities who cowardly stay silent' and 'Huge taxpayer money belatedly put into a film that had finished shooting, and suspicions of Chinese state capital flowing into the producer,' marked as a commentary by PPP senior floor spokesperson Kim Tae-gyu"
-imageCaption: "First slide of the original post"
 speakerAffiliation: "People Power Party lawmaker and senior floor spokesperson"
 attribution: "Instagram @taekyuster (김태규)"
 translatedAt: 2026-09-30

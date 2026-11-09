@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd7Zm8Yk0t2/
 attribution: 인스타그램 @20hoon_lawpro
 useSourceImage: false
-image:
-  src: /images/2026-09-30-20hoon-prosecution-abolition-victim-guide/thumb.jpg
-  alt: "작업자들이 검찰청 건물 외벽의 '검찰' 글자 간판을 떼어내는 사진 위에 '검찰청 폐지 D-1 당신은 준비되어 있습니까?' 문구"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

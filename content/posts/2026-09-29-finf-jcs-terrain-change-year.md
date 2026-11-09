@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd27tq-zrU4/
 attribution: 인스타그램 @finf_media (핀프)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-finf-jcs-terrain-change-year/thumb.jpg
-  alt: "국방부 브리핑에서 답변하는 군 관계자 사진 위에 '합참 해명에 기자단 질타, 1년간 뭐했나' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

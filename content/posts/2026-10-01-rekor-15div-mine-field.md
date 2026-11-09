@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd9Cem0AU8A/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-10-01-rekor-15div-mine-field/thumb.jpg
-  alt: "흐릿한 숲 속에서 군인 여러 명이 몸을 숙이고 있는 영상 화면 위에 '25사단 이어 15사단도 북한 지뢰 위협 포착' 문구와 REKOR 로고"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

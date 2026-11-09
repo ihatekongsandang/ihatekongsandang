@@ -10,10 +10,6 @@ speaker:
   name: 진성준
   affiliation: 더불어민주당 국회의원(국회 국방위원장)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-finf-jinsungjoon-mine-intent/thumb.jpg
-  alt: "태극기를 배경으로 한 진성준 의원 얼굴 사진에 게시 매체 로고가 얹힌 썸네일"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

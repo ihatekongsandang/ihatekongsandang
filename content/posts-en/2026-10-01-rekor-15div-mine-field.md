@@ -2,8 +2,6 @@
 id: 2026-10-01-rekor-15div-mine-field
 title: "\"After the 25th Division, a North Korean mine threat is spotted in the 15th Division too\" — MBN reports digging traces north of the MDL and mine boxes being carried in the central-front 15th Division area, but mine-laying south of the MDL is reported only as 'signs'"
 description: "Instagram @rekor.rgt cites MBN on a North Korean mine threat in the 15th Division area; MBN reportedly saw digging north of the MDL and signs of mines south."
-imageAlt: "Blurry video frame of several soldiers crouching in a wooded area, overlaid with the text 'After the 25th Division, a North Korean mine threat is spotted in the 15th Division too' and the REKOR logo"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-10-02
 ---

@@ -2,8 +2,8 @@
 id: 2026-09-29-2pro-prosecution-sign-removal-cost
 title: "D-2 to abolishing the Prosecutors' Office: 6.5 billion won in reserve funds to erase 'Prosecution' signage — subway sign replacement also estimated at 1.24 billion won"
 description: "Threads @2.pro.official says 6.5 billion won was spent erasing 'Prosecution' signage before the Oct. 2 abolition; reports say it was earmarked as reserve funds."
-imageAlt: "Photo of a building exterior with marks left from removed 'Prosecution' lettering and a sign reading 'Seoul Eastern District Public Prosecution Agency,' overlaid with the text '6.5 billion won spent just to start erasing the prosecution's name — D-2 to the Prosecutors' Office's abolition'"
-imageCaption: "Image of the original post"
+imageAlt: "A building sign reading 'Seoul Eastern District Public Prosecution Office,' with the faint outline of removed 'prosecution' (검찰) letters on the wall below beside the word 'Civil Affairs'"
+imageCaption: "The Seoul Eastern District Prosecutors' Office sign in Songpa-gu, Seoul, changed to 'Eastern District Public Prosecution Office' ahead of the new office's launch, on Sept. 29, 2026 (per the original article's photo caption)."
 attribution: "Threads @2.pro.official (이프로)"
 translatedAt: 2026-09-30
 ---

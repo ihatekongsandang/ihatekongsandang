@@ -2,8 +2,6 @@
 id: 2026-09-30-20hoon-prosecution-abolition-victim-guide
 title: "\"One day before the Prosecutors' Office is abolished: three things victims and complainants should check\" — a lawyer's card; the rule that statements from prosecutor interviews cannot be used as evidence is confirmed in the amended Criminal Procedure Act"
 description: "A lawyer's card tells victims what to check after the Oct. 2 abolition; the amended law bars evidentiary use of statements prosecutors obtain in interviews."
-imageAlt: "Photo of workers removing the 'Prosecution' lettering from the facade of a prosecutors' office building, overlaid with the text 'Prosecutors' Office abolition D-1: Are you ready?'"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @20hoon_lawpro"
 translatedAt: 2026-10-01
 ---

@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/Dd78slLCZPI/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
 image:
-  src: /images/2026-10-01-hagonolza-opcon-transfer-risks/thumb.jpg
-  alt: "파이낸셜뉴스 '[속보]李대통령 \"자주국방은 곧 주권, 전작권 환수로 마침표\"' 기사 화면(입력 2026.10.01. 오전 10:37)과 '파이낸셜뉴스 속보 BREAKING NEWS' 이미지"
-  caption: 원문 게시물 첫 장
+  kind: news
+  src: https://image.fnnews.com/resource/media/image/2026/10/01/202610011402386307_e.jpg
+  alt: "태극기와 군 깃발들 앞 연단에서 마이크 두 개를 두고 말하는 이재명 대통령"
+  caption: "2026년 10월 1일 충남 계룡대 제78회 국군의 날 기념오찬, 이재명 대통령이 발언하는 모습(원 기사 사진 설명 기준)."
+  creditName: 청와대통신사진기자단
+  creditNameEn: Cheong Wa Dae press pool
+  sourcePageUrl: https://www.fnnews.com/news/202610011419427043
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대통령 — 국군의 날 기념오찬 발언(공식 행사) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

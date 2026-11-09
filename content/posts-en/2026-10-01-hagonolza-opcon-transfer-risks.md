@@ -2,8 +2,8 @@
 id: 2026-10-01-hagonolza-opcon-transfer-risks
 title: "President Lee: \"Self-reliant defense is sovereignty; wartime OPCON transfer will complete it\" — @hagonolza lists four concerns, saying a 'rushed transfer' without readiness is the biggest risk"
 description: "President Lee reportedly vowed on Oct. 1 to complete self-reliant defense by regaining wartime OPCON; Instagram @hagonolza lists 4 risks of a rushed transfer."
-imageAlt: "Screen of a Financial News (파이낸셜뉴스) article, '[Breaking] President Lee: \"Self-reliant defense is sovereignty; wartime OPCON transfer will complete it\"' (posted Oct. 1, 2026, 10:37 a.m.), with a 'Financial News Breaking News' graphic"
-imageCaption: "First slide of the original post"
+imageAlt: "President Lee Jae-myung speaking at a podium with two microphones in front of the national flag and military flags"
+imageCaption: "President Lee Jae-myung speaking at a luncheon for the 78th Armed Forces Day at Gyeryongdae, South Chungcheong Province, on Oct. 1, 2026 (per the original article's photo caption)."
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-10-02
 ---
