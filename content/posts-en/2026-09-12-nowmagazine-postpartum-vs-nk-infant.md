@@ -2,8 +2,6 @@
 id: 2026-09-12-nowmagazine-postpartum-vs-nk-infant
 title: "Backlash over Gyeonggi ending its 500,000-won postpartum care subsidy — \"but there's 155.8 billion for North Korean infants?\" comparison post"
 description: "Instagram @now._.magazine contrasts Gyeonggi ending postpartum aid with a 155.8B won NK infant budget; a petition to keep it reportedly hit 10,000 in a day."
-imageAlt: "President Lee Jae-myung clapping at an event"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @now._.magazine (나우 매거진)"
 translatedAt: 2026-10-13
 ---

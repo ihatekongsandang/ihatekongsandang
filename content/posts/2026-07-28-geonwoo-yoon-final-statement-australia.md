@@ -10,10 +10,6 @@ speaker:
   name: 윤석열
   affiliation: 전 대통령(발언 주체)
 useSourceImage: false
-image:
-  src: /images/2026-07-28-geonwoo-yoon-final-statement-australia/thumb.jpg
-  alt: "법정에서 발언하는 윤석열 전 대통령 영상 캡처와 '尹, 눈빛 돌변해 최후진술' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

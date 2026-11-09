@@ -2,8 +2,6 @@
 id: 2026-07-28-geonwoo-ebs-video-removal
 title: "Controversy over EBS hiding its video 'Why I Get Poorer When the Government Hands Out Money' — EBS cites \"a licensing contract and misreading comments\""
 description: "Instagram @geonwoo.vibes suspects an EBS economics video was pulled for criticizing the government; EBS reportedly cited licensing and misreading comments."
-imageAlt: "First screen of the reel with the caption 'EBS video has disappeared — media and education control?'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

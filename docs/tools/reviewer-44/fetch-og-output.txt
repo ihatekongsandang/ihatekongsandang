@@ -1,0 +1,27 @@
+1	geonwoo-ebs-video-removal	200	200 image/jpeg 22432
+2	geonwoo-ebs-video-removal	200	200 image/jpeg 21617
+3	geonwoo-yoon-final-statement-	200	200 image/jpeg 437149
+4	geonwoo-yoon-final-statement-	200	200 image/jpeg 63604
+5	geonwoo-yoon-final-statement-	200	200 image/jpeg 491651
+6	dictatorshipnono-jeju-missing	200	200 image/jpeg 60161
+7	dictatorshipnono-jeju-missing	200	200 image/jpeg 1046192
+8	dictatorshipnono-jeju-missing	200	200 image/jpeg 51421
+9	dictatorshipnono-jeju-missing	200	200 image/jpeg 65534
+10	taekyu-statistics-audit-probe	200	200 image/jpeg 1041351
+11	taekyu-statistics-audit-probe	200	200 image/jpeg 93558
+12	taekyu-statistics-audit-probe	200	200 image/jpeg 32720
+13	ansanheart-academy-merger	200	200 image/jpeg 433730
+14	ansanheart-academy-merger	200	200 image/jpeg 159091
+15	currentwaves-pm-amendment-sli	200	200 image/jpeg 206655
+16	currentwaves-pm-amendment-sli	200	200 image/jpeg 945532
+17	currentwaves-nk-hr-report-cla	200	200 image/jpeg 165101
+18	currentwaves-nk-hr-report-cla	200	200 image/jpeg 111251
+19	nowmagazine-postpartum-vs-nk-	200	200 image/jpeg 193598
+20	nowmagazine-postpartum-vs-nk-	200	200 image/jpeg 66024
+21	nowmagazine-postpartum-vs-nk-	200	200 image/jpeg 40979
+22	nowmagazine-postpartum-vs-nk-	200	200 image/png 189251
+23	geonwoo-brother-hospitalizati	200	200 image/jpeg 89275
+24	geonwoo-brother-hospitalizati	200	200 image/jpeg 105346
+25	geonwoo-brother-hospitalizati	200	200 image/jpeg 130647
+26	geonwoo-brother-hospitalizati	200	200 image/jpeg 158281
+기사 26건

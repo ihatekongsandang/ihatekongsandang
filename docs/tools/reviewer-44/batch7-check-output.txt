@@ -1,0 +1,30 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-07-24-korealive-woohai-moreugo	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-24-korealive-woohai-moreugo/thumb.jpg
+2026-07-28-geonwoo-ebs-video-removal	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-28-geonwoo-ebs-video-removal/thumb.jpg
+2026-07-28-geonwoo-yoon-final-statement-australia	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-28-geonwoo-yoon-final-statement-australia/thumb.jpg
+2026-08-24-dictatorshipnono-jeju-missing-false-closure	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-08-24-dictatorshipnono-jeju-missing-false-closure/thumb.jpg
+2026-09-03-taekyu-statistics-audit-probe	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-03-taekyu-statistics-audit-probe/thumb.jpg
+2026-09-10-ansanheart-academy-merger	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-10-ansanheart-academy-merger/thumb.jpg
+2026-09-10-currentwaves-pm-amendment-slip	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-10-currentwaves-pm-amendment-slip/thumb.jpg
+  caption 70자 · imageCaption 194자 · imageAlt 98자 · retrievedAt 2026-11-10
+2026-09-11-currentwaves-nk-hr-report-classified	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-11-currentwaves-nk-hr-report-classified/thumb.jpg
+2026-09-12-nowmagazine-postpartum-vs-nk-infant	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-12-nowmagazine-postpartum-vs-nk-infant/thumb.jpg
+2026-09-13-geonwoo-brother-hospitalization-case	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-13-geonwoo-brother-hospitalization-case/thumb.jpg
+  caption 138자 · imageCaption 333자 · imageAlt 87자 · retrievedAt 2026-11-10
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 147 · 자체 제작 67 · SNS 원문 저장본 80
+작업 트리: self 137 · 자체 제작 67 · SNS 원문 저장본 70
+
+결함 0건

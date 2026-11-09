@@ -11,9 +11,15 @@ speaker:
   affiliation: 인스타그램 이용자
 useSourceImage: false
 image:
-  src: /images/2026-09-13-geonwoo-brother-hospitalization-case/thumb.jpg
-  alt: "수화기를 들고 웃는 이재명 대통령 사진 위에 '선 완전히 넘어버린 사건, 더 이상은 못 참겠습니다' 자막"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://img.seoul.co.kr//img/upload/2019/03/11/SSI_20190311234426_O2.jpg
+  alt: "흰 배경 앞에 서 있는 정장 차림의 이재명 당시 경기지사"
+  caption: "2019년 3월 11일 수원지법 성남지원 9차 공판에 출석하는 이재명 당시 경기지사(원 기사 사진 설명 기준). 2020년 무죄 선고가 보도된 재판입니다. 이 사진은 해당 일정의 장면일 뿐 게시물이 전하는 의혹·재판 내용의 근거가 아니며, 그 내용은 아래 출처 보도 기준입니다."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.seoul.co.kr/news/society/law/2019/03/11/20190311500235
+  retrievedAt: 2026-11-10
+  faceNote: 당시 광역단체장(현 대통령) — 공개 법정 출석(보도사진) — 원 기사 사진 설명 · 재판 당사자 본인(정책 §3.6 2행 문구)
 og:
   siteName: Instagram
 sources:

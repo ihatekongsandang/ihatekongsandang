@@ -2,8 +2,6 @@
 id: 2026-09-10-ansanheart-academy-merger
 title: "\"Merging doesn't make it reform\" — reel criticizing the merger of the three service academies"
 description: "Instagram @ansanheart posts an ex-Naval Academy head's remarks, urging reform and verification before a merger; 46 ex-chiefs' call for review was also reported."
-imageAlt: "A former Naval Academy superintendent holding a microphone at a public hearing on creating the Korea Armed Forces Academy, with the caption 'Former Naval Academy superintendent applauded for flawless logic'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user (@ansanheart)"
 attribution: "Instagram @ansanheart (김요엘)"
 translatedAt: 2026-09-30

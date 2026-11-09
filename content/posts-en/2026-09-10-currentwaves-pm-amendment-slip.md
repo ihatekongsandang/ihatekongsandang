@@ -2,8 +2,8 @@
 id: 2026-09-10-currentwaves-pm-amendment-slip
 title: "Prime Minister Han Sung-sook answers \"a constitutional amendment\" when asked about the 'No. 1 national goal,' then corrects herself — interpellation reel"
 description: "Instagram @current_waves_ recaps PM Han Sung-sook naming \"constitutional amendment\" as Lee's top goal, then correcting; Jang Dong-hyuk reportedly slammed it."
-imageAlt: "Screen of Prime Minister Han Sung-sook answering at the interpellation session, with the caption 'It's a \"constitutional amendment\"!'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "Prime Minister Han Sung-sook answering at a lectern with two microphones in front of a wooden wall"
+imageCaption: "Prime Minister Han Sung-sook answering questions on politics during the interpellation session at a National Assembly plenary meeting on Sept. 9, 2026 (per the original article's photo caption)."
 speakerAffiliation: "Prime Minister (the speaker)"
 attribution: "Instagram @current_waves_ (커런트 웨이브스)"
 translatedAt: 2026-09-30

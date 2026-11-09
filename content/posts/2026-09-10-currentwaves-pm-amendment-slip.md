@@ -11,9 +11,15 @@ speaker:
   affiliation: 국무총리(발언 주체)
 useSourceImage: false
 image:
-  src: /images/2026-09-10-currentwaves-pm-amendment-slip/thumb.jpg
-  alt: "대정부질문에서 답변하는 한성숙 총리 화면과 ''개헌'입니다!' 자막"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/09/134637479.1.jpg
+  alt: "나무 벽 앞 발언대에서 마이크 두 개를 두고 답변하는 한성숙 국무총리"
+  caption: "2026년 9월 9일 국회 본회의 대정부 질문, 한성숙 국무총리가 정치 분야 질문에 답변하는 모습(원 기사 사진 설명 기준)."
+  creditName: 뉴스1
+  creditNameEn: News1
+  sourcePageUrl: https://www.donga.com/news/Politics/article/all/20260909/134637243/2
+  retrievedAt: 2026-11-10
+  faceNote: 현직 국무총리 — 국회 대정부 질문 답변 — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

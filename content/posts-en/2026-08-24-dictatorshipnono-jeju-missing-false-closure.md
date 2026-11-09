@@ -2,8 +2,6 @@
 id: 2026-08-24-dictatorshipnono-jeju-missing-false-closure
 title: "Police officer arrested for 'falsely closing' a missing-person report in Jeju — all 298 missing-person cases he handled under review"
 description: "Instagram @dictatorshipnono cites a Jeju missing-person death; the officer accused of faking closure was reportedly arrested Aug. 25, with 298 cases rechecked."
-imageAlt: "First screen of the reel with the text 'Breaking: Jeju is Chinese land', a flag on a beach and people standing in line"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @dictatorshipnono (깨어있는눈)"
 translatedAt: 2026-09-30
 ---

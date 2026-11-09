@@ -2,8 +2,8 @@
 id: 2026-09-13-geonwoo-brother-hospitalization-case
 title: "Reel revisiting sister-in-law Park In-bok's press conference and court testimony in the 'forced hospitalization of his older brother' case — President Lee acquitted at the 2020 retrial on remand"
 description: "Instagram @geonwoo.vibes revisits Lee's sister-in-law Park In-bok's 2018–19 remarks in the brother case; Lee was reportedly acquitted on both charges by 2020."
-imageAlt: "Photo of President Lee Jae-myung smiling while holding a telephone receiver, overlaid with the caption 'A case that completely crossed the line — I can't take it anymore'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "Lee Jae-myung, then governor of Gyeonggi Province, in a suit against a white background"
+imageCaption: "Lee Jae-myung, then governor of Gyeonggi Province, arriving for the ninth hearing at the Seongnam branch of the Suwon District Court on March 11, 2019 (per the original article's photo caption). He was reportedly acquitted in this trial in 2020. The photo shows only that event; it is not evidence of the allegations or trials in this post, which are based on the reports cited below."
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

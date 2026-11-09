@@ -2,8 +2,6 @@
 id: 2026-09-03-taekyu-statistics-audit-probe
 title: "Rep. Kim Tae-gyu: \"Those who manipulated are fine, while those who uncovered it are investigated\" — Board of Audit and Inspection acknowledges 'coercive audit' of Moon-era statistics, files complaints against 9 auditors"
 description: "PPP Rep. Kim Tae-gyu faults probes of officials who audited alleged Moon-era stats rigging; the audit board reportedly filed complaints against 9 auditors."
-imageAlt: "Text reading 'Those who manipulated are fine, while those who uncovered it are investigated' and a photo of a wall"
-imageCaption: "Image of the original post"
 speakerAffiliation: "People Power Party lawmaker and chief floor spokesperson"
 attribution: "Instagram @taekyuster (김태규)"
 translatedAt: 2026-09-30

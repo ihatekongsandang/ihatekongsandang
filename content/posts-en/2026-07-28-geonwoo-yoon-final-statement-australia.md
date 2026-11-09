@@ -2,8 +2,6 @@
 id: 2026-07-28-geonwoo-yoon-final-statement-australia
 title: "Former President Yoon Suk Yeol's final statement at the 'Ambassador to Australia Lee Jong-sup' trial: \"Pursued under diplomatic powers; all responsibility is mine\" — acquitted at first instance in September"
 description: "Instagram @geonwoo.vibes recaps Yoon's final words in the Lee Jong-sup envoy trial; he reportedly took all blame and was acquitted at first instance Sept. 11."
-imageAlt: "Video capture of former President Yoon Suk Yeol speaking in court, with the caption 'Yoon's gaze changes as he delivers his final statement'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Former president (the speaker)"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

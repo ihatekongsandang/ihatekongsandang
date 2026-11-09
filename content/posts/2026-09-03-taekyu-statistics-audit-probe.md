@@ -10,10 +10,6 @@ speaker:
   name: 김태규
   affiliation: 국민의힘 국회의원·원내수석대변인
 useSourceImage: false
-image:
-  src: /images/2026-09-03-taekyu-statistics-audit-probe/thumb.jpg
-  alt: "'조작한 사람은 멀쩡한데 밝혀낸 사람은 수사받습니다' 문구와 담장 사진"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
