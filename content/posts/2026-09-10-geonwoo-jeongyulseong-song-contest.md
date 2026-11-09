@@ -6,7 +6,7 @@ publishedAt: 2026-09-10
 updatedAt: 2026-10-15
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdGY2oUzH93/
-attribution: 인스타그램 @geonwoo.vibes (박건우)
+attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
 image:
   src: /images/2026-09-10-geonwoo-jeongyulseong-song-contest/thumb.jpg

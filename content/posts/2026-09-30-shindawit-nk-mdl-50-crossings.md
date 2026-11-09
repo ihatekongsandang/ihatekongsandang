@@ -6,7 +6,7 @@ publishedAt: 2026-09-30
 updatedAt: 2026-10-14
 sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd6lb3tmA_8/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 og:
   siteName: Instagram

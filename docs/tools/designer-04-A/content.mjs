@@ -25,7 +25,7 @@ export const FOOT_EN = {
 export const CARDS = [
   { d: '11-08', k: 'photo', c: '대통령실', t: `인스타그램 "대진연의 과거" — 2019년 2월 광화문 '김정은 방남 환영' 회견, 참석자 상당수가 대진연 회원이었다고 보도됨` },
   { d: '11-05', k: 'none', t: `스레드 "[속보]" — "민주당 주도로 김태규 의원 제명 촉구 결의안 가결", 찬성 166표·국민의힘 표결 불참(보도)`, up: '11-09' },
-  { d: '11-04', k: 'photo', c: '국회', t: `이진숙 의원 "12·3 계엄 때 상관 명령 따른 군인들에 내란범 낙인·중징계" — 유선민 중령과 국회 기자회견` },
+  { d: '11-04', k: 'photo', c: '국회', t: `이진숙 의원 "12·3 계엄 때 상관 명령 따른 군인들에 내란범 낙인·중징계" — 중령 ㅇ씨와 국회 기자회견` },
   { d: '11-03', k: 'photo', c: '연합뉴스', t: `"북한 비판했다고 처벌 논란?" — 해병대 "훈련장 사진 군사보안 문제로 삭제 권고, 북한 비방 이유 징계 없다"` },
   { d: '11-03', k: 'none', t: `"우리 북한의 김정일, 또 김일성 주석의 노력이 폄훼되지 않도록" — 2024년 1월 당시 이재명 민주당 대표 발언 재조명` },
   { d: '11-01', k: 'photo', c: '조선일보', t: `"전쟁 나면 임기 연장…이재명은 염두에 두고 있다"? — 유튜브 영상 출연자의 개인 추론, 본인도 "추론이고 예상"` },
@@ -40,7 +40,7 @@ export const LONGEST = `"젤렌스키 폭로, 이재명 정부가 러시아 연�
 export const CARDS_EN = [
   { d: 'Nov 8', k: 'photo', c: 'Presidential Office', t: `Instagram post on "Daejinyeon's past": many attendees at a February 2019 Gwanghwamun event welcoming a Kim Jong Un visit to Seoul were members of the group, reports said` },
   { d: 'Nov 5', k: 'none', t: `Threads post labeled "[Breaking]": "Resolution urging expulsion of lawmaker Kim Tae-kyu passes, led by the Democratic Party," with 166 in favor as the People Power Party boycotts the vote (reports)` },
-  { d: 'Nov 4', k: 'photo', c: 'National Assembly', t: `Rep. Lee Jin-sook: "Soldiers who followed superiors' orders during the Dec. 3 martial law branded insurrectionists and heavily disciplined" — National Assembly press conference with Lt. Col. Yu Seon-min` },
+  { d: 'Nov 4', k: 'photo', c: 'National Assembly', t: `Rep. Lee Jin-sook: "Soldiers who followed superiors' orders during the Dec. 3 martial law branded insurrectionists and heavily disciplined" — National Assembly press conference with Lt. Col. Y` },
   { d: 'Nov 1', k: 'photo', c: 'Chosun Ilbo', ko: true, t: `"전쟁 나면 임기 연장…이재명은 염두에 두고 있다"? — 유튜브 영상 출연자의 개인 추론, 본인도 "추론이고 예상"` },
 ]
 export const TAGS = [['dmz', 40], ['이재명', 29], ['중국', 20], ['북한', 18], ['25사단', 17], ['합참', 17], ['목함지뢰', 16], ['국민의힘', 15], ['국가보안법', 14], ['더불어민주당', 12], ['통일부', 11], ['지뢰', 11], ['집회', 10], ['간첩', 8]]

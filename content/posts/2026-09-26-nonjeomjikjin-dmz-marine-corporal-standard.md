@@ -1,5 +1,5 @@
 ---
-id: 2026-09-26-nonjeomjikjin-dmz-chae-standard
+id: 2026-09-26-nonjeomjikjin-dmz-marine-corporal-standard
 title: "\"진상규명의 원칙은 누가 대통령이냐에 따라 달라질 수 없다\" — DMZ 폭발·채상병 사건 비교 게시물"
 description: 인스타그램 @nonjeomjikjin이 2023년 채상병 사건 때 이재명 당시 대표의 진상규명 요구를 들어 DMZ 폭발 사고에도 같은 기준을 적용하라고 주장함. 여당 박지원 의원도 "왜 닥치고 설명 못하느냐"며 정부를 비판한 것으로 보도됐습니다.
 publishedAt: 2026-09-28
@@ -26,7 +26,7 @@ sources:
     url: https://www.mt.co.kr/politics/2026/09/23/2026092318073421316
     date: 2026-09-23
   - type: 언론
-    name: 아주경제 — 이재명 "채수근 상병 죽음에 대해 정부 누구도 책임지지 않아"
+    name: 아주경제 — 이재명 "채 상병 죽음에 대해 정부 누구도 책임지지 않아"
     url: https://www.ajunews.com/view/20230816104412035
     date: 2023-08-16
 tags:

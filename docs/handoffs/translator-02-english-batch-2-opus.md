@@ -22,7 +22,7 @@
 3. **게시자/보도/사이트 구분(체크 3)**: 게시자의 말은 "It says / It relays / It claims / the poster"로 옮겼다. 보도는 "reportedly", 사이트의 확인·판단은 주어 없이 썼다. 원본 섹션이 "원문이 전한 내용 (게시자 전언)"이면 "What the original post reports (the poster's account)"로 옮겼다.
 4. **취지(체크 4)**: 인용부호를 쓰지 않고 "said, in effect, that …" / "to the effect of …" / "taken to mean …" / "in substance"로 옮겼다(issue365·nowandhere-625·yoon-final·amhaengeosa-lee·cheongju·kctu-appeal·geonwoo-nsl-mexico·hagonolza-country-insult).
 5. **계급·법률 용어(체크 5)**: 구속 = arrested, 구속기소 = arrested and indicted, 1심 = first-instance, 확정 = finalized, 편성 = earmarked, 의혹 = allegations/suspicions로 옮겼다. 병장은 체크리스트 계급표의 하사(= sergeant)와 겹치지 않게 **"enlisted sergeant (병장)"**으로, 일병은 Pfc., 경장은 "rank of senior officer"로 옮겼다.
-6. **직함(체크 6)**: 실장은 비서실장만 chief of staff로 옮겼다(진중권 게시물의 전형수 씨). 합참 공보실장은 "director of public affairs", 청와대 제1부속실장은 "director of the First Attached Office at Cheong Wa Dae (제1부속실장)"로 옮겼다. 대한인민공화국은 체크리스트 예시대로 `'Daehan People's Republic' (대한인민공화국)`으로 옮겼다. 공식 영문명을 확인하지 못한 언론사는 `로마자 (한글)`로 적었다(아래 표).
+6. **직함(체크 6)**: 실장은 비서실장만 chief of staff로 옮겼다(진중권 게시물의 ㅈ씨). 합참 공보실장은 "director of public affairs", 청와대 제1부속실장은 "director of the First Attached Office at Cheong Wa Dae (제1부속실장)"로 옮겼다. 대한인민공화국은 체크리스트 예시대로 `'Daehan People's Republic' (대한인민공화국)`으로 옮겼다. 공식 영문명을 확인하지 못한 언론사는 `로마자 (한글)`로 적었다(아래 표).
 7. **인명(체크 8)**: 한국인 인명은 본문 첫 등장 때 `Romanized (한글)`로 병기했다. 본문에 이름이 나오지 않는 2건(김계리·김소희)은 title에 병기했다. 기존 영어본에 있는 표기(Kang Shin-chul·Kim Kye-ri·Jin Sung-joon·Chung Dong-young·Kim Min-soo·Jung Jeom-sik·Park Choong-kwon·Kim Hyun-ji 등)는 그대로 썼다. 같은 글 안에서는 title·description·speakerAffiliation의 직함을 하나로 맞췄다(예: 김태규 = Rep. + "People Power Party lawmaker and chief floor spokesperson").
 8. **"옮기지 않았습니다"(체크 9)**: 모두 "was/were not reproduced"로 옮겼다. `not translated`는 78건에서 0건이다.
 9. **원본에 없는 것 추가 금지(체크 7)**: 배경 설명이나 완화어는 넣지 않았다. "somewhat unexpected"(혜경궁 게시물)는 경찰 입장문 "다소 의외"를 직접 인용한 것이라 유지했다. kasamo7 제목의 "allegedly"는 원본 alt에 있는 CNN 영어 원제("FBI arrests man allegedly helping …")에 맞춘 것이다.
@@ -115,7 +115,7 @@
 | 한글 | 영문 표기 | 근거·비고 |
 |---|---|---|
 | 전현희 | Jeon Hyun-hee | 관용 표기로 판단 — ⚠️ 확인 필요 |
-| 조명현 | Cho Myung-hyun | 성 Cho 관용(조희대=Cho와 통일) — ⚠️ 확인 필요 |
+| ㅈ씨 | C | 성 Cho 관용(조희대=Cho와 통일) — ⚠️ 확인 필요 |
 | 김혜경 | Kim Hye-kyung | 관용 |
 | 송미령 | Song Mi-ryung | ⚠️ 확인 필요 |
 | 유승민 · 정동영(기존) · 김영훈 | Yoo Seung-min · Chung Dong-young · Kim Young-hoon | 김영훈 ⚠️ 확인 필요 |
@@ -128,9 +128,9 @@
 | 한성숙 | Han Sung-sook | ⚠️ 확인 필요 |
 | 진중권 | Chin Jung-kwon | 관용으로 판단 — ⚠️ 확인 필요 |
 | 최재해 · 유병호 | Choe Jae-hae · Yoo Byung-ho | ⚠️ 확인 필요 |
-| 이종섭 · 이화영 · 이기식 · 이상현 · 이재선 · 이주희 | Lee Jong-sup · Lee Hwa-young · Lee Ki-sik · Lee Sang-hyun · Lee Jae-sun · Lee Ju-hee | 이 = Lee 관용 |
-| 박인복 · 박상용 · 배준영 · 서영교 · 신상진 | Park In-bok · Park Sang-yong · Bae Jun-young · Seo Young-kyo · Shin Sang-jin | ⚠️ 확인 필요 |
-| 장도영 · 정지웅 · 정태옥 · 제윤경 · 전형수 · 유창훈 · 최영진 | Jang Do-young · Jung Ji-woong · Jeong Tae-ok · Je Yoon-kyung · Jeon Hyeong-su · Yoo Chang-hoon · Choi Young-jin | ⚠️ 확인 필요(정 = Jung/Jeong 혼재 — 기존 영어본 정점식=Jung, 이번 정태옥=Jeong. 통일 여부 슈퍼바이저 판단) |
+| 이종섭 · 이화영 · 이기식 · 이상현 · ㅇ씨 · 이주희 | Lee Jong-sup · Lee Hwa-young · Lee Ki-sik · Lee Sang-hyun · L · Lee Ju-hee | 이 = Lee 관용 |
+| ㅂ씨 · 박상용 · 배준영 · 서영교 · 신상진 | P · Park Sang-yong · Bae Jun-young · Seo Young-kyo · Shin Sang-jin | ⚠️ 확인 필요 |
+| 장도영 · 정지웅 · 정태옥 · 제윤경 · ㅈ씨 · 유창훈 · 최영진 | Jang Do-young · Jung Ji-woong · Jeong Tae-ok · Je Yoon-kyung · J · Yoo Chang-hoon · Choi Young-jin | ⚠️ 확인 필요(정 = Jung/Jeong 혼재 — 기존 영어본 정점식=Jung, 이번 정태옥=Jeong. 통일 여부 슈퍼바이저 판단) |
 | 정율성 | Jeong Yul-seong | 중국명 Zheng Lücheng은 넣지 않음(원본에 없음) |
 | 안규백 | Ahn Gyu-back | 썸네일 자막 alt에만 등장 |
 | 우하이 (가수) · 「모르고」 | Woohai · "Moreugo" | 아티스트 공식 영문명 미확인 — ⚠️ 확인 필요 |

@@ -2,7 +2,7 @@
 id: 2026-09-27-geonwoo-corporate-card-whistleblower
 title: "Whistleblower C on the Gyeonggi corporate-card allegations: \"Had I looked away, I'd have felt guilty all my life\" — reflections five years after the tip-off"
 description: "Instagram @geonwoo.vibes relays whistleblower C's remarks and urges Lee's card-misuse trial to resume; it reportedly halted after Lee took office."
-attribution: "Instagram @geonwoo.vibes (박건우)"
+attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30
 ---
 

@@ -5,7 +5,7 @@ description: 인스타그램 @shin_dawit이 합참의 MDL 이남 북한 지뢰�
 publishedAt: 2026-10-05
 sourceType: url
 sourceUrl: https://www.instagram.com/p/DeHORpxmBLJ/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 image:
   src: /images/2026-10-05-shindawit-mdl-south-minefields-20m/thumb.jpg

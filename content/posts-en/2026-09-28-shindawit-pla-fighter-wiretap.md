@@ -2,7 +2,7 @@
 id: 2026-09-28-shindawit-pla-fighter-wiretap
 title: "Chinese man who wiretapped Korea-U.S. fighter-jet radio 13 times is a former PLA signals-intelligence officer — man in his 40s who recruited a USFK contact also a former special-forces member"
 description: "Instagram @shin_dawit reports both Chinese nationals reportedly indicted for wiretapping fighter-jet radio and leaking USFK data are former PLA members."
-attribution: "Instagram @shin_dawit (신다윗)"
+attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-25
 ---
 

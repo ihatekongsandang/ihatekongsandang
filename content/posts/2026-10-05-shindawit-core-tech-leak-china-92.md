@@ -5,7 +5,7 @@ description: 인스타그램 @shin_dawit이 국가핵심기술 해외유출 사�
 publishedAt: 2026-10-05
 sourceType: url
 sourceUrl: https://www.instagram.com/p/DeGhfQvmFVY/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 image:
   src: /images/2026-10-05-shindawit-core-tech-leak-china-92/thumb.jpg

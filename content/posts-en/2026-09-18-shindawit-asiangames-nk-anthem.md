@@ -4,7 +4,7 @@ title: "North Korean anthem played instead of South Korea's at an Asian Games ho
 description: "Instagram @shin_dawit recaps NK's anthem played instead of the South's at an Asian Games hockey match; the KSOC reportedly protested and organizers apologized."
 imageAlt: "Distant view of two teams lined up on a blue hockey pitch, with the Bangladeshi and South Korean flags held out in front"
 imageCaption: "The two teams lined up before the men's hockey match between South Korea and Bangladesh at the 2026 Aichi-Nagoya Asian Games, the match at which North Korea's anthem was played instead of South Korea's (provided by the Korean Sport & Olympic Committee, per the original article's photo caption)."
-attribution: "Instagram @shin_dawit (신다윗)"
+attribution: "Instagram @shin_dawit"
 translatedAt: 2026-09-30
 ---
 

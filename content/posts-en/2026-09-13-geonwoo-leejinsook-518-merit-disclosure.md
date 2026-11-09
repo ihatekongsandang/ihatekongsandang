@@ -4,7 +4,7 @@ title: "Lee Jin-sook: \"May 18 merit holders' records and selection procedures m
 description: "Instagram @geonwoo.vibes shares Rep. Lee Jin-sook's call to disclose May 18 merit records; she reportedly vowed a bill after the Aug. 26 expulsion resolution."
 imageAlt: "Rep. Lee Jin-sook looking back in front of a wooden wall, holding a phone and papers"
 imageCaption: "Rep. Lee Jin-sook of the People Power Party leaving the chamber at a National Assembly plenary session on Aug. 26, 2026, as a resolution urging her expulsion was taken up (per the original article's photo caption)."
-attribution: "Instagram @geonwoo.vibes (박건우)"
+attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30
 ---
 

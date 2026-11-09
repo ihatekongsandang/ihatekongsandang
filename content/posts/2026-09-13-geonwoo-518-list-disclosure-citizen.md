@@ -5,7 +5,7 @@ description: 인스타그램 @geonwoo.vibes가 민주당원이자 국가유공�
 publishedAt: 2026-09-13
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdO0kWsTQD5/
-attribution: 인스타그램 @geonwoo.vibes (박건우)
+attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
 image:
   src: /images/2026-09-13-geonwoo-518-list-disclosure-citizen/thumb.jpg

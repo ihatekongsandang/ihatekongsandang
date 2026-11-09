@@ -10,7 +10,7 @@ This post is based on the original caption; the video content was not reviewed. 
 
 ## What reports confirm
 
-- Reports say former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief Seok was indicted on charges including receiving North Korean directives 102 times between 2018 and 2022 and meeting North Korean agents abroad, and that about two weeks after the Itaewon disaster he received a directive to "create a situation like the truth-seeking struggle over the Sewol ferry disaster" and "unleash, to the fullest, the anger of all walks of life."
+- Reports say former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief S was indicted on charges including receiving North Korean directives 102 times between 2018 and 2022 and meeting North Korean agents abroad, and that about two weeks after the Itaewon disaster he received a directive to "create a situation like the truth-seeking struggle over the Sewol ferry disaster" and "unleash, to the fullest, the anger of all walks of life."
 - Reports say the first-instance court sentenced him to 15 years in prison, and that the appellate court (May 15, 2025) found some charges not guilty — for example, not recognizing the existence of the secret organization that was the premise of the charges — and reduced the sentence to nine years and six months.
 - The Supreme Court reportedly finalized the appellate ruling on Sept. 25, 2025.
 

@@ -5,7 +5,7 @@ description: 인스타그램 @shin_dawit이 2026 아이치·나고야 아시안�
 publishedAt: 2026-09-28
 sourceType: url
 sourceUrl: https://www.instagram.com/p/DdbHikNmAyO/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 image:
   kind: news

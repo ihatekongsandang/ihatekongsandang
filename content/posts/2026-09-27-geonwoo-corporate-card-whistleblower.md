@@ -5,7 +5,7 @@ description: 인스타그램 @geonwoo.vibes가 경기도 법인카드 사적 유
 publishedAt: 2026-09-27
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdytWNmz-rp/
-attribution: 인스타그램 @geonwoo.vibes (박건우)
+attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
 og:
   siteName: Instagram

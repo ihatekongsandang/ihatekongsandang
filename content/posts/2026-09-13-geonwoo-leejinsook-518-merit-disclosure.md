@@ -5,7 +5,7 @@ description: 인스타그램 @geonwoo.vibes가 이진숙 국민의힘 의원의 
 publishedAt: 2026-09-13
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdOjn6hzOvc/
-attribution: 인스타그램 @geonwoo.vibes (박건우)
+attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
 image:
   kind: news

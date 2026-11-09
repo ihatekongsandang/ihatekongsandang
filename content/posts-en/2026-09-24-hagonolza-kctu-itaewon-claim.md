@@ -10,9 +10,9 @@ This post is based on the original caption and the first image. The caption cite
 
 ## What reports confirm
 
-- Former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief Seok was reportedly indicted in May 2023 on charges including espionage and reported to have received North Korean directives 102 times between 2018 and 2022.
+- Former Korean Confederation of Trade Unions (KCTU) organizing and labor-dispute bureau chief S was reportedly indicted in May 2023 on charges including espionage and reported to have received North Korean directives 102 times between 2018 and 2022.
 - The directive concerning the Itaewon disaster was reportedly an email received **around Nov. 15, 2022, about two weeks after the disaster**, instructing them, "taking this extraordinary disaster as an opportunity … actively carry out organizing work to unleash, to the fullest, the anger of all walks of life."
-- Reports say the first-instance court (Suwon District Court, November 2024) sentenced Seok to 15 years in prison, but the appellate court (May 2025) found him not guilty on some charges — for example, not recognizing the existence of a secret organization — and reduced the sentence to nine years and six months, and that the Supreme Court finalized it on Sept. 25, 2025.
+- Reports say the first-instance court (Suwon District Court, November 2024) sentenced S to 15 years in prison, but the appellate court (May 2025) found him not guilty on some charges — for example, not recognizing the existence of a secret organization — and reduced the sentence to nine years and six months, and that the Supreme Court finalized it on Sept. 25, 2025.
 
 ## What we left out of the summary
 

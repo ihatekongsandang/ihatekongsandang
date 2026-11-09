@@ -2,7 +2,7 @@
 id: 2026-09-27-shindawit-nisi-mine-summary
 title: "DMZ blast: \"first NFS analysis presumes North Korean mine\" report, unexploded-mine testimony, Han Dong-hoon's \"deferring to North Korea\" claim — an issue-summary card"
 description: "Instagram @shin_dawit compiles the DMZ blast NFS report, the JCS response, troop testimony and Han Dong-hoon's claim; no official finding on the cause yet."
-attribution: "Instagram @shin_dawit (신다윗)"
+attribution: "Instagram @shin_dawit"
 translatedAt: 2026-09-30
 ---
 

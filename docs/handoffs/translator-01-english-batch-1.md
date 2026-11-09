@@ -107,7 +107,7 @@
 | 김홍희 | Kim Hong-hee | |
 | 한기성 | Han Ki-sung | ⚠️ 확인 필요(아래 미해결 참조) |
 | 장동혁 | Jang Dong-hyuk | |
-| 채수근 | Chae Su-geun | 계급은 "Cpl."(상병)로 표기 |
+| ㅊ씨(순직 해병) | Cpl. C | 계급은 "Cpl."(상병)로 표기 |
 | 유용원 | Yu Yong-weon | |
 | 이진숙 | Lee Jin-sook | |
 | 박정희 | Park Chung-hee | 기존 확립된 영문 표기 |
@@ -125,7 +125,7 @@
 | 조희대 | Cho Hee-dae | |
 | 김현지 | Kim Hyun-ji | |
 | 손봉기 | Son Bong-gi | |
-| 정진상 | Jung Jin-sang | |
+| ㅈ씨 | J | |
 | 박건우 | Park Geon-woo | attribution 괄호에만 사용 |
 | 주진우 | Joo Jin-woo | |
 | 유영하 | Yoo Young-ha | |
@@ -135,7 +135,7 @@
 | 김민수 | Kim Min-soo | 기존 관련 게시물과 동일 표기 |
 | 송영길 | Song Young-gil | 기존 확립된 영문 표기 |
 | 셰인바움(멕시코 대통령) | Claudia Sheinbaum | 한국인 아님 — 로마자+한글 병기 규칙 미적용, 실제 영문 성명 사용 |
-| David Wang(데이비드 왕) | David Wang | 원문·영문 매체 표기 그대로(중국인, 영문 이름이 이미 원문에 있음) |
+| ㅇ씨 | W | 원문·영문 매체 표기 그대로(중국인, 영문 이름이 이미 원문에 있음) |
 
 ## 주요 결정사항 (자체 판단 + 근거)
 

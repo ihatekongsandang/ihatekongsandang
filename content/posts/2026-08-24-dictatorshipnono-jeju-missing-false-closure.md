@@ -11,11 +11,11 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 뉴시스 — 제주 '장미란 실종 허위종결' 경찰관 구속…"도주·증거인멸 우려"(종합)
+    name: 뉴시스 — 제주 'ㅈ씨 실종 허위종결' 경찰관 구속…"도주·증거인멸 우려"(종합)
     url: https://www.newsis.com/view/NISX20260825_0003762362
     date: 2026-08-25
   - type: 언론
-    name: 헤럴드경제 — '장미란 씨 사건 허위 종결' 경찰관, 실종 298건 맡았다…오늘 구속영장 심사
+    name: 헤럴드경제 — 'ㅈ씨 사건 허위 종결' 경찰관, 실종 298건 맡았다…오늘 구속영장 심사
     url: https://biz.heraldcorp.com/article/10851131
     date: 2026-08-25
   - type: 언론

@@ -1,0 +1,211 @@
+# 리뷰어 52 C 문서 잔존 검사 (이름 없음)
+추적 파일 2489개 중 content/ 밖 2067개 · 텍스트로 검사 1480개(바이너리 제외)
+
+## A6 · #6 id 문자열 · A #6 인물 ㄱㅁㅇ — 13파일 · 21줄
+- docs/tools/planner-16/sns-image-batches.tsv: 136
+- docs/tools/programmer-11-1/share-check-output.txt: 7
+- docs/tools/programmer-11/share-check-output.txt: 7
+- docs/tools/programmer-14-1/aside-height-all.json: 269, 1925, 3581, 5237
+- docs/tools/reviewer-25/x-title-length-output.txt: 5
+- docs/tools/reviewer-26-1/old-p11-share-check-now.txt: 7, 33, 34
+- docs/tools/reviewer-26-1/share-check-rerun.txt: 7
+- docs/tools/reviewer-26/share-check-rerun.txt: 7
+- docs/tools/reviewer-26/x-truncation-audit-output.txt: 9
+- docs/tools/reviewer-31-1/aside-focus-all-output.json: 304, 2167, 4030, 5893
+- docs/triggers/uploader-16-sns-image-batch-14-COMPLETE.md: 18
+- history/2026-10-01.md: 34
+- instructions/uploader/processed/16-sns-image-batch-14.md: 14
+
+## B나 · 로마자 · P020 N1 ㅇㅎㅇ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 131
+
+## B나 · 로마자 · P034 N2 ㅊㅇㅈ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 133
+
+## B나 · 로마자 · P046 N1 ㄱㅁㅇ — 1파일 · 1줄
+- docs/tools/reviewer-26/x-truncation-audit-output.txt: 10
+
+## B나 · 로마자 · P050 N1 ㅇㅈㅅ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 131
+
+## B나 · 로마자 · P051 N1 ㅂㅇㅂ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 132
+
+## B나 · 로마자 · P054 N2 ㅈㅈㄱ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 129
+
+## B나 · 로마자 · P055 N1 ㅈㅎㅅ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 133
+
+## B나 · 로마자 · P057 N2 ㅇㅁㅎ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 126
+
+## B나 · 로마자 · P084 N2 ㄱㄱㄹ — 2파일 · 3줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 26
+- docs/tools/reviewer-48/batch11-check-output.txt: 40, 41
+
+## B나 · 로마자 · P089 N1 ㅊㅅㄱ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 110
+
+## B나 · 로마자 · P107 N1 ㅈㅈㅅ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 128
+
+## B나 · 로마자 · P111 N2 ㅅㅅㅎ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 132
+
+## B나 · 로마자 · P116 N3 ㅎㅈㅎ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 133
+
+## B나 · 로마자 · P172 N1 ㅇㅅㅁ — 9파일 · 9줄
+- design/v0.3-responsive/A1/mockup.html: 299
+- design/v0.3-responsive/A2/mockup.html: 302
+- design/v0.3-responsive/A3/mockup.html: 326
+- design/v0.3-responsive/B1/mockup.html: 254
+- design/v0.3-responsive/B2/mockup.html: 283
+- design/v0.3-responsive/B3/mockup.html: 265
+- design/v0.3-responsive/final/mockup.html: 301
+- docs/tools/designer-04-A/content.mjs: 43
+- docs/tools/designer-04-B/data.json: 1504
+
+## B나 · 로마자 · P194 N4 ㅁㅅㅌ — 1파일 · 1줄
+- docs/tools/reviewer-26/x-truncation-audit-output.txt: 25
+
+## B나 · 로마자 · P199 N1 ㄷㅇㅂㄷㅇ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 138
+
+## B나 · 로마자 · P214 N3 ㅇㅎㅇ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 136
+
+## B나 · 한글 · P020 N1 ㅇㅎㅇ — 5파일 · 5줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 131
+- docs/supervisor/drafts/2026-09-28-dy-dykim-nk-remittance-HOLD.md: 7
+- docs/supervisor/drafts/2026-09-28-held-recheck.md: 406
+- docs/tools/reviewer-30/gen.py: 115
+- docs/tools/reviewer-30/image-recheck.tsv: 96
+
+## B나 · 한글 · P034 N2 ㅊㅇㅈ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 133
+
+## B나 · 한글 · P046 N1 ㄱㅁㅇ — 1파일 · 1줄
+- history/2026-10-01.md: 34
+
+## B나 · 한글 · P050 N1 ㅇㅈㅅ — 2파일 · 3줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 131
+- docs/supervisor/drafts/2026-09-28-held-recheck.md: 59, 304
+
+## B나 · 한글 · P051 N1 ㅂㅇㅂ — 2파일 · 4줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 132
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 6, 7, 8
+
+## B나 · 한글 · P054 N2 ㅈㅈㄱ — 3파일 · 5줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 25, 129
+- docs/tools/designer-04-B/data.json: 1320
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 67, 68
+
+## B나 · 한글 · P055 N1 ㅈㅎㅅ — 1파일 · 2줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 25, 133
+
+## B나 · 한글 · P057 N2 ㅇㅁㅎ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 126
+
+## B나 · 한글 · P084 N2 ㄱㄱㄹ — 4파일 · 8줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 26, 43
+- docs/supervisor/drafts/2026-09-28-held-recheck.md: 544
+- docs/tools/reviewer-48/batch11-check-output.txt: 37, 38, 40, 41
+- docs/tools/translator-02/review-notes.tsv: 9
+
+## B나 · 한글 · P087 N2 ㅇㅅㅁ — 1파일 · 1줄
+- docs/tools/designer-04-B/data.json: 1184
+
+## B나 · 한글 · P089 N1 ㅊㅅㄱ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 110
+
+## B나 · 한글 · P107 N1 ㅈㅈㅅ — 2파일 · 2줄
+- docs/handoffs/translator-01-english-batch-1.md: 128
+- docs/triggers/supervisor-2026-10-01-anticom-supervisor-ACK-COMPLETE.md: 22
+
+## B나 · 한글 · P111 N2 ㅅㅅㅎ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 132
+
+## B나 · 한글 · P116 N3 ㅎㅈㅎ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 133
+
+## B나 · 한글 · P132 N2 ㄱㅈㅇ — 1파일 · 1줄
+- docs/tools/reviewer-30/image-recheck.tsv: 44
+
+## B나 · 한글 · P133 N2 ㅈㅎㄱ — 1파일 · 1줄
+- docs/supervisor/drafts/2026-09-28-held-recheck.md: 144
+
+## B나 · 한글 · P144 N1 ㅇㄷㄱ — 1파일 · 3줄
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 45, 46, 47
+
+## B나 · 한글 · P145 N1 ㄴㅇ — 1파일 · 4줄
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 45, 46, 47, 48
+
+## B나 · 한글 · P146 N1 ㅂㄱㅎ — 4파일 · 4줄
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 47
+- docs/tools/reviewer-30/gen.py: 96
+- docs/tools/reviewer-30/image-recheck.tsv: 77
+- docs/tools/reviewer-30/post-recheck.tsv: 31
+
+## B나 · 한글 · P155 N2 ㅇㅈ — 1파일 · 1줄
+- docs/supervisor/drafts/2026-09-28-held-recheck.md: 341
+
+## B나 · 한글 · P169 N4 ㅇㅈㅇㅅ — 1파일 · 1줄
+- docs/tools/reviewer-30/image-recheck.tsv: 131
+
+## B나 · 한글 · P172 N1 ㅇㅅㅁ — 13파일 · 20줄
+- design/v0.3-responsive/A1/mockup.html: 247
+- design/v0.3-responsive/A2/mockup.html: 249
+- design/v0.3-responsive/A3/mockup.html: 271
+- design/v0.3-responsive/B1/mockup.html: 206, 249
+- design/v0.3-responsive/B2/mockup.html: 232, 278
+- design/v0.3-responsive/B3/mockup.html: 225, 260
+- design/v0.3-responsive/C1/mockup.html: 200
+- design/v0.3-responsive/C2/mockup.html: 220
+- design/v0.3-responsive/C3/mockup.html: 221
+- design/v0.3-responsive/final/mockup.html: 255, 313
+- docs/tools/designer-04-A/content.mjs: 28
+- docs/tools/designer-04-B/data.json: 17
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 56, 58, 59, 62
+
+## B나 · 한글 · P194 N4 ㅁㅅㅌ — 4파일 · 5줄
+- docs/reviews/card-image-policy-legal-review.md: 187
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 88, 98
+- docs/tools/reviewer-30/gen.py: 53
+- docs/tools/reviewer-30/image-recheck.tsv: 32
+
+## B나 · 한글 · P196 N4 ㅎㄴ — 10파일 · 10줄
+- docs/reviews/card-image-policy-legal-review.md: 188
+- docs/tools/reviewer-14/results/gate-arg-order.log: 1
+- docs/tools/reviewer-14/results/gate-exit3-symlink.log: 1
+- docs/tools/reviewer-14/results/gate-negative-staged-type-error.log: 1
+- docs/tools/reviewer-14/results/gate-staged-10paths.log: 1
+- docs/tools/reviewer-14/results/sig-INT-pgrp.log: 1
+- docs/tools/reviewer-14/results/sig-TERM.log: 1
+- docs/tools/reviewer-30/gen.py: 138
+- docs/tools/reviewer-30/image-recheck.tsv: 121
+- docs/tools/reviewer-30/post-recheck.tsv: 49
+
+## B나 · 한글 · P199 N1 ㄷㅇㅂㄷㅇ — 1파일 · 1줄
+- docs/handoffs/translator-01-english-batch-1.md: 138
+
+## B나 · 한글 · P200 N3 ㅂㄹㄷ — 2파일 · 2줄
+- docs/tools/reviewer-24/forbidden-terms-output.txt: 24
+- docs/triggers/reviewer-50-uploader-15-sns-batch-13-review-COMPLETE.md: 72
+
+## B나 · 한글 · P202 N4 ㄹㅌㄴ — 1파일 · 1줄
+- docs/tools/reviewer-30/image-recheck.tsv: 36
+
+## B나 · 한글 · P214 N3 ㅇㅎㅇ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 136
+
+## WB · 성만(한글) · WB 공익제보자 ㅈ — 1파일 · 1줄
+- docs/tools/reviewer-19/gnews-output.txt: 4
+
+## WB · 전체(로마자) · WB 공익제보자 ㅈ — 1파일 · 1줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 118
+
+## WB · 전체(한글) · WB 공익제보자 ㅈ — 2파일 · 2줄
+- docs/handoffs/translator-02-english-batch-2-opus.md: 118
+- docs/tools/designer-04-B/data.json: 1292

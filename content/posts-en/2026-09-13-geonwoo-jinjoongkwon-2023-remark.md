@@ -11,7 +11,7 @@ This post is based on the original caption and the video thumbnail; the full vid
 
 ## What reports confirm
 
-- On CBS radio's "Park Jae-hong's One-Round Match" on March 10, 2023, Kwangwoon University special-appointment professor Chin Jung-kwon (진중권) reportedly said of the death of the late Jeon Hyeong-su (전형수), who had been chief of staff to then-Democratic Party leader Lee Jae-myung when Lee was Gyeonggi governor, that "if they had not met him (Lee), these people would still be alive."
+- On CBS radio's "Park Jae-hong's One-Round Match" on March 10, 2023, Kwangwoon University special-appointment professor Chin Jung-kwon (진중권) reportedly said of the death of the late J, who had been chief of staff to then-Democratic Party leader Lee Jae-myung when Lee was Gyeonggi governor, that "if they had not met him (Lee), these people would still be alive."
 - Chin reportedly said, "It happened because of him, so wouldn't a person feel pangs of conscience?", "Doesn't he just keep blaming the prosecution without any of that?" and "It makes me angry — how can a human being be like that?"
 
 ## What we left out of the summary

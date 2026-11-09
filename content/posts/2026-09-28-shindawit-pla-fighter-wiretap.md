@@ -5,7 +5,7 @@ description: 인스타그램 @shin_dawit이 공군기지 인근에서 전투기 
 publishedAt: 2026-09-28
 sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd2O5eFkvXb/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 og:
   siteName: Instagram

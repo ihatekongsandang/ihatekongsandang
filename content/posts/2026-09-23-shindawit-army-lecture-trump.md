@@ -5,7 +5,7 @@ description: 인스타그램 @shin_dawit이 8월 을지 자유의 방패(UFS) �
 publishedAt: 2026-09-23
 sourceType: url
 sourceUrl: https://www.instagram.com/p/DdpoflEGH4O/
-attribution: 인스타그램 @shin_dawit (신다윗)
+attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 og:
   siteName: Instagram

@@ -2,7 +2,7 @@
 id: 2026-09-30-shindawit-nk-mdl-50-crossings
 title: "\"North Korea crossed the MDL 50 times in August–September… Kim Yo-jong blames 'daily warning broadcasts and shots'\" — defense intelligence assessed 'about 50'; the claim of 'over 100 in reality' is unconfirmed"
 description: "Instagram @shin_dawit slams Kim Yo-jong's complaint about warning shots; defense intelligence reportedly counted about 50 MDL crossings in Aug.–Sept."
-attribution: "Instagram @shin_dawit (신다윗)"
+attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-14
 ---
 

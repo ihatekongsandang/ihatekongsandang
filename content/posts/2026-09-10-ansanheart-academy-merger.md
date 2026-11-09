@@ -5,9 +5,9 @@ description: 인스타그램 @ansanheart가 전 해군사관학교장의 발언 
 publishedAt: 2026-09-28
 sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdH0kClTd98/
-attribution: 인스타그램 @ansanheart (김요엘)
+attribution: 인스타그램 @ansanheart
 speaker:
-  name: 김요엘
+  name: "@ansanheart"
   affiliation: 인스타그램 이용자 (@ansanheart)
 useSourceImage: false
 og:

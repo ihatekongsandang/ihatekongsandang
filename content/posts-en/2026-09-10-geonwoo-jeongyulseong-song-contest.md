@@ -4,7 +4,7 @@ title: "\"Is the Jeong Yul-seong children's song contest really okay?\" — revi
 description: "Instagram @geonwoo.vibes faults a Gwangju kids' song contest named for PLA anthem composer Jeong Yul-seong; it reportedly sparked a 2023 row over its songs."
 imageAlt: "Card on a white background with a red vertical bar on the left and the text 'Revisiting the controversy over the children's stage at Gwangju MBC's Jeong Yul-seong children's song contest'"
 imageCaption: "Card image summarizing the gist of the post (made by this site) — the original thumbnail was not used because it shows children performing"
-attribution: "Instagram @geonwoo.vibes (박건우)"
+attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-10-15
 ---
 

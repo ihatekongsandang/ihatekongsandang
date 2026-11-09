@@ -2,7 +2,7 @@
 id: 2026-09-29-shindawit-cxmt-samsung-threat
 title: "\"Bring Samsung's technology, or we'll report you to the Korean government\" — testimony that ex-CXMT CEO pressured Samsung-origin engineers"
 description: "Instagram @shin_dawit covers testimony that ex-CXMT CEO pressured Samsung-origin engineers; an ex-Samsung exec reportedly got 7 years, now on appeal."
-attribution: "Instagram @shin_dawit (신다윗)"
+attribution: "Instagram @shin_dawit"
 translatedAt: 2026-09-30
 ---
 
@@ -16,7 +16,7 @@ This post is based on the original caption and the first slide image; the origin
 
 ## What reports confirm
 
-- According to a statement from a former Samsung Electronics executive who worked as head of equipment investment at CXMT, former CXMT CEO David Wang reportedly pressured a team of Korean employees between October and December 2016, saying, "Bring us all the Samsung Electronics PRP (process recipe) and equipment information you have," and "if you don't bring it, I'll report you to the Korean government."
+- According to a statement from a former Samsung Electronics executive who worked as head of equipment investment at CXMT, former CXMT CEO W reportedly pressured a team of Korean employees between October and December 2016, saying, "Bring us all the Samsung Electronics PRP (process recipe) and equipment information you have," and "if you don't bring it, I'll report you to the Korean government."
 - This former executive, who moved to CXMT after 28 years at Samsung Electronics, was reportedly indicted for illegally leaking and using the 18nm DRAM process technology Samsung spent 1.6 trillion won to develop as the world's first of its kind, and was sentenced to seven years in prison in the first-instance trial last April; he is reportedly now in an appeal trial.
 - The case reportedly came to light after another former Samsung executive, who had served as CXMT's first head of development, was implicated in a separate case of leaking semiconductor equipment technology in 2022.
 
