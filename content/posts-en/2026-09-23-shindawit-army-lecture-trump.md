@@ -2,8 +2,6 @@
 id: 2026-09-23-shindawit-army-lecture-trump
 title: "Army Training Center lecture during the Korea–U.S. exercise (UFS) used 'toxic masculinity of Trump, Putin, Netanyahu' material — Army says it will \"stress the use of standard lesson plans\""
 description: "Instagram @shin_dawit faults an Army lecture during UFS that used an article criticizing Trump; the Army reportedly called it a gender-awareness example."
-imageAlt: "Composite image of the Army Training Center's main gate above a screen of lecture material reading 'Toxic masculinity causes war' and 'Javier Bardem criticizes Trump, Putin, Netanyahu'"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @shin_dawit (신다윗)"
 translatedAt: 2026-09-30
 ---

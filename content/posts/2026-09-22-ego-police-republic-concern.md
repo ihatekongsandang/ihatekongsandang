@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdlMJ3ok_0f/
 attribution: 인스타그램 @ego_iz_d_enemy (EGO)
 useSourceImage: false
-image:
-  src: /images/2026-09-22-ego-police-republic-concern/thumb.jpg
-  alt: "검은 바탕에 '검찰공화국이 되면 정치인이 피해를 보고, 경찰공화국이 되면 일반인이 피해를 본다' 문구가 적힌 카드"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

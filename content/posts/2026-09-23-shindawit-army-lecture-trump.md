@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdpoflEGH4O/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-09-23-shindawit-army-lecture-trump/thumb.jpg
-  alt: "육군훈련소 정문 사진 아래 '유해한 남성성이 전쟁 원인', '하비에르 바르뎀, 트럼프·푸틴·네타냐후 비판' 강의 자료 화면이 합성된 이미지"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

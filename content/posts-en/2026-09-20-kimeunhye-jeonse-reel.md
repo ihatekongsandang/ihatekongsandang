@@ -2,8 +2,6 @@
 id: 2026-09-20-kimeunhye-jeonse-reel
 title: "Rep. Kim Eun-hye: \"They can't rein in housing prices, only the people\" — reel criticizing jeonse and real estate policy"
 description: "PPP Rep. Kim Eun-hye faults housing and jeonse policy in a Sept. 20 reel captioned \"They can't rein in housing prices, only the people\" (caption-based)."
-imageAlt: "Rep. Kim Eun-hye questioning at a confirmation hearing, with the caption 'They can't rein in housing prices, only the people'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker (Seongnam Bundang B)"
 attribution: "Instagram @kimeunhye_official"
 translatedAt: 2026-09-30

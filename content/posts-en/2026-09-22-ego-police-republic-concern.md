@@ -2,8 +2,6 @@
 id: 2026-09-22-ego-police-republic-concern
 title: "\"A prosecutors' republic hurts politicians; a police republic hurts ordinary people\" — concern over police power concentrating after prosecutors' investigative powers are abolished"
 description: "Instagram @ego_iz_d_enemy posts a one-line card worrying about police power; a bill ending prosecutors' supplementary probes reportedly passed on July 31."
-imageAlt: "Card on a black background reading 'If it becomes a prosecutors' republic, politicians get hurt; if it becomes a police republic, ordinary people get hurt'"
-imageCaption: "Image of the original post"
 attribution: "Instagram @ego_iz_d_enemy (EGO)"
 translatedAt: 2026-09-30
 ---

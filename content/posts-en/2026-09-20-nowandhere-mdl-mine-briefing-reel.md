@@ -2,8 +2,6 @@
 id: 2026-09-20-nowandhere-mdl-mine-briefing-reel
 title: "JCS: \"Some terrain changes identified… consulting with the UNC on the possibility of mines being laid\" — reel summarizing the briefing on suspicions of North Korean mines south of the MDL (@im_nowandhere)"
 description: "Instagram @im_nowandhere's reel on a Sept. 14 briefing on suspected NK mines south of the MDL; the JCS reportedly cited \"some terrain changes\" and UNC talks."
-imageAlt: "Landscape near the DMZ with the caption 'Soldiers were hurt by a North Korean mine, yet they can't say North Korea laid it'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @im_nowandhere"
 translatedAt: 2026-09-30

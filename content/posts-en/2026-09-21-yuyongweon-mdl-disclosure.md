@@ -2,8 +2,8 @@
 id: 2026-09-21-yuyongweon-mdl-disclosure
 title: "Rep. Yu Yong-weon: \"North Korean minefield south of the MDL, 25th Division blast\" — urges the government and military to disclose the truth transparently"
 description: "Rep. Yu Yong-weon urges transparent disclosure on the MDL minefield and 25th Division blast; reports confirm Yu said who laid the mine must be identified."
-imageAlt: "Screen from a National Assembly press-room briefing with the text 'Calls for disclosure of the truth on the minefield installed south of the MDL and the 25th Division mine blast'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "A lawmaker in a suit speaking at a 'National Assembly of the Republic of Korea' podium, with a sign language interpreter on the right"
+imageCaption: "Rep. Yu Yong-weon (유용원) of the People Power Party calling for a full investigation of the blast and transparent disclosure, on Sept. 21, 2026 (per the original article's photo caption)."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @yu.yongweon"
 translatedAt: 2026-10-08

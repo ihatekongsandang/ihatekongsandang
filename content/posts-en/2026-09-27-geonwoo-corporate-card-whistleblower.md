@@ -2,8 +2,6 @@
 id: 2026-09-27-geonwoo-corporate-card-whistleblower
 title: "Cho Myung-hyun, whistleblower on the Gyeonggi corporate-card allegations: \"Had I looked away, I'd have felt guilty all my life\" — his feelings five years after the tip-off"
 description: "Instagram @geonwoo.vibes relays whistleblower Cho Myung-hyun's remarks and urges Lee's card-misuse trial to resume; it reportedly halted after he took office."
-imageAlt: "Thumbnail with photos of President Lee Jae-myung and first lady Kim Hye-kyung and of Cho Myung-hyun in front of a microphone, overlaid with the text 'Breaking news: shocking remarks by the whistleblower in Lee Jae-myung's corporate-card case'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @geonwoo.vibes (박건우)"
 translatedAt: 2026-09-30
 ---
@@ -24,4 +22,4 @@ This post is based on the original caption posted on Sept. 27, 2026; the video c
 
 ## What we left out of the summary
 
-- Expressions such as "shocking remarks" in the thumbnail are not something reports can confirm, so we did not address them.
+- Expressions such as "shocking remarks" in the original post's thumbnail are not something reports can confirm, so we did not address them.

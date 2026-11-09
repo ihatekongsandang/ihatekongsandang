@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdytWNmz-rp/
 attribution: 인스타그램 @geonwoo.vibes (박건우)
 useSourceImage: false
-image:
-  src: /images/2026-09-27-geonwoo-corporate-card-whistleblower/thumb.jpg
-  alt: "이재명 대통령·김혜경 여사 사진과 마이크 앞 조명현 씨 사진 위에 '긴급뉴스 이재명 법카사건 제보자 충격발언' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -53,4 +49,4 @@ tags:
 
 ## 요약에 넣지 않은 내용
 
-- 썸네일의 "충격발언" 등 표현은 보도로 확인할 내용이 아니어서 다루지 않았습니다.
+- 원문 썸네일의 "충격발언" 등 표현은 보도로 확인할 내용이 아니어서 다루지 않았습니다.

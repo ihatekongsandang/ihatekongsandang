@@ -12,9 +12,15 @@ speaker:
   affiliation: 국민의힘 국회의원
 useSourceImage: false
 image:
-  src: /images/2026-09-21-yuyongweon-mdl-disclosure/thumb.jpg
-  alt: "국회 소통관 기자회견 화면과 'MDL 남쪽 지뢰지대 설치와 25사단 지뢰폭발 사고 관련 진실 공개 촉구' 문구"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://wimg.kyeongin.com/news/cms/2026/09/21/news-p.v1.20260921.d9efcb4a409740b88a15e88e7072df50_R.jpg
+  alt: "'대한민국국회' 연단에서 말하는 정장 차림의 의원과 오른쪽에서 수어 통역을 하는 통역사"
+  caption: "2026년 9월 21일, 유용원 국민의힘 의원이 폭발사고 전반에 대한 규명과 투명한 공개를 촉구하는 모습(원 기사 사진 설명 기준)."
+  creditName: 경인일보
+  creditNameEn: Kyeongin Ilbo
+  sourcePageUrl: https://www.kyeongin.com/article/1771266
+  retrievedAt: 2026-11-10
+  faceNote: 현직 국회의원 — 공식 발언(폭발사고 규명 촉구) — 원 기사 사진 설명 · 수어 통역사 정면 포함(3b)
 og:
   siteName: Instagram
 sources:

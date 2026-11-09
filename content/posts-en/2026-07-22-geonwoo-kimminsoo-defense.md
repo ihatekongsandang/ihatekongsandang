@@ -2,8 +2,6 @@
 id: 2026-07-22-geonwoo-kimminsoo-defense
 title: "Supreme council member Kim Min-soo: \"Defense is not something to reform but to strengthen\" — reel summarizing his criticism of defense reform"
 description: "Instagram @geonwoo.vibes recaps PPP's Kim Min-soo faulting defense reform; his 'strengthen, not reform' remark and other points match July 20 reports."
-imageAlt: "A man speaking, with the caption 'Exempt Lee Jae-myung! Home-guard Ahn Gyu-back (안규백)! Let me ask you'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party supreme council member (the speaker)"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

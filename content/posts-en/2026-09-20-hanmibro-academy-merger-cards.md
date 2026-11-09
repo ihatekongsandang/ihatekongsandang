@@ -2,8 +2,6 @@
 id: 2026-09-20-hanmibro-academy-merger-cards
 title: "Card summary of the military academy merger controversy — statement of opposition by 46 former chiefs of staff, 58% opposed in a Gallup poll, Sept. 19 mass rally (Threads @hanmibro)"
 description: "Threads user @hanmibro's 9 cards on the academy merger (with opinion); reports confirm 46 ex-chiefs' statement, Gallup's 58% against and a Sept. 19 rally."
-imageAlt: "Leader Jang Dong-hyuk (장동혁) holding a microphone, with the text 'If the academies are merged, the main enemy is Lee Jae-myung'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Threads user"
 attribution: "Threads @hanmibro"
 translatedAt: 2026-10-11

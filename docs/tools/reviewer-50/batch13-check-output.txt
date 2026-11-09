@@ -1,0 +1,49 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-27-geonwoo-corporate-card-whistleblower	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-27-geonwoo-corporate-card-whistleblower/thumb.jpg
+  본문 수정 content/posts/2026-09-27-geonwoo-corporate-card-whistleblower.md: -1 +1
+    -- 썸네일의 "충격발언" 등 표현은 보도로 확인할 내용이 아니어서 다루지 않았습니다.
+    +- 원문 썸네일의 "충격발언" 등 표현은 보도로 확인할 내용이 아니어서 다루지 않았습니다.
+  본문 수정 content/posts-en/2026-09-27-geonwoo-corporate-card-whistleblower.md: -1 +1
+    -- Expressions such as "shocking remarks" in the thumbnail are not something reports can confirm, so we did not address them.
+    +- Expressions such as "shocking remarks" in the original post's thumbnail are not something reports can confirm, so we did not address them.
+2026-09-24-politicscrush-main-enemy-politicians	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-24-politicscrush-main-enemy-politicians/thumb.jpg
+  본문 수정 content/posts/2026-09-24-politicscrush-main-enemy-politicians.md: -1 +1
+    -- 썸네일의 "천안함·연평도 포격도 우리 탓"은 이 답변에 대한 게시자의 요약이며, 보도된 답변은 이명박 정부 강경책이 "일부 원인 제공"한 측면이 있다는 질의에 동의한 것입니다. "도대체 어느나라 장관인지"는 게시자의 의견입니다. 릴스 영상은 확인하지 못했고 캡션과 썸네일만 대조했습니다.
+    +- 릴스 썸네일의 "천안함·연평도 포격도 우리 탓"은 이 답변에 대한 게시자의 요약이며, 보도된 답변은 이명박 정부 강경책이 "일부 원인 제공"한 측면이 있다는 질의에 동의한 것입니다. "도대체 어느나라 장관인지"는 게시자의 의견입니다. 릴스 영상은 확인하지 못했고 캡션과 썸네일만 대조했습니다.
+  본문 수정 content/posts-en/2026-09-24-politicscrush-main-enemy-politicians.md: -1 +1
+    -- The thumbnail's "Cheonan and Yeonpyeong shelling were our fault too" is the poster's summary of that answer; the reported answer was agreement with a question about whether the Lee Myung-bak government's hard-line policy "partly provided a cause." "Which country's minister is this?" is the poster's opinion. We did not review the reel's video and checked only its caption and thumbnail.
+    +- The reel thumbnail's "Cheonan and Yeonpyeong shelling were our fault too" is the poster's summary of that answer; the reported answer was agreement with a question about whether the Lee Myung-bak government's hard-line policy "partly provided a cause." "Which country's minister is this?" is the poster's opinion. We did not review the reel's video and checked only its caption and thumbnail.
+2026-09-23-shindawit-army-lecture-trump	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-23-shindawit-army-lecture-trump/thumb.jpg
+2026-07-22-geonwoo-kimminsoo-defense	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-22-geonwoo-kimminsoo-defense/thumb.jpg
+2026-09-10-freedominnovation-nec-bill	③	(없음)	-/-	0	없음	6
+  HEAD 파일: public/images/2026-09-10-freedominnovation-nec-bill/thumb.jpg
+  본문 수정 content/posts/2026-09-10-freedominnovation-nec-bill.md: -1 +1
+    -- 특검 출범 전 검경 합동수사본부(합수본) 단계의 수사를 다룬 [인스타그램 @issue_target 릴스](https://www.instagram.com/reel/Dedn0ipvevf/)(10월 14일, "합수본, 투표율 허위 입력 정황 포착…선관위 압수수색")도 여기에 함께 적습니다. 이 릴스는 최근 소식처럼 소개했으나 해당 압수수색은 2026년 7월 23일 일로, 합수본은 이날 중앙선관위와 서울 송파·강남·서초구 선관위 등을 압수수색하며 중앙선관위·경기도선관위 관계자들의 투표율 허위 입력 정황을 발견해 공전자기록위작·공무집행방해 혐의로 관련자들도 압수수색 중이라고 밝힌 것으로 보도됨. 이후 사건은 9월 출범한 특검으로 넘어갔음. 원문 캡션도 "전산 수치 수정 정황이 곧바로 투표 조작이나 선거 결과 조작을 의미하는 것은 아니"라고 적었으며, 썸네일의 "선관위 조작 의혹 포착 / 청년의 외침 사실로 들어난다"와 집회 사진은 요약에 넣지 않았습니다.
+    +- 특검 출범 전 검경 합동수사본부(합수본) 단계의 수사를 다룬 [인스타그램 @issue_target 릴스](https://www.instagram.com/reel/Dedn0ipvevf/)(10월 14일, "합수본, 투표율 허위 입력 정황 포착…선관위 압수수색")도 여기에 함께 적습니다. 이 릴스는 최근 소식처럼 소개했으나 해당 압수수색은 2026년 7월 23일 일로, 합수본은 이날 중앙선관위와 서울 송파·강남·서초구 선관위 등을 압수수색하며 중앙선관위·경기도선관위 관계자들의 투표율 허위 입력 정황을 발견해 공전자기록위작·공무집행방해 혐의로 관련자들도 압수수색 중이라고 밝힌 것으로 보도됨. 이후 사건은 9월 출범한 특검으로 넘어갔음. 원문 캡션도 "전산 수치 수정 정황이 곧바로 투표 조작이나 선거 결과 조작을 의미하는 것은 아니"라고 적었으며, 원문 썸네일의 "선관위 조작 의혹 포착 / 청년의 외침 사실로 들어난다"와 집회 사진은 요약에 넣지 않았습니다.
+  본문 수정 content/posts-en/2026-09-10-freedominnovation-nec-bill.md: -2 +2
+    -- An [Instagram post by @got_dem_catch](https://www.instagram.com/p/DeXAuj5k6YF/) (Oct. 12) summarizing this under the title "Will the truth about election fraud come out?" is noted here instead of in a separate post. The original caption itself says "no election fraud has been confirmed so far," and this site does not cover claims of election fraud, relaying only the special counsel's official procedure. The first image's photo of a "new election" placard and the line "Korea's election fraud truth revealed?" were not included in the summary.
+    +- An [Instagram post by @got_dem_catch](https://www.instagram.com/p/DeXAuj5k6YF/) (Oct. 12) summarizing this under the title "Will the truth about election fraud come out?" is noted here instead of in a separate post. The original caption itself says "no election fraud has been confirmed so far," and this site does not cover claims of election fraud, relaying only the special counsel's official procedure. The photo of a "new election" placard in the original's first image and the line "Korea's election fraud truth revealed?" were not included in the summary.
+    -- An [Instagram reel by @issue_target](https://www.instagram.com/reel/Dedn0ipvevf/) (Oct. 14, "Joint investigation HQ finds signs of falsely entered turnout figures… raids the election commission") on the investigation by the joint prosecution-police investigation headquarters, before the special counsel was launched, is noted here as well. The reel presents it as recent news, but the raid took place on July 23, 2026: that day the headquarters raided the National Election Commission and the Songpa, Gangnam and Seocho district election commissions in Seoul, and said it had found signs that officials of the National Election Commission and the Gyeonggi Provincial Election Commission falsely entered turnout figures, also raiding those involved on charges of falsifying public electronic records and obstructing official duties, according to reports. The case was later handed to the special counsel launched in September. The original caption itself says "signs of altered computer figures do not immediately mean vote rigging or manipulation of election results," and the thumbnail's "Election commission manipulation suspicion caught / Young people's cries are being proven true" and rally photo were not included in the summary.
+    +- An [Instagram reel by @issue_target](https://www.instagram.com/reel/Dedn0ipvevf/) (Oct. 14, "Joint investigation HQ finds signs of falsely entered turnout figures… raids the election commission") on the investigation by the joint prosecution-police investigation headquarters, before the special counsel was launched, is noted here as well. The reel presents it as recent news, but the raid took place on July 23, 2026: that day the headquarters raided the National Election Commission and the Songpa, Gangnam and Seocho district election commissions in Seoul, and said it had found signs that officials of the National Election Commission and the Gyeonggi Provincial Election Commission falsely entered turnout figures, also raiding those involved on charges of falsifying public electronic records and obstructing official duties, according to reports. The case was later handed to the special counsel launched in September. The original caption itself says "signs of altered computer figures do not immediately mean vote rigging or manipulation of election results," and the original thumbnail's "Election commission manipulation suspicion caught / Young people's cries are being proven true" and rally photo were not included in the summary.
+2026-09-21-yuyongweon-mdl-disclosure	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-21-yuyongweon-mdl-disclosure/thumb.jpg
+  caption 74자 · imageCaption 185자 · imageAlt 133자 · retrievedAt 2026-11-10
+2026-09-22-ego-police-republic-concern	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-22-ego-police-republic-concern/thumb.jpg
+2026-09-20-hanmibro-academy-merger-cards	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-hanmibro-academy-merger-cards/thumb.jpg
+2026-09-20-kimeunhye-jeonse-reel	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-kimeunhye-jeonse-reel/thumb.jpg
+2026-09-20-nowandhere-mdl-mine-briefing-reel	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-nowandhere-mdl-mine-briefing-reel/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 87 · 자체 제작 67 · SNS 원문 저장본 20
+작업 트리: self 77 · 자체 제작 67 · SNS 원문 저장본 10
+
+결함 0건
