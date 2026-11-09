@@ -2,6 +2,7 @@
 // 옛 id는 git 이력의 삭제된 옛 파일명에서 읽어 변수로만 쓰고 출력에는 "<OLD>"로 가린다.
 import { execSync } from 'node:child_process'
 import { movedIdRedirects, readMovedIds, readTranslationIds, collectMovedIdErrors } from '../../../src/lib/content/moved-ids'
+import type { RedirectRule } from '../../../src/lib/content/moved-ids'
 
 const root = process.cwd()
 const NEW = '2026-08-06-owloffreedom-707-commander-sentencing'
@@ -26,8 +27,8 @@ const expected = [
 ]
 let ok = rules.length === 2
 for (const e of expected) {
-  const hit = rules.find((r: any) => r.source === e.source)
-  const pass = !!hit && (hit as any).destination === e.destination && (hit as any).permanent === true
+  const hit: RedirectRule | undefined = rules.find((r: RedirectRule) => r.source === e.source)
+  const pass = hit !== undefined && hit.destination === e.destination && hit.permanent === true
   console.log(pass ? 'PASS' : 'FAIL', mask(e.source), '->', e.destination)
   ok = ok && pass
 }
