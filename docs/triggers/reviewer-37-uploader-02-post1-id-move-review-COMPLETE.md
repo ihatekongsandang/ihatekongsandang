@@ -36,3 +36,4 @@
 - **C. 리뷰어 37**: 이 트리거, `instructions/reviewer/processed/37-uploader-02-post1-id-move-review.md`, `docs/tools/reviewer-37/`(3개: `redirect-rules-check.ts`, `redirect-rules-output.txt`, `validate-output.txt`)
 - 제외 권고: `history/*`(다른 세션 변경 섞임, 슈퍼바이저 판단), 그 밖의 `??` 경로 전부.
 - 배포 후: `curl -I` 로 옛 `/post/`·`/en/post/` 308 + `Location` 확인(슈퍼바이저).
+- 추가: 도구 타입 오류 수정 — `redirect-rules-check.ts` 11행 `names[0]` undefined 가드(TS2532), 커밋 뒤에도 동작하도록 옛 파일명을 git 이력의 삭제 기록에서 읽고 옛 id = 새 id·빈 값이면 중단하게 함. `npx tsc --noEmit` exit 0, 재실행 ALL PASS(출력 변경 없음).
