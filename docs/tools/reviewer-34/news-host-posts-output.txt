@@ -1,0 +1,6 @@
+munhwa.com	kind=self(생략)	src=/images/…(저장)	스레드 @jwapaloma가 10월 4일 공유한 세종대로 일대 사진(촬영 시각은 원문에 표시되지 않음)
+khan.co.kr	kind=self(생략)	src=/images/…(저장)	보도 내용을 정리한 카드 이미지(자체 제작)
+donga.com	kind=self(생략)	src=/images/…(저장)	보도 내용을 정리한 카드 이미지(자체 제작)
+khan.co.kr	kind=self(생략)	src=/images/…(저장)	보도 내용을 정리한 카드 이미지(자체 제작)
+news1.kr	kind=self(생략)	src=/images/…(저장)	보도 내용을 정리한 카드 이미지(자체 제작)
+전체 207 / sourceUrl이 SNS가 아닌 글 5 / image.kind=news 0

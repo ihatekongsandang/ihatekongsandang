@@ -1,0 +1,18 @@
+content/posts 스냅숏 sha256 b42219c6a17987b9 (업로더 작업 중간 상태 구분용)
+전체 207 / 갤러리 있는 글 0 / 대표 이미지 파일 없음 0
+## image.kind
+207	(kind 생략=self)
+A 139 + B 68 + 미분류 0 = 207 (전체 207)
+## A의 sourceUrl 호스트
+124	instagram.com
+11	threads.com
+3	threads.net
+1	munhwa.com
+## A의 image.src 위치
+139	/images/{id}/
+
+TSV 행 139 / 고유 id 139 / 중복 0
+묶음별: 1:9 2:9 3:10 4:10 5:10 6:10 7:10 8:10 9:10 10:10 11:10 12:10 13:10 14:11 → 합 139
+Tier별: T1 18 · T2 7 · T3 114
+TSV에만 있음 0 / A에만 있음 0
+묶음 4~14 행 111, 최신순 역전 0
