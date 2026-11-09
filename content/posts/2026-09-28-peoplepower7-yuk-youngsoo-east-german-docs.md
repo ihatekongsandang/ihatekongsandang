@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd0wj8_hWb6/
 attribution: 인스타그램 @peoplepower_korea7 (자유대한 늬우스)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs/thumb.jpg
-  alt: "'…성, 육영수 피살 책임 DJ 추종자들에게 돌려 [獨외교문서]' 기사 제목과 2020년 10월 4일 날짜가 보이는 기사 캡처"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
@@ -28,7 +24,7 @@ tags:
   - 역사
 ---
 
-이 게시물은 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션은 비어 있고, 이미지는 2020년 10월 4일자 기사 캡처입니다(제목 일부가 잘려 있음).
+이 게시물은 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션은 비어 있고, 원문 이미지는 2020년 10월 4일자 기사 캡처입니다(제목 일부가 잘려 있음).
 
 ## 보도로 확인된 내용
 

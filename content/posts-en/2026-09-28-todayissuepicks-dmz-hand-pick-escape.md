@@ -2,8 +2,6 @@
 id: 2026-09-28-todayissuepicks-dmz-hand-pick-escape
 title: "In the DMZ mine accident, troops 'scraped the ground with hand picks to secure an exit' — two explosions, battalion commander also injured during rescue"
 description: "After the DMZ mine blast, combat engineers knelt and scraped the soil with hand picks to clear a roughly 20 m exit route, the JCS said."
-imageAlt: "Thumbnail showing a military official pointing at a diagram of the accident site at a Defense Ministry briefing, overlaid with the text 'The DMZ accident scene was desperate — injured soldiers dug their way out with hand picks'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @today_issue_picks (오늘_이슈_픽)"
 translatedAt: 2026-09-30
 ---

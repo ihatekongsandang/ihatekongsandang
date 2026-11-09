@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd1TSRcThFD/
 attribution: 인스타그램 @yeonjae.kang (강연재)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-kangyeonjae-chief-justice-audit-witness/thumb.jpg
-  alt: "보라색 배경에 '조희대 대법원장을 또 국감에 불러낸다고? 이재명. 김현지를 국감에 불러내라' 문구가 적힌 텍스트 카드"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

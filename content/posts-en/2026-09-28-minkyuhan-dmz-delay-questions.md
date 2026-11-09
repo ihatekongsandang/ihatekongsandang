@@ -2,13 +2,13 @@
 id: 2026-09-28-minkyuhan-dmz-delay-questions
 title: "Site investigation into DMZ blast began six days after troops' 'eyewitness testimony' — post asks, 'If they knew and hid it, that's a different problem'"
 description: "Instagram @minkyuhantv questions the six-day delay in the DMZ probe, saying a cover-up order, if confirmed, would be serious; no reports show such an order."
-imageAlt: "Broadcast capture showing a Defense Ministry regular briefing screen with the caption 'shape similar to a box mine'"
-imageCaption: "Image of the original post"
+imageAlt: "Blurry video frame of a helmeted soldier moving away through dense brush on a slope"
+imageCaption: "The military and the U.N. Command clearing a route and surveying the area inside the DMZ on Sept. 26, 2026, for the on-site investigation of the suspected mine explosion (JCS-provided video, per the original article's photo caption)."
 attribution: "Instagram @minkyuhantv (한민규의 이슈분석)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption and first image. The donation account and contact details in the original caption were not reproduced. Other posts on this issue (some may be available only in Korean): [report on troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony) · [JCS testimony about an object resembling a box mine](/post/2026-09-28-facteye-dmz-mine-similar-object).
+This post is based on the original caption and the first image of the original post. The donation account and contact details in the original caption were not reproduced. Other posts on this issue (some may be available only in Korean): [report on troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony) · [JCS testimony about an object resembling a box mine](/post/2026-09-28-facteye-dmz-mine-similar-object).
 
 ## What the original post claims (the poster's opinion)
 

@@ -2,13 +2,11 @@
 id: 2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs
 title: "\"Kim Il Sung blamed 'DJ's followers' for Yuk Young-soo's killing\" — East German diplomatic documents report reshared amid the film 'Assassin(s)' historical-distortion controversy"
 description: "Instagram @peoplepower_korea7 reshares a 2020 report that Kim Il Sung blamed DJ followers for Yuk Young-soo's killing, amid film 'Assassin(s)' controversy."
-imageAlt: "Screenshot of an article headlined '…Sung blamed DJ followers for Yuk Young-soo's killing [German diplomatic documents]' (headline cut off), dated Oct. 4, 2020"
-imageCaption: "Image of the original post"
 attribution: "Instagram @peoplepower_korea7 (자유대한 늬우스)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the first image of the original post. The original caption is empty, and the image is a screenshot of an article dated Oct. 4, 2020 (part of the headline is cut off).
+This post is based on the first image of the original post. The original caption is empty, and that image is a screenshot of an article dated Oct. 4, 2020 (part of the headline is cut off).
 
 ## What reports confirm
 

@@ -10,10 +10,6 @@ speaker:
   name: 나경원
   affiliation: 국민의힘 국회의원
 useSourceImage: false
-image:
-  src: /images/2026-09-28-nakyungwon-mine-report-deletion/thumb.jpg
-  alt: "연설하는 김정은 사진과 철조망에 걸린 '지뢰 MINE' 표지판 사진 위에 '보고서에서 삭제된 북한, 누가 지시했습니까?' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

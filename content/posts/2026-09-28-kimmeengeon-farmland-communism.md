@@ -10,10 +10,6 @@ speaker:
   name: 김민전
   affiliation: 국민의힘 국회의원(비례대표)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-kimmeengeon-farmland-communism/thumb.jpg
-  alt: "국회 회의장에서 질의하는 김민전 의원과 '정부가 땅을 어떻게 쓰는지 판단 공산주의 사상 아닌가?', '사상의 문제가' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

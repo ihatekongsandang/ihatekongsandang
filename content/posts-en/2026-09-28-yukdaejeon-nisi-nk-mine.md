@@ -2,13 +2,13 @@
 id: 2026-09-28-yukdaejeon-nisi-nk-mine
 title: "Report: \"First forensic analysis of DMZ blast points to a North Korean mine\" — JCS says it \"has not been officially notified\""
 description: "A report said the first forensic analysis of the DMZ blast pointed to a North Korean mine; the JCS said it had not been officially notified."
-imageAlt: "Photo of Kim Jong-un speaking in front of a North Korean flag, with the text 'First forensic results on DMZ blast: presumed North Korean mine'"
-imageCaption: "Image of the original post"
+imageAlt: "Blurry video frame of a helmeted soldier moving away through dense brush on a slope"
+imageCaption: "The military and the U.N. Command clearing a route and surveying the area inside the DMZ on Sept. 26, 2026, for the on-site investigation of the suspected mine explosion (JCS-provided video, per the original article's photo caption)."
 attribution: "Threads @kimjoowon_official (육대전)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original text and one attached image. The original cites NewsVerse as its source.
+This post is based on the original text and the one image attached to the original post. The original cites NewsVerse as its source.
 
 ## What reports confirm
 

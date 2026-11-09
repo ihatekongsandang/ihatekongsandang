@@ -1,0 +1,27 @@
+1	kangyeonjae-chief-justice-aud	200	200 image/jpeg 39427
+2	kangyeonjae-chief-justice-aud	200	200 image/jpeg 75538
+3	kangyeonjae-chief-justice-aud	200	200 image/jpeg 1044509
+4	kimmeengeon-farmland-communis	200	200 image/jpeg 58265
+5	kimmeengeon-farmland-communis	200	200 image/png 1454507
+6	ljm-unc-request-refused	200	200 image/jpeg 97011
+7	ljm-unc-request-refused	200	200 image/jpeg 173053
+8	ljm-unc-request-refused	200	404 application/xml 356
+9	minkyuhan-dmz-delay-questions	200	200 image/jpeg 90413
+10	minkyuhan-dmz-delay-questions	200	200 image/jpeg 1230960
+11	minkyuhan-dmz-delay-questions	200	200 image/jpeg 75100
+12	nakyungwon-mine-report-deleti	200	200 image/jpeg 101188
+13	nakyungwon-mine-report-deleti	200	200 image/jpeg 100883
+14	nakyungwon-mine-report-deleti	200	200 image/jpeg 176806
+15	peoplepower7-yuk-youngsoo-eas	200	200 image/png 25329
+16	peoplepower7-yuk-youngsoo-eas	200	200 image/jpeg 241685
+17	rekor-chinese-crime-tourism	200	200 image/png 0
+18	rekor-chinese-crime-tourism	200	200 image/jpeg 144252
+19	rekor-chinese-crime-tourism	200	200 image/jpeg 140709
+20	sonit-nk-aid-vs-elderly-suppo	200	200 image/jpeg 39321
+21	sonit-nk-aid-vs-elderly-suppo	200	200 image/jpeg 80220
+22	todayissuepicks-dmz-hand-pick	200	200 image/jpeg 760512
+23	todayissuepicks-dmz-hand-pick	200	200 image/jpeg 478664
+24	todayissuepicks-dmz-hand-pick	200	200 image/jpeg 857968
+25	yukdaejeon-nisi-nk-mine	200	200 image/jpeg 147810
+26	yukdaejeon-nisi-nk-mine	200	200 image/jpeg 441584
+기사 26건

@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd2uAzUhHuH/
 attribution: 인스타그램 @sonit.kr (소니트)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-sonit-nk-aid-vs-elderly-support/thumb.jpg
-  alt: "흰 바탕에 '북한 사람을 위해서 북한에 6,676억을 지원할 돈은 있고, 나이 먹은 한국노인의 고혈압 or 당뇨병의 진료비와 약제비를 지원할 52억은 없음?' 문구가 적힌 텍스트 카드"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

@@ -2,8 +2,6 @@
 id: 2026-09-28-kimmeengeon-farmland-communism
 title: "Rep. Kim Min-jeon: \"Isn't it communist thinking for the government to decide how land is used?\" — criticizes full farmland survey; presidential office calls it 'absurd'"
 description: "Rep. Kim Min-jeon asks if the government deciding land use is 'communist thinking'; the presidential office reportedly called the communism charge 'absurd.'"
-imageAlt: "Rep. Kim Min-jeon questioning at a National Assembly session, with captions reading 'Isn't the government deciding how land is used communist thinking?' and 'A matter of ideology…'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party lawmaker (proportional representation)"
 attribution: "Instagram @prof.kimmeengeon (김민전)"
 translatedAt: 2026-09-30

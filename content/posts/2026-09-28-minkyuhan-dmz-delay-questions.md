@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/Dd0nOVNEs-C/
 attribution: 인스타그램 @minkyuhantv (한민규의 이슈분석)
 useSourceImage: false
 image:
-  src: /images/2026-09-28-minkyuhan-dmz-delay-questions/thumb.jpg
-  alt: "국방부 정례브리핑 화면과 '형상은 목함지뢰와 유사' 자막이 들어간 방송 캡처"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://img.hankyung.com/photo/202609/01.45851814.1.jpg
+  alt: "수풀이 우거진 비탈에서 헬멧을 쓴 장병이 등을 보이며 이동하는 흐릿한 영상 장면"
+  caption: "2026년 9월 26일 비무장지대(DMZ) 안, 군과 유엔군사령부가 지뢰 추정 폭발 사고 현장조사를 위해 기동로 확보·작전환경 조사를 하는 장면(합참 제공 영상, 원 기사 사진 설명 기준)."
+  creditName: 합참 제공
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.hankyung.com/article/202609288299H
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(수풀 속 장병 뒷모습, 식별 불가)
 og:
   siteName: Instagram
 sources:
@@ -32,7 +38,7 @@ tags:
   - 합참
 ---
 
-이 게시물은 원문 캡션과 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션의 후원 계좌·연락처는 옮기지 않았습니다. 같은 사안의 다른 게시물: [장병 목격 증언 보도](/post/2026-09-27-rekor-dmz-mine-testimony) · [합참 목함지뢰 유사 물체 진술](/post/2026-09-28-facteye-dmz-mine-similar-object).
+이 게시물은 원문 캡션과 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션의 후원 계좌·연락처는 옮기지 않았습니다. 같은 사안의 다른 게시물: [장병 목격 증언 보도](/post/2026-09-27-rekor-dmz-mine-testimony) · [합참 목함지뢰 유사 물체 진술](/post/2026-09-28-facteye-dmz-mine-similar-object).
 
 ## 원문 주장 (게시자 의견)
 

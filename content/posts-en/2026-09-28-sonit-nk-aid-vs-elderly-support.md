@@ -2,8 +2,6 @@
 id: 2026-09-28-sonit-nk-aid-vs-elderly-support
 title: "\"667.6 billion won for North Korea, but no 5.2 billion won for elderly hypertension and diabetes support?\" — where the two figures come from and how they differ"
 description: "Instagram @sonit.kr contrasts a 667.6B won North Korea aid budget with a proposed 5.2B won cut to elderly hypertension/diabetes support."
-imageAlt: "Text card on a white background reading, 'There's money to give North Korea 667.6 billion won for its people, but no 5.2 billion won for elderly South Koreans' hypertension or diabetes treatment and medication?'"
-imageCaption: "Image of the original post"
 attribution: "Instagram @sonit.kr (소니트)"
 translatedAt: 2026-10-07
 ---

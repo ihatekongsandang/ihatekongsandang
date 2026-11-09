@@ -2,8 +2,6 @@
 id: 2026-09-28-kangyeonjae-chief-justice-audit-witness
 title: "Kang Yeon-jae (강연재): \"If you're going to summon Chief Justice Cho Hee-dae to the audit again, summon Kim Hyun-ji first\" — Judiciary Committee adopts chief justice summons, led by the ruling party"
 description: "Instagram @yeonjae.kang criticizes summoning Chief Justice Cho Hee-dae to the audit again, demanding presidential office director Kim Hyun-ji testify instead."
-imageAlt: "Text card on a purple background reading 'Summoning Chief Justice Cho Hee-dae to the audit again? Lee Jae-myung — summon Kim Hyun-ji to the audit'"
-imageCaption: "Image of the original post"
 attribution: "Instagram @yeonjae.kang (강연재)"
 translatedAt: 2026-09-30
 ---

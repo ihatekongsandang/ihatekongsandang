@@ -2,13 +2,11 @@
 id: 2026-09-28-rekor-chinese-crime-tourism
 title: "Reports of crimes by Chinese nationals continue, including a five-man Chinese group's confinement and robbery in Jeju — card post says \"security measures should match tourism promotion\""
 description: "Instagram @rekor.rgt compiles reports of crimes by Chinese nationals, incl. a Jeju confinement-robbery case, urging entry and stay controls."
-imageAlt: "Chinese flag flying under a blue sky"
-imageCaption: "Image of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; only the first card image was reviewed. The original cites Munhwa Ilbo, Newsis, Maeil Shinmun, MBN, YTN and KBS reports as its sources. Related posts (some may be available only in Korean): [petition to end visa-free entry for Chinese nationals](/post/2026-09-16-pickmag-china-visa-free-petition).
+This post is based on the original caption; only the first card image of the original post was reviewed. The original cites Munhwa Ilbo, Newsis, Maeil Shinmun, MBN, YTN and KBS reports as its sources. Related posts (some may be available only in Korean): [petition to end visa-free entry for Chinese nationals](/post/2026-09-16-pickmag-china-visa-free-petition).
 
 ## What the original post claims (the poster's opinion)
 

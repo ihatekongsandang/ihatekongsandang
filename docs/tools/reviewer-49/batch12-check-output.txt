@@ -1,0 +1,64 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-28-kangyeonjae-chief-justice-audit-witness	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-kangyeonjae-chief-justice-audit-witness/thumb.jpg
+2026-09-28-kimmeengeon-farmland-communism	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-kimmeengeon-farmland-communism/thumb.jpg
+2026-09-28-ljm-unc-request-refused	③	(없음)	-/-	0	없음	8
+  HEAD 파일: public/images/2026-09-28-ljm-unc-request-refused/thumb.jpg
+  본문 수정 content/posts/2026-09-28-ljm-unc-request-refused.md: -2 +2
+    -이 게시물은 원문 텍스트("이건 명확한 북한 감싸기 사건은폐 100%맞음")와 첨부 이미지 1장을 기준으로 정리했습니다. 이미지는 유엔군사령관으로 보이는 미군 장성 사진 옆에 인용 문구를 붙인 형태라 사령관의 발언처럼 읽히지만, 같은 내용은 **한동훈 의원의 주장**으로 보도됐습니다.
+    +이 게시물은 원문 텍스트("이건 명확한 북한 감싸기 사건은폐 100%맞음")와 원문 첨부 이미지 1장을 기준으로 정리했습니다. 원문 이미지는 유엔군사령관으로 보이는 미군 장성 사진 옆에 인용 문구를 붙인 형태라 사령관의 발언처럼 읽히지만, 같은 내용은 **한동훈 의원의 주장**으로 보도됐습니다.
+    -"북한 감싸기 사건은폐 100%"는 원문 게시자의 단정이며 보도로 확인되지 않았습니다. 유엔군사령관이 이미지 속 문장을 직접 말했다는 보도도 찾지 못했습니다.
+    +"북한 감싸기 사건은폐 100%"는 원문 게시자의 단정이며 보도로 확인되지 않았습니다. 유엔군사령관이 원문 이미지 속 문장을 직접 말했다는 보도도 찾지 못했습니다.
+  본문 수정 content/posts-en/2026-09-28-ljm-unc-request-refused.md: -2 +2
+    -This post is based on the original text ("This is 100% clearly a case of covering for North Korea and covering up the incident") and one attached image. The image pairs a quote with a photo of what appears to be the UN Command commander, making it read like his own words, but reports present the same content as **a claim by Rep. Han Dong-hoon (한동훈)**.
+    +This post is based on the original text ("This is 100% clearly a case of covering for North Korea and covering up the incident") and the one image attached to the original post. That image pairs a quote with a photo of what appears to be the UN Command commander, making it read like his own words, but reports present the same content as **a claim by Rep. Han Dong-hoon (한동훈)**.
+    -"100% clearly covering for North Korea and covering up the incident" is the original poster's own conclusion and was not confirmed by reports. We also could not find a report that the UN Command commander himself spoke the words shown in the image.
+    +"100% clearly covering for North Korea and covering up the incident" is the original poster's own conclusion and was not confirmed by reports. We also could not find a report that the UN Command commander himself spoke the words shown in the original image.
+2026-09-28-minkyuhan-dmz-delay-questions	②	news	alt/cap	0	없음	4
+  HEAD 파일: public/images/2026-09-28-minkyuhan-dmz-delay-questions/thumb.jpg
+  본문 수정 content/posts/2026-09-28-minkyuhan-dmz-delay-questions.md: -1 +1
+    -이 게시물은 원문 캡션과 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션의 후원 계좌·연락처는 옮기지 않았습니다. 같은 사안의 다른 게시물: [장병 목격 증언 보도](/post/2026-09-27-rekor-dmz-mine-testimony) · [합참 목함지뢰 유사 물체 진술](/post/2026-09-28-facteye-dmz-mine-similar-object).
+    +이 게시물은 원문 캡션과 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션의 후원 계좌·연락처는 옮기지 않았습니다. 같은 사안의 다른 게시물: [장병 목격 증언 보도](/post/2026-09-27-rekor-dmz-mine-testimony) · [합참 목함지뢰 유사 물체 진술](/post/2026-09-28-facteye-dmz-mine-similar-object).
+  본문 수정 content/posts-en/2026-09-28-minkyuhan-dmz-delay-questions.md: -1 +1
+    -This post is based on the original caption and first image. The donation account and contact details in the original caption were not reproduced. Other posts on this issue (some may be available only in Korean): [report on troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony) · [JCS testimony about an object resembling a box mine](/post/2026-09-28-facteye-dmz-mine-similar-object).
+    +This post is based on the original caption and the first image of the original post. The donation account and contact details in the original caption were not reproduced. Other posts on this issue (some may be available only in Korean): [report on troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony) · [JCS testimony about an object resembling a box mine](/post/2026-09-28-facteye-dmz-mine-similar-object).
+  caption 106자 · imageCaption 233자 · imageAlt 83자 · retrievedAt 2026-11-10
+2026-09-28-nakyungwon-mine-report-deletion	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-nakyungwon-mine-report-deletion/thumb.jpg
+2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs/thumb.jpg
+  본문 수정 content/posts/2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md: -1 +1
+    -이 게시물은 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션은 비어 있고, 이미지는 2020년 10월 4일자 기사 캡처입니다(제목 일부가 잘려 있음).
+    +이 게시물은 원문 첫 번째 이미지를 기준으로 정리했습니다. 원문 캡션은 비어 있고, 원문 이미지는 2020년 10월 4일자 기사 캡처입니다(제목 일부가 잘려 있음).
+  본문 수정 content/posts-en/2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md: -1 +1
+    -This post is based on the first image of the original post. The original caption is empty, and the image is a screenshot of an article dated Oct. 4, 2020 (part of the headline is cut off).
+    +This post is based on the first image of the original post. The original caption is empty, and that image is a screenshot of an article dated Oct. 4, 2020 (part of the headline is cut off).
+2026-09-28-rekor-chinese-crime-tourism	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-28-rekor-chinese-crime-tourism/thumb.jpg
+  본문 수정 content/posts/2026-09-28-rekor-chinese-crime-tourism.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지는 첫 장만 확인했습니다. 원문은 문화일보·뉴시스·매일신문·MBN·YTN·KBS 보도를 출처로 적고 있습니다. 관련 게시물: [중국인 무비자 폐지 청원](/post/2026-09-16-pickmag-china-visa-free-petition).
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지는 첫 장만 확인했습니다. 원문은 문화일보·뉴시스·매일신문·MBN·YTN·KBS 보도를 출처로 적고 있습니다. 관련 게시물: [중국인 무비자 폐지 청원](/post/2026-09-16-pickmag-china-visa-free-petition).
+  본문 수정 content/posts-en/2026-09-28-rekor-chinese-crime-tourism.md: -1 +1
+    -This post is based on the original caption; only the first card image was reviewed. The original cites Munhwa Ilbo, Newsis, Maeil Shinmun, MBN, YTN and KBS reports as its sources. Related posts (some may be available only in Korean): [petition to end visa-free entry for Chinese nationals](/post/2026-09-16-pickmag-china-visa-free-petition).
+    +This post is based on the original caption; only the first card image of the original post was reviewed. The original cites Munhwa Ilbo, Newsis, Maeil Shinmun, MBN, YTN and KBS reports as its sources. Related posts (some may be available only in Korean): [petition to end visa-free entry for Chinese nationals](/post/2026-09-16-pickmag-china-visa-free-petition).
+2026-09-28-sonit-nk-aid-vs-elderly-support	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-sonit-nk-aid-vs-elderly-support/thumb.jpg
+2026-09-28-todayissuepicks-dmz-hand-pick-escape	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-todayissuepicks-dmz-hand-pick-escape/thumb.jpg
+2026-09-28-yukdaejeon-nisi-nk-mine	②	news	alt/cap	0	없음	4
+  HEAD 파일: public/images/2026-09-28-yukdaejeon-nisi-nk-mine/thumb.jpg
+  본문 수정 content/posts/2026-09-28-yukdaejeon-nisi-nk-mine.md: -1 +1
+    -이 게시물은 원문 텍스트와 첨부 이미지 1장을 기준으로 정리했습니다. 원문은 출처를 뉴스버스로 적고 있습니다.
+    +이 게시물은 원문 텍스트와 원문 첨부 이미지 1장을 기준으로 정리했습니다. 원문은 출처를 뉴스버스로 적고 있습니다.
+  본문 수정 content/posts-en/2026-09-28-yukdaejeon-nisi-nk-mine.md: -1 +1
+    -This post is based on the original text and one attached image. The original cites NewsVerse as its source.
+    +This post is based on the original text and the one image attached to the original post. The original cites NewsVerse as its source.
+  caption 106자 · imageCaption 233자 · imageAlt 83자 · retrievedAt 2026-11-10
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 97 · 자체 제작 67 · SNS 원문 저장본 30
+작업 트리: self 87 · 자체 제작 67 · SNS 원문 저장본 20
+
+결함 0건

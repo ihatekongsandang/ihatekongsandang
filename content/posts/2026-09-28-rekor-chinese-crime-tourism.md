@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd1I0eAgQZ8/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-rekor-chinese-crime-tourism/thumb.jpg
-  alt: "파란 하늘 아래 펄럭이는 중국 국기"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 제주
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지는 첫 장만 확인했습니다. 원문은 문화일보·뉴시스·매일신문·MBN·YTN·KBS 보도를 출처로 적고 있습니다. 관련 게시물: [중국인 무비자 폐지 청원](/post/2026-09-16-pickmag-china-visa-free-petition).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지는 첫 장만 확인했습니다. 원문은 문화일보·뉴시스·매일신문·MBN·YTN·KBS 보도를 출처로 적고 있습니다. 관련 게시물: [중국인 무비자 폐지 청원](/post/2026-09-16-pickmag-china-visa-free-petition).
 
 ## 원문 주장 (게시자 의견)
 

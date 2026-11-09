@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd2esr5vWcF/
 attribution: 인스타그램 @today_issue_picks (오늘_이슈_픽)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-todayissuepicks-dmz-hand-pick-escape/thumb.jpg
-  alt: "국방부 브리핑에서 사고 현장 도식을 가리키며 설명하는 군 관계자 사진 위에 'DMZ사고 현장 처절했다, 다친 장병들이 직접 손곡괭이로 땅을 파서 탈출' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

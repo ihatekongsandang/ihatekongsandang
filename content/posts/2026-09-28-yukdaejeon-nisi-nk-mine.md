@@ -8,9 +8,15 @@ sourceUrl: https://www.threads.com/@kimjoowon_official/post/Dd0FRfzjvN-
 attribution: 스레드 @kimjoowon_official (육대전)
 useSourceImage: false
 image:
-  src: /images/2026-09-28-yukdaejeon-nisi-nk-mine/thumb.jpg
-  alt: "북한 국기 앞에서 연설하는 김정은 위원장 사진 위에 'DMZ 폭발사고 1차 감정결과, 북한군 지뢰로 추정' 문구"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://img.seoul.co.kr//img/upload/2026/09/27/SSC_20260927174258_O2.jpg
+  alt: "수풀이 우거진 비탈에서 헬멧을 쓴 장병이 등을 보이며 이동하는 흐릿한 영상 장면"
+  caption: "2026년 9월 26일 비무장지대(DMZ) 안, 군과 유엔군사령부가 지뢰 추정 폭발 사고 현장조사를 위해 기동로 확보·작전환경 조사를 하는 장면(합참 제공 영상, 원 기사 사진 설명 기준)."
+  creditName: 합참 제공
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.seoul.co.kr/news/politics/diplomacy/2026/09/28/20260928500149
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(수풀 속 장병 뒷모습, 식별 불가)
 og:
   siteName: Threads
 sources:
@@ -29,7 +35,7 @@ tags:
   - 합참
 ---
 
-이 게시물은 원문 텍스트와 첨부 이미지 1장을 기준으로 정리했습니다. 원문은 출처를 뉴스버스로 적고 있습니다.
+이 게시물은 원문 텍스트와 원문 첨부 이미지 1장을 기준으로 정리했습니다. 원문은 출처를 뉴스버스로 적고 있습니다.
 
 ## 보도로 확인된 내용
 
