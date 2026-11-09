@@ -10,10 +10,6 @@ speaker:
   name: 김장겸
   affiliation: 국민의힘 국회의원(언론자유특별위원장)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-kimjanggyeom-hanjunho-kbs-complaint/thumb.jpg
-  alt: "경찰서 앞에서 발언하는 김장겸 의원 사진 위에 한준호 의원의 해명 발언 인용과 '사과하고 사퇴하고 처벌받으라' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(2026년 9월 28일 고발 현장)
 og:
   siteName: Instagram
 sources:

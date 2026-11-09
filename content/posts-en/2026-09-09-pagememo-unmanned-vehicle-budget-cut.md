@@ -2,8 +2,6 @@
 id: 2026-09-09-pagememo-unmanned-vehicle-budget-cut
 title: "\"Lee government cuts budget for domestic unmanned military vehicle by 96%\" — 350 million won of the 8.8 billion won requested was included, while 38.35 billion of 40.33 billion won went to imported loitering drones"
 description: "The 2027 budget bill reportedly funds only 350M of the 8.8B won requested for a domestic unmanned vehicle; the procurement agency cited schedule."
-imageAlt: "Image of a six-wheeled military unmanned vehicle against a Korean flag, overlaid with the text 'Lee Jae-myung government cuts budget for domestic unmanned defense vehicle by 96%' and the PMZ logo"
-imageCaption: "Thumbnail of the original reel"
 attribution: "Instagram @page_memo_zip (PAGE_MEMO_ZIP)"
 translatedAt: 2026-10-01
 ---

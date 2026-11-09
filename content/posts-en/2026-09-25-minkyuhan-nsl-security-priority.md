@@ -21,4 +21,4 @@ This post is based on the original caption and first image. The donation account
 
 ## What we left out of the summary
 
-The image's "abolish the National Security Act entirely" is the opposite of the reported remarks. The president referred to the failed agreement to delete toxic clauses, not to a full abolition.
+In the original post's image, "abolish the National Security Act entirely" is the opposite of the reported remarks. The president referred to the failed agreement to delete toxic clauses, not to a full abolition.

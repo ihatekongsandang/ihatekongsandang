@@ -2,8 +2,6 @@
 id: 2026-09-25-kimkyelee-nk-pow-ukraine
 title: "Kim Kye-ri (김계리): \"They hid the North Korean POWs' move to South Korea, then complained when Zelensky revealed it\" — President Lee: \"We agreed on nondisclosure; it's regrettable\""
 description: "Instagram @kimkyelee (lawyer Kim Kye-ri) faults the government for objecting after Zelensky revealed 2 NK POWs' move to Korea; Lee reportedly expressed regret."
-imageAlt: "Screenshot of an April 2023 news headline reading 'Defector fishermen forcibly repatriated by Moon were tortured for some 50 days, then beheaded'"
-imageCaption: "Image of the original post (screenshot of a 2023 article; for the claim in the headline, see 'What we left out of the summary' below)"
 attribution: "Instagram @kimkyelee (김계리)"
 translatedAt: 2026-09-30
 ---

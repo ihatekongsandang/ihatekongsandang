@@ -2,8 +2,6 @@
 id: 2026-07-25-idontknowpolitics-cheongju-spy-directives
 title: "Revisiting North Korean directives to the 2021 'Cheongju spy ring' — orders to report on conservatives and create a mood for dismantling the NIS; convictions finalized"
 description: "Instagram @idontknowpolitics revisits NK directives in the 2021 Chungbuk Comrades (Cheongju spy ring) case; 2–5-year terms were reportedly finalized in 2025."
-imageAlt: "Thumbnail of a news screen showing a large red flag in front of a building in Pyongyang, overlaid with the text '2021 Cheongju spy ring case: North Korean directives revealed' and captions quoting the directives"
-imageCaption: "Thumbnail of the original post (quoting a TV Chosun news screen)"
 attribution: "Instagram @idontknowpolitics (나정치몰라)"
 translatedAt: 2026-09-30
 ---

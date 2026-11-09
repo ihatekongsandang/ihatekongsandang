@@ -2,8 +2,6 @@
 id: 2026-09-08-sonit-criminal-record-card
 title: "\"The president, ministers and lawmakers all have criminal records, yet the prosecution is gone\" — Sonit card and President Lee's criminal record"
 description: "Instagram @sonit.kr posts a card saying officials have records but the prosecution is gone. Lee's 4 convictions were disclosed in 2022; the office ends Oct. 2."
-imageAlt: "Card capturing a social media post on a white background reading '[Daehan People's Republic] Criminal record holders as president, criminal record holders among ministers, criminal record holders among lawmakers. The prosecution that criminals hate is gone'"
-imageCaption: "Image of the original post (a card reproducing another account's post)"
 attribution: "Instagram @sonit.kr (소니트)"
 translatedAt: 2026-09-30
 ---

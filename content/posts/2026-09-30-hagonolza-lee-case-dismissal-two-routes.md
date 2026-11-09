@@ -9,9 +9,15 @@ sourceUrl: https://www.instagram.com/p/Dd6YpKTiZOY/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
 image:
-  src: /images/2026-09-30-hagonolza-lee-case-dismissal-two-routes/thumb.jpg
-  alt: "스레드 @inve_insight 글 캡처('조작기소특검, 진상조사단이 이재명 찐 공소취소 시나리오라고요') 아래 '이재명 공소취소, 두 개의 루트' 도표 — 루트 A 조작기소 특검법(대통령 '그 조항 빼달라', 특검 수사→검찰 송부), 루트 B 검찰 진상조사단(법무부 장관 지시, 대검 진상조사단 19건, 이정현 검찰총장 대행), 종착점 '공소취소(형사소송법 255조, 1심 판결 선고 전까지 가능)'"
-  caption: 원문 게시물 첫 장(스레드 글 캡처)
+  kind: news
+  src: https://cdn.wolyo.co.kr/news/photo/202609/318015_225872_274.jpg
+  alt: "짙은 파란 배경 앞, 마이크 두 개 앞에서 말하는 이재명 대통령"
+  caption: "2026년 9월 18일 청와대 영빈관 기자회견, 이재명 대통령이 기자들의 질문에 답변하는 모습(원 기사 사진 설명 기준). 이 사진은 해당 일정의 장면일 뿐 게시물이 전하는 의혹·재판 내용의 근거가 아니며, 그 내용은 아래 출처 보도 기준입니다."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.wolyo.co.kr/news/articleView.html?idxno=318015
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대통령 — 청와대 영빈관 기자회견 답변 — 원 기사 사진 설명 · 재판 당사자 본인(정책 §3.6 2행 문구)
 og:
   siteName: Instagram
 sources:

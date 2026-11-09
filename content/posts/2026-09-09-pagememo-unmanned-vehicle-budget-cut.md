@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdEGNnTTfqm/
 attribution: 인스타그램 @page_memo_zip (PAGE_MEMO_ZIP)
 useSourceImage: false
-image:
-  src: /images/2026-09-09-pagememo-unmanned-vehicle-budget-cut/thumb.jpg
-  alt: "태극기를 배경으로 한 6륜 군용 무인차량 이미지 위에 '이재명 정부, 국산 방산 무인차량 예산 96% 삭감' 문구와 PMZ 로고"
-  caption: 원문 릴스 썸네일
 og:
   siteName: Instagram
 sources:

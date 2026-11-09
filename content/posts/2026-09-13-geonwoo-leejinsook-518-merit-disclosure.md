@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/reel/DdOjn6hzOvc/
 attribution: 인스타그램 @geonwoo.vibes (박건우)
 useSourceImage: false
 image:
-  src: /images/2026-09-13-geonwoo-leejinsook-518-merit-disclosure/thumb.jpg
-  alt: "기자회견 중인 여성 정치인 사진과 양옆 남성 정치인 사진 위에 '공적묻자 제명부터?' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(출처 표기 "국회 기자회견")
+  kind: news
+  src: https://newsimg.hankookilbo.com/2026/08/26/208e8834-528a-4e08-ab2a-5d3fa986c71d.jpg
+  alt: "나무 벽 앞에서 휴대전화와 서류를 들고 돌아보는 이진숙 의원"
+  caption: "2026년 8월 26일 국회 본회의, 이진숙 국민의힘 의원이 자신에 대한 제명 촉구 결의안이 상정되자 본회의장을 나서는 모습(원 기사 사진 설명 기준)."
+  creditName: 뉴스1
+  creditNameEn: News1
+  sourcePageUrl: https://www.hankookilbo.com/news/article/A2026082615540002529
+  retrievedAt: 2026-11-10
+  faceNote: 현직 국회의원 — 국회 본회의 출석(결의안 상정 중 퇴장) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

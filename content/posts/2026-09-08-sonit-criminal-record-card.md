@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdCWvKdSDH-/
 attribution: 인스타그램 @sonit.kr (소니트)
 useSourceImage: false
-image:
-  src: /images/2026-09-08-sonit-criminal-record-card/thumb.jpg
-  alt: "흰 바탕에 '[대한인민공화국] 대통령에도 전과자, 장관들에도 전과자, 국회의원에도 전과자. 전과자가 싫어하는 검찰은 없어졌다' 문구가 적힌 SNS 글 캡처 카드"
-  caption: 원문 게시물 이미지(다른 계정 글을 옮긴 카드)
 og:
   siteName: Instagram
 sources:

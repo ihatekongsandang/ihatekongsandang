@@ -2,8 +2,6 @@
 id: 2026-09-26-neveragain-mexico-tariff-visit
 title: "\"Couldn't resolve Mexico's tariffs\" — President Lee urges Sheinbaum to resume FTA talks, while Mexico's 5–50% tariffs on non-FTA countries stay in place"
 description: "Instagram @never_again613 says Lee's Mexico visit failed to fix tariffs of up to 50% on Korean firms; the summit reportedly affirmed a will to resume FTA talks."
-imageAlt: "Card with a photo of President Lee Jae-myung shaking hands with Mexican President Sheinbaum, overlaid with foreign-media article excerpts and the text 'Diplomatic genius couldn't resolve Mexico's tariffs; up to 50% additional tariffs on Korean companies in Mexico this year'"
-imageCaption: "Image of the original post (a card taken from another account)"
 attribution: "Instagram @never_again613"
 translatedAt: 2026-09-30
 ---

@@ -2,8 +2,6 @@
 id: 2026-09-28-parkchoongkwon-dp-mine-remarks
 title: "Park Choong-kwon's card on 'Democratic Party gaffes' over the North Korean mine — remarks by Jin Sung-joon, Kim Byung-joo, Park Sung-joon and Shin Hyun-young checked against reports"
 description: "A People Power Party card lists four Democratic Party figures' remarks on the DMZ mine as gaffes. All four quotes are confirmed by news reports."
-imageAlt: "People Power Party card titled 'Democratic Party gaffes on the North Korean box mine', listing photos and quotes of Jin Sung-joon, Kim Byung-joo, Park Sung-joon and Shin Hyun-young"
-imageCaption: "Image of the original post (card produced by the People Power Party)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @2guaman (박충권)"
 translatedAt: 2026-09-30

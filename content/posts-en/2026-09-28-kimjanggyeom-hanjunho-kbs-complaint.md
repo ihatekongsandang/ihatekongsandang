@@ -2,8 +2,6 @@
 id: 2026-09-28-kimjanggyeom-hanjunho-kbs-complaint
 title: "People Power Party files complaint against Rep. Han Jun-ho and his staff over 'KBS protest call about Kim Seung-won coverage,' alleging Broadcasting Act violation — Kim Jang-gyeom: \"He must apologize and resign\""
 description: "Rep. Kim Jang-gyeom posts video of PPP's complaint over an alleged KBS protest call by Rep. Han Jun-ho's office; Han's side reportedly denies seeking edits."
-imageAlt: "Photo of Rep. Kim Jang-gyeom speaking in front of a police station, overlaid with a quote from Rep. Han Jun-ho's explanation and the text 'Apologize, resign, and be punished'"
-imageCaption: "Thumbnail of the original post (scene of the Sept. 28, 2026 complaint filing)"
 speakerAffiliation: "People Power Party lawmaker (chair of the special committee on press freedom)"
 attribution: "Instagram @jangkyom__k (김장겸)"
 translatedAt: 2026-09-30

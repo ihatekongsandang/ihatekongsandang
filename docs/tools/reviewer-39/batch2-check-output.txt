@@ -1,0 +1,36 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-30-hagonolza-lee-case-dismissal-two-routes	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-30-hagonolza-lee-case-dismissal-two-routes/thumb.jpg
+  caption 137자 · imageCaption 307자 · imageAlt 91자 · retrievedAt 2026-11-10
+2026-07-14-kasamo7-cnn-surprise-attack-article	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-14-kasamo7-cnn-surprise-attack-article/thumb.jpg
+2026-07-25-idontknowpolitics-cheongju-spy-directives	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-07-25-idontknowpolitics-cheongju-spy-directives/thumb.jpg
+2026-09-08-sonit-criminal-record-card	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-08-sonit-criminal-record-card/thumb.jpg
+2026-09-09-pagememo-unmanned-vehicle-budget-cut	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-09-pagememo-unmanned-vehicle-budget-cut/thumb.jpg
+2026-09-13-geonwoo-leejinsook-518-merit-disclosure	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-13-geonwoo-leejinsook-518-merit-disclosure/thumb.jpg
+  caption 85자 · imageCaption 214자 · imageAlt 84자 · retrievedAt 2026-11-10
+2026-09-25-kimkyelee-nk-pow-ukraine	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-25-kimkyelee-nk-pow-ukraine/thumb.jpg
+2026-09-26-neveragain-mexico-tariff-visit	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-26-neveragain-mexico-tariff-visit/thumb.jpg
+2026-09-28-kimjanggyeom-hanjunho-kbs-complaint	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-kimjanggyeom-hanjunho-kbs-complaint/thumb.jpg
+2026-09-28-parkchoongkwon-dp-mine-remarks	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-parkchoongkwon-dp-mine-remarks/thumb.jpg
+P3-1 content/posts: -1 +1
+  -이미지의 "국가보안법 통째로 폐지"는 보도된 발언과 반대입니다. 대통령은 통째 폐지가 아니라 독소조항 삭제 합의가 무산된 것을 언급했습니다.
+  +원문 이미지의 "국가보안법 통째로 폐지"는 보도된 발언과 반대입니다. 대통령은 통째 폐지가 아니라 독소조항 삭제 합의가 무산된 것을 언급했습니다.
+P3-1 content/posts-en: -1 +1
+  -The image's "abolish the National Security Act entirely" is the opposite of the reported 
+  +In the original post's image, "abolish the National Security Act entirely" is the opposit
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 196 · 자체 제작 67 · SNS 원문 저장본 129
+작업 트리: self 186 · 자체 제작 67 · SNS 원문 저장본 119
+
+결함 0건

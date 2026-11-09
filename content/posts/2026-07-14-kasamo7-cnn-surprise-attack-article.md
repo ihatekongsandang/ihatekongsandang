@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@kasamo7/post/DayNAMlj9ip
 attribution: 스레드 @kasamo7
 useSourceImage: false
-image:
-  src: /images/2026-07-14-kasamo7-cnn-surprise-attack-article/thumb.jpg
-  alt: "CNN 기사 'FBI arrests man allegedly helping prepare surprise attack on South Korea'(2024년 12월 3일) 화면 캡처 위에 '북한이 한국을 기습 공격하기 위해' 자막이 얹힌 영상 장면"
-  caption: 원문이 인용한 영상의 한 장면
 og:
   siteName: Threads
 sources:

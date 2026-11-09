@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DbN37rDTyMp/
 attribution: 인스타그램 @idontknowpolitics (나정치몰라)
 useSourceImage: false
-image:
-  src: /images/2026-07-25-idontknowpolitics-cheongju-spy-directives/thumb.jpg
-  alt: "평양 건물 앞 대형 붉은 깃발 뉴스 화면 위에 '2021년 청주 간첩단 사건 북한 지령문 공개' 문구와 지령문 인용 자막이 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(TV조선 뉴스 화면 인용)
 og:
   siteName: Instagram
 sources:

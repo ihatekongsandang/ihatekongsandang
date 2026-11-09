@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddxzk0ZmqsB/
 attribution: 인스타그램 @never_again613
 useSourceImage: false
-image:
-  src: /images/2026-09-26-neveragain-mexico-tariff-visit/thumb.jpg
-  alt: "이재명 대통령과 셰인바움 멕시코 대통령이 악수하는 사진에 외신 기사 발췌와 '외교천재 멕시코 관세 해결 못했다, 올해 멕시코 한국기업 최대 50% 추가 관세' 문구가 얹힌 카드"
-  caption: 원문 게시물 이미지(다른 계정 카드를 옮긴 것)
 og:
   siteName: Instagram
 sources:

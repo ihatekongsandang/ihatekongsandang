@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdtsSMRmoCX/
 attribution: 인스타그램 @kimkyelee (김계리)
 useSourceImage: false
-image:
-  src: /images/2026-09-25-kimkyelee-nk-pow-ukraine/thumb.jpg
-  alt: "'文이 강제북송한 탈북선원, 50여일 고문받다 참수 당했다'라는 2023년 4월 기사 제목 캡처 이미지"
-  caption: 원문 게시물 이미지(2023년 기사 캡처, 제목 속 주장은 아래 '요약에 넣지 않은 내용' 참고)
 og:
   siteName: Instagram
 sources:

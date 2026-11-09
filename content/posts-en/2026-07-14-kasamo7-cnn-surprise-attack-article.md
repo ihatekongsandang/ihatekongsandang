@@ -2,8 +2,6 @@
 id: 2026-07-14-kasamo7-cnn-surprise-attack-article
 title: "\"Found the article that had disappeared\"? — CNN's 'FBI arrests man allegedly helping North Korea prepare a surprise attack on South Korea' (Dec. 3, 2024) is still online; the Chinese national was sentenced to 8 years"
 description: "Threads @kasamo7 shares a video on a Dec. 3, 2024, CNN article: \"Found the one that had disappeared.\" It is still online; the man got 8 years in Aug. 2025."
-imageAlt: "Video scene of a screen capture of the CNN article 'FBI arrests man allegedly helping prepare surprise attack on South Korea' (Dec. 3, 2024), overlaid with the caption 'For North Korea to launch a surprise attack on South Korea'"
-imageCaption: "A scene from the video quoted in the original"
 attribution: "Threads @kasamo7"
 translatedAt: 2026-09-30
 ---

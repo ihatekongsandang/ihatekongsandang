@@ -10,10 +10,6 @@ speaker:
   name: 박충권
   affiliation: 국민의힘 국회의원
 useSourceImage: false
-image:
-  src: /images/2026-09-28-parkchoongkwon-dp-mine-remarks/thumb.jpg
-  alt: "'북한 목함 지뢰 관련 민주당 망언' 제목 아래 진성준·김병주·박성준·신현영 네 사람의 사진과 발언 인용이 정리된 국민의힘 카드"
-  caption: 원문 게시물 이미지(국민의힘 제작 카드)
 og:
   siteName: Instagram
 sources:

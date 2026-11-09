@@ -2,8 +2,8 @@
 id: 2026-09-13-geonwoo-leejinsook-518-merit-disclosure
 title: "Lee Jin-sook: \"May 18 merit holders' records and selection procedures must be disclosed\" — after the first-ever resolution urging a lawmaker's expulsion, she pushes a law to disclose names and records"
 description: "Instagram @geonwoo.vibes shares Rep. Lee Jin-sook's call to disclose May 18 merit records; she reportedly vowed a bill after the Aug. 26 expulsion resolution."
-imageAlt: "Thumbnail with a photo of a female politician at a press conference flanked by photos of male politicians, overlaid with the text 'Ask about merit records and get expelled first?'"
-imageCaption: "Thumbnail of the original post (source labeled \"National Assembly press conference\")"
+imageAlt: "Rep. Lee Jin-sook looking back in front of a wooden wall, holding a phone and papers"
+imageCaption: "Rep. Lee Jin-sook of the People Power Party leaving the chamber at a National Assembly plenary session on Aug. 26, 2026, as a resolution urging her expulsion was taken up (per the original article's photo caption)."
 attribution: "Instagram @geonwoo.vibes (박건우)"
 translatedAt: 2026-09-30
 ---

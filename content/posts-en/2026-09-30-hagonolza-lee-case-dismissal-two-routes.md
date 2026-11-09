@@ -2,8 +2,8 @@
 id: 2026-09-30-hagonolza-lee-case-dismissal-two-routes
 title: "Explainer of a chart claiming 'two routes' to dropping President Lee's cases — the fabricated-indictment special counsel and the prosecution's fact-finding team; Lee asked to delete the counsel's dismissal clause, and acting prosecutor general Lee Jung-hyun said 'we must see the findings'"
 description: "Instagram @hagonolza explains a chart claiming two routes to dropping Lee's cases; Lee reportedly asked to cut the counsel's dismissal clause."
-imageAlt: "Capture of a Threads post by @inve_insight ('They say the fabricated-indictment special counsel and the fact-finding team are the real scenario for dropping Lee Jae-myung's cases') above a chart titled 'Dropping Lee Jae-myung's indictments: two routes' — Route A, fabricated-indictment special counsel act (president: 'take that clause out'; counsel investigation → referral to prosecutors); Route B, prosecution fact-finding team (justice minister's order, Supreme Prosecutors' Office fact-finding team on 19 cases, acting prosecutor general Lee Jung-hyun); end point 'withdrawal of indictment (Criminal Procedure Act Art. 255, possible until the first-instance verdict)'"
-imageCaption: "First slide of the original post (capture of a Threads post)"
+imageAlt: "President Lee Jae-myung speaking in front of two microphones against a dark blue background"
+imageCaption: "President Lee Jae-myung answering reporters' questions at a press conference at Cheong Wa Dae's guesthouse on Sept. 18, 2026 (per the original article's photo caption). The photo shows only that event; it is not evidence of the allegations or trials in this post, which are based on the reports cited below."
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-11-08
 ---
