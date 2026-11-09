@@ -1,17 +1,19 @@
 # 이용약관·운영 정책 페이지 문안 (ko/en)
 
 > 작성: 기획자 (Sonnet 5) · md오더 09 | 작성일: 2026-11-08
+> 🆕 **2026-11-09 동기화(기획자 11, 리뷰 25 P3-8)**: 이 문안은 v0.2에 배포됐다(커밋 ba699e3). 디자이너·프로그래머가 문안 밖에서 더한 문장과 배포 문구가 문안과 다른 곳을 문서 맨 아래 §A~§C에 기록했다. 아래 한국어·English 원문 자체는 문안 확정본 그대로 두었다. 개정 문구 안은 `planning/v0.2-post-release-sync.md`(§3~§5)에 있다.
 > 🔴 저장소 독립 원칙: 다른 서비스명·계정명·홈 디렉터리 절대경로를 쓰지 않는다.
 > 근거: `planning/news-format-conversion.md` §1.0·§1.3·D2·D6, PRD v0.7 §6④·⑥
 > ⚠️ **법적 효과를 보장하는 표현은 쓰지 않는다.** 아래 문안은 모두 "확인 필요" 전제를 유지하며, "~이다"처럼 단정하지 않고 "~로 운영한다"·"~에 따라 조치한다"처럼 운영 사실을 서술하는 형태로만 썼다.
+> 🆕 **(v0.8 갱신)** 아래 "연락 경로 확정값 없음" 메모는 작성 당시(2026-11-08) 상태다. 사용자 결정 4c로 배포 화면은 `contact@example.invalid`를 제거하고 "연락 창구 준비 중"을 보인다(`contactEmail`은 `null`). 상세는 §B.
 > 🔴 **연락 경로는 확정값이 없다** — `src/lib/config.ts`의 현재 `contactEmail`은 `contact@example.invalid`로, `/about` 페이지에도 "확정 전 임시 주소"라고 이미 표시돼 있다(코드 확인, 2026-11-08). 이 문서는 새 계정·메일을 임의로 만들지 않고 **"사용자 결정 필요"**로 남긴다. 사용자가 실제 연락처를 정하면 이 페이지의 해당 자리만 교체한다.
 
 ---
 
-## 페이지 위치·제목 (제안, 확정 아님)
+## 페이지 위치·제목 (확정 — 프로그래머 11 구현, 아래 §B10)
 
-- 경로(제안): `/terms`(한국어), `/en/terms`(영어) — PRD v0.7 §4.1 "제안"과 동일. **실제 경로는 프로그래머가 정한다.**
-- 제목(제안): "이용약관·운영 정책" / "Terms and Operating Policy"
+- 경로(확정): `/terms`(한국어), `/en/terms`(영어) — PRD §4.1과 동일.
+- 제목(확정): "이용약관·운영 정책" / "Terms and Operating Policy"
 - `/about`·`/en/about` 하단에 이 페이지로 가는 링크를 추가하는 것을 전제로 썼다(상호 참조).
 
 ---
@@ -89,3 +91,55 @@ This site is run **anonymously** — we don't disclose the operator's real name,
 ### 6. What kind of content this is
 
 Posts on this site are **summaries of already-published reporting**. This description doesn't determine whether the site counts as an internet newspaper or internet news service under Korea's Act on the Promotion of Newspapers (fixed 09-1 — review 24 P3-7: that Act has no definition of "press"; "press" is defined in Article 2, item 1 of the Act on Press Arbitration and Remedies, etc.) — it's simply how we describe what we do, not a legal classification.
+
+---
+
+## 배포 후 대조 기록 (v0.8, 2026-11-09 기획자 11 — 리뷰 25 P3-8)
+
+> 대조 방법: 배포 소스 `src/app/(ko)/terms/page.tsx`, `src/app/(en)/en/terms/page.tsx`, `src/app/(ko)/about/page.tsx`, `src/app/(en)/en/about/page.tsx`, `src/lib/config.ts`를 읽기만 했다. 위 한국어·English 원문의 작성 이력 메모를 뺀 문장 각 29개를 배포 소스에서 정규화(JSX 태그·HTML 엔티티·공백 제거) 후 부분 문자열 일치로 검사해 **누락 0건·불일치 0건**을 확인했다(ko 29/29, en 29/29). 아래는 그 밖의 차이다.
+
+### §A. 문안 밖에서 더해진 문장 원문 기록 (확정자 명시)
+
+프로그래머 11 핸드오프 결정 3의 "문안 밖 문장 4개"와 슈퍼바이저 판단 문장을 원문으로 기록한다. 리뷰 26 §5.2가 의미·보장 표현 여부를 통과시켰다. **이후 이 문장들은 문안의 일부로 본다.**
+
+| # | 문장(배포 원문) | 위치 | 작성자 | 확정 근거 |
+|---|---|---|---|---|
+| A1 | 이 페이지는 이 사이트가 어떻게 운영되는지, 어떤 출처를 쓰는지, 문제가 있을 때 어떻게 연락하는지를 안내합니다. | 약관(ko) 제목 아래 | 디자이너 02 (시안 02 §2) → 프로그래머 11 구현 | 리뷰 26 §5.2 #1 통과. 중립 안내문, 보장 표현 없음 |
+| A2 | This page explains how this site is run, which sources it uses, and how to reach us if there is a problem. | 약관(en) 제목 아래 | 프로그래머 11 (A1의 번역) | 리뷰 26 §5.2 #2 통과, 의미 동등 |
+| A3 | 아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다. | 약관(ko) §4, 준비 중 상자 아래, `contactEmail`이 `null`일 때만 | 디자이너 02 (시안 02 §3.1) | **슈퍼바이저 판단**(오더 11 판단 1, "약관은 지금 공개 — 처리 기준은 연락 창구가 확정된 뒤부터 적용") |
+| A4 | The handling standards below apply once the contact channel is finalized. | 약관(en) §4, 같은 조건 | 프로그래머 11 (A3의 번역) | 리뷰 26 §5.2 #3 통과, 의미 동등 |
+| A5 | 처리 기준과 운영 원칙 전문은 이용약관·운영 정책에서 볼 수 있습니다. (링크 문구: "이용약관·운영 정책") | `/about` 정정·삭제 절 끝 | 프로그래머 11 (리뷰 25 P3-9 위치) | 리뷰 26 §5.2 #4 통과 |
+| A6 | For the full handling standards and operating principles, see the Terms and Operating Policy. | `/en/about` 같은 자리 | 프로그래머 11 | 리뷰 26 §5.2 #4 통과 |
+
+⚠️ A3·A4는 **운영 정책의 내용**(처리 기준 적용 시점)이다. 문안 원본에 두지 않으면 사용자가 연락 창구를 정한 뒤 문장이 빠지는 조건(`contactEmail`이 설정되면 사라짐)을 놓칠 수 있어 여기 적는다.
+
+### §B. 배포 문구와 문안이 다른 곳 전부
+
+| # | 대상 | 문안 | 배포 | 성격 |
+|---|---|---|---|---|
+| B1 | 약관(ko) §4 연락 경로 | 🔴 "연락 경로: 사용자 결정 필요"(기획 메모 상자, 화면 문구 아님) | 준비 중 상자: "연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다." | 사용자 결정 4c 반영. 상자 문구는 시안 02·03 |
+| B2 | 약관(en) §4 연락 경로 | "Contact channel: pending a decision. (The email currently shown on the `/about` page is a temporary placeholder. …)" | "Contact channel: pending a decision. This page will be updated once it's finalized." | 4c 반영. 괄호 속 임시 주소 설명은 임시 주소 제거로 불필요 |
+| B3 | 약관(ko·en) §4 | (없음) | `contactEmail`이 설정되면 준비 중 상자 대신 "이메일 {주소}" / "Email {address}" 상자 | 프로그래머 11의 조건 분기. 문안에 없음 |
+| B4 | 약관(ko·en) §4 | (없음) | §A의 A3·A4 문장(`contactEmail`이 `null`일 때만) | 슈퍼바이저 판단 |
+| B5 | 약관(ko·en) 절 제목 | "1. 운영 목적" … "6. 게시물 성격" / "1. What this site does" … | 번호 없는 제목("운영 목적" … "게시물 성격") | 시안 02 구조. **§5 본문의 "위 4항"/"Section 4"가 화면에서 가리킬 곳이 없는 원인** → 개정 안은 `planning/v0.2-post-release-sync.md` §3 |
+| B6 | 약관(ko·en) 맨 위 | (없음) | 페이지 제목 아래 소개 문장(§A의 A1·A2) | 디자이너·프로그래머 |
+| B7 | 약관(ko·en) 맨 아래 | (없음) | "소개로 돌아가기" / "Back to About" 링크 | 시안 02 §2 |
+| B8 | 약관 메타 | (없음, "제목(제안)"만) | ko description "공산당이싫어요의 운영 목적, 출처 원칙, 정정·삭제 요청 처리 기준, 익명 운영과 게시물 성격을 안내합니다." / en description "What 공산당이싫어요 (Korea Politics & Security Brief) does, its sourcing principles, how correction and removal requests are handled, and how the site is run." | 프로그래머 11. 메타 문구는 문안 범위 밖이라 승인 대상이 아니었다 — 이 기록으로 확인 완료 |
+| B9 | 작성 이력 메모 | "(09-1 수정 — 리뷰 24 …)"·"(Added/Fixed 09-1 …)" | 모두 뺌 | 의도된 차이(화면 문구 아님) |
+| B10 | 경로·제목 | "제안, 확정 아님" `/terms`·`/en/terms` | 그대로 확정 | 프로그래머 11 구현 |
+
+### §C. 개정 대기 항목 (배포 전 — 🆕 리뷰 27 승인 최종 문구)
+
+아래는 문안 원본(위 한국어·English 원문)을 아직 바꾸지 않았다. 프로그래머 오더로 코드를 고칠 때 함께 바꾼다. **반영 배포 전까지 원문이 유효 문안이다.** 반영 후에는 이 절을 §A·§B 방식으로 환원한다. 엔티티 관례: `&ldquo;` `&rdquo;` `&lsquo;` `&rsquo;`. 전체 목록(파일·위치·현행 대조)은 `planning/v0.2-post-release-sync.md` §6.
+
+| # | 대상 | 확정 문구 |
+|---|---|---|
+| C1 (#1 ko) | §5 마지막 문장 "위 4항" (리뷰 26 P3-4) | 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경로를 통해서만 가능합니다. (`#correction` 링크는 선택) |
+| C1 (#2 en) | §5 마지막 문장 "Section 4" | The only way to reach the operator is through the contact channel in the “How to request a correction or removal, and how we handle it” section above. (링크 선택) |
+| C2 (#5 ko) | §3 셋째 항목 (리뷰 26 P3-5, 원문 미리보기와 구분) | 모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다**. 다만 상세 페이지의 ‘원문 미리보기’에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다. |
+| C2 (#6 en) | §3 셋째 항목 | Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — **the summaries and text we write never copy a news article's summary or body text**. The “Original post preview” box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so. |
+| C3 (#7 ko) | §3 둘째 항목 끝에 덧붙임 (D1 "신문법 등"과의 관계) | 소개 문구의 “신문법 등에 따라 등록된 매체”는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다. |
+| C3 (#8 en) | §3 둘째 항목 끝에 덧붙임 | The phrase “outlets registered under Korea's Act on the Promotion of Newspapers and related laws” in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above. |
+| C4 (#9 ko·en) | 약관 페이지 제목 아래 첫 줄(작은 글씨), 슈퍼바이저 판단(리뷰 27 P3-6) | ko: 최종 개정: YYYY-MM-DD / en: Last updated: YYYY-MM-DD — 날짜는 위 개정을 반영해 배포하는 코드 반영 배포일(Asia/Seoul). 이후 약관을 고칠 때마다 갱신 |
+
+관련 about 단서 2건(#3·#4: "아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다." / "The handling standards below apply once the contact channel is finalized.")은 약관이 아니라 `/about`·`/en/about` 문구이며 sync §6에 있다.
