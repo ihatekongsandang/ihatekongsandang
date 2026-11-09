@@ -101,7 +101,10 @@ export default function AboutPage() {
               </a>
             </p>
           ) : (
-            <ContactPendingNotice>연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.</ContactPendingNotice>
+            <>
+              <ContactPendingNotice>연락 창구 준비 중입니다. 확정되면 이 페이지를 갱신합니다.</ContactPendingNotice>
+              <p className="text-xs text-muted-foreground">아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다.</p>
+            </>
           )}
           <ul className="space-y-2 text-sm">
             <li>접수 후 3영업일 이내에 1차 답변을 드립니다(법정 기한이 아닌 자체 기준입니다).</li>

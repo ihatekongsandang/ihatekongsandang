@@ -47,9 +47,14 @@ export default function EnglishAboutPage() {
               </a>
             </p>
           ) : (
-            <ContactPendingNotice>
-              Contact channel: pending a decision. This page will be updated once it&rsquo;s finalized.
-            </ContactPendingNotice>
+            <>
+              <ContactPendingNotice>
+                Contact channel: pending a decision. This page will be updated once it&rsquo;s finalized.
+              </ContactPendingNotice>
+              <p className="text-xs text-muted-foreground">
+                The handling standards below apply once the contact channel is finalized.
+              </p>
+            </>
           )}
           <ul className="space-y-2 text-sm">
             <li>We send a first reply within 3 business days of receiving a request (our own standard, not a legal deadline).</li>

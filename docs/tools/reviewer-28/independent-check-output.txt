@@ -1,0 +1,78 @@
+[A] 빌드 HTML(html.parser) 대조
+PASS #1 ko_terms anonymous 절 p 1개·끝 문장 일치 — 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경
+PASS #2 en_terms anonymous 절 p 1개·끝 문장 일치 — The only way to reach the operator is th
+PASS #3 ko_about correction 절: 준비 중 상자(p.border-dashed) 바로 다음 p.text-xs = 문구 — 아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다.
+PASS #4 en_about correction 절: 준비 중 상자(p.border-dashed) 바로 다음 p.text-xs = 문구 — The handling standards below apply once the contact channel is finalized.
+PASS #5 ko_terms sourcing li 4개·셋째 li 전문 일치
+PASS #5 ko_terms 굵게 = §6 ** 범위(마침표 밖) — ['등록된 신문·인터넷신문', '운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다']
+PASS #6 en_terms sourcing li 4개·셋째 li 전문 일치
+PASS #6 en_terms 굵게 = §6 ** 범위(마침표 밖) — ['registered', "the summaries and text we write never copy a news article's summary or body text"]
+PASS #7 ko_terms sourcing 둘째 li = …근거로 쓰지 않습니다. + 덧붙임(끝)
+PASS #8 en_terms sourcing 둘째 li = … sole basis. + 덧붙임(끝)
+PASS #1 인용 절 이름 = 약관 ko 실제 h2 — ['운영 목적', '직접 취재하지 않음', '출처 원칙', '정정·삭제 요청 방법과 처리 기준', '익명 운영과 연락 경로', '게시물 성격']
+PASS #2 인용 절 이름 = 약관 en 실제 h2
+PASS #1·#2 인용 절은 anonymous 절보다 위(문구 '위'·'above')
+PASS #5 ‘원문 미리보기’ = i18n ko sourcePreview
+PASS #6 “Original post preview” = i18n en sourcePreview
+PASS #8 인용 ⊂ SITE_EN.aboutIntro 소스
+PASS #8 인용 ⊂ /en/about 빌드 화면 텍스트
+PASS #7 인용 “신문법 등에 따라 등록된 매체” ⊂ /about 빌드 화면
+PASS #9 ko_terms header: h1 → p.text-xs '최종 개정: 2026-11-09' — [['h1', 'text-2xl font-semibold tracking-tight sm:text-3xl', '이용약관·운영 정책'], ['p', 'text-xs text-muted-foreground', '최종 개정: 2026-11-09']]
+PASS #9 ko_terms <time dateTime=상수> 1개
+  ko_terms JSON-LD 블록 2개 · @type ['WebPage', 'WebSite'] · date* 키 []
+PASS #9 ko_terms JSON-LD date* 키가 상수와 모순 없음
+PASS #9 en_terms header: h1 → p.text-xs 'Last updated: 2026-11-09' — [['h1', 'text-2xl font-semibold tracking-tight sm:text-3xl', 'Terms and Operating Policy'], ['p', 'text-xs text-muted-foreground', 'Last updated: 2026-11-09']]
+PASS #9 en_terms <time dateTime=상수> 1개
+  en_terms JSON-LD 블록 2개 · @type ['WebPage', 'WebSite'] · date* 키 []
+PASS #9 en_terms JSON-LD date* 키가 상수와 모순 없음
+PASS 옛 문구 0: ko_terms '위 4항'
+PASS 옛 문구 0: en_terms 'Section 4'
+PASS 옛 문구 0: ko_terms '— 기사 요약이나'
+PASS 옛 문구 0: en_terms 'we never copy'
+
+[B] 소스(JSX 규칙으로 풀어 쓴 텍스트) 대조
+PASS #1 소스(src/app/(ko)/terms/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #2 소스(src/app/(en)/en/terms/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #3 소스(src/app/(ko)/about/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #4 소스(src/app/(en)/en/about/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #7 소스(src/app/(ko)/terms/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #8 소스(src/app/(en)/en/terms/page.tsx) 풀어 쓴 텍스트에 문구 1회 — 1
+PASS #5 소스: 굵게 앞·굵게·뒤 조각 각 1회
+PASS #6 소스: 굵게 앞·굵게·뒤 조각 각 1회
+
+[C] 아포스트로피 판정 근거
+  /en/terms 화면: 단어 속 ’ 13개 ['n’t', 'a’s', 't’s', 'e’v', 't’s', 'n’t', 'r’s', 'e’s', 'n’t', 'a’s', 'n’t', 'a’s', 't’s'] · ' 2개 ["a's", "e's"]
+   ' 위치: ets registered under Korea's Act on the Promotion of 
+   ' 위치:  never copy a news article's summary or body text. Th
+  en 약관 소스 9d969d8: &rsquo; 15 · &apos; 0 | 현재: &rsquo; 14 · &apos; 2
+PASS 관례 근거: §6 #6 '현행' 칸(곧은 ')은 직전 커밋 소스(’)를 ’→' 로 적은 것
+PASS 관례 근거: §6 #8 '현행' 칸도 같은 방식(직전 소스 ’ 없음 구간 → 그대로 일치)
+  §6 머리: 엔티티 관례 `&ldquo;` `&rdquo;` `&lsquo;` `&rsquo;` 명시 = True
+  en 소개 소스: &rsquo; 1 · &apos; 0 · SITE_EN.aboutIntro 안 곧은 ' 1개 · ’ 0개
+
+[D] 직전 커밋 대비 단어 단위 diff 조각(범위 이탈 확인)
+  src/app/(ko)/terms/page.tsx: 조각 6개
+    insert: -[] +[className="text-xs text-muted-foreground"> 최종 개정: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time> </p> <p]
+    insert: -[] +[소개 문구의 &ldquo;신문법 등에 따라 등록된 매체&rdquo;는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다.]
+    replace: -[—] +[—{' '}]
+    replace: -[className="font-semibold">기사] +[className="font-semibold"> 운영자가 쓰는 요약과 본문에는 기사]
+    replace: -[않습니다</strong>.] +[않습니다 </strong> . 다만 상세 페이지의 &lsquo;원문 미리보기&rsquo;에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다.]
+    replace: -[4항의] +[&lsquo;정정·삭제 요청 방법과 처리 기준&rsquo; 절의]
+  src/app/(en)/en/terms/page.tsx: 조각 7개
+    insert: -[] +[<p className="text-xs text-muted-foreground"> Last updated: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time> </p>]
+    insert: -[] +[The phrase &ldquo;outlets registered under Korea&apos;s Act on the Promotion of Newspapers and related laws&rdquo; in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, lic]
+    replace: -[—] +[—{' '}]
+    replace: -[className="font-semibold">we] +[className="font-semibold"> the summaries and text we write]
+    replace: -[article&rsquo;s] +[article&apos;s]
+    replace: -[text</strong>.] +[text </strong> . The &ldquo;Original post preview&rdquo; box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so.]
+    replace: -[Section 4.] +[the &ldquo;How to request a correction or removal, and how we handle it&rdquo; section above.]
+  src/app/(ko)/about/page.tsx: 조각 2개
+    insert: -[] +[<>]
+    insert: -[] +[<p className="text-xs text-muted-foreground">아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다.</p> </>]
+  src/app/(en)/en/about/page.tsx: 조각 2개
+    insert: -[] +[<>]
+    insert: -[] +[<p className="text-xs text-muted-foreground"> The handling standards below apply once the contact channel is finalized. </p> </>]
+  src/lib/config.ts: 조각 1개
+    insert: -[] +[/** * 약관(`/terms`·`/en/terms`) "최종 개정"/"Last updated" 날짜(YYYY-MM-DD, Asia/Seoul). ko·en이 이 값 하나를 쓴다. * 약관 문구를 고칠 때마다 함께 갱신한다(리뷰 27 P3-6 → 슈퍼바이저 판단, 프로그래머 12). */ termsLastUpdated: '2026-11-09',]
+
+합계 38건 · PASS 38 · FAIL 0

@@ -27,6 +27,11 @@ export const SITE = {
    * 사용자가 정한 값으로만 바꾼다(프로그래머 11, 종전 `.invalid` 예약 도메인 플레이스홀더는 메일이 전달되지 않아 제거).
    */
   contactEmail: null as string | null,
+  /**
+   * 약관(`/terms`·`/en/terms`) "최종 개정"/"Last updated" 날짜(YYYY-MM-DD, Asia/Seoul). ko·en이 이 값 하나를 쓴다.
+   * 약관 문구를 고칠 때마다 함께 갱신한다(리뷰 27 P3-6 → 슈퍼바이저 판단, 프로그래머 12).
+   */
+  termsLastUpdated: '2026-11-09',
 } as const
 
 /** 영어 사이트명의 괄호 영문 부제(괄호 제외). 슈퍼바이저 확정값(프로그래머 05 오더 §5). */

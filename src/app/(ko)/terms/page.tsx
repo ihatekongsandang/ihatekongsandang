@@ -24,6 +24,9 @@ export default function TermsPage() {
       <div className="mx-auto w-full max-w-3xl space-y-10">
         <header className="space-y-3">
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">이용약관·운영 정책</h1>
+          <p className="text-xs text-muted-foreground">
+            최종 개정: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time>
+          </p>
           <p className="text-muted-foreground">
             이 페이지는 이 사이트가 어떻게 운영되는지, 어떤 출처를 쓰는지, 문제가 있을 때 어떻게 연락하는지를 안내합니다.
           </p>
@@ -57,11 +60,18 @@ export default function TermsPage() {
               언론사는 「신문 등의 진흥에 관한 법률」에 따라{' '}
               <strong className="font-semibold">등록된 신문·인터넷신문</strong>(제2조 1호·2호 정의 충족)을 기준으로 보고,
               뉴스통신사는 「뉴스통신 진흥에 관한 법률」, 방송사업자는 「방송법」의 사업자를 기준으로 봅니다. 미등록
-              매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다.
+              매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다. 소개 문구의 &ldquo;신문법 등에 따라 등록된
+              매체&rdquo;는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가
+              다르며, 근거 법령은 위에 적은 대로입니다.
             </li>
             <li>
               모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게
-              인용합니다 — <strong className="font-semibold">기사 요약이나 본문을 그대로 옮기지 않습니다</strong>.
+              인용합니다 —{' '}
+              <strong className="font-semibold">
+                운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다
+              </strong>
+              . 다만 상세 페이지의 &lsquo;원문 미리보기&rsquo;에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께
+              고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다.
             </li>
             <li>
               제목과 요약은 단정하지 않고 인용하는 형태로 씁니다(&ldquo;~로 보도됨&rdquo;·&ldquo;~라는 의혹이
@@ -121,7 +131,7 @@ export default function TermsPage() {
             합니다. 회원 가입·댓글·후원 기능이 없습니다. 가입·결제 등을 위해 별도로 개인정보를 받지는 않지만, 방문 통계는
             GA4로 집계되고 정정·삭제 요청 시 보내주신 연락처(이메일 등)는 응답 목적으로만 씁니다. 이 설명이
             개인정보보호법상 요구되는 고지를 전부 충족하는지는 <strong className="font-semibold">확인 필요</strong>입니다.
-            운영자와의 연락은 위 4항의 연락 경로를 통해서만 가능합니다.
+            운영자와의 연락은 위 &lsquo;정정·삭제 요청 방법과 처리 기준&rsquo; 절의 연락 경로를 통해서만 가능합니다.
           </p>
         </Section>
 

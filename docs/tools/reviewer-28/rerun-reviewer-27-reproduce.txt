@@ -1,0 +1,42 @@
+[ko] 정방향: 문안 문장 29개 중 배포 일치 27개, 누락·불일치 2개
+   MISS: 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **기사 요약이나 본문을 그대로 옮기지 않습니다**.
+   MISS: 운영자와의 연락은 위 4항의 연락 경로를 통해서만 가능합니다.
+[ko] 역방향: 배포 화면 문장 조각 52개 중 문안에 없는 것 17개
+   EXTRA: return (
+   EXTRA: 이용약관·운영 정책
+   EXTRA: 최종 개정:
+   EXTRA: 이 페이지는 이 사이트가 어떻게 운영되는지, 어떤 출처를 쓰는지, 문제가 있을 때 어떻게 연락하는지를 안내합니다.
+   EXTRA: 소개 문구의 &ldquo;신문법 등에 따라 등록된 매체&rdquo;는 위 기준 전체를 줄여 부른 표현입니다.
+   EXTRA: 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다.
+   EXTRA: 운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다
+   EXTRA: . 다만 상세 페이지의 &lsquo;원문 미리보기&rsquo;에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다.
+   EXTRA: {SITE.contactEmail ? (
+   EXTRA: ) : ( <>
+   EXTRA: 연락 창구 준비 중입니다.
+   EXTRA: 확정되면 이 페이지를 갱신합니다.
+   EXTRA: 아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다.
+   EXTRA: )}
+   EXTRA: 운영자와의 연락은 위 &lsquo;정정·삭제 요청 방법과 처리 기준&rsquo; 절의 연락 경로를 통해서만 가능합니다.
+   EXTRA: 소개로 돌아가기
+   EXTRA: }
+[en] 정방향: 문안 문장 29개 중 배포 일치 27개, 누락·불일치 2개
+   MISS: We write the summary ourselves and only quote short phrases where needed — **we never copy a news article's summary or body text**.
+   MISS: The only way to reach the operator is through the contact channel in Section 4.
+[en] 역방향: 배포 화면 문장 조각 52개 중 문안에 없는 것 17개
+   EXTRA: return (
+   EXTRA: Terms and Operating Policy
+   EXTRA: Last updated:
+   EXTRA: This page explains how this site is run, which sources it uses, and how to reach us if there is a problem.
+   EXTRA: The phrase &ldquo;outlets registered under Korea&apos;s Act on the Promotion of Newspapers and related laws&rdquo; in the About intro is shorthand for this whole standard.
+   EXTRA: The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above.
+   EXTRA: the summaries and text we write never copy a news article&apos;s summary or body text
+   EXTRA: The &ldquo;Original post preview&rdquo; box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so.
+   EXTRA: {SITE.contactEmail ? (
+   EXTRA: Email
+   EXTRA: ) : ( <>
+   EXTRA: This page will be updated once it&rsquo;s finalized.
+   EXTRA: The handling standards below apply once the contact channel is finalized.
+   EXTRA: )}
+   EXTRA: The only way to reach the operator is through the contact channel in the &ldquo;How to request a correction or removal, and how we handle it&rdquo; section above.
+   EXTRA: Back to About
+   EXTRA: }

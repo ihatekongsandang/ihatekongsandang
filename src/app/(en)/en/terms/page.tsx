@@ -24,6 +24,9 @@ export default function EnglishTermsPage() {
       <div className="mx-auto w-full max-w-3xl space-y-10">
         <header className="space-y-3">
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Terms and Operating Policy</h1>
+          <p className="text-xs text-muted-foreground">
+            Last updated: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time>
+          </p>
           <p className="text-muted-foreground">
             This page explains how this site is run, which sources it uses, and how to reach us if there is a problem.
           </p>
@@ -58,11 +61,19 @@ export default function EnglishTermsPage() {
               &ldquo;News outlet&rdquo; means a newspaper or internet newspaper <strong className="font-semibold">registered</strong>{' '}
               under Korea&rsquo;s Act on the Promotion of Newspapers (meeting Article 2, items 1–2), a news agency under the
               Act on the Promotion of News Agencies, or a broadcaster under the Broadcasting Act. Unregistered outlets,
-              independent media, and YouTube channels are not used as a sole basis.
+              independent media, and YouTube channels are not used as a sole basis. The phrase &ldquo;outlets registered
+              under Korea&apos;s Act on the Promotion of Newspapers and related laws&rdquo; in the About intro is shorthand
+              for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type
+              of outlet; the governing laws are as named above.
             </li>
             <li>
               Every post links to its original source. We write the summary ourselves and only quote short phrases where
-              needed — <strong className="font-semibold">we never copy a news article&rsquo;s summary or body text</strong>.
+              needed —{' '}
+              <strong className="font-semibold">
+                the summaries and text we write never copy a news article&apos;s summary or body text
+              </strong>
+              . The &ldquo;Original post preview&rdquo; box on a post page may show the title and summary the source itself
+              published, unedited and labeled as quoted, with a note saying so.
             </li>
             <li>
               Titles and summaries are written as quotations, not assertions (e.g., &ldquo;reportedly ...&rdquo;,
@@ -132,7 +143,8 @@ export default function EnglishTermsPage() {
             via GA4, and any contact details (e.g., an email address) you send with a correction or removal request are used
             only to respond to you. Whether this description fully meets what Korea&rsquo;s personal-data-protection law
             requires is <strong className="font-semibold">still being confirmed</strong>. The only way to reach the operator
-            is through the contact channel in Section 4.
+            is through the contact channel in the &ldquo;How to request a correction or removal, and how we handle
+            it&rdquo; section above.
           </p>
         </Section>
 
