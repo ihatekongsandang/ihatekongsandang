@@ -2,8 +2,8 @@
 id: 2026-09-18-dailybite-judicial-independence
 title: "Chief Justice Cho Hee-dae: \"Judicial independence must be protected\" vs. President Lee Jae-myung: \"We should consider why independence is granted\" — dispute over a new justice recommendation; the chief justice refuses on the 22nd"
 description: "Instagram @daily.bite_official recaps Chief Justice Cho's and President Lee's Sept. 18 remarks on re-recommending a justice; Cho reportedly refused on Sept. 22."
-imageAlt: "Chief Justice Cho Hee-dae speaking in front of a microphone, with the captions 'Judicial independence can't be touched, judicial independence day two'"
-imageCaption: "Image of the original post"
+imageAlt: "Chief Justice Cho Hee-dae speaking at a podium reading 'The 20th Conference of Chief Justices of Asia and the Pacific'"
+imageCaption: "Chief Justice Cho Hee-dae giving the closing address at the 20th Conference of Chief Justices of Asia and the Pacific at the Grand Hyatt hotel in Yongsan-gu, Seoul, on Sept. 18, 2026 (per the original article's photo caption)."
 attribution: "Instagram @daily.bite_official (뉴스 한입)"
 translatedAt: 2026-09-30
 ---

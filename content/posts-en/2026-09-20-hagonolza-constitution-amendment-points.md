@@ -2,8 +2,6 @@
 id: 2026-09-20-hagonolza-constitution-amendment-points
 title: "\"Key points to scrutinize in a constitutional amendment\" — cards on putting May 18 in the preamble, strengthening the National Assembly's powers and decentralization"
 description: "Instagram @hagonolza sums up 3 key amendment issues and urges consensus; the vote on a May 18 preamble amendment reportedly fell through in May as PPP sat out."
-imageAlt: "Logo with the word 'Constitution' inside a rose of Sharon emblem"
-imageCaption: "Image of the original post"
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-09-30
 ---

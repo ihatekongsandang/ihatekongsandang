@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdnrQEgBvzL/
 attribution: 인스타그램 @peoplepower_korea7 (자유대한 늬우스)
 useSourceImage: false
-image:
-  src: /images/2026-09-22-peoplepower7-hyegyeonggung-claim/thumb.jpg
-  alt: "검은 배경에 과거 트위터 글로 소개된 문장들을 옮겨 적은 이미지"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

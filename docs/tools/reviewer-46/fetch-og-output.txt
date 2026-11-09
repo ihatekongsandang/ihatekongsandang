@@ -1,0 +1,27 @@
+1	dailybite-judicial-independen	200	200 image/jpeg 657248
+2	dailybite-judicial-independen	200	200 image/png 270572
+3	dailybite-judicial-independen	200	200 image/jpeg 1042528
+4	shindawit-asiangames-nk-anthe	200	200 image/jpeg 83962
+5	shindawit-asiangames-nk-anthe	200	200 image/jpeg 36299
+6	shindawit-asiangames-nk-anthe	200	200 image/jpeg 639706
+7	hagonolza-constitution-amendm	200	200 image/jpeg 62735
+8	hagonolza-constitution-amendm	200	200 image/jpeg 45430
+9	hagonolza-constitution-amendm	200	200 image/jpeg 329454
+10	hagonolza-constitution-amendm	200	200 image/jpeg 910546
+11	nowmagazine-alpha-phone	200	200 image/jpeg 979290
+12	nowmagazine-alpha-phone	200	200 image/jpeg 302770
+13	nowmagazine-alpha-phone	200	200 image/jpeg 648638
+14	shindawit-foreign-unemploymen	200	200 image/jpeg 826829
+15	shindawit-foreign-unemploymen	200	200 image/webp 74546
+16	shindawit-foreign-unemploymen	200	200 image/jpeg 143307
+17	kimmoonsoo-prosecution-abolit	200	200 image/jpeg 210556
+18	kimmoonsoo-prosecution-abolit	200	200 image/jpeg;charset=UTF-8 255002
+19	leeprenotion-assembly-holiday	200	200 image/jpeg 161837
+20	leeprenotion-assembly-holiday	200	200 image/jpeg 153553
+21	peoplepower7-hyegyeonggung-cl	200	200 image/jpeg 160537
+22	peoplepower7-hyegyeonggung-cl	200	200 image/jpeg 159517
+23	peoplepower7-hyegyeonggung-cl	200	200 image/jpeg 526314
+24	taekyu-chief-justice-refusal	200	200 image/jpeg 1042528
+25	taekyu-chief-justice-refusal	200	200 image/jpeg 43610
+26	taekyu-chief-justice-refusal	200	200 image/png 270572
+기사 26건

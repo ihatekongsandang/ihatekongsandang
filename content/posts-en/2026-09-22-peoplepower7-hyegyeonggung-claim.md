@@ -2,8 +2,6 @@
 id: 2026-09-22-peoplepower7-hyegyeonggung-claim
 title: "Post saying \"'Hyegyeonggung Kim' is Kim Hye-kyung\" — in 2018 police concluded they were the same person, prosecutors declined to indict for 'insufficient evidence'"
 description: "Instagram @peoplepower_korea7 calls 'Hyegyeonggung Kim' tweets Kim Hye-kyung's; 2018 police reportedly concluded so, but prosecutors declined to indict."
-imageAlt: "Image on a black background transcribing sentences presented as past Twitter posts"
-imageCaption: "Image of the original post"
 attribution: "Instagram @peoplepower_korea7 (자유대한 늬우스)"
 translatedAt: 2026-09-30
 ---

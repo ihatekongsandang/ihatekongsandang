@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/DdbHikNmAyO/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
 image:
-  src: /images/2026-09-18-shindawit-asiangames-nk-anthem/thumb.jpg
-  alt: "경기장 전광판에 표시된 태극기와 'REPUBLIC OF' 글자"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://cphoto.asiae.co.kr/listimglink/1/2026091821050734849_1789733107.jpg
+  alt: "파란 하키 경기장에 두 팀 선수들이 한 줄로 서 있고 앞쪽에서 방글라데시 국기와 태극기를 펼쳐 든 장면(원경)"
+  caption: "2026 아이치·나고야 아시안게임 남자 하키 한국-방글라데시 경기 시작 전 양 팀이 도열한 모습. 이 경기에서 애국가 대신 북한 국가가 나왔다(대한체육회 제공, 원 기사 사진 설명 기준)."
+  creditName: 대한체육회 제공
+  creditNameEn: Korean Sport & Olympic Committee
+  sourcePageUrl: https://view.asiae.co.kr/article/2026091821101148388
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 식별 불가(선수·관계자 모두 원경)
 og:
   siteName: Instagram
 sources:
@@ -32,7 +38,7 @@ tags:
   - 북한
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 이미지 내용은 확인하지 않았습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 내용은 확인하지 않았습니다.
 
 ## 보도로 확인된 내용
 

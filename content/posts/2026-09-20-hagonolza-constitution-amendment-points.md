@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddg4v8NCbQB/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
-image:
-  src: /images/2026-09-20-hagonolza-constitution-amendment-points/thumb.jpg
-  alt: "무궁화 문양 안에 '헌법'이라고 적힌 로고"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

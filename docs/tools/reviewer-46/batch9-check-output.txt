@@ -1,0 +1,30 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-18-dailybite-judicial-independence	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-18-dailybite-judicial-independence/thumb.jpg
+  caption 94자 · imageCaption 224자 · imageAlt 116자 · retrievedAt 2026-11-10
+2026-09-18-shindawit-asiangames-nk-anthem	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-18-shindawit-asiangames-nk-anthem/thumb.jpg
+  caption 90자 · imageCaption 264자 · imageAlt 120자 · retrievedAt 2026-11-10
+2026-09-19-geonwoo-hongdae-march	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-19-geonwoo-hongdae-march/thumb.jpg
+2026-09-20-hagonolza-constitution-amendment-points	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-hagonolza-constitution-amendment-points/thumb.jpg
+2026-09-20-nowmagazine-alpha-phone	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-nowmagazine-alpha-phone/thumb.jpg
+2026-09-20-shindawit-foreign-unemployment-benefits	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-20-shindawit-foreign-unemployment-benefits/thumb.jpg
+2026-09-21-kimmoonsoo-prosecution-abolition	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-21-kimmoonsoo-prosecution-abolition/thumb.jpg
+2026-09-21-leeprenotion-assembly-holiday-bonus	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-21-leeprenotion-assembly-holiday-bonus/thumb.jpg
+2026-09-22-peoplepower7-hyegyeonggung-claim	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-22-peoplepower7-hyegyeonggung-claim/thumb.jpg
+2026-09-22-taekyu-chief-justice-refusal	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-22-taekyu-chief-justice-refusal/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 127 · 자체 제작 67 · SNS 원문 저장본 60
+작업 트리: self 117 · 자체 제작 67 · SNS 원문 저장본 50
+
+결함 0건

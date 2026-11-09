@@ -2,8 +2,6 @@
 id: 2026-09-20-shindawit-foreign-unemployment-benefits
 title: "Unemployment benefits paid to foreigners hit a record 113.4 billion won — 79% went to ethnic Korean Chinese and Chinese nationals"
 description: "Instagram @shin_dawit recaps reports that foreigners' jobless benefits hit a record 113.4B won last year, ~79% to ethnic Korean Chinese and Chinese nationals."
-imageAlt: "People standing in front of the unemployment benefits counter at an employment center"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @shin_dawit (신다윗)"
 translatedAt: 2026-10-07
 ---

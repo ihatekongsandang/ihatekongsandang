@@ -10,10 +10,6 @@ speaker:
   name: "@geonwoo.vibes"
   affiliation: 인스타그램 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-19-geonwoo-hongdae-march/thumb.jpg
-  alt: "대형 태극기를 든 참가자들이 홍대 거리를 행진하는 모습과 '홍대길거리 시민들 함성 난리났다' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources: []

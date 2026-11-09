@@ -2,8 +2,6 @@
 id: 2026-09-19-geonwoo-hongdae-march
 title: "Weekend Taegeukgi march on Hongdae streets — \"Stop the overseas trips,\" \"Stop splashing taxpayers' money\": video posted by a participant"
 description: "Instagram @geonwoo.vibes posts a weekend Taegeukgi march in Hongdae, Seoul; the poster says marchers chanted against government policy. No press reports found."
-imageAlt: "Participants holding large Taegeukgi flags marching through the streets of Hongdae, with the caption 'Citizens on Hongdae streets erupt in cheers'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

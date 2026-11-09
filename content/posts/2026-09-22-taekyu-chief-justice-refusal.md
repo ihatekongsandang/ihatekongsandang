@@ -10,10 +10,6 @@ speaker:
   name: 김태규
   affiliation: 국민의힘 국회의원·원내수석대변인
 useSourceImage: false
-image:
-  src: /images/2026-09-22-taekyu-chief-justice-refusal/thumb.jpg
-  alt: "'끝까지 사법권 독립을 지켜 낸 대법원장에게 깊은 존경을 표합니다' 문구와 조희대 대법원장 사진 일부"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

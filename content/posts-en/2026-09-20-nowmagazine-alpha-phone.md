@@ -2,8 +2,6 @@
 id: 2026-09-20-nowmagazine-alpha-phone
 title: "Democratic Party pushes a student-only 'Alpha Phone' that blocks social media and games — post relaying criticism of a \"control mindset\""
 description: "Instagram @now._.magazine relays criticism of the DP's student-only 'Alpha Phone' as social media control; the DP reportedly aims to launch it next July–August."
-imageAlt: "A man speaking in front of the National Assembly logo"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @now._.magazine (나우 매거진)"
 translatedAt: 2026-09-30
 ---

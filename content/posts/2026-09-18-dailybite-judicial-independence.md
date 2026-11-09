@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/DdbC-LnS7Vm/
 attribution: 인스타그램 @daily.bite_official (뉴스 한입)
 useSourceImage: false
 image:
-  src: /images/2026-09-18-dailybite-judicial-independence/thumb.jpg
-  alt: "마이크 앞에서 발언하는 조희대 대법원장과 '사법부 독립 못 건드린다, 사법부 독립 이틀째' 자막"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://img.seoul.co.kr//img/upload/2026/09/18/SSC_20260918170504_O2.jpg
+  alt: "'The 20th Conference of Chief Justices of Asia and the Pacific'라고 적힌 연단에서 말하는 조희대 대법원장"
+  caption: "2026년 9월 18일 서울 용산구 그랜드하얏트 호텔, 조희대 대법원장이 제20차 아시아·태평양 대법원장 회의 폐회식에서 폐회사를 하는 모습(원 기사 사진 설명 기준)."
+  creditName: 뉴시스
+  creditNameEn: Newsis
+  sourcePageUrl: https://www.seoul.co.kr/news/society/2026/09/18/20260918500271
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대법원장 — 국제회의 폐회사(공식 행사) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

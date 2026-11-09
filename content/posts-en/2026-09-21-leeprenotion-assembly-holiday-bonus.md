@@ -2,8 +2,6 @@
 id: 2026-09-21-leeprenotion-assembly-holiday-bonus
 title: "Lawmakers' holiday-leave allowances around 8.8 million won a year — \"a waste of taxpayers' money\" thread"
 description: "Threads user @lee_prenotion shares a 'lawmakers' holiday allowance: 8.49M won' image, citing waste; it's reportedly ~4.4M won per holiday in 2026, ~8.79M/year."
-imageAlt: "Card marking the holiday-leave allowance item of 8,495,880 won in a table of lawmakers' allowances, with the text 'Lawmakers' holiday leave allowance: 8.49 million won'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Threads user"
 attribution: "Threads @lee_prenotion"
 translatedAt: 2026-09-30

@@ -10,10 +10,6 @@ speaker:
   name: 김문수
   affiliation: 제21대 대선 국민의힘 후보
 useSourceImage: false
-image:
-  src: /images/2026-09-21-kimmoonsoo-prosecution-abolition/thumb.jpg
-  alt: "김문수 전 후보 사진과 '전 국민의힘 대선후보, 검찰청 폐지를 중단하라' 문구"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
