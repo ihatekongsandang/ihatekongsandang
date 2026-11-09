@@ -1,0 +1,27 @@
+PASS  정상(대조) · npm run build — 종료 0 · BUILD_ID 있음 · 표지 - -회 · > tsx scripts/validate-content.ts
+PASS  정상(대조) · npx next build — 종료 0 · BUILD_ID 있음 · 표지 - -회 · - Experiments (use with caution):
+PASS  a 토큰 1개 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [a] 1회 · ✗ content/moved-ids.txt 4행: 한 줄에 `옛id 새id` 두 개를 공백으로 나눠 적어야 합니다(받은 토큰 1개). [a]
+PASS  a 토큰 1개 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [a] 1회 · - content/moved-ids.txt 4행: 한 줄에 `옛id 새id` 두 개를 공백으로 나눠 적어야 합니다(받은 토큰 1개). [a]
+PASS  b 대문자 id · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [b] 1회 · ✗ content/moved-ids.txt 4행: 옛 id `Zz-fixture-old-c`가 id 형식(소문자 영숫자·하이픈)이 아닙니다. [b]
+PASS  b 대문자 id · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [b] 1회 · - content/moved-ids.txt 4행: 옛 id `Zz-fixture-old-c`가 id 형식(소문자 영숫자·하이픈)이 아닙니다. [b]
+PASS  c 옛=새 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [c] 1회 · ✗ content/moved-ids.txt 4행: 옛 id와 새 id가 같습니다(`zz-fixture-moved-a`). 자기 자신으로 보내면 무한 이동이 됩니다. [c]
+PASS  c 옛=새 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [c] 1회 · - content/moved-ids.txt 4행: 옛 id와 새 id가 같습니다(`zz-fixture-moved-a`). 자기 자신으로 보내면 무한 이동이 됩니다. [c]
+PASS  d retired 미등록 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [d] 1회 · ✗ content/moved-ids.txt 4행: 옛 id `zz-fixture-old-c`가 content/retired-ids.txt에 없습니다. 옮긴 옛 id는 재사용을 막기 위해 두 파일 모두에 적습니다. [
+PASS  d retired 미등록 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [d] 1회 · - content/moved-ids.txt 4행: 옛 id `zz-fixture-old-c`가 content/retired-ids.txt에 없습니다. 옮긴 옛 id는 재사용을 막기 위해 두 파일 모두에 적습니다. [
+PASS  e 옛 id 게시물 남음 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [e] 1회 · ✗ content/moved-ids.txt 2행: 옛 id `zz-fixture-old-a`를 쓰는 게시물이 아직 있습니다. 살아 있는 글이 리다이렉트에 가려집니다. [e]
+PASS  e 옛 id 게시물 남음 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [e] 1회 · - content/moved-ids.txt 2행: 옛 id `zz-fixture-old-a`를 쓰는 게시물이 아직 있습니다. 살아 있는 글이 리다이렉트에 가려집니다. [e]
+PASS  f 새 id 게시물 없음 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [f] 1회 · ✗ content/moved-ids.txt 4행: 새 id `zz-fixture-missing` 게시물이 content/posts에 없습니다. 없는 주소로 보내게 됩니다. [f]
+PASS  f 새 id 게시물 없음 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [f] 1회 · - content/moved-ids.txt 4행: 새 id `zz-fixture-missing` 게시물이 content/posts에 없습니다. 없는 주소로 보내게 됩니다. [f]
+PASS  g 옛 id 중복 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [g] 1회 · ✗ content/moved-ids.txt 4행: 옛 id `zz-fixture-old-a`가 2행에도 있습니다. 옛 id 하나는 한 곳으로만 보냅니다. [g]
+PASS  g 옛 id 중복 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [g] 1회 · - content/moved-ids.txt 4행: 옛 id `zz-fixture-old-a`가 2행에도 있습니다. 옛 id 하나는 한 곳으로만 보냅니다. [g]
+PASS  g 사슬 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [g] 1회 · ✗ content/moved-ids.txt 4행: 새 id `zz-fixture-old-a`가 2행의 옛 id입니다. 이동 사슬·순환은 쓰지 않습니다 — 최종 id로 바로 적으세요. [g]
+PASS  g 사슬 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [g] 1회 · - content/moved-ids.txt 4행: 새 id `zz-fixture-old-a`가 2행의 옛 id입니다. 이동 사슬·순환은 쓰지 않습니다 — 최종 id로 바로 적으세요. [g]
+PASS  h 한국어 본문 링크 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [h] 1회 · ✗ content/posts/zz-fixture-moved-b.md: 옮긴 옛 id `zz-fixture-old-a`로 가는 링크가 있습니다. 새 id `zz-fixture-moved-a`로 고치세요(리다이렉트에 기
+PASS  h 한국어 본문 링크 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [h] 1회 · - content/posts/zz-fixture-moved-b.md: 옮긴 옛 id `zz-fixture-old-a`로 가는 링크가 있습니다. 새 id `zz-fixture-moved-a`로 고치세요(리다이렉트에 기
+PASS  h 영어본 절대 주소 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [h] 1회 · ✗ content/posts-en/zz-fixture-moved-a.md: 옮긴 옛 id `zz-fixture-old-a`로 가는 링크가 있습니다. 새 id `zz-fixture-moved-a`로 고치세요(리다이렉트
+PASS  h 영어본 절대 주소 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [h] 1회 · - content/posts-en/zz-fixture-moved-a.md: 옮긴 옛 id `zz-fixture-old-a`로 가는 링크가 있습니다. 새 id `zz-fixture-moved-a`로 고치세요(리다이렉트
+PASS  i 옛 이미지 폴더 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [i] 1회 · ✗ public/images/zz-fixture-old-a/ 폴더가 남아 있습니다. 옮긴 옛 id의 이미지 폴더는 새 id로 옮기거나 지웁니다. [i]
+PASS  i 옛 이미지 폴더 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [i] 1회 · - public/images/zz-fixture-old-a/ 폴더가 남아 있습니다. 옮긴 옛 id의 이미지 폴더는 새 id로 옮기거나 지웁니다. [i]
+PASS  i 옛 이미지 경로 참조 · npm run build — 종료 1 · BUILD_ID 없음 · 표지 [i] 1회 · ✗ content/posts/zz-fixture-moved-b.md: 옮긴 옛 id의 이미지 경로 `/images/zz-fixture-old-a/`를 참조합니다. 새 id 폴더로 옮기거나 지우세요. [i]
+PASS  i 옛 이미지 경로 참조 · npx next build — 종료 1 · BUILD_ID 없음 · 표지 [i] 1회 · - content/posts/zz-fixture-moved-b.md: 옮긴 옛 id의 이미지 경로 `/images/zz-fixture-old-a/`를 참조합니다. 새 id 폴더로 옮기거나 지우세요. [i]
+합계 26건 · PASS 26 · FAIL 0

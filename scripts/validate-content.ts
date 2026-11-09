@@ -10,6 +10,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
+import { collectMovedIdErrors, readMovedIdsText, parseMovedIds, readTranslationIds, translationMismatchErrors } from '../src/lib/content/moved-ids'
 import { readRetiredIds, retiredIdMessage } from '../src/lib/content/retired-ids'
 import { validatePost, type Post } from '../src/lib/content/schema'
 import { validateTranslation } from '../src/lib/content/translation'
@@ -126,6 +127,18 @@ function main(): void {
     reports.push({ fileName: `posts-en/${fileName}`, errors, notices })
   }
 
+  // --- 옮긴 id 목록 content/moved-ids.txt (프로그래머 16, C11) — 검증 a~h + 옛 이미지 폴더. 로더도 같은 함수로 한 번 더 막는다 ---
+  const moved = parseMovedIds(readMovedIdsText(ROOT))
+  const movedErrors = collectMovedIdErrors(ROOT)
+  if (movedErrors.length === 0) {
+    const movedMap = new Map(moved.entries.map((entry) => [entry.from, entry.to]))
+    try {
+      movedErrors.push(...translationMismatchErrors(movedMap, readTranslationIds(ROOT, movedMap), enIds))
+    } catch (error) {
+      // 영어본 YAML 오류(파일 이름이 붙어 있다)는 여기서 받아 보고서에 싣는다 — 던지게 두면 아래 전체 보고서가 찍히지 않는다.
+      movedErrors.push(error instanceof Error ? error.message : String(error))
+    }
+  }
   const failed = reports.filter((report) => report.errors.length > 0)
   const noticed = reports.filter((report) => report.notices.length > 0)
 
@@ -141,6 +154,11 @@ function main(): void {
     for (const error of report.errors) console.log(`   ✗ ${error}`)
   }
 
+  if (movedErrors.length > 0) {
+    console.log(`\n🔴 content/moved-ids.txt`)
+    for (const error of movedErrors) console.log(`   ✗ ${error}`)
+  }
+
   const errorTotal = failed.reduce((sum, report) => sum + report.errors.length, 0)
 
   console.log(
@@ -149,6 +167,7 @@ function main(): void {
       '── 요약 ──',
       `검사 파일 ${fileNames.length + enFileNames.length}건(한국어 ${fileNames.length} · 영어본 ${enFileNames.length}) · 통과 ${reports.length - failed.length}건 · 실패 ${failed.length}건 (오류 ${errorTotal}개)`,
       `고유 id ${idOwner.size}개 · 폐기 id 목록 ${retired.size}개`,
+      `옮긴 id 목록(moved-ids.txt) ${moved.entries.length}건 · 리다이렉트 규칙 ${moved.entries.length * 2}개 · 오류 ${movedErrors.length}개`,
       `유형별: ${[...typeCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
       `배경 보도 출처: ${sourceCount}건 · 발언자 표기: ${speakerCount}건`,
       `검사한 이미지 alt ${imageCount}개`,
@@ -157,7 +176,7 @@ function main(): void {
     ].join('\n'),
   )
 
-  if (failed.length > 0) {
+  if (failed.length > 0 || movedErrors.length > 0) {
     console.error('\n🔴 검증 실패 — 위 항목을 고친 뒤 다시 실행하세요. 빌드를 진행하지 않습니다.')
     process.exit(1)
   }

@@ -1,0 +1,41 @@
+
+./docs/tools/designer-04-A/build.mjs
+  303:10  warning  'mixedLg' is defined but never used        @typescript-eslint/no-unused-vars
+  322:9   warning  'full' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  331:23  warning  'v' is defined but never used              @typescript-eslint/no-unused-vars
+  364:36  warning  'i' is defined but never used              @typescript-eslint/no-unused-vars
+  380:30  warning  'id' is defined but never used             @typescript-eslint/no-unused-vars
+  448:17  warning  'c' is defined but never used              @typescript-eslint/no-unused-vars
+
+./docs/tools/designer-04-A/content.mjs
+  95:34  warning  'a' is defined but never used  @typescript-eslint/no-unused-vars
+
+./docs/tools/designer-04-A/gen-docs.mjs
+  32:9  warning  'c' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+./docs/tools/designer-04-B/build.mjs
+  180:9   warning  'mm' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  193:24  warning  'id' is defined but never used           @typescript-eslint/no-unused-vars
+
+./docs/tools/designer-05/build-final.mjs
+  13:7  warning  'INTRO_EN_FULL' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+./docs/tools/designer-05/summarize.mjs
+  56:89  warning  'k' is defined but never used  @typescript-eslint/no-unused-vars
+
+./docs/tools/planner-16/count-self-images.mjs
+  21:15  warning  'noImage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+./docs/tools/reviewer-04/keyboard-tab.mjs
+  36:7  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+./docs/tools/reviewer-10/html-same.mjs
+   9:150  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  19:3    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+./docs/tools/reviewer-26/origin-fallback-check.mjs
+  10:31  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 17 problems (0 errors, 17 warnings)
+
+exit 0

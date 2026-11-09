@@ -1,0 +1,38 @@
+항목 수: ko 소스 9 · ko 계획 9 | en 소스 9 · en 계획 9
+PASS  ko 항목 수 같음
+PASS  ko 항목 1 글자 같음
+PASS  ko 항목 2 글자 같음
+PASS  ko 항목 3 글자 같음
+PASS  ko 항목 4 글자 같음
+PASS  ko 항목 5 글자 같음
+PASS  ko 항목 6 글자 같음
+PASS  ko 항목 7 글자 같음
+PASS  ko 항목 8 글자 같음
+PASS  ko 항목 9 글자 같음
+PASS  en 항목 수 같음
+PASS  en 항목 1 글자 같음
+PASS  en 항목 2 글자 같음
+PASS  en 항목 3 글자 같음
+PASS  en 항목 4 글자 같음
+PASS  en 항목 5 글자 같음
+PASS  en 항목 6 글자 같음
+PASS  en 항목 7 글자 같음
+PASS  en 항목 8 글자 같음
+PASS  en 항목 9 글자 같음
+PASS  리뷰 §2.4 ko 줄 1 ⊂ 계획 ko
+PASS  리뷰 §2.4 ko 줄 2 ⊂ 계획 ko
+PASS  리뷰 §2.4 ko 줄 3 ⊂ 계획 ko
+PASS  리뷰 §2.4 ko 줄 4 ⊂ 계획 ko
+PASS  리뷰 §2.4 ko 줄 5 ⊂ 계획 ko
+PASS  리뷰 §2.4 ko 줄 6 ⊂ 계획 ko
+PASS  리뷰 §2.4 en 줄 1 ⊂ 계획 en
+PASS  리뷰 §2.4 en 줄 2 ⊂ 계획 en
+PASS  리뷰 §2.4 en 줄 3 ⊂ 계획 en
+PASS  리뷰 §2.4 en 줄 4 ⊂ 계획 en
+PASS  리뷰 §2.4 en 줄 5 ⊂ 계획 en
+PASS  리뷰 §2.4 en 줄 6 ⊂ 계획 en
+PASS  ko 굵게 조각 같음(7개)
+PASS  en 절 제목 = Quotes, images and copyright
+PASS  en 새 절 굽은 따옴표 0
+PASS  약관(ko·en) git diff 0
+합계 36건 · PASS 36 · FAIL 0

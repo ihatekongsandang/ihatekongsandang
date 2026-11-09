@@ -1,0 +1,78 @@
+== 픽스처 포함 빌드 (게시물 211건 · 영어본 210건 · moved-ids 실제 줄 2개)
+검사 파일 421건(한국어 211 · 영어본 210) · 통과 421건 · 실패 0건 (오류 0개)
+옮긴 id 목록(moved-ids.txt) 2건 · 리다이렉트 규칙 4개 · 오류 0개
+✅ 검증 통과
+ ✓ Generating static pages (808/808)
+== curl -I (첫 응답 머리만, 따라가지 않음)
+-- curl -I /post/zz-fixture-old-a
+HTTP/1.1 308 Permanent Redirect
+location: /post/zz-fixture-moved-a
+-- curl -I /en/post/zz-fixture-old-a
+HTTP/1.1 308 Permanent Redirect
+location: /en/post/zz-fixture-moved-a
+-- curl -I /post/zz-fixture-old-b
+HTTP/1.1 308 Permanent Redirect
+location: /post/zz-fixture-moved-b
+-- curl -I /en/post/zz-fixture-old-b
+HTTP/1.1 308 Permanent Redirect
+location: /post/zz-fixture-moved-b
+-- curl -I /post/zz-fixture-old-a?utm_source=x
+HTTP/1.1 308 Permanent Redirect
+location: /post/zz-fixture-moved-a?utm_source=x
+-- curl -I /post/zz-fixture-old-a/
+HTTP/1.1 308 Permanent Redirect
+location: /post/zz-fixture-old-a
+-- curl -I /post/zz-fixture-moved-a
+HTTP/1.1 200 OK
+-- curl -I /post/zz-fixture-nothing
+HTTP/1.1 404 Not Found
+== redirect-check
+PASS  #1 GET /post/zz-fixture-old-a → 308 · Location /post/zz-fixture-moved-a — 308 /post/zz-fixture-moved-a
+PASS  #1 HEAD /post/zz-fixture-old-a → 308 · Location /post/zz-fixture-moved-a — 308 /post/zz-fixture-moved-a
+PASS  #2 GET /en/post/zz-fixture-old-a → 308 · Location /en/post/zz-fixture-moved-a — 308 /en/post/zz-fixture-moved-a
+PASS  #2 HEAD /en/post/zz-fixture-old-a → 308 · Location /en/post/zz-fixture-moved-a — 308 /en/post/zz-fixture-moved-a
+PASS  #8 GET /en/post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 308 /post/zz-fixture-moved-b
+PASS  #8 HEAD /en/post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 308 /post/zz-fixture-moved-b
+PASS  #1b GET /post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 308 /post/zz-fixture-moved-b
+PASS  #1b HEAD /post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 308 /post/zz-fixture-moved-b
+PASS  #3 /post/zz-fixture-moved-a → 200 — 200
+PASS  #3 /en/post/zz-fixture-moved-a → 200 — 200
+PASS  #3 /post/zz-fixture-moved-b → 200 — 200
+PASS  #8 대조: 영어본 없는 /en/post/zz-fixture-moved-b → 404(그래서 한국어로 보낸다) — 404
+PASS  #4 /sitemap.xml 200 — 200
+PASS  #4 /sitemap.xml 옛 id 0건
+PASS  #4 /sitemap.xml 새 id zz-fixture-moved-a·zz-fixture-moved-b 있음
+PASS  #4 sitemap: /en/post/새 a 있음 · /en/post/새 b 없음(영어본 없음)
+PASS  #4 /llms.txt 200 — 200
+PASS  #4 /llms.txt 옛 id 0건
+PASS  #4 /llms.txt 새 id zz-fixture-moved-a·zz-fixture-moved-b 있음
+PASS  #5 /post/zz-fixture-moved-a canonical = 새 주소 — https://site.example.com/post/zz-fixture-moved-a
+PASS  #5 /post/zz-fixture-moved-a og:url = 새 주소 — https://site.example.com/post/zz-fixture-moved-a
+PASS  #5 /post/zz-fixture-moved-a hreflang ko·en 쌍 = 새 주소 — ko=https://site.example.com/post/zz-fixture-moved-a en=https://site.example.com/en/post/zz-fixture-moved-a x-default=https://site.example.com/post/zz-fixture-moved-a
+PASS  #5 /post/zz-fixture-moved-a 응답 HTML에 옛 id 0
+PASS  #5 /en/post/zz-fixture-moved-a canonical = 새 주소 — https://site.example.com/en/post/zz-fixture-moved-a
+PASS  #5 /en/post/zz-fixture-moved-a og:url = 새 주소 — https://site.example.com/en/post/zz-fixture-moved-a
+PASS  #5 /en/post/zz-fixture-moved-a hreflang ko·en 쌍 = 새 주소 — ko=https://site.example.com/post/zz-fixture-moved-a en=https://site.example.com/en/post/zz-fixture-moved-a x-default=https://site.example.com/post/zz-fixture-moved-a
+PASS  #5 /en/post/zz-fixture-moved-a 응답 HTML에 옛 id 0
+PASS  #5 /post/zz-fixture-moved-b canonical = 새 주소 — https://site.example.com/post/zz-fixture-moved-b
+PASS  #5 /post/zz-fixture-moved-b og:url = 새 주소 — https://site.example.com/post/zz-fixture-moved-b
+PASS  #5 /post/zz-fixture-moved-b hreflang 없음(영어본 없음)
+PASS  #5 /post/zz-fixture-moved-b 응답 HTML에 옛 id 0
+PASS  #6 .next 전체 2584개 파일(cache 제외) 중 페이지·자산 파일의 옛 id 0
+  (기록) 메타데이터 .next/required-server-files.json: 옛 id 4회 — 예: …ts": [ { "source": "/post/zz-fixture-old-a", "destination"…
+  (기록) 메타데이터 .next/routes-manifest.json: 옛 id 8회 — 예: …/$" }, { "source": "/post/zz-fixture-old-a", "destination": …
+  (기록) 메타데이터 .next/types/routes.d.ts: 옛 id 8회 — 예: …s = "/" type RedirectRoutes = "/en/post/zz-fixture-old-a" | "/en/post/zz-fixture…
+PASS  #6 routes-manifest: 사용자 리다이렉트 4개(2건 × ko·en), 모두 308 — [["/post/zz-fixture-old-a","/post/zz-fixture-moved-a",308],["/en/post/zz-fixture-old-a","/en/post/zz-fixture-moved-a",308],["/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308],["/en/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308]]
+PASS  #9 쿼리: /post/zz-fixture-old-a?utm_source=x → 308 · Location /post/zz-fixture-moved-a?utm_source=x (보존) — 308 /post/zz-fixture-moved-a?utm_source=x
+PASS  #9 쿼리: /en/post/zz-fixture-old-b?utm_source=x&b=2 → /post/zz-fixture-moved-b?utm_source=x&b=2 — 308 /post/zz-fixture-moved-b?utm_source=x&b=2
+PASS  #9 끝 슬래시: /post/zz-fixture-old-a/ → 308 /post/zz-fixture-old-a → 308 /post/zz-fixture-moved-a → 200 (2단) — 308 /post/zz-fixture-old-a → 308 /post/zz-fixture-moved-a → 200
+PASS  #9 끝 슬래시: /en/post/zz-fixture-old-a/ → 308 /en/post/zz-fixture-old-a → 308 /en/post/zz-fixture-moved-a → 200 (2단) — 308 /en/post/zz-fixture-old-a → 308 /en/post/zz-fixture-moved-a → 200
+PASS  #10 /post/<다른 게시물> → 200 (Location 없음) — 200 
+PASS  #10 /en/post/<다른 게시물> → 200 (Location 없음) — 200 
+PASS  #10 /post/zz-fixture-nothing → 404 (Location 없음) — 404 
+PASS  #10 /en/post/zz-fixture-nothing → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old-a-extra → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old → 404 (Location 없음) — 404 
+PASS  #10 /post/xzz-fixture-old-a → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old-a/x → 404 (Location 없음) — 404 
+합계 45건 · PASS 45 · FAIL 0

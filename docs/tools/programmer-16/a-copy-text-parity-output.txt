@@ -1,0 +1,9 @@
+FAIL  about.html @998
+  전: '로 읽히게 만들기 때문입니다. 인용·저작권 외부 글은 본문을 전재하지 않습니다. 원문의 메타 정보(제목·요약·썸네일)만 인용하고 원문 링크를 함께 제공합니다. 원문 썸네일은 원 사이트의 이미지를 그대로 참조(핫링크)'
+  후: '로 읽히게 만들기 때문입니다. 인용·저작권 외부 글은 본문을 전재하지 않습니다. 원문의 메타 정보(제목·요약)만 인용하고 원문 링크를 함께 제공합니다. 카드의 대표 이미지는 글에 따라 다릅니다. 언론 기사의 사진을 '
+PASS  terms.html — 같음(2172자)
+FAIL  en/about.html @614
+  전: 'the English and Korean differ, the Korean version prevails. Corrections and removal requests To report inaccurate conten'
+  후: 'the English and Korean differ, the Korean version prevails. Quotes, images and copyright We quote only the metadata of a'
+PASS  en/terms.html — 같음(4897자)
+합계 4건 · PASS 2 · FAIL 2

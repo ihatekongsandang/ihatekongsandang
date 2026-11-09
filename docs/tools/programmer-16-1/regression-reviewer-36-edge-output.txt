@@ -1,0 +1,17 @@
+PASS  실제 저장소: moved 0건 · 리다이렉트 규칙 0개
+PASS  자기 자신(a a) → [c]
+PASS  2단 순환(a b / b a) → [g]
+PASS  사슬(a b / b c) → [g]
+PASS  3단 순환(a b / b c / c a) → [g]
+PASS  두 옛 id → 같은 새 id(a c / b c)는 허용
+PASS  줄 끝 주석·탭 구분 허용
+PASS  CRLF 줄도 받는다
+PASS  새 id가 retired-ids에 있음 → [f]
+PASS  옛 id가 retired-ids에 없음 → [d]
+PASS  정상 이전 → 오류 0
+PASS  규칙 2개 · en→/en/post/새 · 모두 permanent
+PASS  규칙 source가 목적지와 같지 않음(자기 이동 0)
+NOTE  파일명=zz-new · frontmatter id=zz-new-typo 일 때 collectMovedIdErrors: ["content/moved-ids.txt 1행: 새 id `zz-new`(frontmatter id) 게시물이 content/posts에 없습니다. 없는 주소로 보내게 됩니다. 파일 content/posts/zz-new.md는 있지만 frontmatter id가 `zz-new`가 아닙니다 — 주소는 frontmatter id로 정해집니다. [f]"]
+PASS  [관찰] 새 id 게시물의 frontmatter id가 없으면 f가 막는가
+NOTE  moved 0건인데 영어본 frontmatter 깨짐 → readTranslationIds 던짐: false
+합계 14건 · PASS 14 · FAIL 0

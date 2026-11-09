@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
+import { collectMovedIdErrors, readMovedIds, readTranslationIds, translationMismatchErrors } from './moved-ids'
 import { readRetiredIds, retiredIdMessage } from './retired-ids'
 import { validatePost, type Post } from './schema'
 import { localizePost, validateTranslation, type PostTranslation } from './translation'
@@ -62,6 +63,9 @@ export function getAllPosts(): Post[] {
     seen.set(result.post.id, fileName)
     posts.push(result.post)
   }
+
+  // 옮긴 id 목록(프로그래머 16, C11) — 검증 스크립트와 같은 함수. `npx next build`를 직접 쳐도 잘못된 이동 규칙이 통과하지 못한다.
+  for (const error of collectMovedIdErrors()) failures.push(`moved-ids.txt\n  - ${error}`)
 
   if (failures.length > 0) {
     throw new Error(
@@ -143,6 +147,12 @@ export function getAllTranslations(): Map<string, PostTranslation> {
       continue
     }
     translations.set(result.translation.id, result.translation)
+  }
+
+  // 리다이렉트의 영어 분기(frontmatter id 기준)와 이 번역 맵이 옮긴 새 id에 대해 같은지(프로그래머 16, C11).
+  const moved = readMovedIds()
+  for (const error of translationMismatchErrors(moved, readTranslationIds(process.cwd(), moved), new Set(translations.keys()))) {
+    failures.push(`moved-ids.txt\n  - ${error}`)
   }
 
   if (failures.length > 0) {

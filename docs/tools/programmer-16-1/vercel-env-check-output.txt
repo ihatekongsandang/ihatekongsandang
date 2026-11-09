@@ -1,0 +1,6 @@
+PASS  VERCEL 없음: 사용자 리다이렉트 4개 · 308 — [["/post/zz-fixture-old-a","/post/zz-fixture-moved-a",308],["/en/post/zz-fixture-old-a","/en/post/zz-fixture-moved-a",308],["/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308],["/en/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308]]
+PASS  VERCEL=1: 사용자 리다이렉트 4개 · 308 — [["/post/zz-fixture-old-a","/post/zz-fixture-moved-a",308],["/en/post/zz-fixture-old-a","/en/post/zz-fixture-moved-a",308],["/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308],["/en/post/zz-fixture-old-b","/post/zz-fixture-moved-b",308]]
+PASS  두 환경의 리다이렉트 규칙이 같다
+PASS  headers: VERCEL 없음 1개(>0) · VERCEL=1 0개(0) — 기존 설계 유지
+합계 4건 · PASS 4 · FAIL 0
+exit 0

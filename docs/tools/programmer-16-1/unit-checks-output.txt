@@ -1,0 +1,62 @@
+PASS  ID_PATTERN export = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
+PASS  실제 저장소 content/moved-ids.txt: 실제 줄 0 · 오류 0(예시는 주석)
+PASS  실제 파일에 주석 예시 줄 `# 예: example-old-id example-new-id` 있음
+PASS  대조: 그 예시 줄을 주석 없이 쓰면 실제 규칙 1줄이 된다
+PASS  정상: 주석·빈 줄·뒤 주석·탭·앞뒤 공백 → 2줄, 오류 0
+PASS  a 위반(토큰 1개) → [a] 오류만, 줄 0
+PASS  a 위반(토큰 3개) → [a] 오류만, 줄 0
+PASS  b 위반(옛 id 대문자) → [b] 오류만, 줄 0
+PASS  b 위반(새 id 밑줄) → [b] 오류만, 줄 0
+PASS  b 위반(끝 하이픈) → [b] 오류만, 줄 0
+PASS  b 위반(한글) → [b] 오류만, 줄 0
+PASS  b 위반(경로 문자) → [b] 오류만, 줄 0
+PASS  b 위반(와일드카드 문자) → [b] 오류만, 줄 0
+PASS  c 위반(옛 = 새) → [c] 오류만
+PASS  g 위반(옛 id 중복) → [g], 2행을 가리킴
+PASS  g 위반(사슬 A→B, B→C) → [g] 1건(1행)
+PASS  g 위반(순환 A↔B) → [g] 2건
+PASS  정상 맥락 → 오류 0(다른 id 링크·옛 id로 시작하는 더 긴 id·/repost/ 는 잡지 않음)
+PASS  d 옛 id가 retired-ids에 없음 → [d]
+PASS  e 옛 id 한국어 게시물이 남음 → [e]
+PASS  e 옛 id 영어본만 남음 → [e]
+PASS  e 옛 id가 한국어 파일명으로만 남음 → [e]
+PASS  e 옛 id가 영어본 파일명으로만 남음 → [e]
+PASS  f 새 id 게시물 없음 → [f]
+PASS  f(P2-1) 파일명만 새 id — frontmatter id는 오타(new-a-typo) → [f]
+PASS  f(P2-1) 새 id가 영어본에만 있음(한국어 frontmatter id 없음) → [f]
+PASS  f 새 id가 retired-ids에 있음 → [f]
+PASS  h 한국어 본문 상대 링크 /post/옛 → [h]
+PASS  h 영어 링크 /en/post/옛 → [h]
+PASS  h 절대 주소 https://site/post/옛?q → [h]
+PASS  h 끝 슬래시 /post/옛/ → [h]
+PASS  h frontmatter sources url → [h]
+PASS  i 옛 이미지 폴더 남음 → [i]
+PASS  i 게시물이 /images/옛/ 참조 → [i]
+PASS  f(P2-1) 메시지가 파일은 있지만 frontmatter id가 다르다고 알린다
+PASS  f 음성: 파일명이 달라도 frontmatter id가 새 id면 통과
+PASS  규칙: 2건 → 4개, ko는 /post/새, en은 영어본 있으면 /en/post/새·없으면 /post/새, 모두 permanent(308)
+PASS  규칙: 빈 목록 → 0개
+PASS  규칙: source에 와일드카드·정규식 문자(: * ( ? ) 0
+PASS  번역 맵 일치 → 오류 0
+PASS  번역 맵 불일치(frontmatter엔 있고 검증 맵엔 없음) → 오류 1
+PASS  번역 맵 불일치(반대) → 오류 1
+PASS  디스크: moved-ids.txt 없음 → readMovedIds 빈 맵 · collect 오류 0
+PASS  디스크: 주석뿐 → 빈 맵 · 오류 0
+PASS  디스크: 정상 1줄 → 오류 0
+PASS  디스크: readTranslationIds는 파일명이 아니라 frontmatter id(new-a)
+PASS  디스크: 영어본 있음 → /en/post/old-a → /en/post/new-a
+PASS  디스크: 영어본 폴더 없음 → /en/post/old-a → /post/new-a
+PASS  디스크: 형식 위반이면 readMovedIds가 던진다(next.config에서 빌드 시작 전 중단)
+PASS  디스크(P2-1): 파일명 zz-new.md · frontmatter id zz-new-typo · 목록 zz-old zz-new → [f]
+PASS  디스크(P2-1) 음성: 같은 파일에 목록을 frontmatter id(zz-new-typo)로 적으면 오류 0
+PASS  디스크: e — 파일명이 옛 id인 게시물도 잡는다
+PASS  디스크: i — public/images/old-a/ 폴더를 잡는다
+PASS  P3-1: 옮긴 id 0건 → 깨진 영어본이 있어도 읽지 않고 빈 집합(던지지 않음)
+PASS  P3-1: 옮긴 id 1건 + 깨진 영어본 → 던지고 메시지에 파일 이름 content/posts-en/broken-yaml.md
+PASS  P3-1: 다시 던진 오류의 cause = 원래 YAML 오류
+PASS  P3-1: moved 인자 생략 + 디스크 목록 0건 → 깨진 영어본을 읽지 않음(기본값 readMovedIds)
+PASS  P3-1: 디스크 목록 0건 → movedIdRedirects(readMovedIds, readTranslationIds) 0개, 던지지 않음
+PASS  P3-1: moved 인자 생략 + 디스크 목록 1건 + 깨진 영어본 → 파일 이름 붙여 던짐
+PASS  P3-1: 깨진 파일을 치우면 1건 목록에서 frontmatter id를 읽는다
+PASS  실제 저장소: collectMovedIdErrors 오류 0 · readMovedIds 0건
+합계 61건 · PASS 61 · FAIL 0

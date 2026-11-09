@@ -1,0 +1,3 @@
+# 프로그래머 16 픽스처 — 시험표 1~10용. 저장소 content/moved-ids.txt에는 넣지 않는다.
+zz-fixture-old-a zz-fixture-moved-a
+zz-fixture-old-b zz-fixture-moved-b

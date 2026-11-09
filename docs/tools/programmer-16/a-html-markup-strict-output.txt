@@ -1,0 +1,62 @@
+변경 전 802개 · 변경 후 802개 · 한쪽에만 있음 0개
+짝 802개 중 정규화 후 같음 769개 · 다름 33개
+  다름: about.html @6002
+   전: "lass=\"font-semibold\">본문을 전재하지 않습니다.</strong> 원문의 메타 정보(제목·요약·썸네일)만 인용하고 원문 링크를 함께 제공합니다.</li><li>원문 썸네일은 원 사이트의 이미지를 그대로"
+   후: "lass=\"font-semibold\">본문을 전재하지 않습니다.</strong> 원문의 메타 정보(제목·요약)만 인용하고 원문 링크를 함께 제공합니다.</li><li>카드의 대표 이미지는 글에 따라 다릅니다.<ul "
+  다름: en/about.html @5572
+   전: " version prevails.</p></section><section aria-labelledby=\"correction\" class=\"space-y-3\"><h2 id=\"correction\" class=\"text-"
+   후: " version prevails.</p></section><section aria-labelledby=\"copyright\" class=\"space-y-3\"><h2 id=\"copyright\" class=\"text-lg"
+  다름: en/post/2026-09-09-pagememo-unmanned-vehicle-budget-cut.html @8204
+   전: "=\"text-foreground\">Instagram @page_memo_zip (PAGE_MEMO_ZIP)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/re"
+   후: "=\"text-foreground\">Instagram @page_memo_zip (PAGE_MEMO_ZIP)</dd></div></dl><a href=\"https://www.instagram.com/reel/DdEGN"
+  다름: en/post/2026-09-15-bbang630-518-armored-vehicle-claim.html @8219
+   전: "]\">Source</dt><dd class=\"text-foreground\">Threads @bbang630<!-- --></dd></div></dl><a href=\"https://www.threads.com/@bba"
+   후: "]\">Source</dt><dd class=\"text-foreground\">Threads @bbang630</dd></div></dl><a href=\"https://www.threads.com/@bbang630/po"
+  다름: en/post/2026-09-18-bluenews-jeju-organ-transplant-rumor.html @8222
+   전: "urce</dt><dd class=\"text-foreground\">Instagram @bluenews.kr<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+   후: "urce</dt><dd class=\"text-foreground\">Instagram @bluenews.kr</dd></div></dl><a href=\"https://www.instagram.com/p/DdZ8c-4E"
+  다름: en/post/2026-09-22-ego-police-republic-concern.html @8031
+   전: "<dd class=\"text-foreground\">Instagram @ego_iz_d_enemy (EGO)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+   후: "<dd class=\"text-foreground\">Instagram @ego_iz_d_enemy (EGO)</dd></div></dl><a href=\"https://www.instagram.com/p/DdlMJ3ok"
+  다름: en/post/2026-09-26-neveragain-mexico-tariff-visit.html @7999
+   전: "e</dt><dd class=\"text-foreground\">Instagram @never_again613</dd></div></dl><a href=\"https://www.instagram.com/p/Ddxzk0Zm"
+   후: "e</dt><dd class=\"text-foreground\">Instagram @never_again613<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+  다름: en/post/2026-09-26-rekor-dmz-dispute.html @7792
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/DdwIr8Kg"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+  다름: en/post/2026-09-27-rekor-dmz-mine-testimony.html @7822
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/Ddz3z4Kg"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+  다름: en/post/2026-09-27-rekor-former-25div-commander.html @7858
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/Ddz8DYfA"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+  다름: en/post/2026-09-28-boxplus-2019-forced-repatriation.html @7980
+   전: "urce</dt><dd class=\"text-foreground\">Threads @boxplus.co.kr<!-- --></dd></div></dl><a href=\"https://www.threads.com/@box"
+   후: "urce</dt><dd class=\"text-foreground\">Threads @boxplus.co.kr</dd></div></dl><a href=\"https://www.threads.com/@boxplus.co."
+  다름: en/post/2026-09-28-pagememo-jcs-interim-result.html @7884
+   전: "=\"text-foreground\">Instagram @page_memo_zip (PAGE_MEMO_ZIP)</dd></div></dl><a href=\"https://www.instagram.com/reel/Dd1J6"
+   후: "=\"text-foreground\">Instagram @page_memo_zip (PAGE_MEMO_ZIP)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/re"
+  다름: en/post/2026-09-28-rekor-chinese-crime-tourism.html @7952
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/Dd1I0eAg"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+  다름: en/post/2026-09-28-themove-hongkong-umbrella-12th.html @7987
+   전: "d class=\"text-foreground\">Instagram @themovemag_ (The Move)</dd></div></dl><a href=\"https://www.instagram.com/reel/Dd0xv"
+   후: "d class=\"text-foreground\">Instagram @themovemag_ (The Move)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/re"
+  다름: en/post/2026-09-29-momamour-westsea-vs-dmz-comparison.html @7966
+   전: "Source</dt><dd class=\"text-foreground\">Threads @mom_amour__</dd></div></dl><a href=\"https://www.threads.com/@mom_amour__"
+   후: "Source</dt><dd class=\"text-foreground\">Threads @mom_amour__<!-- --></dd></div></dl><a href=\"https://www.threads.com/@mom"
+  다름: en/post/2026-09-29-rekor-hypertension-diabetes-support-cut.html @8084
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/Dd2rEQZg"
+  다름: en/post/2026-09-29-rightmeet-mine-word-press-guideline.html @8459
+   전: ">Source</dt><dd class=\"text-foreground\">Threads @right_meet<!-- --></dd></div></dl><a href=\"https://www.threads.com/@rig"
+   후: ">Source</dt><dd class=\"text-foreground\">Threads @right_meet</dd></div></dl><a href=\"https://www.threads.com/@right_meet/"
+  다름: en/post/2026-09-30-rekor-foreign-committee-dp-absence.html @8162
+   전: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+   후: "dt><dd class=\"text-foreground\">Instagram @rekor.rgt (REKOR)</dd></div></dl><a href=\"https://www.instagram.com/p/Dd6FYuWg"
+  다름: en/post/2026-10-10-rocketissue-kei-poll-korea-defense.html @8125
+   전: "rce</dt><dd class=\"text-foreground\">Instagram @rocket_issue<!-- --></dd></div></dl><a href=\"https://www.instagram.com/re"
+   후: "rce</dt><dd class=\"text-foreground\">Instagram @rocket_issue</dd></div></dl><a href=\"https://www.instagram.com/reel/DeTbL"
+  다름: en/post/2026-10-10-sisabrieffing-life-sentence-parole.html @8083
+   전: "e</dt><dd class=\"text-foreground\">Instagram @sisa_brieffing<!-- --></dd></div></dl><a href=\"https://www.instagram.com/p/"
+   후: "e</dt><dd class=\"text-foreground\">Instagram @sisa_brieffing</dd></div></dl><a href=\"https://www.instagram.com/p/DeTTEaJP"

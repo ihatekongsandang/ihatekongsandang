@@ -226,7 +226,8 @@ export interface ValidationResult {
   post?: Post
 }
 
-const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
+/** 게시물 id 형식. `moved-ids.ts`(옮긴 id 검증 b)도 같은 값을 쓴다(프로그래머 16). */
+export const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const TAG_PATTERN = /^[0-9a-z가-힣]+(?:-[0-9a-z가-힣]+)*$/
 
 function isPlainObject(value: unknown): value is Record<string, unknown> {

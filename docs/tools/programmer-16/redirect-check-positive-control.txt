@@ -1,0 +1,46 @@
+FAIL  #1 GET /post/zz-fixture-old-a → 308 · Location /post/zz-fixture-moved-a — 404 null
+FAIL  #1 HEAD /post/zz-fixture-old-a → 308 · Location /post/zz-fixture-moved-a — 404 null
+FAIL  #2 GET /en/post/zz-fixture-old-a → 308 · Location /en/post/zz-fixture-moved-a — 404 null
+FAIL  #2 HEAD /en/post/zz-fixture-old-a → 308 · Location /en/post/zz-fixture-moved-a — 404 null
+FAIL  #8 GET /en/post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 404 null
+FAIL  #8 HEAD /en/post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 404 null
+FAIL  #1b GET /post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 404 null
+FAIL  #1b HEAD /post/zz-fixture-old-b → 308 · Location /post/zz-fixture-moved-b — 404 null
+FAIL  #3 /post/zz-fixture-moved-a → 200 — 404
+FAIL  #3 /en/post/zz-fixture-moved-a → 200 — 404
+FAIL  #3 /post/zz-fixture-moved-b → 200 — 404
+PASS  #8 대조: 영어본 없는 /en/post/zz-fixture-moved-b → 404(그래서 한국어로 보낸다) — 404
+PASS  #4 /sitemap.xml 200 — 200
+PASS  #4 /sitemap.xml 옛 id 0건
+FAIL  #4 /sitemap.xml 새 id zz-fixture-moved-a·zz-fixture-moved-b 있음
+FAIL  #4 sitemap: /en/post/새 a 있음 · /en/post/새 b 없음(영어본 없음)
+PASS  #4 /llms.txt 200 — 200
+PASS  #4 /llms.txt 옛 id 0건
+FAIL  #4 /llms.txt 새 id zz-fixture-moved-a·zz-fixture-moved-b 있음
+FAIL  #5 /post/zz-fixture-moved-a canonical = 새 주소 — undefined
+FAIL  #5 /post/zz-fixture-moved-a og:url = 새 주소 — undefined
+FAIL  #5 /post/zz-fixture-moved-a hreflang ko·en 쌍 = 새 주소
+PASS  #5 /post/zz-fixture-moved-a 응답 HTML에 옛 id 0
+FAIL  #5 /en/post/zz-fixture-moved-a canonical = 새 주소 — undefined
+FAIL  #5 /en/post/zz-fixture-moved-a og:url = 새 주소 — undefined
+FAIL  #5 /en/post/zz-fixture-moved-a hreflang ko·en 쌍 = 새 주소
+PASS  #5 /en/post/zz-fixture-moved-a 응답 HTML에 옛 id 0
+FAIL  #5 /post/zz-fixture-moved-b canonical = 새 주소 — undefined
+FAIL  #5 /post/zz-fixture-moved-b og:url = 새 주소 — undefined
+PASS  #5 /post/zz-fixture-moved-b hreflang 없음(영어본 없음)
+PASS  #5 /post/zz-fixture-moved-b 응답 HTML에 옛 id 0
+PASS  #6 .next 전체 2572개 파일(cache 제외) 중 페이지·자산 파일의 옛 id 0
+FAIL  #6 routes-manifest: 사용자 리다이렉트 4개(2건 × ko·en), 모두 308 — []
+FAIL  #9 쿼리: /post/zz-fixture-old-a?utm_source=x → 308 · Location /post/zz-fixture-moved-a?utm_source=x (보존) — 404 null
+FAIL  #9 쿼리: /en/post/zz-fixture-old-b?utm_source=x&b=2 → /post/zz-fixture-moved-b?utm_source=x&b=2 — 404 null
+FAIL  #9 끝 슬래시: /post/zz-fixture-old-a/ → 308 /post/zz-fixture-old-a → 308 /post/zz-fixture-moved-a → 200 (2단) — 308 /post/zz-fixture-old-a → 404 null → 0
+FAIL  #9 끝 슬래시: /en/post/zz-fixture-old-a/ → 308 /en/post/zz-fixture-old-a → 308 /en/post/zz-fixture-moved-a → 200 (2단) — 308 /en/post/zz-fixture-old-a → 404 null → 0
+PASS  #10 /post/<다른 게시물> → 200 (Location 없음) — 200 
+PASS  #10 /en/post/<다른 게시물> → 200 (Location 없음) — 200 
+PASS  #10 /post/zz-fixture-nothing → 404 (Location 없음) — 404 
+PASS  #10 /en/post/zz-fixture-nothing → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old-a-extra → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old → 404 (Location 없음) — 404 
+PASS  #10 /post/xzz-fixture-old-a → 404 (Location 없음) — 404 
+PASS  #10 /post/zz-fixture-old-a/x → 404 (Location 없음) — 404 
+합계 45건 · PASS 18 · FAIL 27

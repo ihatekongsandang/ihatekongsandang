@@ -1,0 +1,61 @@
+PASS  기대값 ko: 목록 4개·2번 하위 5개
+PASS  기대값 en: 절 제목 = Quotes, images and copyright(오더 지정)
+PASS  기대값 en: 목록 4개·2번 하위 5개
+PASS  리뷰 34 §2.4 en 6줄 ⊂ 계획 §2.2 en
+PASS  리뷰 34 §2.4 ko 6줄 = 계획 §2.2 ko 2번
+PASS  ko /about 인용·저작권 절 바깥 목록 4개
+PASS  ko 1번 본문 글자 그대로
+PASS  ko 1번 하위 항목 수 0
+PASS  ko 2번 본문 글자 그대로
+PASS  ko 2번 하위 1 글자 그대로
+PASS  ko 2번 하위 2 글자 그대로
+PASS  ko 2번 하위 3 글자 그대로
+PASS  ko 2번 하위 4 글자 그대로
+PASS  ko 2번 하위 5 글자 그대로
+PASS  ko 2번 하위 항목 수 5
+PASS  ko 3번 본문 글자 그대로
+PASS  ko 3번 하위 항목 수 0
+PASS  ko 4번 본문 글자 그대로
+PASS  ko 4번 하위 항목 수 0
+PASS  ko 굵게 범위 = 기획 ** 범위(7개, 순서 포함)
+PASS  ko 절 제목 = 인용·저작권(그대로)
+PASS  en /en/about 에 copyright 절 있음
+PASS  en 절 제목 글자 그대로
+PASS  en 바깥 목록 4개
+PASS  en 1번 본문 글자 그대로
+PASS  en 2번 본문 글자 그대로
+PASS  en 2번 하위 1 글자 그대로
+PASS  en 2번 하위 2 글자 그대로
+PASS  en 2번 하위 3 글자 그대로
+PASS  en 2번 하위 4 글자 그대로
+PASS  en 2번 하위 5 글자 그대로
+PASS  en 3번 본문 글자 그대로
+PASS  en 4번 본문 글자 그대로
+PASS  en 절 순서 translation → copyright → correction
+PASS  en copyright 절 글자에 굽은 따옴표(’) 0
+PASS  옛 문구 0: about.html "썸네일은 사용하지 않고"
+PASS  옛 문구 0: about.html "그대로 참조(핫링크)"
+PASS  옛 문구 0: about.html "제목·요약·썸네일"
+PASS  기대값: §2.1 표 ko·en 확정 문구 2개
+PASS  소스 i18n ko sourcePreviewNote = 확정 문구
+PASS  소스 i18n en sourcePreviewNote = 확정 문구
+PASS  ko 상세 209쪽: 옛 안내문 0
+PASS  ko 상세 209쪽: 새 안내문이 나온 쪽 수 = 원문 미리보기 상자가 있는 쪽 수
+PASS  en 상세 209쪽: 옛 안내문 0
+PASS  en 상세 209쪽: 새 안내문이 나온 쪽 수 = 원문 미리보기 상자가 있는 쪽 수
+  (참고) 상세 쪽 수 ko 209 · en 209 · 새 안내문 포함 ko 209 · en 209
+PASS  C3 /tags h1 = 전체 주제
+PASS  C3 /tags <title>이 '전체 주제'로 시작
+PASS  C3 /tags aria-label="주제 목록"
+PASS  C3 /tags 메타 설명에 '주제 N개'
+PASS  C3 /tags 보조 문장 '주제 N개 · 게시물이 많은 순'
+PASS  C3 빌드 HTML 796개 전수: 화면 글자·title·meta·aria-label·JSON-LD의 '태그' 중 content 글자가 아닌 것 0
+  (참고) content 글자에서 온 '태그' 15회(해시태그·계정 이름 등 — C3 대상 아님)
+PASS  C3 소스 i18n 영어 tags = 'Topics'
+PASS  C3 en 상세 209쪽 중 tags-heading 절 0쪽(화면 영향 없음 확인)
+PASS  C3 ko 상세 보조 열 209쪽 모두 '주제'
+PASS  C3 en 빌드 화면 글자에 낱말 'Tags' 0
+PASS  C3 /tag/* 324쪽 모두 메타 설명 '주제로 묶인 게시물입니다.'
+PASS  C3 /tag/*/page/* 12쪽 모두 '주제 게시물 N페이지'
+PASS  C3 llms.txt '## 주제' 있음·'## 태그' 0
+합계 58건 · PASS 58 · FAIL 0

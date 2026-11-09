@@ -1,0 +1,9 @@
+대상 글자 파일 90개(16·16-1 word-grep.sh 두 파일은 검색식 글자가 들어 있어 셈에서 뺀다)
+옛 #1 id 파일 찾음: 예 · 로마자 토큰 길이 10자
+① 훅 패턴 일치 파일: 0
+② 절대·임시 경로 일치 파일: 0
+③ 옛 #1 id 일치 파일: 0
+④ 이름 로마자 토큰 일치 파일: 0
+양성 대조: content/posts 파일명 목록에서 ③ 1건 · ④ 1건
+⑤ docs/tools/programmer-16/word-grep.sh 안 절대·임시 경로 글자: 0줄
+⑤ docs/tools/programmer-16-1/word-grep.sh 안 절대·임시 경로 글자: 0줄

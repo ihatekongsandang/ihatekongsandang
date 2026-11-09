@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { NextConfig } from 'next'
+import { movedIdRedirects, readMovedIds, readTranslationIds } from './src/lib/content/moved-ids'
 
 // 상위 디렉터리에 다른 lockfile이 있어도 이 폴더를 워크스페이스 루트로 고정한다.
 // 경로를 문자열로 박지 않고 이 파일 위치에서 계산한다.
@@ -53,6 +54,17 @@ const nextConfig: NextConfig = {
   typescript: { tsconfigPath: 'tsconfig.build.json' },
 
   ...(runningOnVercel ? {} : { headers: async () => localHeaderRules() }),
+
+  // 옮긴 게시물 id의 영구 리다이렉트(308, 프로그래머 16 C11). 목록은 `content/moved-ids.txt` 한 곳이고, 읽기·검증은
+  // `src/lib/content/moved-ids.ts`를 검증 스크립트·로더와 같이 쓴다(상대 경로 import — 설정 파일에서는 `@/` 별칭을 쓰지 않는다).
+  // - 위 headers와 달리 Vercel 조건 **밖**에 둔다: Vercel도 이 규칙을 빌드 때 읽어 라우팅에 넣는다(리뷰 34 P3-3).
+  // - 처리 순서는 headers → redirects → middleware → 파일시스템이라 옛 주소는 `dynamicParams = false`의 404보다 먼저 넘어간다.
+  // - ⚠️ `output: 'export'`(정적 내보내기)로 바꾸면 redirects가 지원되지 않아 이 규칙이 사라진다. 지금은 export 모드가 아니다.
+  // - 형식 위반(a·b·c·g)이 있으면 `readMovedIds`가 던져 빌드가 시작되지 않는다. 파일이 주석뿐이면 규칙 0개이고 영어본도 읽지 않는다.
+  redirects: async () => {
+    const moved = readMovedIds(projectRoot)
+    return movedIdRedirects(moved, readTranslationIds(projectRoot, moved))
+  },
 }
 
 export default nextConfig

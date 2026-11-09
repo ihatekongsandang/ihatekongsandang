@@ -1,0 +1,17 @@
+검출  a 토큰 수 — FAIL 3건 · 예: FAIL  a 위반(토큰 1개) → [a] 오류만, 줄 0 — {"entries":[{"from":"old-a","line":1}],"errors":[]}
+검출  b id 형식 — FAIL 6건 · 예: FAIL  b 위반(옛 id 대문자) → [b] 오류만, 줄 0 — {"entries":[{"from":"Old-a","to":"new-a","line":1}],"errors":[]}
+검출  c 자기 이동 — FAIL 1건 · 예: FAIL  c 위반(옛 = 새) → [c] 오류만 — {"entries":[{"from":"same-id","to":"same-id","line":1}],"errors":["content/moved
+검출  g 옛 id 중복 — FAIL 1건 · 예: FAIL  g 위반(옛 id 중복) → [g], 2행을 가리킴 — []
+검출  g 사슬 — FAIL 2건 · 예: FAIL  g 위반(사슬 A→B, B→C) → [g] 1건(1행) — []
+검출  d retired 등록 — FAIL 1건 · 예: FAIL  d 옛 id가 retired-ids에 없음 → [d] — []
+검출  e 옛 게시물 남음 — FAIL 1건 · 예: FAIL  e 옛 id 영어본만 남음 → [e] — []
+검출  f 새 게시물 없음 — FAIL 1건 · 예: FAIL  f 새 id 게시물 없음 → [f] — []
+검출  f 새 id 폐기 — FAIL 1건 · 예: FAIL  f 새 id가 retired-ids에 있음 → [f] — []
+검출  h 링크 — FAIL 5건 · 예: FAIL  h 한국어 본문 상대 링크 /post/옛 → [h] — []
+검출  h 절대 주소 — FAIL 2건 · 예: FAIL  h 절대 주소 https://site/post/옛?q → [h] — []
+검출  i 이미지 참조 — FAIL 1건 · 예: FAIL  i 게시물이 /images/옛/ 참조 → [i] — []
+검출  i 이미지 폴더 — FAIL 2건 · 예: FAIL  i 옛 이미지 폴더 남음 → [i] — []
+검출  영어 분기 — FAIL 2건 · 예: FAIL  규칙: 2건 → 4개, ko는 /post/새, en은 영어본 있으면 /en/post/새·없으면 /post/새, 모두 permanent(308) — [{"source":"/post/old-
+검출  번역 불일치 — FAIL 2건 · 예: FAIL  번역 맵 불일치(frontmatter엔 있고 검증 맵엔 없음) → 오류 1
+검출  형식 오류 시 던짐 — FAIL 1건 · 예: FAIL  디스크: 형식 위반이면 readMovedIds가 던진다(next.config에서 빌드 시작 전 중단)
+돌연변이 16개 중 검출 16개

@@ -1,8 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-const RETIRED_IDS_FILE = path.join(process.cwd(), 'content', 'retired-ids.txt')
-
 /**
  * 삭제·비공개 처리된 게시물의 id 목록.
  *
@@ -11,11 +9,14 @@ const RETIRED_IDS_FILE = path.join(process.cwd(), 'content', 'retired-ids.txt')
  *
  * 검증 스크립트와 빌드 시 로더가 **같은 함수를 쓴다** — 한쪽에만 있으면
  * `npx next build`를 직접 쳤을 때 폐기 ID가 그대로 통과한다.
+ *
+ * `root`는 저장소 루트(기본 `process.cwd()`). 옮긴 id 검증(`moved-ids.ts`)이 픽스처 폴더를 넘길 때 쓴다(프로그래머 16).
  */
-export function readRetiredIds(): Set<string> {
-  if (!fs.existsSync(RETIRED_IDS_FILE)) return new Set()
+export function readRetiredIds(root: string = process.cwd()): Set<string> {
+  const file = path.join(root, 'content', 'retired-ids.txt')
+  if (!fs.existsSync(file)) return new Set()
   const lines = fs
-    .readFileSync(RETIRED_IDS_FILE, 'utf8')
+    .readFileSync(file, 'utf8')
     .split('\n')
     .map((line) => line.replace(/#.*$/, '').trim())
     .filter((line) => line.length > 0)

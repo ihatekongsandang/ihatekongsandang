@@ -1,0 +1,8 @@
+변경 전 802개 · 변경 후 802개 · 한쪽에만 있음 0개
+짝 802개 중 정규화 후 같음 800개 · 다름 2개
+  다름: about.html @5994
+   전: "lass=\"font-semibold\">본문을 전재하지 않습니다.</strong> 원문의 메타 정보(제목·요약·썸네일)만 인용하고 원문 링크를 함께 제공합니다.</li><li>원문 썸네일은 원 사이트의 이미지를 그대로"
+   후: "lass=\"font-semibold\">본문을 전재하지 않습니다.</strong> 원문의 메타 정보(제목·요약)만 인용하고 원문 링크를 함께 제공합니다.</li><li>카드의 대표 이미지는 글에 따라 다릅니다.<ul "
+  다름: en/about.html @5572
+   전: " version prevails.</p></section><section aria-labelledby=\"correction\" class=\"space-y-3\"><h2 id=\"correction\" class=\"text-"
+   후: " version prevails.</p></section><section aria-labelledby=\"copyright\" class=\"space-y-3\"><h2 id=\"copyright\" class=\"text-lg"

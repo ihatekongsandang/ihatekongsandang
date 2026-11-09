@@ -1,0 +1,22 @@
+PASS  before post 360: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 390: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 768: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 78 / h1 왼쪽 78 (상자 왼쪽 78) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 834: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 111 / h1 왼쪽 111 (상자 왼쪽 111) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 1024: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 40 / h1 왼쪽 40 (상자 왼쪽 40) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 1280: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 158 / h1 왼쪽 158 (상자 왼쪽 158) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before post 1440: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 238 / h1 왼쪽 238 (상자 왼쪽 238) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 360: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 390: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 768: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 103.5 / h1 왼쪽 103.5 (상자 왼쪽 103.5) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 834: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 136.5 / h1 왼쪽 136.5 (상자 왼쪽 136.5) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 1024: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 79.5 / h1 왼쪽 79.5 (상자 왼쪽 79.5) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 1280: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 183.5 / h1 왼쪽 183.5 (상자 왼쪽 183.5) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before postEn 1440: 상자 44×44 · 글자→구분자 11.8px · 글자 왼쪽 263.5 / h1 왼쪽 263.5 (상자 왼쪽 263.5) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 360: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 390: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 16 / h1 왼쪽 16 (상자 왼쪽 16) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 768: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 32 / h1 왼쪽 32 (상자 왼쪽 32) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 834: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 32 / h1 왼쪽 32 (상자 왼쪽 32) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 1024: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 40 / h1 왼쪽 40 (상자 왼쪽 40) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 1280: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 112 / h1 왼쪽 112 (상자 왼쪽 112) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+PASS  before tag 1440: 상자 44×44 · 글자→구분자 37.9px · 글자 왼쪽 192 / h1 왼쪽 192 (상자 왼쪽 192) · 9점 중 링크 9 · 구분자 pointer-events auto · 가로 넘침 없음
+합계 21건 · PASS 21 · FAIL 0
