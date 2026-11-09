@@ -16,7 +16,7 @@ og:
 sources:
   - type: 언론
     name: "CBS노컷뉴스 — '중국 규탄' 파룬궁 집회서 난동 피운 중국인들 경찰 조사"
-    url: https://m.news.nate.com/view/20260604n33394
+    url: https://jeju.nocutnews.co.kr/news/6528222
     date: 2026-06-04
   - type: 언론
     name: "아이뉴스24 — \"中 최고 지도자 이름이라서?\"⋯분당 중식당 테러 용의자 4명 모두 중국인"

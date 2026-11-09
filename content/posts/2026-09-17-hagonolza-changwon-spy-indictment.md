@@ -24,7 +24,7 @@ sources:
     date: 2023-03-16
   - type: 언론
     name: 한국경제 — 기소 3년 넘은 '창원 간첩단' 재판, 1년 만에 재개
-    url: https://m.news.nate.com/view/20260908n31253
+    url: https://www.hankyung.com/article/2026090819457
     date: 2026-09-08
 tags:
   - 간첩

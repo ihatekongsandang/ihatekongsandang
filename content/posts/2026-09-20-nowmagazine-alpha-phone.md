@@ -20,7 +20,7 @@ sources:
     date: 2026-09-18
   - type: 언론
     name: JTBC — SNS·게임 막고 전화·교통카드는 된다…민주당, 학생용 '알파폰' 추진
-    url: https://m.news.nate.com/view/20260918n21668
+    url: https://news.jtbc.co.kr/article/NB12319040
     date: 2026-09-18
   - type: 언론
     name: 뉴스1 — 민주, 학생 전용 스마트폰 '알파폰TF' 출범…위원장 김영호

@@ -15,16 +15,16 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 다음뉴스 — '쌀·달러·성경' 페트병 담아 북쪽 바다 둥둥…미국인 6명 송치
-    url: https://v.daum.net/v/yWzv84tsyD
+    name: 디지털타임스 — '쌀·달러·성경' 페트병 담아 북쪽 바다 둥둥…미국인 6명 송치
+    url: https://www.dt.co.kr/article/12013822
     date: 2025-08-26
   - type: 언론
     name: 미주중앙일보 — 강화도서 대북 페트병 1300개 살포 시도…미국인 6명 체포
     url: https://www.koreadaily.com/article/20250626155846676
     date: 2025-06-26
   - type: 언론
-    name: 네이트 — "종교단체 해산법, 정치적 남용 우려"
-    url: https://news.nate.com/view/20260422n31424
+    name: 세계일보 — "종교단체 해산법, 정치적 남용 우려"
+    url: https://www.segye.com/newsView/20260422515649
     date: 2026-04-22
   - type: 언론
     name: 경향신문 — [속보]'이 대통령 명예훼손' 모스 탄, 출국정지 내달 15일까지 그대로

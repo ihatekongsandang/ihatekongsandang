@@ -27,8 +27,8 @@ sources:
     url: https://www.seoul.co.kr/news/society/law/2025/03/14/20250314010010
     date: 2025-03-14
   - type: 언론
-    name: 다음(뉴스) — '北 지령 받고 간첩 활동' 청주간첩단, 징역 14년→5년 감형 확정
-    url: https://v.daum.net/v/20250911113347098
+    name: 머니투데이 — '北 지령 받고 간첩 활동' 청주간첩단, 징역 14년→5년 감형 확정
+    url: https://www.mt.co.kr/society/2025/09/11/2025091111092297055
     date: 2025-09-11
 tags:
   - 충북동지회

@@ -15,8 +15,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 다음(중앙일보) — 여당 지지자 82% "중국 위협적"…반중정서엔 좌우 없었다 [흔들리는 동맹, 불안한 이웃㊤]
-    url: https://v.daum.net/v/20260810050301630
+    name: 중앙일보 — 여당 지지자 82% "중국 위협적"…반중정서엔 좌우 없었다 [흔들리는 동맹, 불안한 이웃㊤]
+    url: https://www.joongang.co.kr/article/25452022
     date: 2026-08-10
   - type: 언론
     name: "SPN 서울평양뉴스 — '위협적이고 비호감'인 중국과의 공존은 가능한가? 2026년 EAI 동아시아인식조사 결과 분석"

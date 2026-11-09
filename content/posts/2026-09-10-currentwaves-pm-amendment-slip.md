@@ -19,7 +19,7 @@ og:
 sources:
   - type: 언론
     name: 동아일보 — 韓총리 말실수…'국정목표 1번' 질의에 "개헌입니다"
-    url: https://m.news.nate.com/view/20260909n32663
+    url: https://www.donga.com/news/Politics/article/all/20260909/134637243/2
     date: 2026-09-09
   - type: 언론
     name: 머니투데이 — 장동혁, 한성숙 '국정목표 1번 개헌' 말실수에 "본심 튀어나온 것"

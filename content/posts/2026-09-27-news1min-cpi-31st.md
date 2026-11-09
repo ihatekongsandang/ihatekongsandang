@@ -16,7 +16,7 @@ og:
 sources:
   - type: 언론
     name: 연합뉴스TV — 지난해 한국 국가청렴도 세계 31위…"비상계엄 이후 불확실성"
-    url: https://m.news.nate.com/view/20260210n28472
+    url: https://www.yonhapnewstv.co.kr/news/AKR20260210154809vn3
     date: 2026-02-10
   - type: 언론
     name: 뉴스핌 — 계엄 영향에 韓 국제 청렴도 순위 31위로 하락…100점 만점에 63점

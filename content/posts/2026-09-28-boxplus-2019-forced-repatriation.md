@@ -19,8 +19,8 @@ sources:
     url: https://www.lawtimes.co.kr/news/205732
     date: 2025-02-19
   - type: 언론
-    name: 네이트 뉴스 — 검찰, '탈북어민 강제북송' 정의용·서훈에 2심서 징역 5년 구형
-    url: https://m.news.nate.com/view/20260617n29637
+    name: 뉴스1 — 검찰, '탈북어민 강제북송' 정의용·서훈에 2심서 징역 5년 구형
+    url: https://www.news1.kr/society/court-prosecution/6200515
     date: 2026-06-17
   - type: 언론
     name: 뉴데일리 — 41개 탈북민단체 "탈북어민 강제북송 文정부 안보라인 엄벌해야"

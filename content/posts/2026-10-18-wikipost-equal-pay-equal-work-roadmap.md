@@ -16,11 +16,11 @@ og:
 sources:
   - type: 언론
     name: 한겨레 — 노동부, '동일노동 동일임금 조항' 근로기준법에 신설한다
-    url: https://v.daum.net/v/20261018174127644
+    url: https://www.hani.co.kr/arti/society/labor/1282923.html
     date: 2026-10-18
   - type: 언론
     name: KBS — 정부, 연내 동일가치노동 동일임금 로드맵 발표
-    url: https://v.daum.net/v/20261018170039484
+    url: https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688426
     date: 2026-10-18
 tags:
   - 고용노동부

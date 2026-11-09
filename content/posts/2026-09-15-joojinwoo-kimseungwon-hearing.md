@@ -19,7 +19,7 @@ og:
 sources:
   - type: 언론
     name: JTBC — 김승원, 가족 공세에 눈물…"김현지 지령?" 한마디에 발칵
-    url: https://m.news.nate.com/view/20260915n33937
+    url: https://news.jtbc.co.kr/article/NB12318497
     date: 2026-09-15
   - type: 언론
     name: 아시아경제 — "주진우, 악마" vs "당신 뭐라했어"…김승원 청문회 시작부터 '고성'
@@ -27,7 +27,7 @@ sources:
     date: 2026-09-15
   - type: 언론
     name: 머니투데이 — 주진우 "김승원 낙마가 끝 아냐…수사·인사시스템 개편해야"
-    url: https://m.news.nate.com/view/20260919n05628
+    url: https://www.mt.co.kr/politics/2026/09/19/2026091911152217503
     date: 2026-09-19
 tags:
   - 인사청문회

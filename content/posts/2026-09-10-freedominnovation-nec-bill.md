@@ -32,11 +32,11 @@ sources:
     date: 2026-07-23
   - type: 언론
     name: 뉴시스 — 특검 "전국 30곳서 투표자수 허위 입력"…중앙선관위 등 7곳 압색(종합)
-    url: https://v.daum.net/v/20261015121814439
+    url: https://www.newsis.com/view/NISX20261015_0003827250
     date: 2026-10-15
   - type: 언론
-    name: 데일리안 — 선관위 특검, 투표지 247만장 공개 검증 마쳐…"추가 분석 필요 투표지 정밀감정"
-    url: https://v.daum.net/v/20261029021113097
+    name: 데일리안 — 올림픽공원 투표지 247만장 공개 검증 종료…특검 "상당수 추가 분석 필요"(종합)
+    url: https://www.dailian.co.kr/news/view/1707697
     date: 2026-10-29
   - type: 언론
     name: 데일리안 — 특검팀, '투표록 위·변조 의혹' 중앙선관위 연이틀 압수수색

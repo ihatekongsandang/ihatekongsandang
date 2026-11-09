@@ -19,8 +19,8 @@ sources:
     url: https://www.voakorea.com/a/north-korea-pow-092526/8204360.html
     date: 2026-09-25
   - type: 언론
-    name: 다음(연합뉴스) — 젤렌스키 北포로 송환 돌발 발표에 韓당혹…"비공개 합의했는데"
-    url: https://v.daum.net/v/20260925105654856
+    name: 연합뉴스 — 젤렌스키 北포로 송환 돌발 발표에 韓당혹…"비공개 합의했는데"
+    url: https://www.yna.co.kr/view/AKR20260925021100504
     date: 2026-09-25
   - type: 언론
     name: 서울신문 — "쇼한다"…한국 뒤통수 친 젤렌스키에, 우크라도 북한군 포로 송환 공개 놓고 설전

@@ -16,15 +16,15 @@ og:
 sources:
   - type: 언론
     name: 뉴스1 — 北, 동해에서 잠수함 발사 전략순항미사일 2종 시험발사
-    url: https://v.daum.net/v/20261015065158539
+    url: https://www.news1.kr/nk/military/6320482
     date: 2026-10-15
   - type: 언론
     name: 머니투데이 — 북한 "어제 동해로 잠수함 발사 전략순항미사일 2종 시험발사"
-    url: https://v.daum.net/v/20261015070011774
+    url: https://www.mt.co.kr/politics/2026/10/15/2026101506483061036
     date: 2026-10-15
   - type: 언론
     name: 뉴시스 — 북 "어제 동해서 잠수함발사전략순항미사일 2종 시험발사"
-    url: https://v.daum.net/v/20261015063658237
+    url: https://www.newsis.com/view/NISX20261015_0003826470
     date: 2026-10-15
 tags:
   - 북한

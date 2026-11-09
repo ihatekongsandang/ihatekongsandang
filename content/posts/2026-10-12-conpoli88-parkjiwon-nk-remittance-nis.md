@@ -19,11 +19,11 @@ og:
 sources:
   - type: 언론
     name: 오마이뉴스 — 대법원, 박지원 '현대비자금 150억원' 무죄 확정
-    url: http://v.daum.net/v/20060928151810637
+    url: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000363204
     date: 2006-09-28
   - type: 언론
     name: 중앙일보 — '2무죄 1사면' 재판불패 박지원..통합당 "청문회장서 보자"
-    url: https://v.daum.net/v/20200707050100278
+    url: https://www.joongang.co.kr/article/23818787
     date: 2020-07-07
 tags:
   - 박지원

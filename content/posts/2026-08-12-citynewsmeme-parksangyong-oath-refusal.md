@@ -23,8 +23,8 @@ sources:
     url: https://imnews.imbc.com/news/2026/politics/article/6812502_36911.html
     date: 2026-04-03
   - type: 언론
-    name: 네이트 뉴스 — 법무부, '연어 술파티' 박상용 검사 직무정지 기간 무기한 연장
-    url: https://m.news.nate.com/view/20260529n28443
+    name: JTBC — 법무부, '연어 술파티' 박상용 검사 직무정지 기간 무기한 연장
+    url: https://news.jtbc.co.kr/article/NB12300551
     date: 2026-05-29
 tags:
   - 박상용

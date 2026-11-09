@@ -19,15 +19,15 @@ og:
 sources:
   - type: 언론
     name: 연합뉴스TV — 정동영 "금강산·개성공단 손배소 제기 안 하기로"
-    url: https://v.daum.net/v/20260918054551606
+    url: https://www.yonhapnewstv.co.kr/news/MYH202609180544049R6
     date: 2026-09-18
   - type: 언론
     name: YTN — 법원, '남북연락사무소 폭파' 북한 446억 배상책임 인정...정부 1심 승소
-    url: https://v.daum.net/v/20260916104207103
+    url: https://www.ytn.co.kr/_ln/0103_202609161039512408
     date: 2026-09-16
   - type: 언론
     name: 뉴스1 — 법원 "'연락사무소 폭파' 북한, 446억 배상해야"(종합)
-    url: https://v.daum.net/v/20260916103552751
+    url: https://www.news1.kr/society/court-prosecution/6292203
     date: 2026-09-16
 tags:
   - 정동영

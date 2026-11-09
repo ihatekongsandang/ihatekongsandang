@@ -24,7 +24,7 @@ sources:
     date: 2026-08-25
   - type: 언론
     name: 더팩트 — 부 경장 처리 실종사건 298건 중 63건 관리망서 확인 안 돼…경찰 유형별 재검증
-    url: https://m.news.nate.com/view/20260831n19845
+    url: https://news.tf.co.kr/read/national/2359887.htm
     date: 2026-08-31
   - type: 언론
     name: SBS — "우도가 중국 땅?"…제주 해변서 포착된 오성홍기

@@ -22,8 +22,8 @@ sources:
     url: https://view.asiae.co.kr/article/2026083019571171631
     date: 2026-08-30
   - type: 언론
-    name: 네이트(서울경제) — '한 달 붓고 평생 연금' 추납 외국인 3명이 쏘아올린 공
-    url: https://m.news.nate.com/view/20260902n26058
+    name: 서울경제 — '한 달 붓고 평생 연금' 추납 외국인 3명이 쏘아올린 공
+    url: https://www.sedaily.com/article/20086361
     date: 2026-09-02
   - type: 언론
     name: 1코노미뉴스 — 김성주 국민연금 이사장, SNS 섣불렀나…'신중' 주장 이틀 만에 제도 개편

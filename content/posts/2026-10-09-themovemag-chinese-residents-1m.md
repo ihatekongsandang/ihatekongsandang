@@ -23,8 +23,8 @@ sources:
     url: https://www.hankyung.com/article/202510163861i
     date: 2025-10-16
   - type: 언론
-    name: 네이트(한국경제) — 외국인 실업급여 역대 최대…80%는 조선족·중국인 [곽용희의 일자리노트]
-    url: https://m.news.nate.com/view/20260920n01425
+    name: 한국경제 — 외국인 실업급여 역대 최대…80%는 조선족·중국인 [곽용희의 일자리노트]
+    url: https://www.hankyung.com/article/202609195257i
     date: 2026-09-20
   - type: 언론
     name: 한국경제 — 외국인 보유 국내주택 10만8231가구…중국인 56.8%

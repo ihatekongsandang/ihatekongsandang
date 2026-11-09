@@ -29,11 +29,11 @@ sources:
     date: 2024-11-24
   - type: 언론
     name: 오마이뉴스 — 윤석열 "민주당-북한 연결됐다 생각"
-    url: https://v.daum.net/v/20261022121733058
+    url: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003277665
     date: 2026-10-22
   - type: 언론
     name: 조선일보 — '北 간첩 활동' 전 민노총 간부, 징역 9년 6개월 확정
-    url: https://v.daum.net/v/20250925103139086
+    url: https://www.chosun.com/national/court_law/2025/09/25/P2PCAQBXVZDFLAZKR2JM6CMKGY/
     date: 2025-09-25
 tags:
   - 간첩

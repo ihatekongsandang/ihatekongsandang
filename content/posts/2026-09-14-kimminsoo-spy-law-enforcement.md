@@ -18,8 +18,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 네이트 뉴스 — '적국→외국' 간첩죄 대상 확대 '형법 개정안' 본회의 통과…73년 만 손질
-    url: https://m.news.nate.com/view/20260226n35666
+    name: 뉴시스 — '적국→외국' 간첩죄 대상 확대 '형법 개정안' 본회의 통과…73년 만 손질
+    url: https://www.newsis.com/view/NISX20260226_0003528202
     date: 2026-02-26
   - type: 언론
     name: 일요신문 — 처벌 근거 만들었지만…시행 앞둔 '간첩죄 개정안'에 붙은 물음표

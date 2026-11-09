@@ -16,8 +16,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 조선일보(네이트) — [태평로] 국보법 위반해도 국회 국방위원장
-    url: https://m.news.nate.com/view/20260830n16873
+    name: 조선일보 — [태평로] 국보법 위반해도 국회 국방위원장
+    url: https://www.chosun.com/opinion/taepyeongro/2026/08/30/5M7H22DZWNFFZITUTHBWAHX6M4/
     date: 2026-08-30
   - type: 언론
     name: 머니투데이 — 진성준 "北, 책임 피할 수 없어…군 상해 목적 여부는 따져봐야"

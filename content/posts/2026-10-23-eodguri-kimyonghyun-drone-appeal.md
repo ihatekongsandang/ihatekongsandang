@@ -19,12 +19,12 @@ og:
 sources:
   - type: 언론
     name: 연합뉴스 — '평양무인기' 2심 12월 4일 선고…尹 "재판 빙자한 사법테러"(종합2보)
-    url: https://v.daum.net/v/20261016185920138
+    url: https://www.yna.co.kr/view/AKR20261016079552004
     date: 2026-10-16
   - type: 언론
     name: 국민일보 — '평양무인기' 尹 2심도 징역 30년 구형
-    url: https://v.daum.net/v/20261016190241202
-    date: 2026-10-16
+    url: https://www.kmib.co.kr/article/20261016500608
+    date: 2026-10-17
 tags:
   - 김용현
   - 윤석열

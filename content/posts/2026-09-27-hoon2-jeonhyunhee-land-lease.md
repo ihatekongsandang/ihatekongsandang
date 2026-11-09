@@ -19,7 +19,7 @@ og:
 sources:
   - type: 언론
     name: MBN — 전현희, '반의반 값 아파트' 지원법 발의…"강남 30평대 3억에 가능"
-    url: https://m.news.nate.com/view/20260921n14745
+    url: https://www.mbn.co.kr/news/politics/5220564
     date: 2026-09-21
   - type: 언론
     name: 신아일보 — 전현희 의원, 토지임대부 주택 지원 근거 담은 법 개정안 발의

@@ -19,8 +19,8 @@ sources:
     url: https://www.seoul.co.kr/news/society/law/2022/09/15/20220915008007
     date: 2022-09-15
   - type: 언론
-    name: 네이트 뉴스 — '전두환 회고록' 9년 만에 '5·18 왜곡' 판결…유공자들 승소
-    url: https://m.news.nate.com/view/20260212n30680
+    name: 한겨레 — '전두환 회고록' 9년 만에 '5·18 왜곡' 판결…유공자들 승소
+    url: https://www.hani.co.kr/arti/area/honam/1244750.html
     date: 2026-02-12
   - type: 언론
     name: 서울신문 — 5·18종합보고서 "계엄군 헬기 사격·민간학살 등 재확인"

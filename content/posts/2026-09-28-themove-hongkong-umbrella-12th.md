@@ -23,8 +23,8 @@ sources:
     url: https://www.seoul.co.kr/news/international/china/2019/08/30/20190830500135
     date: 2019-08-30
   - type: 언론
-    name: 네이트 뉴스 — 홍콩 민주화운동가 조슈아 웡, '외국과 공모' 혐의 유죄 인정
-    url: https://m.news.nate.com/view/20260902n29185
+    name: 연합뉴스 — 홍콩 민주화운동가 조슈아 웡, '외국과 공모' 혐의 유죄 인정
+    url: https://www.yna.co.kr/view/AKR20260902146200083
     date: 2026-09-02
 tags:
   - 홍콩

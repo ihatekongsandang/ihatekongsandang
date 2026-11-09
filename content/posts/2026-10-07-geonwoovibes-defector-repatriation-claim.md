@@ -30,8 +30,8 @@ sources:
     url: https://www.fnnews.com/news/202610071459195472
     date: 2026-10-07
   - type: 언론
-    name: 네이트(연합뉴스) — 통일부, '탈북민 북송 회유설'에 "사실무근…재판 통해 사실 밝혀질 것"
-    url: https://m.news.nate.com/view/20261007n25807
+    name: 뉴시스 — 통일부, '탈북민 북송 회유설'에 "사실무근…재판 통해 사실 밝혀질 것"
+    url: https://www.newsis.com/view/NISX20261007_0003817534
     date: 2026-10-07
 tags:
   - 탈북민

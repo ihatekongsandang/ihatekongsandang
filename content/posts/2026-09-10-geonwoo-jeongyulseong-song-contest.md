@@ -16,8 +16,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 다음 — 中이 세운 공자학원과 손잡고... '정율성 동요대회' 방송
-    url: https://v.daum.net/v/20230826030226919
+    name: 조선일보 — 中이 세운 공자학원과 손잡고... '정율성 동요대회' 방송
+    url: https://www.chosun.com/politics/assembly/2023/08/26/MI54FIKA75FG3FTUGP7H6ANSFQ/
     date: 2023-08-26
   - type: 언론
     name: 디지털타임스 — 광주MBC는 매년 '정율성 동요대회'…與 "아이들을 공산침략 부역자 우상화에?"
@@ -41,7 +41,7 @@ sources:
     date: 2026-06-16
   - type: 언론
     name: 오마이뉴스 — 중국 공식 군가를 광주 사람이 만들었다고?
-    url: http://v.daum.net/v/20180202153304020
+    url: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002399256
     date: 2018-02-02
 tags:
   - 정율성

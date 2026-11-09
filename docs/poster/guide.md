@@ -83,11 +83,13 @@ qlmanage -t -s 800 -o . file.mp4
 - 원본 이미지는 다운로드한 뒤 **Read로 직접 보고** alt·caption을 쓴다.
 
 ## 4. 게시 파일 규칙 (자주 틀리는 것)
-- id = `{원문 게시일 YYYY-MM-DD}-{계정 약칭}-{주제 kebab}` (주제 전환 게시는 §1-1 1항). 파일 `content/posts/{id}.md`, 이미지 `public/images/{id}/thumb.jpg`(self·public만 — news는 저장하지 않고 핫링크).
+- id = `{원문 게시일 YYYY-MM-DD}-{계정 약칭}-{주제 kebab}` (주제 전환 게시는 §1-1 1항). 파일 `content/posts/{id}.md`, 이미지 `public/images/{id}/thumb.jpg`(public만 — news는 핫링크, 새 SNS 게시물은 원 이미지 저장 금지).
 - 최근 게시물의 frontmatter 형식을 그대로 따른다(`sourceType: url`, `useSourceImage: false`, `image{…}`는 §4-1, `og.siteName`, `sources[{type 언론|기타, name, url, date}]`, `tags`).
 - **태그**: 한글·영소문자·숫자·하이픈만. `5·18` ✗ → `5-18민주화운동`, `518`·`625`처럼 숫자만 ✗ → `6-25전쟁`. 기존 태그 재사용 우선(`grep -h '^  - ' content/posts/*.md | sort | uniq -c | sort -rn`).
 - 출처 name에 `:`가 있으면 따옴표로 감싼다.
 - 내부 링크 `/post/{id}`는 `ls content/posts | grep 키워드`로 **실제 id를 확인**한 뒤 쓴다(날짜 틀림 사례 다수).
+- 🔴 **새 SNS 게시물은 원 게시물 이미지를 저장하지 않는다**(2026-11-09 슈퍼바이저 판단, 사용자 Q2=b — 기존 저장본 139건은 정리 중). 이미지는 §4-1 순서(A → B → 비움)만 쓴다.
+- 🔴 **id·파일명·태그·이미지 폴더에 비공인 실명(로마자 포함)을 쓰지 않는다.** 이미 쓴 경우 id 이전 절차(`planning/q1-redirect-q2-sns-image-plan.md`)를 따른다.
 - 🔴 **자체 텍스트 카드는 새로 만들지 않는다**(2026-11-09 사용자 결정 — "별로"). 이미지 순서는 §4-1을 따르고, 쓸 사진이 없으면 `image` 블록을 비워 사이트의 새 대체 카드가 나오게 한다.
 
 ## 4-1. 카드 이미지 (2026-11-09 확정 — 기준 `planning/card-image-policy.md`, 절차 `planning/card-image-uploader-steps.md`)

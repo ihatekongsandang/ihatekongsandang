@@ -25,7 +25,7 @@ sources:
     date: 2026-09-19
   - type: 언론
     name: 뉴스1 — 실업급여 부정수급 332억, 3년새 24%↑…반복 적발도 2162건
-    url: https://v.daum.net/v/1NKfoPoMXs
+    url: https://www.news1.kr/economy/employment-labor/6205612
     date: 2026-06-23
 tags:
   - 실업급여

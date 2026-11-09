@@ -29,7 +29,7 @@ sources:
     date: 2026-07-31
   - type: 언론
     name: 조선일보 — [단독] 전방 모든 군단이 ‘빈총 경계’ 섰다
-    url: https://v.daum.net/v/20261005050215231
+    url: https://www.chosun.com/politics/diplomacy-defense/2026/10/05/J6FKIDWSDRHNPKF3LUH5N45HHQ/
     date: 2026-10-05
 tags:
   - 국방부

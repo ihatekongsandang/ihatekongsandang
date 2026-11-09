@@ -19,8 +19,8 @@ sources:
     url: https://www.seoul.co.kr/news/society/2026/09/18/20260918500271
     date: 2026-09-18
   - type: 언론
-    name: 李대통령, 대법관 재제청 갈등에 "기관 독립성 부여 이유 생각해야"
-    url: https://m.news.nate.com/view/20260918n17068
+    name: 아주경제 — 李대통령, 대법관 재제청 갈등에 "기관 독립성 부여 이유 생각해야"
+    url: https://www.ajunews.com/view/20260918123717584
     date: 2026-09-18
   - type: 언론
     name: 헤럴드경제 — 국힘 "대법관 재제청 거부…사법부 독립 지키는 중요한 결단"

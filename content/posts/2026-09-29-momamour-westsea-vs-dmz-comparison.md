@@ -19,8 +19,8 @@ sources:
     url: http://www.koreatimes.com/article/1594810
     date: 2025-12-26
   - type: 언론
-    name: 다음 — "타당성 상실한 결정"…서해 피살 공무원 유족, 1심 무죄에 반발
-    url: https://v.daum.net/v/20251227112350572
+    name: 동아일보 — "타당성 상실한 결정"…서해 피살 공무원 유족, 1심 무죄에 반발
+    url: https://www.donga.com/news/Society/article/all/20251227/133046419/1
     date: 2025-12-27
   - type: 언론
     name: 머니투데이 — 유엔총회 연단서 17분 연설...'북핵 단계 접근법'에 韓역할 제시

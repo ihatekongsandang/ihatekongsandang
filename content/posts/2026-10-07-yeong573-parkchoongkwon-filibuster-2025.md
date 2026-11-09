@@ -19,11 +19,11 @@ og:
 sources:
   - type: 언론
     name: YTN — 나흘째 필리버스터에도 국회법 개정안 본회의 통과
-    url: https://v.daum.net/v/20250928212834954
+    url: https://www.ytn.co.kr/_ln/0101_202509282151027434
     date: 2025-09-28
   - type: 언론
     name: 파이낸셜뉴스 — 국회법 개정안도 민주당 주도 통과…국민의힘은 계속 필리버스터
-    url: https://v.daum.net/v/20250928202225003
+    url: https://www.fnnews.com/news/202509281610229382
     date: 2025-09-28
 tags:
   - 박충권

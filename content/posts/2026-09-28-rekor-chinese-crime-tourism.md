@@ -23,8 +23,8 @@ sources:
     url: https://www.fnnews.com/news/202609281345466250
     date: 2026-09-28
   - type: 언론
-    name: 경북 — 중국 여행사·인플루언서, 안동서 관광 협력 모색
-    url: https://m.news.nate.com/view/20260911n28377
+    name: YTN — [경북] 중국 여행사·인플루언서, 안동서 관광 협력 모색
+    url: https://www.ytn.co.kr/_ln/0115_202609111809286458
     date: 2026-09-11
 tags:
   - 중국

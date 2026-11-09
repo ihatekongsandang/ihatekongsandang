@@ -1,0 +1,60 @@
+no	file	code	redir	name_prefix	new_site	portal_media	date	new_pub_kst	portal_kst	title_new_eq_portal	title_name_eq_new	manual_note
+1	2026-07-25-idontknowpolitics-cheongju-spy-directives	200	0	머니투데이	머니투데이	머니투데이	2025-09-11	2025-09-11	2025-09-11	True	True	
+2	<#1 id>	200	0	중앙일보	중앙일보	중앙일보	2026-08-27	2026-08-27	2026-08-27	True	False	제목=포털 일치. name은 §4.3 중립 요지(의도). 포털 JSON-LD author=중앙일보 → 정정 근거 확인. 기사 본문 "군 간부 7인"·소장·대령 무죄 확인
+3	2026-08-12-citynewsmeme-parksangyong-oath-refusal	200	0	JTBC	JTBC 뉴스	JTBC	2026-05-29		2026-05-29	True	True	게재일: 페이지 datePublished 2026-05-29T17:44+09:00
+4	2026-08-24-dictatorshipnono-jeju-missing-false-closure	200	0	더팩트	더팩트	더팩트	2026-08-31	2026-08-31	2026-08-31	True	True	
+5	2026-09-10-currentwaves-pm-amendment-slip	200	0	동아일보	동아일보	동아일보	2026-09-09	2026-09-09	2026-09-09	True	True	
+6	2026-09-10-freedominnovation-nec-bill	200	0	뉴시스	뉴시스	뉴시스	2026-10-15	2026-10-15	2026-10-15	True	True	
+7	2026-09-10-freedominnovation-nec-bill	200	1	데일리안	데일리안	데일리안	2026-10-29	2026-10-29	2026-10-29	True	True	정정 건: 포털 제목 = 새 name(실제 기사 제목). 리다이렉트 1회(슬러그 주소로) 후 200
+8	2026-09-10-geonwoo-jeongyulseong-song-contest	200	0	조선일보	조선일보	조선일보	2023-08-26	2023-08-25	2023-08-26	True	True	og published_time은 08-25(UTC 표기), 조선일보 display_date 2023-08-25T18:00Z = 08-26 03:00 KST → date 일치
+9	2026-09-10-geonwoo-jeongyulseong-song-contest	200	0	오마이뉴스	오마이뉴스	오마이뉴스	2018-02-02	2018-02-02	2018-02-02	True	True	http→https(오마이뉴스)
+10	2026-09-11-currentwaves-nk-hr-report-classified	200	0	동아일보	동아일보	동아일보	2026-09-08	2026-09-08	2026-09-08	True	True	
+11	2026-09-12-nowmagazine-postpartum-vs-nk-infant	200	0	연합뉴스	연합뉴스	연합뉴스	2026-09-11	2026-09-11	2026-09-11	True	True	
+12	2026-09-14-kimminsoo-spy-law-enforcement	200	0	뉴시스	뉴시스	뉴시스	2026-02-26	2026-02-26	2026-02-26	True	True	
+13	2026-09-15-bbang630-518-armored-vehicle-claim	200	0	한겨레	한겨레	한겨레	2026-02-12	2026-02-12	2026-02-12	True	True	
+14	2026-09-15-joojinwoo-kimseungwon-hearing	200	0	JTBC	JTBC 뉴스	JTBC	2026-09-15		2026-09-15	True	True	게재일: 페이지 datePublished 2026-09-15T19:20+09:00
+15	2026-09-15-joojinwoo-kimseungwon-hearing	200	0	머니투데이	머니투데이	머니투데이	2026-09-19	2026-09-19	2026-09-19	True	True	
+16	2026-09-17-hagonolza-changwon-spy-indictment	200	0	한국경제	한국경제	한국경제	2026-09-08	2026-09-08	2026-09-08	True	True	
+17	2026-09-18-dailybite-judicial-independence	200	0	아주경제	아주경제	아주경제	2026-09-18	2026-09-18	2026-09-18	True	True	
+18	2026-09-18-newssnap-chung-no-kaesong-lawsuit	200	0	연합뉴스TV	연합뉴스TV	연합뉴스TV	2026-09-18	2026-09-18	2026-09-18	True	True	
+19	2026-09-18-newssnap-chung-no-kaesong-lawsuit	200	0	YTN	YTN	YTN	2026-09-16	2026-09-16	2026-09-16	True	True	
+20	2026-09-18-newssnap-chung-no-kaesong-lawsuit	200	0	뉴스1	뉴스1	뉴스1	2026-09-16	2026-09-16	2026-09-16	True	True	
+21	2026-09-20-nowmagazine-alpha-phone	200	0	JTBC	JTBC 뉴스	JTBC	2026-09-18		2026-09-18	True	True	게재일: 페이지 datePublished 2026-09-18T14:56+09:00
+22	2026-09-20-shindawit-foreign-unemployment-benefits	200	0	뉴스1	뉴스1	뉴스1	2026-06-23	2026-06-23	2026-06-23	True	True	
+23	2026-09-22-taekyu-chief-justice-refusal	200	0	아주경제	아주경제	아주경제	2026-09-18	2026-09-18	2026-09-18	True	True	
+24	2026-09-24-hagonolza-kimgyeri-spy-remark	200	0	아이뉴스24	아이뉴스24	아이뉴스24	2026-06-14	2026-06-14	2026-06-14	True	True	포털 제목 = 새 name(실제 기사 제목). 본문 "이관"은 기사 "조정"(기록만, 범위 밖)
+25	2026-09-25-kimkyelee-nk-pow-ukraine	200	0	연합뉴스	연합뉴스	연합뉴스	2026-09-25	2026-09-25	2026-09-25	True	True	
+26	2026-09-27-ccpoutkorea-china-threat-survey	200	0	중앙일보	중앙일보	중앙일보	2026-08-10	2026-08-10	2026-08-10	False	False	자동 비교 False는 og:title이 연재명 [흔들리는 동맹…㊤]을 뺀 탓. 포털 제목·name과 같은 기사(수동 확인)
+27	2026-09-27-geonwoo-corporate-card-whistleblower	200	0	뉴스1	뉴스1		2026-02-02	2026-02-02		False	True	news.nate.com 데스크톱판: h1 제목 동일, 매체 뉴스1, 포털 "원문" 링크 = 새 주소(수동 확인), 기사전송 2026-02-02 16:28
+28	2026-09-27-hoon2-jeonhyunhee-land-lease	200	0	MBN	MBN	MBN	2026-09-21	2026-09-21	2026-09-21	False	False	자동 비교 False는 따옴표 문자(″) 차이. 같은 기사(수동 확인)
+29	2026-09-27-news1min-cpi-31st	200	0	연합뉴스TV	연합뉴스TV	연합뉴스TV	2026-02-10	2026-02-10	2026-02-10	True	True	
+30	2026-09-28-2pro-jcs-interim-claim	200	0	동아일보	동아일보	한겨레	2026-09-28	2026-09-28	2026-09-28	False	True	정정 건: 옛 포털 주소는 한겨레 다른 기사. name(동아일보 [속보])과 같은 동아일보 기사로 교체. 제목·게재일(2026-09-28 20:37) 일치. 본문 사실은 오마이뉴스(유지)+동아일보로 뒷받침
+31	2026-09-28-boxplus-2019-forced-repatriation	200	0	뉴스1	뉴스1	뉴스1	2026-06-17	2026-06-17	2026-06-17	True	True	
+32	2026-09-28-drumtong119-jinsungjoon-nsl-past	200	0	조선일보	조선일보	조선일보	2026-08-30	2026-08-30	2026-08-30	True	True	
+33	2026-09-28-firstincome-kctu-spy-case-summary	200	0	오마이뉴스	오마이뉴스	오마이뉴스	2026-10-22	2026-10-22	2026-10-22	True	True	
+34	2026-09-28-firstincome-kctu-spy-case-summary	200	0	조선일보	조선일보	조선일보	2025-09-25	2025-09-25	2025-09-25	True	True	
+35	2026-09-28-pagememo-jcs-interim-result	200	0	동아일보	동아일보	한겨레	2026-09-28	2026-09-28	2026-09-28	False	True	#30과 같은 정정
+36	2026-09-28-rekor-chinese-crime-tourism	200	0	YTN	YTN	YTN	2026-09-11	2026-09-11	2026-09-11	True	True	포털 제목 "[경북] …" = 새 name
+37	2026-09-28-themove-hongkong-umbrella-12th	200	0	연합뉴스	연합뉴스	연합뉴스	2026-09-02	2026-09-02	2026-09-02	True	True	
+38	2026-09-29-momamour-westsea-vs-dmz-comparison	200	0	동아일보	동아일보	동아일보	2025-12-27	2025-12-27	2025-12-27	True	True	
+39	2026-09-29-shindawit-cxmt-samsung-threat	200	0	중앙일보	중앙일보	중앙일보	2026-09-29	2026-09-29	2026-09-29	True	True	
+40	2026-09-30-monarch-morsetan-church-claims	200	0	디지털타임스	디지털타임스	디지털타임스	2025-08-26	2025-08-26	2025-08-26	True	True	
+41	2026-09-30-monarch-morsetan-church-claims	200	0	세계일보	세계일보		2026-04-22	2026-04-22		False	True	news.nate.com 데스크톱판: h1 제목 동일, 매체 세계일보, 포털 "원문" 링크 = 새 주소(+OutUrl=nate)
+42	2026-10-01-ntdkorea-jeju-falungong-rally-chinese	200	0	CBS노컷뉴스		노컷뉴스	2026-06-04	2026-06-04	2026-06-04	True	True	
+43	2026-10-05-jeichi-front-corps-unloaded-guard	200	0	조선일보	조선일보	조선일보	2026-10-05	2026-10-04	2026-10-05	True	True	og published_time 10-04(UTC), display_date 2026-10-04T20:00Z = 10-05 05:00 KST → date 일치
+44	2026-10-05-wendmag-cio-investigation-scope	200	0	동아일보	동아일보	동아일보	2026-10-05	2026-10-05	2026-10-05	True	True	
+45	2026-10-07-geonwoovibes-defector-repatriation-claim	200	0	뉴시스	뉴시스	뉴시스	2026-10-07	2026-10-07	2026-10-07	True	True	정정 건: 포털 JSON-LD author=뉴시스(기존 name "네이트(연합뉴스)"는 오기) → 뉴시스 정정 근거 확인
+46	2026-10-07-yeong573-parkchoongkwon-filibuster-2025	200	0	YTN	YTN	YTN	2025-09-28	2025-09-28	2025-09-28	True	True	
+47	2026-10-07-yeong573-parkchoongkwon-filibuster-2025	200	0	파이낸셜뉴스	파이낸셜뉴스	파이낸셜뉴스	2025-09-28	2025-09-28	2025-09-28	True	True	
+48	2026-10-09-themovemag-chinese-residents-1m	200	0	한국경제	한국경제	한국경제	2026-09-20	2026-09-20	2026-09-20	True	True	
+49	2026-10-10-news1min-nps-foreigner-late-payment	200	0	서울경제	서울경제	서울경제	2026-09-02	2026-09-02	2026-09-02	True	True	
+50	2026-10-12-conpoli88-parkjiwon-nk-remittance-nis	200	0	오마이뉴스	오마이뉴스	오마이뉴스	2006-09-28	2006-09-28	2006-09-28	True	True	http→https(오마이뉴스)
+51	2026-10-12-conpoli88-parkjiwon-nk-remittance-nis	200	0	중앙일보	중앙일보	중앙일보	2020-07-07	2020-07-07	2020-07-07	True	True	
+52	2026-10-14-2pro-nk-slcm-not-announced	200	0	뉴스1	뉴스1	뉴스1	2026-10-15	2026-10-15	2026-10-15	True	True	
+53	2026-10-14-2pro-nk-slcm-not-announced	200	0	머니투데이	머니투데이	머니투데이	2026-10-15	2026-10-15	2026-10-15	True	True	
+54	2026-10-14-2pro-nk-slcm-not-announced	200	0	뉴시스	뉴시스	뉴시스	2026-10-15	2026-10-15	2026-10-15	True	True	
+55	2026-10-14-gotdemcatch-safety-drill-poster-insignia	200	0	KBS	KBS 뉴스	KBS	2026-10-14		2026-10-14	True	True	게재일: 페이지 입력 2026-10-14 23:23:56
+56	2026-10-18-wikipost-equal-pay-equal-work-roadmap	200	0	한겨레	한겨레	한겨레	2026-10-18	2026-10-18	2026-10-18	True	True	
+57	2026-10-18-wikipost-equal-pay-equal-work-roadmap	200	0	KBS	KBS 뉴스	KBS	2026-10-18		2026-10-18	True	True	게재일: 페이지 입력 2026-10-18 16:59:24
+58	2026-10-23-eodguri-kimyonghyun-drone-appeal	200	0	연합뉴스	연합뉴스	연합뉴스	2026-10-16	2026-10-16	2026-10-16	True	True	
+59	2026-10-23-eodguri-kimyonghyun-drone-appeal	200	0	국민일보	국민일보	국민일보	2026-10-17	2026-10-17	2026-10-16	True	True	페이지 게재 Sat Oct 17 00:01 KST 2026(지면) → date 10-17 변경 맞음. 포털 등록은 10-16 19:02

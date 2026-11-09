@@ -15,8 +15,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 다음(중앙일보) — [단독] "삼전 레시피 훔쳐와"…대놓고 협박한 창신메모리 CEO
-    url: https://v.daum.net/v/20260929050257952
+    name: 중앙일보 — [단독] "삼전 레시피 훔쳐와"…대놓고 협박한 창신메모리 CEO
+    url: https://www.joongang.co.kr/article/25465442
     date: 2026-09-29
   - type: 언론
     name: SBS — Secret of Operation 'Huangshan'... Testimony Emerge That CEO Threatened to Steal Samsung Technology

@@ -26,8 +26,8 @@ sources:
     url: https://www.newscj.com/news/articleView.html?idxno=3435614
     date: 2026-09-25
   - type: 언론
-    name: 李대통령, 대법관 재제청 갈등에 "기관 독립성 부여 이유 생각해야"
-    url: https://m.news.nate.com/view/20260918n17068
+    name: 아주경제 — 李대통령, 대법관 재제청 갈등에 "기관 독립성 부여 이유 생각해야"
+    url: https://www.ajunews.com/view/20260918123717584
     date: 2026-09-18
 tags:
   - 대법원

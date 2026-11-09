@@ -18,8 +18,8 @@ og:
   siteName: Instagram
 sources:
   - type: 언론
-    name: 아이뉴스24 — 김계리 "윤석열 30년형에 운 게 아니다… 간첩 너무 많아 소름 끼쳤다"
-    url: https://v.daum.net/v/20260614172500895
+    name: 아이뉴스24 — 김계리 "재판 공개됐다면 유죄 어려워...간첩 많아 소름"
+    url: https://www.inews24.com/view/1976340
     date: 2026-06-14
 tags:
   - 윤석열

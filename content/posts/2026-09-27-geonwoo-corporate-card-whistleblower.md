@@ -19,8 +19,8 @@ sources:
     url: https://www.news1.kr/local/gyeonggi/6038544
     date: 2026-01-14
   - type: 언론
-    name: 네이트 뉴스 — '도청 법카 유용' 폭로 조명현에 '2천만원 배상'…경기도 항소
-    url: https://news.nate.com/view/20260202n28722
+    name: 뉴스1 — '도청 법카 유용' 폭로 조명현에 '2천만원 배상'…경기도 항소
+    url: https://www.news1.kr/local/gyeonggi/6059368
     date: 2026-02-02
   - type: 언론
     name: YTN — Prosecutors indicted Lee Jae-myung for misappropriating corporate credit cards

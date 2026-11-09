@@ -16,7 +16,7 @@ og:
 sources:
   - type: 언론
     name: 동아일보 — 李 정부 들어 통일부 '북한인권보고서' 다시 비공개
-    url: https://m.news.nate.com/view/20260908n29513
+    url: https://www.donga.com/news/Politics/article/all/20260908/134628104/1
     date: 2026-09-08
   - type: 언론
     name: 경향신문 — 윤석열 정부 때 처음 공개된 '북한인권보고서', 다시 비공개로 전환될까

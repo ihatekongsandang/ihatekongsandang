@@ -16,7 +16,7 @@ og:
 sources:
   - type: 언론
     name: KBS — 범정부 훈련 홍보물에 중국군 유사 계급장?…현수막·온라인에 확산
-    url: https://v.daum.net/v/20261014213013603
+    url: https://news.kbs.co.kr/news/pc/view/view.do?ncd=8686068
     date: 2026-10-14
 tags:
   - 행정안전부

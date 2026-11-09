@@ -20,7 +20,7 @@ sources:
     date: 2026-09-28
   - type: 언론
     name: 동아일보 — [속보] 합참 "DMZ 폭발, 북한군 지뢰 가능성 매우 높아"
-    url: https://v.daum.net/v/20260928204631882
+    url: https://www.donga.com/news/Politics/article/all/20260928/134747559/1
     date: 2026-09-28
 tags:
   - dmz

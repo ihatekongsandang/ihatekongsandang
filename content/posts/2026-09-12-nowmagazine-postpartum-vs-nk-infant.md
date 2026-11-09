@@ -17,7 +17,7 @@ og:
 sources:
   - type: 언론
     name: 연합뉴스 — 경기도 산후조리비 중단에 도민 청원 1만명 돌파
-    url: https://m.news.nate.com/view/20260911n19090
+    url: https://www.yna.co.kr/view/AKR20260911094400061
     date: 2026-09-11
   - type: 언론
     name: 이데일리 — [단독]작년 지원 '0', 올해 집행 계획 '0'... 90% 늘린 깜깜이 대북 지원 예산

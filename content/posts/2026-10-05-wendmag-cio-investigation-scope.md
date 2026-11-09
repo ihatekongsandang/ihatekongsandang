@@ -16,7 +16,7 @@ og:
 sources:
   - type: 언론
     name: "동아일보 — [단독]與 “판검사는 공수처가, 대통령-국회의원은 중수청이 수사 추진”"
-    url: https://v.daum.net/v/20261005014258535
+    url: https://www.donga.com/news/Politics/article/all/20261004/134784602/2
     date: 2026-10-05
   - type: 언론
     name: "한국일보 — \"중수청과 기능 중복\"… 與, 공수처 '판검사 전담 수사기관' 개편 시동"
