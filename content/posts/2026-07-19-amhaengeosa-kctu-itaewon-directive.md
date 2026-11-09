@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Da-QwJ5xDyV/
 attribution: 인스타그램 @amhaengeosa.kr (암행어사)
 useSourceImage: false
-image:
-  src: /images/2026-07-19-amhaengeosa-kctu-itaewon-directive/thumb.jpg
-  alt: "대규모 집회에서 피켓을 든 참가자들 사진 위에 '이태원 참사' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

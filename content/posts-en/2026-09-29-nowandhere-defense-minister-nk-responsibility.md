@@ -2,8 +2,6 @@
 id: 2026-09-29-nowandhere-defense-minister-nk-responsibility
 title: "Defense Minister Kang Shin-chul: \"Clear armistice violation, North Korea responsible… countermeasures step by step\" — laid, not washed away; one more anti-personnel mine found"
 description: "Instagram @im_nowandhere says the defense minister admitted North Korea's responsibility for the DMZ mine blast, contrasting it with the president's remarks."
-imageAlt: "Card showing Defense Minister Kang Shin-chul at the National Assembly listening to a military official beside him, overlaid with the text 'Mine incident, armistice violation, North Korea is responsible'"
-imageCaption: First slide of the original post
 attribution: "Instagram @im_nowandhere (나우앤히어)"
 translatedAt: 2026-09-29
 ---

@@ -2,8 +2,8 @@
 id: 2026-07-13-idontknowpolitics-yeonpyeong-crab-remark
 title: "Controversy over then-leader Lee Jae-myung's remark that he \"would have become crab food off Yeonpyeong Island\" — a March 2025 rally remark; PPP demanded an apology for 'disparaging Yeonpyeong'"
 description: "Instagram @idontknowpolitics recaps Lee's 2025 'crab food' rally remark; the PPP reportedly sought an apology for disparaging Yeonpyeong residents and troops."
-imageAlt: "Broadcast screen of then-leader Lee Jae-myung speaking on a rally stage, with the captions 'President Lee Jae-myung Yeonpyeong disparagement controversy, Yeonpyeong crab food'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "Lee Jae-myung, then party leader, raising his hand as he speaks at a podium reading '106th March 1 Independence Movement Day: joint rally of five opposition parties to end the insurrection, protect constitutional democracy and call for Yoon Suk Yeol's removal'"
+imageCaption: "Lee Jae-myung, then leader of the Democratic Party, speaking at a joint rally of five opposition parties in Seoul on March 1, 2025 (per the original article's photo caption)."
 speakerAffiliation: "Then-Democratic Party leader (the speaker)"
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-09-30

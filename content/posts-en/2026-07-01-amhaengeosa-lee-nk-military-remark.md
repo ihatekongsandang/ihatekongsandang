@@ -2,8 +2,6 @@
 id: 2026-07-01-amhaengeosa-lee-nk-military-remark
 title: "President Lee Jae-myung: \"For quite a long time, we carried out military attacks on the North… will you call it pro-North to side with North Korea?\" — reel criticizing his remarks at a press meeting during his China visit"
 description: "Instagram @amhaengeosa.kr faults Lee's Jan. 7 remarks in China; he reportedly said, \"(We) carried out military attacks on North Korea for quite a long time.\""
-imageAlt: "First screen of the reel with a close-up of President Lee Jae-myung's face and the caption 'Remarks defending North Korea'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "President (the speaker)"
 attribution: "Instagram @amhaengeosa.kr (암행어사)"
 translatedAt: 2026-09-30

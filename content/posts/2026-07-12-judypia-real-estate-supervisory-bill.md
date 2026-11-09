@@ -10,10 +10,6 @@ speaker:
   name: "@hi.judypia"
   affiliation: 인스타그램 이용자
 useSourceImage: false
-image:
-  src: /images/2026-07-12-judypia-real-estate-supervisory-bill/thumb.jpg
-  alt: "태극기·성조기를 든 집회 참가자 모습 위에 '부동산 감독원 설치법 전 국민 상시 사찰 올해 통과? 내일 아침 우리 집 영장 없이 문 딴다?' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

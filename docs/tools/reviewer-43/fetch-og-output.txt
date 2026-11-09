@@ -1,0 +1,27 @@
+1	nowandhere-defense-minister-n	200	200 image/jpeg 98095
+2	nowandhere-defense-minister-n	200	200 image/jpeg 876968
+3	nowandhere-defense-minister-n	200	200 image/jpeg 29946
+4	rekor-hypertension-diabetes-s	200	200 image/jpeg 80220
+5	rekor-hypertension-diabetes-s	200	200 image/jpeg 191730
+6	rekor-hypertension-diabetes-s	200	200 image/jpeg 169421
+7	sbsnews-lee-mine-conspiracy-r	200	200 image/jpeg 216971
+8	sbsnews-lee-mine-conspiracy-r	200	200 image/jpeg 71080
+9	sbsnews-lee-mine-conspiracy-r	200	200 image/jpeg 79974
+10	amhaengeosa-lee-nk-military-r	200	200 image/jpeg 28602
+11	amhaengeosa-lee-nk-military-r	200	200 image/jpeg 518891
+12	idontknowpolitics-2018-freedo	200	200 image/jpeg 53300
+13	idontknowpolitics-2018-freedo	200	200 image/png 4926
+14	idontknowpolitics-kctu-appeal	200	200 image/jpeg 189004
+15	idontknowpolitics-kctu-appeal	200	200 image/jpeg 14654
+16	idontknowpolitics-kctu-appeal	200	200 image/jpeg;charset=UTF-8 27717
+17	judypia-real-estate-superviso	200	200 image/jpeg 46397
+18	judypia-real-estate-superviso	200	200 image/jpeg 48736
+19	idontknowpolitics-yeonpyeong-	200	200 image/jpeg 128003
+20	idontknowpolitics-yeonpyeong-	200	200 image/jpeg 200825
+21	idontknowpolitics-yeonpyeong-	200	200 image/jpeg 36621
+22	amhaengeosa-kctu-itaewon-dire	200	200 image/jpeg;charset=UTF-8 27717
+23	amhaengeosa-kctu-itaewon-dire	200	200 image/jpeg 189004
+24	amhaengeosa-kctu-itaewon-dire	200	200 image/jpeg 14654
+25	yoonsanghyun-special-counsel-	200	200 image/jpeg 201389
+26	yoonsanghyun-special-counsel-	200	200 image/jpeg 234411
+기사 26건

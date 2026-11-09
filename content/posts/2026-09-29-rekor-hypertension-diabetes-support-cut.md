@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd2rEQZgeUQ/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-rekor-hypertension-diabetes-support-cut/thumb.jpg
-  alt: "마이크 앞에서 발언하는 이재명 대통령 사진"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

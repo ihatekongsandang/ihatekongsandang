@@ -2,8 +2,6 @@
 id: 2026-07-19-amhaengeosa-kctu-itaewon-directive
 title: "North Korean directive: \"Unleash anger, taking the Itaewon disaster as an opportunity\" — former KCTU official spy case, reduced to 9 years and 6 months on appeal and finalized by the Supreme Court"
 description: "Instagram @amhaengeosa.kr recaps the ex-KCTU spy case up to the 15-year first-instance term; it was reportedly cut to 9.5 years and finalized in Sept. 2025."
-imageAlt: "Photo of participants holding pickets at a large rally, with the caption 'Itaewon disaster'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @amhaengeosa.kr (암행어사)"
 translatedAt: 2026-10-25
 ---

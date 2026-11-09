@@ -11,9 +11,15 @@ speaker:
   affiliation: 대통령
 useSourceImage: false
 image:
-  src: /images/2026-09-29-sbsnews-lee-mine-conspiracy-remark/thumb.jpg
-  alt: "국무회의에서 발언하는 이재명 대통령 사진 위에 '지뢰 폭발 언급하더니.. 근거 없는 음모론을' 문구와 '지뢰 사고로 장병 3명 큰 부상' 자막이 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://image.fnnews.com/resource/media/image/2026/09/29/202609291042588586_e.jpg
+  alt: "파란 배경 앞 회의석에서 마이크 두 개와 노트북을 두고 말하는 이재명 대통령"
+  caption: "2026년 9월 29일 청와대 국무회의, 이재명 대통령이 발언하는 모습(원 기사 사진 설명 기준)."
+  creditName: 청와대통신사진기자단
+  creditNameEn: Cheong Wa Dae press pool
+  sourcePageUrl: https://www.fnnews.com/news/202609291336327906
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대통령 — 국무회의 발언(공식 회의) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

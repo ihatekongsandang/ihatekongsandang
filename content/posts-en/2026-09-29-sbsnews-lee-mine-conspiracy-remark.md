@@ -2,8 +2,8 @@
 id: 2026-09-29-sbsnews-lee-mine-conspiracy-remark
 title: "President Lee on the DMZ mine blast: \"Uncover the truth transparently… I hope no one stokes groundless conspiracy theories\""
 description: "President Lee comforted the soldiers injured in the DMZ blast, promised measures based on the facts and warned against groundless conspiracy theories."
-imageAlt: "Thumbnail showing President Lee Jae-myung speaking at a Cabinet meeting, overlaid with the text 'After mentioning the mine blast… groundless conspiracy theories' and the caption 'Three soldiers seriously injured in mine accident'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "President Lee Jae-myung speaking at a meeting table with two microphones and a laptop against a blue background"
+imageCaption: "President Lee Jae-myung speaking at a Cabinet meeting at Cheong Wa Dae on Sept. 29, 2026 (per the original article's photo caption)."
 speakerAffiliation: "President of South Korea"
 attribution: "Instagram @sbsnews (SBS뉴스)"
 translatedAt: 2026-09-30

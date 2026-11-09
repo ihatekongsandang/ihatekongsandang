@@ -11,9 +11,15 @@ speaker:
   affiliation: 당시 더불어민주당 대표(발언 주체)
 useSourceImage: false
 image:
-  src: /images/2026-07-13-idontknowpolitics-yeonpyeong-crab-remark/thumb.jpg
-  alt: "집회 무대에서 발언하는 이재명 당시 대표 방송 화면과 '이재명 대통령 연평도 폄훼 논란, 연평도 꽃게밥' 자막"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2025/03/02/.cache/512/20250302580053.jpg
+  alt: "'106주년 3·1절 야5당 공동 내란종식·민주헌정수호를 위한 윤석열 파면 촉구 범국민대회'라고 적힌 연단에서 손을 들고 말하는 이재명 당시 대표"
+  caption: "2025년 3월 1일 서울, 이재명 당시 더불어민주당 대표가 야5당 공동 범국민대회에 참석해 발언하는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.kyeonggi.com/article/20250302580052
+  retrievedAt: 2026-11-10
+  faceNote: 당시 정당 대표(현 대통령) — 야5당 공동 주최 집회 발언(정당 공식 집회) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

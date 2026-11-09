@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd3Kqh5CcNM/
 attribution: 인스타그램 @im_nowandhere (나우앤히어)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-nowandhere-defense-minister-nk-responsibility/thumb.jpg
-  alt: "국회에서 옆 군 관계자의 말을 듣는 강신철 국방부 장관 사진 위에 '지뢰사건, 정전협정 위반, 북한 책임이다' 문구가 얹힌 카드"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

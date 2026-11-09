@@ -2,8 +2,6 @@
 id: 2026-09-29-rekor-hypertension-diabetes-support-cut
 title: "Government pushes to end medical/drug-cost support for registered elderly hypertension and diabetes patients from 2027 — 5.21 billion won cut entirely, about 450,000 affected"
 description: "Instagram @rekor.rgt cites a Medical Newspaper report that Korea plans to end elderly hypertension/diabetes medical-fee support from 2027, cutting 5.21B won."
-imageAlt: "Photo of President Lee Jae-myung speaking at a microphone"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---

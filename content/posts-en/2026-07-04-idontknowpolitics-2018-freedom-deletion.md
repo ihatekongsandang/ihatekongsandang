@@ -2,8 +2,6 @@
 id: 2026-07-04-idontknowpolitics-2018-freedom-deletion
 title: "Democratic Party's 2018 constitutional amendment caucus announced deleting 'free,' then reversed it 4 hours later as a \"spokesperson's error\" — reel recap"
 description: "Instagram @idontknowpolitics recaps a 2018 DP caucus row; its spokesperson reportedly said 'free' would go, then reversed it about 4 hours later as an error."
-imageAlt: "First screen of the reel with the title 'Freedom deleted from the Constitution' and a news screen of a Democratic Party briefing"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-09-30
 ---

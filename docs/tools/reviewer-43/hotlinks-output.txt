@@ -1,0 +1,19 @@
+
+> ihatekongsandang@0.1.0 check:hotlinks
+> tsx scripts/check-hotlinks.ts
+
+핫링크 점검 — content/posts 209건 중 image.kind: news 10건
+Referer: http://localhost:3000/ (사이트 출처만) · 시간 제한 10000ms
+  OK    2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.md — HEAD 200 image/jpeg
+  OK    2026-09-13-geonwoo-leejinsook-518-merit-disclosure.md — HEAD 200 image/jpeg
+  OK    2026-09-25-minkyuhan-nsl-security-priority.md — HEAD 200 image/jpeg
+  OK    2026-09-26-issue365-lee-nsl-yusimin.md — HEAD 200 image/jpeg
+  OK    2026-09-28-facteye-dmz-mine-similar-object.md — HEAD 200 image/jpeg
+  OK    2026-09-28-pagememo-jcs-interim-result.md — HEAD 200 image/jpeg
+  OK    2026-09-29-2pro-prosecution-sign-removal-cost.md — HEAD 200 image/jpeg
+  OK    2026-09-29-sbsnews-lee-mine-conspiracy-remark.md — HEAD 200 image/jpeg
+  OK    2026-09-30-hagonolza-lee-case-dismissal-two-routes.md — HEAD 200 image/jpeg
+  OK    2026-10-01-hagonolza-opcon-transfer-risks.md — HEAD 200 image/jpeg
+
+── 요약 ── 점검 10건 · 정상 10건 · 깨짐 0건 · 건너뜀 0건
+(이 점검은 빌드를 막지 않습니다 — 종료 코드는 항상 0)

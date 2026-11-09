@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dab-bgKTW5q/
 attribution: 인스타그램 @idontknowpolitics (나정치)
 useSourceImage: false
-image:
-  src: /images/2026-07-05-idontknowpolitics-kctu-appeal/thumb.jpg
-  alt: "MBN 뉴스 화면과 '민주노총 간부에 북한 지령 102개, 이태원 참사 세월호처럼' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
