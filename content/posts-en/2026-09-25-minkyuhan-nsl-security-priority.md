@@ -2,8 +2,8 @@
 id: 2026-09-25-minkyuhan-nsl-security-priority
 title: "\"Raising National Security Act 'praise and incitement' clauses amid the DMZ blast\" — post criticizing the president's security priorities"
 description: "Instagram @minkyuhantv faults President Lee for raising National Security Act clauses amid the presumed DMZ mine blast; 'abolish entirely' isn't what he said."
-imageAlt: "Photo of President Lee Jae-myung over a North Korean flag with the text 'Abolish the National Security Act entirely — a world where it's fine to study North Korea's Juche ideology'"
-imageCaption: "Image of the original post (the phrase 'abolish entirely' differs from the reported remarks — see below)"
+imageAlt: "President Lee Jae-myung speaking with his right hand raised at a podium, with blurred attendees seen from behind in the foreground"
+imageCaption: "President Lee Jae-myung giving remarks at a dinner meeting with Korean residents at a hotel in Mexico City on Sept. 24, 2026, local time (per the original article's photo caption)."
 attribution: "Instagram @minkyuhantv (한민규의 이슈분석)"
 translatedAt: 2026-09-30
 ---

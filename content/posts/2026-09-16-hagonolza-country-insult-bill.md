@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdYPhYTCfnU/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
-image:
-  src: /images/2026-09-16-hagonolza-country-insult-bill/thumb.jpg
-  alt: "도심 광장 대규모 집회 사진과 '…도 없는 법을 …이 처 만드시네'라는 글이 담긴 SNS 캡처 이미지"
-  caption: 원문 게시물 첫 장(SNS 게시글 캡처)
 og:
   siteName: Instagram
 sources:

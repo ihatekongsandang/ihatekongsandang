@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/reel/DdwOOBFuVqg/
 attribution: 인스타그램 @issue365_kr (정치이슈365)
 useSourceImage: false
 image:
-  src: /images/2026-09-26-issue365-lee-nsl-yusimin/thumb.jpg
-  alt: "손가락을 들고 발언하는 이재명 대통령 사진 위에 '북한 너무 미워하지 마라, 북한 찬양이 뭐가 문제냐, 국가보안법 없애버려라' 자막"
-  caption: 원문 게시물 썸네일(자막 문구는 보도된 발언과 다름 — 본문 참고)
+  kind: news
+  src: https://newsimg.hankookilbo.com/2026/09/25/47cfe0c1-4b4b-4240-9da6-e1154eba260c.jpg
+  alt: "'멕시코 동포 간담회'라고 적힌 연단에서 손짓하며 말하는 이재명 대통령"
+  caption: "2026년 9월 24일(현지시간) 멕시코 멕시코시티, 이재명 대통령이 동포 간담회에서 인사말을 하는 모습(원 기사 사진 설명 기준)."
+  creditName: 뉴시스
+  creditNameEn: Newsis
+  sourcePageUrl: https://www.hankookilbo.com/news/article/A2026092510180005391
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대통령 — 순방 중 동포 간담회 인사말 — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

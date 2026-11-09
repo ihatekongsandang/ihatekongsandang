@@ -10,10 +10,6 @@ speaker:
   name: 진중권
   affiliation: 광운대 특임교수(발언 주체)
 useSourceImage: false
-image:
-  src: /images/2026-09-13-geonwoo-jinjoongkwon-2023-remark/thumb.jpg
-  alt: "발언하는 진중권 교수 얼굴 위에 '긴급속보 이게 정말.. 사람인가? 소름끼쳐' 자막"
-  caption: 원문 게시물 썸네일('긴급속보' 표기와 달리 2023년 발언)
 og:
   siteName: Instagram
 sources:

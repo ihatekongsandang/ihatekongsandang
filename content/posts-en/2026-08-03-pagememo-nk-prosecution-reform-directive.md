@@ -2,8 +2,6 @@
 id: 2026-08-03-pagememo-nk-prosecution-reform-directive
 title: "North Korean directive: \"Passing the prosecution reform bill is the first-stage goal\" — revisiting 2022 reports on the Chungbuk Comrades Association indictment"
 description: "Instagram @page_memo_zip revisits a 2022 report on an NK 'prosecution reform' directive as a 2026 bill passed; it says no direct link to the law is confirmed."
-imageAlt: "Thumbnail with a photo of Kim Jong Un standing in front of an honor guard, overlaid with the text 'First-stage goal set by North Korea: pass the prosecution reform bill first'"
-imageCaption: "Thumbnail of the original post (labeled \"Past news revisited series\")"
 attribution: "Instagram @page_memo_zip (PAGE_MEMO_ZIP)"
 translatedAt: 2026-09-30
 ---

@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdrTaw0CZQv/
 attribution: 인스타그램 @hagonolza (하놀)
 useSourceImage: false
-image:
-  src: /images/2026-09-24-hagonolza-kctu-itaewon-claim/thumb.jpg
-  alt: "'이태원 참사 일으키라는 북한의 지령이 있었다, 노총 간부가 ok해서 일어난 사건' 등의 문구와 북한 국기 영상 캡처"
-  caption: 원문 게시물 이미지(문구가 보도 내용과 다름 — 본문 참고)
 og:
   siteName: Instagram
 sources:

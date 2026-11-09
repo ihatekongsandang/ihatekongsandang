@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DcpXKs6Tq9j/
 attribution: 인스타그램 @idontknowpolitics (나정치몰라)
 useSourceImage: false
-image:
-  src: /images/2026-08-29-idontknowpolitics-martial-law-nk-policy/thumb.jpg
-  alt: "대통령실 연단에서 고개 숙인 윤석열 전 대통령 사진 위에 '그가 본 세상, 계엄은 옳았다.' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(문구는 게시자의 표현)
 og:
   siteName: Instagram
 sources:

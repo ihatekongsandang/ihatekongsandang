@@ -2,8 +2,8 @@
 id: 2026-09-28-facteye-dmz-mine-similar-object
 title: "JCS: \"Received testimony of seeing an object resembling a box mine near the blast site\" — not confirmed to be an actual box mine"
 description: "Instagram @facteye_politics covers testimony, disclosed at a JCS briefing, of a box-mine-like object near the blast site; the JCS called it unconfirmed."
-imageAlt: "Photo of troops conducting mine-detection work and a box-mine model labeled 'TNT 220g,' overlaid with the caption 'It was a North Korean box mine — object resembling a box mine seen near the blast, Defense Ministry announcement'"
-imageCaption: "Thumbnail of the original post (the caption 'it was' is more definitive than the actual announcement — see below)"
+imageAlt: "Blurry video frame of a helmeted soldier moving away through dense brush on a slope"
+imageCaption: "The military and the U.N. Command clearing a route and surveying the area inside the DMZ on Sept. 26, 2026, for the on-site investigation of the suspected mine explosion (JCS-provided video, per the original article's photo caption)."
 attribution: "Instagram @facteye_politics (정치 팩트아이)"
 translatedAt: 2026-09-30
 ---

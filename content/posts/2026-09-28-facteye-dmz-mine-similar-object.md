@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/reel/Dd0N13NxuuL/
 attribution: 인스타그램 @facteye_politics (정치 팩트아이)
 useSourceImage: false
 image:
-  src: /images/2026-09-28-facteye-dmz-mine-similar-object/thumb.jpg
-  alt: "지뢰 탐지 작업을 하는 장병과 'TNT 220g'이 적힌 목함지뢰 모형 사진 위에 '북한 목함지뢰가 맞았다, 폭발사고 인근서 목함지뢰 유사 물체 목격, 국방부 발표' 자막"
-  caption: 원문 게시물 썸네일(자막 '맞았다'는 발표 내용보다 단정적 — 본문 참고)
+  kind: news
+  src: https://image.fnnews.com/resource/media/image/2026/09/26/202609262040221804_e.jpg
+  alt: "수풀이 우거진 비탈에서 헬멧을 쓴 장병이 등을 보이며 이동하는 흐릿한 영상 장면"
+  caption: "2026년 9월 26일 비무장지대(DMZ) 안, 군과 유엔군사령부가 지뢰 추정 폭발 사고 현장조사를 위해 기동로 확보·작전환경 조사를 하는 장면(합참 제공 영상, 원 기사 사진 설명 기준)."
+  creditName: 합참 제공
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.fnnews.com/news/202609281416177661
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(수풀 속 장병 뒷모습, 식별 불가)
 og:
   siteName: Instagram
 sources:

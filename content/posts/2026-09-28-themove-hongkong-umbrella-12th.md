@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd0xv8hzTLQ/
 attribution: 인스타그램 @themovemag_ (The Move)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-themove-hongkong-umbrella-12th/thumb.jpg
-  alt: "지하철 객차 안에서 마스크를 쓴 사람이 쓰러진 사람을 끌어안고 있는 장면 위에 '12년 전 오늘 홍콩에서 짓밟힌 민주화의 불씨' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(2019년 8월 31일 프린스에드워드역 장면으로 소개됨)
 og:
   siteName: Instagram
 sources:

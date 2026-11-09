@@ -2,8 +2,6 @@
 id: 2026-09-24-hagonolza-kctu-itaewon-claim
 title: "\"A North Korean directive to cause the Itaewon disaster\"? — the reported directive, about two weeks after the disaster, was to 'unleash anger'"
 description: "Instagram @hagonolza on the ex-KCTU spy case: its image says NK ordered the Itaewon disaster; the reported order, about 2 weeks later, was to organize anger."
-imageAlt: "Screenshot of a video with a North Korean flag and text such as 'There was a North Korean directive to cause the Itaewon disaster; it happened because a union official said OK'"
-imageCaption: "Image of the original post (the text differs from what was reported — see the body)"
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-10-25
 ---

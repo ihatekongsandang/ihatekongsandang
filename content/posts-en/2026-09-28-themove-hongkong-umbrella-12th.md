@@ -2,8 +2,6 @@
 id: 2026-09-28-themove-hongkong-umbrella-12th
 title: "Hong Kong's 'Umbrella Movement,' 12 years ago today — from the 79-day occupation to the 2019 protests, the 2020 security law and Joshua Wong's imprisonment"
 description: "Instagram @themovemag_ marks 12 years since Hong Kong's Umbrella Movement, recalling the 2019 crackdown and later repression it likens to Korea 40 years ago."
-imageAlt: "Scene inside a subway car of a masked person embracing someone who has collapsed, overlaid with the text 'The spark of democracy crushed in Hong Kong, 12 years ago today'"
-imageCaption: "Thumbnail of the original post (introduced as a scene from Prince Edward Station on Aug. 31, 2019)"
 attribution: "Instagram @themovemag_ (The Move)"
 translatedAt: 2026-09-30
 ---

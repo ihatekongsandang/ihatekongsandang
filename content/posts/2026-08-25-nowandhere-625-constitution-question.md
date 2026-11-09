@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DcdM2s0p4_J/
 attribution: 인스타그램 @im_nowandhere (나우앤히어)
 useSourceImage: false
-image:
-  src: /images/2026-08-25-nowandhere-625-constitution-question/thumb.jpg
-  alt: "국회에서 답변하는 한성숙 국무총리 사진 위에 '5.18은 국민적 공감대가 형성되었지만 6.25 자유투쟁 정신은 공감대 형성 안돼'라는 인용 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일(인용 문구는 총리의 실제 발언이 아닌 요약으로 보임)
 og:
   siteName: Instagram
 sources:

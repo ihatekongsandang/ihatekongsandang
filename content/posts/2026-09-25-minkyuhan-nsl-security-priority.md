@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/DdvbQA7kjDq/
 attribution: 인스타그램 @minkyuhantv (한민규의 이슈분석)
 useSourceImage: false
 image:
-  src: /images/2026-09-25-minkyuhan-nsl-security-priority/thumb.jpg
-  alt: "이재명 대통령 사진과 북한 국기 위에 '국가보안법 통째로 폐지, 북한 주체사상 공부해도 괜찮은 세상' 문구"
-  caption: 원문 게시물 이미지(문구 '통째로 폐지'는 보도된 발언과 다름 — 본문 참고)
+  kind: news
+  src: https://img.khan.co.kr/news/2026/09/25/news-p.v1.20260925.c62a276ec321403cb9fcb9619f8787f3_P1.jpeg
+  alt: "간담회 연단에서 오른손을 들고 말하는 이재명 대통령, 앞쪽에 흐릿하게 보이는 참석자들의 뒷모습"
+  caption: "2026년 9월 24일(현지시간) 멕시코시티의 한 호텔, 이재명 대통령이 동포 만찬간담회에서 인사말을 하는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.khan.co.kr/article/202609251226001/
+  retrievedAt: 2026-11-10
+  faceNote: 현직 대통령 — 순방 중 동포 간담회 인사말 — 원 기사 사진 설명 · 앞쪽 참석자는 흐림·뒷모습
 og:
   siteName: Instagram
 sources:

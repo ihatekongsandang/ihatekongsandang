@@ -2,8 +2,8 @@
 id: 2026-09-26-issue365-lee-nsl-yusimin
 title: "President Lee Jae-myung: \"Excessive claims made to show one's clarity rarely bring good results\" — reel on his revisiting of the NSL abolition debate, read as aimed at Yoo Si-min"
 description: "Instagram @issue365_kr frames President Lee's NSL remark in Mexico within his prosecution-reform spat with Yoo Si-min; reports say it was read as aimed at Yoo."
-imageAlt: "Photo of President Lee Jae-myung speaking with a finger raised, with the captions 'Don't hate North Korea too much, what's wrong with praising North Korea, get rid of the National Security Act'"
-imageCaption: "Thumbnail of the original post (the caption text differs from the reported remarks — see the body)"
+imageAlt: "President Lee Jae-myung gesturing as he speaks at a podium labeled 'Meeting with Korean residents in Mexico'"
+imageCaption: "President Lee Jae-myung giving remarks at a meeting with Korean residents in Mexico City on Sept. 24, 2026, local time (per the original article's photo caption)."
 attribution: "Instagram @issue365_kr (정치이슈365)"
 translatedAt: 2026-09-30
 ---

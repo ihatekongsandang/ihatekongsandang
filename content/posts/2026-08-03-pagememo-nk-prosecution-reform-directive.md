@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DbmHuegz4F4/
 attribution: 인스타그램 @page_memo_zip (PAGE_MEMO_ZIP)
 useSourceImage: false
-image:
-  src: /images/2026-08-03-pagememo-nk-prosecution-reform-directive/thumb.jpg
-  alt: "의장대 앞에 선 김정은 국무위원장 사진 위에 '북한이 내린 1단계 목표, 검찰개혁안부터 통과시켜라' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일("다시보는 과거 뉴스 시리즈" 표기)
 og:
   siteName: Instagram
 sources:

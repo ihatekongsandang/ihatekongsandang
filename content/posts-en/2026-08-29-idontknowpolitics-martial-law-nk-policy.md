@@ -2,8 +2,6 @@
 id: 2026-08-29-idontknowpolitics-martial-law-nk-policy
 title: "\"The threat of North Korean communist forces\": North Korea and security policy changes after that martial law rationale — a summary of 'main enemy' remarks, loudspeaker removal, dismantling of the counterintelligence command and medical equipment aid"
 description: "Instagram @idontknowpolitics recaps NK policy shifts after martial law; its thumbnail says \"martial law was right,\" but its caption says it can't be concluded."
-imageAlt: "Thumbnail with a photo of former President Yoon Suk Yeol bowing his head at a presidential office podium, overlaid with the text 'The world he saw: martial law was right.'"
-imageCaption: "Thumbnail of the original post (the text is the poster's wording)"
 attribution: "Instagram @idontknowpolitics (나정치몰라)"
 translatedAt: 2026-11-09
 ---
