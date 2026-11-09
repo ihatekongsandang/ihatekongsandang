@@ -1,0 +1,5 @@
+PASS  about.html — 같음(1467자)
+PASS  terms.html — 같음(2172자)
+PASS  en/about.html — 같음(1354자)
+PASS  en/terms.html — 같음(4897자)
+합계 4건 · PASS 4 · FAIL 0

@@ -1,0 +1,22 @@
+isPortalUrl 거짓  https://naver.me/x
+isPortalUrl 거짓  https://news.kakao.com/x
+isPortalUrl 참  https://v.daum.net/x
+isPortalUrl 참  https://m.news.nate.com/x
+isPortalUrl 참  https://news.zum.com/x
+isPortalUrl 참  https://imgnews.pstatic.net/x.jpg
+isPortalUrl 참  https://t1.daumcdn.net/x.jpg
+isPortalUrl 거짓  https://news.google.com/x
+isPortalUrl 거짓  https://www.msn.com/ko-kr/x
+isPortalUrl 참  https://NEWS.NAVER.COM./x
+거부  news sourcePageUrl 끝 슬래시만 다름 — image.sourcePageUrl: kind `news`이면 이 게시물 `sources[].url` 중 하나와 글자 그대로 같아야 합니다. (받은 값: http
+통과  news src localhost https
+통과  news src 사설 IP https
+통과  news retrievedAt 미래 2099-01-01
+거부  news faceNote 공백만 — image.faceNote: kind `news`이면 필수입니다 — 인물 판정 근거(공인 직위·캡션 출처) 또는 "얼굴 없음"을 한 줄로 적으세요.
+통과  news src에 이미지 아닌 html 주소
+통과  news 단축주소 출처(naver.me) — sources에도 같은 값
+거부  public src 외부 https — image.src: `/images/`로 시작하는 저장소 내 경로여야 합니다. (받은 값: https://img.example.org/1.jpg)
+거부  public license 대문자 KOGL-1 — image.license: kind `public`이면 필수이며 kogl-1만 쓸 수 있습니다. (받은 값: KOGL-1)
+거부  kind 빈 문자열 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: )
+
+사례 10개 기록

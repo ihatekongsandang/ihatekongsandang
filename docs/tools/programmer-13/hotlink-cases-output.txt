@@ -1,0 +1,43 @@
+핫링크 점검 — ../../..<tmp>/posts 7건 중 image.kind: news 6건
+Referer: https://site.example.com/ (사이트 출처만) · 시간 제한 1500ms
+🟡 case-invalid.md: 검증 실패로 건너뜀(npm run validate:content로 확인)
+  OK    case-head405.md — GET 200 image/png
+  OK    case-ok.md — HEAD 200 image/jpeg
+
+🔴 깨진 핫링크 — 플레이스홀더로 표시되는 중입니다. 다른 기사 이미지로 바꾸거나 `image`를 지우세요.
+  BROKEN  case-dns.md (id case-dns) — 네트워크 오류: fetch failed
+          src: https://img.example.invalid/x.jpg
+          기사: https://news.example.org/dns
+  BROKEN  case-html.md (id case-html) — 이미지가 아님(content-type: text/html)
+          src: <local>/html.jpg
+          기사: https://news.example.org/html
+  BROKEN  case-missing.md (id case-missing) — HTTP 404
+          src: <local>/missing.jpg
+          기사: https://news.example.org/missing
+  BROKEN  case-slow.md (id case-slow) — 시간 초과(1500ms)
+          src: <local>/slow.jpg
+          기사: https://news.example.org/slow
+
+── 요약 ── 점검 6건 · 정상 2건 · 깨짐 4건 · 건너뜀 1건
+(이 점검은 빌드를 막지 않습니다 — 종료 코드는 항상 0)
+
+PASS  종료 코드 0(깨진 항목이 있어도)
+PASS  점검 6건(검증 실패 1건은 건너뜀)
+PASS  정상: ok(HEAD 200 image/jpeg)
+PASS  정상: HEAD 405 → GET 200 image/png
+PASS  깨짐: 404
+PASS  깨짐: 이미지 아님(text/html)
+PASS  깨짐: 시간 초과
+PASS  깨짐: 네트워크 오류(DNS)
+PASS  건너뜀: 검증 실패 news
+PASS  Referer = 사이트 출처만(https://site.example.com/)
+서버가 받은 요청 7건:
+  HEAD /head-405.jpg referer=https://site.example.com/
+  GET /head-405.jpg referer=https://site.example.com/
+  HEAD /html.jpg referer=https://site.example.com/
+  HEAD /missing.jpg referer=https://site.example.com/
+  GET /missing.jpg referer=https://site.example.com/
+  HEAD /ok.jpg referer=https://site.example.com/
+  HEAD /slow.jpg referer=https://site.example.com/
+
+합계 10건 · PASS 10 · FAIL 0

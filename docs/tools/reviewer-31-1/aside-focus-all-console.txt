@@ -1,0 +1,7 @@
+전수 {"1024x600":{"pages":414,"focusables":3234,"offscreen":0,"nonStaticAside":0},"1280x600":{"pages":414,"focusables":3234,"offscreen":0,"nonStaticAside":0}}
+가장 긴 보조 열 {"id":"2026-08-29-idontknowpolitics-martial-law-nk-policy","h":1672}
+Tab 1024x768 보조 열 요소 17 방문 17 화면 밖 0
+Tab 1024x600 보조 열 요소 17 방문 17 화면 밖 0
+Tab 1280x800 보조 열 요소 17 방문 17 화면 밖 0
+Tab 1280x600 보조 열 요소 17 방문 17 화면 밖 0
+Tab 1440x900 보조 열 요소 17 방문 17 화면 밖 0

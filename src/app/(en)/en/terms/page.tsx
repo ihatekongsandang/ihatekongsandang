@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 export default function EnglishTermsPage() {
   return (
     <PageFrame locale="en" languageLinks={{ ko: '/terms', en: '/en/terms' }}>
-      <div className="mx-auto w-full max-w-3xl space-y-10">
+      <div className="reading-page mx-auto w-full space-y-10 pt-5">
         <header className="space-y-3">
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Terms and Operating Policy</h1>
+          <h1 className="text-[26px] leading-[1.3] font-bold tracking-[-0.02em] md:text-[30px]">Terms and Operating Policy</h1>
           <p className="text-xs text-muted-foreground">
             Last updated: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time>
           </p>
@@ -158,7 +158,7 @@ export default function EnglishTermsPage() {
         </Section>
 
         <p className="border-t pt-6 text-sm">
-          <Link href={aboutPath('en')} className="text-link underline underline-offset-2">
+          <Link href={aboutPath('en')} className="inline-flex min-h-11 items-center text-link underline underline-offset-2">
             Back to About
           </Link>
         </p>

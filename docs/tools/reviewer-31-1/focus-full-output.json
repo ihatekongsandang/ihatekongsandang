@@ -1,0 +1,1150 @@
+{
+ "runs": {
+  "home-320-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "이진숙 의원 \"12·3 계엄 때 상관 명령  ← aside[외부 링크 안내] (y=509, h=102)",
+    "합참 \"북한, 원산 일대서 동해상으로 단거리 ← aside[외부 링크 안내] (y=509, h=102)",
+    "\"대한민국이 공산화되면 킬링필드\" — 원문이 ← aside[외부 링크 안내] (y=509, h=123)"
+   ],
+   "offscreen": []
+  },
+  "home-320-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-360-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "스레드 \"[속보]\" — \"민주당 주도로 김태 ← aside[외부 링크 안내] (y=609, h=81)"
+   ],
+   "offscreen": []
+  },
+  "home-360-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-768-fwd": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-768-back": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-1024-fwd": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-1024-back": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-1280-fwd": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "home-1280-back": {
+   "stops": 39,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-320-fwd": {
+   "stops": 41,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "\"민주당 악법 놔두면 베네수엘라 같은 포퓰리 ← aside[외부 링크 안내] (y=479, h=123)",
+    "\"정부 홍보(물)에 중국군 계급장이?\" — 재난 ← aside[외부 링크 안내] (y=509, h=123)",
+    "\"중국 전투기, 우리 방공식별구역 몇 번 넘 ← aside[외부 링크 안내] (y=509, h=144)",
+    "\"이재명 숙청 1호, 이진숙 방통위원장이 떠 ← aside[외부 링크 안내] (y=509, h=123)"
+   ],
+   "offscreen": []
+  },
+  "page2-320-back": {
+   "stops": 41,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-360-fwd": {
+   "stops": 41,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "\"민주당, 신천지 교인 3만 명 이상 집단  ← aside[외부 링크 안내] (y=609, h=81)",
+    "\"이재명 숙청 1호, 이진숙 방통위원장이 떠 ← aside[외부 링크 안내] (y=609, h=102)"
+   ],
+   "offscreen": []
+  },
+  "page2-360-back": {
+   "stops": 41,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-768-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-768-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-1024-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-1024-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-1280-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "page2-1280-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-320-fwd": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-320-back": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-360-fwd": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-360-back": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-768-fwd": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-768-back": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-1024-fwd": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-1024-back": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-1280-fwd": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "post-1280-back": {
+   "stops": 23,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-320-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "합참 \"MDL 이남 北 지뢰 매설 추정지 수 ← aside[외부 링크 안내] (y=509, h=144)",
+    "유엔사 \"MDL 이남서 북한 지뢰 발견, 정 ← aside[외부 링크 안내] (y=509, h=102)",
+    "합참 \"北 지뢰 매설 흔적, 작년 9월 위성 ← aside[외부 링크 안내] (y=509, h=81)",
+    "서해 공무원 피격(문재인 정부) vs DMZ ← aside[외부 링크 안내] (y=509, h=81)"
+   ],
+   "offscreen": []
+  },
+  "tag-320-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-360-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [
+    "\"25사단 이어 15사단도 북한 지뢰 위협  ← aside[외부 링크 안내] (y=609, h=123)",
+    "\"北, 8~9월 MDL 50회 침범…김여정  ← aside[외부 링크 안내] (y=609, h=102)"
+   ],
+   "offscreen": []
+  },
+  "tag-360-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-768-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-768-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-1024-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-1024-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-1280-fwd": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tag-1280-back": {
+   "stops": 40,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-320-fwd": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-320-back": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-360-fwd": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-360-back": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-768-fwd": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-768-back": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-1024-fwd": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-1024-back": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-1280-fwd": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "tags-1280-back": {
+   "stops": 334,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-320-fwd": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-320-back": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-360-fwd": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-360-back": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-768-fwd": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-768-back": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-1024-fwd": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-1024-back": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-1280-fwd": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "about-1280-back": {
+   "stops": 10,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-320-fwd": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-320-back": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-360-fwd": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-360-back": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-768-fwd": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-768-back": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-1024-fwd": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-1024-back": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-1280-fwd": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "terms-1280-back": {
+   "stops": 9,
+   "fullyHidden": [
+    "본문으로 건너뛰기 ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-320-fwd": {
+   "stops": 26,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-320-back": {
+   "stops": 26,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-360-fwd": {
+   "stops": 26,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-360-back": {
+   "stops": 26,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-768-fwd": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-768-back": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-1024-fwd": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-1024-back": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-1280-fwd": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "en-1280-back": {
+   "stops": 25,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-320-fwd": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-320-back": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-360-fwd": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-360-back": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-768-fwd": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-768-back": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-1024-fwd": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-1024-back": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-1280-fwd": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  },
+  "postEn-1280-back": {
+   "stops": 19,
+   "fullyHidden": [
+    "Skip to main content ← header"
+   ],
+   "partly": [],
+   "offscreen": []
+  }
+ },
+ "order": {
+  "home-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "h1「공산당이싫어요」@73,16",
+   "nav「주제」@153,0",
+   "h2「최신 게시물」@213,16",
+   "h3「인스타그램 \"대진연의 과거\" — 20」@259,140",
+   "h3「이재명 대통령 \"김정은, 미사일 시험」@369,140",
+   "h3「\"전쟁 나면 임기 연장…이재명은 염두」@479,140",
+   "h3「\"우리 북한의 김정일, 또 김일성 주」@589,140",
+   "h3「\"북한 비판했다고 처벌 논란?\" — 」@700,140",
+   "h3「이진숙 의원 \"12·3 계엄 때 상관」@810,140",
+   "h3「북한, 평양서 조선인민군 제3차 중대」@920,140",
+   "h3「\"북한, 남포 등서 잠수정·공작모선으」@1030,140",
+   "h3「합참 \"북한, 원산 일대서 동해상으로」@1140,140",
+   "h3「대만 \"중국 함정 53척, 일본 남부」@1250,140",
+   "h3「스레드 \"[속보]\" — \"민주당 주도」@1361,140",
+   "h3「\"대한민국이 공산화되면 킬링필드\" —」@1471,140",
+   "nav「피드 페이지 이동」@1569,16",
+   "footer@1741,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "home-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "h1「공산당이싫어요」@81,112",
+   "nav「주제」@173,64",
+   "h2「최신 게시물」@233,112",
+   "h3「인스타그램 \"대진연의 과거\" — 20」@473,112",
+   "h3「이재명 대통령 \"김정은, 미사일 시험」@473,472",
+   "h3「\"전쟁 나면 임기 연장…이재명은 염두」@473,832",
+   "h3「\"우리 북한의 김정일, 또 김일성 주」@803,112",
+   "h3「\"북한 비판했다고 처벌 논란?\" — 」@803,472",
+   "h3「이진숙 의원 \"12·3 계엄 때 상관」@803,832",
+   "h3「북한, 평양서 조선인민군 제3차 중대」@1132,112",
+   "h3「\"북한, 남포 등서 잠수정·공작모선으」@1132,472",
+   "h3「합참 \"북한, 원산 일대서 동해상으로」@1132,832",
+   "h3「대만 \"중국 함정 53척, 일본 남부」@1462,112",
+   "h3「스레드 \"[속보]\" — \"민주당 주도」@1462,472",
+   "h3「\"대한민국이 공산화되면 킬링필드\" —」@1462,832",
+   "nav「피드 페이지 이동」@1561,112",
+   "footer@1677,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "page2-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "h1「공산당이싫어요」@73,16",
+   "nav「주제」@153,0",
+   "h2「최신 게시물」@213,16",
+   "h3「\"정부, 사회주의 월급 준다\"? — 」@259,140",
+   "h3「\"446억 배상 판결에도… 정동영 '」@369,140",
+   "h3「\"민주당 악법 놔두면 베네수엘라 같은」@479,140",
+   "h3「\"대북송금 유죄 확정 인물이 국정원 」@589,140",
+   "h3「\"북한 잠수함 순항미사일 발사, 이재」@700,140",
+   "h3「\"정부 홍보(물)에 중국군 계급장이?\" 」@810,140",
+   "h3「\"중국인도 대한민국 군인으로\" 국방부」@920,140",
+   "h3「\"민주당, 신천지 교인 3만 명 이상」@1030,140",
+   "h3「\"중국 전투기, 우리 방공식별구역 몇」@1140,140",
+   "h3「\"경찰 보디캠 1만4천 대, 중국산을」@1250,140",
+   "h3「\"독도 삭제 동의했다면 탄핵감\" — 」@1361,140",
+   "h3「\"이재명 숙청 1호, 이진숙 방통위원」@1471,140",
+   "nav「피드 페이지 이동」@1569,16",
+   "footer@1741,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "page2-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "h1「공산당이싫어요」@81,112",
+   "nav「주제」@173,64",
+   "h2「최신 게시물」@233,112",
+   "h3「\"정부, 사회주의 월급 준다\"? — 」@473,112",
+   "h3「\"446억 배상 판결에도… 정동영 '」@473,472",
+   "h3「\"민주당 악법 놔두면 베네수엘라 같은」@473,832",
+   "h3「\"대북송금 유죄 확정 인물이 국정원 」@803,112",
+   "h3「\"북한 잠수함 순항미사일 발사, 이재」@803,472",
+   "h3「\"정부 홍보(물)에 중국군 계급장이?\" 」@803,832",
+   "h3「\"중국인도 대한민국 군인으로\" 국방부」@1132,112",
+   "h3「\"민주당, 신천지 교인 3만 명 이상」@1132,472",
+   "h3「\"중국 전투기, 우리 방공식별구역 몇」@1132,832",
+   "h3「\"경찰 보디캠 1만4천 대, 중국산을」@1462,112",
+   "h3「\"독도 삭제 동의했다면 탄핵감\" — 」@1462,472",
+   "h3「\"이재명 숙청 1호, 이진숙 방통위원」@1462,832",
+   "nav「피드 페이지 이동」@1561,112",
+   "footer@1677,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "post-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "nav「현재 위치」@65,16",
+   "header@117,16",
+   "h1「인스타그램 \"대진연의 과거\" — 20」@117,16",
+   "a@465,16",
+   "figure@696,16",
+   "section@905,16",
+   "h2「원문 주장 (게시자 의견)」@1210,16",
+   "h2「보도로 확인된 내용」@1394,16",
+   "h2「\"안 잡혔나\"에 대해 확인된 범위」@1943,16",
+   "h2「요약에 넣지 않은 내용」@2493,16",
+   "section@2653,16",
+   "h2「원문 미리보기」@2668,31",
+   "aside「보조 정보」@2834,16",
+   "section@2834,16",
+   "h2「배경 보도」@2851,33",
+   "section@3266,16",
+   "h2「공유」@3266,16",
+   "section@3370,16",
+   "h2「태그」@3370,16",
+   "footer@3621,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "post-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "nav「현재 위치」@65,158",
+   "header@117,158",
+   "h1「인스타그램 \"대진연의 과거\" — 20」@117,158",
+   "a@400,158",
+   "figure@609,158",
+   "section@977,158",
+   "h2「원문 주장 (게시자 의견)」@1164,158",
+   "h2「보도로 확인된 내용」@1317,158",
+   "h2「\"안 잡혔나\"에 대해 확인된 범위」@1658,158",
+   "h2「요약에 넣지 않은 내용」@2000,158",
+   "section@2130,158",
+   "h2「원문 미리보기」@2145,173",
+   "aside「보조 정보」@113,834",
+   "section@113,834",
+   "h2「배경 보도」@134,855",
+   "section@576,834",
+   "h2「공유」@576,834",
+   "section@784,834",
+   "h2「태그」@784,834",
+   "footer@2412,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "tag-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "nav「현재 위치」@65,16",
+   "h1「#dmz」@113,16",
+   "nav「주제」@174,0",
+   "h2「게시물」@234,16",
+   "h3「\"北 지뢰와 무관한 사이버 제재 왜 」@280,140",
+   "h3「\"전방 모든 군단이 실탄 없이 경계근」@390,140",
+   "h3「합참 \"MDL 이남 北 지뢰 매설 추」@500,140",
+   "h3「\"25사단 이어 15사단도 북한 지뢰」@610,140",
+   "h3「트럼프 '알래스카 LNG' 일방 발표」@720,140",
+   "h3「유엔사 \"MDL 이남서 북한 지뢰 발」@830,140",
+   "h3「\"DMZ 대응 외친 민주당, 국회 현」@941,140",
+   "h3「\"北, 8~9월 MDL 50회 침범…」@1051,140",
+   "h3「합참 \"北 지뢰 매설 흔적, 작년 9」@1161,140",
+   "h3「진성준 국방위원장 \"北 책임은 맞지만」@1271,140",
+   "h3「임종득 \"군 생활 38년에 이런 작전」@1381,140",
+   "h3「서해 공무원 피격(문재인 정부) vs」@1492,140",
+   "nav「피드 페이지 이동」@1590,16",
+   "footer@1762,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "tag-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "nav「현재 위치」@65,112",
+   "h1「#dmz」@113,112",
+   "nav「주제」@178,64",
+   "h2「게시물」@238,112",
+   "h3「\"北 지뢰와 무관한 사이버 제재 왜 」@478,112",
+   "h3「\"전방 모든 군단이 실탄 없이 경계근」@478,472",
+   "h3「합참 \"MDL 이남 北 지뢰 매설 추」@478,832",
+   "h3「\"25사단 이어 15사단도 북한 지뢰」@807,112",
+   "h3「트럼프 '알래스카 LNG' 일방 발표」@807,472",
+   "h3「유엔사 \"MDL 이남서 북한 지뢰 발」@807,832",
+   "h3「\"DMZ 대응 외친 민주당, 국회 현」@1137,112",
+   "h3「\"北, 8~9월 MDL 50회 침범…」@1137,472",
+   "h3「합참 \"北 지뢰 매설 흔적, 작년 9」@1137,832",
+   "h3「진성준 국방위원장 \"北 책임은 맞지만」@1467,112",
+   "h3「임종득 \"군 생활 38년에 이런 작전」@1467,472",
+   "h3「서해 공무원 피격(문재인 정부) vs」@1467,832",
+   "nav「피드 페이지 이동」@1566,112",
+   "footer@1682,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "tags-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "header@65,16",
+   "h1「전체 태그」@65,16",
+   "footer@5327,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "tags-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "header@65,112",
+   "h1「전체 태그」@65,112",
+   "footer@1771,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "about-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "header@85,16",
+   "h1「소개」@85,16",
+   "section@320,16",
+   "h2「운영 방식」@320,16",
+   "section@683,16",
+   "h2「출처 정책」@683,16",
+   "section@1234,16",
+   "h2「표기 원칙」@1234,16",
+   "section@1687,16",
+   "h2「인용·저작권」@1687,16",
+   "section@2050,16",
+   "h2「정정·삭제 요청」@2050,16",
+   "footer@2712,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "about-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "header@85,334",
+   "h1「소개」@85,334",
+   "section@265,334",
+   "h2「운영 방식」@265,334",
+   "section@510,334",
+   "h2「출처 정책」@510,334",
+   "section@852,334",
+   "h2「표기 원칙」@852,334",
+   "section@1156,334",
+   "h2「인용·저작권」@1156,334",
+   "section@1431,334",
+   "h2「정정·삭제 요청」@1431,334",
+   "footer@1947,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "terms-360": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,178",
+   "nav「언어 선택」@6,270",
+   "main@57,0",
+   "header@85,16",
+   "h1「이용약관·운영 정책」@85,16",
+   "section@288,16",
+   "h2「운영 목적」@288,16",
+   "section@547,16",
+   "h2「직접 취재하지 않음」@547,16",
+   "section@924,16",
+   "h2「출처 원칙」@924,16",
+   "section@1712,16",
+   "h2「정정·삭제 요청 방법과 처리 기준」@1712,16",
+   "section@2620,16",
+   "h2「익명 운영과 연락 경로」@2620,16",
+   "section@2997,16",
+   "h2「게시물 성격」@2997,16",
+   "footer@3434,0",
+   "aside「외부 링크 안내」@688,0"
+  ],
+  "terms-1280": [
+   "header@0,0",
+   "nav「주요 메뉴」@6,1002",
+   "nav「언어 선택」@6,1094",
+   "main@57,64",
+   "header@85,334",
+   "h1「이용약관·운영 정책」@85,334",
+   "section@264,334",
+   "h2「운영 목적」@264,334",
+   "section@433,334",
+   "h2「직접 취재하지 않음」@433,334",
+   "section@662,334",
+   "h2「출처 원칙」@662,334",
+   "section@1212,334",
+   "h2「정정·삭제 요청 방법과 처리 기준」@1212,334",
+   "section@1825,334",
+   "h2「익명 운영과 연락 경로」@1825,334",
+   "section@2084,334",
+   "h2「게시물 성격」@2084,334",
+   "footer@2402,0",
+   "aside「외부 링크 안내」@272,1232"
+  ],
+  "en-360": [
+   "header@1368,0",
+   "nav「Main menu」@1374,156",
+   "nav「Language」@1374,280",
+   "main@57,0",
+   "h1「공산당이싫어요 (Korea Polit」@73,16",
+   "h2「Latest posts」@237,16",
+   "h3「Instagram post on \"D」@283,140",
+   "h3「President Lee: \"Chai」@393,140",
+   "h3「\"A war would extend 」@503,140",
+   "h3「\"So that the efforts」@613,140",
+   "h3「\"Punished for critic」@724,140",
+   "h3「Rep. Lee Jin-sook: \"」@834,140",
+   "h3「North Korea holds it」@944,140",
+   "h3「\"Signs of North Kore」@1054,140",
+   "h3「JCS: \"North Korea fi」@1164,140",
+   "h3「Taiwan: \"53 Chinese 」@1274,140",
+   "h3「Threads post labeled」@1385,140",
+   "h3「\"If South Korea turn」@1495,140",
+   "nav「Feed pages」@1593,16",
+   "footer@1765,0"
+  ],
+  "en-1280": [
+   "header@1066,0",
+   "nav「Main menu」@1072,980",
+   "nav「Language」@1072,1104",
+   "main@57,64",
+   "h1「공산당이싫어요 (Korea Polit」@81,112",
+   "h2「Latest posts」@214,112",
+   "h3「Instagram post on \"D」@454,112",
+   "h3「President Lee: \"Chai」@454,472",
+   "h3「\"A war would extend 」@454,832",
+   "h3「\"So that the efforts」@784,112",
+   "h3「\"Punished for critic」@784,472",
+   "h3「Rep. Lee Jin-sook: \"」@784,832",
+   "h3「North Korea holds it」@1113,112",
+   "h3「\"Signs of North Kore」@1113,472",
+   "h3「JCS: \"North Korea fi」@1113,832",
+   "h3「Taiwan: \"53 Chinese 」@1443,112",
+   "h3「Threads post labeled」@1443,472",
+   "h3「\"If South Korea turn」@1443,832",
+   "nav「Feed pages」@1542,112",
+   "footer@1658,0"
+  ],
+  "postEn-360": [
+   "header@4198,0",
+   "nav「Main menu」@4204,156",
+   "nav「Language」@4204,280",
+   "main@57,0",
+   "nav「Breadcrumb」@65,16",
+   "header@113,16",
+   "h1「Instagram post on \"D」@137,16",
+   "a@576,16",
+   "figure@851,16",
+   "section@1060,16",
+   "h2「What the original po」@1484,16",
+   "h2「What reports confirm」@1755,16",
+   "h2「What is confirmed ab」@2573,16",
+   "h2「What we left out of 」@3418,16",
+   "section@3637,16",
+   "h2「Original post previe」@3652,31",
+   "aside「Related」@3864,16",
+   "section@3864,16",
+   "h2「Background reports」@3881,33",
+   "section@4321,16",
+   "h2「Share」@4321,16",
+   "footer@4595,0"
+  ],
+  "postEn-1280": [
+   "header@2432,0",
+   "nav「Main menu」@2438,980",
+   "nav「Language」@2438,1104",
+   "main@57,64",
+   "nav「Breadcrumb」@65,184",
+   "header@113,184",
+   "h1「Instagram post on \"D」@137,184",
+   "a@520,184",
+   "figure@751,184",
+   "section@1090,184",
+   "h2「What the original po」@1366,184",
+   "h2「What reports confirm」@1550,184",
+   "h2「What is confirmed ab」@2040,184",
+   "h2「What we left out of 」@2560,184",
+   "section@2720,184",
+   "h2「Original post previe」@2735,199",
+   "aside「Related」@113,809",
+   "section@113,809",
+   "h2「Background reports」@134,830",
+   "section@601,809",
+   "h2「Share」@601,809",
+   "footer@3024,0"
+  ]
+ },
+ "totals": {
+  "stops": 5402,
+  "fullyHidden": 90,
+  "partly": 16,
+  "offscreen": 0
+ }
+}

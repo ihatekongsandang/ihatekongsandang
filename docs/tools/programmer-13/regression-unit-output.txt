@@ -1,0 +1,4 @@
+$ npx tsx docs/tools/programmer-05/unit-checks.ts
+케이스 53개 · 통과 53 · 실패 0
+$ npx tsx --tsconfig docs/tools/programmer-06/tsconfig.json docs/tools/programmer-06/unit-checks.tsx
+검사 35개 · 통과 35 · 실패 0

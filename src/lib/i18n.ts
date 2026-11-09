@@ -26,11 +26,28 @@ interface Dictionary {
   feedCount: (total: number, page: number, totalPages: number) => string
   noPosts: string
   paginationNav: string
-  loadMore: string
-  loadMoreSr: (page: number) => string
+  /** 피드 아래 큰 이동 버튼(사용자 결정 D2 — 이전 "더 보기"는 누르면 본 카드가 사라져 이름과 동작이 달랐다, 진단 #10). */
+  nextPage: string
+  /** 큰 버튼 보조 표기 "2 / 18". */
+  nextPageOf: (page: number, totalPages: number) => string
+  /** 쪽 번호 링크의 스크린리더 이름. 보이는 글자는 숫자뿐이다. */
+  pageNumberSr: (page: number) => string
+  currentPageSr: (page: number) => string
+  prevPage: string
+  noPrevPage: string
+  noNextPage: string
   prev: string
   next: string
   pageOf: (page: number, totalPages: number) => string
+  /** 홈 소개 한 줄 접힘의 펼치기·접기(구현 범위 3). */
+  introMore: string
+  introLess: string
+  /** 태그 레일(구현 범위 4) — 끝 칩 "전체 주제 N개"와 레일 이름. */
+  tagRail: string
+  allTopics: (count: number) => string
+  /** 태그 피드 머리 건수 문장(구현 범위 14). */
+  tagPostCount: (count: number) => string
+  tagFeedHeading: string
   pageTitle: (page: number) => string
   opensInNewTab: string
   noImage: string
@@ -53,6 +70,16 @@ interface Dictionary {
   sourceDescriptionLabel: string
   sourcePreviewNote: string
   goToSource: string
+  /** 상세 보조 열(배경 보도·공유·태그) 이름. */
+  relatedAside: string
+  /** 상세 대표 이미지 크레딧 머리(프로그래머 13, 정책 P4). ko `사진: {creditName}` / en `Photo: {creditNameEn}`. */
+  photoCreditLabel: string
+  /** 공공누리 유형 표기 — 크레딧 바로 뒤(괄호 포함, 영어는 앞에 공백). */
+  koglType: (type: number) => string
+  /** 공공누리 공식 출처 표시 문구의 요지. */
+  koglNotice: (name: string, type: number) => string
+  /** 크레딧 옆 원 페이지 링크 문구. */
+  photoSourceLink: { public: string; news: string }
   photos: string
   photosGroup: (count: number) => string
   body: string
@@ -97,14 +124,25 @@ const ko: Dictionary = {
   feedCount: (total, page, totalPages) => `전체 ${total}건 · ${page} / ${totalPages} 페이지`,
   noPosts: '아직 게시물이 없습니다.',
   paginationNav: '피드 페이지 이동',
-  loadMore: '더 보기',
-  loadMoreSr: (page) => ` — ${page}페이지로 이동`,
+  nextPage: '다음 페이지',
+  nextPageOf: (page, totalPages) => `${page} / ${totalPages}`,
+  pageNumberSr: (page) => `${page}페이지`,
+  currentPageSr: (page) => `${page}페이지, 현재 페이지`,
+  prevPage: '이전 페이지',
+  noPrevPage: '이전 페이지 없음',
+  noNextPage: '다음 페이지 없음',
   prev: '이전',
   next: '다음',
   pageOf: (page, totalPages) => `${page} / ${totalPages} 페이지`,
+  introMore: '더보기',
+  introLess: '접기',
+  tagRail: '주제',
+  allTopics: (count) => `전체 주제 ${count}개`,
+  tagPostCount: (count) => `이 주제로 정리한 게시물 ${count}건`,
+  tagFeedHeading: '게시물',
   pageTitle: (page) => `${page}페이지`,
   opensInNewTab: ' (새 창에서 열림)',
-  noImage: '이미지 없음',
+  noImage: '대표 이미지 없음',
   noImageLabel: '대표 이미지가 없어 대체 표시된 영역',
   sourcePreviewAlt: (title) => `${title} — 원문 미리보기 이미지`,
   sourceTypes: { url: '링크', photo: '사진', photo_text: '사진+글' },
@@ -124,6 +162,11 @@ const ko: Dictionary = {
   sourcePreviewNote:
     '원문의 메타 정보(제목·요약·썸네일)만 인용하며 본문은 전재하지 않습니다. 위 제목·요약은 운영자가 고쳐 쓰지 않은 원문 그대로입니다.',
   goToSource: '원문 기사로 이동',
+  relatedAside: '보조 정보',
+  photoCreditLabel: '사진: ',
+  koglType: (type) => `(공공누리 제${type}유형)`,
+  koglNotice: (name, type) => `본 저작물은 ${name}에서 공공누리 제${type}유형으로 개방한 저작물을 이용하였습니다.`,
+  photoSourceLink: { public: '원문 페이지', news: '기사 원문' },
   photos: '사진',
   photosGroup: (count) => `사진 ${count}장 — 가로로 넘겨 보세요`,
   body: '본문',
@@ -163,11 +206,22 @@ const en: Dictionary = {
   feedCount: (total, page, totalPages) => `${total} ${total === 1 ? 'post' : 'posts'} · Page ${page} of ${totalPages}`,
   noPosts: 'No posts yet.',
   paginationNav: 'Feed pages',
-  loadMore: 'Load more',
-  loadMoreSr: (page) => ` — go to page ${page}`,
+  nextPage: 'Next page',
+  nextPageOf: (page, totalPages) => `${page} of ${totalPages}`,
+  pageNumberSr: (page) => `Page ${page}`,
+  currentPageSr: (page) => `Page ${page}, current page`,
+  prevPage: 'Previous page',
+  noPrevPage: 'No previous page',
+  noNextPage: 'No next page',
   prev: 'Previous',
   next: 'Next',
   pageOf: (page, totalPages) => `Page ${page} of ${totalPages}`,
+  introMore: 'More',
+  introLess: 'Less',
+  tagRail: 'Topics',
+  allTopics: (count) => `All ${count} topics`,
+  tagPostCount: (count) => `${count} ${count === 1 ? 'post' : 'posts'} on this topic`,
+  tagFeedHeading: 'Posts',
   pageTitle: (page) => `Page ${page}`,
   opensInNewTab: ' (opens in a new tab)',
   noImage: 'No image',
@@ -191,6 +245,11 @@ const en: Dictionary = {
   sourcePreviewNote:
     'Only the metadata of the original (title, summary, thumbnail) is quoted; the body is not republished. The title and summary above are shown exactly as in the original, without edits by the operator.',
   goToSource: 'Open the original',
+  relatedAside: 'Related',
+  photoCreditLabel: 'Photo: ',
+  koglType: (type) => ` (KOGL Type ${type})`,
+  koglNotice: (name, type) => `This work was released by ${name} under KOGL Type ${type} and is used under that license.`,
+  photoSourceLink: { public: 'Source page', news: 'Source article' },
   photos: 'Photos',
   photosGroup: (count) => `${count} photos — swipe horizontally`,
   body: 'Body',

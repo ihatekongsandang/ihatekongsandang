@@ -1,0 +1,29 @@
+src/lib/content/schema.ts	저장소독립	0
+src/lib/content/translation.ts	저장소독립	0
+src/lib/i18n.ts	저장소독립	0
+src/components/post-detail.tsx	저장소독립	0
+scripts/check-hotlinks.ts	저장소독립	0
+scripts/validate-content.ts	저장소독립	0
+package.json	저장소독립	0
+src/lib/i18n.ts	기자	0
+src/lib/i18n.ts	속보	0
+src/lib/i18n.ts	본지	0
+src/lib/i18n.ts	편집국	0
+src/lib/i18n.ts	바이라인	0
+src/lib/i18n.ts	reporter	0
+src/lib/i18n.ts	breaking	0
+src/lib/i18n.ts	newsroom	0
+src/lib/i18n.ts	byline	0
+src/components/post-detail.tsx	기자	0
+src/components/post-detail.tsx	속보	0
+src/components/post-detail.tsx	본지	0
+src/components/post-detail.tsx	편집국	0
+src/components/post-detail.tsx	바이라인	0
+src/components/post-detail.tsx	reporter	0
+src/components/post-detail.tsx	breaking	0
+src/components/post-detail.tsx	newsroom	0
+src/components/post-detail.tsx	byline	0
+docs/tools/programmer-13/*	저장소독립	합계=0
+docs/tools/programmer-13 · src · scripts	홈 절대경로	합계=0
+양성 대조(.git/hooks/pre-commit)	1
+홈 경로 패턴 양성 대조(조합 문자열)	1

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>공산당이싫어요 — v0.3 반응형 시안 C1</title>
+<style>
+:root{--bg:#ffffff;--fg:#18181b;--fg2:#3f3f46;--muted:#52525b;--surface:#f4f4f5;--hover:#e4e4e7;--line:#e4e4e7;--bd:#85858e;--link:#1d4ed8;--ring:#1d4ed8;--banner:#18181b;--gut:16px;--sans:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Noto Sans KR','Helvetica Neue',Arial,sans-serif;--ph-bg:#d4d4d8;--ph-fg:#e9e9ec}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.65;text-wrap:pretty}
+a{color:inherit}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+:focus-visible{outline:2px solid var(--ring);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--fg);color:#fff;padding:10px 14px;z-index:60}
+.skip:focus{left:8px}
+.wrap{max-width:1152px;margin:0 auto;padding:0 var(--gut)}
+.ic{width:16px;height:16px;flex:none}
+.view{display:block}
+.view+.view{margin-top:48px;border-top:8px solid var(--surface)}
+html[data-view="home"] .view:not(#home),html[data-view="post"] .view:not(#post),html[data-view="en"] .view:not(#en){display:none}
+html[data-view] .view{margin:0;border:0}
+html[data-view="en"] .banner{display:none}
+/* 헤더 */
+.site-header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+.hdr{display:flex;align-items:center;justify-content:space-between;gap:8px;height:56px}
+.logo{font-size:17px;font-weight:700;letter-spacing:-.03em;text-decoration:none;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center}
+.hdr-r{display:flex;align-items:center;gap:4px;font-size:14px}
+.nav,.lang{display:flex;align-items:center}
+.nav a,.lang a{min-height:44px;min-width:44px;justify-content:center;display:inline-flex;align-items:center;padding:0 10px;color:var(--muted);text-decoration:none}
+.nav a:hover,.lang a:hover{color:var(--fg);text-decoration:underline}
+.lang .cur{font-weight:700;color:var(--fg);padding:0 10px}
+.lang .cur{display:none}
+/* 홈 머리 */
+.home-head{padding-top:14px}
+.home-head h1{margin:0;font-size:22px;line-height:1.3;font-weight:700;letter-spacing:-.03em}
+.home-head h1 .sub{font-size:15px;font-weight:500;color:var(--muted);letter-spacing:0;display:inline-block}
+.intro{display:flex;align-items:center;gap:2px;margin-top:2px}
+.intro p{margin:0;flex:1;min-width:0;font-size:14px;line-height:1.55;color:var(--muted)}
+.intro.collapsed p{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.more{min-height:44px;min-width:56px;padding:0 6px;background:none;border:0;font:inherit;font-size:14px;color:var(--link);text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.tags ul{display:flex;gap:4px;margin:0;padding:0;list-style:none;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 32px),transparent)}
+.tags ul::-webkit-scrollbar{display:none}
+.tags li{flex:none}
+.tags a,.ptags a{display:flex;align-items:center;min-height:44px;text-decoration:none}
+.chip{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border:1px solid var(--bd);border-radius:999px;font-size:14px;line-height:1;white-space:nowrap;background:var(--bg)}
+a:hover .chip{border-color:var(--fg)}
+.feedbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:4px;padding-top:6px}
+.feedbar h2{margin:0;font-size:15px;font-weight:600}
+.feedbar p{margin:0;font-size:13px;color:var(--muted)}
+/* 카드 공통 */
+.grid{list-style:none;margin:10px 0 0;padding:0;display:grid;align-items:stretch}
+.card{position:relative;display:flex;flex-direction:column;min-width:0}
+.media{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--ph-bg)}
+.media.g1{--ph-bg:#d4d4d8;--ph-fg:#e9e9ec}.media.g2{--ph-bg:#c4c4ca;--ph-fg:#dadade}.media.g3{--ph-bg:#b9b9c0;--ph-fg:#d0d0d5}.media.g4{--ph-bg:#cdcdd3;--ph-fg:#e3e3e6}
+.ph{position:absolute;inset:0;width:100%;height:100%}
+.credit{position:absolute;left:6px;bottom:6px;max-width:calc(100% - 12px);padding:2px 7px;border-radius:4px;background:rgba(24,24,27,.82);color:#fff;font-size:13px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.media.fb{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:var(--surface);color:var(--muted);box-shadow:inset 0 0 0 1px var(--bd);text-align:center;padding:8px}
+.media.fb .ic{width:26px;height:26px}
+.fb-t{font-size:14px;font-weight:600;color:var(--fg2);line-height:1.3}
+.fb-s{font-size:13px;line-height:1.3}
+.cbody{display:flex;flex-direction:column;justify-content:space-between;gap:6px;flex:1;min-width:0}
+.title{margin:0;font-weight:600;letter-spacing:-.01em;line-height:1.45;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;-webkit-line-clamp:var(--clamp,3)}
+.title a{text-decoration:none}
+.title a::after{content:'';position:absolute;inset:0}
+.card:has(a:focus-visible){outline:2px solid var(--ring);outline-offset:2px;border-radius:8px}
+.title a:focus-visible{outline:none}
+.meta{margin:0;font-size:13px;line-height:1.4;color:var(--muted)}
+.pager{display:flex;flex-direction:column;align-items:center;gap:8px;margin:28px 0 0}
+.pager p{margin:0;font-size:13px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 24px;background:var(--fg);color:#fff;font-size:16px;font-weight:600;text-decoration:none}
+.pager .btn{width:100%}
+.btn:hover{background:#27272a}
+.site-footer{margin-top:40px;border-top:1px solid var(--line);padding:20px 0 28px;font-size:14px;color:var(--muted)}
+.site-footer p{margin:0 0 4px;line-height:1.6}
+.site-footer ul{margin:0;padding:0;list-style:none}
+.site-footer a{display:flex;align-items:center;min-height:44px;color:var(--fg2);text-decoration:underline;text-underline-offset:3px}
+/* 상세 */
+.wrap-post{max-width:720px;margin:0 auto;padding:0 var(--gut) 8px}
+.crumb ol{display:flex;align-items:center;margin:0;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.crumb li{display:flex;align-items:center}.crumb a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 6px 0 0;color:var(--muted)}.crumb .sep{padding:0 8px 0 2px}
+.ptitle{margin:4px 0 10px;font-size:22px;line-height:1.38;font-weight:700;letter-spacing:-.03em;overflow-wrap:anywhere}
+.pmeta{display:flex;flex-wrap:wrap;gap:2px 16px;margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+.pmeta div{display:flex;gap:6px}.pmeta dt,.pmeta dd{margin:0}
+.hero{margin:14px 0 0}
+.hero .media{border-radius:var(--r)}
+.hero figcaption{margin-top:6px;font-size:13px;line-height:1.5;color:var(--muted)}
+.cta{margin-top:14px}
+.cta .btn{width:100%;border-radius:var(--r)}
+.summary{margin:18px 0 0;font-size:17px;line-height:1.7;color:var(--fg2)}
+.notice{margin:14px 0 0;padding:12px 14px;font-size:14px;line-height:1.6;color:var(--muted);border-radius:var(--r)}
+.notice a{color:var(--link)}
+.share{margin-top:24px}
+.share h2{margin:0 0 8px;font-size:15px;font-weight:600}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.sbtn{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 6px;border:1px solid var(--bd);border-radius:var(--r);background:var(--bg);font:inherit;font-size:14px;color:var(--fg);text-decoration:none;cursor:pointer;text-align:center}
+.sbtn:hover{border-color:var(--fg)}
+.post-body{margin-top:28px;font-size:17px;line-height:1.75;max-width:38em;overflow-wrap:anywhere}
+.post-body[lang=en]{max-width:66ch;margin-top:8px}
+.post-body p{margin:0 0 1.1em}
+.post-body h2{margin:1.8em 0 .5em;font-size:19px;line-height:1.45;font-weight:700;letter-spacing:-.02em}
+.post-body ul{margin:0 0 1em;padding-left:1.2em}.post-body li{margin:.35em 0}
+.sources{margin-top:32px}.sources h2,.ptags h2{margin:0 0 6px;font-size:15px;font-weight:600}
+.sources ul{margin:0;padding:0;list-style:none}
+.sources li{border-top:1px solid var(--line)}.sources li:last-child{border-bottom:1px solid var(--line)}
+.sources a{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:start;min-height:44px;padding:10px 0;text-decoration:none;font-size:15px;line-height:1.5}
+.sources a:hover .sname{text-decoration:underline}
+.stype{font-size:13px;color:var(--muted);border:1px solid var(--bd);border-radius:4px;padding:0 6px;line-height:1.5;margin-top:2px}
+.sources time{grid-column:2;font-size:13px;color:var(--muted)}
+.ptags{margin-top:28px}.ptags ul{display:flex;flex-wrap:wrap;gap:4px 6px;margin:0;padding:0;list-style:none}
+.corr{margin:28px 0 0;padding-top:16px;border-top:1px solid var(--line);font-size:14px;line-height:1.7;color:var(--muted)}
+.corr a{color:var(--link)}
+/* 배너 공통 */
+.banner{position:fixed;z-index:40;background:var(--banner);color:#fff}
+.banner a{display:flex;color:#fff;text-decoration:none}
+.banner a:hover{background:#27272a}
+.banner a:focus-visible{outline:2px solid #fff;outline-offset:-4px;border-radius:0}
+.bt{font-size:14px;font-weight:600;line-height:1.35}.bs{font-size:13px;line-height:1.35;color:#d4d4d8}
+.banner .ic{width:16px;height:16px;flex:none}
+/* ≥1024: 오른쪽 세로 탭(현행 유지) */
+@media (min-width:1024px){
+.banner{top:50%;right:0;bottom:auto;left:auto;width:48px;transform:translateY(-50%);border-radius:8px 0 0 8px;overflow:hidden}
+.banner a{flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:16px 0;writing-mode:vertical-rl;min-height:0}
+.banner .ic{display:none}
+.bt{font-size:14px}.bs{font-size:13px}
+body{padding-bottom:0!important}
+}
+@media (min-width:1024px) and (max-width:1231.98px){.wrap,.wrap-post{padding-right:56px}}
+@media (min-width:768px){
+:root{--gut:24px}
+.home-head{padding-top:24px}
+.home-head h1{font-size:28px}
+.home-head h1 .sub{font-size:17px}
+.intro p,.intro.collapsed p{font-size:16px;display:block;-webkit-line-clamp:unset;max-width:46em}
+.more{display:none}
+.tags ul{flex-wrap:wrap;overflow:visible;-webkit-mask-image:none;mask-image:none;margin-top:2px}
+.lang .cur{display:inline-flex;align-items:center;min-height:44px}
+.hdr-r{gap:12px;font-size:15px}
+.feedbar{margin-top:10px;border-top:1px solid var(--line);padding-top:14px}
+.feedbar h2{font-size:16px}.feedbar p{font-size:14px}
+.pager .btn{width:auto;min-width:240px}
+.ptitle{font-size:26px;margin-top:8px}
+.cta .btn{width:auto;min-width:240px}
+.share .sgrid{grid-template-columns:repeat(3,minmax(0,160px))}
+.pmeta{font-size:14px}
+.sources a{grid-template-columns:auto 1fr auto;align-items:baseline}.sources time{grid-column:auto}
+}
+@media (min-width:1280px){.ptitle{font-size:30px}}
+
+/* C1: 1/2/3/3 · 테두리형(3:1) · 첫 카드 강조 없음 · 하단 전폭 띠 배너(2줄) */
+:root{--r:8px}
+body{padding-bottom:60px}
+.banner{left:0;right:0;bottom:0;padding:0 0 env(safe-area-inset-bottom)}
+.banner a{flex-direction:column;justify-content:center;gap:0;min-height:52px;padding:7px 16px 7px;position:relative}
+.banner .ic{position:absolute;right:16px;top:50%;margin-top:-8px}
+.bt,.bs{padding-right:28px}
+.grid{grid-template-columns:1fr;gap:16px;--clamp:3}
+.card{border:1px solid var(--bd);border-radius:var(--r);background:var(--bg);overflow:hidden}
+.card .media{border-bottom:1px solid var(--bd)}
+.cbody{padding:12px 14px 12px}
+.title{font-size:16px}
+.card:hover{background:var(--surface)}
+.notice{border:1px solid var(--bd);background:var(--bg)}
+.hero .media{border:1px solid var(--bd)}
+.btn{border-radius:var(--r)}
+@media (min-width:1024px){.banner{left:auto;right:0;bottom:auto;padding:0}.banner a{min-height:0;padding:16px 0}.bt,.bs{padding-right:0}.banner .ic{position:static;margin:0}}
+@media (min-width:768px){body{padding-bottom:60px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.title{font-size:17px}.cbody{padding:14px 16px 14px}}
+@media (min-width:1024px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.title{font-size:16px}}
+</style>
+</head>
+<body class="v-C1">
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs>
+<symbol id="ph" viewBox="0 0 160 90" preserveAspectRatio="xMidYMid slice"><rect width="160" height="90" style="fill:var(--ph-bg)"/><circle cx="118" cy="30" r="10" style="fill:var(--ph-fg)"/><path d="M0 90 L46 44 L78 76 L104 54 L160 90 Z" style="fill:var(--ph-fg)"/></symbol>
+<symbol id="ic-ext" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-img" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="10" r="1.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4 17 5-4.5 3.5 3 3-2.5L20 17" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+</defs></svg>
+<div class="view" id="home" lang="ko">
+<header class="site-header"><div class="wrap hdr">
+<a class="logo" href="#home">공산당이싫어요</a>
+<div class="hdr-r">
+<nav aria-label="주요 메뉴" class="nav"><a href="#home">홈</a><a href="#home">소개</a></nav>
+<nav aria-label="언어 선택" class="lang"><span class="cur" lang="ko" aria-current="true">한국어</span><a lang="en" hreflang="en" href="#en">English</a></nav>
+</div></div></header>
+<main id="main"><div class="wrap">
+<section class="home-head">
+<h1>공산당이싫어요</h1>
+<div class="intro collapsed" id="introbox"><p id="intro">여러 언론 보도를 모아 정리하는 카드형 뉴스 소식지입니다. 직접 취재하지 않고, 언론 보도(신문법 등에 따라 등록된 매체)·수사기관 발표·판결을 출처로 밝혀 정리합니다. 사실 확인 단계는 단정하지 않고 보도 그대로 인용합니다.</p><button type="button" class="more" aria-expanded="false" aria-controls="intro">더보기</button></div>
+<nav class="tags" aria-label="주제 태그"><ul><li><a href="#home"><span class="chip">#북한</span></a></li><li><a href="#home"><span class="chip">#국가보안법</span></a></li><li><a href="#home"><span class="chip">#경찰</span></a></li><li><a href="#home"><span class="chip">#국방</span></a></li><li><a href="#home"><span class="chip">#외교</span></a></li><li><a href="#home"><span class="chip">#사법</span></a></li><li><a href="#home"><span class="chip">#국회</span></a></li><li><a href="#home"><span class="chip">#선거</span></a></li><li><a href="#home"><span class="chip">#부동산</span></a></li><li><a href="#home"><span class="chip">#언론</span></a></li><li><a href="#home"><span class="chip">#교육</span></a></li><li><a href="#home"><span class="chip">#인권</span></a></li><li><a href="#home"><span class="chip">#경제</span></a></li><li><a href="#home"><span class="chip">#복지</span></a></li></ul></nav>
+<div class="feedbar"><h2>최신 게시물</h2><p>전체 207건 · 1 / 18 페이지</p></div>
+</section>
+<ul class="grid" aria-label="게시물 목록">
+<li class="card first">
+<div class="media g1"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 대통령실</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="인스타그램 &quot;대진연의 과거&quot; — 2019년 2월 광화문 '김정은 방남 환영' 회견, 참석자 상당수가 대진연 회원이었다고 보도됨">인스타그램 &quot;대진연의 과거&quot; — 2019년 2월 광화문 '김정은 방남 환영' 회견, 참석자 상당수가 대진연 회원이었다고 보도됨</a></h3>
+<p class="meta"><time datetime="2026-11-09">2026.11.09</time></p></div></li>
+<li class="card">
+<div class="media g2"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 언론사</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="이진숙 의원 &quot;12·3 계엄 때 상관 명령 따른 군인들에 내란범 낙인·중징계&quot; — 유선민 중령과 국회 기자회견">이진숙 의원 &quot;12·3 계엄 때 상관 명령 따른 군인들에 내란범 낙인·중징계&quot; — 유선민 중령과 국회 기자회견</a></h3>
+<p class="meta"><time datetime="2026-11-08">2026.11.08</time><span aria-hidden="true"> · 11/08 갱신</span><span class="sr">최근 갱신: 2026-11-08</span></p></div></li>
+<li class="card">
+<div class="media fb" role="img" aria-label="대표 이미지가 없어 대체 표시된 영역"><svg class="ic" aria-hidden="true"><use href="#ic-img"/></svg><span class="fb-t">대표 이미지 없음</span><span class="fb-s">출처 · 언론 보도</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="&quot;북한 비판했다고 처벌 논란?&quot; — 해병대 &quot;훈련장 사진 군사보안 문제로 삭제 권고, 북한 비방 이유 징계 없다&quot;">&quot;북한 비판했다고 처벌 논란?&quot; — 해병대 &quot;훈련장 사진 군사보안 문제로 삭제 권고, 북한 비방 이유 징계 없다&quot;</a></h3>
+<p class="meta"><time datetime="2026-11-08">2026.11.08</time></p></div></li>
+<li class="card">
+<div class="media g3"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 국방부</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="&quot;젤렌스키 폭로, 이재명 정부가 러시아 연료 운송 지원&quot; — 보도상 비판은 우크라이나 대통령실 제재 담당 보좌관이 가디언 보도를 인용한 것, '젤렌스키 &quot;한국은 공산당&quot;'·'정부가 운송 지원'은 확인 안 돼">&quot;젤렌스키 폭로, 이재명 정부가 러시아 연료 운송 지원&quot; — 보도상 비판은 우크라이나 대통령실 제재 담당 보좌관이 가디언 보도를 인용한 것, '젤렌스키 &quot;한국은 공산당&quot;'·'정부가 운송 지원'은 확인 안 돼</a></h3>
+<p class="meta"><time datetime="2026-10-08">2026.10.08</time></p></div></li>
+<li class="card">
+<div class="media g4"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 국회</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="&quot;전쟁 나면 임기 연장…이재명은 염두에 두고 있다&quot;? — 유튜브 영상 출연자의 개인 추론, 본인도 &quot;추론이고 예상&quot;">&quot;전쟁 나면 임기 연장…이재명은 염두에 두고 있다&quot;? — 유튜브 영상 출연자의 개인 추론, 본인도 &quot;추론이고 예상&quot;</a></h3>
+<p class="meta"><time datetime="2026-11-08">2026.11.08</time></p></div></li>
+<li class="card">
+<div class="media g1"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 언론사</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="이재명 대통령 &quot;김정은, 미사일 시험발사 했지만 아주 오랫동안 잘 참았던 것 같다&quot; — 2025년 10월 CNN 인터뷰 발언 재소개">이재명 대통령 &quot;김정은, 미사일 시험발사 했지만 아주 오랫동안 잘 참았던 것 같다&quot; — 2025년 10월 CNN 인터뷰 발언 재소개</a></h3>
+<p class="meta"><time datetime="2026-11-08">2026.11.08</time></p></div></li>
+<li class="card">
+<div class="media g2"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 대통령실</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="스레드 &quot;[속보]&quot; — &quot;민주당 주도로 김태규 의원 제명 촉구 결의안 가결&quot;, 찬성 166표·국민의힘 표결 불참(보도)">스레드 &quot;[속보]&quot; — &quot;민주당 주도로 김태규 의원 제명 촉구 결의안 가결&quot;, 찬성 166표·국민의힘 표결 불참(보도)</a></h3>
+<p class="meta"><time datetime="2026-11-05">2026.11.05</time><span aria-hidden="true"> · 11/05 갱신</span><span class="sr">최근 갱신: 2026-11-05</span></p></div></li>
+<li class="card">
+<div class="media fb" role="img" aria-label="대표 이미지가 없어 대체 표시된 영역"><svg class="ic" aria-hidden="true"><use href="#ic-img"/></svg><span class="fb-t">대표 이미지 없음</span><span class="fb-s">출처 · 인스타그램 게시물</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="대만 &quot;중국 함정 53척, 일본 남부~대만·필리핀 외해서 활동…명백한 위협&quot; — 국가안전회의 비서장, 위치 지도 공개">대만 &quot;중국 함정 53척, 일본 남부~대만·필리핀 외해서 활동…명백한 위협&quot; — 국가안전회의 비서장, 위치 지도 공개</a></h3>
+<p class="meta"><time datetime="2026-11-05">2026.11.05</time></p></div></li>
+<li class="card">
+<div class="media g3"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 언론사</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="합참 &quot;북한, 원산 일대서 동해상으로 단거리 탄도미사일 등 10여 발 발사&quot; — 군사회담 제안 6일 만">합참 &quot;북한, 원산 일대서 동해상으로 단거리 탄도미사일 등 10여 발 발사&quot; — 군사회담 제안 6일 만</a></h3>
+<p class="meta"><time datetime="2026-11-05">2026.11.05</time></p></div></li>
+<li class="card">
+<div class="media g4"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 국방부</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="&quot;재판받자!&quot; — '이재명 재판재개' 1인 시위 챌린지 영상">&quot;재판받자!&quot; — '이재명 재판재개' 1인 시위 챌린지 영상</a></h3>
+<p class="meta"><time datetime="2026-09-28">2026.09.28</time></p></div></li>
+<li class="card">
+<div class="media g1"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 법원</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="북한, 평양서 조선인민군 제3차 중대장대회 — 김정은 &quot;최강의 중대 육성으로 최강의 군대 건설&quot;">북한, 평양서 조선인민군 제3차 중대장대회 — 김정은 &quot;최강의 중대 육성으로 최강의 군대 건설&quot;</a></h3>
+<p class="meta"><time datetime="2026-11-05">2026.11.05</time></p></div></li>
+<li class="card">
+<div class="media g2"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 언론사</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="&quot;대한민국이 공산화되면 킬링필드&quot; — 원문이 김용현 전 장관 최후진술로 전한 발언과 '평양 무인기' 일반이적 항소심 결심(징역 30년 구형)">&quot;대한민국이 공산화되면 킬링필드&quot; — 원문이 김용현 전 장관 최후진술로 전한 발언과 '평양 무인기' 일반이적 항소심 결심(징역 30년 구형)</a></h3>
+<p class="meta"><time datetime="2026-10-25">2026.10.25</time></p></div></li>
+</ul>
+<nav class="pager" aria-label="피드 페이지 이동"><a class="btn" href="#home">더 보기<span class="sr"> — 2페이지로 이동</span></a><p>1 / 18 페이지</p></nav>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>모든 게시물은 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 정리하며, 원문을 전재하지 않습니다. 제목·요약은 단정하지 않고 보도를 인용하는 형태로 씁니다.</p>
+<ul><li><a href="#home">출처·저작권 정책과 정정·삭제 요청 절차</a></li><li><a href="#home">이용약관</a></li></ul>
+</div></footer>
+</div>
+<div class="view" id="post" lang="ko">
+<header class="site-header"><div class="wrap hdr">
+<a class="logo" href="#home">공산당이싫어요</a>
+<div class="hdr-r">
+<nav aria-label="주요 메뉴" class="nav"><a href="#home">홈</a><a href="#home">소개</a></nav>
+<nav aria-label="언어 선택" class="lang"><span class="cur" lang="ko" aria-current="true">한국어</span><a lang="en" hreflang="en" href="#en">English</a></nav>
+</div></div></header>
+<main><article class="post wrap-post">
+<nav class="crumb" aria-label="현재 위치"><ol><li><a href="#home">홈</a></li><li><span class="sep" aria-hidden="true">›</span><a href="#home">게시물</a></li></ol></nav><h1 class="ptitle">인스타그램 &quot;대진연의 과거&quot; — 2019년 2월 광화문 '김정은 방남 환영' 회견, 참석자 상당수가 대진연 회원이었다고 보도됨</h1>
+<dl class="pmeta"><div><dt>게시</dt><dd><time datetime="2026-11-09">2026년 11월 9일</time></dd></div><div><dt>출처 표기</dt><dd>인스타그램 @politics_crush (정치크러쉬)</dd></div></dl><figure class="hero"><div class="media g2"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit">사진: 언론사</span></div><figcaption>사진: 언론사 · 기사 대표 이미지(출처 원문 인용) · 원문의 메타 정보(제목·요약·썸네일)만 인용하며 본문은 전재하지 않습니다.</figcaption></figure>
+<section aria-labelledby="sp" class="cta"><h2 id="sp" class="sr">원문 미리보기</h2><a class="btn" href="#post" target="_blank" rel="noopener">원문 기사로 이동<svg class="ic" aria-hidden="true"><use href="#ic-ext"/></svg><span class="sr"> (새 창에서 열림)</span></a></section><p class="summary">인스타그램 @politics_crush가 대진연의 과거 활동을 다룸. 사진 속 회견은 2019년 2월 14일 광화문 '예술인 모임' 회견으로, 참석자 상당수가 대진연 회원이었다고 보도됐습니다. 2018년 고발 사건의 처분 결과 보도는 찾지 못했습니다.</p>
+<p class="notice">공개된 보도·발표·자료를 정리한 글입니다. 아래 원문과 배경 보도에서 직접 확인할 수 있습니다. <a href="#home">출처·표기 원칙 보기</a></p><section class="share" aria-labelledby="sh"><h2 id="sh">공유</h2><div class="sgrid"><button type="button" class="sbtn">링크 복사</button><a class="sbtn" href="#post">X에 공유</a><a class="sbtn" href="#post">스레드에 공유</a></div><p role="status" class="sr"></p></section><section aria-labelledby="bh"><h2 id="bh" class="sr">본문</h2><div class="post-body">
+<p>이 게시물은 원문 캡션과 첫 장 이미지(영상 화면 1장)를 기준으로 정리했으며, 영상과 나머지 장은 확인하지 않았습니다. 원문은 2026년 11월 8일 게시됐지만 사진 속 장면은 <strong>2019년 2월 14일</strong> 서울 광화문광장 기자회견으로, 펼침막 문구("김정은 국무위원장님, 서울방문 환영 예술공연을 꼭 보여드리고 싶습니다")가 당시 보도 내용과 일치합니다. 참석자 얼굴이 식별되는 원문 이미지 대신 자체 제작 카드를 썼습니다.</p>
+<h2>원문 주장 (게시자 의견)</h2>
+<ul><li>"김정은 국무위원장님 사랑해요?"라는 제목으로 '대진연의 과거'를 소개함.</li><li>캡션에서 "이러고 안잡혔나요?"라고 물음.</li></ul>
+<h2>보도로 확인된 내용</h2>
+<ul><li>2019년 2월 14일 오전 광화문광장 세종대왕상 앞에서 '김정은 국무위원장님 서울방문 환영공연을 준비하는 (남측) 예술인 모임'이 김 위원장의 서울 방문을 환영하는 기자회견을 열었고, 참석자들은 "사랑합니다 김정은 위원장님"을 연호한 것으로 보도됨(데일리안, 조선일보).</li><li>조선일보는 이 모임의 참석자 상당수가 한국대학생진보연합(대진연) 소속 회원이었고, 대진연이 이날 연극·노래 공연을 했다고 보도함.</li><li>같은 기사는 대진연이 2018년 11월 '백두칭송위원회' 등 김정은 환영 단체 결성에 주도적으로 참여했고, 보수단체로부터 국가보안법 위반 혐의로 고발됐다고 전함.</li></ul>
+<h2>"안 잡혔나"에 대해 확인된 범위</h2>
+<ul><li>2018년 11월 보수 성향 단체가 백두칭송위 관계자들을 국가보안법 위반 혐의로 고발했고, 검찰은 같은 해 12월 서울경찰청에 수사를 지휘한 것으로 보도됨.</li><li>2020년 10월 서울경찰청 보안수사대는 찬양·고무 혐의로 불구속 입건된 대진연 전 공동대표 등 백두칭송위 관계자들에게 출석을 요구했다고 밝혔고, "수사는 연말까지 마무리할 계획"이라고 말한 것으로 보도됨(조선일보). 고발 약 2년 만의 첫 출석 조사여서 '늑장 수사'라는 지적이 나왔다고 같은 기사는 전함.</li><li>이후 송치·기소 등 처분 결과를 다룬 보도는 이번에 찾지 못했습니다. 따라서 처벌 여부는 적지 않았습니다.</li></ul>
+<h2>요약에 넣지 않은 내용</h2>
+<ul><li>원문 캡션의 "미친 거 아닙니까?"는 게시자 의견이어서 요약에 옮기지 않았습니다. 사진 속 참석자 개인의 신원은 다루지 않았습니다.</li></ul>
+</div></section>
+<section class="sources" aria-labelledby="bg"><h2 id="bg">배경 보도</h2><ul>
+<li><a href="#post"><span class="stype">언론</span><span class="sname">조선일보 — '예술인이라더니' 親北 대학생 단체… 서울 한복판서 "김정은 사랑해요"</span><time datetime="2019-02-14">2019.02.14</time></a></li>
+<li><a href="#post"><span class="stype">언론</span><span class="sname">데일리안 — "김정은 위원장님 사랑합니다!"…그가 온다, 갈등과 함께</span><time datetime="2019-02-14">2019.02.14</time></a></li>
+<li><a href="#post"><span class="stype">언론</span><span class="sname">조선일보 — 경찰, '김정은 찬양' 백두칭송위에 고발 2년 만에 출석 요구</span><time datetime="2020-10-30">2020.10.30</time></a></li></ul></section>
+<section class="ptags" aria-labelledby="th"><h2 id="th">태그</h2><ul><li><a href="#home"><span class="chip">#북한</span></a></li><li><a href="#home"><span class="chip">#국가보안법</span></a></li><li><a href="#home"><span class="chip">#경찰</span></a></li></ul></section>
+<p class="corr">사실과 다른 내용이 있으면 <a href="#home">정정·삭제 요청 절차</a>를 통해 알려주세요. 원문 확인: <a href="#post">인스타그램 @politics_crush (정치크러쉬)</a></p>
+<section class="post-body" lang="en" aria-label="English body sample (line length check)" id="en-sample"><h2>Line-length check (English body)</h2><p>The photo shows a press conference held in Gwanghwamun Square on February 14, 2019. Reports at the time said that many of the attendees were members of a student group, and that a complaint filed in November 2018 led to a first police summons in October 2020. We could not find reports on the outcome of the case, so this post does not say whether anyone was punished.</p></section>
+</article></main>
+<footer class="site-footer"><div class="wrap">
+<p>모든 게시물은 언론 보도·수사기관 발표·판결문 등 공개된 출처에 근거해 정리하며, 원문을 전재하지 않습니다. 제목·요약은 단정하지 않고 보도를 인용하는 형태로 씁니다.</p>
+<ul><li><a href="#home">출처·저작권 정책과 정정·삭제 요청 절차</a></li><li><a href="#home">이용약관</a></li></ul>
+</div></footer>
+</div>
+<div class="view" id="en" lang="en">
+<header class="site-header"><div class="wrap hdr">
+<a class="logo" href="#en">공산당이싫어요</a>
+<div class="hdr-r">
+<nav aria-label="Main menu" class="nav"><a href="#en">Home</a><a href="#en">About</a></nav>
+<nav aria-label="Language" class="lang"><a lang="ko" hreflang="ko" href="#home">한국어</a><span class="cur" lang="en" aria-current="true">English</span></nav>
+</div></div></header>
+<main><div class="wrap">
+<section class="home-head">
+<h1><span lang="ko">공산당이싫어요</span> <span class="sub">(Korea Politics &amp; Security Brief)</span></h1>
+<div class="intro collapsed"><p id="intro-en">A card-style news digest that gathers reports from multiple news outlets. We do no reporting of our own and cite reports, official announcements and rulings.</p><button type="button" class="more" aria-expanded="false" aria-controls="intro-en">More</button></div>
+<div class="feedbar"><h2>Latest posts</h2><p>207 posts · Page 1 of 18</p></div>
+</section>
+<ul class="grid" aria-label="Posts">
+<li class="card first">
+<div class="media g3"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit" lang="en">Photo: Ministry of National Defense</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="Joint Chiefs: North Korean landmines suspected at several spots south of the MDL, intruding about 20 m on average">Joint Chiefs: North Korean landmines suspected at several spots south of the MDL, intruding about 20 m on average</a></h3>
+<p class="meta"><time datetime="2026-11-08">Nov 8, 2026</time></p></div></li>
+<li class="card">
+<div class="media fb" role="img" aria-label="Area shown in place of a missing image"><svg class="ic" aria-hidden="true"><use href="#ic-img"/></svg><span class="fb-t">No image</span><span class="fb-s">Source · Instagram post</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="“Don’t decide farmers’ lives from behind a desk” — lawmaker’s reel criticizing the nationwide farmland survey">“Don’t decide farmers’ lives from behind a desk” — lawmaker’s reel criticizing the nationwide farmland survey</a></h3>
+<p class="meta"><time datetime="2026-11-08">Nov 8, 2026</time></p></div></li>
+<li class="card">
+<div class="media g2"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit" lang="en">Photo: news outlet</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" lang="ko" hreflang="ko" aria-describedby="ko-only" title="제주 실종신고 '허위 종결' 경찰관 구속 — 담당 실종사건 298건 전수 재점검">제주 실종신고 '허위 종결' 경찰관 구속 — 담당 실종사건 298건 전수 재점검</a></h3>
+<p class="meta"><time datetime="2026-11-07">Nov 7, 2026</time><span id="ko-only"> · Korean only</span></p></div></li>
+<li class="card">
+<div class="media g1"><svg class="ph" aria-hidden="true"><use href="#ph"/></svg><span class="credit" lang="en">Photo: Presidential Office</span></div>
+<div class="cbody"><h3 class="title"><a href="#post" title="Zelensky claim that the Lee government helped transport Russian fuel: the criticism was an aide to Ukraine’s presidential office citing a Guardian report, while the claims that “Korea is communist” and “the government helped transport” are unconfirmed">Zelensky claim that the Lee government helped transport Russian fuel: the criticism was an aide to Ukraine’s presidential office citing a Guardian report, while the claims that “Korea is communist” and “the government helped transport” are unconfirmed</a></h3>
+<p class="meta"><time datetime="2026-11-07">Nov 7, 2026</time></p></div></li>
+</ul>
+</div></main>
+</div>
+<aside class="banner" aria-label="외부 링크 안내"><a href="#home" aria-label="이재명 재판재개 촉구 국민 서명운동 — 외부 사이트로 이동합니다 (새 창에서 열림)"><span class="bt">이재명 재판재개 촉구 국민 서명운동</span><span class="bs">외부 사이트로 이동합니다</span><svg class="ic" aria-hidden="true"><use href="#ic-ext"/></svg></a></aside>
+<script>
+(function(){
+var v=(location.hash||'').slice(1);
+if(v==='home'||v==='post'||v==='en')document.documentElement.setAttribute('data-view',v);
+document.querySelectorAll('.more').forEach(function(b){b.addEventListener('click',function(){
+var box=b.closest('.intro');var open=box.classList.toggle('collapsed')===false;
+b.setAttribute('aria-expanded',open?'true':'false');b.textContent=open?(box.closest('[lang=en]')?'Less':'접기'):(box.closest('[lang=en]')?'More':'더보기');});});
+})();
+</script>
+</body>
+</html>

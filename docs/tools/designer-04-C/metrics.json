@@ -1,0 +1,4457 @@
+[
+ {
+  "view": "home",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 688,
+   "w": 360,
+   "h": 52
+  },
+  "cards": 12,
+  "cols": 1,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 328,
+   "h": 303
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 12,
+  "mediaH": {
+   "min": 183,
+   "max": 183
+  },
+  "firstCardMedia": 326,
+  "cardWidths": [
+   328
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 277,
+   "14": 341,
+   "15": 6,
+   "16": 802,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 360
+ },
+ {
+  "view": "home",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 792,
+   "w": 390,
+   "h": 52
+  },
+  "cards": 12,
+  "cols": 1,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 358,
+   "h": 320
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   2,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 12,
+  "mediaH": {
+   "min": 200,
+   "max": 200
+  },
+  "firstCardMedia": 356,
+  "cardWidths": [
+   358
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 277,
+   "14": 341,
+   "15": 6,
+   "16": 802,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 390
+ },
+ {
+  "view": "home",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 972,
+   "w": 768,
+   "h": 52
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 350,
+   "h": 324
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 2,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 196,
+   "max": 196
+  },
+  "firstCardMedia": 348,
+  "cardWidths": [
+   350
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 805,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 768
+ },
+ {
+  "view": "home",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 1142,
+   "w": 834,
+   "h": 52
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 383,
+   "h": 342
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   2,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 214,
+   "max": 214
+  },
+  "firstCardMedia": 381,
+  "cardWidths": [
+   383
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 805,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 834
+ },
+ {
+  "view": "home",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 3,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 299,
+   "h": 291
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 167,
+   "max": 167
+  },
+  "firstCardMedia": 297,
+  "cardWidths": [
+   299
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 934,
+   "17": 7,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1024
+ },
+ {
+  "view": "home",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 3,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 352,
+   "h": 321
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   352
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 934,
+   "17": 7,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1280
+ },
+ {
+  "view": "home",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 3,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 352,
+   "h": 321
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   352
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 934,
+   "17": 7,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1440
+ },
+ {
+  "variant": "C1",
+  "view": "home",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "home",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "home",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "post",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 688,
+   "w": 360,
+   "h": 52
+  },
+  "ctaY": 535,
+  "ctaBottom": 583,
+  "shareY": 909,
+  "shareH": 44,
+  "titleLines": 4,
+  "heroW": 328,
+  "heroH": 185,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 328,
+   "cplAvg": 24,
+   "cplFirstP": 26
+  },
+  "bodyEn": {
+   "cpl": 37,
+   "width": 328,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 360
+ },
+ {
+  "view": "post",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 792,
+   "w": 390,
+   "h": 52
+  },
+  "ctaY": 521,
+  "ctaBottom": 569,
+  "shareY": 873,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 358,
+  "heroH": 201,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 358,
+   "cplAvg": 25,
+   "cplFirstP": 29
+  },
+  "bodyEn": {
+   "cpl": 41,
+   "width": 358,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 390
+ },
+ {
+  "view": "post",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 972,
+   "w": 768,
+   "h": 52
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 915,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 768
+ },
+ {
+  "view": "post",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 1142,
+   "w": 834,
+   "h": 52
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 915,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 52,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 834
+ },
+ {
+  "view": "post",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 625,
+  "ctaBottom": 673,
+  "shareY": 919,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 640,
+  "heroH": 360,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 640,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 640,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1024
+ },
+ {
+  "view": "post",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 967,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1280
+ },
+ {
+  "view": "post",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 967,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1440
+ },
+ {
+  "variant": "C1",
+  "view": "post",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "post",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "post",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "en",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 1,
+  "firstTop": 219,
+  "headH": 162,
+  "firstCard": {
+   "w": 328,
+   "h": 303
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   4,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 183,
+   "max": 183
+  },
+  "firstCardMedia": 326,
+  "cardWidths": [
+   328
+  ],
+  "headBlockH": 152,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 181,
+   "15": 45,
+   "16": 517,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 360
+ },
+ {
+  "view": "en",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 1,
+  "firstTop": 190,
+  "headH": 133,
+  "firstCard": {
+   "w": 358,
+   "h": 320
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 200,
+   "max": 200
+  },
+  "firstCardMedia": 356,
+  "cardWidths": [
+   358
+  ],
+  "headBlockH": 123,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 181,
+   "15": 45,
+   "16": 517,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 390
+ },
+ {
+  "view": "en",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 350,
+   "h": 324
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 196,
+   "max": 196
+  },
+  "firstCardMedia": 348,
+  "cardWidths": [
+   350
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 557,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 768
+ },
+ {
+  "view": "en",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 383,
+   "h": 342
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 214,
+   "max": 214
+  },
+  "firstCardMedia": 381,
+  "cardWidths": [
+   383
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 557,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 834
+ },
+ {
+  "view": "en",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 299,
+   "h": 291
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   4,
+   4,
+   2,
+   8
+  ],
+  "titleClamped": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 167,
+   "max": 167
+  },
+  "firstCardMedia": 297,
+  "cardWidths": [
+   299
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 686,
+   "17": 40,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1024
+ },
+ {
+  "view": "en",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 352,
+   "h": 321
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   352
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 686,
+   "17": 40,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1280
+ },
+ {
+  "view": "en",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 352,
+   "h": 321
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   352
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 686,
+   "17": 40,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C1",
+  "width": 1440
+ },
+ {
+  "variant": "C1",
+  "view": "en",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "en",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C1",
+  "view": "en",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "home",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 96,
+   "y": 684,
+   "w": 252,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 1,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 328,
+   "h": 304
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 12,
+  "mediaH": {
+   "min": 185,
+   "max": 185
+  },
+  "firstCardMedia": 328,
+  "cardWidths": [
+   328
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 277,
+   "14": 341,
+   "15": 6,
+   "16": 802,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 360
+ },
+ {
+  "view": "home",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 126,
+   "y": 788,
+   "w": 252,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 1,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 358,
+   "h": 321
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   2,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 12,
+  "mediaH": {
+   "min": 201,
+   "max": 201
+  },
+  "firstCardMedia": 358,
+  "cardWidths": [
+   358
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 277,
+   "14": 341,
+   "15": 6,
+   "16": 802,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 390
+ },
+ {
+  "view": "home",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 504,
+   "y": 968,
+   "w": 252,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 720,
+   "h": 484
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 7,
+  "mediaH": {
+   "min": 197,
+   "max": 360
+  },
+  "firstCardMedia": 720,
+  "cardWidths": [
+   720,
+   350
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 735,
+   "22": 70,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 768
+ },
+ {
+  "view": "home",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 570,
+   "y": 1138,
+   "w": 252,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 786,
+   "h": 517
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   2,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   2,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 7,
+  "mediaH": {
+   "min": 215,
+   "max": 393
+  },
+  "firstCardMedia": 786,
+  "cardWidths": [
+   786,
+   383
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 735,
+   "22": 70,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 834
+ },
+ {
+  "view": "home",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 3,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 623,
+   "h": 474
+  },
+  "fullyVisibleInFold": 2,
+  "fullyVisibleAboveBanner": 2,
+  "titleLinesRendered": [
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 5,
+  "mediaH": {
+   "min": 169,
+   "max": 350
+  },
+  "firstCardMedia": 623,
+  "cardWidths": [
+   623,
+   301
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 864,
+   "17": 7,
+   "22": 70,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1024
+ },
+ {
+  "view": "home",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 4,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 540,
+   "h": 433
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   4,
+   3,
+   4,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   6,
+   3,
+   4,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 145,
+   "max": 270
+  },
+  "firstCardMedia": 540,
+  "cardWidths": [
+   540,
+   258
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 741,
+   "16": 136,
+   "17": 7,
+   "24": 70,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1280
+ },
+ {
+  "view": "home",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 4,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 540,
+   "h": 433
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   3,
+   3,
+   4,
+   3,
+   4,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   3,
+   6,
+   3,
+   4,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 145,
+   "max": 270
+  },
+  "firstCardMedia": 540,
+  "cardWidths": [
+   540,
+   258
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 741,
+   "16": 136,
+   "17": 7,
+   "24": 70,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1440
+ },
+ {
+  "variant": "C2",
+  "view": "home",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "home",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "home",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "post",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 96,
+   "y": 684,
+   "w": 252,
+   "h": 44
+  },
+  "ctaY": 535,
+  "ctaBottom": 583,
+  "shareY": 2499,
+  "shareH": 44,
+  "titleLines": 4,
+  "heroW": 328,
+  "heroH": 185,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 328,
+   "cplAvg": 24,
+   "cplFirstP": 26
+  },
+  "bodyEn": {
+   "cpl": 37,
+   "width": 328,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 360
+ },
+ {
+  "view": "post",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 126,
+   "y": 788,
+   "w": 252,
+   "h": 44
+  },
+  "ctaY": 521,
+  "ctaBottom": 569,
+  "shareY": 2434,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 358,
+  "heroH": 201,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 358,
+   "cplAvg": 25,
+   "cplFirstP": 29
+  },
+  "bodyEn": {
+   "cpl": 41,
+   "width": 358,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 390
+ },
+ {
+  "view": "post",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 504,
+   "y": 968,
+   "w": 252,
+   "h": 44
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 1970,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 768
+ },
+ {
+  "view": "post",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 570,
+   "y": 1138,
+   "w": 252,
+   "h": 44
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 1970,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 834
+ },
+ {
+  "view": "post",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 625,
+  "ctaBottom": 673,
+  "shareY": 1974,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 640,
+  "heroH": 360,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 640,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 640,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1024
+ },
+ {
+  "view": "post",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 2022,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1280
+ },
+ {
+  "view": "post",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 2022,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1440
+ },
+ {
+  "variant": "C2",
+  "view": "post",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "post",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "post",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "en",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 1,
+  "firstTop": 219,
+  "headH": 162,
+  "firstCard": {
+   "w": 328,
+   "h": 304
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   4,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 185,
+   "max": 185
+  },
+  "firstCardMedia": 328,
+  "cardWidths": [
+   328
+  ],
+  "headBlockH": 152,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 181,
+   "15": 45,
+   "16": 517,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 360
+ },
+ {
+  "view": "en",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 1,
+  "firstTop": 190,
+  "headH": 133,
+  "firstCard": {
+   "w": 358,
+   "h": 321
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 201,
+   "max": 201
+  },
+  "firstCardMedia": 358,
+  "cardWidths": [
+   358
+  ],
+  "headBlockH": 123,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 181,
+   "15": 45,
+   "16": 517,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 390
+ },
+ {
+  "view": "en",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 720,
+   "h": 484
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   2,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 3,
+  "mediaH": {
+   "min": 197,
+   "max": 360
+  },
+  "firstCardMedia": 720,
+  "cardWidths": [
+   720,
+   350
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 444,
+   "22": 113,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 768
+ },
+ {
+  "view": "en",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 786,
+   "h": 517
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   2,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 3,
+  "mediaH": {
+   "min": 215,
+   "max": 393
+  },
+  "firstCardMedia": 786,
+  "cardWidths": [
+   786,
+   383
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 444,
+   "22": 113,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 834
+ },
+ {
+  "view": "en",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 623,
+   "h": 474
+  },
+  "fullyVisibleInFold": 2,
+  "fullyVisibleAboveBanner": 2,
+  "titleLinesRendered": [
+   2,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   2,
+   4,
+   2,
+   8
+  ],
+  "titleClamped": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 169,
+   "max": 350
+  },
+  "firstCardMedia": 623,
+  "cardWidths": [
+   623,
+   301
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 573,
+   "17": 40,
+   "22": 113,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1024
+ },
+ {
+  "view": "en",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 540,
+   "h": 433
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   4,
+   2,
+   4
+  ],
+  "titleLinesNatural": [
+   3,
+   4,
+   2,
+   9
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 145,
+   "max": 270
+  },
+  "firstCardMedia": 540,
+  "cardWidths": [
+   540,
+   258
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 423,
+   "16": 169,
+   "17": 40,
+   "24": 113,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1280
+ },
+ {
+  "view": "en",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 540,
+   "h": 433
+  },
+  "fullyVisibleInFold": 3,
+  "fullyVisibleAboveBanner": 3,
+  "titleLinesRendered": [
+   3,
+   4,
+   2,
+   4
+  ],
+  "titleLinesNatural": [
+   3,
+   4,
+   2,
+   9
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 145,
+   "max": 270
+  },
+  "firstCardMedia": 540,
+  "cardWidths": [
+   540,
+   258
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 423,
+   "16": 169,
+   "17": 40,
+   "24": 113,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C2",
+  "width": 1440
+ },
+ {
+  "variant": "C2",
+  "view": "en",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "en",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C2",
+  "view": "en",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "home",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 696,
+   "w": 360,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 158,
+   "h": 220
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   5,
+   4,
+   5,
+   5,
+   5,
+   5,
+   4,
+   5,
+   4,
+   2,
+   4,
+   5
+  ],
+  "titleLinesNatural": [
+   5,
+   4,
+   5,
+   8,
+   5,
+   5,
+   4,
+   5,
+   4,
+   2,
+   4,
+   5
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 89,
+   "max": 89
+  },
+  "firstCardMedia": 158,
+  "cardWidths": [
+   158
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 277,
+   "14": 1139,
+   "15": 6,
+   "16": 4,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 360
+ },
+ {
+  "view": "home",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 800,
+   "w": 390,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 234,
+  "headH": 177,
+  "firstCard": {
+   "w": 173,
+   "h": 209
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   4,
+   4,
+   4,
+   5,
+   4,
+   4,
+   4,
+   4,
+   4,
+   2,
+   4,
+   5
+  ],
+  "titleLinesNatural": [
+   4,
+   4,
+   4,
+   7,
+   4,
+   4,
+   4,
+   4,
+   4,
+   2,
+   4,
+   5
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 97,
+   "max": 97
+  },
+  "firstCardMedia": 173,
+  "cardWidths": [
+   173
+  ],
+  "tagsH": 44,
+  "headBlockH": 167,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 277,
+   "14": 1139,
+   "15": 6,
+   "16": 4,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 390
+ },
+ {
+  "view": "home",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 980,
+   "w": 768,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 350,
+   "h": 301
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   2,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   350
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 805,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 768
+ },
+ {
+  "view": "home",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 1150,
+   "w": 834,
+   "h": 44
+  },
+  "cards": 12,
+  "cols": 2,
+  "firstTop": 324,
+  "headH": 267,
+  "firstCard": {
+   "w": 383,
+   "h": 320
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   2,
+   2,
+   3,
+   2,
+   3,
+   2,
+   2,
+   2,
+   1,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   2,
+   2,
+   4,
+   2,
+   3,
+   2,
+   2,
+   2,
+   1,
+   2,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 6,
+  "mediaH": {
+   "min": 215,
+   "max": 215
+  },
+  "firstCardMedia": 383,
+  "cardWidths": [
+   383
+  ],
+  "tagsH": 92,
+  "headBlockH": 257,
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 257,
+   "14": 222,
+   "15": 13,
+   "16": 136,
+   "17": 805,
+   "28": 7
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 834
+ },
+ {
+  "view": "home",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 3,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 944,
+   "h": 319
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   3
+  ],
+  "titleLinesNatural": [
+   4,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   3
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 5,
+  "mediaH": {
+   "min": 168,
+   "max": 319
+  },
+  "firstCardMedia": 566,
+  "cardWidths": [
+   944,
+   299
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 247,
+   "14": 232,
+   "15": 13,
+   "16": 864,
+   "17": 7,
+   "28": 77
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1024
+ },
+ {
+  "view": "home",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 4,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 1104,
+   "h": 373
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   4,
+   3,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleLinesNatural": [
+   4,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 145,
+   "max": 373
+  },
+  "firstCardMedia": 662,
+  "cardWidths": [
+   1104,
+   258
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 247,
+   "14": 232,
+   "15": 741,
+   "16": 136,
+   "17": 7,
+   "28": 77
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1280
+ },
+ {
+  "view": "home",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "cards": 12,
+  "cols": 4,
+  "firstTop": 276,
+  "headH": 219,
+  "firstCard": {
+   "w": 1104,
+   "h": 373
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   4,
+   3,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleLinesNatural": [
+   4,
+   3,
+   3,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   3,
+   4
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 4,
+  "mediaH": {
+   "min": 145,
+   "max": 373
+  },
+  "firstCardMedia": 662,
+  "cardWidths": [
+   1104,
+   258
+  ],
+  "tagsH": 44,
+  "headBlockH": 209,
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 247,
+   "14": 232,
+   "15": 741,
+   "16": 136,
+   "17": 7,
+   "28": 77
+  },
+  "charsTotal": 1440,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1440
+ },
+ {
+  "variant": "C3",
+  "view": "home",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "home",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "home",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "post",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 696,
+   "w": 360,
+   "h": 44
+  },
+  "ctaY": 539,
+  "ctaBottom": 587,
+  "shareY": 2487,
+  "shareH": 44,
+  "titleLines": 4,
+  "heroW": 360,
+  "heroH": 203,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 328,
+   "cplAvg": 24,
+   "cplFirstP": 26
+  },
+  "bodyEn": {
+   "cpl": 37,
+   "width": 328,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 360
+ },
+ {
+  "view": "post",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 800,
+   "w": 390,
+   "h": 44
+  },
+  "ctaY": 525,
+  "ctaBottom": 573,
+  "shareY": 2422,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 390,
+  "heroH": 219,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 358,
+   "cplAvg": 25,
+   "cplFirstP": 29
+  },
+  "bodyEn": {
+   "cpl": 41,
+   "width": 358,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 177,
+   "14": 318,
+   "15": 134,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "22": 70
+  },
+  "charsTotal": 2311,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 390
+ },
+ {
+  "view": "post",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 980,
+   "w": 768,
+   "h": 44
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 1954,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 768
+ },
+ {
+  "view": "post",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 0,
+   "y": 1150,
+   "w": 834,
+   "h": 44
+  },
+  "ctaY": 643,
+  "ctaBottom": 691,
+  "shareY": 1954,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 44,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 834
+ },
+ {
+  "view": "post",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 976,
+   "y": 256,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 625,
+  "ctaBottom": 673,
+  "shareY": 1958,
+  "shareH": 44,
+  "titleLines": 2,
+  "heroW": 640,
+  "heroH": 360,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 640,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 640,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "26": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1024
+ },
+ {
+  "view": "post",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1232,
+   "y": 272,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 2006,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1280
+ },
+ {
+  "view": "post",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": {
+   "x": 1392,
+   "y": 322,
+   "w": 48,
+   "h": 256
+  },
+  "ctaY": 696,
+  "ctaBottom": 744,
+  "shareY": 2006,
+  "shareH": 44,
+  "titleLines": 3,
+  "heroW": 672,
+  "heroH": 378,
+  "body": {
+   "fontSize": 17,
+   "lineHeight": "29.75px",
+   "width": 646,
+   "cplAvg": 43,
+   "cplFirstP": 47
+  },
+  "bodyEn": {
+   "cpl": 74,
+   "width": 672,
+   "fontSize": 17
+  },
+  "smallTargets": [],
+  "bannerLinkH": 256,
+  "sizeHist": {
+   "13": 129,
+   "14": 356,
+   "15": 147,
+   "16": 9,
+   "17": 1517,
+   "19": 86,
+   "30": 70
+  },
+  "charsTotal": 2314,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1440
+ },
+ {
+  "variant": "C3",
+  "view": "post",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "post",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "post",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "view": "en",
+  "vw": 360,
+  "vh": 740,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 219,
+  "headH": 162,
+  "firstCard": {
+   "w": 158,
+   "h": 220
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   5,
+   5,
+   3,
+   5
+  ],
+  "titleLinesNatural": [
+   6,
+   6,
+   3,
+   14
+  ],
+  "titleClamped": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 89,
+   "max": 89
+  },
+  "firstCardMedia": 158,
+  "cardWidths": [
+   158
+  ],
+  "headBlockH": 152,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 698,
+   "15": 45,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 360
+ },
+ {
+  "view": "en",
+  "vw": 390,
+  "vh": 844,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 190,
+  "headH": 133,
+  "firstCard": {
+   "w": 173,
+   "h": 229
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   5,
+   5,
+   3,
+   5
+  ],
+  "titleLinesNatural": [
+   6,
+   5,
+   3,
+   12
+  ],
+  "titleClamped": [
+   true,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 97,
+   "max": 97
+  },
+  "firstCardMedia": 173,
+  "cardWidths": [
+   173
+  ],
+  "headBlockH": 123,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 183,
+   "14": 698,
+   "15": 45,
+   "17": 7,
+   "22": 7
+  },
+  "charsTotal": 940,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 390
+ },
+ {
+  "view": "en",
+  "vw": 768,
+  "vh": 1024,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 350,
+   "h": 301
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   7
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 197,
+   "max": 197
+  },
+  "firstCardMedia": 350,
+  "cardWidths": [
+   350
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 557,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 768
+ },
+ {
+  "view": "en",
+  "vw": 834,
+  "vh": 1194,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 2,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 383,
+   "h": 320
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   3,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   3,
+   3,
+   2,
+   6
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 215,
+   "max": 215
+  },
+  "firstCardMedia": 383,
+  "cardWidths": [
+   383
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 159,
+   "14": 32,
+   "15": 19,
+   "16": 169,
+   "17": 557,
+   "28": 7
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 834
+ },
+ {
+  "view": "en",
+  "vw": 1024,
+  "vh": 768,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 944,
+   "h": 319
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   5,
+   3,
+   2,
+   3
+  ],
+  "titleLinesNatural": [
+   5,
+   4,
+   2,
+   8
+  ],
+  "titleClamped": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 168,
+   "max": 319
+  },
+  "firstCardMedia": 566,
+  "cardWidths": [
+   944,
+   299
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 148,
+   "14": 43,
+   "15": 19,
+   "16": 573,
+   "17": 40,
+   "28": 120
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1024
+ },
+ {
+  "view": "en",
+  "vw": 1280,
+  "vh": 800,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 1104,
+   "h": 373
+  },
+  "fullyVisibleInFold": 1,
+  "fullyVisibleAboveBanner": 1,
+  "titleLinesRendered": [
+   4,
+   4,
+   2,
+   4
+  ],
+  "titleLinesNatural": [
+   4,
+   4,
+   2,
+   8
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 145,
+   "max": 373
+  },
+  "firstCardMedia": 662,
+  "cardWidths": [
+   1104,
+   258
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 148,
+   "14": 43,
+   "15": 423,
+   "16": 169,
+   "17": 40,
+   "28": 120
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1280
+ },
+ {
+  "view": "en",
+  "vw": 1440,
+  "vh": 900,
+  "overflowX": 0,
+  "headerH": 57,
+  "banner": null,
+  "cards": 4,
+  "cols": 3,
+  "firstTop": 230,
+  "headH": 173,
+  "firstCard": {
+   "w": 1104,
+   "h": 373
+  },
+  "fullyVisibleInFold": 4,
+  "fullyVisibleAboveBanner": 4,
+  "titleLinesRendered": [
+   4,
+   4,
+   2,
+   4
+  ],
+  "titleLinesNatural": [
+   4,
+   4,
+   2,
+   8
+  ],
+  "titleClamped": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "rowsMismatch": 0,
+  "rowCount": 2,
+  "mediaH": {
+   "min": 145,
+   "max": 373
+  },
+  "firstCardMedia": 662,
+  "cardWidths": [
+   1104,
+   258
+  ],
+  "headBlockH": 163,
+  "smallTargets": [],
+  "bannerLinkH": 0,
+  "sizeHist": {
+   "13": 148,
+   "14": 43,
+   "15": 423,
+   "16": 169,
+   "17": 40,
+   "28": 120
+  },
+  "charsTotal": 943,
+  "pct12": 0,
+  "minFont": 13,
+  "variant": "C3",
+  "width": 1440
+ },
+ {
+  "variant": "C3",
+  "view": "en",
+  "width": 320,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "en",
+  "width": 384,
+  "reflow": true,
+  "overflowX": 0
+ },
+ {
+  "variant": "C3",
+  "view": "en",
+  "width": 640,
+  "reflow": true,
+  "overflowX": 0
+ }
+]

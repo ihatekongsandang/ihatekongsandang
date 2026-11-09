@@ -1,0 +1,7 @@
+1024x768 {"asideH":793,"articleH":2189,"vh":768,"links":8} 보조 열 포커스 17 화면 밖 0 []
+1024x600 {"asideH":793,"articleH":2189,"vh":600,"links":8} 보조 열 포커스 16 화면 밖 0 []
+1280x800 {"asideH":747,"articleH":2196,"vh":800,"links":8} 보조 열 포커스 17 화면 밖 0 []
+1280x600 {"asideH":747,"articleH":2196,"vh":600,"links":8} 보조 열 포커스 16 화면 밖 0 []
+1440x900 {"asideH":747,"articleH":2196,"vh":900,"links":8} 보조 열 포커스 17 화면 밖 0 []
+skip 360 {"t":"본문으로 건너뛰기","rect":[8,8,125,36],"topIsSelf":[true,true,true],"z":"50","pos":"absolute"}
+skip 1280 {"t":"본문으로 건너뛰기","rect":[8,8,125,36],"topIsSelf":[true,true,true],"z":"50","pos":"absolute"}

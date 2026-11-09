@@ -1,0 +1,39 @@
+PASS  #1 ko_terms anonymous 절 마지막 문장 = 승인 문구 — 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경로를 통해서만 가능합니다.
+PASS  #2 en_terms anonymous 절 마지막 문장 = 승인 문구 — The only way to reach the operator is through the contact channel in the “How to request a correction or removal, and how we handle it” section above.
+PASS  #3 ko_about 준비 중 상자 바로 아래 text-xs 문장 = 승인 문구 — '아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다.'
+PASS  #3 ko_about 문장 1회만
+PASS  #4 en_about 준비 중 상자 바로 아래 text-xs 문장 = 승인 문구 — 'The handling standards below apply once the contact channel is finalized.'
+PASS  #4 en_about 문장 1회만
+PASS  #5 ko_terms sourcing 셋째 <li> 전문 = 승인 문구 — '모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — 운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다. 다만 상세 페이지의 ‘원문 미리보기’에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다.'
+PASS  #6 en_terms sourcing 셋째 <li> 전문 = 승인 문구 — "Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — the summaries and text we write never copy a news article's summary or body text. The “Original post preview” box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so."
+PASS  #5 ko_terms 굵게 범위 = 기획 ** 범위 — ['운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다']
+PASS  #6 en_terms 굵게 범위 = 기획 ** 범위 — ["the summaries and text we write never copy a news article's summary or body text"]
+PASS  #7 ko_terms sourcing 둘째 <li> 끝 = 현행 끝 문장 + 덧붙임 — 소개 문구의 “신문법 등에 따라 등록된 매체”는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다.
+PASS  #8 en_terms sourcing 둘째 <li> 끝 = 현행 끝 문장 + 덧붙임 — The phrase “outlets registered under Korea's Act on the Promotion of Newspapers and related laws” in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above.
+PASS  #8 인용 ⊂ SITE_EN.aboutIntro(소스) — outlets registered under Korea's Act on the Promotion of Newspapers and related laws
+PASS  #8 인용 ⊂ /en/about 빌드 본문
+PASS  #8 /en/terms 빌드에 인용이 따옴표째 들어감
+PASS  #9 상수 termsLastUpdated = 2026-11-09(오더 지정값) — 2026-11-09
+PASS  #9 ko_terms h1 바로 다음 요소 = 개정일 줄
+PASS  #9 ko_terms 문구 = "최종 개정: 2026-11-09" — '최종 개정: 2026-11-09'
+PASS  #9 ko_terms <time datetime> = 상수 — 최종 개정: <time dateTime="2026-11-09">2026-11-09</time>
+PASS  #9 ko_terms 작은 글씨(text-xs text-muted-foreground) —  class="text-xs text-muted-foreground"
+PASS  #9 ko_terms JSON-LD dateModified 없음 또는 상수와 일치(블록 2개, dateModified 0개) — []
+PASS  #9 en_terms h1 바로 다음 요소 = 개정일 줄
+PASS  #9 en_terms 문구 = "Last updated: 2026-11-09" — 'Last updated: 2026-11-09'
+PASS  #9 en_terms <time datetime> = 상수 — Last updated: <time dateTime="2026-11-09">2026-11-09</time>
+PASS  #9 en_terms 작은 글씨(text-xs text-muted-foreground) —  class="text-xs text-muted-foreground"
+PASS  #9 en_terms JSON-LD dateModified 없음 또는 상수와 일치(블록 2개, dateModified 0개) — []
+PASS  옛 문구 0: ko_terms "위 4항"
+PASS  옛 문구 0: en_terms "Section 4"
+PASS  옛 문구 0: ko_terms "— 기사 요약이나 본문을 그대로 옮기지 않습니다"
+PASS  옛 문구 0: en_terms "— we never copy a news article"
+PASS  #1 ko_terms 승인 문구 1회 — 1
+PASS  #2 en_terms 승인 문구 1회 — 1
+PASS  #5 ko_terms 승인 문구 1회 — 1
+PASS  #6 en_terms 승인 문구 1회 — 1
+PASS  #7 ko_terms 승인 문구 1회 — 1
+PASS  #8 en_terms 승인 문구 1회 — 1
+PASS  #3 소스: 문장이 contactEmail null 분기 안에만 있음
+PASS  #4 소스: 문장이 contactEmail null 분기 안에만 있음
+합계 38건 · PASS 38 · FAIL 0

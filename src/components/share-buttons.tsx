@@ -13,10 +13,15 @@ type CopyState = 'idle' | 'success' | 'error'
 type ShareMethod = 'copy_link' | 'x' | 'threads'
 
 const RESET_MS = 2000
-const buttonClass = cn(buttonVariants({ variant: 'outline' }), 'h-11 min-w-0 flex-1 justify-center px-2 text-center leading-tight sm:flex-none sm:px-4')
+// 높이 44px(h-11), 경계 --line-strong(3.81:1). 768 미만 3칸 격자, 1024 이상 보조 열에서 1열(구현 범위 10).
+const buttonClass = cn(
+  buttonVariants({ variant: 'outline' }),
+  'h-11 min-w-0 justify-center border-line-strong px-2 text-center leading-tight font-semibold',
+)
 
 /**
  * 상세 공유 버튼 (D4 (가) — 링크 복사·X·스레드). 프로그래머 11, 시안 01 + 리뷰 25 P3-1·2·3·10.
+ * 프로그래머 14: 상세 보조 열로 옮기면서 제목("공유")을 화면에 보이게 했다(보강안 목업). 기능·문구·이벤트는 그대로다.
  *
  * - 외부 SDK·스크립트 없음: X·스레드는 web intent `<a href>`, 복사는 `navigator.clipboard`만. 카카오톡은 범위 밖.
  * - 접근성 이름 = 보이는 텍스트(`aria-label` 없음, P3-1 — 복사 상태가 바뀌면 이름도 같이 바뀐다).
@@ -76,11 +81,11 @@ export function ShareButtons({ id, title, locale }: { id: string; title: string;
     copyState === 'success' ? dict.shareCopied : copyState === 'error' ? dict.shareCopyFailed : dict.shareCopyLink
 
   return (
-    <section aria-labelledby="share-heading" className="space-y-3">
-      <h2 id="share-heading" className="sr-only">
+    <section aria-labelledby="share-heading">
+      <h2 id="share-heading" className="mb-2 text-base font-bold">
         {dict.shareHeading}
       </h2>
-      <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:justify-start">
+      <div className="grid grid-cols-3 gap-2 md:max-w-[480px] lg:grid-cols-1">
         <button type="button" onClick={handleCopy} className={buttonClass}>
           <CopyIcon aria-hidden="true" className="size-4" />
           <span>{copyLabel}</span>

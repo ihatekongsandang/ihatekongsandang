@@ -1,0 +1,48 @@
+
+> ihatekongsandang@0.1.0 lint
+> eslint .
+
+
+docs/tools/designer-04-A/build.mjs
+  303:10   warning  'mixedLg' is defined but never used                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+  317:117  error    React Hook "use" is called in function "thumb" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"       react-hooks/rules-of-hooks
+  322:9    warning  'full' is assigned a value but never used                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+  331:23   warning  'v' is defined but never used                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  339:210  error    React Hook "use" is called in function "banner" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"      react-hooks/rules-of-hooks
+  355:120  error    React Hook "use" is called in function "pager" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"       react-hooks/rules-of-hooks
+  356:128  error    React Hook "use" is called in function "pager" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"       react-hooks/rules-of-hooks
+  364:36   warning  'i' is defined but never used                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  380:30   warning  'id' is defined but never used                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  383:80   error    React Hook "use" is called in function "shareBlock" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"  react-hooks/rules-of-hooks
+  414:84   error    React Hook "use" is called in function "postView" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"    react-hooks/rules-of-hooks
+  448:17   warning  'c' is defined but never used                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  448:151  error    React Hook "use" is called in function "g" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"           react-hooks/rules-of-hooks
+
+docs/tools/designer-04-A/content.mjs
+  95:34  warning  'a' is defined but never used  @typescript-eslint/no-unused-vars
+
+docs/tools/designer-04-A/gen-docs.mjs
+  32:9  warning  'c' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+docs/tools/designer-04-B/build.mjs
+  180:9   warning  'mm' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  193:24  warning  'id' is defined but never used           @typescript-eslint/no-unused-vars
+
+docs/tools/designer-05/build-final.mjs
+  13:7  warning  'INTRO_EN_FULL' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+docs/tools/designer-05/summarize.mjs
+  56:89  warning  'k' is defined but never used  @typescript-eslint/no-unused-vars
+
+docs/tools/reviewer-04/keyboard-tab.mjs
+  36:7  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+docs/tools/reviewer-10/html-same.mjs
+   9:150  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  19:3    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+docs/tools/reviewer-26/origin-fallback-check.mjs
+  10:31  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 23 problems (7 errors, 16 warnings)
+

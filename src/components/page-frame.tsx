@@ -25,7 +25,11 @@ export function PageFrame({
   return (
     <>
       <SiteHeader locale={locale} languageLinks={languageLinks} />
-      <main id="main" className={cn('mx-auto w-full max-w-6xl flex-1 px-4 py-8', floatingBannerGutter(locale).main)}>
+      {/* 좌우 gutter 16 / 32(md) / 40(lg) / 48(xl) — 보강안 tokens §3. 위 여백은 각 화면 머리가 정한다. */}
+      <main
+        id="main"
+        className={cn('mx-auto w-full max-w-6xl flex-1 px-4 pt-2 md:px-8 lg:px-10 xl:px-12', floatingBannerGutter(locale).main)}
+      >
         {children}
       </main>
       <SiteFooter locale={locale} />

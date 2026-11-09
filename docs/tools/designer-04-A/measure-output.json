@@ -1,0 +1,6231 @@
+{
+ "A1": {
+  "home-360": {
+   "view": "home",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 684,
+    "w": 360,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "firstCardTop": 243,
+   "headH": 186,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1102,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 2136
+  },
+  "home-390": {
+   "view": "home",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 788,
+    "w": 390,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "firstCardTop": 243,
+   "headH": 186,
+   "cardsFullyVisible": 5,
+   "cardsFullyVisibleVp": 5,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1102,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 2114
+  },
+  "home-768": {
+   "view": "home",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 968,
+    "w": 768,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "firstCardTop": 287,
+   "headH": 230,
+   "cardsFullyVisible": 12,
+   "cardsFullyVisibleVp": 12,
+   "cardH": [
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 72,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 693,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1440
+  },
+  "home-834": {
+   "view": "home",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 1138,
+    "w": 834,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 12,
+   "cardsFullyVisibleVp": 12,
+   "cardH": [
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 693,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1416
+  },
+  "home-1024": {
+   "view": "home",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 8,
+   "cardsFullyVisibleVp": 8,
+   "cardH": [
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 432,
+   "thumb": {
+    "w": 160,
+    "h": 90
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "17": 588,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1432
+  },
+  "home-1280": {
+   "view": "home",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 6,
+   "cardsFullyVisibleVp": 6,
+   "cardH": [
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1517
+  },
+  "home-1440": {
+   "view": "home",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 8,
+   "cardsFullyVisibleVp": 8,
+   "cardH": [
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1517
+  },
+  "post-360": {
+   "view": "post",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 684,
+    "w": 360,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "h1H": 123,
+   "ctaTop": 458,
+   "ctaBottom": 510,
+   "charsPerLine": 23.5,
+   "charsPerLineMin": 20,
+   "charsPerLineMax": 26,
+   "bodyColW": 328,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 3212,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 41,
+     "w": 316
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 375,
+    "15": 112,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "23": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3904
+  },
+  "post-390": {
+   "view": "post",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 788,
+    "w": 390,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "h1H": 92,
+   "ctaTop": 427,
+   "ctaBottom": 479,
+   "charsPerLine": 23.9,
+   "charsPerLineMin": 20,
+   "charsPerLineMax": 29,
+   "bodyColW": 358,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 3169,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 375,
+    "15": 112,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "23": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3814
+  },
+  "post-768": {
+   "view": "post",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 968,
+    "w": 768,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 2703,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 365,
+    "15": 122,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "28": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3258
+  },
+  "post-834": {
+   "view": "post",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 1138,
+    "w": 834,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 2703,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 365,
+    "15": 122,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "28": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3258
+  },
+  "post-1024": {
+   "view": "post",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 600,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 590,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 365,
+    "15": 122,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "28": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2564
+  },
+  "post-1280": {
+   "view": "post",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 566,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 365,
+    "15": 122,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "28": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2548
+  },
+  "post-1440": {
+   "view": "post",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 566,
+   "targets": 21,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 365,
+    "15": 122,
+    "16": 134,
+    "17": 797,
+    "20": 42,
+    "28": 55
+   },
+   "chars": 1564,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2548
+  },
+  "en-360": {
+   "view": "en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1363
+  },
+  "en-390": {
+   "view": "en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1363
+  },
+  "en-768": {
+   "view": "en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    129,
+    129,
+    132,
+    132
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 673,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 1029
+  },
+  "en-834": {
+   "view": "en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    112,
+    112,
+    132,
+    132
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 673,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 1194
+  },
+  "en-1024": {
+   "view": "en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    124,
+    124,
+    126,
+    126
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 432,
+   "thumb": {
+    "w": 160,
+    "h": 90
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "17": 533,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 939
+  },
+  "en-1280": {
+   "view": "en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 975
+  },
+  "en-1440": {
+   "view": "en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 975
+  },
+  "post-en-360": {
+   "view": "post-en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 216,
+   "ctaTop": 614,
+   "ctaBottom": 666,
+   "charsPerLine": 34.4,
+   "charsPerLineMin": 29,
+   "charsPerLineMax": 39,
+   "bodyColW": 328,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 4360,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 41,
+     "w": 281
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 248
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 875,
+    "15": 154,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "23": 142
+   },
+   "chars": 3687,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 5016
+  },
+  "post-en-390": {
+   "view": "post-en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 185,
+   "ctaTop": 583,
+   "ctaBottom": 635,
+   "charsPerLine": 37.5,
+   "charsPerLineMin": 29,
+   "charsPerLineMax": 43,
+   "bodyColW": 358,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 4175,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 341
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 875,
+    "15": 154,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "23": 142
+   },
+   "chars": 3687,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 4831
+  },
+  "post-en-768": {
+   "view": "post-en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 188,
+   "ctaTop": 535,
+   "ctaBottom": 587,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 561,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 3323,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "28": 142
+   },
+   "chars": 3716,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3818
+  },
+  "post-en-834": {
+   "view": "post-en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 188,
+   "ctaTop": 535,
+   "ctaBottom": 587,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 561,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 3323,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "28": 142
+   },
+   "chars": 3716,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3796
+  },
+  "post-en-1024": {
+   "view": "post-en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 188,
+   "ctaTop": 535,
+   "ctaBottom": 587,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 561,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 619,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 849
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "28": 142
+   },
+   "chars": 3716,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3185
+  },
+  "post-en-1280": {
+   "view": "post-en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 188,
+   "ctaTop": 535,
+   "ctaBottom": 587,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 561,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 596,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "28": 142
+   },
+   "chars": 3716,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3162
+  },
+  "post-en-1440": {
+   "view": "post-en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 188,
+   "ctaTop": 535,
+   "ctaBottom": 587,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 561,
+   "bodyFs": 17,
+   "bodyLh": 1.75,
+   "shareTop": 596,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 177,
+    "17": 2104,
+    "20": 123,
+    "28": 142
+   },
+   "chars": 3716,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3162
+  },
+  "states-360": {
+   "view": "states",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 684,
+    "w": 360,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1445
+  },
+  "states-390": {
+   "view": "states",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 788,
+    "w": 390,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1474
+  },
+  "states-768": {
+   "view": "states",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 968,
+    "w": 768,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1024
+  },
+  "states-834": {
+   "view": "states",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 1138,
+    "w": 834,
+    "h": 56,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1194
+  },
+  "states-1024": {
+   "view": "states",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1039
+  },
+  "states-1280": {
+   "view": "states",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1102
+  },
+  "states-1440": {
+   "view": "states",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1102
+  },
+  "overflow": [
+   {
+    "view": "home",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "home",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "home",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "home",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "home",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "home",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "home",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "home",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "home",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post-en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post-en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post-en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post-en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post-en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post-en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post-en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post-en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post-en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "states",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "states",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "states",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "states",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "states",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "states",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "states",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "states",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "states",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   }
+  ]
+ },
+ "A2": {
+  "home-360": {
+   "view": "home",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 116,
+    "y": 684,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "firstCardTop": 243,
+   "headH": 186,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1102,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 2148
+  },
+  "home-390": {
+   "view": "home",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 146,
+    "y": 788,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "firstCardTop": 243,
+   "headH": 186,
+   "cardsFullyVisible": 5,
+   "cardsFullyVisibleVp": 5,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1102,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 2126
+  },
+  "home-768": {
+   "view": "home",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 524,
+    "y": 968,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "firstCardTop": 287,
+   "headH": 230,
+   "cardsFullyVisible": 12,
+   "cardsFullyVisibleVp": 12,
+   "cardH": [
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 72,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 693,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1452
+  },
+  "home-834": {
+   "view": "home",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 590,
+    "y": 1138,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 12,
+   "cardsFullyVisibleVp": 12,
+   "cardH": [
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112,
+    112
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 693,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1428
+  },
+  "home-1024": {
+   "view": "home",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 8,
+   "cardsFullyVisibleVp": 8,
+   "cardH": [
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 432,
+   "thumb": {
+    "w": 160,
+    "h": 90
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "17": 588,
+    "26": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1432
+  },
+  "home-1280": {
+   "view": "home",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 6,
+   "cardsFullyVisibleVp": 6,
+   "cardH": [
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1517
+  },
+  "home-1440": {
+   "view": "home",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 8,
+   "cardsFullyVisibleVp": 8,
+   "cardH": [
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 22,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 145,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1099,
+   "px12": 0,
+   "pxLt14": 13.2,
+   "docH": 1517
+  },
+  "post-360": {
+   "view": "post",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 116,
+    "y": 684,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "h1H": 123,
+   "ctaTop": 546,
+   "ctaBottom": 598,
+   "charsPerLine": 20.9,
+   "charsPerLineMin": 18,
+   "charsPerLineMax": 24,
+   "bodyColW": 328,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 246,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 41,
+     "w": 316
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 389,
+    "15": 112,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "23": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 4295
+  },
+  "post-390": {
+   "view": "post",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 146,
+    "y": 788,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "h1H": 92,
+   "ctaTop": 515,
+   "ctaBottom": 567,
+   "charsPerLine": 23.5,
+   "charsPerLineMin": 20,
+   "charsPerLineMax": 26,
+   "bodyColW": 358,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 215,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 389,
+    "15": 112,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "23": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 4073
+  },
+  "post-768": {
+   "view": "post",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 524,
+    "y": 968,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 480,
+   "ctaBottom": 532,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 236,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 379,
+    "15": 122,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "28": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3442
+  },
+  "post-834": {
+   "view": "post",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 590,
+    "y": 1138,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 480,
+   "ctaBottom": 532,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 236,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 379,
+    "15": 122,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "28": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 3442
+  },
+  "post-1024": {
+   "view": "post",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 584,
+   "ctaBottom": 636,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 600,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 236,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 379,
+    "15": 122,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "28": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2840
+  },
+  "post-1280": {
+   "view": "post",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 584,
+   "ctaBottom": 636,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 236,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 379,
+    "15": 122,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "28": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2825
+  },
+  "post-1440": {
+   "view": "post",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 584,
+   "ctaBottom": 636,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 236,
+   "targets": 24,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 6,
+    "13": 43,
+    "14": 379,
+    "15": 122,
+    "16": 134,
+    "18": 797,
+    "21": 42,
+    "28": 55
+   },
+   "chars": 1578,
+   "px12": 0.4,
+   "pxLt14": 3.1,
+   "docH": 2825
+  },
+  "en-360": {
+   "view": "en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1375
+  },
+  "en-390": {
+   "view": "en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1375
+  },
+  "en-768": {
+   "view": "en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    129,
+    129,
+    132,
+    132
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 673,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 1041
+  },
+  "en-834": {
+   "view": "en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    112,
+    112,
+    132,
+    132
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 136,
+    "h": 77
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 673,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 1194
+  },
+  "en-1024": {
+   "view": "en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    124,
+    124,
+    126,
+    126
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 432,
+   "thumb": {
+    "w": 160,
+    "h": 90
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "17": 533,
+    "26": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 939
+  },
+  "en-1280": {
+   "view": "en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 975
+  },
+  "en-1440": {
+   "view": "en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 267,
+   "headH": 210,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    141,
+    141,
+    141,
+    141
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 508,
+   "thumb": {
+    "w": 192,
+    "h": 108
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1316,
+   "px12": 0.8,
+   "pxLt14": 8.3,
+   "docH": 975
+  },
+  "post-en-360": {
+   "view": "post-en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 216,
+   "ctaTop": 702,
+   "ctaBottom": 754,
+   "charsPerLine": 32.9,
+   "charsPerLineMin": 29,
+   "charsPerLineMax": 37,
+   "bodyColW": 328,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 406,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 41,
+     "w": 281
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 248
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 905,
+    "15": 154,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "23": 142
+   },
+   "chars": 3717,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 5454
+  },
+  "post-en-390": {
+   "view": "post-en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 185,
+   "ctaTop": 671,
+   "ctaBottom": 723,
+   "charsPerLine": 35.7,
+   "charsPerLineMin": 29,
+   "charsPerLineMax": 39,
+   "bodyColW": 358,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 376,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 341
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 905,
+    "15": 154,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "23": 142
+   },
+   "chars": 3717,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 5223
+  },
+  "post-en-768": {
+   "view": "post-en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 559,
+   "ctaBottom": 611,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 317,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 922,
+    "15": 166,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "28": 142
+   },
+   "chars": 3746,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3944
+  },
+  "post-en-834": {
+   "view": "post-en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 559,
+   "ctaBottom": 611,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 317,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 922,
+    "15": 166,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "28": 142
+   },
+   "chars": 3746,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3922
+  },
+  "post-en-1024": {
+   "view": "post-en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 663,
+   "ctaBottom": 715,
+   "charsPerLine": 61.6,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 67,
+   "bodyColW": 600,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 317,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 849
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 922,
+    "15": 166,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "28": 142
+   },
+   "chars": 3746,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3461
+  },
+  "post-en-1280": {
+   "view": "post-en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 663,
+   "ctaBottom": 715,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 317,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 922,
+    "15": 166,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "28": 142
+   },
+   "chars": 3746,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3379
+  },
+  "post-en-1440": {
+   "view": "post-en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 663,
+   "ctaBottom": 715,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 612,
+   "bodyFs": 18,
+   "bodyLh": 1.8,
+   "shareTop": 317,
+   "targets": 21,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 922,
+    "15": 166,
+    "16": 177,
+    "18": 2104,
+    "21": 123,
+    "28": 142
+   },
+   "chars": 3746,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3379
+  },
+  "states-360": {
+   "view": "states",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 116,
+    "y": 684,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1457
+  },
+  "states-390": {
+   "view": "states",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 146,
+    "y": 788,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1486
+  },
+  "states-768": {
+   "view": "states",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 524,
+    "y": 968,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1024
+  },
+  "states-834": {
+   "view": "states",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 590,
+    "y": 1138,
+    "w": 232,
+    "h": 44,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1194
+  },
+  "states-1024": {
+   "view": "states",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1039
+  },
+  "states-1280": {
+   "view": "states",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1102
+  },
+  "states-1440": {
+   "view": "states",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 6,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "13": 91,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 355,
+   "px12": 0,
+   "pxLt14": 25.6,
+   "docH": 1102
+  },
+  "overflow": [
+   {
+    "view": "home",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "home",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "home",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "home",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "home",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "home",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "home",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "home",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "home",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post-en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post-en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post-en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post-en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post-en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post-en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post-en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post-en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post-en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "states",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "states",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "states",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "states",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "states",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "states",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "states",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "states",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "states",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   }
+  ]
+ },
+ "A3": {
+  "home-360": {
+   "view": "home",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 360,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "firstCardTop": 287,
+   "headH": 230,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 24,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 160,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1128,
+   "px12": 1,
+   "pxLt14": 15.2,
+   "docH": 2192
+  },
+  "home-390": {
+   "view": "home",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 390,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "firstCardTop": 287,
+   "headH": 230,
+   "cardsFullyVisible": 5,
+   "cardsFullyVisibleVp": 5,
+   "cardH": [
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108,
+    108
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 28,
+   "targets": 24,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 160,
+    "14": 240,
+    "15": 703,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1128,
+   "px12": 1,
+   "pxLt14": 15.2,
+   "docH": 2170
+  },
+  "home-768": {
+   "view": "home",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 768,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "firstCardTop": 330,
+   "headH": 273,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 336,
+    "h": 189
+   },
+   "rowHeightSpread": 0,
+   "introH": 72,
+   "h1H": 32,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 180,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "17": 588,
+    "26": 7
+   },
+   "chars": 1145,
+   "px12": 1,
+   "pxLt14": 16.7,
+   "docH": 2786
+  },
+  "home-834": {
+   "view": "home",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 834,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "firstCardTop": 306,
+   "headH": 249,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326,
+    326
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 369,
+    "h": 208
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 180,
+    "14": 227,
+    "15": 27,
+    "16": 105,
+    "17": 588,
+    "26": 7
+   },
+   "chars": 1145,
+   "px12": 1,
+   "pxLt14": 16.7,
+   "docH": 2873
+  },
+  "home-1024": {
+   "view": "home",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 262,
+   "headH": 205,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299,
+    299
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 283,
+   "thumb": {
+    "w": 283,
+    "h": 159
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 32,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 165,
+    "14": 242,
+    "15": 27,
+    "16": 105,
+    "17": 588,
+    "26": 7
+   },
+   "chars": 1145,
+   "px12": 1,
+   "pxLt14": 15.4,
+   "docH": 1956
+  },
+  "home-1280": {
+   "view": "home",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 266,
+   "headH": 209,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 331,
+   "thumb": {
+    "w": 331,
+    "h": 186
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 165,
+    "14": 242,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1145,
+   "px12": 1,
+   "pxLt14": 15.4,
+   "docH": 2086
+  },
+  "home-1440": {
+   "view": "home",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "firstCardTop": 266,
+   "headH": 209,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330,
+    330
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 331,
+   "thumb": {
+    "w": 331,
+    "h": 186
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 36,
+   "targets": 23,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 165,
+    "14": 242,
+    "15": 27,
+    "16": 105,
+    "18": 588,
+    "28": 7
+   },
+   "chars": 1145,
+   "px12": 1,
+   "pxLt14": 15.4,
+   "docH": 2086
+  },
+  "post-360": {
+   "view": "post",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 360,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "h1H": 123,
+   "ctaTop": 502,
+   "ctaBottom": 554,
+   "charsPerLine": 23.5,
+   "charsPerLineMin": 20,
+   "charsPerLineMax": 26,
+   "bodyColW": 328,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 41,
+     "w": 316
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 58,
+    "14": 375,
+    "15": 112,
+    "16": 929,
+    "19": 42,
+    "23": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 4.7,
+   "docH": 3734
+  },
+  "post-390": {
+   "view": "post",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 390,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "h1H": 92,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 27.2,
+   "charsPerLineMin": 24,
+   "charsPerLineMax": 30,
+   "bodyColW": 358,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 58,
+    "14": 375,
+    "15": 112,
+    "16": 929,
+    "19": 42,
+    "23": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 4.7,
+   "docH": 3533
+  },
+  "post-768": {
+   "view": "post",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 768,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "h1H": 113,
+   "ctaTop": 436,
+   "ctaBottom": 488,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 58,
+    "14": 365,
+    "15": 122,
+    "16": 929,
+    "19": 42,
+    "28": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 4.7,
+   "docH": 3097
+  },
+  "post-834": {
+   "view": "post",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 834,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "h1H": 113,
+   "ctaTop": 436,
+   "ctaBottom": 488,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 58,
+    "14": 365,
+    "15": 122,
+    "16": 929,
+    "19": 42,
+    "28": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 4.7,
+   "docH": 3097
+  },
+  "post-1024": {
+   "view": "post",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 555,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 43,
+    "14": 380,
+    "15": 122,
+    "16": 929,
+    "19": 42,
+    "28": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 3.8,
+   "docH": 2488
+  },
+  "post-1280": {
+   "view": "post",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 532,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 43,
+    "14": 380,
+    "15": 122,
+    "16": 929,
+    "19": 42,
+    "28": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 3.8,
+   "docH": 2466
+  },
+  "post-1440": {
+   "view": "post",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "h1H": 113,
+   "ctaTop": 392,
+   "ctaBottom": 444,
+   "charsPerLine": 42.7,
+   "charsPerLineMin": 38,
+   "charsPerLineMax": 47,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 532,
+   "targets": 22,
+   "small": [
+    {
+     "t": "정정·삭제 요청 절차",
+     "h": 17,
+     "w": 108
+    },
+    {
+     "t": "인스타그램 @politics_crush (정",
+     "h": 17,
+     "w": 242
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 17,
+    "13": 43,
+    "14": 380,
+    "15": 122,
+    "16": 929,
+    "19": 42,
+    "28": 55
+   },
+   "chars": 1588,
+   "px12": 1.1,
+   "pxLt14": 3.8,
+   "docH": 2466
+  },
+  "en-360": {
+   "view": "en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 328,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1375
+  },
+  "en-390": {
+   "view": "en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 263,
+   "headH": 206,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    108,
+    108,
+    108,
+    128
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 1,
+   "cardW": 358,
+   "thumb": {
+    "w": 104,
+    "h": 59
+   },
+   "rowHeightSpread": 0,
+   "introH": 44,
+   "h1H": 48,
+   "targets": 8,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 99,
+    "14": 447,
+    "15": 721,
+    "16": 7,
+    "22": 7
+   },
+   "chars": 1291,
+   "px12": 0.8,
+   "pxLt14": 8.4,
+   "docH": 1375
+  },
+  "en-768": {
+   "view": "en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 262,
+   "headH": 205,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    307,
+    307,
+    309,
+    309
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 336,
+   "thumb": {
+    "w": 336,
+    "h": 189
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 106,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "17": 533,
+    "26": 7
+   },
+   "chars": 1323,
+   "px12": 0.8,
+   "pxLt14": 8.8,
+   "docH": 1419
+  },
+  "en-834": {
+   "view": "en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 262,
+   "headH": 205,
+   "cardsFullyVisible": 4,
+   "cardsFullyVisibleVp": 4,
+   "cardH": [
+    326,
+    326,
+    328,
+    328
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 2,
+   "cardW": 369,
+   "thumb": {
+    "w": 369,
+    "h": 208
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 106,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "17": 533,
+    "26": 7
+   },
+   "chars": 1323,
+   "px12": 0.8,
+   "pxLt14": 8.8,
+   "docH": 1434
+  },
+  "en-1024": {
+   "view": "en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 262,
+   "headH": 205,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    299,
+    299,
+    299,
+    301
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 283,
+   "thumb": {
+    "w": 283,
+    "h": 159
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 52,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 106,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "17": 533,
+    "26": 7
+   },
+   "chars": 1323,
+   "px12": 0.8,
+   "pxLt14": 8.8,
+   "docH": 1313
+  },
+  "en-1280": {
+   "view": "en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 266,
+   "headH": 209,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    330,
+    330,
+    330,
+    333
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 331,
+   "thumb": {
+    "w": 331,
+    "h": 186
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 106,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1323,
+   "px12": 0.8,
+   "pxLt14": 8.8,
+   "docH": 1387
+  },
+  "en-1440": {
+   "view": "en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "firstCardTop": 266,
+   "headH": 209,
+   "cardsFullyVisible": 3,
+   "cardsFullyVisibleVp": 3,
+   "cardH": [
+    330,
+    330,
+    330,
+    333
+   ],
+   "titleLines": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "cols": 3,
+   "cardW": 331,
+   "thumb": {
+    "w": 331,
+    "h": 186
+   },
+   "rowHeightSpread": 0,
+   "introH": 48,
+   "h1H": 56,
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 10,
+    "13": 106,
+    "14": 460,
+    "15": 67,
+    "16": 140,
+    "18": 533,
+    "28": 7
+   },
+   "chars": 1323,
+   "px12": 0.8,
+   "pxLt14": 8.8,
+   "docH": 1387
+  },
+  "post-en-360": {
+   "view": "post-en",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 216,
+   "ctaTop": 614,
+   "ctaBottom": 666,
+   "charsPerLine": 36.9,
+   "charsPerLineMin": 29,
+   "charsPerLineMax": 43,
+   "bodyColW": 328,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 41,
+     "w": 281
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 248
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 875,
+    "15": 154,
+    "16": 2276,
+    "19": 123,
+    "23": 142
+   },
+   "chars": 3682,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 4636
+  },
+  "post-en-390": {
+   "view": "post-en",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 185,
+   "ctaTop": 583,
+   "ctaBottom": 635,
+   "charsPerLine": 40.2,
+   "charsPerLineMin": 33,
+   "charsPerLineMax": 46,
+   "bodyColW": 358,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 341
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 875,
+    "15": 154,
+    "16": 2276,
+    "19": 123,
+    "23": 142
+   },
+   "chars": 3682,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 4460
+  },
+  "post-en-768": {
+   "view": "post-en",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 2276,
+    "19": 123,
+    "28": 142
+   },
+   "chars": 3711,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3493
+  },
+  "post-en-834": {
+   "view": "post-en",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 0,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 2276,
+    "19": 123,
+    "28": 142
+   },
+   "chars": 3711,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 3471
+  },
+  "post-en-1024": {
+   "view": "post-en",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 585,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 41,
+     "w": 849
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 2276,
+    "19": 123,
+    "28": 142
+   },
+   "chars": 3711,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 2983
+  },
+  "post-en-1280": {
+   "view": "post-en",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 562,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 2276,
+    "19": 123,
+    "28": 142
+   },
+   "chars": 3711,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 2959
+  },
+  "post-en-1440": {
+   "view": "post-en",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "h1H": 150,
+   "ctaTop": 471,
+   "ctaBottom": 523,
+   "charsPerLine": 64.2,
+   "charsPerLineMin": 51,
+   "charsPerLineMax": 73,
+   "bodyColW": 576,
+   "bodyFs": 16,
+   "bodyLh": 1.75,
+   "shareTop": 562,
+   "targets": 18,
+   "small": [
+    {
+     "t": "correction and removal r",
+     "h": 17,
+     "w": 257
+    },
+    {
+     "t": "Instagram @politics_crus",
+     "h": 17,
+     "w": 246
+    }
+   ],
+   "narrow": [],
+   "sizeHist": {
+    "12": 12,
+    "13": 100,
+    "14": 892,
+    "15": 166,
+    "16": 2276,
+    "19": 123,
+    "28": 142
+   },
+   "chars": 3711,
+   "px12": 0.3,
+   "pxLt14": 3,
+   "docH": 2959
+  },
+  "states-360": {
+   "view": "states",
+   "innerW": 360,
+   "scrollW": 360,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 360,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 106,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 30.7,
+   "docH": 1501
+  },
+  "states-390": {
+   "view": "states",
+   "innerW": 390,
+   "scrollW": 390,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 390,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 106,
+    "14": 225,
+    "15": 32,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 30.7,
+   "docH": 1530
+  },
+  "states-768": {
+   "view": "states",
+   "innerW": 768,
+   "scrollW": 768,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 768,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 106,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 30.7,
+   "docH": 1039
+  },
+  "states-834": {
+   "view": "states",
+   "innerW": 834,
+   "scrollW": 834,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 0,
+    "y": 57,
+    "w": 834,
+    "h": 44,
+    "pos": "sticky"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 106,
+    "14": 215,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 30.7,
+   "docH": 1194
+  },
+  "states-1024": {
+   "view": "states",
+   "innerW": 1024,
+   "scrollW": 1024,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 976,
+    "y": 173,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 91,
+    "14": 230,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 26.8,
+   "docH": 1039
+  },
+  "states-1280": {
+   "view": "states",
+   "innerW": 1280,
+   "scrollW": 1280,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1232,
+    "y": 189,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 91,
+    "14": 230,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 26.8,
+   "docH": 1102
+  },
+  "states-1440": {
+   "view": "states",
+   "innerW": 1440,
+   "scrollW": 1440,
+   "overflow": false,
+   "hdrH": 57,
+   "banner": {
+    "x": 1392,
+    "y": 239,
+    "w": 48,
+    "h": 423,
+    "pos": "fixed"
+   },
+   "targets": 7,
+   "small": [],
+   "narrow": [],
+   "sizeHist": {
+    "12": 11,
+    "13": 91,
+    "14": 230,
+    "15": 42,
+    "16": 7
+   },
+   "chars": 381,
+   "px12": 2.9,
+   "pxLt14": 26.8,
+   "docH": 1102
+  },
+  "overflow": [
+   {
+    "view": "home",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "home",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "home",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "home",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "home",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "home",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "home",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "home",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "home",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "home",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "post",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "post-en",
+    "w": 180,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 195,
+    "o": false,
+    "sw": 294,
+    "iw": 294
+   },
+   {
+    "view": "post-en",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "post-en",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "post-en",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "post-en",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "post-en",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "post-en",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "post-en",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "post-en",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "post-en",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   },
+   {
+    "view": "states",
+    "w": 180,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 195,
+    "o": false,
+    "sw": 276,
+    "iw": 276
+   },
+   {
+    "view": "states",
+    "w": 320,
+    "o": false,
+    "sw": 320,
+    "iw": 320
+   },
+   {
+    "view": "states",
+    "w": 360,
+    "o": false,
+    "sw": 360,
+    "iw": 360
+   },
+   {
+    "view": "states",
+    "w": 390,
+    "o": false,
+    "sw": 390,
+    "iw": 390
+   },
+   {
+    "view": "states",
+    "w": 640,
+    "o": false,
+    "sw": 640,
+    "iw": 640
+   },
+   {
+    "view": "states",
+    "w": 768,
+    "o": false,
+    "sw": 768,
+    "iw": 768
+   },
+   {
+    "view": "states",
+    "w": 834,
+    "o": false,
+    "sw": 834,
+    "iw": 834
+   },
+   {
+    "view": "states",
+    "w": 1024,
+    "o": false,
+    "sw": 1024,
+    "iw": 1024
+   },
+   {
+    "view": "states",
+    "w": 1280,
+    "o": false,
+    "sw": 1280,
+    "iw": 1280
+   },
+   {
+    "view": "states",
+    "w": 1440,
+    "o": false,
+    "sw": 1440,
+    "iw": 1440
+   }
+  ]
+ }
+}

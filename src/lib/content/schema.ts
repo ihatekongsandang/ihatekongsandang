@@ -42,10 +42,109 @@ export interface PostSource {
   date: string
 }
 
+/**
+ * 이미지 출처 종류 (프로그래머 13 · `planning/card-image-policy.md` §4.2·§5 P1).
+ *  - `self`: 운영자가 만든 이미지(기존 텍스트 카드 등). 생략하면 이 값이다.
+ *  - `public`: 공공누리 제1유형 공공저작물. 저장소(`/images/`)에 저장한다.
+ *  - `news`: 근거 언론 기사의 대표 이미지(`og:image`). **핫링크만** — 저장·프록시·next/image 금지.
+ */
+export const IMAGE_KINDS = ['self', 'public', 'news'] as const
+export type ImageKind = (typeof IMAGE_KINDS)[number]
+
+/**
+ * 공공누리 유형. 지금은 제1유형만 받는다.
+ * 제3유형(`kogl-3`)은 무변형 표시(P5)가 구현되기 전까지 **오류**로 막는다.
+ */
+export const IMAGE_LICENSES = ['kogl-1'] as const
+export type ImageLicense = (typeof IMAGE_LICENSES)[number]
+
+/**
+ * 포털 도메인(전재 URL) — `kind: news`의 `src`·`sourcePageUrl`에서 거부한다(PRD §5.4 원 매체 원칙, 리뷰 30 L2).
+ * 호스트가 이 값이거나 이 값의 하위 도메인이면 걸린다. 이미지 CDN(pstatic·daumcdn·nateimg)도 포털 전재 이미지라 함께 막는다.
+ */
+export const PORTAL_HOSTS = [
+  'naver.com',
+  'naver.net',
+  'pstatic.net',
+  'daum.net',
+  'daumcdn.net',
+  'kakaocdn.net',
+  'nate.com',
+  'nateimg.co.kr',
+  'zum.com',
+  // 리뷰 31 P3-1(프로그래머 14-1): 단축 주소·뉴스 집계 서비스. kakao.com·google.com 전체는 막지 않고 뉴스 호스트만 막는다.
+  'naver.me',
+  'news.kakao.com',
+  'news.google.com',
+  'msn.com',
+] as const
+
+/**
+ * `kind: news`의 `src`로 쓸 수 없는 주소인가(리뷰 31 P3-2) — 업로더 실수 방지.
+ * - 로컬·사설 주소: `localhost`·`*.localhost`·`*.local`·`*.internal`, IPv4 사설·루프백·링크 로컬·0.0.0.0, IPv6 루프백·사설(fc00::/7)·링크 로컬(fe80::/10)
+ * - 명백한 문서 주소: 경로가 `.html`·`.htm`·`.php`·`.asp`·`.aspx`·`.jsp`로 끝남(og:image는 이미지 파일 주소다)
+ * 이미지인지 끝까지 확인하는 것은 응답의 `content-type`을 보는 `npm run check:hotlinks`가 맡는다.
+ * 돌려주는 값은 사유 문장, 문제가 없으면 undefined.
+ */
+export function unusableNewsImageReason(value: string): string | undefined {
+  let url: URL
+  try {
+    url = new URL(value)
+  } catch {
+    return undefined
+  }
+  const host = url.hostname.toLowerCase().replace(/\.$/, '')
+  if (host === 'localhost' || /\.(localhost|local|internal)$/.test(host)) return '로컬 주소'
+  const v4 = host.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/)
+  if (v4) {
+    const [a, b] = [Number(v4[1]), Number(v4[2])]
+    if (a === 10 || a === 127 || a === 0 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168)) {
+      return '사설·루프백 IP 주소'
+    }
+  }
+  if (host.startsWith('[')) {
+    const v6 = host.slice(1, -1)
+    if (v6 === '::1' || v6 === '::' || /^f[cd][0-9a-f]{2}:/.test(v6) || /^fe[89ab][0-9a-f]:/.test(v6)) return '사설·루프백 IP 주소'
+  }
+  if (/\.(html?|php|aspx?|jsp)$/i.test(url.pathname)) return '이미지가 아닌 문서(HTML) 주소'
+  return undefined
+}
+
+/** 서울 기준 오늘 날짜(`YYYY-MM-DD`). 확인일이 미래인지 판단할 때 쓴다. */
+function seoulToday(): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date())
+}
+
+/** 상세 figcaption에 쓰는 사진 크레딧(카드 UI에는 쓰지 않는다). */
+export interface ImageCredit {
+  kind: Exclude<ImageKind, 'self'>
+  creditName: string
+  creditNameEn: string
+  sourcePageUrl: string
+  license?: ImageLicense
+}
+
 export interface PostImage {
   src: string
   alt: string
   caption?: string
+  /**
+   * 검증을 거친 값은 항상 채워진다(생략 → `self`). 타입에서 선택으로 둔 것은 검증을 거치지 않고
+   * 손으로 만든 객체(측정 도구의 픽스처 등)와의 호환 때문이다 — `undefined`는 `self`와 같다.
+   */
+  kind?: ImageKind
+  /** public·news 필수: 기관명 또는 언론사명(사진 크레딧이 확인되면 그 표기). */
+  creditName?: string
+  /** public·news 필수: 영어 표기. 영어 상세 figcaption에 쓴다. */
+  creditNameEn?: string
+  /** public·news 필수: public은 공공누리 마크가 있는 원 페이지, news는 `sources[].url` 중 하나인 근거 기사. */
+  sourcePageUrl?: string
+  /** public만 필수: `kogl-1`. */
+  license?: ImageLicense
+  /** public·news 필수: 확인일 `YYYY-MM-DD`. */
+  retrievedAt?: string
+  /** public·news 필수: 인물·얼굴 판정 근거 한 줄(공인 직위·캡션 출처, 또는 "얼굴 없음"). 화면에는 나오지 않는다. */
+  faceNote?: string
 }
 
 /** 발언·논평을 정리한 게시물에서 누구의 말인지 표기한다(선택). */
@@ -162,16 +261,48 @@ function isLocalImagePath(value: unknown): value is string {
   return Boolean(raw && raw.startsWith('/images/') && !raw.includes('..'))
 }
 
-interface ValidateOptions {
+/** 호스트가 포털 도메인(또는 그 하위 도메인)인가. URL이 아니면 false. */
+export function isPortalUrl(value: string): boolean {
+  let host: string
+  try {
+    host = new URL(value).hostname.toLowerCase().replace(/\.$/, '')
+  } catch {
+    return false
+  }
+  return PORTAL_HOSTS.some((portal) => host === portal || host.endsWith(`.${portal}`))
+}
+
+/** 같은 URL인지 비교한다(앞뒤 공백만 무시하고 글자 그대로 — 정규화로 다른 기사를 같은 기사로 보지 않는다). */
+function sameUrl(a: string, b: string): boolean {
+  return a.trim() === b.trim()
+}
+
+export interface ValidateOptions {
   /** `/images/...` 경로의 실제 파일 존재 여부. 스크립트는 파일시스템 검사를 넘긴다. */
   localImageExists?: (src: string) => boolean
+  /** "오늘"(`YYYY-MM-DD`, 서울 기준). 기본은 실행 시점. 미래 확인일 검사(`retrievedAt`)에 쓴다 — 테스트에서 고정할 때만 넘긴다. */
+  today?: string
 }
+
+interface ImageContext {
+  /** 대표 이미지(`image`)인가. `images[]`(사진 유형 갤러리)는 false. */
+  isFeatured: boolean
+  /** 게시물 유형(검증 실패 시 undefined). */
+  sourceType?: SourceType
+  /** 이미 검증을 통과한 `sources[]`. `kind: news`의 `sourcePageUrl` 대조에 쓴다. */
+  sources: PostSource[]
+}
+
+/** public·news 전용 필드. self에 들어 있으면 알려 준다(화면에 쓰이지 않는다). */
+const CREDIT_FIELDS = ['creditName', 'creditNameEn', 'sourcePageUrl', 'license', 'retrievedAt', 'faceNote'] as const
 
 function validateImageEntry(
   raw: unknown,
   label: string,
   errors: string[],
+  notices: string[],
   options: ValidateOptions,
+  context: ImageContext,
 ): PostImage | undefined {
   if (!isPlainObject(raw)) {
     errors.push(`${label}: 객체여야 합니다(src·alt 필드).`)
@@ -180,7 +311,49 @@ function validateImageEntry(
   const src = raw.src
   const alt = asTrimmedString(raw.alt)
   let ok = true
-  if (!isLocalImagePath(src)) {
+
+  // --- kind (생략 = self, 기존 게시물 호환) ---
+  let kind: ImageKind = 'self'
+  if (raw.kind !== undefined && raw.kind !== null) {
+    const kindRaw = asTrimmedString(raw.kind)
+    const found = IMAGE_KINDS.find((value) => value === kindRaw)
+    if (!found) {
+      errors.push(`${label}.kind: ${IMAGE_KINDS.join(' / ')} 중 하나여야 합니다(생략하면 self). (받은 값: ${String(raw.kind)})`)
+      return undefined
+    }
+    kind = found
+  }
+
+  // public·news는 대표 이미지(`image`) 한 장에만 쓴다.
+  // - `images[]`는 사진 유형 갤러리로 next/image(최적화 프록시)를 거치고 크레딧 표시가 없다 → news 핫링크 금지(리뷰 30 L1·L4), public 크레딧 누락.
+  // - 사진 유형(photo·photo_text) 상세는 `images[]` 갤러리만 그려 대표 이미지의 크레딧이 화면에 나오지 않는다.
+  if (kind !== 'self') {
+    if (!context.isFeatured) {
+      errors.push(`${label}.kind: \`${kind}\`는 대표 이미지(\`image\`)에만 쓸 수 있습니다 — \`images[]\`는 self만 받습니다(갤러리는 크레딧 표시가 없고 최적화 프록시를 거칩니다).`)
+      return undefined
+    }
+    if (context.sourceType && context.sourceType !== 'url') {
+      errors.push(`${label}.kind: \`${kind}\`는 sourceType \`url\` 게시물에만 쓸 수 있습니다 — 사진 유형 상세는 \`images[]\`만 표시해 크레딧이 나오지 않습니다.`)
+      return undefined
+    }
+  }
+
+  // --- src ---
+  if (kind === 'news') {
+    if (!isHttpsUrl(src)) {
+      errors.push(`${label}.src: kind \`news\`는 근거 기사 og:image의 https URL이어야 합니다(핫링크, 저장 금지). (받은 값: ${String(src)})`)
+      ok = false
+    } else if (isPortalUrl(src.trim())) {
+      errors.push(`${label}.src: 포털 도메인 이미지는 쓸 수 없습니다 — 원 매체 기사의 og:image를 쓰세요. (받은 값: ${src.trim()})`)
+      ok = false
+    } else {
+      const reason = unusableNewsImageReason(src.trim())
+      if (reason) {
+        errors.push(`${label}.src: ${reason}는 쓸 수 없습니다 — 원 매체 기사 og:image의 이미지 파일 주소를 쓰세요. (받은 값: ${src.trim()})`)
+        ok = false
+      }
+    }
+  } else if (!isLocalImagePath(src)) {
     errors.push(`${label}.src: \`/images/\`로 시작하는 저장소 내 경로여야 합니다. (받은 값: ${String(src)})`)
     ok = false
   } else if (options.localImageExists && !options.localImageExists(src)) {
@@ -191,12 +364,107 @@ function validateImageEntry(
     errors.push(`${label}.alt: 필수입니다(WCAG 2.2 AA 1.1.1). 이미지를 설명하는 문장을 쓰세요.`)
     ok = false
   }
-  if (!ok) return undefined
   const caption = asTrimmedString(raw.caption)
+
+  if (kind === 'self') {
+    for (const field of CREDIT_FIELDS) {
+      if (raw[field] !== undefined && raw[field] !== null) {
+        notices.push(`${label}.${field}는 kind \`public\`·\`news\`에서만 쓰입니다 — kind가 self(생략)라 무시됩니다.`)
+      }
+    }
+    if (!ok) return undefined
+    return {
+      src: (src as string).trim(),
+      alt: alt as string,
+      ...(caption ? { caption } : {}),
+      kind,
+    }
+  }
+
+  // --- public·news 공통: 크레딧·확인일·얼굴 판정 근거 ---
+  const creditName = asTrimmedString(raw.creditName)
+  const creditNameEn = asTrimmedString(raw.creditNameEn)
+  const retrievedAt = toIsoDate(raw.retrievedAt)
+  const faceNote = asTrimmedString(raw.faceNote)
+  if (!creditName) {
+    errors.push(`${label}.creditName: kind \`${kind}\`이면 필수입니다(${kind === 'public' ? '기관명' : '언론사명 또는 기사 속 사진 크레딧'}).`)
+    ok = false
+  }
+  if (!creditNameEn) {
+    errors.push(`${label}.creditNameEn: kind \`${kind}\`이면 필수입니다(영어 상세의 "Photo: …" 표기).`)
+    ok = false
+  }
+  if (!retrievedAt) {
+    errors.push(`${label}.retrievedAt: kind \`${kind}\`이면 필수이며 \`YYYY-MM-DD\` 형식이어야 합니다(확인일). (받은 값: ${String(raw.retrievedAt)})`)
+    ok = false
+  } else {
+    // 리뷰 31 P3-3: 확인일은 오늘(서울) 이후일 수 없다 — 날짜 오타 방지.
+    const today = options.today ?? seoulToday()
+    if (retrievedAt > today) {
+      errors.push(`${label}.retrievedAt: 미래 날짜는 쓸 수 없습니다(오늘 ${today}). 원문을 실제로 확인한 날을 적으세요. (받은 값: ${retrievedAt})`)
+      ok = false
+    }
+  }
+  if (!faceNote) {
+    errors.push(`${label}.faceNote: kind \`${kind}\`이면 필수입니다 — 인물 판정 근거(공인 직위·캡션 출처) 또는 "얼굴 없음"을 한 줄로 적으세요.`)
+    ok = false
+  }
+
+  // --- sourcePageUrl ---
+  const sourcePageUrlRaw = raw.sourcePageUrl
+  let sourcePageUrl: string | undefined
+  if (!isHttpUrl(sourcePageUrlRaw)) {
+    errors.push(`${label}.sourcePageUrl: kind \`${kind}\`이면 필수이며 http(s) URL이어야 합니다(${kind === 'public' ? '공공누리 마크가 있는 원 페이지' : '근거 기사'}). (받은 값: ${String(sourcePageUrlRaw)})`)
+    ok = false
+  } else {
+    sourcePageUrl = sourcePageUrlRaw.trim()
+    if (isPortalUrl(sourcePageUrl)) {
+      errors.push(`${label}.sourcePageUrl: 포털 전재 주소는 쓸 수 없습니다 — 원 매체 주소를 쓰세요. (받은 값: ${sourcePageUrl})`)
+      ok = false
+    } else if (kind === 'news') {
+      const matched = context.sources.find((source) => sameUrl(source.url, sourcePageUrl as string))
+      if (!matched) {
+        errors.push(`${label}.sourcePageUrl: kind \`news\`이면 이 게시물 \`sources[].url\` 중 하나와 글자 그대로 같아야 합니다. (받은 값: ${sourcePageUrl})`)
+        ok = false
+      } else if (matched.type !== '언론') {
+        errors.push(`${label}.sourcePageUrl: kind \`news\`는 type \`언론\`인 출처의 기사만 쓸 수 있습니다. (일치한 출처 type: ${matched.type})`)
+        ok = false
+      }
+    }
+  }
+
+  // --- license ---
+  const licenseRaw = raw.license
+  let license: ImageLicense | undefined
+  if (kind === 'public') {
+    const value = asTrimmedString(licenseRaw)
+    if (value === 'kogl-3') {
+      errors.push(`${label}.license: 공공누리 제3유형(kogl-3)은 무변형 표시가 구현되기 전까지 쓸 수 없습니다(정책 P5 미구현).`)
+      ok = false
+    } else {
+      license = IMAGE_LICENSES.find((item) => item === value)
+      if (!license) {
+        errors.push(`${label}.license: kind \`public\`이면 필수이며 ${IMAGE_LICENSES.join(' / ')}만 쓸 수 있습니다. (받은 값: ${String(licenseRaw)})`)
+        ok = false
+      }
+    }
+  } else if (licenseRaw !== undefined && licenseRaw !== null) {
+    errors.push(`${label}.license: 공공누리 유형은 kind \`public\`에만 씁니다 — kind \`news\`에서는 이 줄을 지우세요.`)
+    ok = false
+  }
+
+  if (!ok) return undefined
   return {
     src: (src as string).trim(),
     alt: alt as string,
     ...(caption ? { caption } : {}),
+    kind,
+    creditName,
+    creditNameEn,
+    sourcePageUrl,
+    ...(license ? { license } : {}),
+    retrievedAt,
+    faceNote,
   }
 }
 
@@ -367,14 +635,18 @@ export function validatePost(
   // --- 이미지 ---
   const image = data.image === undefined || data.image === null
     ? undefined
-    : validateImageEntry(data.image, 'image', errors, options)
+    : validateImageEntry(data.image, 'image', errors, notices, options, { isFeatured: true, sourceType, sources })
   const images: PostImage[] = []
   if (data.images !== undefined && data.images !== null) {
     if (!Array.isArray(data.images)) {
       errors.push('images: 배열이어야 합니다.')
     } else {
       data.images.forEach((entry, index) => {
-        const parsed = validateImageEntry(entry, `images[${index}]`, errors, options)
+        const parsed = validateImageEntry(entry, `images[${index}]`, errors, notices, options, {
+          isFeatured: false,
+          sourceType,
+          sources,
+        })
         if (parsed) images.push(parsed)
       })
     }
@@ -479,15 +751,34 @@ export function validatePost(
   return { errors, notices, post }
 }
 
-/** 카드·상세에서 쓸 대표 이미지 결정 규칙. */
+/**
+ * 카드·상세에서 쓸 대표 이미지 결정 규칙.
+ * `credit`은 public·news 대표 이미지에만 붙는다(상세 figcaption용). self 이미지는 이전과 같은 모양이다.
+ */
 export type CardMedia =
-  | { kind: 'local'; src: string; alt: string }
-  | { kind: 'remote'; src: string; alt: string }
+  | { kind: 'local'; src: string; alt: string; credit?: ImageCredit }
+  | { kind: 'remote'; src: string; alt: string; credit?: ImageCredit }
   | { kind: 'placeholder' }
+
+function imageCredit(image: PostImage): ImageCredit | undefined {
+  if (!image.kind || image.kind === 'self' || !image.creditName || !image.creditNameEn || !image.sourcePageUrl) return undefined
+  return {
+    kind: image.kind,
+    creditName: image.creditName,
+    creditNameEn: image.creditNameEn,
+    sourcePageUrl: image.sourcePageUrl,
+    ...(image.license ? { license: image.license } : {}),
+  }
+}
 
 /** `locale`은 원문 썸네일(핫링크) 대체 텍스트의 언어만 정한다 — 저장소 이미지 alt는 게시물(영어본이면 영어) 값을 쓴다. */
 export function resolveCardMedia(post: Post, locale: Locale = 'ko'): CardMedia {
-  if (post.image) return { kind: 'local', src: post.image.src, alt: post.image.alt }
+  if (post.image) {
+    const credit = imageCredit(post.image)
+    // news: 근거 기사 og:image 핫링크 → <img> 직접 참조(remote). alt는 업로더가 쓴 image.alt(일반 문구가 아님, 정책 P3).
+    const kind = post.image.kind === 'news' ? 'remote' : 'local'
+    return { kind, src: post.image.src, alt: post.image.alt, ...(credit ? { credit } : {}) }
+  }
   const first = post.images[0]
   if (first) return { kind: 'local', src: first.src, alt: first.alt }
   if (post.sourceType === 'url' && post.useSourceImage && post.og?.image) {

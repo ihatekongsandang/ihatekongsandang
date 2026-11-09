@@ -1,0 +1,36 @@
+$ npm run check:hotlinks
+
+> ihatekongsandang@0.1.0 check:hotlinks
+> tsx scripts/check-hotlinks.ts
+
+핫링크 점검 — content/posts 207건 중 image.kind: news 0건
+Referer: http://localhost:3000/ (사이트 출처만) · 시간 제한 10000ms
+
+── 요약 ── 점검 0건 · 정상 0건 · 깨짐 0건 · 건너뜀 0건
+(이 점검은 빌드를 막지 않습니다 — 종료 코드는 항상 0)
+exit 0
+
+$ npm run check:hotlinks -- docs/tools/programmer-13/fixtures/posts --timeout 8000
+
+> ihatekongsandang@0.1.0 check:hotlinks
+> tsx scripts/check-hotlinks.ts docs/tools/programmer-13/fixtures/posts --timeout 8000
+
+핫링크 점검 — docs/tools/programmer-13/fixtures/posts 2건 중 image.kind: news 1건
+Referer: http://localhost:3000/ (사이트 출처만) · 시간 제한 8000ms
+
+🔴 깨진 핫링크 — 플레이스홀더로 표시되는 중입니다. 다른 기사 이미지로 바꾸거나 `image`를 지우세요.
+  BROKEN  zz-fixture-news-image.md (id zz-fixture-news-image) — 네트워크 오류: fetch failed
+          src: https://img.example.org/og/fixture-news.jpg
+          기사: https://news.example.org/article/fixture
+
+── 요약 ── 점검 1건 · 정상 0건 · 깨짐 1건 · 건너뜀 0건
+(이 점검은 빌드를 막지 않습니다 — 종료 코드는 항상 0)
+exit 0
+
+$ npm run check:hotlinks -- docs/tools/programmer-13/없는-폴더
+
+> ihatekongsandang@0.1.0 check:hotlinks
+> tsx scripts/check-hotlinks.ts docs/tools/programmer-13/없는-폴더
+
+🟡 폴더가 없습니다: docs/tools/programmer-13/없는-폴더 — 점검할 것이 없습니다.
+exit 0

@@ -1,0 +1,90 @@
+C1 home 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=360x52@0,688 | cols=1 cardW=328 firstTop=234 headH=177 fullyVisible=1 rowsMismatch=0/12 clamped=1/12 mediaH=183-183
+C1 home 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=390x52@0,792 | cols=1 cardW=358 firstTop=234 headH=177 fullyVisible=1 rowsMismatch=0/12 clamped=1/12 mediaH=200-200
+C1 home 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=768x52@0,972 | cols=2 cardW=350 firstTop=324 headH=267 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=196-196
+C1 home 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=834x52@0,1142 | cols=2 cardW=383 firstTop=324 headH=267 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=214-214
+C1 home 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | cols=3 cardW=299 firstTop=276 headH=219 fullyVisible=3 rowsMismatch=0/4 clamped=2/12 mediaH=167-167
+C1 home 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | cols=3 cardW=352 firstTop=276 headH=219 fullyVisible=3 rowsMismatch=0/4 clamped=1/12 mediaH=197-197
+C1 home 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | cols=3 cardW=352 firstTop=276 headH=219 fullyVisible=3 rowsMismatch=0/4 clamped=1/12 mediaH=197-197
+C1 home 320(reflow) overflowX=0
+C1 home 384(reflow) overflowX=0
+C1 home 640(reflow) overflowX=0
+C1 post 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=360x52@0,688 | ctaY=535 titleLines=4 body 17px/29.75px w=328 cpl=24 (p1 26) en cpl=37 w=328
+C1 post 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=390x52@0,792 | ctaY=521 titleLines=3 body 17px/29.75px w=358 cpl=25 (p1 29) en cpl=41 w=358
+C1 post 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=768x52@0,972 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C1 post 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=834x52@0,1142 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C1 post 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | ctaY=625 titleLines=2 body 17px/29.75px w=640 cpl=43 (p1 47) en cpl=74 w=640
+C1 post 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C1 post 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C1 post 320(reflow) overflowX=0
+C1 post 384(reflow) overflowX=0
+C1 post 640(reflow) overflowX=0
+C1 en 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=1 cardW=328 firstTop=219 headH=162 fullyVisible=1 rowsMismatch=0/4 clamped=2/4 mediaH=183-183
+C1 en 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=1 cardW=358 firstTop=190 headH=133 fullyVisible=1 rowsMismatch=0/4 clamped=1/4 mediaH=200-200
+C1 en 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=350 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=196-196
+C1 en 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=383 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=214-214
+C1 en 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=299 firstTop=230 headH=173 fullyVisible=3 rowsMismatch=0/2 clamped=3/4 mediaH=167-167
+C1 en 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=352 firstTop=230 headH=173 fullyVisible=3 rowsMismatch=0/2 clamped=1/4 mediaH=197-197
+C1 en 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=352 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=197-197
+C1 en 320(reflow) overflowX=0
+C1 en 384(reflow) overflowX=0
+C1 en 640(reflow) overflowX=0
+C2 home 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@96,684 | cols=1 cardW=328 firstTop=234 headH=177 fullyVisible=1 rowsMismatch=0/12 clamped=1/12 mediaH=185-185
+C2 home 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@126,788 | cols=1 cardW=358 firstTop=234 headH=177 fullyVisible=1 rowsMismatch=0/12 clamped=1/12 mediaH=201-201
+C2 home 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@504,968 | cols=2 cardW=720/350 firstTop=324 headH=267 fullyVisible=1 rowsMismatch=0/7 clamped=1/12 mediaH=197-360
+C2 home 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@570,1138 | cols=2 cardW=786/383 firstTop=324 headH=267 fullyVisible=1 rowsMismatch=0/7 clamped=1/12 mediaH=215-393
+C2 home 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | cols=3 cardW=623/301 firstTop=276 headH=219 fullyVisible=2 rowsMismatch=0/5 clamped=2/12 mediaH=169-350
+C2 home 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | cols=4 cardW=540/258 firstTop=276 headH=219 fullyVisible=3 rowsMismatch=0/4 clamped=1/12 mediaH=145-270
+C2 home 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | cols=4 cardW=540/258 firstTop=276 headH=219 fullyVisible=3 rowsMismatch=0/4 clamped=1/12 mediaH=145-270
+C2 home 320(reflow) overflowX=0
+C2 home 384(reflow) overflowX=0
+C2 home 640(reflow) overflowX=0
+C2 post 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@96,684 | ctaY=535 titleLines=4 body 17px/29.75px w=328 cpl=24 (p1 26) en cpl=37 w=328
+C2 post 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@126,788 | ctaY=521 titleLines=3 body 17px/29.75px w=358 cpl=25 (p1 29) en cpl=41 w=358
+C2 post 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@504,968 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C2 post 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=252x44@570,1138 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C2 post 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | ctaY=625 titleLines=2 body 17px/29.75px w=640 cpl=43 (p1 47) en cpl=74 w=640
+C2 post 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C2 post 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C2 post 320(reflow) overflowX=0
+C2 post 384(reflow) overflowX=0
+C2 post 640(reflow) overflowX=0
+C2 en 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=1 cardW=328 firstTop=219 headH=162 fullyVisible=1 rowsMismatch=0/4 clamped=2/4 mediaH=185-185
+C2 en 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=1 cardW=358 firstTop=190 headH=133 fullyVisible=1 rowsMismatch=0/4 clamped=1/4 mediaH=201-201
+C2 en 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=720/350 firstTop=230 headH=173 fullyVisible=1 rowsMismatch=0/3 clamped=1/4 mediaH=197-360
+C2 en 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=786/383 firstTop=230 headH=173 fullyVisible=3 rowsMismatch=0/3 clamped=1/4 mediaH=215-393
+C2 en 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=623/301 firstTop=230 headH=173 fullyVisible=2 rowsMismatch=0/2 clamped=2/4 mediaH=169-350
+C2 en 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=540/258 firstTop=230 headH=173 fullyVisible=3 rowsMismatch=0/2 clamped=1/4 mediaH=145-270
+C2 en 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=540/258 firstTop=230 headH=173 fullyVisible=3 rowsMismatch=0/2 clamped=1/4 mediaH=145-270
+C2 en 320(reflow) overflowX=0
+C2 en 384(reflow) overflowX=0
+C2 en 640(reflow) overflowX=0
+C3 home 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=360x44@0,696 | cols=2 cardW=158 firstTop=234 headH=177 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=89-89
+C3 home 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=390x44@0,800 | cols=2 cardW=173 firstTop=234 headH=177 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=97-97
+C3 home 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=768x44@0,980 | cols=2 cardW=350 firstTop=324 headH=267 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=197-197
+C3 home 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=834x44@0,1150 | cols=2 cardW=383 firstTop=324 headH=267 fullyVisible=4 rowsMismatch=0/6 clamped=1/12 mediaH=215-215
+C3 home 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | cols=3 cardW=944/299 firstTop=276 headH=219 fullyVisible=1 rowsMismatch=0/5 clamped=1/12 mediaH=168-319
+C3 home 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | cols=4 cardW=1104/258 firstTop=276 headH=219 fullyVisible=1 rowsMismatch=0/4 clamped=1/12 mediaH=145-373
+C3 home 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | cols=4 cardW=1104/258 firstTop=276 headH=219 fullyVisible=1 rowsMismatch=0/4 clamped=1/12 mediaH=145-373
+C3 home 320(reflow) overflowX=0
+C3 home 384(reflow) overflowX=0
+C3 home 640(reflow) overflowX=0
+C3 post 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=360x44@0,696 | ctaY=539 titleLines=4 body 17px/29.75px w=328 cpl=24 (p1 26) en cpl=37 w=328
+C3 post 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=390x44@0,800 | ctaY=525 titleLines=3 body 17px/29.75px w=358 cpl=25 (p1 29) en cpl=41 w=358
+C3 post 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=768x44@0,980 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C3 post 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=834x44@0,1150 | ctaY=643 titleLines=2 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C3 post 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@976,256 | ctaY=625 titleLines=2 body 17px/29.75px w=640 cpl=43 (p1 47) en cpl=74 w=640
+C3 post 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1232,272 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C3 post 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=48x256@1392,322 | ctaY=696 titleLines=3 body 17px/29.75px w=646 cpl=43 (p1 47) en cpl=74 w=672
+C3 post 320(reflow) overflowX=0
+C3 post 384(reflow) overflowX=0
+C3 post 640(reflow) overflowX=0
+C3 en 360: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=158 firstTop=219 headH=162 fullyVisible=4 rowsMismatch=0/2 clamped=3/4 mediaH=89-89
+C3 en 390: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=173 firstTop=190 headH=133 fullyVisible=4 rowsMismatch=0/2 clamped=2/4 mediaH=97-97
+C3 en 768: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=350 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=197-197
+C3 en 834: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=2 cardW=383 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=215-215
+C3 en 1024: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=944/299 firstTop=230 headH=173 fullyVisible=1 rowsMismatch=0/2 clamped=2/4 mediaH=168-319
+C3 en 1280: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=1104/258 firstTop=230 headH=173 fullyVisible=1 rowsMismatch=0/2 clamped=1/4 mediaH=145-373
+C3 en 1440: overflowX=0 headerH=57 12px%=0 minFont=13 smallTargets=0 banner=- | cols=3 cardW=1104/258 firstTop=230 headH=173 fullyVisible=4 rowsMismatch=0/2 clamped=1/4 mediaH=145-373
+C3 en 320(reflow) overflowX=0
+C3 en 384(reflow) overflowX=0
+C3 en 640(reflow) overflowX=0

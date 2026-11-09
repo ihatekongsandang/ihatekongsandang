@@ -102,7 +102,7 @@ $ curl -s http://localhost:3000/post/example-case-c | grep -c 'twitter:image'
 
 ```
 $ node -e "const {fileURLToPath}=require('node:url'); console.log(fileURLToPath(new URL('.', 'file://'+process.cwd()+'/next.config.ts')))"
-/Users/…/ihatekongsandang/          ← 프로젝트 루트로 정확히 계산됨(경로는 마스킹)
+$HOME/ihatekongsandang/          ← 프로젝트 루트로 정확히 계산됨(경로는 마스킹 — 프로그래머 14-1이 홈 경로 표기를 $HOME으로 정리, 리뷰 31 P3-9)
 
 $ npm run build
  ✓ Compiled successfully in 3.7s

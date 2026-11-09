@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <PageFrame locale="ko" languageLinks={{ ko: '/terms', en: '/en/terms' }}>
-      <div className="mx-auto w-full max-w-3xl space-y-10">
+      <div className="reading-page mx-auto w-full space-y-10 pt-5">
         <header className="space-y-3">
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">이용약관·운영 정책</h1>
+          <h1 className="text-[26px] leading-[1.3] font-bold tracking-[-0.02em] md:text-[30px]">이용약관·운영 정책</h1>
           <p className="text-xs text-muted-foreground">
             최종 개정: <time dateTime={SITE.termsLastUpdated}>{SITE.termsLastUpdated}</time>
           </p>
@@ -144,7 +144,7 @@ export default function TermsPage() {
         </Section>
 
         <p className="border-t pt-6 text-sm">
-          <Link href={aboutPath('ko')} className="text-link underline underline-offset-2">
+          <Link href={aboutPath('ko')} className="inline-flex min-h-11 items-center text-link underline underline-offset-2">
             소개로 돌아가기
           </Link>
         </p>

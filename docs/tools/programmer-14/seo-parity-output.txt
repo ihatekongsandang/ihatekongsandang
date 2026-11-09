@@ -1,0 +1,10 @@
+파일 전 799 · 후 799 · 같음 799 · 다름 0
+비교한 head 메타 태그 23344개 · JSON-LD 블록 2324개 · .body 6개
+
+# 양성 대조: 변경 후 사본에서 og:type 1곳·JSON-LD @type 1곳·sitemap 1줄을 바꿨을 때
+파일 전 799 · 후 799 · 같음 796 · 다름 3
+비교한 head 메타 태그 23344개 · JSON-LD 블록 2324개 · .body 6개
+  en/post/2026-07-01-amhaengeosa-lee-nk-military-remark.html: JSON-LD 다름
+  post/2026-07-01-amhaengeosa-lee-nk-military-remark.html: head 메타 다름 
+  본문 다름: sitemap.xml.body
+exit 1

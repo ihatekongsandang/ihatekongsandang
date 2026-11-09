@@ -10,15 +10,29 @@
 :root {
   color-scheme: light;
 
+  /*
+   * v0.3 반응형 개편(프로그래머 14) — 값은 `design/v0.3-responsive/final/tokens.md` §1 그대로.
+   * 대비(라이트): muted/bg 7.73 · muted/surface 7.03 · link/bg 6.7 · line-strong/bg 3.81(비텍스트) · icon/surface 4.4(비텍스트).
+   * `--surface`는 #fafafa → #f4f4f5(보강안의 푸터·배경 보도 상자·대체 카드 면). `--border`는 장식 구분선(1.27:1, 식별에 쓰지 않음)이고,
+   * 누르는 컨트롤·안내 상자의 경계는 `--line-strong`을 쓴다.
+   */
   --background: #ffffff;
   --foreground: #18181b;
-  --surface: #fafafa;
+  --surface: #f4f4f5;
   --surface-strong: #f4f4f5;
   --muted-foreground: #52525b;
   --border: #e4e4e7;
+  --line-strong: #82828a;
+  --icon: #71717a;
   --link: #1d4ed8;
   --ring: #1d4ed8;
-  --radius: 0.625rem;
+  --radius: 0.5rem;
+  --header-h: 56px;
+  /* 휴대폰·태블릿(<1024) 하단 배너 띠 높이(D1). */
+  --banner-h: 52px;
+  /* 상세·소개 본문 폭(tokens §2): ko 36em(612px) · en 33em(561px). */
+  --measure: 612px;
+  --measure-en: 561px;
 
   /*
    * v0.1은 웹폰트를 쓰지 않는다. 시스템 한글 폰트 스택이 담백한 톤에 맞고,
@@ -37,6 +51,8 @@
   --color-surface-strong: var(--surface-strong);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
+  --color-line-strong: var(--line-strong);
+  --color-icon: var(--icon);
   --color-link: var(--link);
   --color-ring: var(--ring);
   --radius-card: var(--radius);
@@ -50,6 +66,8 @@
 
   html {
     -webkit-text-size-adjust: 100%;
+    /* 고정 헤더(56px) 아래로 앵커·포커스가 숨지 않게(WCAG 2.4.11). */
+    scroll-padding-top: calc(var(--header-h) + 16px);
   }
 
   body {
@@ -59,6 +77,9 @@
     /* 한글 가독성 — 기본 줄간격을 넉넉하게 둔다. */
     line-height: 1.65;
     text-wrap: pretty;
+    /* 한국어 단어 중간 끊김 방지 + 긴 URL 넘침 방지(보강안 notes §1 "줄바꿈"). */
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 
   /* 키보드 탐색 인디케이터. 마우스 클릭에는 나타나지 않는다. */
@@ -90,18 +111,27 @@
   border-width: 0;
 }
 
-/* 게시물 본문(마크다운 렌더 결과) — prose 플러그인 없이 최소 규칙만 둔다. */
+/*
+ * 게시물 본문(마크다운 렌더 결과) — prose 플러그인 없이 최소 규칙만 둔다.
+ * 읽기 체계(tokens §2): 17px/1.75, 문단 간격 1.1em, h2 20/1.4, 폭 ko 612px · en 561px.
+ */
 .post-body {
-  font-size: 1rem;
+  max-width: var(--measure);
+  font-size: 17px;
+  line-height: 1.75;
+}
+.post-body:lang(en) {
+  max-width: var(--measure-en);
 }
 .post-body > * + * {
-  margin-top: 1rem;
+  margin-top: 1.1em;
 }
 .post-body h2 {
-  margin-top: 2rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  margin-top: 1.9em;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.015em;
 }
 .post-body h3 {
   margin-top: 1.5rem;
@@ -124,7 +154,7 @@
   list-style: decimal;
 }
 .post-body li + li {
-  margin-top: 0.375rem;
+  margin-top: 0.55em;
 }
 .post-body blockquote {
   padding-left: 0.875rem;
@@ -160,4 +190,98 @@
 }
 .post-body th {
   background-color: var(--surface-strong);
+}
+
+/*
+ * ── v0.3 반응형 개편(프로그래머 14) — 유틸리티 클래스로 쓰기 어려운 규칙만 여기에 둔다 ──
+ * (보강안 `design/v0.3-responsive/final/` · 생성 CSS `docs/tools/designer-05/final.css`와 같은 값)
+ */
+
+/* 소개·약관 읽기 체계(구현 범위 15): 상세 본문과 같은 17/1.75·612px. 문구·마크업은 그대로 두고 글자 체계만 바꾼다. */
+.reading-page {
+  max-width: var(--measure);
+}
+.reading-page:lang(en) {
+  max-width: var(--measure-en);
+}
+.reading-page section p,
+.reading-page section li {
+  font-size: 17px;
+  line-height: 1.75;
+}
+.reading-page section p.text-xs {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.reading-page > header > p:not(.text-xs) {
+  font-size: 17px;
+  line-height: 1.75;
+}
+.reading-page section h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+/* "연락 창구 준비 중" 상자 — 안내 상자 경계는 --line-strong(3.81:1). 상자 마크업(클래스)은 검증 도구가 글자째 읽으므로 그대로 둔다. */
+.reading-page .border-dashed {
+  border-color: var(--line-strong);
+  font-size: 15px;
+}
+
+/* 홈 소개 한 줄 접힘(구현 범위 3): <details> + CSS만, JS 없음. md(768) 이상은 전문. */
+.feed-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 8px;
+  min-height: 44px;
+}
+.feed-intro > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.feed-intro summary {
+  list-style: none;
+}
+.feed-intro summary::-webkit-details-marker {
+  display: none;
+}
+.feed-intro .intro-less,
+.feed-intro details[open] .intro-more {
+  display: none;
+}
+.feed-intro details[open] .intro-less {
+  display: inline;
+}
+.feed-intro:has(details[open]) {
+  grid-template-columns: minmax(0, 1fr);
+}
+.feed-intro:has(details[open]) > p {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+@media (min-width: 768px) {
+  .feed-intro {
+    display: block;
+    min-height: 0;
+  }
+  .feed-intro > p {
+    display: block;
+    -webkit-line-clamp: unset;
+  }
+  .feed-intro details {
+    display: none;
+  }
+}
+
+/* 태그 레일(구현 범위 4): 한 줄 가로 스크롤 + 끝 페이드. 스크롤 막대는 숨기되 키보드·터치 스크롤은 그대로. */
+.tag-rail {
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+}
+.tag-rail::-webkit-scrollbar {
+  display: none;
 }

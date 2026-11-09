@@ -1,0 +1,10 @@
+foreground on background: 17.72:1  기준 4.5:1  PASS
+muted on background: 7.73:1  기준 4.5:1  PASS
+muted on surface: 7.41:1  기준 4.5:1  PASS
+muted on surfaceStrong: 7.03:1  기준 4.5:1  PASS
+foreground on surfaceStrong: 16.12:1  기준 4.5:1  PASS
+link on background: 6.70:1  기준 4.5:1  PASS
+link on surface: 6.42:1  기준 4.5:1  PASS
+border on background: 1.27:1  기준 3:1  FAIL
+border on surface: 1.22:1  기준 3:1  FAIL
+surfaceStrong on background: 1.10:1  기준 3:1  FAIL

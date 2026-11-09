@@ -1,0 +1,13 @@
+변경 전 799개 · 변경 후 799개 · 한쪽에만 있음 0개
+짝 799개 중 정규화 후 같음 799개 · 다름 0개
+
+# 양성 대조: 변경 후 사본에서 (1) 상세 1개의 버튼 문구에 1글자 추가, (2) 피드 1페이지 RSC 데이터의 카드 alt 1글자 변경
+exit 1
+변경 전 799개 · 변경 후 799개 · 한쪽에만 있음 0개
+짝 799개 중 정규화 후 같음 797개 · 다름 2개
+  다름: index.html @73740
+   전: "ush-daejinyeon-kimjongun-welcome-2019/thumb.jpg\\\",\\\"alt\\\":\\\"흰 바탕 왼쪽에 붉은 세로 막대가 있고 '2019년 2월 광화문 \\\\\\\"김정은 방남 환영\\\\\\\" 회견 / 참"
+   후: "ush-daejinyeon-kimjongun-welcome-2019/thumb.jpg\\\",\\\"alt\\\":\\\"검 바탕 왼쪽에 붉은 세로 막대가 있고 '2019년 2월 광화문 \\\\\\\"김정은 방남 환영\\\\\\\" 회견 / 참"
+  다름: post/2026-07-01-amhaengeosa-lee-nk-military-remark.html @12582
+   전: "over:bg-surface-strong h-10 px-4 w-full sm:w-auto\">원문 기사로 이동<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"2"
+   후: "over:bg-surface-strong h-10 px-4 w-full sm:w-auto\">원문 기사로 이동!<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\""

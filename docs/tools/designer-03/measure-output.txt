@@ -1,0 +1,62 @@
+✓ home-ko-360  overflowX=false cols=1 under24=5 under44=23/34
+✓ home-en-360  overflowX=false cols=1 under24=4 under44=7/20
+✓ tag-ko-360  overflowX=false cols=1 under24=5 under44=21/34
+✓ tags-ko-360  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-360  overflowX=false cols=- under24=13 under44=18/22
+✓ post-en-360  overflowX=false cols=- under24=9 under44=14/18
+✓ about-ko-360  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-360  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-390  overflowX=false cols=1 under24=5 under44=25/34
+✓ home-en-390  overflowX=false cols=1 under24=4 under44=7/20
+✓ tag-ko-390  overflowX=false cols=1 under24=5 under44=23/34
+✓ tags-ko-390  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-390  overflowX=false cols=- under24=13 under44=18/22
+✓ post-en-390  overflowX=false cols=- under24=9 under44=14/18
+✓ about-ko-390  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-390  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-768  overflowX=false cols=2 under24=5 under44=26/34
+✓ home-en-768  overflowX=false cols=2 under24=5 under44=8/20
+✓ tag-ko-768  overflowX=false cols=2 under24=5 under44=23/34
+✓ tags-ko-768  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-768  overflowX=false cols=- under24=16 under44=18/22
+✓ post-en-768  overflowX=false cols=- under24=13 under44=15/18
+✓ about-ko-768  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-768  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-834  overflowX=false cols=2 under24=5 under44=30/34
+✓ home-en-834  overflowX=false cols=2 under24=5 under44=8/20
+✓ tag-ko-834  overflowX=false cols=2 under24=5 under44=24/34
+✓ tags-ko-834  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-834  overflowX=false cols=- under24=16 under44=18/22
+✓ post-en-834  overflowX=false cols=- under24=13 under44=15/18
+✓ about-ko-834  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-834  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-1024  overflowX=false cols=3 under24=5 under44=22/34
+✓ home-en-1024  overflowX=false cols=3 under24=5 under44=8/20
+✓ tag-ko-1024  overflowX=false cols=3 under24=5 under44=21/34
+✓ tags-ko-1024  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-1024  overflowX=false cols=- under24=16 under44=18/22
+✓ post-en-1024  overflowX=false cols=- under24=13 under44=15/18
+✓ about-ko-1024  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-1024  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-1280  overflowX=false cols=4 under24=5 under44=21/34
+✓ home-en-1280  overflowX=false cols=4 under24=5 under44=8/20
+✓ tag-ko-1280  overflowX=false cols=4 under24=5 under44=21/34
+✓ tags-ko-1280  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-1280  overflowX=false cols=- under24=16 under44=18/22
+✓ post-en-1280  overflowX=false cols=- under24=13 under44=15/18
+✓ about-ko-1280  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-1280  overflowX=false cols=- under24=6 under44=7/8
+✓ home-ko-1440  overflowX=false cols=4 under24=5 under44=21/34
+✓ home-en-1440  overflowX=false cols=4 under24=5 under44=8/20
+✓ tag-ko-1440  overflowX=false cols=4 under24=5 under44=21/34
+✓ tags-ko-1440  overflowX=false cols=- under24=331 under44=332/333
+✓ post-ko-1440  overflowX=false cols=- under24=16 under44=18/22
+✓ post-en-1440  overflowX=false cols=- under24=13 under44=15/18
+✓ about-ko-1440  overflowX=false cols=- under24=7 under44=8/9
+✓ terms-ko-1440  overflowX=false cols=- under24=6 under44=7/8
+✓ dark home-ko 390 {"bodyBg":"rgb(255, 255, 255)","scheme":"light","mq":true}
+✓ dark post-ko 390 {"bodyBg":"rgb(255, 255, 255)","scheme":"light","mq":true}
+✓ dark home-ko 1280 {"bodyBg":"rgb(255, 255, 255)","scheme":"light","mq":true}
+✓ dark post-ko 1280 {"bodyBg":"rgb(255, 255, 255)","scheme":"light","mq":true}
+
+총 60행 기록 (기대: 56 + 다크 4)

@@ -1,0 +1,113 @@
+== 픽스처 포함 빌드 (게시물 209건 · 영어본 209건)
+검사 파일 418건(한국어 209 · 영어본 209) · 통과 418건 · 실패 0건 (오류 0개)
+대표 이미지 종류: self 207 · public 1 · news 1
+✅ 검증 통과
+   Generating static pages (0/806) ...
+   Generating static pages (201/806) 
+   Generating static pages (402/806) 
+   Generating static pages (604/806) 
+ ✓ Generating static pages (806/806)
+검사 대상: HTML 798개 · RSC 798개 · sitemap 1개
+PASS  og:image·twitter:image 메타 7970개 중 픽스처 이미지 0 — 0
+PASS  og:image·twitter:image 메타 전부 사이트 자체 주소(https://site.example.com/…) — 자체 아님 0
+PASS  JSON-LD 블록 2339개 중 픽스처 이미지 0 — 0
+PASS  JSON-LD 블록 2339개 중 image 키 0 — 0
+PASS  sitemap.xml 존재
+PASS  sitemap.xml에 픽스처 상세 주소 있음(양성 대조)
+PASS  sitemap.xml에 픽스처 이미지·image:image 0
+news 핫링크 주소가 나오는 HTML 5개: en/post/zz-fixture-news-image.html, en.html, index.html, post/zz-fixture-news-image.html, tag/픽스처.html
+PASS  상세 ko news: <img src=핫링크> 직접 참조
+PASS  상세 ko news: _next/image 경유 0
+PASS  상세 ko news: referrerpolicy 속성 0
+PASS  상세 ko news: figcaption "사진: 예시일보 · 사진 출처 기사" — 사진: 예시일보 · 사진 출처 기사 (새 창에서 열림)
+PASS  상세 ko news: 링크 href·target·rel
+PASS  상세 ko news: og:image = 자체 이미지
+PASS  상세 en news: "Photo: Example Daily · Source article" — Photo: Example Daily · Source article (opens in a new tab)
+PASS  상세 en news: og:image = 자체 영어 이미지
+PASS  상세 ko public: "사진: 예시부(공공누리 제1유형)" + 공식 문구 요지 — 사진: 예시부(공공누리 제1유형) · 사진 원문 페이지 (새 창에서 열림)본 저작물은 예시부에서 공공누리 제1유형으로 개방한 저작물을 이용하였습니다.
+PASS  상세 en public: "Photo: Ministry of Example (KOGL Type 1)" — Photo: Ministry of Example (KOGL Type 1) · Original page (opens in a new tab)This work was released by Ministry of Example under KOGL Type 1 and is used under that license.
+PASS  피드 ko: 카드에 news 핫링크 <img>
+PASS  피드 ko: 카드에 크레딧 문구 0(카드 UI 불변)
+PASS  피드 en: 카드에 news 핫링크 <img>
+PASS  피드 en: 카드에 크레딧 문구 0
+PASS  기존 상세 414개(ko+en) 크레딧 figcaption 0
+
+합계 22건 · PASS 22 · FAIL 0
+PASS  [mobile] ko news figcaption 있음
+PASS  [mobile] ko news 글자 대비 ≥ 4.5 — 7.73
+PASS  [mobile] ko news 링크 대비 ≥ 4.5 — 6.7
+PASS  [mobile] ko news 링크 rel=noopener target=_blank
+PASS  [mobile] ko news 가로 스크롤 없음
+PASS  [mobile] ko news 링크 AX 이름 "사진 출처 기사 (새 창에서 열림)" — 사진 출처 기사 (새 창에서 열림)
+INFO  [mobile] ko news 이미지 슬롯 = placeholder · 줄: 사진: 예시일보 · 
+사진 출처 기사
+(새 창에서 열림)
+PASS  [mobile] ko news 연결 불가 핫링크 → 플레이스홀더(현행 동작) — placeholder
+PASS  [mobile] en news figcaption 있음
+PASS  [mobile] en news 글자 대비 ≥ 4.5 — 7.73
+PASS  [mobile] en news 링크 대비 ≥ 4.5 — 6.7
+PASS  [mobile] en news 링크 rel=noopener target=_blank
+PASS  [mobile] en news 가로 스크롤 없음
+PASS  [mobile] en news 링크 AX 이름 "Source article (opens in a new tab)" — Source article (opens in a new tab)
+INFO  [mobile] en news 이미지 슬롯 = placeholder · 줄: Photo: Example Daily · 
+Source article
+(opens in a new tab)
+PASS  [mobile] en news 연결 불가 핫링크 → 플레이스홀더(현행 동작) — placeholder
+PASS  [mobile] ko public figcaption 있음
+PASS  [mobile] ko public 글자 대비 ≥ 4.5 — 7.73 / 7.73
+PASS  [mobile] ko public 링크 대비 ≥ 4.5 — 6.7
+PASS  [mobile] ko public 링크 rel=noopener target=_blank
+PASS  [mobile] ko public 가로 스크롤 없음
+PASS  [mobile] ko public 링크 AX 이름 "사진 원문 페이지 (새 창에서 열림)" — 사진 원문 페이지 (새 창에서 열림)
+INFO  [mobile] ko public 이미지 슬롯 = img · 줄: 사진: 예시부(공공누리 제1유형) · 
+사진 원문 페이지
+(새 창에서 열림) ⏎ 본 저작물은 예시부에서 공공누리 제1유형으로 개방한 저작물을 이용하였습니다.
+PASS  [mobile] en public figcaption 있음
+PASS  [mobile] en public 글자 대비 ≥ 4.5 — 7.73 / 7.73
+PASS  [mobile] en public 링크 대비 ≥ 4.5 — 6.7
+PASS  [mobile] en public 링크 rel=noopener target=_blank
+PASS  [mobile] en public 가로 스크롤 없음
+PASS  [mobile] en public 링크 AX 이름 "Original page (opens in a new tab)" — Original page (opens in a new tab)
+INFO  [mobile] en public 이미지 슬롯 = img · 줄: Photo: Ministry of Example (KOGL Type 1) · 
+Original page
+(opens in a new tab) ⏎ This work was released by Ministry of Example under KOGL Type 1 and is used under that license.
+PASS  [desktop] ko news figcaption 있음
+PASS  [desktop] ko news 글자 대비 ≥ 4.5 — 7.73
+PASS  [desktop] ko news 링크 대비 ≥ 4.5 — 6.7
+PASS  [desktop] ko news 링크 rel=noopener target=_blank
+PASS  [desktop] ko news 가로 스크롤 없음
+PASS  [desktop] ko news 링크 AX 이름 "사진 출처 기사 (새 창에서 열림)" — 사진 출처 기사 (새 창에서 열림)
+INFO  [desktop] ko news 이미지 슬롯 = placeholder · 줄: 사진: 예시일보 · 
+사진 출처 기사
+(새 창에서 열림)
+PASS  [desktop] ko news 연결 불가 핫링크 → 플레이스홀더(현행 동작) — placeholder
+PASS  [desktop] en news figcaption 있음
+PASS  [desktop] en news 글자 대비 ≥ 4.5 — 7.73
+PASS  [desktop] en news 링크 대비 ≥ 4.5 — 6.7
+PASS  [desktop] en news 링크 rel=noopener target=_blank
+PASS  [desktop] en news 가로 스크롤 없음
+PASS  [desktop] en news 링크 AX 이름 "Source article (opens in a new tab)" — Source article (opens in a new tab)
+INFO  [desktop] en news 이미지 슬롯 = placeholder · 줄: Photo: Example Daily · 
+Source article
+(opens in a new tab)
+PASS  [desktop] en news 연결 불가 핫링크 → 플레이스홀더(현행 동작) — placeholder
+PASS  [desktop] ko public figcaption 있음
+PASS  [desktop] ko public 글자 대비 ≥ 4.5 — 7.73 / 7.73
+PASS  [desktop] ko public 링크 대비 ≥ 4.5 — 6.7
+PASS  [desktop] ko public 링크 rel=noopener target=_blank
+PASS  [desktop] ko public 가로 스크롤 없음
+PASS  [desktop] ko public 링크 AX 이름 "사진 원문 페이지 (새 창에서 열림)" — 사진 원문 페이지 (새 창에서 열림)
+INFO  [desktop] ko public 이미지 슬롯 = img · 줄: 사진: 예시부(공공누리 제1유형) · 
+사진 원문 페이지
+(새 창에서 열림) ⏎ 본 저작물은 예시부에서 공공누리 제1유형으로 개방한 저작물을 이용하였습니다.
+PASS  [desktop] en public figcaption 있음
+PASS  [desktop] en public 글자 대비 ≥ 4.5 — 7.73 / 7.73
+PASS  [desktop] en public 링크 대비 ≥ 4.5 — 6.7
+PASS  [desktop] en public 링크 rel=noopener target=_blank
+PASS  [desktop] en public 가로 스크롤 없음
+PASS  [desktop] en public 링크 AX 이름 "Original page (opens in a new tab)" — Original page (opens in a new tab)
+INFO  [desktop] en public 이미지 슬롯 = img · 줄: Photo: Ministry of Example (KOGL Type 1) · 
+Original page
+(opens in a new tab) ⏎ This work was released by Ministry of Example under KOGL Type 1 and is used under that license.
+
+합계 52건 · PASS 52 · FAIL 0

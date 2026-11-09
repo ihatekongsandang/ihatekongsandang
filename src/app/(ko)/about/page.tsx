@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <PageFrame locale="ko" languageLinks={{ ko: '/about', en: '/en/about' }}>
-      <div className="mx-auto w-full max-w-3xl space-y-10">
+      <div className="reading-page mx-auto w-full space-y-10 pt-5">
         <header className="space-y-3">
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">소개</h1>
+          <h1 className="text-[26px] leading-[1.3] font-bold tracking-[-0.02em] md:text-[30px]">소개</h1>
           <p className="text-muted-foreground">{SITE.description}</p>
         </header>
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
         </Section>
 
         <p className="border-t pt-6 text-sm">
-          <Link href="/" className="text-link underline underline-offset-2">
+          <Link href="/" className="inline-flex min-h-11 items-center text-link underline underline-offset-2">
             최신 게시물 보기
           </Link>
         </p>

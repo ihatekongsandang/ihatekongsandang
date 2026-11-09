@@ -42,6 +42,8 @@ function main(): void {
   const idOwner = new Map<string, string>()
   const typeCount = new Map<string, number>()
   let imageCount = 0
+  /** 대표 이미지(`image`) 종류별 수 — self·public·news(프로그래머 13). */
+  const imageKindCount = new Map<string, number>()
   let sourceCount = 0
   let speakerCount = 0
   /** 검증을 통과한 한국어 원본 — 영어본이 짝을 찾는 대상. id 중복·폐기 id는 제외한다. */
@@ -84,6 +86,10 @@ function main(): void {
       if (result.post) {
         typeCount.set(result.post.sourceType, (typeCount.get(result.post.sourceType) ?? 0) + 1)
         imageCount += result.post.images.length + (result.post.image ? 1 : 0)
+        if (result.post.image) {
+          const kind = result.post.image.kind ?? 'self'
+          imageKindCount.set(kind, (imageKindCount.get(kind) ?? 0) + 1)
+        }
         sourceCount += result.post.sources.length
         if (result.post.speaker) speakerCount += 1
       }
@@ -146,6 +152,7 @@ function main(): void {
       `유형별: ${[...typeCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
       `배경 보도 출처: ${sourceCount}건 · 발언자 표기: ${speakerCount}건`,
       `검사한 이미지 alt ${imageCount}개`,
+      `대표 이미지 종류: ${['self', 'public', 'news'].map((kind) => `${kind} ${imageKindCount.get(kind) ?? 0}`).join(' · ')}`,
       `영어본 ${enIds.size}건 / 전체 ${validPosts.size}건`,
     ].join('\n'),
   )

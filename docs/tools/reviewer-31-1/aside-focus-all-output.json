@@ -1,0 +1,7511 @@
+{
+ "all": [
+  {
+   "w": 1024,
+   "h": 678,
+   "lang": "ko",
+   "id": "2026-07-01-amhaengeosa-lee-nk-military-remark",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-07-04-idontknowpolitics-2018-freedom-deletion",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-07-05-idontknowpolitics-kctu-appeal",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-07-12-judypia-real-estate-supervisory-bill",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-07-13-idontknowpolitics-yeonpyeong-crab-remark",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 954,
+   "lang": "ko",
+   "id": "2026-07-14-kasamo7-cnn-surprise-attack-article",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-07-19-amhaengeosa-kctu-itaewon-directive",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 678,
+   "lang": "ko",
+   "id": "2026-07-20-yoonsanghyun-special-counsel-filibuster",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-07-22-geonwoo-kimminsoo-defense",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-07-24-firstincome-seoul-edu-unification-textbook",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-07-24-korealive-woohai-moreugo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-07-25-idontknowpolitics-cheongju-spy-directives",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-07-28-geonwoo-ebs-video-removal",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-07-28-geonwoo-yoon-final-statement-australia",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-07-28-jeichi-amendment-term-claim",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1092,
+   "lang": "ko",
+   "id": "2026-08-03-pagememo-nk-prosecution-reform-directive",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-08-06-owloffreedom-kimhyuntae-sentencing",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-08-12-citynewsmeme-parksangyong-oath-refusal",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-08-24-dictatorshipnono-jeju-missing-false-closure",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-08-25-nowandhere-625-constitution-question",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1672,
+   "lang": "ko",
+   "id": "2026-08-29-idontknowpolitics-martial-law-nk-policy",
+   "n": 17,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-03-taekyu-statistics-audit-probe",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-08-kimsohee-ppp-seven-pledges",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-08-sonit-criminal-record-card",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-09-pagememo-unmanned-vehicle-budget-cut",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-09-10-ansanheart-academy-merger",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-10-brieftag-nk-contact-reports-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-10-currentwaves-pm-amendment-slip",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1188,
+   "lang": "ko",
+   "id": "2026-09-10-freedominnovation-nec-bill",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1347,
+   "lang": "ko",
+   "id": "2026-09-10-geonwoo-jeongyulseong-song-contest",
+   "n": 14,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-11-currentwaves-nk-hr-report-classified",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-09-12-nowmagazine-postpartum-vs-nk-infant",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-12-peoplepower7-kimminwoong-dp-card",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-518-list-disclosure-citizen",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 933,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-brother-hospitalization-case",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-gwangju-rally",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-jinjoongkwon-2023-remark",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-leejinsook-518-merit-disclosure",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1348,
+   "lang": "ko",
+   "id": "2026-09-13-idontknowpolitics-kangdong-hospital",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 582,
+   "lang": "ko",
+   "id": "2026-09-13-sonit-625-book-ban-claim",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-14-kimminsoo-spy-law-enforcement",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-14-yongkeun-justice-hearing-lee-trial",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-15-bbang630-518-armored-vehicle-claim",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-15-choice-nk-budget-undecided",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-15-jindam-choo-resignation-petition",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-15-joojinwoo-kimseungwon-hearing",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-16-hagonolza-country-insult-bill",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-16-idontknowpolitics-2023-warrant-dismissed",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-16-pickmag-china-visa-free-petition",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-16-sisabriefing-nk-budget",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-17-hagonolza-changwon-spy-indictment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-17-idontknowpolitics-sergeant-leak-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1139,
+   "lang": "ko",
+   "id": "2026-09-17-rekor-light-committee-disclosure",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-18-bluenews-jeju-organ-transplant-rumor",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-18-dailybite-judicial-independence",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-18-newssnap-chung-no-kaesong-lawsuit",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 817,
+   "lang": "ko",
+   "id": "2026-09-18-shindawit-asiangames-nk-anthem",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 284,
+   "lang": "ko",
+   "id": "2026-09-19-geonwoo-hongdae-march",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 933,
+   "lang": "ko",
+   "id": "2026-09-20-hagonolza-constitution-amendment-points",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1208,
+   "lang": "ko",
+   "id": "2026-09-20-hanmibro-academy-merger-cards",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-09-20-kimeunhye-jeonse-reel",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-09-20-nowandhere-mdl-mine-briefing-reel",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-20-nowmagazine-alpha-phone",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-20-shindawit-foreign-unemployment-benefits",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-21-centrism-dmz-summary",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-21-dotori-nk-medical-equipment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-21-kimmoonsoo-prosecution-abolition",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-21-leeprenotion-assembly-holiday-bonus",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-21-oreunboy-dmz-mine-explosion",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1211,
+   "lang": "ko",
+   "id": "2026-09-21-yuyongweon-mdl-disclosure",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-22-ego-police-republic-concern",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-22-emong-nk-contact-law",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-22-lotuslantern-25div-death",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-22-peoplepower7-hyegyeonggung-claim",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-22-taekyu-chief-justice-refusal",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-22-taekyu-ppp-rally-report",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-23-jeichi-nk-mdl-crossing",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-23-shindawit-army-lecture-trump",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-24-hagonolza-kctu-itaewon-claim",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 515,
+   "lang": "ko",
+   "id": "2026-09-24-hagonolza-kimgyeri-spy-remark",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-24-politicscrush-main-enemy-politicians",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-24-sewodream-nk-agent-private-detective",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-25-kimkyelee-nk-pow-ukraine",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-25-minkyuhan-nsl-security-priority",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 930,
+   "lang": "ko",
+   "id": "2026-09-25-peoplepower7-tankday-vs-mine",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-26-ccpoutkorea-ocsc-overseas-police",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-26-issue365-lee-nsl-yusimin",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-26-neveragain-mexico-tariff-visit",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-26-newsbanhana-lee-kexpo-mexico",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 956,
+   "lang": "ko",
+   "id": "2026-09-26-nonjeomjikjin-dmz-chae-standard",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-26-rekor-dmz-dispute",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-26-wikipost-dmz-injury-rumor",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 745,
+   "lang": "ko",
+   "id": "2026-09-27-ccpoutkorea-china-threat-survey",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-corporate-card-whistleblower",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 840,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-farmland-survey",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 796,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-nsl-mexico-remark",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-27-hoon2-jeonhyunhee-land-lease",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-27-leejinsook-lee-parents-grave-farmland",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-27-minjoojuhee-trial-resume-challenge",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-27-news1min-cpi-31st",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-27-rekor-dmz-mine-testimony",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-27-rekor-former-25div-commander",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-27-shindawit-nisi-mine-summary",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-2pro-jcs-interim-claim",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-boxplus-2019-forced-repatriation",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1208,
+   "lang": "ko",
+   "id": "2026-09-28-drumtong119-jinsungjoon-nsl-past",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 745,
+   "lang": "ko",
+   "id": "2026-09-28-facteye-dmz-mine-similar-object",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1092,
+   "lang": "ko",
+   "id": "2026-09-28-firstincome-kctu-spy-case-summary",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-geonwoo-farmland-bank-expansion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-28-geonwoo-state-system-decade",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-kangyeonjae-chief-justice-audit-witness",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-09-28-kimjanggyeom-hanjunho-kbs-complaint",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-28-kimmeengeon-farmland-communism",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 817,
+   "lang": "ko",
+   "id": "2026-09-28-ljm-unc-request-refused",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 817,
+   "lang": "ko",
+   "id": "2026-09-28-minkyuhan-dmz-delay-questions",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-nakyungwon-mine-report-deletion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-pagememo-jcs-interim-result",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-09-28-parkchoongkwon-dp-mine-remarks",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 678,
+   "lang": "ko",
+   "id": "2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-rekor-chinese-crime-tourism",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-shindawit-pla-fighter-wiretap",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-solsol-mexico-17-agreements",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-sonit-nk-aid-vs-elderly-support",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-themove-hongkong-umbrella-12th",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-28-todayissuepicks-dmz-hand-pick-escape",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 745,
+   "lang": "ko",
+   "id": "2026-09-28-yukdaejeon-nisi-nk-mine",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-09-29-2pro-prosecution-sign-removal-cost",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-29-finf-jcs-terrain-change-year",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-29-finf-jinsungjoon-mine-intent",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-29-leejinsook-assassins-film-distortion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-29-limjongdeuk-dmz-operation-criticism",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-29-momamour-westsea-vs-dmz-comparison",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 861,
+   "lang": "ko",
+   "id": "2026-09-29-nowandhere-defense-minister-nk-responsibility",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-29-osj17x-hankiho-president-instruction",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-29-rekor-hypertension-diabetes-support-cut",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1092,
+   "lang": "ko",
+   "id": "2026-09-29-rightmeet-mine-word-press-guideline",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-09-29-sbsnews-lee-mine-conspiracy-remark",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 745,
+   "lang": "ko",
+   "id": "2026-09-29-shindawit-cxmt-samsung-threat",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-09-30-20hoon-prosecution-abolition-victim-guide",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1208,
+   "lang": "ko",
+   "id": "2026-09-30-2pro-unc-armistice-violation",
+   "n": 14,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1371,
+   "lang": "ko",
+   "id": "2026-09-30-hagonolza-lee-case-dismissal-two-routes",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-30-kimeunhye-farmland-china-solar",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-30-monarch-morsetan-church-claims",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1116,
+   "lang": "ko",
+   "id": "2026-09-30-rekor-foreign-committee-dp-absence",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1510,
+   "lang": "ko",
+   "id": "2026-09-30-shindawit-nk-mdl-50-crossings",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-09-30-taekyu-assassins-film-fund-china",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1417,
+   "lang": "ko",
+   "id": "2026-09-30-toktok-lee-classified-doc-sns",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-10-01-hagonolza-opcon-transfer-risks",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-01-ntdkorea-jeju-falungong-rally-chinese",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 559,
+   "lang": "ko",
+   "id": "2026-10-01-rekor-15div-mine-field",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-01-swingmag-gov24-hacking",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1577,
+   "lang": "ko",
+   "id": "2026-10-02-alaska-lng-vs-dmz-mine-response",
+   "n": 17,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-10-03-oct3-gwanghwamun-rally-scale",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 515,
+   "lang": "ko",
+   "id": "2026-10-03-rekor-saeul-nuclear-drone",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-10-04-rnwndhk-panmunjom-usb-lawsuit",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-10-04-ycherish-oct3-rally-media",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1278,
+   "lang": "ko",
+   "id": "2026-10-05-issueradar-nsc-cyber-sanctions-clash",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-10-05-jeichi-front-corps-unloaded-guard",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-05-shindawit-core-tech-leak-china-92",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-05-shindawit-mdl-south-minefields-20m",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-05-wendmag-cio-investigation-scope",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-10-07-geonwoovibes-defector-repatriation-claim",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-07-gotdemcatch-kimminseok-chief-justice-resign",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-10-07-rinha-chosun-column-chongryon-visit",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 956,
+   "lang": "ko",
+   "id": "2026-10-07-swingmag-fake-police-protest-sentence",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-07-yeong573-parkchoongkwon-filibuster-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-08-ansanheart-daejangdong-recording-2025",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-08-finf-un-first-committee-mine-clash",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-08-focusone-ganghwa-drifting-mine",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 956,
+   "lang": "ko",
+   "id": "2026-10-08-monarch-us-congress-ccp-influence-korea",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1000,
+   "lang": "ko",
+   "id": "2026-10-08-peoplepower7-ukraine-korea-oil-claim",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-10-08-shindawit-nis-chief-nga-visit-report",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1139,
+   "lang": "ko",
+   "id": "2026-10-08-shindawit-us-nis-cyber-group-excluded",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1188,
+   "lang": "ko",
+   "id": "2026-10-09-gotdemcatch-lee-five-trials-suspended",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1139,
+   "lang": "ko",
+   "id": "2026-10-09-themovemag-chinese-residents-1m",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-10-insighteye-china-korean-heritage-24",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 817,
+   "lang": "ko",
+   "id": "2026-10-10-news1min-nps-foreigner-late-payment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-10-10-ribonpig-gyeonggi-childcare-budget",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-10-rocketissue-kei-poll-korea-defense",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 745,
+   "lang": "ko",
+   "id": "2026-10-10-sisabrieffing-life-sentence-parole",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-11-knn-joojinwoo-taereung-golf",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-12-conpoli88-parkjiwon-nk-remittance-nis",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-10-12-hagonolza-equal-earth-dokdo",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-12-hagonolza-leejinsook-kcc-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-12-minkyuhantv-german-spy-chief",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-13-brieftag-kadiz-data-withheld",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-13-yeong573-police-bodycam-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-14-2pro-nk-slcm-not-announced",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 559,
+   "lang": "ko",
+   "id": "2026-10-14-gotdemcatch-safety-drill-poster-insignia",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-14-knn-fake-mnd-chinese-recruit-poster",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-14-wikipost-dp-shincheonji-members",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-18-wikipost-equal-pay-equal-work-roadmap",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-20-monarchreport25-lee-kim-held-back-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-23-eodguri-kimyonghyun-drone-appeal",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-10-24-khan-nk-third-company-commanders-conference",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-10-28-donga-nk-submarine-infiltration-drills",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 559,
+   "lang": "ko",
+   "id": "2026-10-29-khan-nk-srbm-launch-wonsan",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-29-news1-china-53-vessels-taiwan-warning",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-11-01-eodguri-war-term-extension-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-11-03-happenbosu-lee-kimilsung-remark-2024",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-11-03-wikipost-marine-officer-kimjongun-photo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-11-04-leejinsook-martial-law-soldiers-presser",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-11-05-dduddd-kimtaekyu-expulsion-resolution",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-11-08-politicscrush-daejinyeon-kimjongun-welcome-2019",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-07-01-amhaengeosa-lee-nk-military-remark",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-07-04-idontknowpolitics-2018-freedom-deletion",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-07-05-idontknowpolitics-kctu-appeal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-07-12-judypia-real-estate-supervisory-bill",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-07-13-idontknowpolitics-yeonpyeong-crab-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-07-14-kasamo7-cnn-surprise-attack-article",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-07-19-amhaengeosa-kctu-itaewon-directive",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-07-20-yoonsanghyun-special-counsel-filibuster",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-07-22-geonwoo-kimminsoo-defense",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-07-24-firstincome-seoul-edu-unification-textbook",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-07-24-korealive-woohai-moreugo",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-07-25-idontknowpolitics-cheongju-spy-directives",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-07-28-geonwoo-ebs-video-removal",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-07-28-geonwoo-yoon-final-statement-australia",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-07-28-jeichi-amendment-term-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 970,
+   "lang": "en",
+   "id": "2026-08-03-pagememo-nk-prosecution-reform-directive",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-08-06-owloffreedom-kimhyuntae-sentencing",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-08-12-citynewsmeme-parksangyong-oath-refusal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-08-24-dictatorshipnono-jeju-missing-false-closure",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-08-25-nowandhere-625-constitution-question",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1550,
+   "lang": "en",
+   "id": "2026-08-29-idontknowpolitics-martial-law-nk-policy",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-03-taekyu-statistics-audit-probe",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-08-kimsohee-ppp-seven-pledges",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-08-sonit-criminal-record-card",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-09-pagememo-unmanned-vehicle-budget-cut",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-10-ansanheart-academy-merger",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-10-brieftag-nk-contact-reports-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-10-currentwaves-pm-amendment-slip",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1109,
+   "lang": "en",
+   "id": "2026-09-10-freedominnovation-nec-bill",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1225,
+   "lang": "en",
+   "id": "2026-09-10-geonwoo-jeongyulseong-song-contest",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-11-currentwaves-nk-hr-report-classified",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-12-nowmagazine-postpartum-vs-nk-infant",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-12-peoplepower7-kimminwoong-dp-card",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-518-list-disclosure-citizen",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-brother-hospitalization-case",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-gwangju-rally",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-jinjoongkwon-2023-remark",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-leejinsook-518-merit-disclosure",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1225,
+   "lang": "en",
+   "id": "2026-09-13-idontknowpolitics-kangdong-hospital",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 460,
+   "lang": "en",
+   "id": "2026-09-13-sonit-625-book-ban-claim",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-14-kimminsoo-spy-law-enforcement",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-14-yongkeun-justice-hearing-lee-trial",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-15-bbang630-518-armored-vehicle-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-15-choice-nk-budget-undecided",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-15-jindam-choo-resignation-petition",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-15-joojinwoo-kimseungwon-hearing",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-16-hagonolza-country-insult-bill",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-16-idontknowpolitics-2023-warrant-dismissed",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-16-pickmag-china-visa-free-petition",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-16-sisabriefing-nk-budget",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-17-hagonolza-changwon-spy-indictment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-17-idontknowpolitics-sergeant-leak-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1016,
+   "lang": "en",
+   "id": "2026-09-17-rekor-light-committee-disclosure",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-18-bluenews-jeju-organ-transplant-rumor",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-18-dailybite-judicial-independence",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-18-newssnap-chung-no-kaesong-lawsuit",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-18-shindawit-asiangames-nk-anthem",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 180,
+   "lang": "en",
+   "id": "2026-09-19-geonwoo-hongdae-march",
+   "n": 3,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-20-hagonolza-constitution-amendment-points",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-09-20-hanmibro-academy-merger-cards",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-20-kimeunhye-jeonse-reel",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-20-nowandhere-mdl-mine-briefing-reel",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-20-nowmagazine-alpha-phone",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-20-shindawit-foreign-unemployment-benefits",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-21-centrism-dmz-summary",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-21-dotori-nk-medical-equipment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-21-kimmoonsoo-prosecution-abolition",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-21-leeprenotion-assembly-holiday-bonus",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-21-oreunboy-dmz-mine-explosion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1132,
+   "lang": "en",
+   "id": "2026-09-21-yuyongweon-mdl-disclosure",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-22-ego-police-republic-concern",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-22-emong-nk-contact-law",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-22-lotuslantern-25div-death",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-22-peoplepower7-hyegyeonggung-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-22-taekyu-chief-justice-refusal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-22-taekyu-ppp-rally-report",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-23-jeichi-nk-mdl-crossing",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-23-shindawit-army-lecture-trump",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-24-hagonolza-kctu-itaewon-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-09-24-hagonolza-kimgyeri-spy-remark",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-24-politicscrush-main-enemy-politicians",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-24-sewodream-nk-agent-private-detective",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-25-kimkyelee-nk-pow-ukraine",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-25-minkyuhan-nsl-security-priority",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 808,
+   "lang": "en",
+   "id": "2026-09-25-peoplepower7-tankday-vs-mine",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-26-ccpoutkorea-ocsc-overseas-police",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-26-issue365-lee-nsl-yusimin",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-26-neveragain-mexico-tariff-visit",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-26-newsbanhana-lee-kexpo-mexico",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-09-26-nonjeomjikjin-dmz-chae-standard",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-26-rekor-dmz-dispute",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-26-wikipost-dmz-injury-rumor",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 622,
+   "lang": "en",
+   "id": "2026-09-27-ccpoutkorea-china-threat-survey",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-corporate-card-whistleblower",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-farmland-survey",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 673,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-nsl-mexico-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-27-hoon2-jeonhyunhee-land-lease",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-27-leejinsook-lee-parents-grave-farmland",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-27-minjoojuhee-trial-resume-challenge",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-27-news1min-cpi-31st",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-27-rekor-dmz-mine-testimony",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-27-rekor-former-25div-commander",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-27-shindawit-nisi-mine-summary",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-2pro-jcs-interim-claim",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-boxplus-2019-forced-repatriation",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-09-28-drumtong119-jinsungjoon-nsl-past",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 622,
+   "lang": "en",
+   "id": "2026-09-28-facteye-dmz-mine-similar-object",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 970,
+   "lang": "en",
+   "id": "2026-09-28-firstincome-kctu-spy-case-summary",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-geonwoo-farmland-bank-expansion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-28-geonwoo-state-system-decade",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-kangyeonjae-chief-justice-audit-witness",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-28-kimjanggyeom-hanjunho-kbs-complaint",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-kimmeengeon-farmland-communism",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-28-ljm-unc-request-refused",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-28-minkyuhan-dmz-delay-questions",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-nakyungwon-mine-report-deletion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-pagememo-jcs-interim-result",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-09-28-parkchoongkwon-dp-mine-remarks",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-rekor-chinese-crime-tourism",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-shindawit-pla-fighter-wiretap",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-solsol-mexico-17-agreements",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-sonit-nk-aid-vs-elderly-support",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-themove-hongkong-umbrella-12th",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-28-todayissuepicks-dmz-hand-pick-escape",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 622,
+   "lang": "en",
+   "id": "2026-09-28-yukdaejeon-nisi-nk-mine",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-29-2pro-prosecution-sign-removal-cost",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-29-finf-jcs-terrain-change-year",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-29-finf-jinsungjoon-mine-intent",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-29-leejinsook-assassins-film-distortion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-29-limjongdeuk-dmz-operation-criticism",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-29-momamour-westsea-vs-dmz-comparison",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-09-29-nowandhere-defense-minister-nk-responsibility",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-29-osj17x-hankiho-president-instruction",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-29-rekor-hypertension-diabetes-support-cut",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 970,
+   "lang": "en",
+   "id": "2026-09-29-rightmeet-mine-word-press-guideline",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-09-29-sbsnews-lee-mine-conspiracy-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 622,
+   "lang": "en",
+   "id": "2026-09-29-shindawit-cxmt-samsung-threat",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-30-20hoon-prosecution-abolition-victim-guide",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-09-30-2pro-unc-armistice-violation",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1248,
+   "lang": "en",
+   "id": "2026-09-30-hagonolza-lee-case-dismissal-two-routes",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-30-kimeunhye-farmland-china-solar",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-30-monarch-morsetan-church-claims",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 993,
+   "lang": "en",
+   "id": "2026-09-30-rekor-foreign-committee-dp-absence",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1387,
+   "lang": "en",
+   "id": "2026-09-30-shindawit-nk-mdl-50-crossings",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-09-30-taekyu-assassins-film-fund-china",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1295,
+   "lang": "en",
+   "id": "2026-09-30-toktok-lee-classified-doc-sns",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-01-hagonolza-opcon-transfer-risks",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-01-ntdkorea-jeju-falungong-rally-chinese",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-10-01-rekor-15div-mine-field",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-01-swingmag-gov24-hacking",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1411,
+   "lang": "en",
+   "id": "2026-10-02-alaska-lng-vs-dmz-mine-response",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-03-oct3-gwanghwamun-rally-scale",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-10-03-rekor-saeul-nuclear-drone",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-04-rnwndhk-panmunjom-usb-lawsuit",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-04-ycherish-oct3-rally-media",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1156,
+   "lang": "en",
+   "id": "2026-10-05-issueradar-nsc-cyber-sanctions-clash",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-05-jeichi-front-corps-unloaded-guard",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-05-shindawit-core-tech-leak-china-92",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-05-shindawit-mdl-south-minefields-20m",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-05-wendmag-cio-investigation-scope",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-07-geonwoovibes-defector-repatriation-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-07-gotdemcatch-kimminseok-chief-justice-resign",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-10-07-rinha-chosun-column-chongryon-visit",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-07-swingmag-fake-police-protest-sentence",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-07-yeong573-parkchoongkwon-filibuster-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-08-ansanheart-daejangdong-recording-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-08-finf-un-first-committee-mine-clash",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-08-focusone-ganghwa-drifting-mine",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-08-monarch-us-congress-ccp-influence-korea",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-10-08-peoplepower7-ukraine-korea-oil-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-08-shindawit-nis-chief-nga-visit-report",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1016,
+   "lang": "en",
+   "id": "2026-10-08-shindawit-us-nis-cyber-group-excluded",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1109,
+   "lang": "en",
+   "id": "2026-10-09-gotdemcatch-lee-five-trials-suspended",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 1016,
+   "lang": "en",
+   "id": "2026-10-09-themovemag-chinese-residents-1m",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-10-insighteye-china-korean-heritage-24",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 738,
+   "lang": "en",
+   "id": "2026-10-10-news1min-nps-foreigner-late-payment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-10-10-ribonpig-gyeonggi-childcare-budget",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-10-rocketissue-kei-poll-korea-defense",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 622,
+   "lang": "en",
+   "id": "2026-10-10-sisabrieffing-life-sentence-parole",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-11-knn-joojinwoo-taereung-golf",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-12-conpoli88-parkjiwon-nk-remittance-nis",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-10-12-hagonolza-equal-earth-dokdo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-12-hagonolza-leejinsook-kcc-2025",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-12-minkyuhantv-german-spy-chief",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-13-brieftag-kadiz-data-withheld",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-13-yeong573-police-bodycam-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-14-2pro-nk-slcm-not-announced",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-10-14-gotdemcatch-safety-drill-poster-insignia",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-14-knn-fake-mnd-chinese-recruit-poster",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-14-wikipost-dp-shincheonji-members",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-18-wikipost-equal-pay-equal-work-roadmap",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-20-monarchreport25-lee-kim-held-back-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-23-eodguri-kimyonghyun-drone-appeal",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-24-khan-nk-third-company-commanders-conference",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-10-28-donga-nk-submarine-infiltration-drills",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-10-29-khan-nk-srbm-launch-wonsan",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-29-news1-china-53-vessels-taiwan-warning",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-11-01-eodguri-war-term-extension-claim",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-11-03-happenbosu-lee-kimilsung-remark-2024",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-11-03-wikipost-marine-officer-kimjongun-photo",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-11-04-leejinsook-martial-law-soldiers-presser",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-11-05-dduddd-kimtaekyu-expulsion-resolution",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1024,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-11-08-politicscrush-daejinyeon-kimjongun-welcome-2019",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-07-01-amhaengeosa-lee-nk-military-remark",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-07-04-idontknowpolitics-2018-freedom-deletion",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-07-05-idontknowpolitics-kctu-appeal",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-07-12-judypia-real-estate-supervisory-bill",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-07-13-idontknowpolitics-yeonpyeong-crab-remark",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-07-14-kasamo7-cnn-surprise-attack-article",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-07-19-amhaengeosa-kctu-itaewon-directive",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-07-20-yoonsanghyun-special-counsel-filibuster",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-07-22-geonwoo-kimminsoo-defense",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-07-24-firstincome-seoul-edu-unification-textbook",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 589,
+   "lang": "ko",
+   "id": "2026-07-24-korealive-woohai-moreugo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-07-25-idontknowpolitics-cheongju-spy-directives",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-07-28-geonwoo-ebs-video-removal",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-07-28-geonwoo-yoon-final-statement-australia",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 930,
+   "lang": "ko",
+   "id": "2026-07-28-jeichi-amendment-term-claim",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 999,
+   "lang": "ko",
+   "id": "2026-08-03-pagememo-nk-prosecution-reform-directive",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-08-06-owloffreedom-kimhyuntae-sentencing",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-08-12-citynewsmeme-parksangyong-oath-refusal",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-08-24-dictatorshipnono-jeju-missing-false-closure",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-08-25-nowandhere-625-constitution-question",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1579,
+   "lang": "ko",
+   "id": "2026-08-29-idontknowpolitics-martial-law-nk-policy",
+   "n": 17,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-03-taekyu-statistics-audit-probe",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-08-kimsohee-ppp-seven-pledges",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-09-08-sonit-criminal-record-card",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-09-pagememo-unmanned-vehicle-budget-cut",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-10-ansanheart-academy-merger",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-10-brieftag-nk-contact-reports-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-10-currentwaves-pm-amendment-slip",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1141,
+   "lang": "ko",
+   "id": "2026-09-10-freedominnovation-nec-bill",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1324,
+   "lang": "ko",
+   "id": "2026-09-10-geonwoo-jeongyulseong-song-contest",
+   "n": 14,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-11-currentwaves-nk-hr-report-classified",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-12-nowmagazine-postpartum-vs-nk-infant",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-12-peoplepower7-kimminwoong-dp-card",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-518-list-disclosure-citizen",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 863,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-brother-hospitalization-case",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-gwangju-rally",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-jinjoongkwon-2023-remark",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-09-13-geonwoo-leejinsook-518-merit-disclosure",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1234,
+   "lang": "ko",
+   "id": "2026-09-13-idontknowpolitics-kangdong-hospital",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 559,
+   "lang": "ko",
+   "id": "2026-09-13-sonit-625-book-ban-claim",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-14-kimminsoo-spy-law-enforcement",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-14-yongkeun-justice-hearing-lee-trial",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-15-bbang630-518-armored-vehicle-claim",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-15-choice-nk-budget-undecided",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-15-jindam-choo-resignation-petition",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-15-joojinwoo-kimseungwon-hearing",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-09-16-hagonolza-country-insult-bill",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-16-idontknowpolitics-2023-warrant-dismissed",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-16-pickmag-china-visa-free-petition",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-16-sisabriefing-nk-budget",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-17-hagonolza-changwon-spy-indictment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-17-idontknowpolitics-sergeant-leak-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1046,
+   "lang": "ko",
+   "id": "2026-09-17-rekor-light-committee-disclosure",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-18-bluenews-jeju-organ-transplant-rumor",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-18-dailybite-judicial-independence",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-18-newssnap-chung-no-kaesong-lawsuit",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-09-18-shindawit-asiangames-nk-anthem",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 284,
+   "lang": "ko",
+   "id": "2026-09-19-geonwoo-hongdae-march",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-09-20-hagonolza-constitution-amendment-points",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1095,
+   "lang": "ko",
+   "id": "2026-09-20-hanmibro-academy-merger-cards",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-09-20-kimeunhye-jeonse-reel",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-20-nowandhere-mdl-mine-briefing-reel",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-20-nowmagazine-alpha-phone",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-20-shindawit-foreign-unemployment-benefits",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-21-centrism-dmz-summary",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-21-dotori-nk-medical-equipment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-21-kimmoonsoo-prosecution-abolition",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-21-leeprenotion-assembly-holiday-bonus",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-21-oreunboy-dmz-mine-explosion",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1164,
+   "lang": "ko",
+   "id": "2026-09-21-yuyongweon-mdl-disclosure",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-22-ego-police-republic-concern",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-09-22-emong-nk-contact-law",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-09-22-lotuslantern-25div-death",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-22-peoplepower7-hyegyeonggung-claim",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-22-taekyu-chief-justice-refusal",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-22-taekyu-ppp-rally-report",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-23-jeichi-nk-mdl-crossing",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-23-shindawit-army-lecture-trump",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-24-hagonolza-kctu-itaewon-claim",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 515,
+   "lang": "ko",
+   "id": "2026-09-24-hagonolza-kimgyeri-spy-remark",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 886,
+   "lang": "ko",
+   "id": "2026-09-24-politicscrush-main-enemy-politicians",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-24-sewodream-nk-agent-private-detective",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-25-kimkyelee-nk-pow-ukraine",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-25-minkyuhan-nsl-security-priority",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-09-25-peoplepower7-tankday-vs-mine",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-26-ccpoutkorea-ocsc-overseas-police",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-26-issue365-lee-nsl-yusimin",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-26-neveragain-mexico-tariff-visit",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-26-newsbanhana-lee-kexpo-mexico",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-09-26-nonjeomjikjin-dmz-chae-standard",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 652,
+   "lang": "ko",
+   "id": "2026-09-26-rekor-dmz-dispute",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-26-wikipost-dmz-injury-rumor",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-09-27-ccpoutkorea-china-threat-survey",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 930,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-corporate-card-whistleblower",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-farmland-survey",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 752,
+   "lang": "ko",
+   "id": "2026-09-27-geonwoo-nsl-mexico-remark",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-27-hoon2-jeonhyunhee-land-lease",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-27-leejinsook-lee-parents-grave-farmland",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-09-27-minjoojuhee-trial-resume-challenge",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-27-news1min-cpi-31st",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-27-rekor-dmz-mine-testimony",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-09-27-rekor-former-25div-commander",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-27-shindawit-nisi-mine-summary",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-28-2pro-jcs-interim-claim",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-boxplus-2019-forced-repatriation",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1208,
+   "lang": "ko",
+   "id": "2026-09-28-drumtong119-jinsungjoon-nsl-past",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-facteye-dmz-mine-similar-object",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 979,
+   "lang": "ko",
+   "id": "2026-09-28-firstincome-kctu-spy-case-summary",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-09-28-geonwoo-farmland-bank-expansion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-09-28-geonwoo-state-system-decade",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-kangyeonjae-chief-justice-audit-witness",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 930,
+   "lang": "ko",
+   "id": "2026-09-28-kimjanggyeom-hanjunho-kbs-complaint",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-28-kimmeengeon-farmland-communism",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-28-ljm-unc-request-refused",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-09-28-minkyuhan-dmz-delay-questions",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-nakyungwon-mine-report-deletion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-28-pagememo-jcs-interim-result",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-28-parkchoongkwon-dp-mine-remarks",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 724,
+   "lang": "ko",
+   "id": "2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-28-rekor-chinese-crime-tourism",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-28-shindawit-pla-fighter-wiretap",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-28-solsol-mexico-17-agreements",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-sonit-nk-aid-vs-elderly-support",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-28-themove-hongkong-umbrella-12th",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-28-todayissuepicks-dmz-hand-pick-escape",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-28-yukdaejeon-nisi-nk-mine",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-09-29-2pro-prosecution-sign-removal-cost",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-29-finf-jcs-terrain-change-year",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-09-29-finf-jinsungjoon-mine-intent",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-29-leejinsook-assassins-film-distortion",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-29-limjongdeuk-dmz-operation-criticism",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-29-momamour-westsea-vs-dmz-comparison",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-29-nowandhere-defense-minister-nk-responsibility",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-09-29-osj17x-hankiho-president-instruction",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-09-29-rekor-hypertension-diabetes-support-cut",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1092,
+   "lang": "ko",
+   "id": "2026-09-29-rightmeet-mine-word-press-guideline",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-09-29-sbsnews-lee-mine-conspiracy-remark",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 722,
+   "lang": "ko",
+   "id": "2026-09-29-shindawit-cxmt-samsung-threat",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-09-30-20hoon-prosecution-abolition-victim-guide",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1115,
+   "lang": "ko",
+   "id": "2026-09-30-2pro-unc-armistice-violation",
+   "n": 14,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1347,
+   "lang": "ko",
+   "id": "2026-09-30-hagonolza-lee-case-dismissal-two-routes",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-09-30-kimeunhye-farmland-china-solar",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 863,
+   "lang": "ko",
+   "id": "2026-09-30-monarch-morsetan-church-claims",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1069,
+   "lang": "ko",
+   "id": "2026-09-30-rekor-foreign-committee-dp-absence",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1373,
+   "lang": "ko",
+   "id": "2026-09-30-shindawit-nk-mdl-50-crossings",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-09-30-taekyu-assassins-film-fund-china",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1324,
+   "lang": "ko",
+   "id": "2026-09-30-toktok-lee-classified-doc-sns",
+   "n": 15,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-10-01-hagonolza-opcon-transfer-risks",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-01-ntdkorea-jeju-falungong-rally-chinese",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 559,
+   "lang": "ko",
+   "id": "2026-10-01-rekor-15div-mine-field",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-01-swingmag-gov24-hacking",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1463,
+   "lang": "ko",
+   "id": "2026-10-02-alaska-lng-vs-dmz-mine-response",
+   "n": 17,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 863,
+   "lang": "ko",
+   "id": "2026-10-03-oct3-gwanghwamun-rally-scale",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-10-03-rekor-saeul-nuclear-drone",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-10-04-rnwndhk-panmunjom-usb-lawsuit",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 884,
+   "lang": "ko",
+   "id": "2026-10-04-ycherish-oct3-rally-media",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1162,
+   "lang": "ko",
+   "id": "2026-10-05-issueradar-nsc-cyber-sanctions-clash",
+   "n": 13,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-10-05-jeichi-front-corps-unloaded-guard",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-05-shindawit-core-tech-leak-china-92",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-10-05-shindawit-mdl-south-minefields-20m",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-05-wendmag-cio-investigation-scope",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 953,
+   "lang": "ko",
+   "id": "2026-10-07-geonwoovibes-defector-repatriation-claim",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-10-07-gotdemcatch-kimminseok-chief-justice-resign",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-07-rinha-chosun-column-chongryon-visit",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 933,
+   "lang": "ko",
+   "id": "2026-10-07-swingmag-fake-police-protest-sentence",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-07-yeong573-parkchoongkwon-filibuster-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-08-ansanheart-daejangdong-recording-2025",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 793,
+   "lang": "ko",
+   "id": "2026-10-08-finf-un-first-committee-mine-clash",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-10-08-focusone-ganghwa-drifting-mine",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 909,
+   "lang": "ko",
+   "id": "2026-10-08-monarch-us-congress-ccp-influence-korea",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 977,
+   "lang": "ko",
+   "id": "2026-10-08-peoplepower7-ukraine-korea-oil-claim",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-10-08-shindawit-nis-chief-nga-visit-report",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1092,
+   "lang": "ko",
+   "id": "2026-10-08-shindawit-us-nis-cyber-group-excluded",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1164,
+   "lang": "ko",
+   "id": "2026-10-09-gotdemcatch-lee-five-trials-suspended",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1046,
+   "lang": "ko",
+   "id": "2026-10-09-themovemag-chinese-residents-1m",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-10-10-insighteye-china-korean-heritage-24",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-10-10-news1min-nps-foreigner-late-payment",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 837,
+   "lang": "ko",
+   "id": "2026-10-10-ribonpig-gyeonggi-childcare-budget",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-10-10-rocketissue-kei-poll-korea-defense",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-10-sisabrieffing-life-sentence-parole",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-11-knn-joojinwoo-taereung-golf",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-10-12-conpoli88-parkjiwon-nk-remittance-nis",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 907,
+   "lang": "ko",
+   "id": "2026-10-12-hagonolza-equal-earth-dokdo",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-10-12-hagonolza-leejinsook-kcc-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-10-12-minkyuhantv-german-spy-chief",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 652,
+   "lang": "ko",
+   "id": "2026-10-13-brieftag-kadiz-data-withheld",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 698,
+   "lang": "ko",
+   "id": "2026-10-13-yeong573-police-bodycam-china",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 814,
+   "lang": "ko",
+   "id": "2026-10-14-2pro-nk-slcm-not-announced",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 536,
+   "lang": "ko",
+   "id": "2026-10-14-gotdemcatch-safety-drill-poster-insignia",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-14-knn-fake-mnd-chinese-recruit-poster",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 791,
+   "lang": "ko",
+   "id": "2026-10-14-wikipost-dp-shincheonji-members",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 652,
+   "lang": "ko",
+   "id": "2026-10-18-wikipost-equal-pay-equal-work-roadmap",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-20-monarchreport25-lee-kim-held-back-2025",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 675,
+   "lang": "ko",
+   "id": "2026-10-23-eodguri-kimyonghyun-drone-appeal",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 770,
+   "lang": "ko",
+   "id": "2026-10-24-khan-nk-third-company-commanders-conference",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-10-28-donga-nk-submarine-infiltration-drills",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 536,
+   "lang": "ko",
+   "id": "2026-10-29-khan-nk-srbm-launch-wonsan",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-10-29-news1-china-53-vessels-taiwan-warning",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 608,
+   "lang": "ko",
+   "id": "2026-11-01-eodguri-war-term-extension-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 654,
+   "lang": "ko",
+   "id": "2026-11-03-happenbosu-lee-kimilsung-remark-2024",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 492,
+   "lang": "ko",
+   "id": "2026-11-03-wikipost-marine-officer-kimjongun-photo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 631,
+   "lang": "ko",
+   "id": "2026-11-04-leejinsook-martial-law-soldiers-presser",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 768,
+   "lang": "ko",
+   "id": "2026-11-05-dduddd-kimtaekyu-expulsion-resolution",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 747,
+   "lang": "ko",
+   "id": "2026-11-08-politicscrush-daejinyeon-kimjongun-welcome-2019",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-07-01-amhaengeosa-lee-nk-military-remark",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-07-04-idontknowpolitics-2018-freedom-deletion",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-07-05-idontknowpolitics-kctu-appeal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-07-12-judypia-real-estate-supervisory-bill",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-07-13-idontknowpolitics-yeonpyeong-crab-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 785,
+   "lang": "en",
+   "id": "2026-07-14-kasamo7-cnn-surprise-attack-article",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-07-19-amhaengeosa-kctu-itaewon-directive",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-07-20-yoonsanghyun-special-counsel-filibuster",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-07-22-geonwoo-kimminsoo-defense",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-07-24-firstincome-seoul-edu-unification-textbook",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 511,
+   "lang": "en",
+   "id": "2026-07-24-korealive-woohai-moreugo",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-07-25-idontknowpolitics-cheongju-spy-directives",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-07-28-geonwoo-ebs-video-removal",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-07-28-geonwoo-yoon-final-statement-australia",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 808,
+   "lang": "en",
+   "id": "2026-07-28-jeichi-amendment-term-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 877,
+   "lang": "en",
+   "id": "2026-08-03-pagememo-nk-prosecution-reform-directive",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-08-06-owloffreedom-kimhyuntae-sentencing",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-08-12-citynewsmeme-parksangyong-oath-refusal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-08-24-dictatorshipnono-jeju-missing-false-closure",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-08-25-nowandhere-625-constitution-question",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1457,
+   "lang": "en",
+   "id": "2026-08-29-idontknowpolitics-martial-law-nk-policy",
+   "n": 12,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-03-taekyu-statistics-audit-probe",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-08-kimsohee-ppp-seven-pledges",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-08-sonit-criminal-record-card",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-09-pagememo-unmanned-vehicle-budget-cut",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-10-ansanheart-academy-merger",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-10-brieftag-nk-contact-reports-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-10-currentwaves-pm-amendment-slip",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1063,
+   "lang": "en",
+   "id": "2026-09-10-freedominnovation-nec-bill",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1202,
+   "lang": "en",
+   "id": "2026-09-10-geonwoo-jeongyulseong-song-contest",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-11-currentwaves-nk-hr-report-classified",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-12-nowmagazine-postpartum-vs-nk-infant",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-12-peoplepower7-kimminwoong-dp-card",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-518-list-disclosure-citizen",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-brother-hospitalization-case",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-gwangju-rally",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-jinjoongkwon-2023-remark",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-09-13-geonwoo-leejinsook-518-merit-disclosure",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1156,
+   "lang": "en",
+   "id": "2026-09-13-idontknowpolitics-kangdong-hospital",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-09-13-sonit-625-book-ban-claim",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-14-kimminsoo-spy-law-enforcement",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-14-yongkeun-justice-hearing-lee-trial",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-15-bbang630-518-armored-vehicle-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-15-choice-nk-budget-undecided",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-15-jindam-choo-resignation-petition",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-15-joojinwoo-kimseungwon-hearing",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-16-hagonolza-country-insult-bill",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-16-idontknowpolitics-2023-warrant-dismissed",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-16-pickmag-china-visa-free-petition",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-16-sisabriefing-nk-budget",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-17-hagonolza-changwon-spy-indictment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-17-idontknowpolitics-sergeant-leak-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 923,
+   "lang": "en",
+   "id": "2026-09-17-rekor-light-committee-disclosure",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-18-bluenews-jeju-organ-transplant-rumor",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-18-dailybite-judicial-independence",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-18-newssnap-chung-no-kaesong-lawsuit",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-18-shindawit-asiangames-nk-anthem",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 180,
+   "lang": "en",
+   "id": "2026-09-19-geonwoo-hongdae-march",
+   "n": 3,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-20-hagonolza-constitution-amendment-points",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1016,
+   "lang": "en",
+   "id": "2026-09-20-hanmibro-academy-merger-cards",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-20-kimeunhye-jeonse-reel",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-20-nowandhere-mdl-mine-briefing-reel",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-20-nowmagazine-alpha-phone",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-20-shindawit-foreign-unemployment-benefits",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-21-centrism-dmz-summary",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-21-dotori-nk-medical-equipment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-21-kimmoonsoo-prosecution-abolition",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-21-leeprenotion-assembly-holiday-bonus",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-21-oreunboy-dmz-mine-explosion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-09-21-yuyongweon-mdl-disclosure",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-22-ego-police-republic-concern",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-22-emong-nk-contact-law",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-22-lotuslantern-25div-death",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-22-peoplepower7-hyegyeonggung-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-22-taekyu-chief-justice-refusal",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-22-taekyu-ppp-rally-report",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-23-jeichi-nk-mdl-crossing",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-23-shindawit-army-lecture-trump",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-24-hagonolza-kctu-itaewon-claim",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-09-24-hagonolza-kimgyeri-spy-remark",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 808,
+   "lang": "en",
+   "id": "2026-09-24-politicscrush-main-enemy-politicians",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-24-sewodream-nk-agent-private-detective",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-25-kimkyelee-nk-pow-ukraine",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-25-minkyuhan-nsl-security-priority",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-09-25-peoplepower7-tankday-vs-mine",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-26-ccpoutkorea-ocsc-overseas-police",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-26-issue365-lee-nsl-yusimin",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-26-neveragain-mexico-tariff-visit",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-26-newsbanhana-lee-kexpo-mexico",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-26-nonjeomjikjin-dmz-chae-standard",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-09-26-rekor-dmz-dispute",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-26-wikipost-dmz-injury-rumor",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-27-ccpoutkorea-china-threat-survey",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 808,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-corporate-card-whistleblower",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-farmland-survey",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 673,
+   "lang": "en",
+   "id": "2026-09-27-geonwoo-nsl-mexico-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-27-hoon2-jeonhyunhee-land-lease",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-27-leejinsook-lee-parents-grave-farmland",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-27-minjoojuhee-trial-resume-challenge",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-27-news1min-cpi-31st",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-27-rekor-dmz-mine-testimony",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-27-rekor-former-25div-commander",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-27-shindawit-nisi-mine-summary",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-28-2pro-jcs-interim-claim",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-boxplus-2019-forced-repatriation",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-09-28-drumtong119-jinsungjoon-nsl-past",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-facteye-dmz-mine-similar-object",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 900,
+   "lang": "en",
+   "id": "2026-09-28-firstincome-kctu-spy-case-summary",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-28-geonwoo-farmland-bank-expansion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-09-28-geonwoo-state-system-decade",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-kangyeonjae-chief-justice-audit-witness",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 808,
+   "lang": "en",
+   "id": "2026-09-28-kimjanggyeom-hanjunho-kbs-complaint",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-28-kimmeengeon-farmland-communism",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-ljm-unc-request-refused",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-minkyuhan-dmz-delay-questions",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-nakyungwon-mine-report-deletion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-28-pagememo-jcs-interim-result",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-28-parkchoongkwon-dp-mine-remarks",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-28-rekor-chinese-crime-tourism",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-28-shindawit-pla-fighter-wiretap",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-28-solsol-mexico-17-agreements",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-sonit-nk-aid-vs-elderly-support",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-28-themove-hongkong-umbrella-12th",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-28-todayissuepicks-dmz-hand-pick-escape",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-28-yukdaejeon-nisi-nk-mine",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-09-29-2pro-prosecution-sign-removal-cost",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-29-finf-jcs-terrain-change-year",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-09-29-finf-jinsungjoon-mine-intent",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-29-leejinsook-assassins-film-distortion",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-29-limjongdeuk-dmz-operation-criticism",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-29-momamour-westsea-vs-dmz-comparison",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-29-nowandhere-defense-minister-nk-responsibility",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-09-29-osj17x-hankiho-president-instruction",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-09-29-rekor-hypertension-diabetes-support-cut",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 970,
+   "lang": "en",
+   "id": "2026-09-29-rightmeet-mine-word-press-guideline",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-09-29-sbsnews-lee-mine-conspiracy-remark",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 599,
+   "lang": "en",
+   "id": "2026-09-29-shindawit-cxmt-samsung-threat",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-09-30-20hoon-prosecution-abolition-victim-guide",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 993,
+   "lang": "en",
+   "id": "2026-09-30-2pro-unc-armistice-violation",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1225,
+   "lang": "en",
+   "id": "2026-09-30-hagonolza-lee-case-dismissal-two-routes",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-09-30-kimeunhye-farmland-china-solar",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-09-30-monarch-morsetan-church-claims",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 947,
+   "lang": "en",
+   "id": "2026-09-30-rekor-foreign-committee-dp-absence",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1294,
+   "lang": "en",
+   "id": "2026-09-30-shindawit-nk-mdl-50-crossings",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-09-30-taekyu-assassins-film-fund-china",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1202,
+   "lang": "en",
+   "id": "2026-09-30-toktok-lee-classified-doc-sns",
+   "n": 10,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-10-01-hagonolza-opcon-transfer-risks",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-01-ntdkorea-jeju-falungong-rally-chinese",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 437,
+   "lang": "en",
+   "id": "2026-10-01-rekor-15div-mine-field",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-01-swingmag-gov24-hacking",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1341,
+   "lang": "en",
+   "id": "2026-10-02-alaska-lng-vs-dmz-mine-response",
+   "n": 11,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-10-03-oct3-gwanghwamun-rally-scale",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-10-03-rekor-saeul-nuclear-drone",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-04-rnwndhk-panmunjom-usb-lawsuit",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 761,
+   "lang": "en",
+   "id": "2026-10-04-ycherish-oct3-rally-media",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1039,
+   "lang": "en",
+   "id": "2026-10-05-issueradar-nsc-cyber-sanctions-clash",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-10-05-jeichi-front-corps-unloaded-guard",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-05-shindawit-core-tech-leak-china-92",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-10-05-shindawit-mdl-south-minefields-20m",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-05-wendmag-cio-investigation-scope",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-07-geonwoovibes-defector-repatriation-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-10-07-gotdemcatch-kimminseok-chief-justice-resign",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-07-rinha-chosun-column-chongryon-visit",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-10-07-swingmag-fake-police-protest-sentence",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-07-yeong573-parkchoongkwon-filibuster-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-08-ansanheart-daejangdong-recording-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-08-finf-un-first-committee-mine-clash",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-10-08-focusone-ganghwa-drifting-mine",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 831,
+   "lang": "en",
+   "id": "2026-10-08-monarch-us-congress-ccp-influence-korea",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 854,
+   "lang": "en",
+   "id": "2026-10-08-peoplepower7-ukraine-korea-oil-claim",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-10-08-shindawit-nis-chief-nga-visit-report",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 970,
+   "lang": "en",
+   "id": "2026-10-08-shindawit-us-nis-cyber-group-excluded",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 1086,
+   "lang": "en",
+   "id": "2026-10-09-gotdemcatch-lee-five-trials-suspended",
+   "n": 9,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 923,
+   "lang": "en",
+   "id": "2026-10-09-themovemag-chinese-residents-1m",
+   "n": 8,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-10-insighteye-china-korean-heritage-24",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-10-news1min-nps-foreigner-late-payment",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 715,
+   "lang": "en",
+   "id": "2026-10-10-ribonpig-gyeonggi-childcare-budget",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-10-rocketissue-kei-poll-korea-defense",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-10-sisabrieffing-life-sentence-parole",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-11-knn-joojinwoo-taereung-golf",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-10-12-conpoli88-parkjiwon-nk-remittance-nis",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 784,
+   "lang": "en",
+   "id": "2026-10-12-hagonolza-equal-earth-dokdo",
+   "n": 7,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-10-12-hagonolza-leejinsook-kcc-2025",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-10-12-minkyuhantv-german-spy-chief",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-10-13-brieftag-kadiz-data-withheld",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-10-13-yeong573-police-bodycam-china",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-14-2pro-nk-slcm-not-announced",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-10-14-gotdemcatch-safety-drill-poster-insignia",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-14-knn-fake-mnd-chinese-recruit-poster",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-10-14-wikipost-dp-shincheonji-members",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-10-18-wikipost-equal-pay-equal-work-roadmap",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-20-monarchreport25-lee-kim-held-back-2025",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-23-eodguri-kimyonghyun-drone-appeal",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 692,
+   "lang": "en",
+   "id": "2026-10-24-khan-nk-third-company-commanders-conference",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-10-28-donga-nk-submarine-infiltration-drills",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-10-29-khan-nk-srbm-launch-wonsan",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-10-29-news1-china-53-vessels-taiwan-warning",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 529,
+   "lang": "en",
+   "id": "2026-11-01-eodguri-war-term-extension-claim",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 576,
+   "lang": "en",
+   "id": "2026-11-03-happenbosu-lee-kimilsung-remark-2024",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 413,
+   "lang": "en",
+   "id": "2026-11-03-wikipost-marine-officer-kimjongun-photo",
+   "n": 4,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 552,
+   "lang": "en",
+   "id": "2026-11-04-leejinsook-martial-law-soldiers-presser",
+   "n": 5,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 645,
+   "lang": "en",
+   "id": "2026-11-05-dduddd-kimtaekyu-expulsion-resolution",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  },
+  {
+   "w": 1280,
+   "h": 668,
+   "lang": "en",
+   "id": "2026-11-08-politicscrush-daejinyeon-kimjongun-welcome-2019",
+   "n": 6,
+   "off": [],
+   "pos": "static"
+  }
+ ],
+ "totals": {
+  "1024x600": {
+   "pages": 414,
+   "focusables": 3234,
+   "offscreen": 0,
+   "nonStaticAside": 0
+  },
+  "1280x600": {
+   "pages": 414,
+   "focusables": 3234,
+   "offscreen": 0,
+   "nonStaticAside": 0
+  }
+ },
+ "tab": [
+  {
+   "size": "1024x768",
+   "asideFocusables": 17,
+   "visited": 17,
+   "offscreen": 0,
+   "off": []
+  },
+  {
+   "size": "1024x600",
+   "asideFocusables": 17,
+   "visited": 17,
+   "offscreen": 0,
+   "off": []
+  },
+  {
+   "size": "1280x800",
+   "asideFocusables": 17,
+   "visited": 17,
+   "offscreen": 0,
+   "off": []
+  },
+  {
+   "size": "1280x600",
+   "asideFocusables": 17,
+   "visited": 17,
+   "offscreen": 0,
+   "off": []
+  },
+  {
+   "size": "1440x900",
+   "asideFocusables": 17,
+   "visited": 17,
+   "offscreen": 0,
+   "off": []
+  }
+ ],
+ "longest": {
+  "id": "2026-08-29-idontknowpolitics-martial-law-nk-policy",
+  "h": 1672
+ }
+}

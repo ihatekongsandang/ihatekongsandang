@@ -1,0 +1,5 @@
+케이스 64개 · 통과 64 · 실패 0
+# 양성 대조: 미래 확인일 검사·로컬 주소 검사를 일부러 끈 schema.ts로 실행
+케이스 64개 · 통과 58 · 실패 6
+FAIL  P3-2 판정: https://localhost/a.jpg → 로컬 주소 — undefined
+FAIL  P3-2 거부(검증): https://localhost/a.jpg — []

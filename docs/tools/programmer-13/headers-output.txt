@@ -1,0 +1,9 @@
+# 로컬 프로덕션(next start, vercel.json 헤더를 next.config가 적용) — GET /post/{id} 응답 머리
+HTTP/1.1 200 OK
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com
+
+# 배포 도메인 반영 확인(curl 1회, CLAUDE.md §9)
+HTTP/2 200 
+content-security-policy-report-only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com
+referrer-policy: strict-origin-when-cross-origin

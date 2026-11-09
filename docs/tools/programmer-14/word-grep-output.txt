@@ -1,0 +1,28 @@
+src/app/globals.css	저장소독립=0	D6금지어=0
+src/components/site-header.tsx	저장소독립=0	D6금지어=0
+src/components/english-site-heading.tsx	저장소독립=0	D6금지어=0
+src/components/page-frame.tsx	저장소독립=0	D6금지어=0
+src/components/floating-banner.tsx	저장소독립=0	D6금지어=0
+src/lib/floating-banner.ts	저장소독립=0	D6금지어=0
+src/components/site-footer.tsx	저장소독립=0	D6금지어=0
+src/components/feed-view.tsx	저장소독립=0	D6금지어=0
+src/components/tag-nav.tsx	저장소독립=0	D6금지어=0
+src/components/post-grid.tsx	저장소독립=0	D6금지어=0
+src/components/post-card.tsx	저장소독립=0	D6금지어=0
+src/components/card-media.tsx	저장소독립=0	D6금지어=0
+src/components/pagination.tsx	저장소독립=0	D6금지어=0
+src/components/post-detail.tsx	저장소독립=0	D6금지어=0
+src/components/share-buttons.tsx	저장소독립=0	D6금지어=0
+src/components/source-list.tsx	저장소독립=0	D6금지어=0
+src/lib/i18n.ts	저장소독립=0	D6금지어=0
+src/app/(ko)/about/page.tsx	저장소독립=0	D6금지어=0
+src/app/(en)/en/about/page.tsx	저장소독립=0	D6금지어=0
+src/app/(ko)/terms/page.tsx	저장소독립=0	D6금지어=0
+src/app/(en)/en/terms/page.tsx	저장소독립=0	D6금지어=0
+src/app/(ko)/tags/page.tsx	저장소독립=0	D6금지어=0
+eslint.config.mjs	저장소독립=0	D6금지어=0
+변경 파일 수	23
+docs/tools/programmer-14/*	저장소독립 합계=0
+programmer-13·14 도구 · src · scripts	홈 절대경로 합계=0
+양성 대조(.git/hooks/pre-commit)	1
+홈 경로 패턴 양성 대조(조합 문자열)	1

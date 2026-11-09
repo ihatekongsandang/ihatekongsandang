@@ -44,7 +44,7 @@ export default function TagsPage() {
 
         {tags.length > 0 ? (
           // Tailwind가 목록 기호를 지우면 Safari VoiceOver가 목록으로 읽지 않으므로 role을 다시 단다.
-          <ul role="list" aria-label="태그 목록" className="flex flex-wrap items-center gap-2 border-t pt-6">
+          <ul role="list" aria-label="태그 목록" className="flex flex-wrap items-center gap-x-2 border-t pt-6">
             {tags.map(({ tag, count }) => (
               <li key={tag}>
                 <TagChip tag={tag} count={count} />
@@ -56,7 +56,7 @@ export default function TagsPage() {
         )}
 
         <p className="border-t pt-6 text-sm">
-          <Link href="/" className="text-link underline underline-offset-2">
+          <Link href="/" className="inline-flex min-h-11 items-center text-link underline underline-offset-2">
             최신 게시물 보기
           </Link>
         </p>

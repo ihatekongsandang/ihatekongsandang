@@ -297,6 +297,13 @@ function validateImages(
   return result.length === originalImages.length ? result : undefined
 }
 
+/** 영어 캡션이 없으면 한국어 캡션을 영어 페이지에 남기지 않는다(이전 동작 유지). */
+function withoutCaption(image: PostImage): PostImage {
+  const rest: PostImage = { ...image }
+  delete rest.caption
+  return rest
+}
+
 /**
  * 한국어 원본 + 영어본 → 영어 페이지가 그릴 게시물.
  * 번역 필드만 갈아 끼우고 나머지(날짜·배경 보도·원문 링크·이미지 경로·태그)는 원본 그대로 둔다.
@@ -312,8 +319,9 @@ export function localizePost(original: Post, translation: PostTranslation): Post
     description: translation.description,
     ...(original.image
       ? {
+          // kind·크레딧·확인일·faceNote는 원본 그대로 가져온다(영어 상세는 creditNameEn으로 렌더). alt·caption만 영어로 바꾼다.
           image: {
-            src: original.image.src,
+            ...withoutCaption(original.image),
             alt: translation.imageAlt ?? original.image.alt,
             ...(original.image.caption && translation.imageCaption ? { caption: translation.imageCaption } : {}),
           },
@@ -323,6 +331,7 @@ export function localizePost(original: Post, translation: PostTranslation): Post
       const localized = translation.images?.[index]
       return {
         src: image.src,
+        kind: image.kind,
         alt: localized?.alt ?? image.alt,
         ...(image.caption && localized?.caption ? { caption: localized.caption } : {}),
       }
