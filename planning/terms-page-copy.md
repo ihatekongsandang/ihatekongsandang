@@ -2,6 +2,7 @@
 
 > 작성: 기획자 (Sonnet 5) · md오더 09 | 작성일: 2026-11-08
 > 🆕 **2026-11-09 동기화(기획자 11, 리뷰 25 P3-8)**: 이 문안은 v0.2에 배포됐다(커밋 ba699e3). 디자이너·프로그래머가 문안 밖에서 더한 문장과 배포 문구가 문안과 다른 곳을 문서 맨 아래 §A~§C에 기록했다. 아래 한국어·English 원문 자체는 문안 확정본 그대로 두었다. 개정 문구 안은 `planning/v0.2-post-release-sync.md`(§3~§5)에 있다.
+> 🆕 **2026-11-09 본문 동기화(기획자 12, 리뷰 28 P3-2)**: 아래 한국어·English 본문을 배포된 개정 문구(커밋 8a6f4d3, 리뷰 27·28 승인)로 바꿨다. 옛 문장 4개(#1·#2·#5·#6), 덧붙임 2개(#7·#8), 개정일 줄(#9)을 반영했고 §C는 처리 완료 기록으로 바꿨다. **아포스트로피 표기 규칙은 §C 머리에 있다**(이 문서의 곧은 `'`는 `&rsquo;`를 뜻한다).
 > 🔴 저장소 독립 원칙: 다른 서비스명·계정명·홈 디렉터리 절대경로를 쓰지 않는다.
 > 근거: `planning/news-format-conversion.md` §1.0·§1.3·D2·D6, PRD v0.7 §6④·⑥
 > ⚠️ **법적 효과를 보장하는 표현은 쓰지 않는다.** 아래 문안은 모두 "확인 필요" 전제를 유지하며, "~이다"처럼 단정하지 않고 "~로 운영한다"·"~에 따라 조치한다"처럼 운영 사실을 서술하는 형태로만 썼다.
@@ -14,6 +15,7 @@
 
 - 경로(확정): `/terms`(한국어), `/en/terms`(영어) — PRD §4.1과 동일.
 - 제목(확정): "이용약관·운영 정책" / "Terms and Operating Policy"
+- 개정일 줄(확정, #9): 제목 아래 첫 줄 작은 글씨 `최종 개정: 2026-11-09` / `Last updated: 2026-11-09`. 날짜는 `src/lib/config.ts`의 `termsLastUpdated` 한 상수를 ko·en이 함께 쓰며(Asia/Seoul), 약관 문구를 고칠 때마다 갱신한다.
 - `/about`·`/en/about` 하단에 이 페이지로 가는 링크를 추가하는 것을 전제로 썼다(상호 참조).
 
 ---
@@ -31,8 +33,8 @@
 ### 3. 출처 원칙
 
 - 근거로 삼는 출처는 언론사 보도, 수사기관(검찰·경찰·국가정보원 등)의 공식 발표·보도자료, 공개된 법원 판결문입니다.
-- 언론사는 「신문 등의 진흥에 관한 법률」에 따라 **등록된 신문·인터넷신문**(제2조 1호·2호 정의 충족)을 기준으로 보고, 뉴스통신사는 「뉴스통신 진흥에 관한 법률」, 방송사업자는 「방송법」의 사업자를 기준으로 봅니다(09-1 수정 — 리뷰 24 P3-1: 뉴스통신사·방송사업자를 신문법 등록 대상으로 쓴 것은 오기였습니다). 미등록 매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다.
-- 모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **기사 요약이나 본문을 그대로 옮기지 않습니다**(09-1 수정 — 리뷰 24 P3-6: "제목·요약만 인용"은 기사의 요약을 그대로 옮긴다는 뜻으로 읽힐 수 있어 고쳤습니다).
+- 언론사는 「신문 등의 진흥에 관한 법률」에 따라 **등록된 신문·인터넷신문**(제2조 1호·2호 정의 충족)을 기준으로 보고, 뉴스통신사는 「뉴스통신 진흥에 관한 법률」, 방송사업자는 「방송법」의 사업자를 기준으로 봅니다(09-1 수정 — 리뷰 24 P3-1: 뉴스통신사·방송사업자를 신문법 등록 대상으로 쓴 것은 오기였습니다). 미등록 매체·1인 미디어·유튜브는 단독 근거로 쓰지 않습니다. 소개 문구의 “신문법 등에 따라 등록된 매체”는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다.
+- 모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다**(09-1 수정 — 리뷰 24 P3-6: "제목·요약만 인용"은 기사의 요약을 그대로 옮긴다는 뜻으로 읽힐 수 있어 고쳤습니다). 다만 상세 페이지의 ‘원문 미리보기’에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다.
 - 제목과 요약은 단정하지 않고 인용하는 형태로 씁니다("~로 보도됨"·"~라는 의혹이 제기됨" 등).
 
 ### 4. 정정·삭제 요청 방법과 처리 기준
@@ -48,7 +50,7 @@
 
 ### 5. 익명 운영과 연락 경로
 
-이 사이트는 운영자의 실명·소속·직함을 공개하지 않고 **익명으로 운영**합니다. 회원 가입·댓글·후원 기능이 없습니다. (09-1 수정 — 리뷰 24 P3-4) 가입·결제 등을 위해 별도로 개인정보를 받지는 않지만, 방문 통계는 GA4로 집계되고 정정·삭제 요청 시 보내주신 연락처(이메일 등)는 응답 목적으로만 씁니다. 이 설명이 개인정보보호법상 요구되는 고지를 전부 충족하는지는 **확인 필요**입니다. 운영자와의 연락은 위 4항의 연락 경로를 통해서만 가능합니다.
+이 사이트는 운영자의 실명·소속·직함을 공개하지 않고 **익명으로 운영**합니다. 회원 가입·댓글·후원 기능이 없습니다. (09-1 수정 — 리뷰 24 P3-4) 가입·결제 등을 위해 별도로 개인정보를 받지는 않지만, 방문 통계는 GA4로 집계되고 정정·삭제 요청 시 보내주신 연락처(이메일 등)는 응답 목적으로만 씁니다. 이 설명이 개인정보보호법상 요구되는 고지를 전부 충족하는지는 **확인 필요**입니다. 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경로를 통해서만 가능합니다.
 
 ### 6. 게시물 성격
 
@@ -69,8 +71,8 @@ Every post on this site is written from **sources that have already been publish
 ### 3. Sourcing principles
 
 - We rely on: news coverage, official announcements or press releases from investigative authorities (e.g., the prosecution, police, National Intelligence Service), and published court rulings.
-- "News outlet" means a newspaper or internet newspaper **registered** under Korea's Act on the Promotion of Newspapers (meeting Article 2, items 1–2), a news agency under the Act on the Promotion of News Agencies, or a broadcaster under the Broadcasting Act (fixed 09-1 — review 24 P3-1: news agencies and broadcasters are not registered under the Newspapers Act). Unregistered outlets, independent media, and YouTube channels are not used as a sole basis.
-- Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — **we never copy a news article's summary or body text** (fixed 09-1 — review 24 P3-6: "only titles and short summaries" could be read as copying the article's own summary).
+- "News outlet" means a newspaper or internet newspaper **registered** under Korea's Act on the Promotion of Newspapers (meeting Article 2, items 1–2), a news agency under the Act on the Promotion of News Agencies, or a broadcaster under the Broadcasting Act (fixed 09-1 — review 24 P3-1: news agencies and broadcasters are not registered under the Newspapers Act). Unregistered outlets, independent media, and YouTube channels are not used as a sole basis. The phrase “outlets registered under Korea's Act on the Promotion of Newspapers and related laws” in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above.
+- Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — **the summaries and text we write never copy a news article's summary or body text** (fixed 09-1 — review 24 P3-6: "only titles and short summaries" could be read as copying the article's own summary). The “Original post preview” box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so.
 - Titles and summaries are written as quotations, not assertions (e.g., "reportedly ...", "allegedly ...").
 
 ### 4. How to request a correction or removal, and how we handle it
@@ -86,7 +88,7 @@ If something is inaccurate, or you want us to stop using an image from the origi
 
 ### 5. Anonymous operation and contact
 
-This site is run **anonymously** — we don't disclose the operator's real name, affiliation, or title. There's no sign-up, no comments, and no donations. (Fixed 09-1 — review 24 P3-4) We don't collect personal information for things like sign-up or payment, but visit statistics are collected via GA4, and any contact details (e.g., an email address) you send with a correction or removal request are used only to respond to you. Whether this description fully meets what Korea's personal-data-protection law requires is **still being confirmed**. The only way to reach the operator is through the contact channel in Section 4.
+This site is run **anonymously** — we don't disclose the operator's real name, affiliation, or title. There's no sign-up, no comments, and no donations. (Fixed 09-1 — review 24 P3-4) We don't collect personal information for things like sign-up or payment, but visit statistics are collected via GA4, and any contact details (e.g., an email address) you send with a correction or removal request are used only to respond to you. Whether this description fully meets what Korea's personal-data-protection law requires is **still being confirmed**. The only way to reach the operator is through the contact channel in the “How to request a correction or removal, and how we handle it” section above.
 
 ### 6. What kind of content this is
 
@@ -128,18 +130,29 @@ Posts on this site are **summaries of already-published reporting**. This descri
 | B9 | 작성 이력 메모 | "(09-1 수정 — 리뷰 24 …)"·"(Added/Fixed 09-1 …)" | 모두 뺌 | 의도된 차이(화면 문구 아님) |
 | B10 | 경로·제목 | "제안, 확정 아님" `/terms`·`/en/terms` | 그대로 확정 | 프로그래머 11 구현 |
 
-### §C. 개정 대기 항목 (배포 전 — 🆕 리뷰 27 승인 최종 문구)
+### §C. 개정 처리 완료 (2026-11-09 기획자 12 — 배포 커밋 8a6f4d3, 리뷰 27 승인 문구 → 리뷰 28 승인)
 
-아래는 문안 원본(위 한국어·English 원문)을 아직 바꾸지 않았다. 프로그래머 오더로 코드를 고칠 때 함께 바꾼다. **반영 배포 전까지 원문이 유효 문안이다.** 반영 후에는 이 절을 §A·§B 방식으로 환원한다. 엔티티 관례: `&ldquo;` `&rdquo;` `&lsquo;` `&rsquo;`. 전체 목록(파일·위치·현행 대조)은 `planning/v0.2-post-release-sync.md` §6.
+🔴 **아포스트로피 표기 규칙**: 문안·개정 기록 표의 곧은 `'`는 `&rsquo;`(’)를 뜻한다. 영문 소개 문구(`SITE_EN.aboutIntro`)를 **인용**하는 곳만 곧은 `'`(`&apos;`) 그대로 쓴다(#8의 `Korea's` 인용). 인용부호 관례는 `&ldquo;` `&rdquo;` `&lsquo;` `&rsquo;`.
 
-| # | 대상 | 확정 문구 |
+아래 9건은 모두 위 한국어·English 본문에 반영됐고 배포 소스와 글자 단위로 같다(리뷰 28 대조 38/38). 본문 반영일 2026-11-09, 배포 커밋 8a6f4d3. 자세한 위치·옛 문구 대조는 `planning/v0.2-post-release-sync.md` §6.
+
+| # | 대상 | 반영 원문 | 근거 | 배포 커밋 |
+|---|---|---|---|---|
+| #1 ko | §5 마지막 문장 "위 4항" | 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경로를 통해서만 가능합니다. (`#correction` 링크는 넣지 않음 — 리뷰 28 §2-3 승인) | 리뷰 26 P3-4 → 리뷰 27 | 8a6f4d3 |
+| #2 en | §5 마지막 문장 "Section 4" | The only way to reach the operator is through the contact channel in the “How to request a correction or removal, and how we handle it” section above. | 리뷰 26 P3-4 → 리뷰 27 | 8a6f4d3 |
+| #5 ko | §3 셋째 항목 | 모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다**. 다만 상세 페이지의 ‘원문 미리보기’에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다. | 리뷰 26 P3-5 → 리뷰 27 · 리뷰 28 §2-1(완화 유지, 고지 위치 코드 확인) | 8a6f4d3 |
+| #6 en | §3 셋째 항목 | Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — **the summaries and text we write never copy a news article's summary or body text**. The “Original post preview” box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so. | 같음. ⚠️ 위 규칙대로 `article's`의 `'`는 `&rsquo;`다. **배포는 `&apos;`(곧은 `'`)라 1자 다르다**(리뷰 28 P3-1) — 아래 §D | 8a6f4d3(1자 차이 있음) |
+| #7 ko | §3 둘째 항목 끝에 덧붙임 | 소개 문구의 “신문법 등에 따라 등록된 매체”는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다. | 리뷰 26 D1 "신문법 등"과의 관계 → 리뷰 27 | 8a6f4d3 |
+| #8 en | §3 둘째 항목 끝에 덧붙임 | The phrase “outlets registered under Korea's Act on the Promotion of Newspapers and related laws” in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above. | 같음. 인용이라 곧은 `'`(`SITE_EN.aboutIntro`와 글자 일치, 규칙의 예외) | 8a6f4d3 |
+| #9 ko·en | 제목 아래 첫 줄(작은 글씨) — 위 "페이지 위치·제목" | ko: 최종 개정: 2026-11-09 / en: Last updated: 2026-11-09 | 슈퍼바이저 판단(리뷰 27 P3-6) · 리뷰 28 §2-4(날짜 상수·`<time>` 일치, `dateModified` 미추가 승인) | 8a6f4d3 |
+
+#1·#2는 링크 없는 평문이고, #5·#6 문장은 리뷰 28이 "고지 위치(같은 미리보기 상자 안 안내)"까지 코드와 맞는다고 확인했다.
+
+### §D. 대기 항목 (다음 약관 코드 오더 — 기획자 12 처리 후)
+
+| # | 항목 | 내용 |
 |---|---|---|
-| C1 (#1 ko) | §5 마지막 문장 "위 4항" (리뷰 26 P3-4) | 운영자와의 연락은 위 ‘정정·삭제 요청 방법과 처리 기준’ 절의 연락 경로를 통해서만 가능합니다. (`#correction` 링크는 선택) |
-| C1 (#2 en) | §5 마지막 문장 "Section 4" | The only way to reach the operator is through the contact channel in the “How to request a correction or removal, and how we handle it” section above. (링크 선택) |
-| C2 (#5 ko) | §3 셋째 항목 (리뷰 26 P3-5, 원문 미리보기와 구분) | 모든 게시물에 원문 출처 링크를 표시합니다. 요약은 운영자가 직접 쓰고, 기사 문장은 필요한 부분만 짧게 인용합니다 — **운영자가 쓰는 요약과 본문에는 기사 요약이나 본문을 그대로 옮기지 않습니다**. 다만 상세 페이지의 ‘원문 미리보기’에는 원문이 공개한 메타 정보(제목·요약)가 인용 표시와 함께 고치지 않은 그대로 나올 수 있으며, 그 사실을 같은 자리에 밝혀 둡니다. |
-| C2 (#6 en) | §3 셋째 항목 | Every post links to its original source. We write the summary ourselves and only quote short phrases where needed — **the summaries and text we write never copy a news article's summary or body text**. The “Original post preview” box on a post page may show the title and summary the source itself published, unedited and labeled as quoted, with a note saying so. |
-| C3 (#7 ko) | §3 둘째 항목 끝에 덧붙임 (D1 "신문법 등"과의 관계) | 소개 문구의 “신문법 등에 따라 등록된 매체”는 위 기준 전체를 줄여 부른 표현입니다. 매체 종류에 따라 근거 법령과 절차(등록·허가·승인 등)가 다르며, 근거 법령은 위에 적은 대로입니다. |
-| C3 (#8 en) | §3 둘째 항목 끝에 덧붙임 | The phrase “outlets registered under Korea's Act on the Promotion of Newspapers and related laws” in the About intro is shorthand for this whole standard. The legal basis and procedure (registration, license, approval, etc.) differ by type of outlet; the governing laws are as named above. |
-| C4 (#9 ko·en) | 약관 페이지 제목 아래 첫 줄(작은 글씨), 슈퍼바이저 판단(리뷰 27 P3-6) | ko: 최종 개정: YYYY-MM-DD / en: Last updated: YYYY-MM-DD — 날짜는 위 개정을 반영해 배포하는 코드 반영 배포일(Asia/Seoul). 이후 약관을 고칠 때마다 갱신 |
+| D1 | #6 아포스트로피 1자 되돌리기 | `src/app/(en)/en/terms/page.tsx`의 `article&apos;s`를 `article&rsquo;s`로(위 §C 규칙, 리뷰 28 P3-1). 뜻·법적 효과 없는 표기 차이. 그 오더가 약관 문구를 바꾸므로 `src/lib/config.ts`의 `termsLastUpdated`도 함께 갱신 |
+| D2 | 검증 도구 날짜 상수 | `termsLastUpdated`가 검증 도구 2종(`copy-exact-check.py`, `a11y-e2e.mjs`)에 고정값으로 들어 있다(리뷰 28 P3-3). D1 오더 때 도구가 상수를 읽게 바꾸는 것을 권장(선택) |
 
 관련 about 단서 2건(#3·#4: "아래 처리 기준은 연락 창구가 확정된 뒤부터 적용됩니다." / "The handling standards below apply once the contact channel is finalized.")은 약관이 아니라 `/about`·`/en/about` 문구이며 sync §6에 있다.
