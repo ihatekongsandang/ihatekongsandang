@@ -2,8 +2,6 @@
 id: 2026-09-27-news1min-cpi-31st
 title: "Korea's Corruption Perceptions Index ranks 31st of 182 countries, down one spot — anti-corruption commission cites 'uncertainty since the martial-law decree'"
 description: "Instagram @news1_min covers Korea's 2025 CPI: 63 points, 31st of 182, down one spot; the ACRC reportedly cited uncertainty since the martial-law decree."
-imageAlt: "Photo of President Lee Jae-myung's face"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @news1_min (1분 뉴스)"
 translatedAt: 2026-09-30
 ---

@@ -2,13 +2,11 @@
 id: 2026-09-28-geonwoo-farmland-bank-expansion
 title: "\"How far will the state manage farmers' land?\" — criticism of the full farmland survey and the expanded Farmland Bank budget"
 description: "Instagram @geonwoo.vibes says the farmland survey and Farmland Bank expansion breach property rights; the related 2027 budget reportedly hits 2.26 trillion won."
-imageAlt: "Photo of People Power Party leader Jang Dong-hyuk speaking in front of a radio studio microphone, overlaid with the text 'You said it wasn't communism, but nationalization is fine?'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @geonwoo.vibes (박건우)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the video content was not reviewed. The thumbnail uses a scene of People Power Party leader Jang Dong-hyuk (장동혁) speaking. Other posts on this issue (some may be available only in Korean): [reel criticizing the full farmland survey](/post/2026-09-27-geonwoo-farmland-survey) · [Rep. Kim Min-jeon (김민전)'s "communist thinking" remark](/post/2026-09-28-kimmeengeon-farmland-communism) · [controversy over farmland at President Lee's parents' grave](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+This post is based on the original caption; the video content was not reviewed. The original post's thumbnail uses a scene of People Power Party leader Jang Dong-hyuk (장동혁) speaking. Other posts on this issue (some may be available only in Korean): [reel criticizing the full farmland survey](/post/2026-09-27-geonwoo-farmland-survey) · [Rep. Kim Min-jeon (김민전)'s "communist thinking" remark](/post/2026-09-28-kimmeengeon-farmland-communism) · [controversy over farmland at President Lee's parents' grave](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
 
 ## What the original post claims (the poster's opinion)
 

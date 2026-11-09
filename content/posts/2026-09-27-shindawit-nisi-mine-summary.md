@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd0HUP8GCeQ/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-09-27-shindawit-nisi-mine-summary/thumb.jpg
-  alt: "국립과학수사연구원 건물 외관 사진"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 목함지뢰
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 같은 사안의 다른 게시물: [국과수 1차 감정 보도](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [장병 목격 증언](/post/2026-09-27-rekor-dmz-mine-testimony).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 같은 사안의 다른 게시물: [국과수 1차 감정 보도](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [장병 목격 증언](/post/2026-09-27-rekor-dmz-mine-testimony).
 
 ## 보도로 확인된 내용
 

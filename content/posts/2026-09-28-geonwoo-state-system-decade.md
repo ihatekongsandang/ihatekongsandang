@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd1OJjmzCKz/
 attribution: 인스타그램 @geonwoo.vibes (박건우)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-geonwoo-state-system-decade/thumb.jpg
-  alt: "국회 본회의장 연단에서 발언하는 의원 사진 위에 '야금야금 국가 시스템 전부 뒤엎어버린 민주당' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

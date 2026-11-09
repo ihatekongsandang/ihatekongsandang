@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Da2YKVyRNXZ/
 attribution: 인스타그램 @firstincome_now (퍼스트인컴)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-firstincome-kctu-spy-case-summary/thumb.jpg
-  alt: "얼굴이 흐리게 처리된 인물과 김정은 위원장 사진 위에 '이태원 참사 분노 만들어라 북한 지령받은 민노총 간부' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

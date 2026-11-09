@@ -10,10 +10,6 @@ speaker:
   name: "@minjoojuhee"
   affiliation: 인스타그램 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-27-minjoojuhee-trial-resume-challenge/thumb.jpg
-  alt: "건물 앞에서 '이재명 재판재개' 피켓을 든 시위자와 대통령 얼굴 가면을 쓰고 드럼통 모형 안에 선 인물, '재판재개!' 자막"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:

@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddz8DYfAf8_/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-27-rekor-former-25div-commander/thumb.jpg
-  alt: "이재명 대통령과 한기성 당시 25사단장이 나란히 선 사진"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -32,7 +28,7 @@ tags:
   - 1군단
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보(2026-09-28)·서울경제(2026-08-02) 보도를 출처로 적고 있습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보(2026-09-28)·서울경제(2026-08-02) 보도를 출처로 적고 있습니다.
 
 ## 보도로 확인된 내용
 

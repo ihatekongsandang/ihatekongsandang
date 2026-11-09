@@ -8,9 +8,15 @@ sourceUrl: https://www.threads.com/@boxplus.co.kr/post/Dd1V4VFiWi-
 attribution: 스레드 @boxplus.co.kr
 useSourceImage: false
 image:
-  src: /images/2026-09-28-boxplus-2019-forced-repatriation/thumb.jpg
-  alt: "판문점에서 탈북 어민이 끌려가는 장면(얼굴 모자이크) 위에 '지금도 안믿기는 사건: 귀순 의사가 있던 탈북민 2명을 문재인 정부 지시로 강제북송함' 문구가 얹힌 카드"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://cdn.lawtimes.co.kr/news/photo/202502/205732_108124_2927.jpg
+  alt: "법원 건물 앞, 취재진 마이크를 향해 말하는 오른쪽 남성과 그 옆에 서 있는 왼쪽 남성(둘 다 정장 차림)"
+  caption: "2025년 2월 19일 서울중앙지법, 1심 선고 뒤 정의용 전 안보실장(오른쪽)·서훈 전 국정원장(원 기사 사진 설명 기준). 선고유예가 보도된 재판입니다. 이 사진은 해당 일정의 장면일 뿐 게시물이 전하는 의혹·재판 내용의 근거가 아니며, 그 내용은 아래 출처 보도 기준입니다."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.lawtimes.co.kr/news/205732
+  retrievedAt: 2026-11-10
+  faceNote: 퇴직 정무직(전 국가안보실장·전 국가정보원장) — 공개 법정 출석 뒤 입장 표명 — 원 기사 사진 설명 · 재판 당사자 본인(정책 §3.6 2행 문구, 앞에 결과 한 문장)
 og:
   siteName: Threads
 sources:
@@ -33,7 +39,7 @@ tags:
   - 인권
 ---
 
-이 게시물은 원문 글과 이미지를 기준으로 정리했습니다. 관련 게시물: [김계리 북한군 포로 한국행 논란](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+이 게시물은 원문 글과 원문 이미지를 기준으로 정리했습니다. 관련 게시물: [김계리 북한군 포로 한국행 논란](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
 
 ## 원문 주장 (게시자 의견)
 

@@ -2,8 +2,8 @@
 id: 2026-09-28-2pro-jcs-interim-claim
 title: "Breaking-news thread: JCS interim probe says \"not our mine, very likely North Korean\" — though whether North Korea 'crossed the MDL to lay it' or it was displaced remains unresolved"
 description: "Threads @2.pro.official relays the JCS interim DMZ finding: not a South Korean mine, very likely North Korean; laid or displaced reportedly not yet concluded."
-imageAlt: "Photo of a military briefing overlaid with the text 'Breaking: DMZ blast mine, definitely not a South Korean mine, presumed brown-colored North Korean mine, North Korea's responsibility emphasized'"
-imageCaption: "Image of the original post"
+imageAlt: "The JCS vice chairman in uniform speaking at a podium in front of flags and the words 'Ministry of National Defense'"
+imageCaption: "Kwon Dae-won (권대원), vice chairman of the Joint Chiefs of Staff, giving a briefing on the suspected mine explosion in the DMZ at the Defense Ministry in Yongsan-gu, Seoul, on Sept. 28, 2026 (per the original article's photo caption)."
 attribution: "Threads @2.pro.official (이프로)"
 translatedAt: 2026-09-30
 ---

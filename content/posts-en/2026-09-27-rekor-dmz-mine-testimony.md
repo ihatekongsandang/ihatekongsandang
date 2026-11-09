@@ -2,13 +2,13 @@
 id: 2026-09-27-rekor-dmz-mine-testimony
 title: "Report: troops at DMZ blast site testify \"we saw a North Korean box mine\" — even the site investigation six days later couldn't reach the blast point"
 description: "Instagram @rekor.rgt cards DMZ blast follow-ups: troops reportedly testified to seeing a North Korean box mine; the Sept. 27 probe never reached the site."
-imageAlt: "Low-resolution image showing a blurred figure in the brush"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "Blurry video frame of a helmeted soldier moving away through dense brush on a slope"
+imageCaption: "The military and the U.N. Command clearing a route and surveying the area inside the DMZ on Sept. 26, 2026, for the on-site investigation of the suspected mine explosion (JCS-provided video, per the original article's photo caption)."
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the card image content was not reviewed. The original caption cites Chosun Ilbo and Munhwa Ilbo reports and a Joint Chiefs of Staff announcement as its sources.
+This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites Chosun Ilbo and Munhwa Ilbo reports and a Joint Chiefs of Staff announcement as its sources.
 
 ## What reports confirm
 

@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/Ddz3z4KgU4Y/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
 image:
-  src: /images/2026-09-27-rekor-dmz-mine-testimony/thumb.jpg
-  alt: "수풀 속 인물이 흐릿하게 찍힌 저화질 이미지"
-  caption: 원문 게시물 썸네일
+  kind: news
+  src: https://img.hankyung.com/photo/202609/01.45851814.1.jpg
+  alt: "수풀이 우거진 비탈에서 헬멧을 쓴 장병이 등을 보이며 이동하는 흐릿한 영상 장면"
+  caption: "2026년 9월 26일 비무장지대(DMZ) 안, 군과 유엔군사령부가 지뢰 추정 폭발 사고 현장조사를 위해 기동로 확보·작전환경 조사를 하는 장면(합참 제공 영상, 원 기사 사진 설명 기준)."
+  creditName: 합참 제공
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.hankyung.com/article/202609288299H
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(수풀 속 장병 뒷모습, 식별 불가)
 og:
   siteName: Instagram
 sources:
@@ -33,7 +39,7 @@ tags:
   - 합참
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보·문화일보 보도와 합동참모본부 발표를 출처로 적고 있습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보·문화일보 보도와 합동참모본부 발표를 출처로 적고 있습니다.
 
 ## 보도로 확인된 내용
 

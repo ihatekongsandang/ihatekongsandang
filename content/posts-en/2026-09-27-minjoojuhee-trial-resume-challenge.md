@@ -2,8 +2,6 @@
 id: 2026-09-27-minjoojuhee-trial-resume-challenge
 title: "\"Let's stand trial!\" — one-person protest video for 'Resume Lee Jae-myung's trial' (#TrialResumeChallenge)"
 description: "Instagram user @minjoojuhee posts a #TrialResumeChallenge protest video urging President Lee's trial to resume; the PPP reportedly chanted this at a rally."
-imageAlt: "A protester holding a 'Resume Lee Jae-myung's trial' picket in front of a building, and a figure wearing a presidential face mask standing inside a mock drum can, with the caption 'Resume the trial!'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @minjoojuhee"
 translatedAt: 2026-09-30

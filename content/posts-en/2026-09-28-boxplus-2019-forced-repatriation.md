@@ -2,13 +2,13 @@
 id: 2026-09-28-boxplus-2019-forced-repatriation
 title: "2019 forced repatriation of defector fishermen — Chung Eui-yong, Suh Hoon and others had sentencing deferred at trial; prosecutors seek 5 years on appeal, ruling due Oct. 21"
 description: "Threads @boxplus.co.kr criticizes the 2019 forced repatriation of defector fishermen; officials had sentencing deferred, appeal ruling reportedly due Oct. 21."
-imageAlt: "Scene at Panmunjom of a North Korean defector fisherman being taken away (face mosaicked), overlaid with the text 'A case still hard to believe: two North Koreans who wished to defect were forcibly sent back to North Korea on the Moon Jae-in administration's orders'"
-imageCaption: "Image of the original post"
+imageAlt: "Outside a court building, the man on the right speaks toward reporters' microphones while the man on the left stands beside him, both in suits"
+imageCaption: "Former national security adviser Chung Eui-yong (right) and former National Intelligence Service director Suh Hoon speaking after the first-instance ruling at the Seoul Central District Court on Feb. 19, 2025 (per the original article's photo caption). The first-instance court reportedly deferred their sentences. The photo shows only that event; it is not evidence of the allegations or trials in this post, which are based on the reports cited below."
 attribution: "Threads @boxplus.co.kr"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+This post is based on the original post's text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
 
 ## What the original post claims (the poster's opinion)
 

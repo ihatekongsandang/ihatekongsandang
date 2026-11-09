@@ -1,0 +1,61 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-27-minjoojuhee-trial-resume-challenge	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-27-minjoojuhee-trial-resume-challenge/thumb.jpg
+2026-09-27-news1min-cpi-31st	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-27-news1min-cpi-31st/thumb.jpg
+2026-09-27-rekor-dmz-mine-testimony	②	news	alt/cap	0	없음	4
+  HEAD 파일: public/images/2026-09-27-rekor-dmz-mine-testimony/thumb.jpg
+  본문 수정 content/posts/2026-09-27-rekor-dmz-mine-testimony.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보·문화일보 보도와 합동참모본부 발표를 출처로 적고 있습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보·문화일보 보도와 합동참모본부 발표를 출처로 적고 있습니다.
+  본문 수정 content/posts-en/2026-09-27-rekor-dmz-mine-testimony.md: -1 +1
+    -This post is based on the original caption; the card image content was not reviewed. The original caption cites Chosun Ilbo and Munhwa Ilbo reports and a Joint Chiefs of Staff announcement as its sources.
+    +This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites Chosun Ilbo and Munhwa Ilbo reports and a Joint Chiefs of Staff announcement as its sources.
+  caption 106자 · imageCaption 233자 · imageAlt 83자 · retrievedAt 2026-11-10
+2026-09-27-rekor-former-25div-commander	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-27-rekor-former-25div-commander/thumb.jpg
+  본문 수정 content/posts/2026-09-27-rekor-former-25div-commander.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보(2026-09-28)·서울경제(2026-08-02) 보도를 출처로 적고 있습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 조선일보(2026-09-28)·서울경제(2026-08-02) 보도를 출처로 적고 있습니다.
+  본문 수정 content/posts-en/2026-09-27-rekor-former-25div-commander.md: -1 +1
+    -This post is based on the original caption; the card image content was not reviewed. The original caption cites Chosun Ilbo (Sept. 28, 2026) and Seoul Economic Daily (Aug. 2, 2026) reports as its sources.
+    +This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites Chosun Ilbo (Sept. 28, 2026) and Seoul Economic Daily (Aug. 2, 2026) reports as its sources.
+2026-09-27-shindawit-nisi-mine-summary	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-27-shindawit-nisi-mine-summary/thumb.jpg
+  본문 수정 content/posts/2026-09-27-shindawit-nisi-mine-summary.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 같은 사안의 다른 게시물: [국과수 1차 감정 보도](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [장병 목격 증언](/post/2026-09-27-rekor-dmz-mine-testimony).
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 같은 사안의 다른 게시물: [국과수 1차 감정 보도](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [장병 목격 증언](/post/2026-09-27-rekor-dmz-mine-testimony).
+  본문 수정 content/posts-en/2026-09-27-shindawit-nisi-mine-summary.md: -1 +1
+    -This post is based on the original caption; the card image content was not reviewed. Other posts on this issue (some may be available only in Korean): [report on the first forensic analysis](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony).
+    +This post is based on the original caption; the original post's card image content was not reviewed. Other posts on this issue (some may be available only in Korean): [report on the first forensic analysis](/post/2026-09-28-yukdaejeon-nisi-nk-mine) · [troops' eyewitness testimony](/post/2026-09-27-rekor-dmz-mine-testimony).
+2026-09-28-2pro-jcs-interim-claim	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-28-2pro-jcs-interim-claim/thumb.jpg
+  caption 89자 · imageCaption 232자 · imageAlt 116자 · retrievedAt 2026-11-10
+2026-09-28-boxplus-2019-forced-repatriation	②	news	alt/cap	0	없음	4
+  HEAD 파일: public/images/2026-09-28-boxplus-2019-forced-repatriation/thumb.jpg
+  본문 수정 content/posts/2026-09-28-boxplus-2019-forced-repatriation.md: -1 +1
+    -이 게시물은 원문 글과 이미지를 기준으로 정리했습니다. 관련 게시물: [김계리 북한군 포로 한국행 논란](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+    +이 게시물은 원문 글과 원문 이미지를 기준으로 정리했습니다. 관련 게시물: [김계리 북한군 포로 한국행 논란](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+  본문 수정 content/posts-en/2026-09-28-boxplus-2019-forced-repatriation.md: -1 +1
+    -This post is based on the original text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+    +This post is based on the original post's text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+  caption 156자 · imageCaption 453자 · imageAlt 93자 · retrievedAt 2026-11-10
+2026-09-28-firstincome-kctu-spy-case-summary	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-firstincome-kctu-spy-case-summary/thumb.jpg
+2026-09-28-geonwoo-farmland-bank-expansion	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-28-geonwoo-farmland-bank-expansion/thumb.jpg
+  본문 수정 content/posts/2026-09-28-geonwoo-farmland-bank-expansion.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 썸네일에는 장동혁 국민의힘 대표의 발언 장면이 쓰였습니다. 같은 사안의 다른 게시물: [농지 전수조사 비판 릴스](/post/2026-09-27-geonwoo-farmland-survey) · [김민전 의원 "공산주의 사상"](/post/2026-09-28-kimmeengeon-farmland-communism) · [이 대통령 부모 묘소 농지 논란](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일에는 장동혁 국민의힘 대표의 발언 장면이 쓰였습니다. 같은 사안의 다른 게시물: [농지 전수조사 비판 릴스](/post/2026-09-27-geonwoo-farmland-survey) · [김민전 의원 "공산주의 사상"](/post/2026-09-28-kimmeengeon-farmland-communism) · [이 대통령 부모 묘소 농지 논란](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+  본문 수정 content/posts-en/2026-09-28-geonwoo-farmland-bank-expansion.md: -1 +1
+    -This post is based on the original caption; the video content was not reviewed. The thumbnail uses a scene of People Power Party leader Jang Dong-hyuk (장동혁) speaking. Other posts on this issue (some may be available only in Korean): [reel criticizing the full farmland survey](/post/2026-09-27-geonwoo-farmland-survey) · [Rep. Kim Min-jeon (김민전)'s "communist thinking" remark](/post/2026-09-28-kimmeengeon-farmland-communism) · [controversy over farmland at President Lee's parents' grave](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+    +This post is based on the original caption; the video content was not reviewed. The original post's thumbnail uses a scene of People Power Party leader Jang Dong-hyuk (장동혁) speaking. Other posts on this issue (some may be available only in Korean): [reel criticizing the full farmland survey](/post/2026-09-27-geonwoo-farmland-survey) · [Rep. Kim Min-jeon (김민전)'s "communist thinking" remark](/post/2026-09-28-kimmeengeon-farmland-communism) · [controversy over farmland at President Lee's parents' grave](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+2026-09-28-geonwoo-state-system-decade	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-geonwoo-state-system-decade/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 107 · 자체 제작 67 · SNS 원문 저장본 40
+작업 트리: self 97 · 자체 제작 67 · SNS 원문 저장본 30
+
+결함 0건

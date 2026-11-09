@@ -2,8 +2,6 @@
 id: 2026-09-28-geonwoo-state-system-decade
 title: "\"Here's how the national system has changed over the past decade\" — reel timeline on nuclear power, the Defense Security Command, the NIS's counter-espionage authority, the Prosecutors' Office's abolition, and the academy merger"
 description: "Instagram @geonwoo.vibes criticizes the DP in a timeline from 2017's reactor scrapping to 2026's Prosecutors' Office abolition; reports confirm the 2026 items."
-imageAlt: "Photo of a lawmaker speaking at the National Assembly plenary chamber podium, overlaid with the text 'The Democratic Party that quietly overturned the entire national system'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @geonwoo.vibes (박건우)"
 translatedAt: 2026-09-30
 ---

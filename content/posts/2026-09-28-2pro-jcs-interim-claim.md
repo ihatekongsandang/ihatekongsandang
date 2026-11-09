@@ -8,9 +8,15 @@ sourceUrl: https://www.threads.com/@2.pro.official/post/Dd1GpO3j85a
 attribution: 스레드 @2.pro.official (이프로)
 useSourceImage: false
 image:
-  src: /images/2026-09-28-2pro-jcs-interim-claim/thumb.jpg
-  alt: "군 브리핑 사진 위에 '속보 DMZ 폭발지뢰, 국군 지뢰 확실히 아니다, 갈색 형태 북한 지뢰로 추정 북한 책임 강조' 문구"
-  caption: 원문 게시물 이미지
+  kind: news
+  src: https://ojsfile.ohmynews.com/BIG_IMG_FILE/2026/0928/IE003677629_BIG.jpg
+  alt: "'대한민국 국방부' 글자와 깃발들 앞 연단에서 말하는 군복 차림의 합참 차장"
+  caption: "2026년 9월 28일 서울 용산구 국방부, 권대원 합동참모본부 차장이 '비무장지대 지뢰 추정 폭발 사고' 관련 브리핑을 하는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003271067
+  retrievedAt: 2026-11-10
+  faceNote: 장성급 장교(합참 차장, 육군 중장 — 기사 본문) — 국방부 공식 브리핑 — 원 기사 사진 설명·본문
 og:
   siteName: Threads
 sources:

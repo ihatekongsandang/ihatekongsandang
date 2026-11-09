@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd1TUsxzATu/
 attribution: 인스타그램 @geonwoo.vibes (박건우)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-geonwoo-farmland-bank-expansion/thumb.jpg
-  alt: "라디오 스튜디오 마이크 앞에서 발언하는 장동혁 국민의힘 대표 사진 위에 '공산주의 아니라며? 국유화는 되고?' 문구가 얹힌 썸네일"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 재산권
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 썸네일에는 장동혁 국민의힘 대표의 발언 장면이 쓰였습니다. 같은 사안의 다른 게시물: [농지 전수조사 비판 릴스](/post/2026-09-27-geonwoo-farmland-survey) · [김민전 의원 "공산주의 사상"](/post/2026-09-28-kimmeengeon-farmland-communism) · [이 대통령 부모 묘소 농지 논란](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일에는 장동혁 국민의힘 대표의 발언 장면이 쓰였습니다. 같은 사안의 다른 게시물: [농지 전수조사 비판 릴스](/post/2026-09-27-geonwoo-farmland-survey) · [김민전 의원 "공산주의 사상"](/post/2026-09-28-kimmeengeon-farmland-communism) · [이 대통령 부모 묘소 농지 논란](/post/2026-09-27-leejinsook-lee-parents-grave-farmland).
 
 ## 원문 주장 (게시자 의견)
 

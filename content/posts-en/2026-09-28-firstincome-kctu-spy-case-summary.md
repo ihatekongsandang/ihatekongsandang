@@ -2,8 +2,6 @@
 id: 2026-09-28-firstincome-kctu-spy-case-summary
 title: "Full recap of the former KCTU official spy case — U.S. base photos, an Itaewon directive, reduced on appeal, then finalized by the Supreme Court"
 description: "Instagram @firstincome_now recaps the ex-KCTU spy case; Seok's 15-year term was reportedly cut to 9.5 years, finalized Sept. 2025; some were acquitted."
-imageAlt: "Blurred-face figure next to a photo of Kim Jong Un (김정은), with the caption 'Stir up anger over the Itaewon disaster — KCTU official who took orders from North Korea'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @firstincome_now (퍼스트인컴)"
 translatedAt: 2026-10-27
 ---

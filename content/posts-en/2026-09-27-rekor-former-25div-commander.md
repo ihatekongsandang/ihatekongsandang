@@ -2,13 +2,11 @@
 id: 2026-09-27-rekor-former-25div-commander
 title: "Former 25th Division commander from the 'empty-gun guard duty' controversy reportedly ignored JCS orders as division commander — DMZ blast card post"
 description: "Instagram @rekor.rgt cards reports that an ex-25th Division commander, removed as 1st Corps chief in Aug., reportedly ignored JCS orders as division chief."
-imageAlt: "Photo of President Lee Jae-myung standing next to then-25th Division commander Han Ki-sung"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the card image content was not reviewed. The original caption cites Chosun Ilbo (Sept. 28, 2026) and Seoul Economic Daily (Aug. 2, 2026) reports as its sources.
+This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites Chosun Ilbo (Sept. 28, 2026) and Seoul Economic Daily (Aug. 2, 2026) reports as its sources.
 
 ## What reports confirm
 
