@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeA_KB1AVFH/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-10-03-rekor-saeul-nuclear-drone/thumb.jpg
-  alt: "푸른 하늘 아래 원자력발전소 원형 격납건물 두 동 사진 위에 '정체불명 드론 원전 코앞까지 접근' 문구와 REKOR 로고"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

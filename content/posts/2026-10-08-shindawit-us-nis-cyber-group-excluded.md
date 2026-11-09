@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeNdoOkEoML/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-10-08-shindawit-us-nis-cyber-group-excluded/thumb.jpg
-  alt: "유리문에 새겨진 국가정보원 원형 로고 사진 위에 '미국, 北해킹 대응 회의에 국정원 참여 거부했다' 문구와 '신다윗의 브리핑' 표시"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

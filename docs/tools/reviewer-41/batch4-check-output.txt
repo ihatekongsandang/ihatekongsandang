@@ -1,0 +1,29 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-17-idontknowpolitics-sergeant-leak-china	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-17-idontknowpolitics-sergeant-leak-china/thumb.jpg
+2026-09-27-ccpoutkorea-china-threat-survey	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-27-ccpoutkorea-china-threat-survey/thumb.jpg
+2026-09-23-jeichi-nk-mdl-crossing	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-23-jeichi-nk-mdl-crossing/thumb.jpg
+2026-09-28-drumtong119-jinsungjoon-nsl-past	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-drumtong119-jinsungjoon-nsl-past/thumb.jpg
+2026-09-28-pagememo-jcs-interim-result	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-28-pagememo-jcs-interim-result/thumb.jpg
+  caption 116자 · imageCaption 283자 · imageAlt 83자 · retrievedAt 2026-11-10
+2026-09-28-shindawit-pla-fighter-wiretap	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-28-shindawit-pla-fighter-wiretap/thumb.jpg
+2026-09-29-shindawit-cxmt-samsung-threat	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-29-shindawit-cxmt-samsung-threat/thumb.jpg
+2026-10-08-shindawit-us-nis-cyber-group-excluded	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-10-08-shindawit-us-nis-cyber-group-excluded/thumb.jpg
+2026-10-03-rekor-saeul-nuclear-drone	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-10-03-rekor-saeul-nuclear-drone/thumb.jpg
+2026-09-18-bluenews-jeju-organ-transplant-rumor	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-18-bluenews-jeju-organ-transplant-rumor/thumb.jpg
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 177 · 자체 제작 67 · SNS 원문 저장본 110
+작업 트리: self 167 · 자체 제작 67 · SNS 원문 저장본 100
+
+결함 0건

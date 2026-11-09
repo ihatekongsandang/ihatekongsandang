@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdqA07apGUd/
 attribution: 인스타그램 @jeichi_l (제이치)
 useSourceImage: false
-image:
-  src: /images/2026-09-23-jeichi-nk-mdl-crossing/thumb.jpg
-  alt: "북한 국기와 북한군 병력, 폭발 장면을 합성한 삽화 위에 '현재는 준전시 상황 지뢰 폭발 사고 직전에 북한군이 군사분계선을 침범했다!!' 문구"
-  caption: 원문 게시물 썸네일(실제 현장 사진이 아닌 삽화로 보임)
 og:
   siteName: Instagram
 sources:

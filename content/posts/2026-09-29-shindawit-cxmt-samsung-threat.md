@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd28JcFmKOj/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-09-29-shindawit-cxmt-samsung-threat/thumb.jpg
-  alt: "삼성 매장과 중국 국기, CXMT 간판을 배경으로 두 사람이 USB를 주고받는 연출 이미지 위에 '삼전 레시피 훔쳐와… 대놓고 협박한 창신메모리 CEO' 문구가 얹힌 카드"
-  caption: 원문 게시물 첫 장(인물은 실제 사진이 아닌 연출 이미지로 보임)
 og:
   siteName: Instagram
 sources:

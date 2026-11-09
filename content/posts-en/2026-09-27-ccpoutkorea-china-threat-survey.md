@@ -2,8 +2,6 @@
 id: 2026-09-27-ccpoutkorea-china-threat-survey
 title: "\"Nearly 9 in 10 Koreans see China as a threat\" — JoongAng Ilbo–EAI survey, 81.7% even among Democratic Party supporters"
 description: "Instagram @ccp_out_korea cites a JoongAng Ilbo–EAI survey; 85.7% reportedly called China a threat, including 81.7% of DP and 90.0% of PPP supporters."
-imageAlt: "Illustration of a red octopus patterned with the Chinese national flag engulfing a city, overlaid with the text 'South Korea's wariness of the Chinese Communist Party spreading beyond progressives and conservatives: nearly 9 in 10 Koreans see China as a threat'"
-imageCaption: "Image of the original post (illustration)"
 attribution: "Instagram @ccp_out_korea (중국 다큐멘터리)"
 translatedAt: 2026-09-30
 ---

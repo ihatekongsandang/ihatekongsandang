@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdacWfHJKQM/
 attribution: 인스타그램 @idontknowpolitics (나정치몰라)
 useSourceImage: false
-image:
-  src: /images/2026-09-17-idontknowpolitics-sergeant-leak-china/thumb.jpg
-  alt: "군복 차림으로 뒤로 수갑을 찬 두 손을 가까이 찍은 사진"
-  caption: 원문 게시물 첫 장(연출 사진으로 보임)
 og:
   siteName: Instagram
 sources:

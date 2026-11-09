@@ -106,6 +106,7 @@ qlmanage -t -s 800 -o . file.mp4
   - 정당 직위가 정책 §3.1 공인 범위표 밖이면(예: 당 법률자문위원장 등 위원회 위원장) 비공인으로 본다. 계급·직위를 계급장·자리 배치로 추정하지 않는다(사진 설명·본문에 적힌 것만).
   - 다른 일정 사진은 제목과 관계없이 쓰지 않는다(4a). 특히 제목이 의혹·비난형이면 공인 얼굴이라도 결합 위험이 크다.
   - 불가 사유는 사진 설명 글자만 보고 적지 않는다. **후보 og:image는 모두 직접 열어 보고**, 크기는 받은 파일에서 잰다(리뷰 40).
+  - 계급·직위는 사진 설명뿐 아니라 **기사 본문 전체**에서 찾는다(본문에 적힌 계급도 인정). 깃발·현판·명패 글자는 실제로 읽어 그대로 적는다(리뷰 41). 법령상 장성급 직위를 직위만으로 공인 인정할지는 정책 보완 전까지 쓰지 않는다.
 - frontmatter는 `image.kind`(public/news)·`creditName`·`creditNameEn`·`sourcePageUrl`(= `sources[].url` 그대로)·`license`(public만 `kogl-1`)·`retrievedAt`·`faceNote`·`caption`. 예시는 `content/README.md` §3.6.
 - **작업 단위**: 첫 묶음 5건, 이후 10건 안팎. 묶음마다 트리거를 만들고 리뷰어 게이트 후 커밋.
 - **주 1회** `npm run check:hotlinks` → 깨진 것 처리 → `docs/operations/hotlink-check-log.md` 기록. HEAD 요청에 404를 주고 GET에는 200을 주는 이미지 서버가 있다 — HEAD 결과만으로 깨짐 판정하지 않는다.

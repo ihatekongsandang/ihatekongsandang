@@ -2,8 +2,6 @@
 id: 2026-10-08-shindawit-us-nis-cyber-group-excluded
 title: "\"U.S. asked to exclude the NIS from a trilateral meeting on North Korean hacking\" — a Dong-A Ilbo exclusive reported the NIS missed the fifth working group meeting in late June for the first time; the NIS said \"there was some misunderstanding months ago, but it is in the past\""
 description: "Instagram @shin_dawit on a Dong-A Ilbo exclusive that the U.S. asked to exclude the NIS from a cyber working group; the NIS called it a past misunderstanding."
-imageAlt: "Photo of the National Intelligence Service's round emblem etched on a glass door, with the text 'The U.S. refused NIS participation in a meeting on North Korean hacking' and the label 'Shin Dawit's Briefing'"
-imageCaption: "First image of the original post"
 attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-13
 ---

@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/reel/Dd1J6sjzaN_/
 attribution: 인스타그램 @page_memo_zip (PAGE_MEMO_ZIP)
 useSourceImage: false
 image:
-  src: /images/2026-09-28-pagememo-jcs-interim-result/thumb.jpg
-  alt: "철조망과 감시초소를 배경으로 땅에 묻힌 나무 상자 형태의 지뢰를 그린 삽화"
-  caption: 원문 게시물 썸네일(실제 현장 사진이 아닌 삽화로 보임)
+  kind: news
+  src: https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/28/134747560.1.jpg
+  alt: "수풀이 우거진 비탈에서 헬멧을 쓴 장병이 등을 보이며 이동하는 흐릿한 영상 장면"
+  caption: "2026년 9월 26일 서부전선 비무장지대(DMZ) 안, 합참과 유엔군사령부 군사정전위원회가 지뢰 추정 폭발 사고 합동조사에 앞서 기동로 확보·작전환경을 조사하는 장면(합참 제공, 원 기사 사진 설명 기준)."
+  creditName: 합참 제공
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.donga.com/news/Politics/article/all/20260928/134747559/1
+  retrievedAt: 2026-11-10
+  faceNote: 얼굴 없음(수풀 속 장병 뒷모습, 식별 불가)
 og:
   siteName: Instagram
 sources:

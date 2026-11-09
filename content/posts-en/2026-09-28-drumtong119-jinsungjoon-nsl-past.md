@@ -2,8 +2,6 @@
 id: 2026-09-28-drumtong119-jinsungjoon-nsl-past
 title: "Defense Committee chair Jin Sung-joon's 'intent' remark on the mine revives his National Security Act conviction over 1989 activities — founded a 'Righteous Army Association' during military service, 6 years at trial, 3 on appeal"
 description: "Instagram @drumtong119 revisits Jin Sung-joon's 1989 National Security Act violation, cited by Chosun Ilbo, after his 'intent' remark on the DMZ mine."
-imageAlt: "Illustration of a single military boot on muddy ground in front of a barbed-wire fence, overlaid with the text 'Mine blast · National Assembly Defense Committee chair Rep. Jin Sung-joon'"
-imageCaption: "First slide of the original post (illustration)"
 attribution: "Instagram @drumtong119 (드럼통119)"
 translatedAt: 2026-11-08
 ---

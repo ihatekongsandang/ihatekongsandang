@@ -2,8 +2,6 @@
 id: 2026-09-29-shindawit-cxmt-samsung-threat
 title: "\"Bring Samsung's technology, or we'll report you to the Korean government\" — testimony that ex-CXMT CEO pressured Samsung-origin engineers"
 description: "Instagram @shin_dawit covers testimony that ex-CXMT CEO pressured Samsung-origin engineers; an ex-Samsung exec reportedly got 7 years, now on appeal."
-imageAlt: "Staged image of two people exchanging a USB drive against a backdrop of a Samsung store, the Chinese flag and a CXMT sign, overlaid with the text '\"Go steal Samsung's recipe\"... the CXMT CEO who openly threatened'"
-imageCaption: "First slide of the original post (the people appear to be a staged image, not an actual photo)"
 attribution: "Instagram @shin_dawit (신다윗)"
 translatedAt: 2026-09-30
 ---

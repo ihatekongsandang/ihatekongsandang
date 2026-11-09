@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdyNKWgDu31/
 attribution: 인스타그램 @ccp_out_korea (중국 다큐멘터리)
 useSourceImage: false
-image:
-  src: /images/2026-09-27-ccpoutkorea-china-threat-survey/thumb.jpg
-  alt: "오성홍기 무늬의 붉은 문어가 도시를 덮치는 삽화 위에 '진보·보수를 넘어 확산되는 중국 공산당에 대한 대한민국의 경계, 한국인 10명 중 9명 가까이 중국을 위협으로 인식' 문구가 얹힌 이미지"
-  caption: 원문 게시물 이미지(삽화)
 og:
   siteName: Instagram
 sources:

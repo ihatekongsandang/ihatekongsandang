@@ -2,8 +2,6 @@
 id: 2026-09-23-jeichi-nk-mdl-crossing
 title: "Reel: \"North Korean troops crossed the MDL right before the mine blast\" — reports place the crossing on the eastern front, not the western front where the blast occurred"
 description: "Instagram @jeichi_l says North Korean troops crossed the MDL right before the mine blast; reports place that crossing on the eastern front, not the western."
-imageAlt: "Illustration combining a North Korean flag, North Korean troops and a blast scene, with the text 'It's currently a quasi-wartime situation — North Korean troops crossed the Military Demarcation Line right before the mine blast!!'"
-imageCaption: "Thumbnail of the original post (appears to be an illustration rather than an actual scene photo)"
 attribution: "Instagram @jeichi_l (제이치)"
 translatedAt: 2026-09-30
 ---

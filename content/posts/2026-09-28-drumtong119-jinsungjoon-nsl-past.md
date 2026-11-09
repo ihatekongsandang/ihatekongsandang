@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd2sUS2mok0/
 attribution: 인스타그램 @drumtong119 (드럼통119)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-drumtong119-jinsungjoon-nsl-past/thumb.jpg
-  alt: "철책 앞 진흙 바닥에 놓인 군화 한 짝을 그린 삽화 위에 '지뢰 폭발·국회 국방위원장 진성준 의원' 문구가 얹힌 이미지"
-  caption: 원문 게시물 첫 장(삽화)
 og:
   siteName: Instagram
 sources:

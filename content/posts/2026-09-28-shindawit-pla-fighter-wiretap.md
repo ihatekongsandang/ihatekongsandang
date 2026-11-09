@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd2O5eFkvXb/
 attribution: 인스타그램 @shin_dawit (신다윗)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-shindawit-pla-fighter-wiretap/thumb.jpg
-  alt: "중국 국기와 공군기지 관제탑·전투기를 배경으로 헤드폰을 쓴 남성의 뒷모습 이미지"
-  caption: 원문 게시물 첫 장(연출 이미지로 보임)
 og:
   siteName: Instagram
 sources:

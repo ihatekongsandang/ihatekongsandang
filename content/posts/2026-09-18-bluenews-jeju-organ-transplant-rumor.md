@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdZ8c-4Ej6f/
 attribution: 인스타그램 @bluenews.kr
 useSourceImage: false
-image:
-  src: /images/2026-09-18-bluenews-jeju-organ-transplant-rumor/thumb.jpg
-  alt: "파란 하늘 아래 돌하르방 사진 위에 '중국인들이 말하는 제주도 장기이식 시장 수준… 제발 루머이길… 넘기기' 문구"
-  caption: 원문 게시물 첫 장
 og:
   siteName: Instagram
 sources:

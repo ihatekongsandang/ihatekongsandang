@@ -2,8 +2,6 @@
 id: 2026-09-18-bluenews-jeju-organ-transplant-rumor
 title: "\"Chinese visitors come visa-free to Jeju for organ transplants?\" — an unsourced Chinese-language claim; reports say a 30-day visa-free stay cannot meet the requirement to register for a deceased-donor transplant"
 description: "Instagram @bluenews.kr shares an unverified claim of visa-free organ transplants in Jeju; reportedly, a 30-day stay can't meet the 1-year waitlist rule."
-imageAlt: "Photo of a dol hareubang stone statue under a blue sky, overlaid with the text 'The level of Jeju's organ transplant market, as told by Chinese people… please let it be a rumor… swipe'"
-imageCaption: "First slide of the original post"
 attribution: "Instagram @bluenews.kr"
 translatedAt: 2026-10-02
 ---
