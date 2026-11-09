@@ -40,7 +40,7 @@ export async function generateMetadata({
   const tag = decodeURIComponent(slug)
   return {
     title: `#${tag} — ${parsed}페이지`,
-    description: `'${tag}' 태그 게시물 ${parsed}페이지. ${SITE.tagline}`,
+    description: `'${tag}' 주제 게시물 ${parsed}페이지. ${SITE.tagline}`,
   }
 }
 
@@ -67,7 +67,7 @@ export default async function TagFeedPage({
       <CanonicalLink path={pageHref(basePath, result.page)} />
       <FeedView
         heading={`#${tag}`}
-        lead={`'${tag}' 태그로 묶인 게시물입니다. ${SITE.tagline}`}
+        lead={`'${tag}' 주제로 묶인 게시물입니다. ${SITE.tagline}`}
         basePath={basePath}
         posts={result.items.map((post) => toCardView(post))}
         page={result.page}
@@ -79,7 +79,7 @@ export default async function TagFeedPage({
       <JsonLd
         data={collectionJsonLd({
           name: `#${tag} — ${result.page}페이지`,
-          description: `'${tag}' 태그 게시물 ${result.page}페이지.`,
+          description: `'${tag}' 주제 게시물 ${result.page}페이지.`,
           path: pageHref(basePath, result.page),
           posts: result.items,
         })}

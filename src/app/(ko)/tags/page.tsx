@@ -14,11 +14,11 @@ import { breadcrumbJsonLd } from '@/lib/seo'
  * 가나다 정렬 전환 같은 클라이언트 상태는 두지 않는다(오더 권고: 건수 순 단일 목록).
  * 영어 사이트에는 태그 칩이 없으므로 `/en/tags`는 만들지 않는다 — 언어 전환 링크는 영어 홈으로 보낸다(태그 피드와 같다).
  */
-const TITLE = '전체 태그'
+const TITLE = '전체 주제'
 const PATH = '/tags'
 
 function description(total: number): string {
-  return `${SITE.name}의 태그 ${total}개를 게시물이 많은 순으로 모았습니다. ${SITE.tagline}`
+  return `${SITE.name}의 주제 ${total}개를 게시물이 많은 순으로 모았습니다. ${SITE.tagline}`
 }
 
 export function generateMetadata(): Metadata {
@@ -38,13 +38,13 @@ export default function TagsPage() {
         <header className="space-y-3">
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{TITLE}</h1>
           <p className="max-w-3xl text-sm text-muted-foreground sm:text-base">
-            태그 {tags.length}개 · 게시물이 많은 순
+            주제 {tags.length}개 · 게시물이 많은 순
           </p>
         </header>
 
         {tags.length > 0 ? (
           // Tailwind가 목록 기호를 지우면 Safari VoiceOver가 목록으로 읽지 않으므로 role을 다시 단다.
-          <ul role="list" aria-label="태그 목록" className="flex flex-wrap items-center gap-x-2 border-t pt-6">
+          <ul role="list" aria-label="주제 목록" className="flex flex-wrap items-center gap-x-2 border-t pt-6">
             {tags.map(({ tag, count }) => (
               <li key={tag}>
                 <TagChip tag={tag} count={count} />
@@ -52,7 +52,7 @@ export default function TagsPage() {
             ))}
           </ul>
         ) : (
-          <p className="border-t pt-6 text-sm text-muted-foreground">아직 태그가 없습니다.</p>
+          <p className="border-t pt-6 text-sm text-muted-foreground">아직 주제가 없습니다.</p>
         )}
 
         <p className="border-t pt-6 text-sm">

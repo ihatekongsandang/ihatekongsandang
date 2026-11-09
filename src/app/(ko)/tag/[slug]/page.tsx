@@ -17,7 +17,7 @@ export function generateStaticParams() {
 }
 
 function tagDescription(tag: string): string {
-  return `'${tag}' 태그로 묶인 게시물입니다. ${SITE.tagline}`
+  return `'${tag}' 주제로 묶인 게시물입니다. ${SITE.tagline}`
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

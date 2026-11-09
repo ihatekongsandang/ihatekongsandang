@@ -102,14 +102,15 @@ export function PostDetail({ post, body, locale, otherLanguageHref, translatedAt
       )}
     >
       <article className="min-w-0 lg:col-start-1">
+        {/* 이동 경로(프로그래머 16 C5): 홈 링크 상자는 44×44 이상을 유지하고, 좌우 padding 15px를 같은 크기의 음수 margin으로 상쇄해 글자는 제자리에 둔다. 구분자는 링크 상자 오른쪽 여백 위에 겹치므로 pointer-events-none으로 누름을 링크에 넘긴다. */}
         <nav aria-label={dict.breadcrumbNav} className="flex items-center pt-1 text-sm text-muted-foreground">
           <Link
             href={homePath(locale)}
-            className="inline-flex min-h-11 min-w-11 items-center text-link underline underline-offset-[3px]"
+            className="-mx-[15px] inline-flex min-h-11 min-w-11 items-center px-[15px] text-link underline underline-offset-[3px]"
           >
             {dict.home}
           </Link>
-          <span aria-hidden="true" className="mx-1.5">
+          <span aria-hidden="true" className="pointer-events-none mx-1.5">
             ›
           </span>
           <span>{dict.breadcrumbPost}</span>

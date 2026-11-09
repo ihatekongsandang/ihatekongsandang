@@ -52,15 +52,16 @@ export function FeedView({
 
   return (
     <div>
+      {/* 이동 경로 간격·터치 상자 방식은 post-detail.tsx 이동 경로 주석과 같다(프로그래머 16 C5). */}
       {isTag ? (
         <nav aria-label={dict.breadcrumbNav} className="flex items-center pt-1 text-sm text-muted-foreground">
           <Link
             href={homePath(locale)}
-            className="inline-flex min-h-11 min-w-11 items-center text-link underline underline-offset-[3px]"
+            className="-mx-[15px] inline-flex min-h-11 min-w-11 items-center px-[15px] text-link underline underline-offset-[3px]"
           >
             {dict.home}
           </Link>
-          <span aria-hidden="true" className="mx-1.5">
+          <span aria-hidden="true" className="pointer-events-none mx-1.5">
             ›
           </span>
           <span>#{activeTag}</span>

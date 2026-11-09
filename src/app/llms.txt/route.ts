@@ -41,7 +41,7 @@ export function GET(): Response {
   ]
 
   if (tags.length > 0) {
-    lines.push('## 태그', '')
+    lines.push('## 주제', '')
     for (const { tag, count } of tags) {
       lines.push(`- [#${tag}](${absoluteUrl(`/tag/${encodeURIComponent(tag)}`)}) — ${count}건`)
     }

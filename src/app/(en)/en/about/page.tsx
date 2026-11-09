@@ -34,6 +34,51 @@ export default function EnglishAboutPage() {
           </p>
         </Section>
 
+        {/* 프로그래머 16(C4): planning/q1-redirect-q2-sns-image-plan.md §2.2 en 문안(리뷰 34 §2.4 정정 문안 포함)을 글자 그대로 둔다. */}
+        <Section id="copyright" title="Quotes, images and copyright">
+          <ul className="space-y-2 text-sm">
+            <li>
+              We quote only the metadata of an external article (title and summary) and link to the original. We do
+              not republish the body.
+            </li>
+            <li>
+              A card&apos;s main image depends on the post.
+              <ul className="mt-2 list-disc space-y-2 pl-5">
+                <li>
+                  When a post uses a photo from a news article, the photo is loaded directly from the news
+                  outlet&apos;s address rather than copied to this site. Below the photo, we credit the rights holder
+                  or outlet and link to the original.
+                </li>
+                <li>
+                  Many posts about social media posts show the original post&apos;s image, stored on this site. These
+                  images come from the original posts, and the rights belong to the original poster or the
+                  image&apos;s rights holder. We have decided to phase this out and will replace them step by step
+                  with a photo from the news article or a replacement image.
+                </li>
+                <li>
+                  Some posts use a card image this site made to summarize the post. These will also be replaced step
+                  by step.
+                </li>
+                <li>
+                  When we use public photos released under the Korea Open Government License (KOGL), the license type
+                  is shown below the photo (none are in use now).
+                </li>
+                <li>If a post has no image, or an image fails to load, a replacement image is shown.</li>
+              </ul>
+            </li>
+            <li>
+              Photos from news articles and public sources show people only in the public activities of public
+              figures (for example, parliamentary or government events, press conferences, diplomatic events).
+              Photos of official events may also show staff, interpreters or attendees performing official duties.
+              We do not use photos in which other private individuals, minors, victims, or injured people can be
+              recognized. We use only photos taken at the event the post covers, and a photo is not evidence for
+              what the post says. Photos on posts about allegations, investigations or trials carry a caption
+              saying who took them, when and where.
+            </li>
+            <li>Share previews use this site&apos;s own image.</li>
+          </ul>
+        </Section>
+
         <Section id="correction" title="Corrections and removal requests">
           <p className="text-sm">
             To report inaccurate content, ask us to stop using an image from the original, or request that a post be
