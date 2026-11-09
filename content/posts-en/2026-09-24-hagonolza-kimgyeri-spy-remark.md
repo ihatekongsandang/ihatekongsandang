@@ -2,8 +2,6 @@
 id: 2026-09-24-hagonolza-kimgyeri-spy-remark
 title: "Lawyer Kim Kye-ri: \"I didn't cry over Yoon Suk Yeol's 30-year sentence… it chilled me that there are so many spies\" — social media post right after the first-instance ruling in the 'Pyongyang drone' case"
 description: "Instagram @hagonolza shares news of lawyer Kim Kye-ri's post after Yoon's 30-year 'Pyongyang drone' ruling; she reportedly said she wept over the spy problem."
-imageAlt: "Screenshot of a news headline reading 'Kim Kye-ri, the reason for her tears…' with photos of former President Yoon Suk Yeol and lawyer Kim Kye-ri"
-imageCaption: "Image of the original post"
 speakerAffiliation: "Defense lawyer for former President Yoon Suk Yeol (the speaker)"
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-09-30

@@ -1,0 +1,53 @@
+id	result	ko-image	en-alt/caption	refs	dir	diff-other-lines
+2026-09-22-taekyu-ppp-rally-report	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-22-taekyu-ppp-rally-report/thumb.jpg
+2026-09-24-hagonolza-kimgyeri-spy-remark	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-24-hagonolza-kimgyeri-spy-remark/thumb.jpg
+2026-09-26-newsbanhana-lee-kexpo-mexico	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-26-newsbanhana-lee-kexpo-mexico/thumb.jpg
+2026-09-26-nonjeomjikjin-dmz-chae-standard	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-26-nonjeomjikjin-dmz-chae-standard/thumb.jpg
+  본문 수정 content/posts/2026-09-26-nonjeomjikjin-dmz-chae-standard.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다.
+  본문 수정 content/posts-en/2026-09-26-nonjeomjikjin-dmz-chae-standard.md: -1 +1
+    -This post is based on the original caption; the card image content was not reviewed.
+    +This post is based on the original caption; the original post's card image content was not reviewed.
+2026-09-26-rekor-dmz-dispute	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-26-rekor-dmz-dispute/thumb.jpg
+  본문 수정 content/posts/2026-09-26-rekor-dmz-dispute.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 MBC 보도(2026-09-26)를 관련 기사로 적고 있습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 MBC 보도(2026-09-26)를 관련 기사로 적고 있습니다.
+  본문 수정 content/posts-en/2026-09-26-rekor-dmz-dispute.md: -1 +1
+    -This post is based on the original caption; the card image content was not reviewed. The original caption cites an MBC report (Sept. 26, 2026) as related coverage.
+    +This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites an MBC report (Sept. 26, 2026) as related coverage.
+2026-09-26-wikipost-dmz-injury-rumor	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-26-wikipost-dmz-injury-rumor/thumb.jpg
+  본문 수정 content/posts/2026-09-26-wikipost-dmz-injury-rumor.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 이미지 내용은 확인하지 않았습니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 내용은 확인하지 않았습니다.
+  본문 수정 content/posts-en/2026-09-26-wikipost-dmz-injury-rumor.md: -1 +1
+    -This post is based on the original caption; the image content was not reviewed.
+    +This post is based on the original caption; the original post's image content was not reviewed.
+2026-09-27-geonwoo-farmland-survey	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-27-geonwoo-farmland-survey/thumb.jpg
+2026-09-27-geonwoo-nsl-mexico-remark	②	news	alt/cap	0	없음	0
+  HEAD 파일: public/images/2026-09-27-geonwoo-nsl-mexico-remark/thumb.jpg
+  caption 74자 · imageCaption 162자 · imageAlt 108자 · retrievedAt 2026-11-10
+2026-09-27-hoon2-jeonhyunhee-land-lease	③	(없음)	-/-	0	없음	0
+  HEAD 파일: public/images/2026-09-27-hoon2-jeonhyunhee-land-lease/thumb.jpg
+2026-09-27-leejinsook-lee-parents-grave-farmland	③	(없음)	-/-	0	없음	4
+  HEAD 파일: public/images/2026-09-27-leejinsook-lee-parents-grave-farmland/thumb.jpg
+  본문 수정 content/posts/2026-09-27-leejinsook-lee-parents-grave-farmland.md: -1 +1
+    -이 게시물은 원문 캡션을 기준으로 정리했으며, 이미지는 첫 장만 확인했습니다. 원문은 이진숙 의원 본인 계정 게시물입니다.
+    +이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지는 첫 장만 확인했습니다. 원문은 이진숙 의원 본인 계정 게시물입니다.
+  본문 수정 content/posts-en/2026-09-27-leejinsook-lee-parents-grave-farmland.md: -1 +1
+    -This post is based on the original caption; only the first image was reviewed. The original is a post from Rep. Lee Jin-sook (이진숙)'s own account.
+    +This post is based on the original caption; only the first image of the original post was reviewed. The original is a post from Rep. Lee Jin-sook (이진숙)'s own account.
+
+삭제된 public/images 파일 10개
+
+HEAD: 게시물 209 · self 117 · 자체 제작 67 · SNS 원문 저장본 50
+작업 트리: self 107 · 자체 제작 67 · SNS 원문 저장본 40
+
+결함 0건

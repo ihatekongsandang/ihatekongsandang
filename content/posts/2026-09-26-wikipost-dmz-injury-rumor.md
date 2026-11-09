@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdvzVv0H8ue/
 attribution: 인스타그램 @wikipost_daily (위키포스트)
 useSourceImage: false
-image:
-  src: /images/2026-09-26-wikipost-dmz-injury-rumor/thumb.jpg
-  alt: "철조망이 쳐진 전방 경계 시설"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -27,7 +23,7 @@ tags:
   - 25사단
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 이미지 내용은 확인하지 않았습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 내용은 확인하지 않았습니다.
 
 ## 보도로 확인된 내용
 

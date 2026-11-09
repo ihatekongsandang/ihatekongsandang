@@ -2,13 +2,11 @@
 id: 2026-09-26-wikipost-dmz-injury-rumor
 title: "'Additional casualties' rumor about the DMZ blast spreads online — officially confirmed injuries are three officers and NCOs"
 description: "Instagram @wikipost_daily covers online rumors of more DMZ blast casualties; reports confirm only three officers and NCOs were injured."
-imageAlt: "Front-line guard facility surrounded by barbed wire"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @wikipost_daily (위키포스트)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the image content was not reviewed.
+This post is based on the original caption; the original post's image content was not reviewed.
 
 ## What reports confirm
 

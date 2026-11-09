@@ -2,8 +2,6 @@
 id: 2026-09-26-newsbanhana-lee-kexpo-mexico
 title: "\"Is now really the time, four days after the mine accident?\" — reel criticizing President Lee's visit to Mexico's K-Expo"
 description: "Instagram @news_banhana criticizes President Lee applauding at Mexico's K-Expo four days after the presumed DMZ mine blast, during his state visit there."
-imageAlt: "President Lee Jae-myung applauding on stage at Mexico's K-Expo, with the caption 'Is now really the time, four days after the mine accident?'"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @news_banhana (뉴스반하나)"
 translatedAt: 2026-09-30
 ---

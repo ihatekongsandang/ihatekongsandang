@@ -10,10 +10,6 @@ speaker:
   name: "@nonjeomjikjin"
   affiliation: 인스타그램 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-26-nonjeomjikjin-dmz-chae-standard/thumb.jpg
-  alt: "집회 현장을 배경으로 한 이재명 대통령 사진"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -39,7 +35,7 @@ tags:
   - 25사단
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 

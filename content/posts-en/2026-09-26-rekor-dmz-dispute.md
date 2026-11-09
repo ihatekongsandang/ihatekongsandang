@@ -2,13 +2,11 @@
 id: 2026-09-26-rekor-dmz-dispute
 title: "Democratic Party: \"Security isn't decided by guesswork\" vs. People Power Party: \"Possibility of a North Korean box mine\" — DMZ blast partisan clash card"
 description: "Instagram @rekor.rgt faults the DP for criticizing PPP claims of North Korean involvement in the DMZ blast; the DP reportedly called them conspiracy theories."
-imageAlt: "Blurred long-distance photo of a wooded front-line area"
-imageCaption: "Thumbnail of the original post"
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the card image content was not reviewed. The original caption cites an MBC report (Sept. 26, 2026) as related coverage.
+This post is based on the original caption; the original post's card image content was not reviewed. The original caption cites an MBC report (Sept. 26, 2026) as related coverage.
 
 ## What the original post claims (the poster's opinion)
 

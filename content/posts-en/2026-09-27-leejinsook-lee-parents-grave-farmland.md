@@ -2,14 +2,12 @@
 id: 2026-09-27-leejinsook-lee-parents-grave-farmland
 title: "Rep. Lee Jin-sook: \"President Lee's parents' grave was built on farmland… not moved despite three restoration orders\" — contrasted with the nationwide farmland survey"
 description: "PPP Rep. Lee Jin-sook claims President Lee's parents' grave on farmland was not moved despite 3 restoration orders; 2023 reports confirm no conversion permit."
-imageAlt: "Screenshot of a news headline reading '…leader's parents' joint grave, Farmland Act…' and a photo of a person in protective clothing"
-imageCaption: "Image of the original post"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_leejinsook (이진숙)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; only the first image was reviewed. The original is a post from Rep. Lee Jin-sook (이진숙)'s own account.
+This post is based on the original caption; only the first image of the original post was reviewed. The original is a post from Rep. Lee Jin-sook (이진숙)'s own account.
 
 ## What the original post claims (the poster's opinion)
 

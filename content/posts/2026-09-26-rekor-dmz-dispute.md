@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdwIr8KgUFC/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
-image:
-  src: /images/2026-09-26-rekor-dmz-dispute/thumb.jpg
-  alt: "나무가 우거진 전방 지역을 멀리서 찍은 흐릿한 사진"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
@@ -29,7 +25,7 @@ tags:
   - 국민의힘
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 MBC 보도(2026-09-26)를 관련 기사로 적고 있습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 카드 이미지 내용은 확인하지 않았습니다. 원문 캡션은 MBC 보도(2026-09-26)를 관련 기사로 적고 있습니다.
 
 ## 원문 주장 (게시자 의견)
 

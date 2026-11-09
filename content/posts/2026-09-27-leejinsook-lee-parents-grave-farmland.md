@@ -10,10 +10,6 @@ speaker:
   name: 이진숙
   affiliation: 국민의힘 국회의원
 useSourceImage: false
-image:
-  src: /images/2026-09-27-leejinsook-lee-parents-grave-farmland/thumb.jpg
-  alt: "'…대표 부모 합장묘 농지법…' 기사 제목 캡처와 방호복 차림 인물 사진"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:
@@ -35,7 +31,7 @@ tags:
   - 농지
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 이미지는 첫 장만 확인했습니다. 원문은 이진숙 의원 본인 계정 게시물입니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지는 첫 장만 확인했습니다. 원문은 이진숙 의원 본인 계정 게시물입니다.
 
 ## 원문 주장 (게시자 의견)
 

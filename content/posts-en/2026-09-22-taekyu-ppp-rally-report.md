@@ -2,8 +2,6 @@
 id: 2026-09-22-taekyu-ppp-rally-report
 title: "People Power Party's 'Report to the Public on the Lee Jae-myung Administration's Failures' — Jang Dong-hyuk: \"They are tearing down the house called South Korea from its foundations\""
 description: "PPP Rep. Kim Tae-gyu shares a Sept. 22 party rally video; leader Jang Dong-hyuk reportedly faulted the mine response and the demand to re-recommend a justice."
-imageAlt: "Rally on the steps in front of the National Assembly main building, with participants holding Taegeukgi flags and pickets and a banner reading 'Lee Jae-myung regime'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "People Power Party leader (the speaker)"
 attribution: "Instagram @taekyuster (김태규)"
 translatedAt: 2026-09-30

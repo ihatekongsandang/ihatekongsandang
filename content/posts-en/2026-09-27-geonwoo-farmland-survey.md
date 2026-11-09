@@ -2,8 +2,6 @@
 id: 2026-09-27-geonwoo-farmland-survey
 title: "\"Don't decide farmers' lives from behind a desk\" — reel criticizing the nationwide farmland survey"
 description: "Instagram @geonwoo.vibes faults President Lee's farmland-survey remarks; reports say he vowed not to back off and 2.84M parcels (27%) were flagged as suspect."
-imageAlt: "President Lee Jae-myung speaking, with the caption 'The president, knowing nothing at all about the nationwide farmland survey…'"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-10-01

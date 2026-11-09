@@ -2,14 +2,12 @@
 id: 2026-09-26-nonjeomjikjin-dmz-chae-standard
 title: "\"The principle of truth-finding can't change depending on who the president is\" — post comparing the DMZ blast to the Cpl. Chae Su-geun case"
 description: "Instagram @nonjeomjikjin wants the Cpl. Chae truth-finding standard for the DMZ blast; ruling-party Rep. Park Jie-won reportedly also faulted the government."
-imageAlt: "Photo of President Lee Jae-myung with a rally scene in the background"
-imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @nonjeomjikjin (논점직진)"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original caption; the card image content was not reviewed.
+This post is based on the original caption; the original post's card image content was not reviewed.
 
 ## What the original post claims (the poster's opinion)
 

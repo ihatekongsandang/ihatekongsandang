@@ -2,8 +2,8 @@
 id: 2026-09-27-geonwoo-nsl-mexico-remark
 title: "President Lee Jae-myung's National Security Act remark at a meeting with Koreans in Mexico — reel criticizing \"a search-and-seizure for studying Juche ideology\""
 description: "Instagram @geonwoo.vibes faults President Lee's NSL remark in Mexico; he reportedly said police did a search-and-seizure over \"studying Juche ideology.\""
-imageAlt: "Video frame of President Lee Jae-myung with the caption 'Going all the way to Mexico to abolish the National Security Act?'"
-imageCaption: "Thumbnail of the original post"
+imageAlt: "President Lee Jae-myung gesturing as he speaks at a podium labeled 'Meeting with Korean residents in Mexico'"
+imageCaption: "President Lee Jae-myung giving remarks at a meeting with Korean residents in Mexico City on Sept. 24, 2026, local time (per the original article's photo caption)."
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30

@@ -10,10 +10,6 @@ speaker:
   name: "@hoon2_lpg_god"
   affiliation: 스레드 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-27-hoon2-jeonhyunhee-land-lease/thumb.jpg
-  alt: "국회 기자회견장에서 발언하는 전현희 의원 사진 위에 '토지는 국가만 소유, 개인은 건물만 소유 가능한 법 발의' 문구"
-  caption: 원문 게시물 이미지
 og:
   siteName: Threads
 sources:

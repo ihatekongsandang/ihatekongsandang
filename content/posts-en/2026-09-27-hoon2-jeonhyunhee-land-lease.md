@@ -2,8 +2,6 @@
 id: 2026-09-27-hoon2-jeonhyunhee-land-lease
 title: "Thread claiming \"Jeon Hyun-hee proposed a law under which only the state owns land\" — the actual bill provides fund support for 'land-lease' sale housing"
 description: "Threads @hoon2_lpg_god posts an image claiming Rep. Jeon Hyun-hee's bill means state-only land and calls it communism; reports say it funds land-lease homes."
-imageAlt: "Photo of Rep. Jeon Hyun-hee speaking in the National Assembly press briefing room, overlaid with the text 'Bill proposed: only the state may own land, individuals may own only buildings'"
-imageCaption: "Image of the original post"
 speakerAffiliation: "Threads user"
 attribution: "Threads @hoon2_lpg_god"
 translatedAt: 2026-09-30

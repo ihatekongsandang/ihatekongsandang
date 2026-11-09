@@ -10,10 +10,6 @@ speaker:
   name: 김계리
   affiliation: 윤석열 전 대통령 변호인(발언 주체)
 useSourceImage: false
-image:
-  src: /images/2026-09-24-hagonolza-kimgyeri-spy-remark/thumb.jpg
-  alt: "'김계리, 눈물의 이유를…' 기사 제목 캡처와 윤석열 전 대통령·김계리 변호사 사진"
-  caption: 원문 게시물 이미지
 og:
   siteName: Instagram
 sources:

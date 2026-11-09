@@ -10,10 +10,6 @@ speaker:
   name: 장동혁
   affiliation: 국민의힘 대표(발언 주체)
 useSourceImage: false
-image:
-  src: /images/2026-09-22-taekyu-ppp-rally-report/thumb.jpg
-  alt: "국회 본관 앞 계단에 태극기와 피켓을 든 참가자들이 모인 가운데 '이재명 정권' 현수막이 걸린 집회 현장"
-  caption: 원문 게시물 썸네일
 og:
   siteName: Instagram
 sources:
