@@ -1,0 +1,17 @@
+https://[0:0:0:0:0:ffff:127.0.0.1]/a.jpg     [::ffff:7f00:1]        사설·루프백 IP 주소
+https://[::FFFF:10.0.0.1]/a.jpg              [::ffff:a00:1]         사설·루프백 IP 주소
+https://[::ffff:100.64.0.1]/a.jpg            [::ffff:6440:1]        사설·루프백 IP 주소
+https://[::ffff:100.127.255.255]/a.jpg       [::ffff:647f:ffff]     사설·루프백 IP 주소
+https://[::ffff:100.128.0.1]/a.jpg           [::ffff:6480:1]        (통과)
+https://[::ffff:100.63.255.255]/a.jpg        [::ffff:643f:ffff]     (통과)
+https://100.64.0.0/a.jpg                     100.64.0.0             사설·루프백 IP 주소
+https://100.127.1.1/a.jpg                    100.127.1.1            사설·루프백 IP 주소
+https://100.128.0.0/a.jpg                    100.128.0.0            (통과)
+https://100.63.1.1/a.jpg                     100.63.1.1             (통과)
+https://[::ffff:203.0.113.10]/a.jpg          [::ffff:cb00:710a]     (통과)
+https://[::127.0.0.1]/a.jpg                  [::7f00:1]             (통과)
+https://[::ffff:0:127.0.0.1]/a.jpg           [::ffff:0:7f00:1]      (통과)
+https://[::ffff:169.254.1.1]/a.jpg           [::ffff:a9fe:101]      사설·루프백 IP 주소
+https://[::ffff:0.0.0.0]/a.jpg               [::ffff:0:0]           사설·루프백 IP 주소
+https://0x7f.1/a.jpg                         127.0.0.1              사설·루프백 IP 주소
+https://2130706433/a.jpg                     127.0.0.1              사설·루프백 IP 주소

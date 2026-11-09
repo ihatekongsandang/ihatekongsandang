@@ -1,4 +1,7 @@
 /**
+ * 🔴 (프로그래머 15 주: C7로 핫링크가 깨지면 figcaption이 빠진다. 이 도구의 news 픽스처는 연결 불가 주소(example.org)라 news 4조합의
+ *  "figcaption 있음"이 이제 FAIL이 맞다. 사진 설명·크레딧 실브라우저 확인은 `docs/tools/programmer-15/caption-browser.mjs`가 이어받았다
+ *  (이미지 응답을 CDP로 주입해 보이는 경우와 깨지는 경우를 둘 다 본다). 이 파일은 프로그래머 13·14 기록으로 그대로 둔다.)
  * (프로그래머 14 갱신: 상세 개편으로 figcaption 마크업이 `<figcaption data-credit>`가 되고 링크 문구가 보강안 목업 문구 — 언론 "기사 원문", 공공누리 "원문 페이지"/"Source page" — 로 바뀌어 기대값만 맞췄다. 검사 항목 수는 같다.)
  * 프로그래머 13 — 픽스처 상세의 크레딧 figcaption 실브라우저 확인(헤드리스 Chrome + CDP, 추가 의존성 없음).
  * `p11-build-check.sh --serve`가 픽스처 포함 빌드를 띄운 뒤 부른다. 사용: node figcaption-a11y.mjs <baseUrl> <화면 폴더>

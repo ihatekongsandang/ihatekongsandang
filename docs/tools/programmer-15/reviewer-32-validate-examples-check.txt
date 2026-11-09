@@ -1,0 +1,50 @@
+# 6번 도구 타입 오류 수정 — 동작 불변 확인
+# 입력: make-variants.py 2026-09-25-peoplepower7-tankday-vs-mine (리뷰 32와 같은 게시물·언론 url) → <tmp>
+# (1) 원본 validate-examples.ts 사본과 고친 파일을 같은 입력·같은(현재) 스키마로 실행 → cmp 결과: 같음(바이트 단위), 출력 34줄, 종료 코드 둘 다 0
+# (2) 인자 없이 실행: 원본·수정본 모두 같은 TypeError [ERR_INVALID_ARG_TYPE](path.join) — 실행 동작 같음
+# (3) tsc --noEmit: 수정 전 이 파일 TS2345 3건(15·16·17행) → 수정 후 0 (typecheck-output.txt)
+# (4) 리뷰 32 저장 출력과의 차이(스키마 C2 변경 때문 — 도구 변경과 무관):
+    24c24,25
+    < === u-real-nocaption.md errors=0 notices=1
+    ---
+    > === u-real-nocaption.md errors=1 notices=1
+    >   E image.caption: kind `news`이면 필수입니다 — 상세 사진 아래에 나오는 사진 설명입니다. 원 기사 사진 설명 기준으로 촬영 시점·장소와 누가 무엇을 하는 모습인지 쓰세요(정책 §3.6 형식).
+    26,28d26
+    <   media.kind=remote credit={"kind":"news","creditName":"연합뉴스","creditNameEn":"Yonhap News Agency","sourcePageUrl":"https://www.khan.co.kr/en/article/202605201613007/"} caption이 media에 있음=false
+    <   EN(기존 영어본 그대로) errors=0 
+    <   EN(imageAlt·imageCaption 교체) errors=0  notices=imageCaption: 한국어 원본에 캡션이 없어 쓰이지 않습니다.
+# ---- 현재 실행 출력 ----
+=== policy8-real-nolicense.md errors=0 notices=1
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+  media.kind=remote credit={"kind":"news","creditName":"연합뉴스","creditNameEn":"Yonhap News Agency","sourcePageUrl":"https://www.khan.co.kr/en/article/202605201613007/"} caption이 media에 있음=false
+  EN(기존 영어본 그대로) errors=0 
+  EN(imageAlt·imageCaption 교체) errors=0  notices=
+=== policy8-real.md errors=1 notices=1
+  E image.license: 공공누리 유형은 kind `public`에만 씁니다 — kind `news`에서는 이 줄을 지우세요.
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+=== policy8-verbatim.md errors=3 notices=1
+  E image.src: kind `news`는 근거 기사 og:image의 https URL이어야 합니다(핫링크, 저장 금지). (받은 값: https://…)
+  E image.sourcePageUrl: kind `news`이면 필수이며 http(s) URL이어야 합니다(근거 기사). (받은 값: https://…)
+  E image.license: 공공누리 유형은 kind `public`에만 씁니다 — kind `news`에서는 이 줄을 지우세요.
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+=== readme36-real-nolicense.md errors=0 notices=1
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+  media.kind=remote credit={"kind":"news","creditName":"연합뉴스","creditNameEn":"Yonhap News Agency","sourcePageUrl":"https://www.khan.co.kr/en/article/202605201613007/"} caption이 media에 있음=false
+  EN(기존 영어본 그대로) errors=0 
+  EN(imageAlt·imageCaption 교체) errors=0  notices=
+=== readme36-verbatim.md errors=3 notices=1
+  E image.src: kind `news`는 근거 기사 og:image의 https URL이어야 합니다(핫링크, 저장 금지). (받은 값: https://…/og-image.jpg)
+  E image.sourcePageUrl: kind `news`이면 필수이며 http(s) URL이어야 합니다(근거 기사). (받은 값: https://…)
+  E image.license: 공공누리 유형은 kind `public`에만 씁니다 — kind `news`에서는 이 줄을 지우세요.
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+=== u-real-nocaption.md errors=1 notices=1
+  E image.caption: kind `news`이면 필수입니다 — 상세 사진 아래에 나오는 사진 설명입니다. 원 기사 사진 설명 기준으로 촬영 시점·장소와 누가 무엇을 하는 모습인지 쓰세요(정책 §3.6 형식).
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+=== u-realsrc.md errors=0 notices=1
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+  media.kind=remote credit={"kind":"news","creditName":"연합뉴스","creditNameEn":"Yonhap News Agency","sourcePageUrl":"https://www.khan.co.kr/en/article/202605201613007/"} caption이 media에 있음=false
+  EN(기존 영어본 그대로) errors=0 
+  EN(imageAlt·imageCaption 교체) errors=0  notices=
+=== u-verbatim.md errors=1 notices=1
+  E image.sourcePageUrl: kind `news`이면 이 게시물 `sources[].url` 중 하나와 글자 그대로 같아야 합니다. (받은 값: https://news.example.com/article/12345)
+  N description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.

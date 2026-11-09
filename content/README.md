@@ -84,7 +84,7 @@ npm run --silent og:draft -- https://example.com/article > content/posts/my-post
 | `tags` | | 문자열 배열 | 한글·소문자 영숫자·하이픈. v0.1에 카테고리는 없고 태그만 쓴다 |
 | `speaker` | | `{name, affiliation}` | 발언·논평을 정리한 글이면 누구의 말인지. 아래 3.3 참조 |
 | `submittedBy` | | 문자열 | 제보로 들어온 건을 표시할 때(v0.3 대비) |
-| `image` | | `{src, alt, caption}` | 대표 이미지를 따로 지정하고 싶을 때. 없으면 유형별 규칙으로 정해진다 |
+| `image` | | `{kind, src, alt, caption, creditName, creditNameEn, sourcePageUrl, license, retrievedAt, faceNote}` | 카드 대표 이미지. `kind`를 생략하면 `self`(운영자 제작 이미지). 공공누리·언론 기사 사진은 §3.6 |
 
 ### 3.2 `sources[]` — 배경 보도
 
@@ -146,8 +146,7 @@ speaker:
 원문 썸네일은 **복사해 오지 않고 원 주소를 그대로 참조**한다. 원 사이트에서 이미지를 지우거나
 주소가 바뀌면 화면에서 자동으로 대체 이미지로 바뀐다.
 
-🔴 **`useSourceImage` 판단 기준**: 인물의 얼굴이 식별되는 썸네일은 쓰지 않는다(`false`로 둔다).
-수사·재판이 진행 중인 사안이면 특히 그렇다. 판단이 애매하면 `false`가 안전한 쪽이다.
+> 🔴 `useSourceImage`(원문 `sourceUrl`의 썸네일)는 지금도 `false`로 둔다. 카드에 실제 사진을 쓸 때는 `useSourceImage`가 아니라 `image.kind: public`·`news`(§3.6)를 쓴다. 인물 사진은 `planning/card-image-policy.md` §3의 얼굴 기준(2안: 공인의 공적 활동 사진 허용, 수행원·통역·배석자 정면 허용, 비공인·미성년자·피해자·부상 장병·일반 시민 제외)을 따르고 판정 근거를 `faceNote`에 적는다.
 
 ### 3.5 `sourceType: photo` / `photo_text` 추가 필드
 
@@ -162,6 +161,43 @@ images:
 - `alt`는 "사진", "이미지" 같은 말 대신 **무엇이 보이는지**를 쓴다.
 - `photo_text`는 frontmatter 아래 **마크다운 본문이 반드시 있어야** 한다.
 - 이미지가 여러 장이면 상세 페이지에서 가로로 넘겨 보는 형태로 나온다.
+
+### 3.6 대표 이미지 `image.kind`
+
+news (언론 기사 핫링크):
+```yaml
+image:
+  kind: news
+  src: https://…/og-image.jpg      # 근거 기사 og:image(https 핫링크, 내려받지 않는다)
+  alt: "사진에 보이는 사실만 쓴 문장"
+  caption: "촬영 시점·장소, 직위 이름이 …하는 모습(원 기사 사진 설명 기준). …"   # 필수(정책 §3.6). 160자 이내 권고
+  creditName: 연합뉴스               # 사진 권리자 표기(사진 설명의 크레딧). 없으면 기사 매체명
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://…         # 이 게시물 sources[]의 언론 기사 url과 글자 그대로 같을 것
+  retrievedAt: 2026-11-09          # 확인일
+  faceNote: 현직 국회의원 — 본회의 발언 — 원 기사 사진 설명   # 얼굴 없으면 "얼굴 없음(건물)"
+  # license 줄은 쓰지 않는다(쓰면 오류)
+```
+public (공공누리 제1유형, 저장소에 저장):
+```yaml
+image:
+  kind: public
+  src: /images/{id}/thumb.jpg
+  alt: "사진에 보이는 사실만 쓴 문장"
+  caption: "…"
+  creditName: 기관명
+  creditNameEn: Institution name
+  sourcePageUrl: https://…         # 공공누리 마크를 직접 확인한 원문 페이지
+  license: kogl-1                  # public만 필수. kogl-1만 받는다
+  retrievedAt: 2026-11-09
+  faceNote: 얼굴 없음(건물)
+```
+- `kind`를 생략하면 `self`(운영자 제작·SNS 원문 이미지 저장본)다. `self`에는 크레딧 필드를 쓰지 않는다.
+- public·news는 `sourceType: url` 게시물의 `image`에만 쓴다. `images[]`(사진 유형 갤러리)는 self만 받는다.
+- 포털(네이버·다음·네이트·줌 계열·단축·집계 주소, 이미지 CDN 포함) 주소는 `src`·`sourcePageUrl` 모두 막힌다. 원 매체 기사를 쓴다.
+- 상세 사진 아래에 `사진: {creditName}` + 원 페이지 링크와 **사진 설명**이 나온다(영어 상세는 `creditNameEn`·`imageCaption`). 카드에는 나오지 않는다. 공유 미리보기(OG)·구조화 데이터에는 들어가지 않는다.
+- 이미지를 내릴 때는 `image` 블록을 지우고 배포하면 된다(새 대체 카드로 바뀐다). 절차는 `planning/image-removal-procedure.md`.
+- 깨진 핫링크 점검: `npm run check:hotlinks`(빌드를 막지 않는다). **주 1회**, 담당 업로더.
 
 ---
 
@@ -334,6 +370,10 @@ tags: [○○정책]
 | 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
 | `description` 160자 초과, 파일명과 `id` 불일치, 모르는 필드, `speaker`의 모르는 하위 필드 | 경고만 (빌드는 진행) |
 | 본문에 마크다운 이미지(`![…](…)`) — 렌더에서 제거됨 | 경고만 (빌드는 진행) |
+| `image.kind` 값 오류, news `src`가 https 아님·포털, `sourcePageUrl`이 `sources[]` 언론 기사와 다름·포털, public·news 필수 필드 누락(`caption` 포함), public `license`가 kogl-1 아님, news에 `license`, `images[]`나 사진 유형에 public·news | 빌드 중단 |
+| self 이미지에 크레딧 필드 | 경고만 |
+
+(위 "폐지된 필드 … `kind`"는 **최상위** `kind`(게시물 종류)다. `image.kind`와 다르다.)
 
 ---
 
@@ -373,6 +413,7 @@ translatedAt: 2026-09-29              # 필수 (YYYY-MM-DD)
 | `attribution`·`speakerAffiliation`이 문자열이 아님(목록·숫자 등 — 무시되고 원본 값이 나감) | 경고만 |
 | 원본이 번역 이후 갱신됨(`updatedAt` > `translatedAt`) · 원본 값을 쓰는 필드를 적음 · 모르는 필드 | 경고만 |
 
+- **대표 이미지 `image.kind`(§3.6)** — `imageAlt`·`imageCaption`은 news·public에서도 필수다(원본에 `caption`이 있으면 `imageCaption` 필수 — 기존 규칙). 크레딧은 영어본에 따로 적지 않는다 — 원본의 `creditNameEn`이 쓰인다.
 - **출처 표기 `attribution`** — 저작권 표시 성격이라 **플랫폼명만** 영어로 바꾼다(인스타그램 → Instagram, 스레드 → Threads, 유튜브 → YouTube, 페이스북 → Facebook). 계정 핸들과 괄호 안 원문 이름은 원본 그대로 둔다.
   예: 원본 `인스타그램 @im_nowandhere (나우앤히어)` → 영어본 `Instagram @im_nowandhere (나우앤히어)`. 언론사명처럼 공식 영문 표기를 확인하지 못한 이름은 번역하지 않는다(필드를 비우면 원본 값이 나간다).
 - 본문의 내부 링크 `/post/{id}`는 **그 글의 영어본이 있으면** 영어 페이지에서 `/en/post/{id}`로 자동으로 바뀐다. 없으면 한국어 페이지로 그대로 간다.

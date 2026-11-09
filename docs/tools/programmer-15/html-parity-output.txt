@@ -1,0 +1,62 @@
+변경 전 799개 · 변경 후 799개 · 한쪽에만 있음 0개
+짝 799개 중 정규화 후 같음 385개 · 다름 414개
+  다름: en/post/2026-07-01-amhaengeosa-lee-nk-military-remark.html @38572
+   전: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"CardMedia\\\"]\\n2a:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"MediaFigure\\\"]\\n2a:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-04-idontknowpolitics-2018-freedom-deletion.html @38170
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-05-idontknowpolitics-kctu-appeal.html @38431
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"span\\\",\\\"1\\\",{\\\"lang\\\":\\\"ko\\\",\\\"ch"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"span\\\",\\\"1\\\",{\\\"lang\\\":\\\"ko\\\",\\\""
+  다름: en/post/2026-07-12-judypia-real-estate-supervisory-bill.html @39271
+   전: "\"])</script><script>self.__next_f.push([1,\"29:I[<MODULE>],\\\"CardMedia\\\"]\\n2b:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"29:I[<MODULE>],\\\"MediaFigure\\\"]\\n2b:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.html @39583
+   전: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-fo"
+   후: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-"
+  다름: en/post/2026-07-14-kasamo7-cnn-surprise-attack-article.html @40526
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-fo"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-"
+  다름: en/post/2026-07-19-amhaengeosa-kctu-itaewon-directive.html @39241
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"Instagram @amhaengeosa.kr \\\",[\\\"$\\\",\\\"sp"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"Instagram @amhaengeosa.kr \\\",[\\\"$\\\",\\\""
+  다름: en/post/2026-07-20-yoonsanghyun-special-counsel-filibuster.html @38378
+   전: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"CardMedia\\\"]\\n2a:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"MediaFigure\\\"]\\n2a:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-22-geonwoo-kimminsoo-defense.html @38180
+   전: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"time\\\",null,{\\\"dateTime\\\":\\\"2026-0"
+   후: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"time\\\",null,{\\\"dateTime\\\":\\\"2026"
+  다름: en/post/2026-07-24-firstincome-seoul-edu-unification-textbook.html @39732
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-24-korealive-woohai-moreugo.html @36449
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-25-idontknowpolitics-cheongju-spy-directives.html @42130
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"Instagram @idontknowpolitics \\\",[\\\"$\\\",\\"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"Instagram @idontknowpolitics \\\",[\\\"$\\\""
+  다름: en/post/2026-07-28-geonwoo-ebs-video-removal.html @37557
+   전: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"CardMedia\\\"]\\n29:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"MediaFigure\\\"]\\n29:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","
+  다름: en/post/2026-07-28-geonwoo-yoon-final-statement-australia.html @39706
+   전: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-fo"
+   후: "\"])</script><script>self.__next_f.push([1,\"28:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-"
+  다름: en/post/2026-07-28-jeichi-amendment-term-claim.html @41453
+   전: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"dt\\\",null,{\\\"className\\\":\\\"min-w-["
+   후: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"dt\\\",null,{\\\"className\\\":\\\"min-w"
+  다름: en/post/2026-08-03-pagememo-nk-prosecution-reform-directive.html @42491
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:\\\"Instagram @page_memo_zip (PAGE_MEMO_ZIP)\\"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:\\\"Instagram @page_memo_zip (PAGE_MEMO_ZIP"
+  다름: en/post/2026-08-06-owloffreedom-kimhyuntae-sentencing.html @40954
+   전: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-fo"
+   후: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"$\\\",\\\"dd\\\",null,{\\\"className\\\":\\\"text-"
+  다름: en/post/2026-08-12-citynewsmeme-parksangyong-oath-refusal.html @40004
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n1a:[\\\"Instagram @citynews_meme \\\",[\\\"$\\\",\\\"spa"
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n1a:[\\\"Instagram @citynews_meme \\\",[\\\"$\\\",\\\"s"
+  다름: en/post/2026-08-24-dictatorshipnono-jeju-missing-false-closure.html @40193
+   전: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"CardMedia\\\"]\\n1b:[\\\"$\\\",\\\"span\\\",\\\"1\\\",{\\\"lang\\\":\\\"ko\\\",\\\"ch"
+   후: "\"])</script><script>self.__next_f.push([1,\"27:I[<MODULE>],\\\"MediaFigure\\\"]\\n1b:[\\\"$\\\",\\\"span\\\",\\\"1\\\",{\\\"lang\\\":\\\"ko\\\",\\\""
+  다름: en/post/2026-08-25-nowandhere-625-constitution-question.html @38997
+   전: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"CardMedia\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\",\\\""
+   후: "\"])</script><script>self.__next_f.push([1,\"26:I[<MODULE>],\\\"MediaFigure\\\"]\\n28:I[<MODULE>],\\\"ShareButtons\\\"]\\n1a:[\\\"$\\\","

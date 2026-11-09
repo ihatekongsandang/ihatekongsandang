@@ -1,0 +1,41 @@
+src/lib/content/schema.ts	저장소독립	0
+src/components/card-media.tsx	저장소독립	0
+src/components/post-detail.tsx	저장소독립	0
+content/README.md	저장소독립	0
+docs/tools/reviewer-32/validate-examples.ts	저장소독립	0
+docs/tools/programmer-13/unit-checks.tsx	저장소독립	0
+docs/tools/programmer-13/p11-build-check.mjs	저장소독립	0
+docs/tools/programmer-13/hotlink-cases.mjs	저장소독립	0
+docs/tools/programmer-13/figcaption-a11y.mjs	저장소독립	0
+docs/tools/programmer-13/fixtures/posts/zz-fixture-news-image.md	저장소독립	0
+docs/tools/programmer-13/fixtures/posts/zz-fixture-public-image.md	저장소독립	0
+docs/tools/programmer-13/fixtures/posts-en/zz-fixture-news-image.md	저장소독립	0
+docs/tools/programmer-13/fixtures/posts-en/zz-fixture-public-image.md	저장소독립	0
+docs/tools/programmer-14-1/unit-checks.ts	저장소독립	0
+docs/handoffs/programmer-15-image-caption-display-validation.md	저장소독립	0
+docs/triggers/programmer-15-image-caption-display-validation-COMPLETE.md	저장소독립	0
+instructions/programmer/processed/15-image-caption-display-validation.md	저장소독립	0
+docs/tools/programmer-15/*(텍스트 파일 전부)	저장소독립	합계=0
+history/2026-11-09.md(이 세션 블록)	저장소독립	0
+src/components/post-detail.tsx	기자	0
+src/components/post-detail.tsx	속보	0
+src/components/post-detail.tsx	본지	0
+src/components/post-detail.tsx	편집국	0
+src/components/post-detail.tsx	바이라인	0
+src/components/post-detail.tsx	reporter	0
+src/components/post-detail.tsx	breaking	0
+src/components/post-detail.tsx	newsroom	0
+src/components/post-detail.tsx	byline	0
+src/components/card-media.tsx	기자	0
+src/components/card-media.tsx	속보	0
+src/components/card-media.tsx	본지	0
+src/components/card-media.tsx	편집국	0
+src/components/card-media.tsx	바이라인	0
+src/components/card-media.tsx	reporter	0
+src/components/card-media.tsx	breaking	0
+src/components/card-media.tsx	newsroom	0
+src/components/card-media.tsx	byline	0
+programmer-15·src·scripts·README·핸드오프·트리거	홈 절대경로	합계=0
+양성 대조(.git/hooks/pre-commit)	1
+홈 경로 패턴 양성 대조(조합 문자열)	1
+변경 파일 합계	0

@@ -1,0 +1,143 @@
+PASS  [375] ko control 실제 상세: 저장소 이미지 로드·figcaption 없음·실패 표시 없음 — {"s":"img","n":210,"f":false}
+PASS  [375] ko control 콘솔 오류·페이지 예외 0
+PASS  [375] ko ok 문서 응답을 바꿨다
+PASS  [375] ko ok 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] ko ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [375] ko ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [375] ko ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] ko fail-early 문서 응답을 바꿨다
+PASS  [375] ko fail-early 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] ko fail-early 대체 카드로 전환 — placeholder
+PASS  [375] ko fail-early figcaption 없음(C7)
+PASS  [375] ko fail-early figure에 data-media-failed
+FAIL  [375] ko fail-early 화면 글자에 사진 설명·크레딧 0
+PASS  [375] ko fail-early 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] ko fail-late 문서 응답을 바꿨다
+PASS  [375] ko fail-late 응답 대기 중: 이미지 요청이 잡혀 있음 — 1
+FAIL  [375] ko fail-late 응답 대기 중(하이드레이션 뒤): 사진 설명·크레딧 줄이 보인다 — {"f":false,"c":null}
+PASS  [375] ko fail-late 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] ko fail-late 대체 카드로 전환 — placeholder
+PASS  [375] ko fail-late figcaption 없음(C7)
+PASS  [375] ko fail-late figure에 data-media-failed
+FAIL  [375] ko fail-late 화면 글자에 사진 설명·크레딧 0
+PASS  [375] ko fail-late 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] ko nav-ok RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [375] ko nav-ok 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] ko nav-ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [375] ko nav-ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [375] ko nav-ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] ko nav-fail RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [375] ko nav-fail 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] ko nav-fail 대체 카드로 전환 — placeholder
+PASS  [375] ko nav-fail figcaption 없음(C7)
+PASS  [375] ko nav-fail figure에 data-media-failed
+FAIL  [375] ko nav-fail 화면 글자에 사진 설명·크레딧 0
+PASS  [375] ko nav-fail 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] en control 실제 상세: 저장소 이미지 로드·figcaption 없음·실패 표시 없음 — {"s":"img","n":210,"f":false}
+PASS  [375] en control 콘솔 오류·페이지 예외 0
+PASS  [375] en ok 문서 응답을 바꿨다
+PASS  [375] en ok 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] en ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [375] en ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [375] en ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] en fail-early 문서 응답을 바꿨다
+PASS  [375] en fail-early 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] en fail-early 대체 카드로 전환 — placeholder
+PASS  [375] en fail-early figcaption 없음(C7)
+PASS  [375] en fail-early figure에 data-media-failed
+FAIL  [375] en fail-early 화면 글자에 사진 설명·크레딧 0
+PASS  [375] en fail-early 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] en fail-late 문서 응답을 바꿨다
+PASS  [375] en fail-late 응답 대기 중: 이미지 요청이 잡혀 있음 — 1
+FAIL  [375] en fail-late 응답 대기 중(하이드레이션 뒤): 사진 설명·크레딧 줄이 보인다 — {"f":false,"c":null}
+PASS  [375] en fail-late 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] en fail-late 대체 카드로 전환 — placeholder
+PASS  [375] en fail-late figcaption 없음(C7)
+PASS  [375] en fail-late figure에 data-media-failed
+FAIL  [375] en fail-late 화면 글자에 사진 설명·크레딧 0
+PASS  [375] en fail-late 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] en nav-ok RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [375] en nav-ok 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] en nav-ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [375] en nav-ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [375] en nav-ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [375] en nav-fail RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [375] en nav-fail 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [375] en nav-fail 대체 카드로 전환 — placeholder
+PASS  [375] en nav-fail figcaption 없음(C7)
+PASS  [375] en nav-fail figure에 data-media-failed
+FAIL  [375] en nav-fail 화면 글자에 사진 설명·크레딧 0
+PASS  [375] en nav-fail 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] ko control 실제 상세: 저장소 이미지 로드·figcaption 없음·실패 표시 없음 — {"s":"img","n":344,"f":false}
+PASS  [1280] ko control 콘솔 오류·페이지 예외 0
+PASS  [1280] ko ok 문서 응답을 바꿨다
+PASS  [1280] ko ok 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] ko ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [1280] ko ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [1280] ko ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] ko fail-early 문서 응답을 바꿨다
+PASS  [1280] ko fail-early 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] ko fail-early 대체 카드로 전환 — placeholder
+PASS  [1280] ko fail-early figcaption 없음(C7)
+PASS  [1280] ko fail-early figure에 data-media-failed
+FAIL  [1280] ko fail-early 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] ko fail-early 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] ko fail-late 문서 응답을 바꿨다
+PASS  [1280] ko fail-late 응답 대기 중: 이미지 요청이 잡혀 있음 — 1
+FAIL  [1280] ko fail-late 응답 대기 중(하이드레이션 뒤): 사진 설명·크레딧 줄이 보인다 — {"f":false,"c":null}
+PASS  [1280] ko fail-late 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] ko fail-late 대체 카드로 전환 — placeholder
+PASS  [1280] ko fail-late figcaption 없음(C7)
+PASS  [1280] ko fail-late figure에 data-media-failed
+FAIL  [1280] ko fail-late 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] ko fail-late 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] ko nav-ok RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [1280] ko nav-ok 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] ko nav-ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [1280] ko nav-ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [1280] ko nav-ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] ko nav-fail RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [1280] ko nav-fail 상세 사진 자리 있음 — /post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] ko nav-fail 대체 카드로 전환 — placeholder
+PASS  [1280] ko nav-fail figcaption 없음(C7)
+PASS  [1280] ko nav-fail figure에 data-media-failed
+FAIL  [1280] ko nav-fail 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] ko nav-fail 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] en control 실제 상세: 저장소 이미지 로드·figcaption 없음·실패 표시 없음 — {"s":"img","n":344,"f":false}
+PASS  [1280] en control 콘솔 오류·페이지 예외 0
+PASS  [1280] en ok 문서 응답을 바꿨다
+PASS  [1280] en ok 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] en ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [1280] en ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [1280] en ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] en fail-early 문서 응답을 바꿨다
+PASS  [1280] en fail-early 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] en fail-early 대체 카드로 전환 — placeholder
+PASS  [1280] en fail-early figcaption 없음(C7)
+PASS  [1280] en fail-early figure에 data-media-failed
+FAIL  [1280] en fail-early 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] en fail-early 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] en fail-late 문서 응답을 바꿨다
+PASS  [1280] en fail-late 응답 대기 중: 이미지 요청이 잡혀 있음 — 1
+FAIL  [1280] en fail-late 응답 대기 중(하이드레이션 뒤): 사진 설명·크레딧 줄이 보인다 — {"f":false,"c":null}
+PASS  [1280] en fail-late 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] en fail-late 대체 카드로 전환 — placeholder
+PASS  [1280] en fail-late figcaption 없음(C7)
+PASS  [1280] en fail-late figure에 data-media-failed
+FAIL  [1280] en fail-late 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] en fail-late 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] en nav-ok RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [1280] en nav-ok 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] en nav-ok 핫링크 이미지 로드(naturalWidth > 0) — img https://img.example.org/r33/og.png 320
+FAIL  [1280] en nav-ok figcaption·사진 설명 보임 · 실패 표시 없음 — null
+PASS  [1280] en nav-ok 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  [1280] en nav-fail RSC 응답을 바꿨다(클라이언트 이동) — 2
+PASS  [1280] en nav-fail 상세 사진 자리 있음 — /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+PASS  [1280] en nav-fail 대체 카드로 전환 — placeholder
+PASS  [1280] en nav-fail figcaption 없음(C7)
+PASS  [1280] en nav-fail figure에 data-media-failed
+FAIL  [1280] en nav-fail 화면 글자에 사진 설명·크레딧 0
+PASS  [1280] en nav-fail 콘솔 오류·페이지 예외 0(하이드레이션 불일치 포함)
+PASS  문서 응답 바꿈 횟수 = 12(ok·fail-early·fail-late × ko/en × 2폭) — 12
+
+합계 141건 · PASS 117 · FAIL 24

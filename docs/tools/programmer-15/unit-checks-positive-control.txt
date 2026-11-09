@@ -1,0 +1,63 @@
+# 양성 대조: 같은 unit-checks.tsx를 변경 전 코드(HEAD의 schema.ts·post-detail.tsx·card-media.tsx) 사본 트리에서 실행.
+# 변경 전 코드에는 MediaFigure가 없어 그 2건은 null을 돌려주는 대역 함수로 바꿔 실행했다(나머지는 원본 그대로).
+케이스 117개 · 통과 57 · 실패 60
+FAIL  C2 거부: news caption 없음 → 빌드 중단 오류 — []
+FAIL  C2 거부: news caption 빈 문자열 → 빌드 중단 오류 — []
+FAIL  C2 거부: news caption 공백만 → 빌드 중단 오류 — []
+FAIL  C2 거부: news caption null → 빌드 중단 오류 — []
+FAIL  C2 거부: news caption 숫자 → 빌드 중단 오류 — []
+FAIL  C2 거부: news caption 목록 → 빌드 중단 오류 — []
+FAIL  C2 경계: news 161자 → 경고(빌드는 진행) — []
+FAIL  C2 거부: public caption 없음 → 빌드 중단 오류 — []
+FAIL  C2 거부: public caption 빈 문자열 → 빌드 중단 오류 — []
+FAIL  C2 거부: public caption 공백만 → 빌드 중단 오류 — []
+FAIL  C2 거부: public caption null → 빌드 중단 오류 — []
+FAIL  C2 거부: public caption 숫자 → 빌드 중단 오류 — []
+FAIL  C2 거부: public caption 목록 → 빌드 중단 오류 — []
+FAIL  C2 경계: public 161자 → 경고(빌드는 진행) — []
+FAIL  C2 메시지: 정책 §3.6 형식 안내 포함 — []
+FAIL  C1 ko news: figcaption 안에 사진 설명 줄 — <p>사진: <span>예시일보</span> · <a href="https://news.example.org/article/1" target="_blank" rel="noopener" class="inline-flex gap-1 text-link underline underline-offset-2 min-h-11 items-center"><span>기사 원문</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link size-3.5 shrink-0 translate-y-0.5" aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="sr-only"> (새 창에서 열림)</span></a></p>
+FAIL  C1 ko news: 사진 설명이 첫 줄, 크레딧 줄이 다음 — ["사진: 예시일보 · 기사 원문 (새 창에서 열림)"]
+FAIL  C1 ko news: 줄 수 2(설명·크레딧) — ["사진: 예시일보 · 기사 원문 (새 창에서 열림)"]
+FAIL  C1 en news: 영어 사진 설명이 첫 줄 — ["Photo: Example Daily · Source article (opens in a new tab)"]
+FAIL  C1 en news: 크레딧 줄 "Photo: Example Daily · Source article" — ["Photo: Example Daily · Source article (opens in a new tab)"]
+FAIL  C1 ko public: 사진 설명 → 크레딧(공공누리) → 공식 문구 요지 순서 — ["사진: 예시부(공공누리 제1유형) · 원문 페이지 (새 창에서 열림)","본 저작물은 예시부에서 공공누리 제1유형으로 개방한 저작물을 이용하였습니다."]
+FAIL  C1 en public: 영어 사진 설명 → Photo 줄 → KOGL 문구 — ["Photo: Ministry of Example (KOGL Type 1) · Source page (opens in a new tab)","This work was released by Ministry of Example under KOGL Type 1 and is used under that license."]
+FAIL  C7 SSR MediaFigure: children(설명 줄)을 그린다
+FAIL  C7 SSR MediaFigure: 대체 카드 media에도 설명 줄은 그대로(실패 상태가 아니면 숨기지 않는다 — 상세는 placeholder면 figure 자체를 안 그린다)
+FAIL  P3-N1 거부: https://[::ffff:127.0.0.1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:127.0.0.1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:7f00:1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:7f00:1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::FFFF:7F00:1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::FFFF:7F00:1]/a.jpg — []
+FAIL  P3-N1 거부: https://[0:0:0:0:0:ffff:7f00:1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[0:0:0:0:0:ffff:7f00:1]/a.jpg — []
+FAIL  P3-N1 거부: https://[0000:0000:0000:0000:0000:ffff:127.0.0.1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[0000:0000:0000:0000:0000:ffff:127.0.0.1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:10.1.2.3]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:10.1.2.3]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:172.16.0.1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:172.16.0.1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:172.31.255.255]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:172.31.255.255]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:192.168.0.1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:192.168.0.1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:169.254.169.254]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:169.254.169.254]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:0.0.0.0]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:0.0.0.0]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:100.64.0.1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:100.64.0.1]/a.jpg — []
+FAIL  P3-N1 거부: https://[::ffff:6440:1]/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://[::ffff:6440:1]/a.jpg — []
+FAIL  P3-N1 거부: https://100.64.0.0/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://100.64.0.0/a.jpg — []
+FAIL  P3-N1 거부: https://100.64.0.1/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://100.64.0.1/a.jpg — []
+FAIL  P3-N1 거부: https://100.100.100.100/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://100.100.100.100/a.jpg — []
+FAIL  P3-N1 거부: https://100.127.255.255/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://100.127.255.255/a.jpg — []
+FAIL  P3-N1 거부: https://100.0x40.0.1/a.jpg — undefined
+FAIL  P3-N1 검증 오류: https://100.0x40.0.1/a.jpg — []

@@ -1,0 +1,4 @@
+/** 리뷰어 33 — P3-N1 경계 사례(IPv4 매핑 IPv6 표기 변형·CGNAT 경계·10진/16진 IPv4). 사용(저장소 루트): npx tsx docs/tools/reviewer-33/ip-cases.ts */
+import { unusableNewsImageReason as r } from '../../../src/lib/content/schema'
+const cases = ['https://[0:0:0:0:0:ffff:127.0.0.1]/a.jpg','https://[::FFFF:10.0.0.1]/a.jpg','https://[::ffff:100.64.0.1]/a.jpg','https://[::ffff:100.127.255.255]/a.jpg','https://[::ffff:100.128.0.1]/a.jpg','https://[::ffff:100.63.255.255]/a.jpg','https://100.64.0.0/a.jpg','https://100.127.1.1/a.jpg','https://100.128.0.0/a.jpg','https://100.63.1.1/a.jpg','https://[::ffff:203.0.113.10]/a.jpg','https://[::127.0.0.1]/a.jpg','https://[::ffff:0:127.0.0.1]/a.jpg','https://[::ffff:169.254.1.1]/a.jpg','https://[::ffff:0.0.0.0]/a.jpg','https://0x7f.1/a.jpg','https://2130706433/a.jpg']
+for (const c of cases) { let h=''; try { h = new URL(c).hostname } catch {} ; console.log(c.padEnd(44), h.padEnd(22), r(c) ?? '(통과)') }

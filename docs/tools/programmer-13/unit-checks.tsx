@@ -1,4 +1,6 @@
 /**
+ * (프로그래머 15 갱신: C2로 public·news `caption`이 필수가 되어 NEWS·PUBLIC 픽스처에 caption을, 그 영어본 검증 입력에 imageCaption을 넣었다.
+ *  C1로 크레딧 figcaption 첫 줄이 사진 설명이 되어, "사진: …"/"Photo: …"로 시작하는지 보는 4곳은 사진 설명 줄을 뺀 크레딧 줄(`creditLine`)로 본다. 검사 항목 수는 같다.)
  * (프로그래머 14 갱신: 상세 개편으로 figcaption 마크업이 `<figcaption data-credit>`가 되고 링크 문구가 보강안 목업 문구 — 언론 "기사 원문", 공공누리 "원문 페이지"/"Source page" — 로 바뀌어 기대값만 맞췄다. 검사 항목 수는 같다.)
  * 프로그래머 13 — 카드 이미지 스키마·크레딧(P1~P4·P11) 통과·거부 케이스 검사.
  *
@@ -65,6 +67,7 @@ const NEWS = {
   kind: 'news',
   src: NEWS_SRC,
   alt: '국회 본회의장에서 발언하는 예시 의원',
+  caption: '2026년 11월 8일 국회 본회의장에서 예시 의원이 발언하는 모습(원 기사 사진 설명 기준).',
   creditName: '예시일보',
   creditNameEn: 'Example Daily',
   sourcePageUrl: ARTICLE,
@@ -75,6 +78,7 @@ const PUBLIC = {
   kind: 'public',
   src: '/images/sample-post/thumb.jpg',
   alt: '예시 기관 청사 전경',
+  caption: '2026년 11월 예시부 청사 전경(원 기사 사진 설명 기준).',
   creditName: '예시부',
   creditNameEn: 'Ministry of Example',
   sourcePageUrl: PUBLIC_PAGE,
@@ -213,7 +217,7 @@ const selfPost = run(base(SELF)).post as Post
 // ---------- E. 영어본 ----------
 {
   const tr = validateTranslation(
-    { id: ID, title: 'Sample title', description: 'Sample summary', imageAlt: 'A sample lawmaker speaking in the plenary hall', translatedAt: '2026-11-09' },
+    { id: ID, title: 'Sample title', description: 'Sample summary', imageAlt: 'A sample lawmaker speaking in the plenary hall', imageCaption: 'A sample lawmaker speaking in the plenary hall on Nov. 8, 2026.', translatedAt: '2026-11-09' },
     'Body',
     FILE,
     newsPost,
@@ -239,6 +243,10 @@ const selfPost = run(base(SELF)).post as Post
 }
 
 // ---------- F. 렌더 ----------
+/** 프로그래머 15: figcaption에서 사진 설명 줄(`<p data-image-caption>`)을 뺀 크레딧 줄. */
+function creditLine(fig: string): string {
+  return fig.replace(/<p data-image-caption="">[\s\S]*?<\/p>/, '')
+}
 function detail(post: Post, locale: 'ko' | 'en' = 'ko'): string {
   return renderToStaticMarkup(<PostDetail post={post} body="" locale={locale} />)
 }
@@ -246,7 +254,7 @@ function detail(post: Post, locale: 'ko' | 'en' = 'ko'): string {
   const html = detail(newsPost)
   const fig = html.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? ''
   check('상세 ko news: figcaption 있음', fig.length > 0, html.slice(0, 200))
-  check('상세 ko news: "사진: 예시일보"', fig.replace(/<[^>]+>/g, '').startsWith('사진: 예시일보'), fig)
+  check('상세 ko news: "사진: 예시일보"', creditLine(fig).replace(/<[^>]+>/g, '').startsWith('사진: 예시일보'), fig)
   check('상세 ko news: 링크 href = sourcePageUrl', fig.includes(`href="${ARTICLE}"`))
   check('상세 ko news: rel="noopener" target="_blank"', /target="_blank" rel="noopener"/.test(fig))
   check('상세 ko news: 새 창 sr-only 안내', fig.includes('<span class="sr-only"> (새 창에서 열림)</span>'))
@@ -258,21 +266,21 @@ function detail(post: Post, locale: 'ko' | 'en' = 'ko'): string {
   check('상세 ko news: alt = image.alt', html.includes(`alt="${NEWS.alt}"`))
 }
 {
-  const tr = validateTranslation({ id: ID, title: 'Sample title', description: 'Sample summary', imageAlt: 'English alt', translatedAt: '2026-11-09' }, 'Body', FILE, newsPost)
+  const tr = validateTranslation({ id: ID, title: 'Sample title', description: 'Sample summary', imageAlt: 'English alt', imageCaption: 'English caption', translatedAt: '2026-11-09' }, 'Body', FILE, newsPost)
   const html = detail(localizePost(newsPost, tr.translation!), 'en')
   const fig = html.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? ''
-  check('상세 en news: "Photo: Example Daily"', fig.replace(/<[^>]+>/g, '').startsWith('Photo: Example Daily'), fig)
+  check('상세 en news: "Photo: Example Daily"', creditLine(fig).replace(/<[^>]+>/g, '').startsWith('Photo: Example Daily'), fig)
   check('상세 en news: "Source article" + 새 창 안내', fig.includes('Source article') && fig.includes('(opens in a new tab)'))
   check('상세 en news: 한국어 크레딧 미노출', !fig.includes('예시일보'))
 }
 {
   const html = detail(publicPost)
-  const text = (html.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '').replace(/<[^>]+>/g, '')
+  const text = creditLine(html.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '').replace(/<[^>]+>/g, '')
   check('상세 ko public: "사진: 예시부(공공누리 제1유형)"', text.startsWith('사진: 예시부(공공누리 제1유형)'), text)
   check('상세 ko public: 공식 문구 요지', text.includes('본 저작물은 예시부에서 공공누리 제1유형으로 개방한 저작물을 이용하였습니다.'), text)
   check('상세 ko public: 링크 문구 "원문 페이지"', text.includes('원문 페이지'))
-  const enTr = validateTranslation({ id: ID, title: 'T', description: 'D', imageAlt: 'Building', translatedAt: '2026-11-09' }, 'B', FILE, publicPost)
-  const enText = (detail(localizePost(publicPost, enTr.translation!), 'en').match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '').replace(/<[^>]+>/g, '')
+  const enTr = validateTranslation({ id: ID, title: 'T', description: 'D', imageAlt: 'Building', imageCaption: 'English caption', translatedAt: '2026-11-09' }, 'B', FILE, publicPost)
+  const enText = creditLine(detail(localizePost(publicPost, enTr.translation!), 'en').match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '').replace(/<[^>]+>/g, '')
   check('상세 en public: "Photo: Ministry of Example (KOGL Type 1)"', enText.startsWith('Photo: Ministry of Example (KOGL Type 1)'), enText)
   check('상세 en public: KOGL 문구', enText.includes('This work was released by Ministry of Example under KOGL Type 1'), enText)
 }

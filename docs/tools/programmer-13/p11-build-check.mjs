@@ -1,4 +1,5 @@
 /**
+ * (프로그래머 15 갱신: C1로 크레딧 figcaption 첫 줄이 사진 설명(`<p data-image-caption>`)이 되어 caption()이 그 줄을 뺀 크레딧 줄을 돌려준다. 픽스처에 caption·imageCaption(C2 필수)을 넣었다. 검사 항목 수·기대 문구는 같다.)
  * (프로그래머 14 갱신: 상세 개편으로 figcaption 마크업이 `<figcaption data-credit>`가 되고 링크 문구가 보강안 목업 문구 — 언론 "기사 원문", 공공누리 "원문 페이지"/"Source page" — 로 바뀌어 기대값만 맞췄다. 검사 항목 수는 같다.)
  * 프로그래머 13 — 픽스처 포함 빌드 결과 검사(`p11-build-check.sh`가 부른다).
  * 사용: node p11-build-check.mjs <.next/server/app 경로>
@@ -80,7 +81,7 @@ function page(p) {
   return fs.readFileSync(path.join(dir, p), 'utf8')
 }
 function caption(text) {
-  return (text.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '')
+  return (text.match(/<figcaption data-credit=""[^>]*>([\s\S]*?)<\/figcaption>/)?.[1] ?? '').replace(/<p data-image-caption="">[\s\S]*?<\/p>/, '')
 }
 const strip = (s) => s.replace(/<[^>]+>/g, '')
 

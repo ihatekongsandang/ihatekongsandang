@@ -1,0 +1,5 @@
+# 양성 대조: self-caption-check 양성 대조와 같은 사본(ko 상세 1쪽에 사진 설명 줄을 일부러 넣음)
+비교 파일 1592개(.html·.rsc·.body, 변경 전 1592 · 변경 후 1592)
+그대로 같음 764 · MediaFigure 되돌림 치환으로 같아짐 827 · 설명 안 되는 차이 1
+차이 파일 분포: {"en/post/*.html":207,"en/post/*.rsc":207,"post/*.html":207,"post/*.rsc":207}
+  설명 안 됨: post/{id}.html

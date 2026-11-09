@@ -1,0 +1,19 @@
+# 리뷰어 33 재실행 (저장소 루트, 기존 일반 빌드 .next 17:22:39 — 빌드 안 함)
+## programmer-15 unit-checks
+케이스 117개 · 통과 117 · 실패 0
+## programmer-13 unit-checks
+케이스 104개 · 통과 104 · 실패 0
+## programmer-13 hotlink-cases
+합계 10건 · PASS 10 · FAIL 0
+## programmer-14-1 unit-checks
+케이스 64개 · 통과 64 · 실패 0
+## programmer-05 unit-checks
+케이스 53개 · 통과 53 · 실패 0
+## programmer-06 unit-checks
+검사 35개 · 통과 35 · 실패 0
+## validate:content
+영어본 207건 / 전체 207건
+
+✅ 검증 통과
+## copy-exact (programmer-12)
+합계 38건 · PASS 38 · FAIL 0

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ExternalLink as ExternalLinkIcon } from 'lucide-react'
-import { CardMedia } from '@/components/card-media'
+import { MediaFigure } from '@/components/card-media'
 import { ExternalLink } from '@/components/external-link'
 import { Gallery } from '@/components/gallery'
 import { JsonLd } from '@/components/json-ld'
@@ -25,13 +25,20 @@ function koglTypeNumber(license: ImageCredit['license']): number | undefined {
  * ko `사진: {creditName}` / en `Photo: {creditNameEn}` + 원 페이지 링크(ExternalLink: `rel="noopener"`, 새 창 sr-only 안내, 높이 44px).
  * 링크 문구는 보강안 목업 그대로(공공누리 "원문 페이지"/"Source page", 언론 "기사 원문"/"Source article").
  * public은 공공누리 유형과 공식 출처 표시 문구의 요지를 함께 적는다.
+ *
+ * 사진 설명(프로그래머 15 C1, 정책 §3.6 · 2b 완화책 ②): `caption`(영어 상세는 영어본 `imageCaption`)을 크레딧 줄 **위**에 적는다
+ * — 사진이 무엇인지 먼저 읽고 그다음 출처를 읽는 순서. 이 figcaption은 credit이 있는 public·news에만 그려지므로
+ * self 이미지의 caption(내부 판정 메모가 섞인 206건)은 여기로 오지 않고 계속 숨는다.
+ * 영어 상세에서 영어 캡션이 없으면 `localizePost`가 caption을 비우므로 한국어 설명이 영어 페이지에 남지 않는다
+ * (public·news는 C2 뒤로 원본 caption이 필수라 영어본 `imageCaption`도 검증에서 필수다).
  */
-function ImageCreditCaption({ credit, locale }: { credit: ImageCredit; locale: Locale }) {
+function ImageCreditCaption({ credit, caption, locale }: { credit: ImageCredit; caption?: string; locale: Locale }) {
   const dict = t(locale)
   const name = locale === 'en' ? credit.creditNameEn : credit.creditName
   const type = credit.kind === 'public' ? koglTypeNumber(credit.license) : undefined
   return (
     <figcaption data-credit="" className="mt-1.5 text-[13px] leading-[1.55] text-muted-foreground">
+      {caption ? <p data-image-caption="">{caption}</p> : null}
       <p>
         {dict.photoCreditLabel}
         <span lang={langFor(name, locale)}>{name}</span>
@@ -62,7 +69,7 @@ interface PostDetailProps {
  *
  * v0.3 반응형 개편(프로그래머 14, 구현 범위 9 · 보강안 A1) 순서:
  *   이동 경로 → (발언자·제보 배지) → 제목 → 요약 → 메타 → **원문 기사로 이동** → 상대 언어 보기 → 안내 상자
- *   → 사진 1회(+ public·news 크레딧 figcaption) 또는 사진 게시물 갤러리 → 본문 → 원문 미리보기(이미지 없이 메타 인용만)
+ *   → 사진 1회(+ public·news 사진 설명·크레딧 figcaption, 핫링크 깨지면 함께 숨김) 또는 사진 게시물 갤러리 → 본문 → 원문 미리보기(이미지 없이 메타 인용만)
  *   → [배경 보도 · 공유 · 태그] → 정정 안내.
  *   1024 이상은 [배경 보도 · 공유 · 태그]를 오른쪽 보조 열(16rem, 1280 이상 18rem)에 둔다. DOM 순서는 위와 같다.
  *   보조 열은 sticky로 붙이지 않는다(프로그래머 14-1, 리뷰 31 P1-1): 열이 화면보다 길면 sticky 열 아래쪽의 공유·태그에
@@ -214,10 +221,12 @@ export function PostDetail({ post, body, locale, otherLanguageHref, translatedAt
 
         {isUrlPost ? (
           media.kind === 'placeholder' ? null : (
-            <figure className="mt-5">
-              <CardMedia media={media} priority locale={locale} variant="figure" />
-              {media.credit ? <ImageCreditCaption credit={media.credit} locale={locale} /> : null}
-            </figure>
+            // 핫링크가 깨지면 MediaFigure가 아래 figcaption(사진 설명·크레딧)을 함께 뺀다(C7).
+            <MediaFigure media={media} locale={locale} className="mt-5">
+              {media.credit ? (
+                <ImageCreditCaption credit={media.credit} caption={post.image?.caption} locale={locale} />
+              ) : null}
+            </MediaFigure>
           )
         ) : (
           <section aria-labelledby="photos-heading" className="mt-5 space-y-3">

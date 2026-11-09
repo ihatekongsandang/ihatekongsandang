@@ -1,0 +1,4 @@
+게시물 207 · caption 있음 207 (그중 self 207) · 확인 파일 828
+caption 문자열 등장 0 (다른 필드와 같은 문자열이라 설명됨 0) · 설명 안 됨 0
+빌드 전체 data-image-caption 0
+PASS

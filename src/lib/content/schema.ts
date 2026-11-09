@@ -80,8 +80,25 @@ export const PORTAL_HOSTS = [
 ] as const
 
 /**
- * `kind: news`의 `src`로 쓸 수 없는 주소인가(리뷰 31 P3-2) — 업로더 실수 방지.
- * - 로컬·사설 주소: `localhost`·`*.localhost`·`*.local`·`*.internal`, IPv4 사설·루프백·링크 로컬·0.0.0.0, IPv6 루프백·사설(fc00::/7)·링크 로컬(fe80::/10)
+ * 막는 IPv4 대역인가(앞 두 옥텟으로 판단): 0/8·10/8·127/8·169.254/16·172.16/12·192.168/16,
+ * CGNAT 공유 주소 100.64/10(100.64.0.0~100.127.255.255, 리뷰 31-1 P3-N1).
+ */
+function isReservedIpv4(a: number, b: number): boolean {
+  return (
+    a === 10 ||
+    a === 127 ||
+    a === 0 ||
+    (a === 100 && b >= 64 && b <= 127) ||
+    (a === 169 && b === 254) ||
+    (a === 172 && b >= 16 && b <= 31) ||
+    (a === 192 && b === 168)
+  )
+}
+
+/**
+ * `kind: news`의 `src`로 쓸 수 없는 주소인가(리뷰 31 P3-2·리뷰 31-1 P3-N1) — 업로더 실수 방지.
+ * - 로컬·사설 주소: `localhost`·`*.localhost`·`*.local`·`*.internal`, IPv4 사설·루프백·링크 로컬·0.0.0.0·CGNAT(100.64/10),
+ *   IPv6 루프백·사설(fc00::/7)·링크 로컬(fe80::/10), 위 IPv4를 담은 IPv4 매핑 IPv6(`::ffff:a.b.c.d`)
  * - 명백한 문서 주소: 경로가 `.html`·`.htm`·`.php`·`.asp`·`.aspx`·`.jsp`로 끝남(og:image는 이미지 파일 주소다)
  * 이미지인지 끝까지 확인하는 것은 응답의 `content-type`을 보는 `npm run check:hotlinks`가 맡는다.
  * 돌려주는 값은 사유 문장, 문제가 없으면 undefined.
@@ -96,15 +113,17 @@ export function unusableNewsImageReason(value: string): string | undefined {
   const host = url.hostname.toLowerCase().replace(/\.$/, '')
   if (host === 'localhost' || /\.(localhost|local|internal)$/.test(host)) return '로컬 주소'
   const v4 = host.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/)
-  if (v4) {
-    const [a, b] = [Number(v4[1]), Number(v4[2])]
-    if (a === 10 || a === 127 || a === 0 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168)) {
-      return '사설·루프백 IP 주소'
-    }
-  }
+  if (v4 && isReservedIpv4(Number(v4[1]), Number(v4[2]))) return '사설·루프백 IP 주소'
   if (host.startsWith('[')) {
     const v6 = host.slice(1, -1)
     if (v6 === '::1' || v6 === '::' || /^f[cd][0-9a-f]{2}:/.test(v6) || /^fe[89ab][0-9a-f]:/.test(v6)) return '사설·루프백 IP 주소'
+    // 리뷰 31-1 P3-N1(프로그래머 15): IPv4 매핑 IPv6(::ffff:a.b.c.d). URL 파서가 `[::ffff:7f00:1]`처럼 16진 두 묶음으로
+    // 바꿔 주므로 그 꼴만 보면 된다. 안에 든 IPv4를 위 IPv4 규칙과 같은 기준으로 본다(공인 IPv4 매핑은 IPv4와 같이 막지 않는다).
+    const mapped = v6.match(/^::ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$/)
+    if (mapped) {
+      const high = parseInt(mapped[1] as string, 16)
+      if (isReservedIpv4(high >> 8, high & 0xff)) return '사설·루프백 IP 주소'
+    }
   }
   if (/\.(html?|php|aspx?|jsp)$/i.test(url.pathname)) return '이미지가 아닌 문서(HTML) 주소'
   return undefined
@@ -293,6 +312,9 @@ interface ImageContext {
   sources: PostSource[]
 }
 
+/** public·news 사진 설명(`caption`) 길이 경고 기준(정책 §3.6 · 리뷰 32 P3-5). 넘어도 오류가 아니라 경고다. */
+export const CAPTION_WARN_LENGTH = 160
+
 /** public·news 전용 필드. self에 들어 있으면 알려 준다(화면에 쓰이지 않는다). */
 const CREDIT_FIELDS = ['creditName', 'creditNameEn', 'sourcePageUrl', 'license', 'retrievedAt', 'faceNote'] as const
 
@@ -386,6 +408,14 @@ function validateImageEntry(
   const creditNameEn = asTrimmedString(raw.creditNameEn)
   const retrievedAt = toIsoDate(raw.retrievedAt)
   const faceNote = asTrimmedString(raw.faceNote)
+  // 프로그래머 15 C2(정책 §3.6, 2b 완화책 ②): public·news는 사진 설명 필수. 빈 문자열·공백만 있는 값도 없는 것으로 본다.
+  // 길이는 160자 넘으면 경고만(정책 §3.6 "160자 이내 권고" — 표 고정 문구만 85자라 120자 기준은 늘 경고가 났다, 리뷰 32 P3-5).
+  if (!caption) {
+    errors.push(`${label}.caption: kind \`${kind}\`이면 필수입니다 — 상세 사진 아래에 나오는 사진 설명입니다. 원 기사 사진 설명 기준으로 촬영 시점·장소와 누가 무엇을 하는 모습인지 쓰세요(정책 §3.6 형식).`)
+    ok = false
+  } else if (caption.length > CAPTION_WARN_LENGTH) {
+    notices.push(`${label}.caption이 ${caption.length}자입니다 — ${CAPTION_WARN_LENGTH}자 이내를 권합니다(정책 §3.6).`)
+  }
   if (!creditName) {
     errors.push(`${label}.creditName: kind \`${kind}\`이면 필수입니다(${kind === 'public' ? '기관명' : '언론사명 또는 기사 속 사진 크레딧'}).`)
     ok = false

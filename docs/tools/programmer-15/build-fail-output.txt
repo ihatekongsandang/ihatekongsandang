@@ -1,0 +1,21 @@
+== news caption 없음: 종료 코드 1 · 기대 문장 1줄
+       ✗ image.caption: kind `news`이면 필수입니다 — 상세 사진 아래에 나오는 사진 설명입니다. 원 기사 사진 설명 기준으로 촬영 시점·장소와 누가 무엇을 하는 모습인지 쓰세요(정책 §3.6 형식).
+PASS  news caption 없음: npm run build 실패(종료 코드 1)
+PASS  news caption 없음: 오류 문장 출력
+PASS  news caption 없음: 빌드 결과(.next/BUILD_ID) 없음 — prebuild에서 멈춤
+== public caption 빈 문자열: 종료 코드 1 · 기대 문장 1줄
+       ✗ image.caption: kind `public`이면 필수입니다 — 상세 사진 아래에 나오는 사진 설명입니다. 원 기사 사진 설명 기준으로 촬영 시점·장소와 누가 무엇을 하는 모습인지 쓰세요(정책 §3.6 형식).
+PASS  public caption 빈 문자열: npm run build 실패(종료 코드 1)
+PASS  public caption 빈 문자열: 오류 문장 출력
+PASS  public caption 빈 문자열: 빌드 결과(.next/BUILD_ID) 없음 — prebuild에서 멈춤
+== 영어본 imageCaption 없음(원본 news caption 있음): 종료 코드 1 · 기대 문장 1줄
+       ✗ imageCaption: 한국어 원본에 image.caption이 있으므로 필수입니다(영어 캡션).
+PASS  영어본 imageCaption 없음(원본 news caption 있음): npm run build 실패(종료 코드 1)
+PASS  영어본 imageCaption 없음(원본 news caption 있음): 오류 문장 출력
+PASS  영어본 imageCaption 없음(원본 news caption 있음): 빌드 결과(.next/BUILD_ID) 없음 — prebuild에서 멈춤
+== 대조: 정상 픽스처(caption·imageCaption 있음): 종료 코드 0 · 기대 문장 1줄
+    ✅ 검증 통과
+PASS  대조: 정상 픽스처(caption·imageCaption 있음): 검증 통과(종료 코드 0)
+PASS  대조: 정상 픽스처(caption·imageCaption 있음): 기대 문장 출력
+
+합계 11건 · PASS 11 · FAIL 0

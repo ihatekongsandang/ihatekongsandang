@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import Image from 'next/image'
 import { ImageOff } from 'lucide-react'
 import type { CardMedia } from '@/lib/content/schema'
@@ -60,6 +60,7 @@ export function CardMedia({
   locale = 'ko',
   altLang,
   variant = 'thumb',
+  onRemoteFail,
 }: {
   media: CardMedia
   priority?: boolean
@@ -67,9 +68,15 @@ export function CardMedia({
   /** 대체 텍스트가 페이지 언어와 다를 때(영어 피드의 한국어 원본 카드 → `'ko'`). 플레이스홀더 문구는 UI 문구라 해당 없음. */
   altLang?: 'ko'
   variant?: MediaVariant
+  /** 핫링크가 깨져 대체 카드로 바뀌는 순간 한 번 알린다(`MediaFigure`가 크레딧·사진 설명 줄을 숨길 때 쓴다). */
+  onRemoteFail?: () => void
 }) {
-  const [remoteFailed, setRemoteFailed] = useState(false)
+  const [remoteFailed, setRemoteFailedState] = useState(false)
   const imageRef = useRef<HTMLImageElement | null>(null)
+  const setRemoteFailed = (failed: true) => {
+    setRemoteFailedState(failed)
+    onRemoteFail?.()
+  }
 
   /*
    * 서버에서 미리 만든 HTML이라 이미지 로드는 하이드레이션보다 먼저 끝난다.
@@ -81,6 +88,8 @@ export function CardMedia({
     const image = imageRef.current
     if (!image) return
     if (image.complete && image.naturalWidth === 0) setRemoteFailed(true)
+    // setRemoteFailed는 렌더마다 새로 만들어지지만 media가 같으면 다시 볼 필요가 없다(이전 동작과 같은 의존성).
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [media])
 
   if (media.kind === 'placeholder' || (media.kind === 'remote' && remoteFailed)) {
@@ -118,5 +127,33 @@ export function CardMedia({
         className="absolute inset-0 size-full object-cover"
       />
     </div>
+  )
+}
+
+/**
+ * 상세 사진 자리(프로그래머 15 C7 · 프로그래머 13 미해결 5).
+ * `CardMedia` + 그 아래 설명 줄(`children` — 사진 설명·크레딧 figcaption)을 한 `<figure>`로 묶고,
+ * 핫링크가 깨져 대체 카드로 바뀌면 설명 줄도 함께 뺀다. 사진이 안 보이는데 "사진: ○○"·"…하는 모습" 설명만
+ * 대체 카드 아래 홀로 남아 다른 장면을 가리키는 것처럼 읽히는 일을 막는다.
+ * 서버 HTML에는 설명 줄이 들어 있고(스크립트 없이도 사진과 함께 보인다), 깨짐은 브라우저에서만 알 수 있어
+ * 하이드레이션 뒤 `CardMedia`가 알려 주면 뺀다. 저장소 이미지(local)는 이 경로로 깨지지 않는다.
+ */
+export function MediaFigure({
+  media,
+  locale = 'ko',
+  className,
+  children,
+}: {
+  media: CardMedia
+  locale?: Locale
+  className?: string
+  children?: ReactNode
+}) {
+  const [failed, setFailed] = useState(false)
+  return (
+    <figure className={className} data-media-failed={failed ? '' : undefined}>
+      <CardMedia media={media} priority locale={locale} variant="figure" onRemoteFail={() => setFailed(true)} />
+      {failed ? null : children}
+    </figure>
   )
 }

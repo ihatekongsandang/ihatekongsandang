@@ -11,6 +11,7 @@ image:
   kind: news
   src: https://img.example.org/og/fixture-news.jpg
   alt: 국회 본회의장에서 발언하는 예시 의원
+  caption: 2026년 11월 8일 국회 본회의장에서 예시 의원이 발언하는 모습(원 기사 사진 설명 기준).
   creditName: 예시일보
   creditNameEn: Example Daily
   sourcePageUrl: https://news.example.org/article/fixture

@@ -1,4 +1,5 @@
 /**
+ * (프로그래머 15 갱신: C2로 news `caption`이 필수가 되어 정상 케이스 픽스처에 caption 한 줄만 넣었다 — 없으면 전부 "검증 실패로 건너뜀"이 된다. 검사 항목·기대값은 같다.)
  * 프로그래머 13 — `check:hotlinks` 판정 경로 전수 확인(정상·404·이미지 아님·HEAD 거부→GET·시간 초과·네트워크 오류).
  * 외부 서버에 묻지 않는다: 127.0.0.1에 자체 서명 https 서버를 띄우고(주소는 `img.example.test` 이름 + DNS 프리로드 — 프로그래머 14-1), 임시 폴더에 그 주소를 쓰는 news 픽스처를 만든 뒤
  * 스크립트를 실행해 출력과 종료 코드를 확인한다(자체 서명 인증서라 이 실행에서만 NODE_TLS_REJECT_UNAUTHORIZED=0).
@@ -50,6 +51,7 @@ image:
   kind: news
   src: ${src}
   alt: 예시
+  caption: 2026년 11월 예시 건물 외관(원 기사 사진 설명 기준).
   creditName: 예시일보
   creditNameEn: Example Daily
   sourcePageUrl: https://news.example.org/${name}

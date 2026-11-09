@@ -11,6 +11,7 @@ image:
   kind: public
   src: /images/zz-fixture-public-image/thumb.jpg
   alt: 예시 기관 청사 전경
+  caption: 2026년 11월 예시부 청사 전경(원 기사 사진 설명 기준).
   creditName: 예시부
   creditNameEn: Ministry of Example
   sourcePageUrl: https://www.example.com/kogl/photo/fixture

@@ -3,6 +3,7 @@
  * 사용(저장소 루트): npx tsx docs/tools/programmer-14-1/unit-checks.ts
  * 픽스처 주소는 예시 도메인만 쓴다. 포털 판정용 포털 호스트에는 실제 기사가 아닌 경로(`/x`)만 붙인다.
  * 실패가 하나라도 있으면 종료 코드 1.
+ * (프로그래머 15 갱신: C2로 public·news `caption`이 필수가 되어 NEWS·PUBLIC 픽스처에 caption만 넣었다. 검사 항목 수·기대값은 같다.)
  */
 import { isPortalUrl, unusableNewsImageReason, validatePost } from '../../../src/lib/content/schema'
 
@@ -18,6 +19,7 @@ const NEWS = {
   kind: 'news',
   src: 'https://img.example.org/og/1.jpg',
   alt: '예시 사진 설명',
+  caption: '2026년 11월 예시 건물 외관(원 기사 사진 설명 기준).',
   creditName: '예시일보',
   creditNameEn: 'Example Daily',
   sourcePageUrl: ARTICLE,
@@ -28,6 +30,7 @@ const PUBLIC = {
   kind: 'public',
   src: '/images/sample-post/thumb.jpg',
   alt: '예시 청사',
+  caption: '2026년 11월 예시부 청사 전경(원 기사 사진 설명 기준).',
   creditName: '예시부',
   creditNameEn: 'Ministry of Example',
   sourcePageUrl: 'https://www.example.com/kogl/1',
