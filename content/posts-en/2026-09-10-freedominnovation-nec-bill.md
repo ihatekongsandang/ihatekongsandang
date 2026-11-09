@@ -6,7 +6,7 @@ imageAlt: "A person holding a sheet of paper and stating a position in front of 
 imageCaption: "Thumbnail of the original post"
 speakerAffiliation: "Instagram @freedominnovation"
 attribution: "Instagram @freedominnovation (자유와혁신)"
-translatedAt: 2026-11-08
+translatedAt: 2026-11-09
 ---
 
 ## What reports confirm
@@ -33,6 +33,9 @@ The original post predates the withdrawal.
 
 - An [Instagram post by @recmag.kr](https://www.instagram.com/p/DfBjtOqTFQb/) (Oct. 28, citing JTBC field footage) summarizing how the Oct. 28 public check began is also noted here. Citing reports by Etoday and News1, the original says the check, scheduled for 9 a.m., began around 11:49 a.m. because of the filming dispute, and that only two broadcast cameras and one observer each designated by the ruling and opposition parties were allowed to film.
 - On Nov. 4 and 5, the special counsel team raided the National Election Commission and the Seoul Metropolitan Election Commission over allegations that the National Election Commission instructed local commissions to falsify or alter, after the fact, the polling records of some 40 polling stations nationwide in connection with the ballot shortage, according to reports. The team reportedly booked about 10 people, including an NEC election division chief and election staff of the Seoul, Gyeonggi and Incheon commissions, on charges of dereliction of duty and forging or altering official documents (Dailian). An [Instagram reel by @kbsnews](https://www.instagram.com/reel/DfWH9UZkceX/) (Nov. 5) covering this is also noted here. What the special counsel disclosed concerns how polling records were written and revised, not an announcement that voting results changed.
+
+- The special counsel team, investigating allegations that since 2014 the chair of the National Election Commission has been paid 2.9 million won a month and its non-standing members 2.15 million won a month in meeting and agenda-review allowances and "fair election promotion activity expenses," requested a search warrant for the commission and others on Oct. 12, but the Seoul Central District Court rejected it on Oct. 14, saying "the basic facts have been established" and that a search "appears quite likely to substantially disrupt the commission's normal work," according to reports. The team reportedly said the grounds for rejection were hard to accept and that it planned to refile. The same article noted that by custom a Supreme Court justice serves as the commission's chair (Yonhap).
+- On Nov. 2, the team raided 18 departments of the National Election Commission and the home of a former secretary-general over the alleged improper payment of these allowances, applying charges of loss of state funds under the Act on the Aggravated Punishment of Specific Crimes and abuse of authority, on the view that about 900 million won in activity expenses was improperly paid to the chair and non-standing members, it was reported (YTN). This is the special counsel's assessment of the charges; no court has ruled on it yet.
 
 ## The poster's opinion
 
