@@ -9,7 +9,7 @@ attribution: "Instagram @eodguri123"
 translatedAt: 2026-10-25
 ---
 
-This post is based on the original caption and thumbnail (one video frame); the full video was not reviewed. Profanity and derogatory language at the start of the original caption are not reproduced. A post from just after the first-instance ruling in the same case (may be available only in Korean): [Lawyer Kim Gye-ri: "So many spies it gives me chills"](/post/2026-09-24-hagonolza-kimgyeri-spy-remark).
+This post is based on the original caption and thumbnail (one video frame); the full video was not reviewed. Profanity and derogatory language at the start of the original caption are not reproduced. A post from just after the first-instance ruling in the same case (may be available only in Korean): [Lawyer Kim Gye-ri: "So many spies it gives me chills"](/post/2026-09-24-hagonolza-lawyer-spy-remark).
 
 ## What the original post claims (the poster's opinion)
 

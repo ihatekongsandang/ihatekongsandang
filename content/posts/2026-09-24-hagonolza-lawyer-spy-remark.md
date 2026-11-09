@@ -1,5 +1,5 @@
 ---
-id: 2026-09-24-hagonolza-kimgyeri-spy-remark
+id: 2026-09-24-hagonolza-lawyer-spy-remark
 title: 김계리 변호사 "윤석열 30년형에 운 게 아니다…간첩 너무 많아 소름" — '평양 무인기' 사건 1심 직후 SNS 글
 description: 인스타그램 @hagonolza가 윤석열 전 대통령의 '평양 무인기' 일반이적 사건 1심 징역 30년 선고 직후 김계리 변호사가 남긴 페이스북 글을 다룬 보도를 공유함. 김 변호사는 변론 준비 중 간첩 문제를 체감해 울었다며 정부 안보 정책을 비판한 것으로 보도됐습니다.
 publishedAt: 2026-09-28

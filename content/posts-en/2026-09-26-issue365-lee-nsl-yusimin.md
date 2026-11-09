@@ -13,7 +13,7 @@ This post is based on the original caption; the video content was not reviewed. 
 ## What reports confirm
 
 - At a meeting with Korean residents in Mexico on Sept. 24 (local time), President Lee Jae-myung reportedly referred to the 2004 debate over the National Security Act, saying the ruling and opposition parties had almost agreed to delete its toxic provisions but the effort fell through because of opposition from those insisting on abolishing it entirely, and said, "Recently I found the police were conducting a search-and-seizure because someone had studied North Korea's Juche ideology."
-- The president reportedly said, in effect, that in the course of reform, making "excessive claims to show one's own clarity" makes it hard to achieve good results, and some media outlets reportedly interpreted this as aimed at writer Yoo Si-min (유시민), who had once argued for the complete abolition of the National Security Act. The president did not mention Yoo by name.
+- The president reportedly said, in effect, that in the course of reform, making "excessive claims to show one's own clarity" makes it hard to achieve good results, and some media outlets reportedly interpreted this as aimed at writer Yoo Si-min (유시민), a former health and welfare minister and two-term lawmaker, who had once argued for the complete abolition of the National Security Act. The president did not mention Yoo by name.
 - Yoo reportedly claimed on a YouTube broadcast on Sept. 22 that "the president has been deceiving the people until now," and the presidential office (Cheong Wa Dae) reportedly said on Sept. 24 that it "regrets the distortion of the president's commitment to prosecution reform contrary to the facts."
 
 ## What we left out of the summary

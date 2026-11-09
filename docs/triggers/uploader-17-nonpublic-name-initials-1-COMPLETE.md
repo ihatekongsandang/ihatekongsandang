@@ -60,7 +60,7 @@
 - attribution 괄호 속 표시 이름을 지우고 핸들만 남겼다.
   - P178: `content/posts/2026-09-10-ansanheart-academy-merger.md`:8, en:6. speaker.name은 `"@ansanheart"`로 바꿨다(10행).
   - P176: geonwoo 6건 × ko·en = 12파일.
-  - P175: shindawit ko 11 + en 6 = 17파일. 파일과 줄은 아래 git status와 같고, 모두 attribution 1줄씩이다.
+  - P175: shindawit ko 11 + en 7 = 18파일(리뷰어 54 P3-1로 정정 — 처음에 en 6·17파일로 잘못 셌다). 파일과 줄은 아래 git status와 같고, 모두 attribution 1줄씩이다.
 - P177은 채널명이라 그대로 뒀다(오더 4항).
 - 게시물 파일 안에 세 표시 이름(한글)이 남은 곳은 0이다.
 - 범위 밖이라 남겨 둔 것: P176 표시 이름이 `docs/handoffs/translator-01-english-batch-1.md`:129와 `docs/supervisor/drafts/2026-09-22-…`:7에 남아 있다. 오더 5항의 범위가 N1·N1S뿐이라 손대지 않았다.

@@ -1,5 +1,5 @@
 ---
-id: 2026-09-25-kimkyelee-nk-pow-ukraine
+id: 2026-09-25-lawyer-nk-pow-ukraine
 title: "Kim Kye-ri (김계리): \"They hid the North Korean POWs' move to South Korea, then complained when Zelensky revealed it\" — President Lee: \"We agreed on nondisclosure; it's regrettable\""
 description: "Instagram @kimkyelee (lawyer Kim Kye-ri) faults the government for objecting after Zelensky revealed 2 NK POWs' move to Korea; Lee reportedly expressed regret."
 attribution: "Instagram @kimkyelee (김계리)"

@@ -1,5 +1,5 @@
 ---
-id: 2026-09-13-geonwoo-jinjoongkwon-2023-remark
+id: 2026-09-13-geonwoo-professor-2023-remark
 title: "Chin Jung-kwon: \"People who would have lived had they not met Lee Jae-myung… how can a human being be like that?\" — posted as 'breaking news,' but a March 2023 remark"
 description: "Instagram @geonwoo.vibes posts Chin Jung-kwon's words on Lee as 'breaking news'; they reportedly date from March 2023 radio, after Lee's ex-chief of staff died."
 speakerAffiliation: "Special-appointment professor at Kwangwoon University (the speaker)"

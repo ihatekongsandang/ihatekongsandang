@@ -8,7 +8,7 @@ attribution: "Threads @boxplus.co.kr"
 translatedAt: 2026-09-30
 ---
 
-This post is based on the original post's text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+This post is based on the original post's text and image. Related post (may be available only in Korean): [Kim Kye-ri (김계리) and the controversy over a North Korean POW's move to South Korea](/post/2026-09-25-lawyer-nk-pow-ukraine).
 
 ## What the original post claims (the poster's opinion)
 

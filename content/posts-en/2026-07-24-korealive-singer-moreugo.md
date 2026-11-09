@@ -1,5 +1,5 @@
 ---
-id: 2026-07-24-korealive-woohai-moreugo
+id: 2026-07-24-korealive-singer-moreugo
 title: "\"Not even knowing these lyrics are real\" — Woohai's 'Moreugo' used in a rally video"
 description: "Instagram @korea_live0603 sets a Taegeukgi rally video to Woohai's song 'Moreugo'; the single came out May 7, 2026, and is on YouTube and streaming services."
 attribution: "Instagram @korea_live0603 (대한민국 실시간 업로드)"

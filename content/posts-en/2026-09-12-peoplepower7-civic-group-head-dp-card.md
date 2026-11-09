@@ -17,7 +17,7 @@ This post is based on the original caption and one image from the original post.
 ## What reports confirm
 
 - Former Prime Minister Kim Min-seok was reportedly elected Democratic Party leader at the party convention on Aug. 17, and K, head of the civic group Candlelight Action, is reportedly his older brother.
-- In October 2024, the Supreme Court reportedly upheld a sentence of one year in prison, suspended for two years, for former professor K on charges of violating the Act on Special Cases Concerning the Punishment of Sexual Crimes (breach of confidentiality). He was charged with posting on social media, in December 2020, a letter written by the victim in the case involving former Seoul Mayor Park Won-soon, together with her real name.
+- In October 2024, the Supreme Court reportedly upheld a sentence of one year in prison, suspended for two years, for former professor K on charges of violating the Act on Special Cases Concerning the Punishment of Sexual Crimes (breach of confidentiality). K was charged with posting on social media, in December 2020, a letter written by the victim in the case involving former Seoul Mayor Park Won-soon, together with her real name.
 - In July 2025, K reportedly caused controversy with social media posts such as "We must create an era in which Yankee imperialism no longer works. The first step is sending U.S. forces in Korea home" and "The ROK-U.S. alliance is a shackle around our neck."
 
 ## What we left out of the summary

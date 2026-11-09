@@ -1,0 +1,150 @@
+# 리뷰어 56 — docs/tools/reviewer-54/name-residual-scan.mjs 재실행(이름 패턴 TSV는 저장소 밖, 1·2차 인물 전부). 오탐: P217 2줄(공인 이름 음절), P147 1줄·P155 RSS 1줄(다른 낱말), P155s 1줄(다른 인물)
+검사 텍스트 파일 1985개 (그중 게시물 418개)
+
+[P046] 범위 전체 · 전체 22줄 · 게시물 0줄
+  (id 목록) content/moved-ids.txt:6
+  (id 목록) content/retired-ids.txt:13
+  docs/tools/planner-16/sns-image-batches.tsv:136
+  docs/tools/programmer-11-1/share-check-output.txt:7
+  docs/tools/programmer-11/share-check-output.txt:7
+  docs/tools/programmer-14-1/aside-height-all.json:269
+  docs/tools/programmer-14-1/aside-height-all.json:1925
+  docs/tools/programmer-14-1/aside-height-all.json:3581
+  docs/tools/programmer-14-1/aside-height-all.json:5237
+  docs/tools/reviewer-25/x-title-length-output.txt:5
+  docs/tools/reviewer-26-1/old-p11-share-check-now.txt:7
+  docs/tools/reviewer-26-1/old-p11-share-check-now.txt:33
+  docs/tools/reviewer-26-1/old-p11-share-check-now.txt:34
+  docs/tools/reviewer-26-1/share-check-rerun.txt:7
+  docs/tools/reviewer-26/share-check-rerun.txt:7
+  docs/tools/reviewer-26/x-truncation-audit-output.txt:9
+  docs/tools/reviewer-31-1/aside-focus-all-output.json:304
+  docs/tools/reviewer-31-1/aside-focus-all-output.json:2167
+  docs/tools/reviewer-31-1/aside-focus-all-output.json:4030
+  docs/tools/reviewer-31-1/aside-focus-all-output.json:5893
+  docs/triggers/uploader-16-sns-image-batch-14-COMPLETE.md:18
+  instructions/uploader/processed/16-sns-image-batch-14.md:14
+
+[P046s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P050] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P051] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P051s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P055] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P055s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P089] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P089s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P107] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P107s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P199] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P199s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P144] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P144s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P145] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P145s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P146] 범위 전체 · 전체 4줄 · 게시물 2줄
+  content/posts/2026-11-01-eodguri-war-term-extension-claim.md:4
+  content/posts/2026-11-01-eodguri-war-term-extension-claim.md:29
+  docs/triggers/poster-2026-11-08-instagram-recollect-24-COMPLETE.md:60
+  history/2026-10-08.md:36
+
+[P146s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P147] 범위 전체 · 전체 1줄 · 게시물 0줄
+  docs/tools/planner-07/38north_rss.xml:345
+
+[P148] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P148s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P172] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P172s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P181] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P217] 범위 전체 · 전체 2줄 · 게시물 2줄
+  content/posts-en/2026-09-30-rekor-foreign-committee-dp-absence.md:22
+  content/posts-en/2026-10-07-geonwoovibes-defector-repatriation-claim.md:22
+
+[P218] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P219] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[D6-P178] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[D6-P176] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[D6-P175] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[WB] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P194] 범위 전체 · 전체 9줄 · 게시물 0줄
+  docs/reviews/card-image-policy-legal-review.md:187
+  docs/tools/designer-04-B/data.json:960
+  docs/tools/reviewer-24/forbidden-terms-output.txt:88
+  docs/tools/reviewer-24/forbidden-terms-output.txt:98
+  docs/tools/reviewer-26/x-truncation-audit-output.txt:25
+  docs/tools/reviewer-30/gen.py:53
+  docs/tools/reviewer-30/image-recheck.tsv:32
+  history/2026-10-11.md:21
+  history/2026-10-11.md:38
+
+[P194s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P196] 범위 전체 · 전체 11줄 · 게시물 0줄
+  docs/reviews/card-image-policy-legal-review.md:188
+  docs/tools/reviewer-14/results/gate-arg-order.log:1
+  docs/tools/reviewer-14/results/gate-exit3-symlink.log:1
+  docs/tools/reviewer-14/results/gate-negative-staged-type-error.log:1
+  docs/tools/reviewer-14/results/gate-staged-10paths.log:1
+  docs/tools/reviewer-14/results/sig-INT-pgrp.log:1
+  docs/tools/reviewer-14/results/sig-TERM.log:1
+  docs/tools/reviewer-30/gen.py:138
+  docs/tools/reviewer-30/image-recheck.tsv:121
+  docs/tools/reviewer-30/post-recheck.tsv:49
+  history/2026-10-12.md:3
+
+[P155] 범위 전체 · 전체 3줄 · 게시물 0줄
+  docs/supervisor/drafts/2026-09-28-held-recheck.md:341
+  docs/tools/planner-07/rfa_rss.xml:1
+  history/2026-10-08.md:34
+
+[P155s] 범위 경로 한정 · 전체 1줄 · 게시물 1줄
+  content/posts-en/2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial.md:21
+
+[P204] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P204s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P205] 범위 전체 · 전체 0줄 · 게시물 0줄
+
+[P205s] 범위 경로 한정 · 전체 0줄 · 게시물 0줄
+
+[P020] 범위 전체 · 전체 11줄 · 게시물 5줄
+  content/posts-en/2026-08-12-citynewsmeme-parksangyong-oath-refusal.md:21
+  content/posts-en/2026-10-09-gotdemcatch-lee-five-trials-suspended.md:25
+  content/posts/2026-08-12-citynewsmeme-parksangyong-oath-refusal.md:44
+  content/posts/2026-10-09-gotdemcatch-lee-five-trials-suspended.md:39
+  content/posts/2026-10-09-gotdemcatch-lee-five-trials-suspended.md:62
+  docs/handoffs/translator-02-english-batch-2-opus.md:131
+  docs/supervisor/drafts/2026-09-28-dy-dykim-nk-remittance-HOLD.md:7
+  docs/supervisor/drafts/2026-09-28-held-recheck.md:406
+  docs/tools/reviewer-30/gen.py:115
+  docs/tools/reviewer-30/image-recheck.tsv:96
+  history/2026-10-12.md:54

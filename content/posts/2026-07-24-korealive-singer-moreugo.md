@@ -1,5 +1,5 @@
 ---
-id: 2026-07-24-korealive-woohai-moreugo
+id: 2026-07-24-korealive-singer-moreugo
 title: "\"이 가사가 진짜인 줄도 모르고\" — 집회 영상에 쓰인 우하이 「모르고」"
 description: 인스타그램 @korea_live0603이 태극기 집회 현장 영상에 우하이의 노래 「모르고」를 붙여 올린 릴스. 곡은 2026년 5월 7일 발매된 싱글로, 공식 음원은 유튜브·스트리밍 서비스에서 들을 수 있습니다.
 publishedAt: 2026-09-28

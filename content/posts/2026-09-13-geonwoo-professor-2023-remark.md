@@ -1,5 +1,5 @@
 ---
-id: 2026-09-13-geonwoo-jinjoongkwon-2023-remark
+id: 2026-09-13-geonwoo-professor-2023-remark
 title: "진중권 \"이재명 안 만났으면 살았을 사람들…인간이 저럴 수 있나\" — '긴급속보'로 올라왔지만 2023년 3월 발언"
 description: 인스타그램 @geonwoo.vibes가 진중권 교수의 이재명 비판 발언 영상을 '긴급속보' 자막과 함께 올림. 해당 발언은 이재명 당시 민주당 대표의 전 비서실장 사망 직후인 2023년 3월 10일 CBS 라디오에서 나온 것으로 보도됐습니다.
 publishedAt: 2026-09-28

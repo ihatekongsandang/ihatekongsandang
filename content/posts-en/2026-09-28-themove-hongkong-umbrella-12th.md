@@ -1,6 +1,6 @@
 ---
 id: 2026-09-28-themove-hongkong-umbrella-12th
-title: "Hong Kong's 'Umbrella Movement,' 12 years ago today — from the 79-day occupation to the 2019 protests, the 2020 security law and Joshua Wong's imprisonment"
+title: "Hong Kong's 'Umbrella Movement,' 12 years ago today — from the 79-day occupation to the 2019 protests, the 2020 security law and activist W's imprisonment"
 description: "Instagram @themovemag_ marks 12 years since Hong Kong's Umbrella Movement, recalling the 2019 crackdown and later repression it likens to Korea 40 years ago."
 attribution: "Instagram @themovemag_ (The Move)"
 translatedAt: 2026-09-30
@@ -16,9 +16,9 @@ This post is based on the original caption; the video content was not reviewed. 
 
 ## What reports confirm
 
-- Joshua Wong is described as the figure who led the 79-day Umbrella Movement demanding direct election of the chief executive in 2014, and was reportedly arrested by Hong Kong police on Aug. 30, 2019, ahead of a planned large-scale protest.
-- In November 2024, a Hong Kong court reportedly handed down prison terms to 45 people in the "Hong Kong 47" case, which treated the 2020 pro-democracy primary as a conspiracy to subvert state power; Joshua Wong was reportedly sentenced to four years and eight months, and former University of Hong Kong professor Benny Tai to 10 years.
-- While serving his sentence, Joshua Wong reportedly additionally admitted in September 2026 to a National Security Law charge of "collusion with foreign forces."
+- Activist W is described as the figure who led the 79-day Umbrella Movement demanding direct election of the chief executive in 2014, and was reportedly arrested by Hong Kong police on Aug. 30, 2019, ahead of a planned large-scale protest.
+- In November 2024, a Hong Kong court reportedly handed down prison terms to 45 people in the "Hong Kong 47" case, which treated the 2020 pro-democracy primary as a conspiracy to subvert state power; W was reportedly sentenced to four years and eight months, and former University of Hong Kong professor T to 10 years.
+- While serving his sentence, W reportedly additionally admitted in September 2026 to a National Security Law charge of "collusion with foreign forces."
 
 ## What we left out of the summary
 

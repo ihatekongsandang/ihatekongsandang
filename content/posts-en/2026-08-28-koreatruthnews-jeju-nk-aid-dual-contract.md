@@ -12,7 +12,7 @@ This post is based on the original caption and thumbnail; the video content was 
 
 ## What the original post claims (the poster's opinion)
 
-- Citing TV Chosun, it says a humanitarian aid project to North Korea, reportedly arranged when Jeju Governor Oh Young-hun (오영훈) met "North Korean operative against the South" Ri Ho-nam (리호남) in Beijing in February, was carried out with two contracts so that North Korean authorities were not told the goods came from South Korea and were made to think China sent them.
+- Citing TV Chosun, it says a humanitarian aid project to North Korea, reportedly arranged when Jeju Governor Oh Young-hun (오영훈) met "North Korean operative against the South" Ri Ho-nam (리호남), a former counselor at the North Korean Embassy in China, in Beijing in February, was carried out with two contracts so that North Korean authorities were not told the goods came from South Korea and were made to think China sent them.
 - It cites criticism that inter-Korean cooperation funds built from taxpayers' money were used without transparency toward either North Korea or the South Korean public.
 
 ## What reports confirm

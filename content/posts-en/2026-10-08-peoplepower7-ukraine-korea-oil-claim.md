@@ -8,7 +8,7 @@ attribution: "Instagram @peoplepower_korea7"
 translatedAt: 2026-10-10
 ---
 
-This post is based on the original caption and first image. The original image's "Zelensky: Korea is communist" and "Lee Jae-myung government helping communist Russia" are not found in reports, so we used a card made by this site instead of the original image. An [Instagram reel by @wikipost_mag](https://www.instagram.com/reel/DeRA8ywuhgv/) on the same Guardian report (Oct. 9, "A national catastrophe if not explained / If supplying diesel to Russia violated Russia sanctions, an economic blow on the scale of the currency crisis will come") is noted here instead of in a separate post (see the "Government position on Oct. 8" section). Related post (may be available only in Korean): [The issue of North Korean POWs in Ukraine being sent to South Korea](/post/2026-09-25-kimkyelee-nk-pow-ukraine).
+This post is based on the original caption and first image. The original image's "Zelensky: Korea is communist" and "Lee Jae-myung government helping communist Russia" are not found in reports, so we used a card made by this site instead of the original image. An [Instagram reel by @wikipost_mag](https://www.instagram.com/reel/DeRA8ywuhgv/) on the same Guardian report (Oct. 9, "A national catastrophe if not explained / If supplying diesel to Russia violated Russia sanctions, an economic blow on the scale of the currency crisis will come") is noted here instead of in a separate post (see the "Government position on Oct. 8" section). Related post (may be available only in Korean): [The issue of North Korean POWs in Ukraine being sent to South Korea](/post/2026-09-25-lawyer-nk-pow-ukraine).
 
 ## What the original post claims (the poster's opinion)
 
