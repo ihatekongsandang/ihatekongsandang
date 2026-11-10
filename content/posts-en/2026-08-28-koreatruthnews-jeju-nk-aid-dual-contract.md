@@ -2,13 +2,11 @@
 id: 2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract
 title: "\"Aid to North Korea disguised as 'Chinese support'\" — a report that Jeju Province's aid contracts with North Korea came in two versions, and the Unification Ministry's 'three-party agreement' explanation"
 description: "Instagram @korea_truth_news relays a TV Chosun report that Jeju's aid to North Korea was made to look Chinese; the ministry called it a lawful three-party deal."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Report of two versions of Jeju Province's North Korea aid contract — the version submitted to the North lists only North Korean and Chinese companies / About 160 million won in goods shipped in Feb.–May 2026 under former Governor Oh Young-hun / TV Chosun: allegation it was made to look like Chinese support to North Korean authorities / Unification Ministry: a three-party agreement recognized by law, not a double contract'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @korea_truth_news"
 translatedAt: 2026-10-14
 ---
 
-This post is based on the original caption and thumbnail; the video content was not reviewed. The original relays an exclusive TV Chosun report of Aug. 28, 2026. Because the original thumbnail's "disguised aid to North Korea" is a definitive claim, we used a card made by this site.
+This post is based on the original caption and thumbnail; the video content was not reviewed. The original relays an exclusive TV Chosun report of Aug. 28, 2026. Because the original thumbnail's "disguised aid to North Korea" is a definitive claim, we did not use the original thumbnail.
 
 ## What the original post claims (the poster's opinion)
 

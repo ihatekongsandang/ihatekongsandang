@@ -2,8 +2,6 @@
 id: 2026-09-30-2pro-unc-armistice-violation
 title: "Breaking-news thread: UN Command says a North Korean mine found south of the MDL means the Armistice was violated — its first official finding, but the statement does not say \"invasion\""
 description: "The UN Command said a joint probe found a North Korean anti-personnel mine south of the MDL and judged it an Armistice violation, reports say."
-imageAlt: "Text card on a white background: UN Command 'North Korean mine found south of the MDL — Armistice violation', the UNC did not describe how the mine got there, North Korea's Kim Yo-jong denies it as 'staged'"
-imageCaption: "Summary image made by this site, as the original is a text-only post"
 attribution: "Threads @2.pro.official (이프로)"
 translatedAt: 2026-09-30
 ---

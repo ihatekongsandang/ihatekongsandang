@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@2.pro.official/post/Dd5I4qGD1Nt
 attribution: 스레드 @2.pro.official (이프로)
 useSourceImage: false
-image:
-  src: /images/2026-09-30-2pro-unc-armistice-violation/thumb.jpg
-  alt: "흰 바탕 텍스트 카드: 유엔사 'MDL 이남서 북한 지뢰 발견 — 정전협정 위반 판단', 유엔사는 월경·매설 경위는 밝히지 않음, 북한 김여정 '자작극' 부인"
-  caption: 원문이 텍스트 게시물이라 사이트에서 직접 만든 요약 이미지입니다
 og:
   siteName: Threads
 sources:

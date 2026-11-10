@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://khan.co.kr/article/202610291311001
 attribution: 경향신문
 useSourceImage: false
-image:
-  src: /images/2026-10-29-khan-nk-srbm-launch-wonsan/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '北, 원산 일대서 동해상으로 단거리 탄도미사일 등 10여 발 / 합참: 10월 29일 낮 12시 30분께, 약 250km 비행 / 600mm 방사포로 알려져 (보도) / 국방부 군사회담 제안 6일 만' 문구가 적힌 카드"
-  caption: 보도 내용을 정리한 카드 이미지(자체 제작)
 og:
   siteName: 경향신문
 sources:

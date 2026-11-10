@@ -2,14 +2,12 @@
 id: 2026-10-20-monarchreport25-lee-kim-held-back-2025
 title: "President Lee: \"Chairman Kim did test-fire a missile, but in my view [Kim] held back very well for a long time\" — a resurfaced October 2025 CNN interview remark"
 description: "Instagram @monarchreport25 resurfaces President Lee's Oct. 2025 CNN remark that Kim Jong Un 'held back very well for a long time' despite a missile test."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'President Lee: \"Kim Jong Un test-fired a missile, but held back very well for a long time\" / CNN interview recorded Oct. 22 and released Oct. 23, 2025 (reports) / North Korea's first ballistic missile launch in 167 days and the first under Lee / A post resurfacing a remark from a year earlier'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "President"
 attribution: "Instagram @monarchreport25"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original (English) caption and thumbnail (one video frame); the full video was not reviewed. The original was posted on Oct. 20, 2026, but the remark it covers dates from **October 2025**. The original thumbnail overlays text on a photo of the president's face, so we used a card made by this site.
+This post is based on the original (English) caption and thumbnail (one video frame); the full video was not reviewed. The original was posted on Oct. 20, 2026, but the remark it covers dates from **October 2025**. The original thumbnail overlays text on a photo of the president's face, so we did not use it.
 
 ## What the original post claims (the poster's opinion)
 

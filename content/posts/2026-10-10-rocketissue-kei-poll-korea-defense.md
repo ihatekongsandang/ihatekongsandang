@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeTbL-4MPTi/
 attribution: 인스타그램 @rocket_issue
 useSourceImage: false
-image:
-  src: /images/2026-10-10-rocketissue-kei-poll-korea-defense/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 'KEI·유고브 조사: 미국인 71% \"북한 침공 시 미군이 한국 방어해야\" (10월 8일 발표) / 한국 핵추진 잠수함 개발 찬성 58%, 자체 핵무장 반대 71% / 64% \"한미동맹, 미국 국가안보 이익에 부합\" / 한국에 호의적 68%, 북한에 부정적 68%' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -28,7 +24,7 @@ tags:
   - 미국
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다. 원문 캡션에는 조사 기관이 적혀 있지 않아 보도로 확인한 기관명을 함께 적습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다. 원문 캡션에는 조사 기관이 적혀 있지 않아 보도로 확인한 기관명을 함께 적습니다.
 
 ## 원문 주장 (게시자 의견)
 

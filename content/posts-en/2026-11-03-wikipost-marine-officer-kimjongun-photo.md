@@ -2,13 +2,11 @@
 id: 2026-11-03-wikipost-marine-officer-kimjongun-photo
 title: "\"Punished for criticizing North Korea?\" — Marine Corps: \"Deletion was advised over military security of training-ground photos; no discipline for disparaging the North\""
 description: "Instagram @wikipost_mag covers a Marine officer's Kim Jong Un banner photo row; the Marines say deletion was advised for security, not as discipline."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '\"Warned of punishment for disparaging the North\"? Marine Corps: \"Deletion advised over military security\" / Controversy over a training photo with a \"Let's grind up Kim Jong Un\" banner / Marines: four photos of a training ground, possible security violation / \"No disciplinary process over disparaging North Korea\" (reports)'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @wikipost_mag"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and one image. The original image's text, "Marines warn of punishment for disparaging the North / A country that tries to punish people for criticizing North Korea," is a definitive claim that differs from the Marine Corps' explanation, and the photo shows several service members, so we used a card made by this site.
+This post is based on the original caption and one image. The original image's text, "Marines warn of punishment for disparaging the North / A country that tries to punish people for criticizing North Korea," is a definitive claim that differs from the Marine Corps' explanation, and the photo shows several service members, so we did not use it.
 
 ## What the original post claims (the poster's opinion)
 

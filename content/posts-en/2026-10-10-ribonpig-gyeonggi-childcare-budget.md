@@ -2,13 +2,11 @@
 id: 2026-10-10-ribonpig-gyeonggi-childcare-budget
 title: "Daycare protests after 2.7 billion won in childcare funding left out of Gyeonggi's supplementary budget — Governor Choo Mi-ae: \"Not an arbitrary cut\"; the original's '155.8 billion won for North Korean infants' is a unification ministry budget, not Gyeonggi's"
 description: "Instagram @ri_bon__pig faults Gyeonggi for leaving 2.7 billion won in childcare out of its extra budget; Gov. Choo reportedly said it was not an arbitrary cut."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Controversy over 2.7 billion won in childcare funding left out of Gyeonggi's supplementary budget — Daycare association rally at the provincial office Oct. 6–8 / Gov. Choo Mi-ae: \"Not an arbitrary cut\" — blamed shortfall in the main budget, adjusted support rates / Province's operating support per child cut from 12,600 to 6,000 won / \"155.8 billion won for North Korean infants\" is a unification ministry budget, not Gyeonggi's'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @ri_bon__pig"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and its three images (a Threads post capture, an explanation card and an illustrated card). We do not reproduce the swearing in the caption and capture, and because the third image portrays Gyeonggi Province giving 155.8 billion won to North Korean children, we used a card made by this site instead of the original images.
+This post is based on the original caption and its three images (a Threads post capture, an explanation card and an illustrated card). We do not reproduce the swearing in the caption and capture, and because the third image portrays Gyeonggi Province giving 155.8 billion won to North Korean children, we did not use the original images.
 
 ## What the original post claims (the poster's opinion)
 

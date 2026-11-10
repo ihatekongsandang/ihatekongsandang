@@ -2,13 +2,11 @@
 id: 2026-09-30-monarch-former-ambassador-church-claims
 title: "Former U.S. ambassador T claims 'six U.S. missionaries jailed, church raids, a 50% tax on missionary income' — reports say the six Americans were referred to prosecutors without detention, the 'religious corporation dissolution bill' is only proposed, and no 50% tax was found"
 description: "Instagram @monarchreport25 relays ex-U.S. envoy T's religious-freedom warning; six Americans were referred without detention; a dissolution bill is pending."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Former U.S. ambassador T claims \"church raids, jailed missionaries, 50% tax\" — checked against reports (Monarch Report video, Sept. 30) / Six Americans attempted to float bottles toward North Korea — referred to prosecutors without detention in 2025, not jailed / Civil Act amendment on dissolving religious corporations — proposed January 2026, pending in the National Assembly / Up to 50% tax on missionary income — not confirmed in reports'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @monarchreport25 (The Monarch Report)"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original (English) caption, and we used a card made by this site instead of the original image. The claims are remarks by T, former U.S. Ambassador-at-Large for Global Criminal Justice, as relayed by the poster; T has reportedly been indicted and is on trial for spreading falsehoods about (defaming) President Lee Jae-myung. Related post (may be available only in Korean): [President Lee's five criminal trials suspended](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended).
+This post is based on the original (English) caption, and we did not use the original image. The claims are remarks by T, former U.S. Ambassador-at-Large for Global Criminal Justice, as relayed by the poster; T has reportedly been indicted and is on trial for spreading falsehoods about (defaming) President Lee Jae-myung. Related post (may be available only in Korean): [President Lee's five criminal trials suspended](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended).
 
 ## What the original post claims (the poster's opinion)
 

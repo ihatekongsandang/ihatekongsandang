@@ -2,13 +2,11 @@
 id: 2026-10-08-ansanheart-daejangdong-recording-2025
 title: "Reel billing a 'new Daejang-dong phone recording as evidence' — the recording in the video was reportedly already released on Nov. 12, 2025 by YouTuber B at a National Assembly press conference, a call between Daejang-dong defendants N and Y"
 description: "Instagram @ansanheart bills a Daejang-dong defendants' call as new evidence; it was reportedly released on Nov. 12, 2025 at a National Assembly press event."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'The \"new Daejang-dong evidence phone recording\" was already released on Nov. 12, 2025 / Released by YouTuber B at a National Assembly press conference / Described as a spring 2023 call between defendants N and Y — a conversation between defendants / \"It seems there was an understanding\" is a speculative remark in the conversation'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @ansanheart"
 translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and the reel's thumbnail and first frame. The original thumbnail reads "Urgent breaking news / New Daejang-dong evidence / Phone recording," but the recording in the video was confirmed to have been released about 11 months earlier, in November 2025, so we used a card made by this site instead of the original image.
+This post is based on the original caption and the reel's thumbnail and first frame. The original thumbnail reads "Urgent breaking news / New Daejang-dong evidence / Phone recording," but the recording in the video was confirmed to have been released about 11 months earlier, in November 2025, so we did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

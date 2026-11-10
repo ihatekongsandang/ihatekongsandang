@@ -2,14 +2,12 @@
 id: 2026-10-12-conpoli88-parkjiwon-nk-remittance-nis
 title: "\"A person convicted in the North Korea remittance case became NIS chief\" — revisiting former NIS Director Park Jie-won's 2006 Supreme Court ruling and the 2020 appointment controversy"
 description: "Instagram @conpoli88 asks if Park Jie-won, convicted in the North Korea remittance case, was fit to lead the NIS; the top court upheld 3 years in 2006."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Park Jie-won, convicted in the North Korea remittance case, appointed NIS director in 2020 — revisiting the controversy / 2006 Supreme Court: 3-year sentence upheld for remittance-related charges, 15 billion won bribery acquitted / 2007 special pardon → returned to the National Assembly in 2008 (reports) / Nominated NIS director by the Moon Jae-in government in July 2020, an issue at the confirmation hearing'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Former National Intelligence Service director"
 attribution: "Instagram @conpoli88"
 translatedAt: 2026-10-15
 ---
 
-This post is based on the original caption and thumbnail; the video content was not reviewed. We used a card made by this site instead of the original thumbnail. A different North Korea remittance case (Ssangbangwool) is covered in [President Lee Jae-myung's five suspended trials](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended) (may be available only in Korean). Another post mentioning Park's record: [Former German intelligence chief arrested on espionage charges](/post/2026-10-12-minkyuhantv-german-spy-chief).
+This post is based on the original caption and thumbnail; the video content was not reviewed. We did not use the original thumbnail. A different North Korea remittance case (Ssangbangwool) is covered in [President Lee Jae-myung's five suspended trials](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended) (may be available only in Korean). Another post mentioning Park's record: [Former German intelligence chief arrested on espionage charges](/post/2026-10-12-minkyuhantv-german-spy-chief).
 
 ## What the original post claims (the poster's opinion)
 

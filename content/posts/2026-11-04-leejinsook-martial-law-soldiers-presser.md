@@ -10,10 +10,6 @@ speaker:
   name: 이진숙
   affiliation: "국민의힘 국회의원"
 useSourceImage: false
-image:
-  src: /images/2026-11-04-leejinsook-martial-law-soldiers-presser/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '이진숙 \"계엄 명령 따른 군인들, 내란범 낙인·중징계\" 비판 / 11월 4일 국회 소통관 기자회견 (보도) / 중령 ㅇ씨 동석 — 계엄 당시 특전사 대대장 / 국방부 입장은 확인한 보도에 없음' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -31,7 +27,7 @@ tags:
   - 비상계엄
 ---
 
-이 게시물은 원문 캡션과 기자회견 영상(약 8분, 화면 12장)을 기준으로 정리했습니다. 영상 속 발언 전체를 받아 적지는 않았습니다. 같은 기자회견을 "이재명 정권을 폭로합니다 충격 폭로"라는 제목으로 소개한 [인스타그램 @jugwan_ilbo 릴스](https://www.instagram.com/reel/DfT6s46iYjy/)(11월 4일)와, 같은 기자회견에서 ㅇ씨가 읽은 성명 전문을 캡션에 옮긴 [인스타그램 @wikipost_mag 릴스](https://www.instagram.com/reel/DfUjVLUuRxo/)(11월 4일)는 별도 게시물 대신 여기에 함께 적습니다. 성명 속 정부 비판 표현은 발언자의 의견이라 요약에 옮기지 않았습니다. 자체 제작 카드를 썼습니다.
+이 게시물은 원문 캡션과 기자회견 영상(약 8분, 화면 12장)을 기준으로 정리했습니다. 영상 속 발언 전체를 받아 적지는 않았습니다. 같은 기자회견을 "이재명 정권을 폭로합니다 충격 폭로"라는 제목으로 소개한 [인스타그램 @jugwan_ilbo 릴스](https://www.instagram.com/reel/DfT6s46iYjy/)(11월 4일)와, 같은 기자회견에서 ㅇ씨가 읽은 성명 전문을 캡션에 옮긴 [인스타그램 @wikipost_mag 릴스](https://www.instagram.com/reel/DfUjVLUuRxo/)(11월 4일)는 별도 게시물 대신 여기에 함께 적습니다. 성명 속 정부 비판 표현은 발언자의 의견이라 요약에 옮기지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 

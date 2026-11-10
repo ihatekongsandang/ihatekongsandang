@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DclFggzzAy9/
 attribution: 인스타그램 @korea_truth_news
 useSourceImage: false
-image:
-  src: /images/2026-08-28-koreatruthnews-jeju-nk-aid-dual-contract/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '제주도 대북지원 계약서 두 종류 보도 — 북측 제출본엔 북·중 회사만 당사자 / 2026년 2~5월 오영훈 전 지사 재임 때 1억6천만원 상당 물품 반출 / TV조선: 북한 당국엔 중국 지원처럼 보이게 했다는 의혹 / 통일부: 법령상 인정되는 3자 합의, 이중계약 아니다' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -32,7 +28,7 @@ tags:
   - 통일부
 ---
 
-이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문은 2026년 8월 28일 TV조선 단독 보도를 옮긴 것입니다. 원문 썸네일의 "위장해 대북지원"은 단정 표현이어서 자체 제작 카드를 썼습니다.
+이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문은 2026년 8월 28일 TV조선 단독 보도를 옮긴 것입니다. 원문 썸네일의 "위장해 대북지원"은 단정 표현이어서 원문 썸네일은 쓰지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 

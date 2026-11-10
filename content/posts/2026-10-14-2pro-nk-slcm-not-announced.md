@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@2.pro.official/post/Defg9aqkuZ9
 attribution: 스레드 @2.pro.official
 useSourceImage: false
-image:
-  src: /images/2026-10-14-2pro-nk-slcm-not-announced/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '北 \"14일 잠수함발사 전략순항미사일 2종 시험발사\" — 합참은 별도 발표 안 해 / 북한 조선중앙통신이 15일 발표 / 군은 탄도미사일만 실시간 발표, 순항미사일은 대상 아님(보도) / \"정부 은폐·지지율 우려\"는 근거 확인 안 돼' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Threads
 sources:
@@ -33,7 +29,7 @@ tags:
   - 미사일
 ---
 
-이 게시물은 원문 본문과 썸네일 1장을 기준으로 정리했습니다. 원문 썸네일의 "이재명 정부, 국방부, 미사일 발사 공개 은폐"는 근거가 확인되지 않은 단정이어서 자체 제작 카드를 썼습니다. 관련 게시물: [군, 중·러 KADIZ 진입 횟수 국회 제출 거부](/post/2026-10-13-brieftag-kadiz-data-withheld).
+이 게시물은 원문 본문과 썸네일 1장을 기준으로 정리했습니다. 원문 썸네일의 "이재명 정부, 국방부, 미사일 발사 공개 은폐"는 근거가 확인되지 않은 단정이어서 원문 썸네일은 쓰지 않았습니다. 관련 게시물: [군, 중·러 KADIZ 진입 횟수 국회 제출 거부](/post/2026-10-13-brieftag-kadiz-data-withheld).
 
 ## 원문 주장 (게시자 의견)
 

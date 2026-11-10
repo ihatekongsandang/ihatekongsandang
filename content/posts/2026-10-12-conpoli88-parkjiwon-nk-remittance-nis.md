@@ -10,10 +10,6 @@ speaker:
   name: 박지원
   affiliation: 전 국가정보원장
 useSourceImage: false
-image:
-  src: /images/2026-10-12-conpoli88-parkjiwon-nk-remittance-nis/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '대북송금 유죄 확정 박지원, 2020년 국정원장 임명 — 이 인사를 둘러싼 논란 다시 보기 / 2006년 대법원: 대북송금 관련 징역 3년 확정, 150억 뇌물은 무죄 / 2007년 특별사면 → 2008년 국회 복귀 (보도) / 2020년 7월 문재인 정부 국정원장 지명, 청문회서 쟁점' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -31,7 +27,7 @@ tags:
   - 대북송금
 ---
 
-이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일 대신 자체 제작 카드를 썼습니다. 다른 대북송금 사건(쌍방울)은 [이재명 대통령 재판 5건 중단](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended)에서 다룹니다. 박 전 원장의 이력을 언급한 다른 게시물: [독일 전직 정보수장 간첩 혐의 체포](/post/2026-10-12-minkyuhantv-german-spy-chief).
+이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일은 쓰지 않았습니다. 다른 대북송금 사건(쌍방울)은 [이재명 대통령 재판 5건 중단](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended)에서 다룹니다. 박 전 원장의 이력을 언급한 다른 게시물: [독일 전직 정보수장 간첩 혐의 체포](/post/2026-10-12-minkyuhantv-german-spy-chief).
 
 ## 원문 주장 (게시자 의견)
 

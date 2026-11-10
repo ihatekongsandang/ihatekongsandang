@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DedsMaJCWdl/
 attribution: 인스타그램 @knn.news (KNN)
 useSourceImage: false
-image:
-  src: /images/2026-10-14-knn-fake-mnd-chinese-recruit-poster/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '\"중국인도 대한민국 군인으로\" 국방부 포스터? — KNN 확인 결과 AI로 만든 가짜 포스터 / 국방부 로고·오성홍기 배경 포스터가 온라인에 퍼지며 논란 / KNN: 진위 확인 결과 AI 생성 가짜 포스터 / 공유 전 출처 확인 필요' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 가짜 포스터 이미지는 다시 퍼뜨리지 않기 위해 사용하지 않음
 og:
   siteName: Instagram
 sources:
@@ -29,7 +25,7 @@ tags:
   - 인공지능
 ---
 
-이 게시물은 부산·경남 지역 방송사 KNN의 공식 계정 릴스(캡션과 영상 12프레임)를 기준으로 정리했습니다. 문제의 포스터는 가짜로 확인된 이미지라 다시 퍼지지 않도록 쓰지 않고 자체 제작 카드를 썼습니다. 비슷한 사례: [가짜 경찰 시위 영상 처벌 보도](/post/2026-10-07-swingmag-fake-police-protest-sentence).
+이 게시물은 부산·경남 지역 방송사 KNN의 공식 계정 릴스(캡션과 영상 12프레임)를 기준으로 정리했습니다. 문제의 포스터는 가짜로 확인된 이미지라 다시 퍼지지 않도록 쓰지 않았습니다. 비슷한 사례: [가짜 경찰 시위 영상 처벌 보도](/post/2026-10-07-swingmag-fake-police-protest-sentence).
 
 ## 원문 내용 (KNN 보도)
 

@@ -2,13 +2,11 @@
 id: 2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial
 title: "Memorial with a 'remove U.S. Forces Korea' slogan held at the North Korean soldiers' cemetery in Paju — organizers said it was the 21st on Oct. 10; defectors and civic groups held a protest the same day"
 description: "Instagram @seoulmediatv posts protest footage from Paju; reports say a memorial with a 'remove USFK' slogan was held at a North Korean cemetery on Oct. 10."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'North Korean People's Army cemetery memorial at the North Korean soldiers' cemetery in Jeokseong-myeon, Paju, with a \"drive out USFK\" slogan — protest also held (Oct. 10) / Hosted by the U.S. Troop Withdrawal Struggle Headquarters and organized by Minjungseon Peace Church, which said it was the 21st / Announced for 2 p.m. but moved up to the morning / Protest drew 180–200 by organizers' count; police set up a police line'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @seoulmediatv"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original reel's caption ("Live: invading the Paju KPA cemetery memorial") and thumbnail ("Patriots who came to invade the Paju KPA memorial," with a photo of a participant holding a "6.25 was a southward invasion" sign). The original thumbnail shows the face of a private participant, so we used a card made by this site instead. A [Threads post by @wonkkongtuwang](https://www.threads.com/@wonkkongtuwang/post/DeB3sO_H-LA) and an [Instagram post by @rekor.rgt](https://www.instagram.com/p/Dd_guP3gYh7/) about this memorial's poster before the event were put on hold because no reports covered it, but reports have now appeared, so they are noted here (see "What we left out of the summary").
+This post is based on the original reel's caption ("Live: invading the Paju KPA cemetery memorial") and thumbnail ("Patriots who came to invade the Paju KPA memorial," with a photo of a participant holding a "6.25 was a southward invasion" sign). The original thumbnail shows the face of a private participant, so we did not use it. A [Threads post by @wonkkongtuwang](https://www.threads.com/@wonkkongtuwang/post/DeB3sO_H-LA) and an [Instagram post by @rekor.rgt](https://www.instagram.com/p/Dd_guP3gYh7/) about this memorial's poster before the event were put on hold because no reports covered it, but reports have now appeared, so they are noted here (see "What we left out of the summary").
 
 ## What the original post claims (the poster's opinion)
 

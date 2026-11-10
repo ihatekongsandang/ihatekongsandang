@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd53LJ6AfN5/
 attribution: 인스타그램 @monarchreport25 (The Monarch Report)
 useSourceImage: false
-image:
-  src: /images/2026-09-30-monarch-former-ambassador-church-claims/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '전 미국 대사 ㅌ씨 \"교회 압수수색·선교사 수감·과세 50%\" 주장 — 보도와 대조 (몬아크 리포트 영상, 9월 30일) / 미국인 6명 대북 페트병 살포 시도 — 2025년 불구속 송치, 수감 아님 / 종교법인 해산 민법 개정안 — 2026년 1월 발의, 국회 계류 / 선교사 소득 최대 50% 과세 — 보도에서 확인 안 돼' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -35,7 +31,7 @@ tags:
   - 사실확인
 ---
 
-이 게시물은 원문 캡션(영어)을 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다. 원문 속 주장은 전 미국 국제형사사법대사 ㅌ씨의 발언을 게시자가 전한 것으로, ㅌ씨는 이재명 대통령에 대한 허위사실 유포(명예훼손) 혐의로 기소돼 재판을 받고 있는 것으로 보도됐습니다. 관련 게시물: [이 대통령 형사재판 5건 중단](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended).
+이 게시물은 원문 캡션(영어)을 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다. 원문 속 주장은 전 미국 국제형사사법대사 ㅌ씨의 발언을 게시자가 전한 것으로, ㅌ씨는 이재명 대통령에 대한 허위사실 유포(명예훼손) 혐의로 기소돼 재판을 받고 있는 것으로 보도됐습니다. 관련 게시물: [이 대통령 형사재판 5건 중단](/post/2026-10-09-gotdemcatch-lee-five-trials-suspended).
 
 ## 원문 주장 (게시자 의견)
 

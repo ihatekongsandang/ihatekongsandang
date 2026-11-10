@@ -10,10 +10,6 @@ speaker:
   name: "@emong0_0_"
   affiliation: 스레드 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-22-emong-nk-contact-law/thumb.jpg
-  alt: "남북 주민 접촉 신고 완화 개정안 — 통일부가 접촉 사전신고 수리 거부 조항 삭제안을 수용 — 통과 시 36년 만에 접촉 제한 규정이 사라진다고 보도됨"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Threads
 sources:

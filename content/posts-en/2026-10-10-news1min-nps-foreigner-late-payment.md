@@ -2,14 +2,12 @@
 id: 2026-10-10-news1min-nps-foreigner-late-payment
 title: "\"Why support elderly Chinese?\" — NPS chief says \"don't discriminate by nationality\": a reshare of an article on Kim Sung-joo's Aug. 30 social media post; reports say only 3 foreigners paid 1 month then 119 months late, and 1 receives a pension"
 description: "Instagram @news1_min reshares an article on the NPS chief's post on foreigners' late payments; posted Aug. 30, after which rules were reportedly tightened."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'NPS Chairman Kim Sung-joo's social media post (Aug. 30): \"Late-payment system needs fixing… no discrimination between nationals and foreigners\" / Controversy over 3 foreigners who paid 1 month then 119 months late / Two days later, the government and NPS moved to extend reciprocity to foreigners' late payments / Since Aug. 31, review tightened based on actual residence in Korea'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Chairman of the National Pension Service"
 attribution: "Instagram @news1_min"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and first image. The original caption reproduces an Edaily article, and the "social media post on the 30th" it mentions is from **Aug. 30** (the original was shared on Oct. 10). The first image's "don't discriminate by nationality" rewords the chairman's "There must be no discrimination between nationals and foreigners," so we used a card made by this site instead of the original image.
+This post is based on the original caption and first image. The original caption reproduces an Edaily article, and the "social media post on the 30th" it mentions is from **Aug. 30** (the original was shared on Oct. 10). The first image's "don't discriminate by nationality" rewords the chairman's "There must be no discrimination between nationals and foreigners," so we did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

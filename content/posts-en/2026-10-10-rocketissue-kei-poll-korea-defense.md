@@ -2,13 +2,11 @@
 id: 2026-10-10-rocketissue-kei-poll-korea-defense
 title: "71% of Americans say U.S. forces should defend South Korea if the North invades — Korea Economic Institute of America (KEI)–YouGov poll; 58% back South Korean nuclear-powered subs, 71% oppose a Korean nuclear arsenal"
 description: "Instagram @rocket_issue on a poll: 71% of Americans back defending South Korea if the North invades; KEI–YouGov released it Oct. 8, reports say."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'KEI–YouGov poll: 71% of Americans say \"U.S. forces should defend South Korea if North Korea invades\" (released Oct. 8) / 58% support South Korea developing nuclear-powered submarines, 71% oppose its own nuclear weapons / 64% say the alliance serves U.S. national security interests / 68% favorable toward South Korea, 68% unfavorable toward North Korea'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @rocket_issue"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption, and we used a card made by this site instead of the original image. The original caption does not name the polling organization, so we add the name confirmed in reports.
+This post is based on the original caption, and we did not use the original image. The original caption does not name the polling organization, so we add the name confirmed in reports.
 
 ## What the original post claims (the poster's opinion)
 

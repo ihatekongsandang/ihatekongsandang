@@ -2,13 +2,11 @@
 id: 2026-10-09-gotdemcatch-lee-five-trials-suspended
 title: "\"Becoming president doesn't make the trials disappear\" — President Lee Jae-myung's five criminal trials as a defendant have all been suspended since 2025 under Article 84 of the Constitution"
 description: "Instagram @got_dem_catch says President Lee's five trials are on hold; courts deferred them in June–July 2025 under Constitution Article 84, reports say."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'President Lee Jae-myung's five criminal trials as a defendant / All suspended after taking office under Article 84 of the Constitution (June–July 2025) / Election-law retrial on remand, perjury-solicitation appeal, Daejang-dong and related first trial, North Korea remittance, corporate card / Courts: dates left open so the president can focus on duties and for continuity of state affairs / Guilt not determined — trials put off until after the term'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @got_dem_catch"
 translatedAt: 2026-10-15
 ---
 
-This post is based on the original caption. The original's five images list 16 items under the heading "Let's not forget Lee Jae-myung's achievements," but they mix private-life allegations and unfounded assertions (such as "7 people around (Lee) died" and "fake hunger strike"), so we did not reproduce them and used a card made by this site. An [Instagram reel by @monarchreport25](https://www.instagram.com/reel/DeM5hiTFZBi/) covering the same issue in English (Oct. 8, "Stand Trial: Lee's frozen cases and the American who can't go home") is also noted here instead of in a separate post (see "What we left out of the summary"). An [Instagram reel by @ansanheart](https://www.instagram.com/reel/DeYUG86MhHr/) on the Ssangbangwool remittances-to-North-Korea case (Oct. 12, "U.S. FOX NEWS exposes Lee Jae-myung") is noted here as well (see the "Update on the North Korea remittance case" section).
+This post is based on the original caption. The original's five images list 16 items under the heading "Let's not forget Lee Jae-myung's achievements," but they mix private-life allegations and unfounded assertions (such as "7 people around (Lee) died" and "fake hunger strike"), so we did not reproduce them. An [Instagram reel by @monarchreport25](https://www.instagram.com/reel/DeM5hiTFZBi/) covering the same issue in English (Oct. 8, "Stand Trial: Lee's frozen cases and the American who can't go home") is also noted here instead of in a separate post (see "What we left out of the summary"). An [Instagram reel by @ansanheart](https://www.instagram.com/reel/DeYUG86MhHr/) on the Ssangbangwool remittances-to-North-Korea case (Oct. 12, "U.S. FOX NEWS exposes Lee Jae-myung") is noted here as well (see the "Update on the North Korea remittance case" section).
 
 ## What the original post claims (the poster's opinion)
 

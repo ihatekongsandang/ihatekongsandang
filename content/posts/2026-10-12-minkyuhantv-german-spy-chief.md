@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeXgot_Tqhk/
 attribution: 인스타그램 @minkyuhantv (한민규TV)
 useSourceImage: false
-image:
-  src: /images/2026-10-12-minkyuhantv-german-spy-chief/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '독일 전 BND 국장 ㅎ씨 간첩 혐의 체포 (10월 6일) — \"러시아 스파이\"는 보도와 달라 / 옛 비서실장에게 돈 주고 기밀문서 약 2천 건 넘겨받은 혐의 / 獨 매체: 러시아와는 관련 없는 사건 — 검찰은 전달 국가 미공개 / 원문의 박지원·정동영 비교는 게시자 의견' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 사실확인
 ---
 
-이 게시물은 원문 캡션과 릴스 썸네일을 기준으로 정리했습니다. 썸네일의 "간첩 잡는 국정원장이 러시아 스파이였다"는 보도와 달라 원문 이미지 대신 자체 제작 카드를 썼습니다. 캡션에 적힌 후원 계좌는 옮기지 않습니다. 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+이 게시물은 원문 캡션과 릴스 썸네일을 기준으로 정리했습니다. 썸네일의 "간첩 잡는 국정원장이 러시아 스파이였다"는 보도와 달라 원문 이미지는 쓰지 않았습니다. 캡션에 적힌 후원 계좌는 옮기지 않습니다. 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## 원문 주장 (게시자 의견)
 

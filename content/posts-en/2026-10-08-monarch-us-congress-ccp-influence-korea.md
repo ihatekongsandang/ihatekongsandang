@@ -2,13 +2,11 @@
 id: 2026-10-08-monarch-us-congress-ccp-influence-korea
 title: "U.S. House China committee chair writes Rubio: \"South Korea's shift toward China poses significant risks to the U.S.\" — Senate and House Armed Services Committees also asked the Pentagon, for the first time, to assess CCP influence in South Korea"
 description: "Instagram @monarchreport25 on U.S. Congress concern over Chinese influence in South Korea; Moolenaar wrote Rubio Sept. 28, and NDAA reports seek an assessment."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'House China Select Committee chair Moolenaar writes Rubio: \"South Korea's shift toward China poses significant risks to the U.S.\" (Sept. 28) / Asks the State Department for a briefing on Korea–China relations by Oct. 31 / Senate and House Armed Services NDAA reports seek first assessment of CCP influence in South Korea / South Korean Embassy in Washington: \"The alliance is the foundation of our foreign policy\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @monarchreport25 (The Monarch Report)"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original (English) caption, and we used a card made by this site instead of the original image. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a trilateral cyber working group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+This post is based on the original (English) caption, and we did not use the original image. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a trilateral cyber working group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## What the original post claims (the poster's opinion)
 

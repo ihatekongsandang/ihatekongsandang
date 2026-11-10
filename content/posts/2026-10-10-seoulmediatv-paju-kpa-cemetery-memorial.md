@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeTY6iSPcKr/
 attribution: 인스타그램 @seoulmediatv
 useSourceImage: false
-image:
-  src: /images/2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '파주 적성면 북한군 묘지서 인민군 묘역 추모제, 주한미군 추방 구호 — 규탄 집회도 열려 (10월 10일) / 주최 미군철수투쟁본부·주관 민통선평화교회, 21회째라고 밝혀 / 오후 2시로 예고됐으나 오전으로 앞당겨 진행 / 규탄 집회 집회 측 추산 180~200명, 경찰 폴리스라인 설치' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -34,7 +30,7 @@ tags:
   - 집회
 ---
 
-이 게시물은 원문 릴스의 캡션("파주 인민군 묘역 추모제 침공 실시간")과 썸네일("파주 인민군 추모제 침공 온 애국자(들)", '6·25는 남침이야' 손팻말을 든 참가자 사진)을 기준으로 정리했습니다. 원문 썸네일에 일반인 참가자의 얼굴이 담겨 있어 원문 이미지 대신 자체 제작 카드를 썼습니다. 행사 전 이 추모제 포스터를 다룬 [스레드 @wonkkongtuwang 글](https://www.threads.com/@wonkkongtuwang/post/DeB3sO_H-LA)과 [인스타그램 @rekor.rgt 게시물](https://www.instagram.com/p/Dd_guP3gYh7/)은 개최를 다룬 보도가 없어 보류했으나, 행사 후 보도가 나와 여기에 함께 적습니다(아래 '요약에 넣지 않은 내용').
+이 게시물은 원문 릴스의 캡션("파주 인민군 묘역 추모제 침공 실시간")과 썸네일("파주 인민군 추모제 침공 온 애국자(들)", '6·25는 남침이야' 손팻말을 든 참가자 사진)을 기준으로 정리했습니다. 원문 썸네일에 일반인 참가자의 얼굴이 담겨 있어 원문 이미지는 쓰지 않았습니다. 행사 전 이 추모제 포스터를 다룬 [스레드 @wonkkongtuwang 글](https://www.threads.com/@wonkkongtuwang/post/DeB3sO_H-LA)과 [인스타그램 @rekor.rgt 게시물](https://www.instagram.com/p/Dd_guP3gYh7/)은 개최를 다룬 보도가 없어 보류했으나, 행사 후 보도가 나와 여기에 함께 적습니다(아래 '요약에 넣지 않은 내용').
 
 ## 원문 주장 (게시자 의견)
 

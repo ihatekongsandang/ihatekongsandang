@@ -2,8 +2,6 @@
 id: 2026-10-29-khan-nk-srbm-launch-wonsan
 title: "JCS: \"North Korea fired some 10 short-range ballistic missiles and other projectiles into the East Sea from the Wonsan area\" — six days after talks proposal"
 description: "The JCS reportedly said North Korea fired some 10 short-range ballistic missiles and other projectiles from the Wonsan area on Oct. 29, flying about 250 km."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'North Korea fires some 10 short-range ballistic missiles and other projectiles into the East Sea from the Wonsan area / JCS: around 12:30 p.m. Oct. 29, flew about 250 km / Reportedly 600 mm multiple rocket launchers / Six days after the defense ministry proposed military talks'"
-imageCaption: "Card image summarizing the reports (made by this site)"
 attribution: "Kyunghyang Shinmun"
 translatedAt: 2026-11-05
 ---

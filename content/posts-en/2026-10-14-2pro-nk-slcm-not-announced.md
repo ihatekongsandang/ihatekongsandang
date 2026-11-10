@@ -2,13 +2,11 @@
 id: 2026-10-14-2pro-nk-slcm-not-announced
 title: "\"Lee government and defense ministry covered up North Korea's submarine-launched cruise missile\"? — North Korea announced on the 15th a 'test launch on the 14th'; the JCS issued no separate notice"
 description: "Threads @2.pro.official claims a cover-up of a North Korean sub-launched cruise missile; reports say the military announces only ballistic launches live."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'North Korea: \"Test-fired two types of submarine-launched strategic cruise missiles on the 14th\" — the JCS made no separate announcement / Announced by North Korea's KCNA on the 15th / The military announces only ballistic missiles in real time, not cruise missiles (reports) / \"Government cover-up over approval ratings\" is not supported by evidence'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Threads @2.pro.official"
 translatedAt: 2026-10-15
 ---
 
-This post is based on the original text and its thumbnail. Because the original thumbnail's "Lee government and defense ministry covered up the missile launch" is a definitive claim not supported by evidence, we used a card made by this site. Related post (may be available only in Korean): [Military declines to submit Chinese and Russian KADIZ entry counts to the National Assembly](/post/2026-10-13-brieftag-kadiz-data-withheld).
+This post is based on the original text and its thumbnail. Because the original thumbnail's "Lee government and defense ministry covered up the missile launch" is a definitive claim not supported by evidence, we did not use the original thumbnail. Related post (may be available only in Korean): [Military declines to submit Chinese and Russian KADIZ entry counts to the National Assembly](/post/2026-10-13-brieftag-kadiz-data-withheld).
 
 ## What the original post claims (the poster's opinion)
 

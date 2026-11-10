@@ -2,13 +2,11 @@
 id: 2026-10-13-brieftag-kadiz-data-withheld
 title: "\"Asked in the National Assembly how many times Chinese fighters entered our air defense zone, the military refused to answer\" — military declines to submit data on Chinese and Russian KADIZ entries and Chinese warship entries"
 description: "Instagram @brief_tag says the military withheld KADIZ entry counts for Chinese and Russian aircraft from lawmakers; it cited operational security, reports say."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Military refuses to submit Chinese and Russian KADIZ entry counts to the National Assembly — citing preventing exposure of surveillance capabilities and protecting operations / Disclosed until early this year: about 100 Chinese KADIZ entries last year / About 350 Chinese warship entries into waters under South Korean jurisdiction (including 8 by aircraft carriers) / JCS: plans to explain in closed-door, in-person briefings'"
-imageCaption: "Card image summarizing the gist of the post (made by this site) — the original thumbnail was not used because it could not be confirmed that its fighter jet photo shows a Chinese aircraft"
 attribution: "Instagram @brief_tag"
 translatedAt: 2026-10-13
 ---
 
-This post is based on the original caption and thumbnail; the video content was not reviewed. The original thumbnail shows a fighter jet photo with the words "Chinese fighter jets," but judging by the aircraft's markings it could not be confirmed as a Chinese aircraft, so we used a card made by this site instead. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a North Korea cyber consultation group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+This post is based on the original caption and thumbnail; the video content was not reviewed. The original thumbnail shows a fighter jet photo with the words "Chinese fighter jets," but judging by the aircraft's markings it could not be confirmed as a Chinese aircraft, so we did not use it. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a North Korea cyber consultation group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## What the original post claims (the poster's opinion)
 

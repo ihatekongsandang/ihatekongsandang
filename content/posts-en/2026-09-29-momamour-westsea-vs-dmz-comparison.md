@@ -2,8 +2,6 @@
 id: 2026-09-29-momamour-westsea-vs-dmz-comparison
 title: "West Sea official shooting (Moon Jae-in administration) vs. DMZ mine accident (Lee Jae-myung administration) response comparison post — confirmed facts"
 description: "Threads @mom_amour__ shares an Instagram card contrasting Moon's and Lee's handling of the West Sea shooting and DMZ mine; all were acquitted at first instance."
-imageAlt: "Card with a white background and a red vertical bar on the left reading 'West Sea official shooting (2020) vs. DMZ mine accident (2026)'"
-imageCaption: "Summary image made by this site — the original card's title contained a slur, so it was not used"
 attribution: "Threads @mom_amour__"
 translatedAt: 2026-09-30
 ---

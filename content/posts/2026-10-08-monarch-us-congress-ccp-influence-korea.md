@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DePCdVOFbIr/
 attribution: 인스타그램 @monarchreport25 (The Monarch Report)
 useSourceImage: false
-image:
-  src: /images/2026-10-08-monarch-us-congress-ccp-influence-korea/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '물레나르 美 하원 중국특위 위원장, 루비오에 서한 \"한국의 대중 행보, 미국에 중대한 위험\" (9월 28일) / 국무부에 10월 31일까지 한중 관계 브리핑 요구 / 美 상·하원 군사위 NDAA 보고서, 한국 내 中공산당 영향력 평가 첫 요구 / 주미대사관 \"한미동맹은 우리 외교정책의 근간\"' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -36,7 +32,7 @@ tags:
   - 한미동맹
 ---
 
-이 게시물은 원문 캡션(영어)을 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다. 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+이 게시물은 원문 캡션(영어)을 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다. 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## 원문 주장 (게시자 의견)
 

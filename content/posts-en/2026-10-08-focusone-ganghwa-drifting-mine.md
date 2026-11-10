@@ -2,13 +2,11 @@
 id: 2026-10-08-focusone-ganghwa-drifting-mine
 title: "Another anti-personnel mine believed to have drifted from North Korea found near a beach on Jumun Island, Ganghwa — the first in 54 days since Aug. 15; Marines detonated it on site"
 description: "Instagram @focusone_mag on a mine found near a beach on Jumun Island, Ganghwa, on Oct. 8; it was reportedly a drifted North Korean mine the Marines detonated."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Anti-personnel mine believed to have drifted from North Korea found near Daebinchang Beach, Jumun Island, Ganghwa — first in 54 days (Oct. 8) / Reported by a maintenance worker → detonated on site by the Marine 2nd Division EOD team, no damage / Believed to have washed down from the North in summer downpours / Found again after 17 mines including wooden-box mines were found in Ganghwa in July–August'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @focusone_mag"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and the reel's thumbnail. The thumbnail's "Civilians will soon be stepping on mines too / Is talking with North Korea still the priority?" is the poster's opinion, so we used a card made by this site instead of the original image. Unlike the mines laid south of the Military Demarcation Line in the western-front DMZ, this mine is **believed to have drifted by water**. An [Instagram reel by @real_news_rn](https://www.instagram.com/reel/DeVwIIAPItv/) on a North Korean army cap found on a beach in Goseong, Gangwon Province (Oct. 11, "Goseong is trembling too / After mines, a North Korean army cap found / What is South Korea hiding?") is also noted here instead of in a separate post (see the "Goseong, Oct. 10" section). Related post (may be available only in Korean): [JCS: "Several presumed North Korean minefields south of the MDL"](/post/2026-10-05-shindawit-mdl-south-minefields-20m).
+This post is based on the original caption and the reel's thumbnail. The thumbnail's "Civilians will soon be stepping on mines too / Is talking with North Korea still the priority?" is the poster's opinion, so we did not use the original image. Unlike the mines laid south of the Military Demarcation Line in the western-front DMZ, this mine is **believed to have drifted by water**. An [Instagram reel by @real_news_rn](https://www.instagram.com/reel/DeVwIIAPItv/) on a North Korean army cap found on a beach in Goseong, Gangwon Province (Oct. 11, "Goseong is trembling too / After mines, a North Korean army cap found / What is South Korea hiding?") is also noted here instead of in a separate post (see the "Goseong, Oct. 10" section). Related post (may be available only in Korean): [JCS: "Several presumed North Korean minefields south of the MDL"](/post/2026-10-05-shindawit-mdl-south-minefields-20m).
 
 ## What the original post claims (the poster's opinion)
 

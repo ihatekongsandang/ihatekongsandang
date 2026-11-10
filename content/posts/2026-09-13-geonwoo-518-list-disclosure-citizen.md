@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdO0kWsTQD5/
 attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
-image:
-  src: /images/2026-09-13-geonwoo-518-list-disclosure-citizen/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '5·18 민주유공자 명단을 공개해 달라'라는 인용 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 썸네일에 일반 시민 얼굴이 크게 나와 사용하지 않음
 og:
   siteName: Instagram
 sources:

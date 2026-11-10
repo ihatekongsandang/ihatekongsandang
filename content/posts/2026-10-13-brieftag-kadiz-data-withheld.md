@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeantAoTS_4/
 attribution: 인스타그램 @brief_tag
 useSourceImage: false
-image:
-  src: /images/2026-10-13-brieftag-kadiz-data-withheld/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '군, 중·러 KADIZ 진입 횟수 국회 제출 거부 — 감시 능력 노출 방지·작전 활동 보호 이유 / 올해 초까진 공개: 지난해 中 KADIZ 진입 100여 회 / 中 군함 관할 해역 진입 350여 회(항모 8회 포함) / 합참: 비공개 대면 보고 방식으로 설명할 방침' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 썸네일의 전투기 사진이 중국 기체인지 확인되지 않아 사용하지 않음
 og:
   siteName: Instagram
 sources:
@@ -30,7 +26,7 @@ tags:
   - 국정감사
 ---
 
-이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일은 "중국 전투기" 문구와 함께 전투기 사진을 실었으나, 기체 표식으로 보아 중국 기체인지 확인되지 않아 자체 제작 카드를 썼습니다. 관련 게시물: [미국, 대북 사이버 협의체에서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+이 게시물은 원문 캡션과 썸네일을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일은 "중국 전투기" 문구와 함께 전투기 사진을 실었으나, 기체 표식으로 보아 중국 기체인지 확인되지 않아 원문 썸네일은 쓰지 않았습니다. 관련 게시물: [미국, 대북 사이버 협의체에서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## 원문 주장 (게시자 의견)
 

@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeRkqjxk1ZD/
 attribution: 인스타그램 @got_dem_catch
 useSourceImage: false
-image:
-  src: /images/2026-10-09-gotdemcatch-lee-five-trials-suspended/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '이재명 대통령 피고인 형사재판 5건 취임 후 헌법 84조 근거로 모두 중단 (2025년 6~7월) / 선거법 파기환송심·위증교사 항소심·대장동 등 1심·대북송금·법인카드 / 법원: 대통령 직무 전념·국정운영 연속성 위해 기일 추후지정 / 유무죄는 확정되지 않음 — 재판은 임기 후로 미뤄진 상태' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -45,7 +41,7 @@ tags:
   - 헌법84조
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문 이미지(5장)에는 "이재명의 업적을 잊지 말자"라는 제목 아래 16개 항목이 나열돼 있으나, 사생활 의혹과 근거가 제시되지 않은 단정(예: "주변 7명 죽음 당함", "가짜단식")이 섞여 있어 옮기지 않고 자체 제작 카드를 썼습니다. 같은 사안을 영어로 다룬 [인스타그램 @monarchreport25 릴스](https://www.instagram.com/reel/DeM5hiTFZBi/)(10월 8일, "Stand Trial: Lee's frozen cases and the American who can't go home")도 별도 게시물 대신 여기에 함께 적습니다(아래 '요약에 넣지 않은 내용'). 쌍방울 대북송금 사건을 다룬 [인스타그램 @ansanheart 릴스](https://www.instagram.com/reel/DeYUG86MhHr/)(10월 12일, "미국 FOX NEWS 이재명 폭로 터졌다")도 여기에 함께 적습니다(아래 '대북송금 사건 갱신' 절).
+이 게시물은 원문 캡션을 기준으로 정리했습니다. 원문 이미지(5장)에는 "이재명의 업적을 잊지 말자"라는 제목 아래 16개 항목이 나열돼 있으나, 사생활 의혹과 근거가 제시되지 않은 단정(예: "주변 7명 죽음 당함", "가짜단식")이 섞여 있어 옮기지 않았습니다. 같은 사안을 영어로 다룬 [인스타그램 @monarchreport25 릴스](https://www.instagram.com/reel/DeM5hiTFZBi/)(10월 8일, "Stand Trial: Lee's frozen cases and the American who can't go home")도 별도 게시물 대신 여기에 함께 적습니다(아래 '요약에 넣지 않은 내용'). 쌍방울 대북송금 사건을 다룬 [인스타그램 @ansanheart 릴스](https://www.instagram.com/reel/DeYUG86MhHr/)(10월 12일, "미국 FOX NEWS 이재명 폭로 터졌다")도 여기에 함께 적습니다(아래 '대북송금 사건 갱신' 절).
 
 ## 원문 주장 (게시자 의견)
 

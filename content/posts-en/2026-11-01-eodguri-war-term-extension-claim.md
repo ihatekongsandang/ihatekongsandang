@@ -2,13 +2,11 @@
 id: 2026-11-01-eodguri-war-term-extension-claim
 title: "\"A war would extend the presidential term — Lee has it in mind\"? — personal speculation by a YouTube video guest, who called it \"speculation and a guess\""
 description: "Instagram @eodguri123 shares a YouTube clip where a guest claims a war would extend Lee's term; the guest calls it speculation, and no report backs it."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '\"A war would extend the term\"? Personal speculation by a YouTube guest / The guest says \"it's speculation and a guess\" / Constitution Art. 70: five-year single presidential term / No report or official statement supports it'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @eodguri123"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and video (about 1 minute 49 seconds, 12 frames); we did not transcribe the full audio. **The remarks in the video are the guest's personal speculation, not confirmed facts.** The video's captions give the source as "Back Briefing (YouTube)," but we could not confirm the guest's name or affiliation. Profanity and vulgar wording in the caption and the video's top text, and a sentence urging a specific political action, are not reproduced. We used a card made by this site instead of the guest's face.
+This post is based on the original caption and video (about 1 minute 49 seconds, 12 frames); we did not transcribe the full audio. **The remarks in the video are the guest's personal speculation, not confirmed facts.** The video's captions give the source as "Back Briefing (YouTube)," but we could not confirm the guest's name or affiliation. Profanity and vulgar wording in the caption and the video's top text, and a sentence urging a specific political action, are not reproduced. We did not use the original image showing the guest's face.
 
 ## What the original post claims (the guest's and poster's opinion)
 

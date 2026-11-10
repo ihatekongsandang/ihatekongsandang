@@ -2,14 +2,12 @@
 id: 2026-11-04-leejinsook-martial-law-soldiers-presser
 title: "Rep. Lee Jin-sook: \"Soldiers who followed superiors' orders during the Dec. 3 martial law branded insurrectionists and heavily disciplined\" — National Assembly press conference with Lt. Col. Y"
 description: "Rep. Lee Jin-sook posted a video of a Nov. 4 press conference with Lt. Col. Y criticizing probes and discipline of soldiers over martial law."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Lee Jin-sook criticizes \"insurrectionist label and heavy discipline\" for soldiers who followed martial law orders / Nov. 4 press conference at the National Assembly (reports) / With Lt. Col. Y, a Special Warfare battalion commander during martial law / The defense ministry's position did not appear in the reports checked'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_leejinsook (Lee Jin-sook)"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and the press conference video (about 8 minutes, 12 frames); we did not transcribe the full remarks. An [Instagram reel by @jugwan_ilbo](https://www.instagram.com/reel/DfT6s46iYjy/) (Nov. 4) that introduced the same press conference as "Exposing the Lee Jae-myung regime — shocking revelation," and an [Instagram reel by @wikipost_mag](https://www.instagram.com/reel/DfUjVLUuRxo/) (Nov. 4) whose caption carries the full statement Y read at the same press conference, are noted here instead of in separate posts. The statement's criticisms of the government are the speaker's opinions, so we did not carry them into the summary. We used a card made by this site.
+This post is based on the original caption and the press conference video (about 8 minutes, 12 frames); we did not transcribe the full remarks. An [Instagram reel by @jugwan_ilbo](https://www.instagram.com/reel/DfT6s46iYjy/) (Nov. 4) that introduced the same press conference as "Exposing the Lee Jae-myung regime — shocking revelation," and an [Instagram reel by @wikipost_mag](https://www.instagram.com/reel/DfUjVLUuRxo/) (Nov. 4) whose caption carries the full statement Y read at the same press conference, are noted here instead of in separate posts. The statement's criticisms of the government are the speaker's opinions, so we did not carry them into the summary.
 
 ## What the original post claims (the poster's opinion)
 

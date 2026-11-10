@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.donga.com/news/Politics/article/all/20261028/134921355/2
 attribution: 동아일보
 useSourceImage: false
-image:
-  src: /images/2026-10-28-donga-nk-submarine-infiltration-drills/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '北, 남포 등서 잠수정·공작모선 대남 해상 침투 훈련 정황 / 동아일보 단독 보도 (정부 고위 소식통 인용) / 정보당국, 하계훈련 계기 지속 동향 주시 / 정찰정보총국 확대 개편과 맞물린 것으로 분석' 문구가 적힌 카드"
-  caption: 보도 내용을 정리한 카드 이미지(자체 제작)
 og:
   siteName: 동아일보
 sources:

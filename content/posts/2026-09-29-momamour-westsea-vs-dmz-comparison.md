@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@mom_amour__/post/Dd3Sg3SknCl
 attribution: 스레드 @mom_amour__
 useSourceImage: false
-image:
-  src: /images/2026-09-29-momamour-westsea-vs-dmz-comparison/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '서해 공무원 피격(2020) vs DMZ 지뢰 사고(2026)' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 카드 제목에 비속어가 있어 사용하지 않음
 og:
   siteName: Threads
 sources:

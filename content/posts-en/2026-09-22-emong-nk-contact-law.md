@@ -2,8 +2,6 @@
 id: 2026-09-22-emong-nk-contact-law
 title: "Amendment easing reports of contact with North Korean residents — thread posting sentences excerpted from an article"
 description: "Threads user @emong0_0_ posts excerpts on an inter-Korean contact amendment; the ministry reportedly accepted dropping its power to refuse contact reports."
-imageAlt: "Amendment easing reports of inter-Korean resident contact — the Unification Ministry accepts deleting the clause on refusing advance contact reports — reportedly, contact restrictions would disappear after 36 years if passed"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Threads user"
 attribution: "Threads @emong0_0_"
 translatedAt: 2026-09-30

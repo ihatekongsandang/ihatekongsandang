@@ -2,8 +2,6 @@
 id: 2026-09-13-geonwoo-518-list-disclosure-citizen
 title: "\"If there's nothing to hide, disclose the May 18 merit holders list\" — a citizen who says they are a child of a national merit holder; a court ruled in 2020 that keeping the list private was lawful"
 description: "Instagram @geonwoo.vibes relays a citizen's call to open the May 18 merit list; reports say a court backed secrecy in 2020 and Rep. Lee Jin-sook seeks a bill."
-imageAlt: "Card on a white background with a red vertical bar on the left and the quoted text 'Please disclose the list of May 18 democratic merit holders'"
-imageCaption: "Card image summarizing the gist of the post (made by this site) — the original thumbnail was not used because it prominently shows a private citizen's face"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30
 ---

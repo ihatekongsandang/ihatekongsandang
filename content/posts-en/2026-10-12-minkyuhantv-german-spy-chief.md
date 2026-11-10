@@ -2,13 +2,11 @@
 id: 2026-10-12-minkyuhantv-german-spy-chief
 title: "\"The spy-catching intelligence chief was a Russian spy\" — Germany's former BND chief H was arrested on espionage charges, but German media reported the case is not linked to Russia"
 description: "Instagram @minkyuhantv uses a German ex-spy chief's arrest to fault Korean officials; H was held Oct. 6, but German media said it was not Russia-related."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Germany's former BND chief H arrested on espionage charges (Oct. 6) — \"Russian spy\" differs from reports / Allegedly paid a former chief of staff for about 2,000 classified documents / German media: not a Russia-related case — prosecutors did not name the recipient country / The original's comparison with Park Jie-won and Chung Dong-young is the poster's opinion'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @minkyuhantv (Han Min-kyu TV)"
 translatedAt: 2026-10-12
 ---
 
-This post is based on the original caption and the reel's thumbnail. The thumbnail's "The spy-catching intelligence chief was a Russian spy" differs from reports, so we used a card made by this site instead of the original image. We do not reproduce the donation account listed in the caption. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a trilateral cyber working group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+This post is based on the original caption and the reel's thumbnail. The thumbnail's "The spy-catching intelligence chief was a Russian spy" differs from reports, so we did not use the original image. We do not reproduce the donation account listed in the caption. Related post (may be available only in Korean): [Report that the U.S. asked to exclude the NIS from a trilateral cyber working group](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## What the original post claims (the poster's opinion)
 

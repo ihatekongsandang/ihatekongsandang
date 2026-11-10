@@ -2,8 +2,6 @@
 id: 2026-10-28-donga-nk-submarine-infiltration-drills
 title: "\"Signs of North Korean maritime infiltration drills against the South using submarines and mother ships near Nampo\" — Dong-A Ilbo exclusive"
 description: "Dong-A Ilbo, citing a senior government source, reported signs of North Korean infiltration drills near Nampo. No official statement was found."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'North Korea: signs of maritime infiltration drills against the South using submarines and mother ships near Nampo / Dong-A Ilbo exclusive (citing a senior government source) / Intelligence authorities watching the trend continued through summer training / Analyzed as linked to the expansion of the reconnaissance bureau'"
-imageCaption: "Card image summarizing the report (made by this site)"
 attribution: "Dong-A Ilbo"
 translatedAt: 2026-11-05
 ---

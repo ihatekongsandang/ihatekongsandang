@@ -2,13 +2,11 @@
 id: 2026-10-09-themovemag-chinese-residents-1m
 title: "Figures on the 'era of a million Chinese' — about 1.02 million Chinese residents and 150,000 foreign local-election voters; the health insurance deficit for regional subscribers turns into a surplus when workplace subscribers are included"
 description: "Instagram @themovemag_ tallies votes, insurance and housing figures for Chinese residents; reported figures largely matched, but several images were composites."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'About 1.02 million Chinese residents in Korea (including ethnic Koreans) / 151,532 foreign local-election voters — a record / Chinese regional health insurance subscribers ran a 133.2 billion won deficit in 2024, while all Chinese subscribers had a 5.5 billion won surplus / Of 113.4 billion won in 2025 unemployment benefits to foreigners, 89.5 billion (78.9%) went to ethnic Korean Chinese and Chinese nationals / About 56.8% of 108,231 foreign-owned homes at end-2025 were Chinese-owned'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @themovemag_ (THE MOVE)"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and its 11 images. Several of the original images are **composite or staged images** — Chinese President Xi Jinping standing on Gangnam-daero in Seoul, voting at a South Korean polling station and dancing in front of Bucheon Station, and President Lee Jae-myung in a meeting — so we used a card made by this site instead of the original images.
+This post is based on the original caption and its 11 images. Several of the original images are **composite or staged images** — Chinese President Xi Jinping standing on Gangnam-daero in Seoul, voting at a South Korean polling station and dancing in front of Bucheon Station, and President Lee Jae-myung in a meeting — so we did not use the original images.
 
 ## What the original post claims (the poster's opinion)
 
