@@ -2,6 +2,8 @@
 id: 2026-07-20-yoonsanghyun-special-counsel-filibuster
 title: "Rep. Yoon Sang-hyun: \"Turning the special counsel into a permanent political power agency\" — filibuster reel against the bill extending the second comprehensive special counsel"
 description: "PPP Rep. Yoon Sang-hyun's reel shows him opening a July 20 filibuster against extending the 2nd special counsel; he reportedly called such a move unprecedented."
+imageAlt: "The National Assembly plenary chamber seen from above, with people in suits seated or moving along the aisles and a person standing at the podium on the right"
+imageCaption: "The National Assembly plenary chamber on July 20, 2026: Democratic Party lawmakers walk out as People Power Party Rep. Yoon Sang-hyun begins a filibuster (per the original article's photo caption)."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @together_ysh (윤상현 국회의원)"
 translatedAt: 2026-09-30

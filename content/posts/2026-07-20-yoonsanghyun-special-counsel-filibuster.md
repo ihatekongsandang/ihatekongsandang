@@ -10,6 +10,16 @@ speaker:
   name: 윤상현
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  kind: news
+  src: https://image.fnnews.com/resource/media/image/2026/07/20/202607201856300790_e.jpg
+  alt: "위에서 내려다본 국회 본회의장 의석 — 좌석에 앉거나 통로로 이동하는 정장 차림의 사람들과 오른쪽 발언대에 선 인물"
+  caption: "2026년 7월 20일 국회 본회의장, 국민의힘 윤상현 의원이 무제한토론(필리버스터)을 시작하자 더불어민주당 의원들이 퇴장하는 모습(원 기사 사진 설명 기준)."
+  creditName: 뉴스1
+  creditNameEn: News1
+  sourcePageUrl: https://www.fnnews.com/news/202607201856366629
+  retrievedAt: 2026-11-10
+  faceNote: 현직 국회의원 — 본회의 무제한토론 발언·의원 퇴장(총칭) — 원 기사 사진 설명; 원경 인물 50명 이상(얼굴 최대 약 21 px / 짧은 변 697 px)
 og:
   siteName: Instagram
 sources:
