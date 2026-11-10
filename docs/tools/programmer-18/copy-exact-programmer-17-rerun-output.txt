@@ -1,0 +1,58 @@
+FAIL  기대값 ko: 계획 §2.2에서 SNS 줄 1개를 찾아 뺌
+PASS  기대값 ko: 목록 4개·2번 하위 4개(5 − SNS 1)
+FAIL  기대값 ko: 빠진 굵게 3개 = SNS 줄의 것 — []
+FAIL  기대값 en: 계획 §2.2에서 SNS 줄 1개를 찾아 뺌
+PASS  기대값 en: 목록 4개·2번 하위 4개
+PASS  ko /about copyright 절 있음
+PASS  ko 절 제목 = 인용·저작권
+PASS  ko 바깥 목록 4개
+PASS  ko 1번 본문 글자 그대로
+PASS  ko 1번 하위 항목 수 0
+PASS  ko 2번 본문 글자 그대로
+FAIL  ko 2번 하위 항목 수 4 — 3
+PASS  ko 2번 하위 1 글자 그대로
+FAIL  ko 2번 하위 2 글자 그대로 — 
+   exp=일부 글은 이 사이트가 게시물 요지를 정리해 만든 카드 이미지를 씁니다. 이 이미지도 차례로 바꿉니다.
+   got=공공누리로 개방된 공공 사진을 쓸 때는 사진 아래에 공공누리 유형을 적습니다(현재 쓰는 사진은 없습니다).
+FAIL  ko 2번 하위 3 글자 그대로 — 
+   exp=공공누리로 개방된 공공 사진을 쓸 때는 사진 아래에 공공누리 유형을 적습니다(현재 쓰는 사진은 없습니다).
+   got=사진이 없거나 불러오지 못하면 대체 이미지를 보여 줍니다.
+FAIL  ko 2번 하위 4 글자 그대로 — 
+   exp=사진이 없거나 불러오지 못하면 대체 이미지를 보여 줍니다.
+   got=None
+PASS  ko 3번 본문 글자 그대로
+PASS  ko 3번 하위 항목 수 0
+PASS  ko 4번 본문 글자 그대로
+PASS  ko 4번 하위 항목 수 0
+PASS  ko 페이지 전체에 'SNS 게시물을 다룬 글 중 상당수' 0회
+PASS  ko 페이지 전체에 '저장해' 0회
+PASS  ko 페이지 전체에 '정리하기로 했으며' 0회
+PASS  ko 페이지 전체에 '이미지(썸네일)' 0회
+PASS  ko 굵게 범위 = 기획 ** 범위 − SNS 줄 3개(4개, 순서 포함)
+PASS  en /en/about copyright 절 있음
+PASS  en 절 제목 = Quotes, images and copyright
+PASS  en 바깥 목록 4개
+PASS  en 1번 본문 글자 그대로
+PASS  en 1번 하위 항목 수 0
+PASS  en 2번 본문 글자 그대로
+FAIL  en 2번 하위 항목 수 4 — 3
+PASS  en 2번 하위 1 글자 그대로
+FAIL  en 2번 하위 2 글자 그대로 — 
+   exp=Some posts use a card image this site made to summarize the post. These will also be replaced step by step.
+   got=When we use public photos released under the Korea Open Government License (KOGL), the license type is shown below the photo (none are in use now).
+FAIL  en 2번 하위 3 글자 그대로 — 
+   exp=When we use public photos released under the Korea Open Government License (KOGL), the license type is shown below the photo (none are in use now).
+   got=If a post has no image, or an image fails to load, a replacement image is shown.
+FAIL  en 2번 하위 4 글자 그대로 — 
+   exp=If a post has no image, or an image fails to load, a replacement image is shown.
+   got=None
+PASS  en 3번 본문 글자 그대로
+PASS  en 3번 하위 항목 수 0
+PASS  en 4번 본문 글자 그대로
+PASS  en 4번 하위 항목 수 0
+PASS  en 페이지 전체에 'Many posts about social media posts' 0회
+PASS  en 페이지 전체에 'stored on this site' 0회
+PASS  en 페이지 전체에 'phase this out' 0회
+PASS  en 절 순서 translation → copyright → correction
+
+33/44 PASS

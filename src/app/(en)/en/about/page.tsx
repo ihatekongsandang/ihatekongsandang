@@ -50,10 +50,6 @@ export default function EnglishAboutPage() {
                   or outlet and link to the original.
                 </li>
                 <li>
-                  Some posts use a card image this site made to summarize the post. These will also be replaced step
-                  by step.
-                </li>
-                <li>
                   When we use public photos released under the Korea Open Government License (KOGL), the license type
                   is shown below the photo (none are in use now).
                 </li>

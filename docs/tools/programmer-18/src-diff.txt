@@ -1,0 +1,30 @@
+diff --git a/src/app/(en)/en/about/page.tsx b/src/app/(en)/en/about/page.tsx
+index 121ba47..0290c46 100644
+--- a/src/app/(en)/en/about/page.tsx
++++ b/src/app/(en)/en/about/page.tsx
+@@ -49,10 +49,6 @@ export default function EnglishAboutPage() {
+                   outlet&apos;s address rather than copied to this site. Below the photo, we credit the rights holder
+                   or outlet and link to the original.
+                 </li>
+-                <li>
+-                  Some posts use a card image this site made to summarize the post. These will also be replaced step
+-                  by step.
+-                </li>
+                 <li>
+                   When we use public photos released under the Korea Open Government License (KOGL), the license type
+                   is shown below the photo (none are in use now).
+diff --git a/src/app/(ko)/about/page.tsx b/src/app/(ko)/about/page.tsx
+index 658110e..08883b7 100644
+--- a/src/app/(ko)/about/page.tsx
++++ b/src/app/(ko)/about/page.tsx
+@@ -90,10 +90,6 @@ export default function AboutPage() {
+                   복제해 두지 않고 원 매체 주소에서 그대로 불러와 보여 줍니다. 사진 아래에 출처(사진 권리자 또는
+                   매체)와 원문 링크를 적습니다.
+                 </li>
+-                <li>
+-                  일부 글은 이 사이트가 게시물 요지를 정리해 만든 카드 이미지를 씁니다. 이 이미지도 차례로
+-                  바꿉니다.
+-                </li>
+                 <li>
+                   공공누리로 개방된 공공 사진을 쓸 때는 사진 아래에 공공누리 유형을 적습니다(현재 쓰는 사진은
+                   없습니다).
