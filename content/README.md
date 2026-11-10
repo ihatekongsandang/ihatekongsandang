@@ -192,7 +192,7 @@ image:
   retrievedAt: 2026-11-09
   faceNote: 얼굴 없음(건물)
 ```
-- `kind`를 생략하면 `self`(운영자 제작·SNS 원문 이미지 저장본)다. `self`에는 크레딧 필드를 쓰지 않는다.
+- `kind`를 생략하면 `self`(운영자 제작 카드 이미지)다. SNS 원문 이미지 저장본은 정리가 끝나 0건이다. `self`에는 크레딧 필드를 쓰지 않는다.
 - public·news는 `sourceType: url` 게시물의 `image`에만 쓴다. `images[]`(사진 유형 갤러리)는 self만 받는다.
 - 포털(네이버·다음·네이트·줌 계열·단축·집계 주소, 이미지 CDN 포함) 주소는 `src`·`sourcePageUrl` 모두 막힌다. 원 매체 기사를 쓴다.
 - 상세 사진 아래에 `사진: {creditName}` + 원 페이지 링크와 **사진 설명**이 나온다(영어 상세는 `creditNameEn`·`imageCaption`). 카드에는 나오지 않는다. 공유 미리보기(OG)·구조화 데이터에는 들어가지 않는다.

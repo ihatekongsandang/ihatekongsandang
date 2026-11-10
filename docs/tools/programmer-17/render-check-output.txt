@@ -1,0 +1,22 @@
+/about HTTP 200 · 2번 하위 목록 4개
+  1. 언론 기사의 사진을 쓰는 글은 그 사진을 이 사이트에 복제해 두지 않고 원 매체 주소에서 그대로 불러와 보여 줍니다. 사진 아래에 출처(사진 권리자 또는 매체)와 원문 링크를 적습니다.
+  2. 일부 글은 이 사이트가 게시물 요지를 정리해 만든 카드 이미지를 씁니다. 이 이미지도 차례로 바꿉니다.
+  3. 공공누리로 개방된 공공 사진을 쓸 때는 사진 아래에 공공누리 유형을 적습니다(현재 쓰는 사진은 없습니다).
+  4. 사진이 없거나 불러오지 못하면 대체 이미지를 보여 줍니다.
+  "SNS 게시물을 다룬" 0회
+  "저장해" 0회
+  "정리하기로 했으며" 0회
+  "stored on this site" 0회
+  "Many posts about social media" 0회
+  "phase this out" 0회
+/en/about HTTP 200 · 2번 하위 목록 4개
+  1. When a post uses a photo from a news article, the photo is loaded directly from the news outlet's address rather than copied to this site. Below the photo, we credit the rights holder or outlet and link to the original.
+  2. Some posts use a card image this site made to summarize the post. These will also be replaced step by step.
+  3. When we use public photos released under the Korea Open Government License (KOGL), the license type is shown below the photo (none are in use now).
+  4. If a post has no image, or an image fails to load, a replacement image is shown.
+  "SNS 게시물을 다룬" 0회
+  "저장해" 0회
+  "정리하기로 했으며" 0회
+  "stored on this site" 0회
+  "Many posts about social media" 0회
+  "phase this out" 0회

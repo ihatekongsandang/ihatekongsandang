@@ -91,13 +91,6 @@ export default function AboutPage() {
                   매체)와 원문 링크를 적습니다.
                 </li>
                 <li>
-                  <strong className="font-semibold">SNS 게시물을 다룬 글 중 상당수</strong>는 원 게시물의
-                  이미지(썸네일)를 이 사이트에 <strong className="font-semibold">저장해</strong> 보여 줍니다. 이
-                  이미지는 원 게시물에서 가져온 것이고, 권리는 원 게시자 또는 이미지의 권리자에게 있습니다. 이
-                  방식은 <strong className="font-semibold">정리하기로 했으며</strong>, 근거 언론 기사의 사진 또는
-                  대체 이미지로 차례로 바꿉니다.
-                </li>
-                <li>
                   일부 글은 이 사이트가 게시물 요지를 정리해 만든 카드 이미지를 씁니다. 이 이미지도 차례로
                   바꿉니다.
                 </li>

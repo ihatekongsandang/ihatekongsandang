@@ -50,12 +50,6 @@ export default function EnglishAboutPage() {
                   or outlet and link to the original.
                 </li>
                 <li>
-                  Many posts about social media posts show the original post&apos;s image, stored on this site. These
-                  images come from the original posts, and the rights belong to the original poster or the
-                  image&apos;s rights holder. We have decided to phase this out and will replace them step by step
-                  with a photo from the news article or a replacement image.
-                </li>
-                <li>
                   Some posts use a card image this site made to summarize the post. These will also be replaced step
                   by step.
                 </li>
