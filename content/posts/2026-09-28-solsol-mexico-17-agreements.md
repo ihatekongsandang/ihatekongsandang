@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd2fxW5NB0u/
 attribution: 인스타그램 @solsollalasolsolmi__ (학교종이땡땡땡)
 useSourceImage: false
-image:
-  src: /images/2026-09-28-solsol-mexico-17-agreements/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '한·멕시코 협력문건 17건, AI·우주·방산·치안까지 확대' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 썸네일에 비하 표현이 있어 사용하지 않음
 og:
   siteName: Instagram
 sources:

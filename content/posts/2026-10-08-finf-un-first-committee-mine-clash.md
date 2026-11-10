@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/reel/DeULHWBzBJU/
 attribution: 인스타그램 @finf_media
 useSourceImage: false
 image:
-  src: /images/2026-10-08-finf-un-first-committee-mine-clash/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '유엔총회 제1위원회서 DMZ 지뢰 남북 설전 — 차지훈 대사 \"북한군이 의도적으로 매설\" (10월 8일) / 북한 측 답변권: 접경지 요새화 방해하는 불순한 행동 / 북한, 정동영 장관 국감 발언 거론하며 책임 부인 / 정 장관 7일 국감: 아직 지뢰 공격으로 특정 못 해 — 의도 판단 유보 취지' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
+  kind: news
+  src: "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=898,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100912171141786_1.jpg"
+  alt: "'REPUBLIC OF KOREA' 명패가 놓인 회의석에서 안경을 쓴 정장 차림 인물이 마이크 앞에서 말하는 모습"
+  caption: "2026년 10월 8일(현지시간) 미국 뉴욕 유엔본부 회의에서 차지훈 주유엔한국대표부 대사가 발언하는 모습(원 기사 사진 설명 기준, 유엔 웹TV 화면)."
+  creditName: 유엔 웹TV
+  creditNameEn: UN Web TV
+  sourcePageUrl: https://www.mt.co.kr/world/2026/10/09/2026100912171141786
+  retrievedAt: 2026-11-11
+  faceNote: 대사(주유엔대사, 1a) — 유엔총회 제1위원회 발언(공식 일정) — 원 기사 사진 설명·현장 명패; 원경 인물 2명(뒷모습·옆모습·흐림 — 정면 없음)
 og:
   siteName: Instagram
 sources:
@@ -33,7 +39,7 @@ tags:
   - 북한
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다. 김여정 담화가 같은 정 장관 발언을 인용한 점을 다룬 [인스타그램 @swing_politics 게시물](https://www.instagram.com/reel/DeSLXm9TJyP/)(10월 10일, "김여정, 정동영 발언까지 꺼냈다…'스스로 고백했다'")도 별도 게시물 대신 여기에 함께 적습니다. 관련 게시물: [합참 DMZ 지뢰 최종 조사 결과](/post/2026-10-05-shindawit-mdl-south-minefields-20m) · [김여정 의료장비 담화](/post/2026-09-13-idontknowpolitics-kangdong-hospital).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다. 김여정 담화가 같은 정 장관 발언을 인용한 점을 다룬 [인스타그램 @swing_politics 게시물](https://www.instagram.com/reel/DeSLXm9TJyP/)(10월 10일, "김여정, 정동영 발언까지 꺼냈다…'스스로 고백했다'")도 별도 게시물 대신 여기에 함께 적습니다. 관련 게시물: [합참 DMZ 지뢰 최종 조사 결과](/post/2026-10-05-shindawit-mdl-south-minefields-20m) · [김여정 의료장비 담화](/post/2026-09-13-idontknowpolitics-kangdong-hospital).
 
 ## 원문 주장 (게시자 의견)
 

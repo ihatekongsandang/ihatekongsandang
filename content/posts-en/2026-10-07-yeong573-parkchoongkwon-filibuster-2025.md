@@ -2,14 +2,14 @@
 id: 2026-10-07-yeong573-parkchoongkwon-filibuster-2025
 title: "\"Leave the Democratic Party's bad laws and we'll sink into a populist dictatorship like Venezuela\" — Rep. Park Choong-kwon's Sept. 28, 2025 filibuster against the National Assembly Act amendment, reshared a year later"
 description: "Instagram @yeong573 shares edited clips of Rep. Park Choong-kwon's filibuster against a 2025 National Assembly Act amendment; the bill passed the same day."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Rep. Park Choong-kwon's filibuster against the National Assembly Act amendment — a Sept. 28, 2025 speech, reshared a year later / A bill adjusting standing committee names and jurisdictions after the government reorganization / Claim of \"sinking into a populist dictatorship like Venezuela\" / The bill passed the plenary session the same evening'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "The National Assembly plenary chamber seen from above — mostly empty seats, a person at the rostrum, and screens on both sides reading 'Unlimited debate: Rep. Park Choong-kwon'"
+imageCaption: "People Power Party Rep. Park Choong-kwon holding a filibuster against the National Assembly Act amendment in the plenary chamber on Sept. 28, 2025 (per the original article's photo caption)."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @yeong573"
 translatedAt: 2026-10-15
 ---
 
-This post is based on the original caption and video (about 15 minutes, 12 frames reviewed). The original was posted on Oct. 7, 2026, but the filibuster in the video took place on **Sept. 28, 2025**. We used a card made by this site instead of the original thumbnail. Another post on Rep. Park Choong-kwon (may be available only in Korean): [Card on Democratic Party remarks about North Korean mines, checked against reports](/post/2026-09-28-parkchoongkwon-dp-mine-remarks).
+This post is based on the original caption and video (about 15 minutes, 12 frames reviewed). The original was posted on Oct. 7, 2026, but the filibuster in the video took place on **Sept. 28, 2025**. We did not use the original thumbnail. Another post on Rep. Park Choong-kwon (may be available only in Korean): [Card on Democratic Party remarks about North Korean mines, checked against reports](/post/2026-09-28-parkchoongkwon-dp-mine-remarks).
 
 ## What the original says (poster's introduction and video captions)
 

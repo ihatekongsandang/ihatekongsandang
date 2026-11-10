@@ -2,8 +2,8 @@
 id: 2026-10-24-khan-nk-third-company-commanders-conference
 title: "North Korea holds its 3rd Conference of Company Commanders in Pyongyang — Kim Jong Un: \"build the strongest army by fostering the strongest companies\""
 description: "Kim Jong Un guided the KPA's 3rd conference of company commanders in Pyongyang on Oct. 22-23, KCNA reported on Oct. 24, per South Korean media."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'North Korea: KPA 3rd Conference of Company Commanders — Kim Jong Un: \"strongest army through the strongest companies\" / Held in Pyongyang Oct. 22-23, reported by KCNA on Oct. 24 / Third such conference reported by North Korean media, after 1991 and 1999 / NIS told the National Assembly on Oct. 23 the death rumor was false (reports)'"
-imageCaption: "Card image summarizing the reports (made by this site)"
+imageAlt: "A person in a suit raising his right hand behind five microphones at a rostrum in front of a red flag"
+imageCaption: "Kim Jong Un, general secretary, presiding over the Korean People's Army's 3rd Conference of Company Commanders in Pyongyang on Oct. 22–23, 2026 (Rodong Sinmun photo, per the original article's photo caption)."
 attribution: "Kyunghyang Shinmun"
 translatedAt: 2026-11-05
 ---

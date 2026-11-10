@@ -2,8 +2,6 @@
 id: 2026-09-22-lotuslantern-25div-death
 title: "Headquarters officer of the same unit dies the day after the 25th Division mine blast — a thread mentioning the two cases side by side"
 description: "Threads user @_lotuslantern notes a 25th Division officer died a day after the presumed DMZ mine blast; reports say the cases are unrelated, cause under probe."
-imageAlt: "Card reading: 25th Division headquarters officer dies a day after the mine blast — reports say the cases appear unrelated since the officer wasn't involved in the search operation; cause of death under investigation"
-imageCaption: "Summary image made by this site"
 speakerAffiliation: "Threads user"
 attribution: "Threads @_lotuslantern"
 translatedAt: 2026-09-30

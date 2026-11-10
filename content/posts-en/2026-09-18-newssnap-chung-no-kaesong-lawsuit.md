@@ -2,14 +2,12 @@
 id: 2026-09-18-newssnap-chung-no-kaesong-lawsuit
 title: "\"Despite a 44.6 billion won damages ruling… Chung Dong-young: 'We will not file damages suits'\" — the decision not to sue over demolished Mt. Kumgang and Kaesong facilities was made in October 2025 as 'ineffective'"
 description: "Instagram @news_snap_kr says that after a 44.6 billion won ruling, Minister Chung said no suits over Kaesong and Mt. Kumgang; that was decided in Oct. 2025."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Chung Dong-young: \"Decided not to file damages suits over Mt. Kumgang and Kaesong\" — separate from the 44.6 billion won ruling on the liaison office demolition / Sept. 16 court: North Korea must pay 44.6 billion won for blowing up the liaison office / Sept. 17 Minister Chung: no suit over demolished Mt. Kumgang and Kaesong facilities / \"Ineffective because enforcement is impossible\" — decided in October 2025'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Minister of Unification"
 attribution: "Instagram @news_snap_kr (News Snap)"
 translatedAt: 2026-10-15
 ---
 
-This post is based on the original caption and video (about 5 seconds, a title over a photo of Minister Chung). The original was posted on Sept. 18, 2026. We used a card made by this site instead of the original image.
+This post is based on the original caption and video (about 5 seconds, a title over a photo of Minister Chung). The original was posted on Sept. 18, 2026. We did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

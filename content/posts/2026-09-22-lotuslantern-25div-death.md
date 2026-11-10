@@ -10,10 +10,6 @@ speaker:
   name: "@_lotuslantern"
   affiliation: 스레드 이용자
 useSourceImage: false
-image:
-  src: /images/2026-09-22-lotuslantern-25div-death/thumb.jpg
-  alt: "25사단 지뢰 폭발 이튿날 같은 부대 본부 장교 사망 — 숨진 장교는 수색작전에 관여하지 않아 두 사건은 관련 없는 것으로 보도됨 · 사인은 조사 중"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Threads
 sources:

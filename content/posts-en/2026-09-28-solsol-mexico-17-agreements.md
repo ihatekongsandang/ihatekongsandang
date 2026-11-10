@@ -2,8 +2,6 @@
 id: 2026-09-28-solsol-mexico-17-agreements
 title: "17 Korea-Mexico cooperation documents — expanding into AI, space, defense and security; post says \"the real benefit and scope of tech sharing in sensitive fields should be disclosed\""
 description: "Instagram @solsollalasolsolmi__ questions Korea's benefit and tech-sharing scope as Korea-Mexico ties reportedly expand into AI, space and defense via 17 pacts."
-imageAlt: "Card with a white background and a red vertical bar on the left reading '17 Korea-Mexico cooperation documents, expanding into AI, space, defense and security'"
-imageCaption: "Summary image made by this site — the original thumbnail contained disparaging language, so it was not used"
 attribution: "Instagram @solsollalasolsolmi__ (학교종이땡땡땡)"
 translatedAt: 2026-09-30
 ---

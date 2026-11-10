@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Deen_v2T92u/
 attribution: 인스타그램 @got_dem_catch
 useSourceImage: false
-image:
-  src: /images/2026-10-14-gotdemcatch-safety-drill-poster-insignia/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '재난대응 안전한국훈련 홍보물에 중국군 유사 계급장 — 행안부 폐기 지시 / 경찰관 어깨에 우리 경찰엔 없는 별 모양 계급장 / 행안부, 생성형 AI로 제작하고 검수 부족 (KBS) / 현수막·온라인 확산 뒤 지자체에 폐기 공문' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -25,7 +21,7 @@ tags:
   - 경찰
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일 대신 자체 제작 카드를 썼습니다. 비슷한 사례: [국방부 로고 '중국인 모집' AI 가짜 포스터](/post/2026-10-14-knn-fake-mnd-chinese-recruit-poster).
+이 게시물은 원문 캡션을 기준으로 정리했으며, 영상 내용은 확인하지 않았습니다. 원문 썸네일은 쓰지 않았습니다. 비슷한 사례: [국방부 로고 '중국인 모집' AI 가짜 포스터](/post/2026-10-14-knn-fake-mnd-chinese-recruit-poster).
 
 ## 원문 주장 (게시자 의견)
 

@@ -2,13 +2,13 @@
 id: 2026-10-08-finf-un-first-committee-mine-clash
 title: "Two Koreas clash at the UN over the DMZ mine — Ambassador Cha Ji-hoon: \"North Korean troops deliberately laid it south of the MDL\"; the North cited Unification Minister Chung Dong-young's audit remark to deny responsibility"
 description: "Instagram @finf_media on a UN clash over the DMZ mine; the North reportedly cited Minister Chung's remark that it was too early to call it an attack."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Two Koreas clash over the DMZ mine at the UN General Assembly First Committee — Ambassador Cha Ji-hoon: \"deliberately laid by North Korean troops\" (Oct. 8) / North Korea's right of reply: an impure act obstructing border fortification / The North cited Minister Chung Dong-young's audit remark to deny responsibility / Minister Chung at the Oct. 7 audit: cannot yet identify it as a mine attack — withholding judgment on intent'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "A person in a suit and glasses speaking into a microphone at a conference seat with a 'REPUBLIC OF KOREA' nameplate"
+imageCaption: "Ambassador Cha Ji-hoon of South Korea's mission to the United Nations speaking at a meeting at U.N. headquarters in New York on Oct. 8, 2026, local time (per the original article's photo caption; UN Web TV footage)."
 attribution: "Instagram @finf_media"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption, and we used a card made by this site instead of the original image. An [Instagram post by @swing_politics](https://www.instagram.com/reel/DeSLXm9TJyP/) (Oct. 10, "Kim Yo-jong even brought up Chung Dong-young's remark… 'confessed'") on Kim Yo-jong's statement citing the same remark is also noted here instead of in a separate post. Related posts (some may be available only in Korean): [JCS final findings on the DMZ mine](/post/2026-10-05-shindawit-mdl-south-minefields-20m) · [Kim Yo-jong's statement on medical equipment](/post/2026-09-13-idontknowpolitics-kangdong-hospital).
+This post is based on the original caption, and we did not use the original image. An [Instagram post by @swing_politics](https://www.instagram.com/reel/DeSLXm9TJyP/) (Oct. 10, "Kim Yo-jong even brought up Chung Dong-young's remark… 'confessed'") on Kim Yo-jong's statement citing the same remark is also noted here instead of in a separate post. Related posts (some may be available only in Korean): [JCS final findings on the DMZ mine](/post/2026-10-05-shindawit-mdl-south-minefields-20m) · [Kim Yo-jong's statement on medical equipment](/post/2026-09-13-idontknowpolitics-kangdong-hospital).
 
 ## What the original post claims (the poster's opinion)
 

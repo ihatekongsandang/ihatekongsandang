@@ -2,14 +2,12 @@
 id: 2026-10-13-yeong573-police-bodycam-china
 title: "\"14,000 police body cams: Chinese-made passed off as Taiwanese?\" — Rep. Park Sang-woong's questioning at the parliamentary audit and the acting police chief's answers"
 description: "Instagram @yeong573 shares an audit exchange on claims 14,000 police body cams are Chinese-made; a test lab found them near-identical; police found no backdoor."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Allegation that 14,000 police body cams were \"Chinese-made passed off\" — National Police Agency audit, Oct. 12 / Korea Testing Laboratory: effectively identical to Chinese company H's product / Acting police chief: no backdoor detected; will consider damages if confirmed Chinese-made / Supplier under investigation for fraud and other charges — claims \"Taiwanese OEM\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @yeong573"
 translatedAt: 2026-10-14
 ---
 
-This post is based on the original caption and video (audit questioning footage, 12 frames reviewed). We used a card made by this site instead of the original thumbnail.
+This post is based on the original caption and video (audit questioning footage, 12 frames reviewed). We did not use the original thumbnail.
 
 ## What the original post claims (the poster's opinion)
 

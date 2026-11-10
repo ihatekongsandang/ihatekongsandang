@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd-XM05DTOJ/
 attribution: 인스타그램 @kbsnews (KBS 뉴스)
 useSourceImage: false
-image:
-  src: /images/2026-10-02-alaska-lng-vs-dmz-mine-response/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '알래스카 LNG와 北 지뢰, 같은 주 정부 대응 정리 / 9/30 트럼프 발표 → 10/1 산업장관 합의보다 더 나가 유감 표명 / 9/30 합참 북한에 사과 촉구 · 10/1 대통령 불의의 사고 표현 논란' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:

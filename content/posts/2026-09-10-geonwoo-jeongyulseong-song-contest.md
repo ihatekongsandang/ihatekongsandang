@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdGY2oUzH93/
 attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
-image:
-  src: /images/2026-09-10-geonwoo-jeongyulseong-song-contest/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '광주MBC 정율성 동요 경연대회 어린이 무대 논란 다시보기' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 썸네일에 어린이 출연 장면이 있어 사용하지 않음
 og:
   siteName: Instagram
 sources:

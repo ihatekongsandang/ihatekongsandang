@@ -8,9 +8,15 @@ sourceUrl: https://khan.co.kr/article/202610240948001
 attribution: 경향신문
 useSourceImage: false
 image:
-  src: /images/2026-10-24-khan-nk-third-company-commanders-conference/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '北, 조선인민군 제3차 중대장대회 — 김정은 \"최강의 중대로 최강의 군대\" / 10월 22~23일 평양 개최, 조선중앙통신 24일 보도 / 북한 매체 보도로는 1991년·1999년에 이어 세 번째 / 국정원, 23일 국회에 \"사망설은 허위\" 보고 (보도)' 문구가 적힌 카드"
-  caption: 보도 내용을 정리한 카드 이미지(자체 제작)
+  kind: news
+  src: https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900536.2.jpg
+  alt: "붉은 깃발 앞 연단에서 마이크 다섯 개를 앞에 두고 오른손을 들어 보이는 정장 차림의 인물"
+  caption: "2026년 10월 22~23일 평양에서 열린 조선인민군 제3차 중대장대회에 참석해 대회를 주재한 김정은 총비서(노동신문 보도 사진, 원 기사 사진 설명 기준)."
+  creditName: 노동신문
+  creditNameEn: Rodong Sinmun
+  sourcePageUrl: https://www.donga.com/news/Politics/article/all/20261024/134900535/2
+  retrievedAt: 2026-11-11
+  faceNote: 북한 지도자(1a) — 중대장대회 주재(공식 일정) — 원 기사 사진 설명; 근거 언론 기사 og:image, 사용 제한 표기 없음
 og:
   siteName: 경향신문
 sources:

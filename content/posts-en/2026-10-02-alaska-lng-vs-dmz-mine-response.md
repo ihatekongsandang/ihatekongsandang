@@ -2,8 +2,6 @@
 id: 2026-10-02-alaska-lng-vs-dmz-mine-response
 title: "Seoul reportedly voiced \"regret\" within a day over Trump's one-sided Alaska LNG announcement — the same week, the North Korean mine blast that cost a soldier a foot drew criticism of a \"muted\" presidential office and an \"unforeseen accident\" remark; the military demanded an apology but reportedly disclosed no countermeasures"
 description: "Seoul reportedly voiced regret a day after Trump's Alaska LNG claim; on the DMZ mine, the military urged an apology but reportedly disclosed no countermeasures."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Alaska LNG and the North Korean mine — the government's responses in the same week / Sept. 30 Trump announcement → Oct. 1 industry minister voices regret that it \"went beyond the agreement\" / Sept. 30 JCS urges North Korea to apologize · Oct. 1 controversy over the president calling it an \"unforeseen accident\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @kbsnews (KBS 뉴스)"
 translatedAt: 2026-10-06
 ---

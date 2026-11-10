@@ -2,14 +2,12 @@
 id: 2026-11-03-happenbosu-lee-kimilsung-remark-2024
 title: "\"So that the efforts of our North Korea's Kim Jong Il and President Kim Il Sung are not belittled\" — a January 2024 remark by then-Democratic Party leader Lee Jae-myung resurfaces"
 description: "Instagram @happen_bosu resurfaces a remark Lee Jae-myung made as Democratic Party leader on Jan. 19, 2024; the People Power Party demanded a retraction."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '\"So that the efforts of our North Korea's Kim Jong Il and President Kim Il Sung are not belittled\" / Remark at a Democratic Party Supreme Council meeting, Jan. 19, 2024 (reports) / Then party leader, before becoming president / People Power Party demanded an apology and retraction (reports)'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "President (Democratic Party leader at the time of the remark)"
 attribution: "Instagram @happen_bosu"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and thumbnail (one video frame, a KBS News screen); the full video was not reviewed. The original was posted on Nov. 3, 2026, but the remark it covers was made on **Jan. 19, 2024**, when Lee was leader of the Democratic Party. The thumbnail line "I doubted my own eyes — people, please wake up" is the poster's opinion, so we used a card made by this site.
+This post is based on the original caption and thumbnail (one video frame, a KBS News screen); the full video was not reviewed. The original was posted on Nov. 3, 2026, but the remark it covers was made on **Jan. 19, 2024**, when Lee was leader of the Democratic Party. The thumbnail line "I doubted my own eyes — people, please wake up" is the poster's opinion, so we did not use the original thumbnail.
 
 ## What the original post claims (the poster's opinion)
 
