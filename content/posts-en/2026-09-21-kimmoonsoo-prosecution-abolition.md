@@ -17,7 +17,7 @@ This post is based on the original caption (the full text of the statement).
 
 ## What reports confirm
 
-- At 11 a.m. on Sept. 21, 2026, former candidate Kim Moon-soo (김문수) reportedly held a press conference with the "Lawyers Against the Destruction of the Judiciary" outside the Supreme Prosecutors' Office in Seocho-gu, Seoul, and stated his opposition to abolishing the Prosecutors' Office.
+- At 11 a.m. on Sept. 21, 2026, former labor minister and former presidential candidate Kim Moon-soo (김문수) reportedly held a press conference with the "Lawyers Against the Destruction of the Judiciary" outside the Supreme Prosecutors' Office in Seocho-gu, Seoul, and stated his opposition to abolishing the Prosecutors' Office.
 - On Oct. 2, the Prosecutors' Office will reportedly be abolished and the Public Prosecution Agency (공소청), in charge of indictments and maintaining prosecutions, and the Serious Crimes Investigation Agency (중대범죄수사청), which investigates seven categories of serious crimes, will be launched, with prosecutors' investigative authority abolished. Concerns were also reportedly raised at the press conference that rulings dismissing prosecutions on the grounds that investigations went beyond their permitted scope could increase.
 
 ## What we left out of the summary

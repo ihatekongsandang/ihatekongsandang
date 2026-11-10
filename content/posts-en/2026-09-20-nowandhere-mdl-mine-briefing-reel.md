@@ -11,7 +11,7 @@ This post is based on the reel's caption (the video was not watched), and it may
 
 ## Caption vs. reports
 
-- The caption identifies the speaker as the "Defense Ministry spokesperson," but according to reports, the speaker was Jang Do-young (장도영), director of public affairs at the Joint Chiefs of Staff (JCS), who answered questions at the Defense Ministry's regular briefing on Sept. 14 (Herald Economy, Tongil News (통일뉴스)).
+- The caption identifies the speaker as the "Defense Ministry spokesperson," but according to reports, the speaker was J, director of public affairs at the Joint Chiefs of Staff (JCS), who answered questions at the Defense Ministry's regular briefing on Sept. 14 (Herald Economy, Tongil News (통일뉴스)).
 - The remark "We have identified some terrain changes and are consulting closely with the UN Command on the possibility that mines were laid" is confirmed by reports (Herald Economy, Tongil News).
 - The caption's "cannot agree with the judgment of a failed response" was reportedly an answer — "I cannot agree with that judgment" — to the question of whether it could be judged that the existing principled response had failed (Tongil News).
 - The caption's expressions "We have never directly said mines were laid," "artificial terrain changes" and "it is inappropriate to jump to conclusions" could not be found in the reports above. The reported expression is "For security reasons, we cannot confirm whether there are six places where mines were laid" (Herald Economy, Tongil News).

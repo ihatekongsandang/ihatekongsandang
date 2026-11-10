@@ -1,11 +1,11 @@
 ---
-id: 2026-09-28-kangyeonjae-chief-justice-audit-witness
-title: "강연재 \"조희대 대법원장 국감 부를 거면 김현지부터\" — 법사위, 與 주도로 대법원장 국감 증인 채택"
-description: 인스타그램 @yeonjae.kang(강연재)이 국회 법사위의 조희대 대법원장 국정감사 증인 채택을 비판하며 김현지 대통령실 실장을 국감에 세우라고 요구함. 법사위는 9월 28일 국민의힘이 퇴장한 가운데 여당 주도로 조 대법원장 증인 채택을 의결한 것으로 보도됐습니다.
+id: 2026-09-28-instagram-chief-justice-audit-witness
+title: "인스타그램 게시물 \"조희대 대법원장 국감 부를 거면 김현지부터\" — 법사위, 與 주도로 대법원장 국감 증인 채택"
+description: 인스타그램 @yeonjae.kang이 국회 법사위의 조희대 대법원장 국정감사 증인 채택을 비판하며 김현지 대통령실 실장을 국감에 세우라고 요구함. 법사위는 9월 28일 국민의힘이 퇴장한 가운데 여당 주도로 조 대법원장 증인 채택을 의결한 것으로 보도됐습니다.
 publishedAt: 2026-09-28
 sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd1TSRcThFD/
-attribution: 인스타그램 @yeonjae.kang (강연재)
+attribution: 인스타그램 @yeonjae.kang
 useSourceImage: false
 og:
   siteName: Instagram

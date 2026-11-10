@@ -17,7 +17,7 @@ This post is based on the original caption; the video content was not reviewed. 
 
 ## What reports confirm
 
-- During the June 2018 local elections, P reportedly held a press conference with Kim Young-hwan (김영환), the Bareunmirae Party's candidate for Gyeonggi governor, and said there was a recording of Kim Hye-kyung (김혜경) talking on the phone with a niece or nephew about matters related to L's forced hospitalization.
+- During the June 2018 local elections, P reportedly held a press conference with former lawmaker Kim Young-hwan (김영환), then the Bareunmirae Party's candidate for Gyeonggi governor, and said there was a recording of Kim Hye-kyung (김혜경) talking on the phone with a niece or nephew about matters related to L's forced hospitalization.
 - At the ninth hearing of the trial on charges including the "forced hospitalization of his older brother" on March 11, 2019, P and her daughter reportedly appeared as prosecution witnesses and, at their request, did not face the defendant in the courtroom.
 - It was reported that then-Gyeonggi Governor Lee Jae-myung was indicted on charges of ordering his older brother's forced hospitalization as mayor of Seongnam (abuse of authority) and of disseminating false information in a TV debate, that he was acquitted of abuse of authority at both the first and second instances, and that on the false-information charge he was acquitted at first instance and found guilty at second instance (a 3-million-won fine), before the Supreme Court in July 2020 reversed and remanded the case with a view to acquittal and he was acquitted at the retrial on remand on Oct. 16 of that year.
 

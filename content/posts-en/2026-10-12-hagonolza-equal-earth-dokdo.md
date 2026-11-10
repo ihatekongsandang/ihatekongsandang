@@ -1,8 +1,8 @@
 ---
 id: 2026-10-12-hagonolza-equal-earth-dokdo
 title: "\"Grounds for impeachment if the government agreed to delete Dokdo\" — a post on conflicting accounts from the mapmaker and the foreign ministry over Dokdo disappearing from the Korean edition of the 'Equal Earth' world map"
-description: "Instagram @hagonolza says Reform Party leader Lee Ki-in demanded answers over Dokdo's removal from an Equal Earth map; the mapmaker and ministry disagree."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Dokdo deleted from the Korean edition of the Equal Earth world map — mapmaker: \"consulted Korean and Japanese embassies\" vs. foreign ministry: \"not true\" / The Korean edition made by VANK and officially listed in June lost Dokdo in October / Foreign ministry: never consulted on or agreed to deletion with Japan; seeking a correction / The \"grounds for impeachment\" remark the original attributes to Reform Party emergency committee chair Lee Ki-in is unconfirmed in reports'"
+description: "Instagram @hagonolza says Reform Party leader L demanded answers over Dokdo's removal from an Equal Earth map; the mapmaker and ministry disagree."
+imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Dokdo deleted from the Korean edition of the Equal Earth world map — mapmaker: \"consulted Korean and Japanese embassies\" vs. foreign ministry: \"not true\" / The Korean edition made by VANK and officially listed in June lost Dokdo in October / Foreign ministry: never consulted on or agreed to deletion with Japan; seeking a correction / The \"grounds for impeachment\" remark the original attributes to Reform Party emergency committee chair L is unconfirmed in reports'"
 imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Chair, Reform Party emergency committee"
 attribution: "Instagram @hagonolza"
@@ -14,7 +14,7 @@ This post is based on the original caption and its 5 images. The original repost
 ## What the original post claims (the poster's opinion)
 
 - It says Dokdo disappeared from the Korean edition of the "Equal Earth" world map, and that while the mapmaker said this resulted from consultations with Korean and Japanese embassy officials, the foreign ministry denied having agreed to or reached any deal on the deletion.
-- It says Lee Ki-in (이기인), chair of the Reform Party's emergency committee, pushed back on social media, saying "if the South Korean government agreed to delete Dokdo, that is grounds for impeachment," and demanded that the presidential office disclose records of who made contact, when, and what views were conveyed. It also quotes remarks such as "How can erasing our land from a map be a 'compromise'?" and "A change of government does not change the responsibility to defend our territory."
+- It says L, chair of the Reform Party's emergency committee, pushed back on social media, saying "if the South Korean government agreed to delete Dokdo, that is grounds for impeachment," and demanded that the presidential office disclose records of who made contact, when, and what views were conveyed. It also quotes remarks such as "How can erasing our land from a map be a 'compromise'?" and "A change of government does not change the responsibility to defend our territory."
 - It sums up the core of the dispute as the mapmaker citing consultations while the foreign ministry denies any consultation, adding that whether the South Korean government agreed to the deletion has not been confirmed.
 
 ## What reports confirm
@@ -25,6 +25,6 @@ This post is based on the original caption and its 5 images. The original repost
 
 ## What we left out of the summary
 
-- Emergency committee chair Lee's "grounds for impeachment" remark and demand for records are what the original presents as social media remarks; we found no reports covering them. The remark itself is also conditional — if the government agreed to the deletion.
+- Emergency committee chair L's "grounds for impeachment" remark and demand for records are what the original presents as social media remarks; we found no reports covering them. The remark itself is also conditional — if the government agreed to the deletion.
 - Reports have not established whether the mapmaker's account (embassy consultations) or the foreign ministry's account (no consultation or agreement) is correct.
 - Online community reactions quoted in the original were not reproduced.

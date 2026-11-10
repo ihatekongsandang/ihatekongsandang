@@ -21,7 +21,7 @@ This post is based on the image of the original post; the caption is empty. Rela
 
 - On the radio on Sept. 29, Jin reportedly said, "Whether washed away or laid, North Korea is basically responsible," but that "it is hard to conclude it was planted to injure our troops."
 - On Sept. 25, Kim reportedly told Rep. Han Dong-hoon (한동훈), who had called the pause in the investigation over the Chuseok holiday "dereliction of duty," "If you don't know, shut up," adding that "the claim that evidence will be washed away is not science but superstition" and that the National Forensic Service analysis would soon settle it.
-- Park reportedly called the People Power Party's attacks over the accident "a conspiracy theory stoking security fears," and Shin criticized the party for using soldiers' lives and safety as a tool for political strife by raising evidence destruction and even impeachment (Sept. 25–26).
+- Park, a lawmaker, reportedly called the People Power Party's attacks over the accident "a conspiracy theory stoking security fears," and Shin, a former lawmaker, criticized the party for using soldiers' lives and safety as a tool for political strife by raising evidence destruction and even impeachment (Sept. 25–26).
 - The JCS then announced on Sept. 28 that a North Korean mine was very likely, and at the Defense Committee on Sept. 29 both parties reportedly condemned the North Korean mine-laying with one voice while clashing over how to respond.
 
 ## What we left out of the summary

@@ -11,7 +11,7 @@ This post is based on the original caption and the video thumbnail; the full vid
 
 ## What reports confirm
 
-- Reports say the Sept. 15, 2026, confirmation hearing for Justice Minister nominee Kim Seung-won (김승원) was marked by shouting from the start, and that when Democratic Party Rep. Kim Dong-a (김동아) and others called Rep. Joo a "devil" and "hideous," Joo shot back, "What did you just say?"
+- Reports say the Sept. 15, 2026, confirmation hearing for Justice Minister nominee Kim Seung-won (김승원), a Democratic Party lawmaker, was marked by shouting from the start, and that when Democratic Party Rep. Kim Dong-a (김동아) and others called Rep. Joo a "devil" and "hideous," Joo shot back, "What did you just say?"
 - At issue were allegations of favoritism in the selection, for a Suwon city voucher program, of a cooperative headed by the nominee's spouse; Rep. Joo reportedly claimed that "40% of the money meant for children with developmental disabilities went to nominee Kim's family," and nominee Kim reportedly teared up, saying, "This is not something I do to make money."
 - During the afternoon questioning, Rep. Joo reportedly said to Democratic Party lawmakers, "Did you get a directive from Kim Hyun-ji this time too? Did you get a directive to shield him again?", setting off another round of shouting between the parties. Kim Hyun-ji (김현지) is director of the First Attached Office at Cheong Wa Dae (제1부속실장).
 - It was also reported that an aide to nominee Kim was found the same day to have photographed Rep. Joo's questioning notes, and that the nominee's side apologized, calling it "a careless judgment by a staffer in their 20s" and saying the photos "were deleted immediately."

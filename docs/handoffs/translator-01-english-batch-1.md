@@ -121,7 +121,7 @@
 | 한준호 | Han Jun-ho | |
 | 김승원 | Kim Seung-won | |
 | 김태규 | Kim Tae-gyu | |
-| 강연재 | Kang Yeon-jae | |
+| (업로더 19: 계정 핸들로 표기) | (handle only) | |
 | 조희대 | Cho Hee-dae | |
 | 김현지 | Kim Hyun-ji | |
 | 손봉기 | Son Bong-gi | |

@@ -43,7 +43,6 @@ tags:
   - 25사단
   - 유엔사
   - 정전협정
-  - 김여정
 ---
 
 이 게시물은 원문 텍스트를 기준으로 정리했습니다(첨부 이미지 없음). 같은 계정의 앞선 속보: [합참 중간조사 속보 스레드](/post/2026-09-28-2pro-jcs-interim-claim). 이전 경과: [합참 중간조사 결과 정리](/post/2026-09-28-pagememo-jcs-interim-result) · [진성준 "의도 따져봐야"](/post/2026-09-29-finf-jinsungjoon-mine-intent) · [이 대통령 "근거 없는 음모론 없길"](/post/2026-09-29-sbsnews-lee-mine-conspiracy-remark).

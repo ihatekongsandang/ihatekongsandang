@@ -15,8 +15,8 @@ This post is based on the original caption and the first slide. The original is 
 
 ## What reports confirm
 
-- First slide: At a KBS presidential candidates' debate on April 19, 2017, when candidate Yoo Seung-min (유승민) asked, "Is North Korea the main enemy?", candidate Moon Jae-in (문재인) replied, "I don't think that is something to say as a president." Moon later explained that North Korea is clearly a military threat and also, under the Constitution, a partner for peaceful unification.
-- At confirmation hearings in July 2025, Unification Minister nominee Chung Dong-young (정동영) reportedly answered "I do not agree" when asked whether North Korea is the main enemy, and Labor Minister nominee Kim Young-hoon (김영훈) reportedly agreed with this, then after a back-and-forth answered, "Yes, it is the main enemy."
+- First slide: At a KBS presidential candidates' debate on April 19, 2017, when candidate Yoo Seung-min (유승민), then a Bareun Party lawmaker, asked, "Is North Korea the main enemy?", candidate Moon Jae-in (문재인) replied, "I don't think that is something to say as a president." Moon later explained that North Korea is clearly a military threat and also, under the Constitution, a partner for peaceful unification.
+- At confirmation hearings in July 2025, Unification Minister nominee Chung Dong-young (정동영) reportedly answered "I do not agree" when asked whether North Korea is the main enemy, and Labor Minister nominee Kim Young-hoon (김영훈), who was appointed labor minister later that month, reportedly agreed with this, then after a back-and-forth answered, "Yes, it is the main enemy."
 
 ## Answer on Cheonan and Yeonpyeong (update)
 

@@ -44,7 +44,6 @@ sources:
     url: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002399256
     date: 2018-02-02
 tags:
-  - 정율성
   - 광주
   - 중국공산당
   - 어린이

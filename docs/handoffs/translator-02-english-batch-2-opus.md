@@ -130,7 +130,7 @@
 | 최재해 · 유병호 | Choe Jae-hae · Yoo Byung-ho | ⚠️ 확인 필요 |
 | 이종섭 · 이화영 · 이기식 · 이상현 · ㅇ씨 · 이주희 | Lee Jong-sup · Lee Hwa-young · Lee Ki-sik · Lee Sang-hyun · L · Lee Ju-hee | 이 = Lee 관용 |
 | ㅂ씨 · 박상용 · 배준영 · 서영교 · 신상진 | P · Park Sang-yong · Bae Jun-young · Seo Young-kyo · Shin Sang-jin | ⚠️ 확인 필요 |
-| 장도영 · 정지웅 · 정태옥 · 제윤경 · ㅈ씨 · 유창훈 · 최영진 | Jang Do-young · Jung Ji-woong · Jeong Tae-ok · Je Yoon-kyung · J · Yoo Chang-hoon · Choi Young-jin | ⚠️ 확인 필요(정 = Jung/Jeong 혼재 — 기존 영어본 정점식=Jung, 이번 정태옥=Jeong. 통일 여부 슈퍼바이저 판단) |
+| 정지웅 · 정태옥 · 제윤경 · ㅈ씨 · 유창훈 · 최영진 | Jung Ji-woong · Jeong Tae-ok · Je Yoon-kyung · J · Yoo Chang-hoon · Choi Young-jin | ⚠️ 확인 필요(정 = Jung/Jeong 혼재 — 기존 영어본 정점식=Jung, 이번 정태옥=Jeong. 통일 여부 슈퍼바이저 판단) |
 | 정율성 | Jeong Yul-seong | 중국명 Zheng Lücheng은 넣지 않음(원본에 없음) |
 | 안규백 | Ahn Gyu-back | 썸네일 자막 alt에만 등장 |
 | 우하이 (가수) · 「모르고」 | Woohai · "Moreugo" | 아티스트 공식 영문명 미확인 — ⚠️ 확인 필요 |

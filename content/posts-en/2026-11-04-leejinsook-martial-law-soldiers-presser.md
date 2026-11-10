@@ -9,7 +9,7 @@ attribution: "Instagram @_leejinsook (Lee Jin-sook)"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and the press conference video (about 8 minutes, 12 frames); we did not transcribe the full remarks. An [Instagram reel by @jugwan_ilbo](https://www.instagram.com/reel/DfT6s46iYjy/) (Nov. 4) that introduced the same press conference as "Exposing the Lee Jae-myung regime — shocking revelation" is noted here instead of in a separate post. We used a card made by this site.
+This post is based on the original caption and the press conference video (about 8 minutes, 12 frames); we did not transcribe the full remarks. An [Instagram reel by @jugwan_ilbo](https://www.instagram.com/reel/DfT6s46iYjy/) (Nov. 4) that introduced the same press conference as "Exposing the Lee Jae-myung regime — shocking revelation," and an [Instagram reel by @wikipost_mag](https://www.instagram.com/reel/DfUjVLUuRxo/) (Nov. 4) whose caption carries the full statement Y read at the same press conference, are noted here instead of in separate posts. The statement's criticisms of the government are the speaker's opinions, so we did not carry them into the summary. We used a card made by this site.
 
 ## What the original post claims (the poster's opinion)
 

@@ -14,7 +14,7 @@ translatedAt: 2026-11-09
 
 ## Later developments (important)
 
-The Democratic Party reportedly **withdrew the amendment on Sept. 10** after the controversy. Floor spokesperson Lee Ju-hee (이주희) reportedly said that "in the recent process of adjusting 140 bills all at once to fit the amended Criminal Procedure Act, the special counsel law amendment was drafted and introduced in a way that differed from the intent of the agreement," and that the party plans to reintroduce it so that the special counsel's dispatched prosecutors can investigate.
+The Democratic Party reportedly **withdrew the amendment on Sept. 10** after the controversy. Floor spokesperson Lee Ju-hee (이주희), a Democratic Party lawmaker, reportedly said that "in the recent process of adjusting 140 bills all at once to fit the amended Criminal Procedure Act, the special counsel law amendment was drafted and introduced in a way that differed from the intent of the agreement," and that the party plans to reintroduce it so that the special counsel's dispatched prosecutors can investigate.
 
 The original post predates the withdrawal.
 

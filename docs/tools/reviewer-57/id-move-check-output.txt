@@ -1,0 +1,10 @@
+OK moved-ids.txt:5 → 2026-08-06-owloffreedom-707-commander-sentencing {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:6 → 2026-09-12-peoplepower7-civic-group-head-dp-card {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:7 → 2026-09-26-nonjeomjikjin-dmz-marine-corporal-standard {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:8 → 2026-09-30-monarch-former-ambassador-church-claims {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true} 이미지 1
+OK moved-ids.txt:9 → 2026-09-13-geonwoo-professor-2023-remark {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:10 → 2026-09-24-hagonolza-lawyer-spy-remark {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:11 → 2026-09-25-lawyer-nk-pow-ukraine {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:12 → 2026-07-24-korealive-singer-moreugo {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+OK moved-ids.txt:13 → 2026-09-28-instagram-chief-justice-audit-witness {"retired":true,"oldRefs0":true,"oldImgDir0":true,"koId":true,"enId":true,"images":true}
+결과: 미통과 0

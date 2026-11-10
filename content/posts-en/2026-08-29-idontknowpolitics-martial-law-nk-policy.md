@@ -16,7 +16,7 @@ This post is based on the original caption posted on Aug. 29, 2026; the video co
 
 ## What reports confirm
 
-- At his July 2025 confirmation hearing, Unification Minister Chung Dong-young (정동영) reportedly answered "I do not agree" when asked whether North Korea is the main enemy, and Labor Minister nominee Kim Young-hoon (김영훈) reportedly said he also agreed with this, then after a day-long back-and-forth answered, "Yes, it is the main enemy."
+- At his July 2025 confirmation hearing, Unification Minister Chung Dong-young (정동영) reportedly answered "I do not agree" when asked whether North Korea is the main enemy, and Labor Minister nominee Kim Young-hoon (김영훈), who was appointed labor minister later that month, reportedly said he also agreed with this, then after a day-long back-and-forth answered, "Yes, it is the main enemy."
 - In his 2025 Liberation Day address, President Lee Jae-myung said, "The South and the North are not enemies" and "We will not pursue any form of unification by absorption and have no intention of engaging in any hostile acts," and pledged the preemptive, phased restoration of the Sept. 19 military agreement.
 - Reports say the Ministry of National Defense began removing fixed and mobile loudspeakers aimed at North Korea in August 2025, and in June 2026 dismantled the Defense Counterintelligence Command after 49 years, dividing its counterintelligence, security and investigation functions among new organizations.
 - It was reported that in late 2025 and early 2026 it became known that some frontline units had considered or implemented, under JCS guidelines, having guardhouse sentries carry telescopic batons instead of firearms, sparking controversy, and that the Army belatedly withdrew the plan.

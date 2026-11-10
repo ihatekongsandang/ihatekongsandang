@@ -16,7 +16,7 @@ This post is based on the original caption and video thumbnail; the full video w
 
 ## What reports confirm
 
-- After KBS reported allegations concerning former Justice Minister nominee Kim Seung-won on Sept. 19, a staffer for Rep. Han Jun-ho — the ruling party's senior member (gansa) on the National Assembly's Science, ICT, Broadcasting and Communications Committee — reportedly called a KBS reporter to protest.
+- After KBS reported allegations concerning Rep. Kim Seung-won, a former Justice Minister nominee, on Sept. 19, a staffer for Rep. Han Jun-ho — the ruling party's senior member (gansa) on the National Assembly's Science, ICT, Broadcasting and Communications Committee — reportedly called a KBS reporter to protest.
 - On Sept. 28, People Power Party legal affairs committee chair Kim Tae-gyu (김태규) and press-freedom special committee chair Kim Jang-gyeom reportedly filed a complaint against Rep. Han and his staff with the Seoul Yeongdeungpo Police Station on suspicion of violating the Broadcasting Act, and Rep. Kim Jang-gyeom reportedly demanded Rep. Han apologize and resign his seat.
 - Rep. Han's side reportedly said that, as the office of the committee's ruling-party senior member, it routinely communicates with KBS, and that it never requested any article be revised, calling the People Power Party's claim a "political offensive."
 - The KBS Reporters' Association reportedly said the protest call appeared to have actually happened, but that whether it amounted to pressure on the reporting was disputed.

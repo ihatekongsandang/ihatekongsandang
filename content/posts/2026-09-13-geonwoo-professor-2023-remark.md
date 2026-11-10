@@ -22,7 +22,6 @@ sources:
     url: https://www.newsis.com/view/NISX20230313_0002224021
     date: 2023-03-13
 tags:
-  - 진중권
   - 이재명
 ---
 
