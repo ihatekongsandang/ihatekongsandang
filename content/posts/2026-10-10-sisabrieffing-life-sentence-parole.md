@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeTTEaJPLy3/
 attribution: 인스타그램 @sisa_brieffing
 useSourceImage: false
-image:
-  src: /images/2026-10-10-sisabrieffing-life-sentence-parole/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '올해 가석방 무기징역수 13명 — 2025년 9명·2024년 1명 (주진우 의원 자료) / 10월 8일 법무부 국정감사에서 문제 제기 / 법무부 장관 직무대행: 과밀수용 125%로 가석방 확대 인정 / 무기수도 20년 이상 복역 시 심사 대상 — 재범 위험 등 심사' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -29,7 +25,7 @@ tags:
   - 주진우
 ---
 
-이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다.
+이 게시물은 원문 캡션을 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 

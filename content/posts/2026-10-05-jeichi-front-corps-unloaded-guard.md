@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeGL5TGJ6RT/
 attribution: 인스타그램 @jeichi_l
 useSourceImage: false
-image:
-  src: /images/2026-10-05-jeichi-front-corps-unloaded-guard/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '전방 군단 빈총 경계, 1·2·3·5군단·해병대 2사단 확인 / GP·GOP에서 실탄을 화기에 넣지 않은 미삽탄 경계 — 국방부 8월 점검 / 지작사·1·2군단·22사단 기관경고, 합참 개선 처분 (10월 5일 보도)' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -38,7 +34,7 @@ tags:
   - dmz
 ---
 
-같은 사안을 다룬 [인스타그램 @hagonolza 게시물](https://www.instagram.com/p/DeK8M3jz4lG/)(조선일보 단독 캡처)과 [스레드 @_cheer_up_korea_ 글](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO)("[충격 속보] 전방 모두 '빈총' 적발, 경계 상황 심각" 카드)은 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 첫 장 이미지(캡션 없음)를 기준으로 정리했습니다. 원문 카드에는 확인되지 않은 주장도 섞여 있어, 원문 이미지 대신 자체 제작 카드를 썼습니다. 관련 게시물: [북한군 8~9월 MDL 50여 회 침범](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [중부전선 15사단 북한 지뢰 위협](/post/2026-10-01-rekor-15div-mine-field).
+같은 사안을 다룬 [인스타그램 @hagonolza 게시물](https://www.instagram.com/p/DeK8M3jz4lG/)(조선일보 단독 캡처)과 [스레드 @_cheer_up_korea_ 글](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO)("[충격 속보] 전방 모두 '빈총' 적발, 경계 상황 심각" 카드)은 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 첫 장 이미지(캡션 없음)를 기준으로 정리했습니다. 원문 카드에는 확인되지 않은 주장도 섞여 있어, 원문 이미지는 쓰지 않았습니다. 관련 게시물: [북한군 8~9월 MDL 50여 회 침범](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [중부전선 15사단 북한 지뢰 위협](/post/2026-10-01-rekor-15div-mine-field).
 
 ## 원문 주장 (게시자 의견)
 

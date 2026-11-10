@@ -2,13 +2,11 @@
 id: 2026-10-01-ntdkorea-jeju-falungong-rally-chinese
 title: "\"A case like the 'Xi Jinping restaurant attack' happened in Jeju too\" — three Chinese nationals were reportedly booked under the Assembly and Demonstration Act for damaging materials at a Falun Gong rally in Jeju in June"
 description: "Instagram @ntdkorea ties the Bundang 'Xi Jinping' restaurant vandalism to a June Jeju Falun Gong rally attack; three Chinese men were reportedly booked."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'A case like the Xi Jinping restaurant attack — did it happen in Jeju too? Three Chinese nationals booked under the Assembly and Demonstration Act over damaged materials at a Falun Gong rally in Jeju in June — checked against reports'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @ntdkorea (엔티디 코리아)"
 translatedAt: 2026-10-01
 ---
 
-This post is based on the original caption and the first frame of the video. The first frame is marked "Source: provided by the Falun Gong side" and shows the faces of the man identified as an attacker and of passersby, so we used a card made by this site instead of the original image. Related post (may be available only in Korean): [Reports of crimes by Chinese nationals, including a five-person confinement and robbery in Jeju](/post/2026-09-28-rekor-chinese-crime-tourism).
+This post is based on the original caption and the first frame of the video. The first frame is marked "Source: provided by the Falun Gong side" and shows the faces of the man identified as an attacker and of passersby, so we did not use the original image. Related post (may be available only in Korean): [Reports of crimes by Chinese nationals, including a five-person confinement and robbery in Jeju](/post/2026-09-28-rekor-chinese-crime-tourism).
 
 ## What the original post claims (the poster's opinion)
 

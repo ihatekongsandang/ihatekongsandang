@@ -2,13 +2,11 @@
 id: 2026-11-05-dduddd-kimtaekyu-expulsion-resolution
 title: "Threads post labeled \"[Breaking]\": \"Resolution urging expulsion of lawmaker Kim Tae-kyu passes, led by the Democratic Party,\" with 166 in favor as the People Power Party boycotts the vote (reports)"
 description: "Threads @_ddu._dd relays a resolution urging lawmaker Kim Tae-kyu's expulsion; reports say it passed with 166 votes, and actual expulsion needs more steps."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Resolution urging lawmaker Kim Tae-kyu's expulsion passes plenary — 166 in favor, 1 invalid / Nov. 5, led by the Democratic Party; People Power Party boycotted (reports) / Triggered by Sept. 30 YouTube remark \"Yoon Suk Yeol and Chun Doo-hwan were not insurrection\" / Actual expulsion requires an ethics committee review and two-thirds of all members'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Threads @_ddu._dd"
 translatedAt: 2026-11-05
 ---
 
-This post is based on the original text and one attached photo (of lawmaker Kim Tae-kyu). The photo appears to be an uncredited press photo, so we used a card made by this site. A similar earlier resolution (may be available only in Korean): [Lee Jin-sook's call to disclose May 18 merit records after an expulsion resolution](/post/2026-09-13-geonwoo-leejinsook-518-merit-disclosure).
+This post is based on the original text and one attached photo (of lawmaker Kim Tae-kyu). The photo appears to be an uncredited press photo, so we did not use it. A similar earlier resolution (may be available only in Korean): [Lee Jin-sook's call to disclose May 18 merit records after an expulsion resolution](/post/2026-09-13-geonwoo-leejinsook-518-merit-disclosure).
 
 ## What the original post claims (the poster's opinion)
 

@@ -10,10 +10,6 @@ speaker:
   name: 김민석
   affiliation: 더불어민주당 대표
 useSourceImage: false
-image:
-  src: /images/2026-10-07-gotdemcatch-kimminseok-chief-justice-resign/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '김민석 조희대, 재제청 처리 못하면 그만두는 게 낫다 / 10월 7일 민주당 유튜브 민티 07 출연 발언 — 대법관 후보 재제청 갈등 / 조 대법원장은 재제청이 헌법에 근거가 없다는 입장으로 보도' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -36,7 +32,7 @@ tags:
   - 더불어민주당
 ---
 
-이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문 첫 장의 "김민석, 조희대 제거한다 / 이재명 말 안들을거면 사퇴해라 / 안그러면 내 방식대로 하겠다"는 김 대표가 실제로 한 말처럼 읽히지만 보도된 발언이 아니어서, 원문 이미지 대신 자체 제작 카드를 썼습니다. 대법관 재제청 갈등을 다룬 다른 게시물: [조희대 "사법 독립 보호돼야" vs 이 대통령](/post/2026-09-18-dailybite-judicial-independence) · [법사위, 대법원장 국감 증인 채택](/post/2026-09-28-instagram-chief-justice-audit-witness).
+이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했습니다. 원문 첫 장의 "김민석, 조희대 제거한다 / 이재명 말 안들을거면 사퇴해라 / 안그러면 내 방식대로 하겠다"는 김 대표가 실제로 한 말처럼 읽히지만 보도된 발언이 아니어서, 원문 이미지는 쓰지 않았습니다. 대법관 재제청 갈등을 다룬 다른 게시물: [조희대 "사법 독립 보호돼야" vs 이 대통령](/post/2026-09-18-dailybite-judicial-independence) · [법사위, 대법원장 국감 증인 채택](/post/2026-09-28-instagram-chief-justice-audit-witness).
 
 ## 원문 주장 (게시자 의견)
 

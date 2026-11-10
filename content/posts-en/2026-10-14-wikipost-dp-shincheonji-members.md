@@ -2,13 +2,13 @@
 id: 2026-10-14-wikipost-dp-shincheonji-members
 title: "\"Signs that 30,000+ Shincheonji members joined the Democratic Party en masse\" — leader Kim Min-seok says \"considerable collective enrollment confirmed\" but reported numbers are \"not accurate\""
 description: "Instagram @wikipost_mag says a Democratic Party task force found signs 30,000+ Shincheonji members joined; leader Kim called the figure inaccurate."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Democratic Party report of \"signs of mass enrollment by Shincheonji members\" — party membership task force investigation, deliberating how much to disclose / Leader Kim Min-seok: considerable collective enrollment confirmed, meaningful testimony gathered / On reports of \"at least 30,000\": \"the reported number is not accurate\" / Pro-Jung faction: organized voting was not confirmed — demands release of findings'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "A person in glasses and a suit walking sideways with a hand raised in front of a blue background, their shadow on the wall"
+imageCaption: "Democratic Party leader Kim Min-seok attending a Supreme Council meeting at the National Assembly on Oct. 14, 2026 (per the original article's photo caption). The person in the photo is not the subject of the allegations in this post."
 attribution: "Instagram @wikipost_mag (Wikipost)"
 translatedAt: 2026-10-14
 ---
 
-This post is based on the original caption and thumbnail; the video content was not reviewed. The original thumbnail's "50,000 Shincheonji members in the Democratic Party," "the Shincheonji involvement claim was true" and "did they take over the Democratic Party?" are more definitive than reports, so we used a card made by this site.
+This post is based on the original caption and thumbnail; the video content was not reviewed. The original thumbnail's "50,000 Shincheonji members in the Democratic Party," "the Shincheonji involvement claim was true" and "did they take over the Democratic Party?" are more definitive than reports, so we did not use the original thumbnail.
 
 ## What the original post claims (the poster's opinion)
 

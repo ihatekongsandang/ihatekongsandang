@@ -2,13 +2,11 @@
 id: 2026-10-05-issueradar-nsc-cyber-sanctions-clash
 title: "\"Why cyber sanctions unrelated to the North Korean mine, and why now?\" — Unification Minister Chung Dong-young reportedly strongly opposed Foreign Minister Cho Hyun's proposed unilateral cyber sanctions on North Korea at the Oct. 1 NSC meeting; the foreign ministry says it is 'under internal review'"
 description: "Instagram @issueradar_kr on an NSC clash over the mine response; Chung Dong-young reportedly opposed Cho Hyun's cyber sanctions plan, still unconfirmed."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Heated NSC debate over the North Korean mine response — Cho Hyun's unilateral cyber sanctions vs. Chung Dong-young's opposition / Oct. 1 NSC standing committee — foreign ministry: \"under internal review, nothing confirmed\" / Oct. 5 JCS final conclusion: \"a typical North Korean mine that was planted\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @issueradar_kr"
 translatedAt: 2026-11-08
 ---
 
-This post is based on the original caption and the first frame of the reel. The first frame's "Don't sanction North Korean hacking" reads as if Unification Minister Chung Dong-young said it, but it is not a reported remark, so we used a card made by this site instead of the original image. Other posts on the response to the mine incident (some may be available only in Korean): [Alaska LNG and the North Korean mine: the government's responses](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [Frontline corps' "empty-gun guard duty"](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
+This post is based on the original caption and the first frame of the reel. The first frame's "Don't sanction North Korean hacking" reads as if Unification Minister Chung Dong-young said it, but it is not a reported remark, so we did not use the original image. Other posts on the response to the mine incident (some may be available only in Korean): [Alaska LNG and the North Korean mine: the government's responses](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [Frontline corps' "empty-gun guard duty"](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
 
 ## What the original post claims (the poster's opinion)
 

@@ -2,14 +2,12 @@
 id: 2026-10-07-geonwoovibes-defector-repatriation-claim
 title: "Park Choong-kwon: \"A tip that the unification ministry and Minbyun are coaxing North Korean defectors to return north\" — at the Oct. 7 unification ministry audit, Park protested \"Is this a funny matter?\" as Minister Chung Dong-young and Democratic lawmakers laughed; the ministry called it \"completely groundless\""
 description: "Instagram @geonwoo.vibes on Park Choong-kwon's claim that defectors were coaxed to return north; the ministry reportedly called it groundless."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Park Choong-kwon discloses a tip that the unification ministry and Minbyun coaxed defectors to return north / Protested \"Is this a funny matter?\" at laughter during questioning / Oct. 7 National Assembly foreign affairs and unification committee audit of the unification ministry / Minister Chung Dong-young denied it: \"Such a thing cannot happen\" / Ministry's official position after the audit: \"completely groundless\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and the first frame of the reel (we did not review the whole video). The first frame's "Forced repatriation is funny?" differs in wording from Park's reported remark ("Is this a funny matter right now?"), so we used a card made by this site instead of the original image. The tip is Park's claim and has not been confirmed as fact.
+This post is based on the original caption and the first frame of the reel (we did not review the whole video). The first frame's "Forced repatriation is funny?" differs in wording from Park's reported remark ("Is this a funny matter right now?"), so we did not use the original image. The tip is Park's claim and has not been confirmed as fact.
 
 ## What the original post claims (the poster's opinion)
 

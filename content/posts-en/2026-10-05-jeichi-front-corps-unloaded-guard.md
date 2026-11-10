@@ -2,13 +2,11 @@
 id: 2026-10-05-jeichi-front-corps-unloaded-guard
 title: "\"Every frontline corps stood guard without live ammunition\" — a defense ministry inspection reportedly found 'empty-gun guard duty' (ammunition not loaded) in the 1st, 2nd, 3rd and 5th Corps and the 2nd Marine Division, leading to institutional warnings; ammunition was carried but not loaded"
 description: "Instagram @jeichi_l faults frontline guard duty; a ministry check reportedly found ammo not loaded at GP/GOP posts in four corps and a Marine division."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Frontline corps \"empty-gun guard duty\" — confirmed in the 1st, 2nd, 3rd and 5th Corps and the 2nd Marine Division / Guard duty at GP and GOP posts without ammunition loaded — August defense ministry inspection / Institutional warnings for Ground Operations Command, 1st and 2nd Corps and 22nd Division; corrective action for the JCS (reported Oct. 5)'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @jeichi_l"
 translatedAt: 2026-10-07
 ---
 
-An [Instagram post by @hagonolza](https://www.instagram.com/p/DeK8M3jz4lG/) (sharing a capture of the Chosun Ilbo exclusive) and a [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO) on the same issue (a card reading "[Shocking breaking news] 'Empty guns' found across the entire front, a serious guard situation") are noted here instead of in separate posts. This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
+An [Instagram post by @hagonolza](https://www.instagram.com/p/DeK8M3jz4lG/) (sharing a capture of the Chosun Ilbo exclusive) and a [Threads post by @_cheer_up_korea_](https://www.threads.com/@_cheer_up_korea_/post/DeGkkRIGNiO) on the same issue (a card reading "[Shocking breaking news] 'Empty guns' found across the entire front, a serious guard situation") are noted here instead of in separate posts. This post is based on the original's first image (no caption). Because the original card also mixes in unverified claims, we did not use the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [North Korean mine threat in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field).
 
 ## What the original post claims (the poster's opinion)
 

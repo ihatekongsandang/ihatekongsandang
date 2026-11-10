@@ -2,14 +2,14 @@
 id: 2026-10-11-knn-joojinwoo-taereung-golf
 title: "Joo Jin-woo: \"President Lee was at Taereung CC golf course the day a Daegu shopping-building ceiling collapsed\" — presidential office: \"He visited the course with family, was briefed on site and ordered rescue and recovery\""
 description: "Instagram @knn.news on Rep. Joo Jin-woo's claim that President Lee golfed on Oct. 10; the office said Lee was briefed there and gave orders."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Joo Jin-woo claims \"President Lee played imperial golf at Taereung CC on the day of the Daegu shopping-building ceiling collapse\" (Oct. 11) / Released photos and video of security vehicles, demanded disclosure of the response / Presidential office: \"Visited Taereung golf course with family… briefed on site and ordered recovery\" / \"Regret that a private, undisclosed schedule is used for political attacks\"'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "A person in glasses and a suit holding up a board with a photo of a motorcade while speaking at a podium in front of the National Assembly logo"
+imageCaption: "People Power Party Rep. Joo Jin-woo speaking at a press conference at the National Assembly's media center on Oct. 11, 2026 (per the original article's photo caption). The person in the photo is not the subject of the allegations in this post."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @knn.news (KNN)"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and the reel's thumbnail (a news reel by broadcaster KNN). Because the thumbnail includes wording such as "shocking revelation," we used a card made by this site showing both sides instead of the original image.
+This post is based on the original caption and the reel's thumbnail (a news reel by broadcaster KNN). Because the thumbnail includes wording such as "shocking revelation," we did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

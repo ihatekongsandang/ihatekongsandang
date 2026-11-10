@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd8BsfmzGTV/
 attribution: 인스타그램 @ntdkorea (엔티디 코리아)
 useSourceImage: false
-image:
-  src: /images/2026-10-01-ntdkorea-jeju-falungong-rally-chinese/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 ''시진핑 식당' 사건 닮은꼴, 제주에서도 있었다? 6월 제주 파룬궁 집회 현장 기물 파손 혐의 중국인 3명 집시법 위반 입건 보도 대조' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -30,7 +26,7 @@ tags:
   - 인권
 ---
 
-이 게시물은 원문 캡션과 영상 첫 화면을 기준으로 정리했습니다. 원문 영상 첫 화면에는 '출처: 파룬궁 측 제공'이라는 표시와 함께 가해자로 지목된 남성과 행인의 얼굴이 나와 있어, 원문 이미지 대신 자체 제작 카드를 썼습니다. 관련 게시물: [제주 중국인 5인조 감금·강도 등 중국 국적자 범죄 보도](/post/2026-09-28-rekor-chinese-crime-tourism).
+이 게시물은 원문 캡션과 영상 첫 화면을 기준으로 정리했습니다. 원문 영상 첫 화면에는 '출처: 파룬궁 측 제공'이라는 표시와 함께 가해자로 지목된 남성과 행인의 얼굴이 나와 있어, 원문 이미지는 쓰지 않았습니다. 관련 게시물: [제주 중국인 5인조 감금·강도 등 중국 국적자 범죄 보도](/post/2026-09-28-rekor-chinese-crime-tourism).
 
 ## 원문 주장 (게시자 의견)
 

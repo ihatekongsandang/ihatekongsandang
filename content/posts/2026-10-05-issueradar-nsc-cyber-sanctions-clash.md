@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeHOrOpToC2/
 attribution: 인스타그램 @issueradar_kr
 useSourceImage: false
-image:
-  src: /images/2026-10-05-issueradar-nsc-cyber-sanctions-clash/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '北 지뢰 대응 놓고 NSC 격론, 조현 사이버 독자제재 vs 정동영 반대 / 10월 1일 NSC 상임위 — 외교부 내부 검토 단계, 확정된 바 없다 / 10월 5일 합참 최종 결론 매설된 전형적인 북한군 지뢰' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -46,7 +42,7 @@ tags:
   - 대북제재
 ---
 
-이 게시물은 원문 캡션과 릴스 첫 화면을 기준으로 정리했습니다. 원문 첫 화면의 "북한 해킹 제재 하지마"는 정동영 장관이 실제로 한 말처럼 읽히지만 보도된 발언이 아니어서, 원문 이미지 대신 자체 제작 카드를 썼습니다. 지뢰 사고 대응을 다룬 다른 게시물: [알래스카 LNG와 北 지뢰, 정부 대응 정리](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [전방 군단 '빈총 경계'](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
+이 게시물은 원문 캡션과 릴스 첫 화면을 기준으로 정리했습니다. 원문 첫 화면의 "북한 해킹 제재 하지마"는 정동영 장관이 실제로 한 말처럼 읽히지만 보도된 발언이 아니어서, 원문 이미지는 쓰지 않았습니다. 지뢰 사고 대응을 다룬 다른 게시물: [알래스카 LNG와 北 지뢰, 정부 대응 정리](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [전방 군단 '빈총 경계'](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
 
 ## 원문 주장 (게시자 의견)
 

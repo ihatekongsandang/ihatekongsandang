@@ -2,8 +2,6 @@
 id: 2026-09-15-bbang630-518-armored-vehicle-claim
 title: "\"May 18 protesters ran people down with an armored vehicle and pinned it on martial law troops\"? — a court ruled false the account that 'a martial law soldier died under a protesters' armored vehicle'"
 description: "Threads @bbang630 shares video saying May 18 protesters ran people down in an armored vehicle, blaming troops; courts reportedly ruled a Chun memoir line false."
-imageAlt: "Card on a white background with a red vertical bar on the left and the text 'A martial law soldier killed by a protesters' armored vehicle? Fact-checking the May 18 armored vehicle claim'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Threads @bbang630"
 translatedAt: 2026-09-30
 ---

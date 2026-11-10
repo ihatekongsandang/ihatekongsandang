@@ -2,13 +2,13 @@
 id: 2026-10-04-rnwndhk-panmunjom-usb-lawsuit
 title: "\"I got a ruling that the Panmunjom USB contained Grade 3 secrets\" — the 2024 disclosure suit was lost, with the court finding the unification ministry's USB classified as Grade 3; espionage complaints were dismissed by prosecutors in 2025"
 description: "Threads @rnwndhk on the Panmunjom USB disclosure suit; a 2024 ruling found the ministry's USB classified; spy complaints were dismissed in 2025."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '\"Panmunjom USB\" disclosure suit — plaintiff lost in 2024 / Court: contents of the USB held by the unification ministry are designated and managed as Grade 3 secrets / Whether it is the same USB handed to Kim Jong-un was not established in the ruling / April 2025: prosecutors dismissed espionage and benefiting-the-enemy complaints — \"part of governing activity\" / 2026: damages suit also dismissed on appeal; new complaint filed with police in January'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "Two people in suits sitting across a table on a bridge with a blue railing, talking, with woods and a path behind them"
+imageCaption: "Moon Jae-in, then president, and North Korean leader Kim Jong Un talking on the footbridge at Panmunjom on April 27, 2018 (per the original article's photo caption). Prosecutors reportedly decided in 2025 not to indict, dismissing the complaint. The photo shows only that event; it is not evidence of the allegations or trials in this post, which are based on the reports cited below."
 attribution: "Threads @rnwndhk"
 translatedAt: 2026-10-12
 ---
 
-This post is based on the original text and its three images (captures of a May 22, 2024 New Daily article), and we used a card made by this site instead of the original images. The author says they are the lawyer who filed the suit, but this post did not separately verify the account holder's identity. We do not reproduce derogatory wording such as "Red-unification ministry."
+This post is based on the original text and its three images (captures of a May 22, 2024 New Daily article), and we did not use the original images. The author says they are the lawyer who filed the suit, but this post did not separately verify the account holder's identity. We do not reproduce derogatory wording such as "Red-unification ministry."
 
 ## What the original post claims (the poster's opinion)
 

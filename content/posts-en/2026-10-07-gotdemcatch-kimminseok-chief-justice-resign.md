@@ -2,14 +2,12 @@
 id: 2026-10-07-gotdemcatch-kimminseok-chief-justice-resign
 title: "Democratic Party leader Kim Min-seok: \"If Cho Hee-dae can't resolve the re-nomination issue, he'd better step down\" — reported as pressure to resign amid the Supreme Court justice re-nomination dispute; the lines 'removing Cho' and 'if he won't listen to Lee Jae-myung' were not his words"
 description: "Instagram @got_dem_catch faults Kim Min-seok's pressure on the chief justice; Kim reportedly said Cho had better quit if he can't fix the re-nomination issue."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Kim Min-seok: \"If Cho Hee-dae can't resolve the re-nomination, he'd better step down\" / Remarks on the Democratic Party's YouTube show Minti 07 on Oct. 7 — the Supreme Court justice re-nomination dispute / The chief justice's position was reportedly that re-nomination has no basis in the Constitution'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Leader of the Democratic Party of Korea"
 attribution: "Instagram @got_dem_catch"
 translatedAt: 2026-10-07
 ---
 
-This post is based on the original caption and first slide. The first slide's "Kim Min-seok removes Cho Hee-dae / Resign if you won't listen to Lee Jae-myung / Otherwise I'll do it my way" reads as if Kim said it, but these are not reported remarks, so we used a card made by this site instead of the original image. Other posts on the re-nomination dispute (some may be available only in Korean): [Cho Hee-dae: "Judicial independence must be protected" vs. President Lee](/post/2026-09-18-dailybite-judicial-independence) · [Judiciary committee calls the chief justice as an audit witness](/post/2026-09-28-instagram-chief-justice-audit-witness).
+This post is based on the original caption and first slide. The first slide's "Kim Min-seok removes Cho Hee-dae / Resign if you won't listen to Lee Jae-myung / Otherwise I'll do it my way" reads as if Kim said it, but these are not reported remarks, so we did not use the original image. Other posts on the re-nomination dispute (some may be available only in Korean): [Cho Hee-dae: "Judicial independence must be protected" vs. President Lee](/post/2026-09-18-dailybite-judicial-independence) · [Judiciary committee calls the chief justice as an audit witness](/post/2026-09-28-instagram-chief-justice-audit-witness).
 
 ## What the original post claims (the poster's opinion)
 

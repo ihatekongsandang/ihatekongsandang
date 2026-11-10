@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@_ddu._dd/post/DfWi_osHxLr
 attribution: 스레드 @_ddu._dd
 useSourceImage: false
-image:
-  src: /images/2026-11-05-dduddd-kimtaekyu-expulsion-resolution/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '김태규 의원 제명 촉구 결의안 본회의 가결 — 찬성 166·무효 1 / 11월 5일 민주당 주도, 국민의힘 표결 불참 (보도) / 9월 30일 유튜브 \"윤석열·전두환 내란 아니다\" 발언 계기 / 실제 제명은 윤리특위 심사 + 재적 3분의 2 찬성 필요' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Threads
 sources:
@@ -33,7 +29,7 @@ tags:
   - 국회
 ---
 
-이 게시물은 원문 본문과 첨부 사진 1장(김태규 의원 사진)을 기준으로 정리했습니다. 원문 사진은 출처가 표시되지 않은 보도사진으로 보여 자체 제작 카드를 썼습니다. 같은 방식의 앞선 결의안: [이진숙 의원 제명 촉구 결의안 뒤 5·18 유공자 공적 공개 요구](/post/2026-09-13-geonwoo-leejinsook-518-merit-disclosure).
+이 게시물은 원문 본문과 첨부 사진 1장(김태규 의원 사진)을 기준으로 정리했습니다. 원문 사진은 출처가 표시되지 않은 보도사진으로 보여 쓰지 않았습니다. 같은 방식의 앞선 결의안: [이진숙 의원 제명 촉구 결의안 뒤 5·18 유공자 공적 공개 요구](/post/2026-09-13-geonwoo-leejinsook-518-merit-disclosure).
 
 ## 원문 주장 (게시자 의견)
 

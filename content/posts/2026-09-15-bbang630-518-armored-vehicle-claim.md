@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.threads.com/@bbang630/post/DdVYMIwgVX9
 attribution: 스레드 @bbang630
 useSourceImage: false
-image:
-  src: /images/2026-09-15-bbang630-518-armored-vehicle-claim/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '시위대 장갑차가 계엄군 사망? 5·18 장갑차 주장 팩트체크' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Threads
 sources:
