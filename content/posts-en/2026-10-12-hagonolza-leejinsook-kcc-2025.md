@@ -2,14 +2,14 @@
 id: 2026-10-12-hagonolza-leejinsook-kcc-2025
 title: "\"Lee Jae-myung's first purge: what KCC Chair Lee Jin-sook wanted to tell before leaving\" — a reshare, a year later, of remarks made when the Korea Communications Commission was abolished and Lee was automatically removed on Sept. 30, 2025"
 description: "Instagram @hagonolza revisits ex-KCC Chair Lee Jin-sook's 2025 removal and broadcasting-law criticism; Lee is now a People Power Party lawmaker."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'KCC Chair Lee Jin-sook removed: \"The rule of law died today\" — an event of Sept. 30, 2025, reshared a year later / Automatically removed when the cabinet passed the KCC abolition and the act creating the Korea Media and Communications Commission / The three broadcasting laws passed the National Assembly in August 2025 — changing how public broadcaster board members are recommended / Lee Jin-sook is now a People Power Party lawmaker'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "A person in a beige jacket speaking in front of building steps, with the side profile of a person in a suit at the left edge"
+imageCaption: "Lee Jin-sook, then chair of the Korea Communications Commission, sharing her thoughts as she leaves the Gwacheon Government Complex on Sept. 30, 2025 (per the original article's photo caption)."
 speakerAffiliation: "Former Korea Communications Commission chair (now a People Power Party lawmaker)"
 attribution: "Instagram @hagonolza"
 translatedAt: 2026-10-12
 ---
 
-This post is based on the original caption and its 11 images. The original reposts a card-news series from another account (@tantanroad.official), and the content concerns events around **Sept. 30, 2025**, when then–Korea Communications Commission (KCC) Chair Lee Jin-sook was removed as the KCC was abolished. We used a card made by this site instead of the original images. A post on Rep. Lee's recent remarks (may be available only in Korean): [Criticism of the film "Assassin(s)"](/post/2026-09-29-leejinsook-assassins-film-distortion).
+This post is based on the original caption and its 11 images. The original reposts a card-news series from another account (@tantanroad.official), and the content concerns events around **Sept. 30, 2025**, when then–Korea Communications Commission (KCC) Chair Lee Jin-sook was removed as the KCC was abolished. We did not use the original images. A post on Rep. Lee's recent remarks (may be available only in Korean): [Criticism of the film "Assassin(s)"](/post/2026-09-29-leejinsook-assassins-film-distortion).
 
 ## What the original post claims (the poster's opinion)
 

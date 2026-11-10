@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/DdvVf_EhZvj/
 attribution: 인스타그램 @peoplepower_korea7 (자유대한 늬우스)
 useSourceImage: false
 image:
-  src: /images/2026-09-25-peoplepower7-tankday-vs-mine/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '스타벅스 탱크데이 비판 vs DMZ 지뢰 사고 대응 비교 카드' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작) — 원문 카드에 부상 장병 병상 사진이 있어 사용하지 않음
+  kind: news
+  src: https://img.khan.co.kr/news/2026/05/20/rcv.YNA.20260520.PYH2026052017040001300_P1.jpg
+  alt: "파란 배경 앞에서 마이크 두 개를 앞에 두고 손짓하며 말하는 안경 쓴 정장 차림의 인물"
+  caption: "2026년 5월 20일 청와대, 이재명 대통령이 국무회의 겸 비상경제점검회의에서 발언하는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.khan.co.kr/en/article/202605201613007/
+  retrievedAt: 2026-11-11
+  faceNote: 대통령 — 국무회의 발언(공식 일정, 탱크데이 비판 발언 자리) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:

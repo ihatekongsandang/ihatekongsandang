@@ -11,9 +11,15 @@ speaker:
   affiliation: 전 방송통신위원장(현 국민의힘 국회의원)
 useSourceImage: false
 image:
-  src: /images/2026-10-12-hagonolza-leejinsook-kcc-2025/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '이진숙 방통위원장 면직 \"법치는 오늘 죽었다\" — 2025년 9월 30일 일, 1년 뒤 다시 공유된 게시물 / 방통위 폐지·방송미디어통신위원회 설치법 국무회의 의결로 자동 면직 / 방송3법은 2025년 8월 국회 통과 — 공영방송 이사 추천 구조 변경 / 이진숙은 현재 국민의힘 국회의원' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
+  kind: news
+  src: https://file2.nocutnews.co.kr/newsroom/image/2025/09/30/202509301946193050_0.jpg
+  alt: "건물 앞 계단을 배경으로 베이지색 재킷 차림의 인물이 말하고, 왼쪽 가장자리에 정장 차림 사람의 옆모습이 걸쳐 있는 모습"
+  caption: "2025년 9월 30일 정부과천청사, 이진숙 당시 방송통신위원장이 퇴근하며 소회를 밝히는 모습(원 기사 사진 설명 기준)."
+  creditName: 연합뉴스
+  creditNameEn: Yonhap News Agency
+  sourcePageUrl: https://www.nocutnews.co.kr/news/6408508
+  retrievedAt: 2026-11-11
+  faceNote: 당시 방송통신위원장(중앙행정기관 정무직, 현 국회의원) — 퇴근길 소회 발언 — 원 기사 사진 설명; 원경 인물 1명(뒷모습·옆모습·흐림 — 정면 없음)
 og:
   siteName: Instagram
 sources:
@@ -35,7 +41,7 @@ tags:
   - 방송3법
 ---
 
-이 게시물은 원문 캡션과 이미지 11장을 기준으로 정리했습니다. 원문은 다른 계정(@tantanroad.official)의 카드뉴스를 옮긴 것으로, 내용은 **2025년 9월 30일** 이진숙 당시 방송통신위원장이 방통위 폐지로 면직될 무렵의 일입니다. 원문 이미지 대신 자체 제작 카드를 썼습니다. 이진숙 의원의 최근 발언을 다룬 게시물: [영화 '암살자(들)' 비판](/post/2026-09-29-leejinsook-assassins-film-distortion).
+이 게시물은 원문 캡션과 이미지 11장을 기준으로 정리했습니다. 원문은 다른 계정(@tantanroad.official)의 카드뉴스를 옮긴 것으로, 내용은 **2025년 9월 30일** 이진숙 당시 방송통신위원장이 방통위 폐지로 면직될 무렵의 일입니다. 원문 이미지는 쓰지 않았습니다. 이진숙 의원의 최근 발언을 다룬 게시물: [영화 '암살자(들)' 비판](/post/2026-09-29-leejinsook-assassins-film-distortion).
 
 ## 원문 주장 (게시자 의견)
 

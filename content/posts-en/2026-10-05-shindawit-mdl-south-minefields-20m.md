@@ -2,13 +2,13 @@
 id: 2026-10-05-shindawit-mdl-south-minefields-20m
 title: "JCS: \"Several presumed North Korean minefields south of the MDL, intruding about 20 m on average\" — announced with the final findings on the DMZ mine blast on Oct. 5; 'invaded the eastern front and built a fence' was reported as one suspected site needing further checks"
 description: "Instagram @shin_dawit sums up a JCS finding; the JCS reportedly said on Oct. 5 that several presumed North Korean minefields lie about 20 m south of the MDL."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'JCS identifies several presumed North Korean minefields south of the MDL — about 20 m intrusion on average / Final findings on the DMZ mine blast announced (Oct. 5) / North Korean MDL crossings: 9 in 2024 → 17 in 2025 → about 50 this year / One site where a North Korean fence is suspected of crossing the MDL — further checks needed'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "A blast in which black smoke and debris shoot up behind a tree, with red flags planted along a grassy path"
+imageCaption: "Footage released by the Joint Chiefs of Staff on Oct. 5, 2026, with its final findings on the DMZ mine blast, showing the demolition of a North Korean minefield south of the Military Demarcation Line (per the original article's photo caption)."
 attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and its three images (a photo, a capture of a Yonhap News headline and a summary card). The first image's "North Korea invaded our land on the eastern front and installed a barbed-wire fence" differs from reports (see below), so we used a card made by this site instead of the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [Reported signs of mines in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field) · [Alaska LNG and North Korean mines: the government's responses](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · ['Empty-gun guard duty' in frontline corps](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
+This post is based on the original caption and its three images (a photo, a capture of a Yonhap News headline and a summary card). The first image's "North Korea invaded our land on the eastern front and installed a barbed-wire fence" differs from reports (see below), so we did not use the original image. Related posts (some may be available only in Korean): [North Korean troops crossed the MDL about 50 times in Aug.–Sept.](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [Reported signs of mines in the 15th Division area](/post/2026-10-01-rekor-15div-mine-field) · [Alaska LNG and North Korean mines: the government's responses](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · ['Empty-gun guard duty' in frontline corps](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
 
 ## What the original post claims (the poster's opinion)
 

@@ -2,14 +2,14 @@
 id: 2026-10-12-hagonolza-equal-earth-dokdo
 title: "\"Grounds for impeachment if the government agreed to delete Dokdo\" — a post on conflicting accounts from the mapmaker and the foreign ministry over Dokdo disappearing from the Korean edition of the 'Equal Earth' world map"
 description: "Instagram @hagonolza says Reform Party leader L demanded answers over Dokdo's removal from an Equal Earth map; the mapmaker and ministry disagree."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Dokdo deleted from the Korean edition of the Equal Earth world map — mapmaker: \"consulted Korean and Japanese embassies\" vs. foreign ministry: \"not true\" / The Korean edition made by VANK and officially listed in June lost Dokdo in October / Foreign ministry: never consulted on or agreed to deletion with Japan; seeking a correction / The \"grounds for impeachment\" remark the original attributes to Reform Party emergency committee chair L is unconfirmed in reports'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
+imageAlt: "Two Korean-language maps of the East Sea region side by side — on the left, a red circle around the Dokdo label next to Ulleungdo; on the right, a red circle at the same spot with no island"
+imageCaption: "The Korean edition of the Equal Earth world map on its official website — Dokdo is shown in the version posted on Sept. 6, 2026 (left) but is gone from the Oct. 8 map (right) (per the original article's photo caption)."
 speakerAffiliation: "Chair, Reform Party emergency committee"
 attribution: "Instagram @hagonolza"
 translatedAt: 2026-10-12
 ---
 
-This post is based on the original caption and its 5 images. The original reposts a card-news series from another account (@oneul.right). Because the first image prominently features a photo of a person, we used a card made by this site.
+This post is based on the original caption and its 5 images. The original reposts a card-news series from another account (@oneul.right). Because the first image prominently features a photo of a person, we did not use the original images.
 
 ## What the original post claims (the poster's opinion)
 

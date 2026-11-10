@@ -8,9 +8,15 @@ sourceUrl: https://www.instagram.com/p/DeHORpxmBLJ/
 attribution: 인스타그램 @shin_dawit
 useSourceImage: false
 image:
-  src: /images/2026-10-05-shindawit-mdl-south-minefields-20m/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '합참, MDL 이남 북한군 지뢰 매설 추정지 수개소 식별 — 평균 20여m 침범 / DMZ 지뢰 폭발 사고 최종 조사 결과 발표 (10월 5일) / 북한군 MDL 침범 2024년 9회 → 2025년 17회 → 올해 50여 회 / 북한 철책이 MDL을 넘은 것으로 의심되는 곳 1곳 — 추가 확인 필요' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
+  kind: news
+  src: https://img.khan.co.kr/news/2026/10/05/l_2026100601000150500011491.jpg
+  alt: "풀숲 사이 오솔길에 붉은 깃발들이 꽂혀 있고, 나무 뒤편으로 검은 연기와 파편이 솟구치는 폭발 장면"
+  caption: "2026년 10월 5일 합동참모본부가 DMZ 지뢰 폭발 사건 최종 조사 결과를 발표하며 공개한 영상 속, 군사분계선 이남 북한군 지뢰지대 폭파 장면(원 기사 사진 설명 기준)."
+  creditName: 합동참모본부
+  creditNameEn: Joint Chiefs of Staff
+  sourcePageUrl: https://www.khan.co.kr/article/202610052134005/
+  retrievedAt: 2026-11-11
+  faceNote: 인물 없음(합참 제공 영상 캡처, 로고·자막 없음) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:
@@ -37,7 +43,7 @@ tags:
   - 군사분계선
 ---
 
-이 게시물은 원문 캡션과 이미지 3장(첫 장 사진·연합뉴스 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장의 "북한, 동부전선 우리땅 침범하여 철책선 설치"는 보도 내용과 달라(아래 참고) 원문 이미지 대신 자체 제작 카드를 썼습니다. 관련 게시물: [북한군 8~9월 MDL 50여 회 침범](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [중부전선 15사단 지역 지뢰 정황 보도](/post/2026-10-01-rekor-15div-mine-field) · [알래스카 LNG와 北 지뢰, 정부 대응 정리](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [전방 군단 '빈총 경계' 보도](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
+이 게시물은 원문 캡션과 이미지 3장(첫 장 사진·연합뉴스 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장의 "북한, 동부전선 우리땅 침범하여 철책선 설치"는 보도 내용과 달라(아래 참고) 원문 이미지는 쓰지 않았습니다. 관련 게시물: [북한군 8~9월 MDL 50여 회 침범](/post/2026-09-30-shindawit-nk-mdl-50-crossings) · [중부전선 15사단 지역 지뢰 정황 보도](/post/2026-10-01-rekor-15div-mine-field) · [알래스카 LNG와 北 지뢰, 정부 대응 정리](/post/2026-10-02-alaska-lng-vs-dmz-mine-response) · [전방 군단 '빈총 경계' 보도](/post/2026-10-05-jeichi-front-corps-unloaded-guard).
 
 ## 원문 주장 (게시자 의견)
 

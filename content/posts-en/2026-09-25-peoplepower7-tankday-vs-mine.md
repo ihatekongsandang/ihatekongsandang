@@ -2,8 +2,8 @@
 id: 2026-09-25-peoplepower7-tankday-vs-mine
 title: "\"Said he'd never forgive 'Tank Day' but refused a UN probe into the mine provocation\"? — comparison-card fact check"
 description: "Instagram @peoplepower_korea7 contrasts Lee's harsh 'Tank Day' criticism with his DMZ mine response; the 'refused a UN probe' claim is unconfirmed."
-imageAlt: "Card with a white background and a red vertical bar on the left reading 'Starbucks Tank Day criticism vs. DMZ mine accident response comparison card'"
-imageCaption: "Summary image made by this site — the original card included a photo of an injured soldier in a hospital bed, so it was not used"
+imageAlt: "A person in a suit and glasses gesturing while speaking in front of two microphones against a blue background"
+imageCaption: "President Lee Jae-myung speaking at a Cabinet meeting and emergency economic review meeting at Cheong Wa Dae on May 20, 2026 (per the original article's photo caption)."
 attribution: "Instagram @peoplepower_korea7 (자유대한 늬우스)"
 translatedAt: 2026-09-30
 ---

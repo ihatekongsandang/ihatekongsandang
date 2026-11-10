@@ -2,13 +2,11 @@
 id: 2026-10-01-swingmag-gov24-hacking
 title: "\"Government24 has been hacked\" — an August attack through a children's portal flaw reportedly leaked an estimated 36 resident registration numbers and 55 IDs and passwords, but 'all citizens' data to China' is not confirmed by reports"
 description: "Instagram @swing.mag faults the Government24 hack response; an Aug. 17 attack reportedly leaked about 36 resident ID numbers. No report says data went to China."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Government24 hack: resident registration numbers and accounts presumed leaked / Interior Ministry report: 36 resident registration numbers, 55 IDs and passwords / \"All citizens' data to China\" not confirmed by reports'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @swing.mag"
 translatedAt: 2026-10-01
 ---
 
-This post is based on the original caption and first slide. The first slide shows a photo of President Lee Jae-myung overlaid with the text "Government24 hacked / All citizens' personal data 'to China' / Fines paid with citizens' taxes." Because "all citizens' personal data to China" is not confirmed by reports, we used a card made by this site instead of the original image.
+This post is based on the original caption and first slide. The first slide shows a photo of President Lee Jae-myung overlaid with the text "Government24 hacked / All citizens' personal data 'to China' / Fines paid with citizens' taxes." Because "all citizens' personal data to China" is not confirmed by reports, we did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

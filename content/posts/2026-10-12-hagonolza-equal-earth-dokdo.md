@@ -11,9 +11,15 @@ speaker:
   affiliation: 개혁신당 비상대책위원장
 useSourceImage: false
 image:
-  src: /images/2026-10-12-hagonolza-equal-earth-dokdo/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '세계지도 이퀄어스 한국어판에서 독도 삭제 — 제작자 \"한·일 대사관과 협의\" vs 외교부 \"사실 아냐\" / 반크가 만들어 6월 공식 등재한 한국어판 지도, 10월 독도 빠져 / 외교부: 일본과 삭제 협의·동의한 사실 전혀 없어, 시정 요구 / 원문이 전한 비대위원장 ㅇ씨 \"탄핵감\" 발언은 보도로 미확인' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
+  kind: news
+  src: https://img.khan.co.kr/news/2026/10/09/news-p.v1.20261008.0af85f849e494c1caf61a795d503bc6a_P1.png
+  alt: "동해 일대 한국어 지도 두 장을 나란히 놓은 비교 이미지 — 왼쪽 지도는 울릉도 옆 독도 표기에 붉은 원, 오른쪽 지도는 같은 자리에 섬 없이 붉은 원만 있음"
+  caption: "이퀄 어스 공식 홈페이지 세계지도 한국어판 — 2026년 9월 6일 게시본(왼쪽)에는 독도가 표시돼 있고, 10월 8일 지도(오른쪽)에는 독도가 사라진 모습(원 기사 사진 설명 기준)."
+  creditName: 전남광주실천교사
+  creditNameEn: Jeonnam-Gwangju Silcheon Teachers (provider)
+  sourcePageUrl: https://www.khan.co.kr/article/202610091416011
+  retrievedAt: 2026-11-11
+  faceNote: 인물 없음(지도 비교 이미지 — 지명·붉은 원 표지 외 문장 없음) — 원 기사 사진 설명
 og:
   siteName: Instagram
 sources:
@@ -39,7 +45,7 @@ tags:
   - 개혁신당
 ---
 
-이 게시물은 원문 캡션과 이미지 5장을 기준으로 정리했습니다. 원문은 다른 계정(@oneul.right)의 카드뉴스를 옮긴 것입니다. 원문 첫 장에 인물 사진이 크게 실려 있어 자체 제작 카드를 썼습니다.
+이 게시물은 원문 캡션과 이미지 5장을 기준으로 정리했습니다. 원문은 다른 계정(@oneul.right)의 카드뉴스를 옮긴 것입니다. 원문 첫 장에 인물 사진이 크게 실려 있어 원문 이미지는 쓰지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 
