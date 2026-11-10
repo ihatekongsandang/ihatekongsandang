@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeGn-DdxmQq/
 attribution: 인스타그램 @wend.mag
 useSourceImage: false
-image:
-  src: /images/2026-10-05-wendmag-cio-investigation-scope/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '대통령·국회의원 수사 금지? 공수처 대신 중수청 수사로 개편 추진 / 민주당 법사위원, 공수처 수사 대상을 판검사·경찰 등으로 축소 추진 / 대통령·국회의원 수사는 행안부 산하 중수청 담당 — 독립성 논란' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -28,7 +24,7 @@ tags:
   - 더불어민주당
 ---
 
-같은 내용을 다룬 [인스타그램 @pinnews_1 게시물](https://www.instagram.com/p/DeG4yOdsB_D/)·[@got_dem_catch 게시물](https://www.instagram.com/p/DeG6SVIk_zQ/)은 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 캡션과 릴스 첫 화면을 기준으로 정리했습니다. 원문 첫 화면에는 "대통령, 민주당 의원 수사 금지 / 강력 범죄 아니면 처벌 못해" 문구가 있는데 보도 내용과 달라, 원문 이미지 대신 자체 제작 카드를 썼습니다. 검찰청 폐지·중수청 출범 관련 게시물: [검찰청 폐지 D-1 피해자 안내](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
+같은 내용을 다룬 [인스타그램 @pinnews_1 게시물](https://www.instagram.com/p/DeG4yOdsB_D/)·[@got_dem_catch 게시물](https://www.instagram.com/p/DeG6SVIk_zQ/)은 별도 게시물 대신 여기에 함께 적습니다. 이 게시물은 원문 캡션과 릴스 첫 화면을 기준으로 정리했습니다. 원문 첫 화면에는 "대통령, 민주당 의원 수사 금지 / 강력 범죄 아니면 처벌 못해" 문구가 있는데 보도 내용과 달라, 원문 이미지는 쓰지 않았습니다. 검찰청 폐지·중수청 출범 관련 게시물: [검찰청 폐지 D-1 피해자 안내](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
 
 ## 원문 주장 (게시자 의견)
 

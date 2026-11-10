@@ -2,8 +2,6 @@
 id: 2026-10-29-news1-china-53-vessels-taiwan-warning
 title: "Taiwan: \"53 Chinese vessels operating from southern Japan to waters off Taiwan and the Philippines, an obvious threat\" — security council chief releases map"
 description: "Taiwan's security council chief posted a map of 53 Chinese vessels on Oct. 29, calling their activity from southern Japan to the Philippines an obvious threat."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Taiwan: \"53 Chinese vessels operating from southern Japan to waters off Taiwan and the Philippines\" / Taiwan NSC secretary-general posts location map on X, Oct. 29 / 34 are navy ships including the carrier Liaoning (reports) / 3 Chinese warships and 1 coast guard vessel pass Japan's Osumi Strait (reports)'"
-imageCaption: "Card image summarizing the reports (made by this site)"
 attribution: "News1"
 translatedAt: 2026-11-05
 ---

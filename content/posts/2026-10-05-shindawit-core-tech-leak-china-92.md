@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeGhfQvmFVY/
 attribution: 인스타그램 @shin_dawit
 useSourceImage: false
-image:
-  src: /images/2026-10-05-shindawit-core-tech-leak-china-92/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '국가핵심기술 해외유출 송치 25건 중 23건(92%)이 중국으로 — 2022년~올해 8월 / 25건 중 18건(72%)은 임직원·연구원 등 내부자 연루 / 경찰청 자료(조지연 국민의힘 의원실) 보도 / 위장 컨설팅 업체 통한 정보 요구 사례도 (10월 5~6일)' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 경제안보
 ---
 
-이 게시물은 원문 캡션과 이미지 3장(첫 장 연출 사진·매일경제 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장은 실제 사건과 관계가 확인되지 않은 인물 사진이어서 원문 이미지 대신 자체 제작 카드를 썼습니다. 관련 게시물: [창신메모리 전 CEO의 삼성 기술진 압박 진술 보도](/post/2026-09-29-shindawit-cxmt-samsung-threat).
+이 게시물은 원문 캡션과 이미지 3장(첫 장 연출 사진·매일경제 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장은 실제 사건과 관계가 확인되지 않은 인물 사진이어서 원문 이미지는 쓰지 않았습니다. 관련 게시물: [창신메모리 전 CEO의 삼성 기술진 압박 진술 보도](/post/2026-09-29-shindawit-cxmt-samsung-threat).
 
 ## 원문 주장 (게시자 의견)
 

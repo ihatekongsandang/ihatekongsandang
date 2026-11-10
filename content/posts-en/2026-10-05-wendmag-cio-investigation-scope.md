@@ -2,13 +2,11 @@
 id: 2026-10-05-wendmag-cio-investigation-scope
 title: "\"Investigations of the president and Democratic lawmakers banned\"? — Democratic Party members of the judiciary committee reportedly seek to remove the president and lawmakers from the CIO's remit and hand them to the Serious Crimes Investigation Agency, with an independence dispute expected"
 description: "Instagram @wend.mag on a DP push to shift probes of the president and lawmakers from the CIO to a ministry agency; its 'probe ban' claim differs from reports."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'President and lawmakers \"banned from investigation\"? A push to move them from the CIO to the Serious Crimes Investigation Agency / DP judiciary committee members seek to narrow the CIO to judges, prosecutors and police / Probes of the president and lawmakers would go to the interior ministry's agency — independence dispute'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @wend.mag"
 translatedAt: 2026-10-05
 ---
 
-Instagram posts by [@pinnews_1](https://www.instagram.com/p/DeG4yOdsB_D/) and [@got_dem_catch](https://www.instagram.com/p/DeG6SVIk_zQ/) on the same issue are noted here instead of in separate posts. This post is based on the original caption and the first frame of the reel. The first frame reads "President, Democratic lawmakers banned from investigation / can't be punished unless it's a violent crime," which differs from reports, so we used a card made by this site instead of the original image. Related post on the abolition of the Prosecution Service (may be available only in Korean): [Prosecution Service abolished tomorrow: a guide for victims](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
+Instagram posts by [@pinnews_1](https://www.instagram.com/p/DeG4yOdsB_D/) and [@got_dem_catch](https://www.instagram.com/p/DeG6SVIk_zQ/) on the same issue are noted here instead of in separate posts. This post is based on the original caption and the first frame of the reel. The first frame reads "President, Democratic lawmakers banned from investigation / can't be punished unless it's a violent crime," which differs from reports, so we did not use the original image. Related post on the abolition of the Prosecution Service (may be available only in Korean): [Prosecution Service abolished tomorrow: a guide for victims](/post/2026-09-30-20hoon-prosecution-abolition-victim-guide).
 
 ## What the original post claims (the poster's opinion)
 

@@ -2,13 +2,11 @@
 id: 2026-09-24-sewodream-nk-agent-private-detective
 title: "A person in their 40s who gathered information on defectors and active-duty officers on a North Korean agent's orders — even hiring a private detective to tail a captain — gets 5 years at first instance; reportedly received about 660 million won in crypto as 'operating funds'"
 description: "Instagram @sewodream on a 1st-instance ruling: a person who gathered data on defectors and officers on a North Korean agent's orders reportedly got 5 years."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Gathered information on defectors and active-duty officers on a North Korean agent's orders / Person in their 40s gets 5 years in prison and 5 years' suspension of qualifications at first instance (National Security Act espionage, etc.) / Received about 660 million won in crypto as operating funds / Hired a private detective to tail an active-duty captain, claiming it was about \"the person my daughter is seeing\" / Seoul Central District Court Criminal Agreement Division 21 (reported Sept. 5)'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @sewodream"
 translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and the reel's thumbnail. The thumbnail's "A private-detective request turned out to be North Korean orders — the price was 660 million won" reads as if the detective job cost 660 million won, but the reported 660 million won was cryptocurrency the defendant received from the agent as operating funds, and the detective was paid 2.5 million won, so we used a card made by this site instead of the original image. The defendant and others involved are private individuals, so their names are not given.
+This post is based on the original caption and the reel's thumbnail. The thumbnail's "A private-detective request turned out to be North Korean orders — the price was 660 million won" reads as if the detective job cost 660 million won, but the reported 660 million won was cryptocurrency the defendant received from the agent as operating funds, and the detective was paid 2.5 million won, so we did not use the original image. The defendant and others involved are private individuals, so their names are not given.
 
 ## What the original post claims (the poster's opinion)
 

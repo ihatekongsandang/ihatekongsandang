@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeTCTYqEh2z/
 attribution: 인스타그램 @insighteye_lab
 useSourceImage: false
-image:
-  src: /images/2026-10-10-insighteye-china-korean-heritage-24/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '아리랑·판소리·추석 등 조선족 전통문화 24건 중국 국가급 비물질문화유산 지정 (국가유산청 연구) / 지린성 19건·랴오닝성 4건·헤이룽장성 1건 (2006~2021년 누적) / 김윤덕 의원실이 국가유산청 결과보고서 받아 공개 / 중국 측: 55개 소수민족 전통문화 모두 국가급 목록에 포함' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -28,7 +24,7 @@ tags:
   - 동북공정
 ---
 
-이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했으며, 원문 이미지 대신 자체 제작 카드를 썼습니다.
+이 게시물은 원문 캡션과 첫 장 이미지를 기준으로 정리했으며, 원문 이미지는 쓰지 않았습니다.
 
 ## 원문 주장 (게시자 의견)
 

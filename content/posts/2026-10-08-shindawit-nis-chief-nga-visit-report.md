@@ -8,10 +8,6 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeNdG8kknmn/
 attribution: 인스타그램 @shin_dawit
 useSourceImage: false
-image:
-  src: /images/2026-10-08-shindawit-nis-chief-nga-visit-report/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '조선일보 단독: 이종석 국정원장 3월 방미 무산, 美 국가지리정보국(NGA) 방문 불허로 전해져 / 워싱턴 소식통 인용 — 쿠팡 대응 관여 요원 입국 제한 명단 보도 / 국정원 \"허위이며 사실이 아니다\" / \"미 NGA를 방문할 계획은 존재하지도 않았다\" (10월 8일)' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:
@@ -33,7 +29,7 @@ tags:
   - 한미관계
 ---
 
-이 게시물은 원문 캡션과 이미지 3장(첫 장 사진·조선일보 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장의 "미국, 국정원장의 '北 감시기관' 방문 거부"는 조선일보 단독 보도의 제목이지만 국정원이 전면 부인한 내용이어서, 원문 이미지 대신 양측 입장을 함께 담은 자체 제작 카드를 썼습니다. 같은 사안을 다룬 [인스타그램 @peoplepower_korea7 게시물](https://www.instagram.com/p/DeL5gebhelL/)(10월 7일, "건국이래 처음 대한민국 국정원장 미국 입국 거부당함.. 美, 종북반미 주의자 거부" 카드)은 별도 게시물 대신 여기에 함께 적습니다(아래 마지막 항목). 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
+이 게시물은 원문 캡션과 이미지 3장(첫 장 사진·조선일보 기사 제목 캡처·요약 카드)을 기준으로 정리했습니다. 원문 첫 장의 "미국, 국정원장의 '北 감시기관' 방문 거부"는 조선일보 단독 보도의 제목이지만 국정원이 전면 부인한 내용이어서, 원문 이미지는 쓰지 않았습니다. 같은 사안을 다룬 [인스타그램 @peoplepower_korea7 게시물](https://www.instagram.com/p/DeL5gebhelL/)(10월 7일, "건국이래 처음 대한민국 국정원장 미국 입국 거부당함.. 美, 종북반미 주의자 거부" 카드)은 별도 게시물 대신 여기에 함께 적습니다(아래 마지막 항목). 관련 게시물: [美, 한미일 北사이버 실무그룹서 국정원 배제 요청 보도](/post/2026-10-08-shindawit-us-nis-cyber-group-excluded).
 
 ## 원문 주장 (게시자 의견)
 

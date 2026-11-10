@@ -2,13 +2,11 @@
 id: 2026-09-26-ccpoutkorea-ocsc-overseas-police
 title: "Allegations that a Seoul OCSC and a Chinese restaurant were a 'Chinese overseas police station' — raised in late 2022; Korean police and justice ministry officials reportedly attended its 'one-day consulate' events… whether it was a police station has not been established from public records"
 description: "Instagram @ccp_out_korea on the Seoul OCSC 'overseas police' controversy; 2022 reports said Korean officials attended its events; no police station was proven."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text 'Seoul OCSC and Chinese restaurant: \"Chinese overseas secret police station\" allegations — raised in late 2022, not established from public records / Korean National Police Agency and justice ministry officials attended OCSC \"one-day consulate\" events (2017–2018) / Restaurant operator denied allegations: \"only helped dead or injured Chinese return home\" / Government said at the time it was checking the facts and communicating with China'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @ccp_out_korea"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption, and we used a card made by this site instead of the original image. The original was posted in September 2026, but it covers allegations reported in late 2022 and early 2023. The restaurant operator and others are not named.
+This post is based on the original caption, and we did not use the original image. The original was posted in September 2026, but it covers allegations reported in late 2022 and early 2023. The restaurant operator and others are not named.
 
 ## What the original post claims (the poster's opinion)
 

@@ -2,13 +2,11 @@
 id: 2026-10-10-insighteye-china-korean-heritage-24
 title: "24 ethnic Korean traditions including arirang, pansori and Chuseok listed as China's national intangible cultural heritage — a Korea Heritage Service research report; designations accumulated from 2006 to 2021"
 description: "Instagram @insighteye_lab on reports that China listed 24 ethnic Korean traditions, including arirang and Chuseok, as national heritage between 2006 and 2021."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '24 ethnic Korean traditions including arirang, pansori and Chuseok designated as China's national intangible cultural heritage (Korea Heritage Service research) / Jilin 19, Liaoning 4, Heilongjiang 1 (cumulative 2006–2021) / Disclosed by Rep. Kim Yoon-deok's office from the Korea Heritage Service report / Chinese side: traditions of all 55 ethnic minorities are on the national list'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @insighteye_lab"
 translatedAt: 2026-10-11
 ---
 
-This post is based on the original caption and first image, and we used a card made by this site instead of the original image.
+This post is based on the original caption and first image, and we did not use the original image.
 
 ## What the original post claims (the poster's opinion)
 

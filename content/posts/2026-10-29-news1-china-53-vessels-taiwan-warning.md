@@ -7,10 +7,6 @@ sourceType: url
 sourceUrl: https://www.news1.kr/world/northeast-asia/6336414
 attribution: 뉴스1
 useSourceImage: false
-image:
-  src: /images/2026-10-29-news1-china-53-vessels-taiwan-warning/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '대만 \"中 함정 53척, 日 남부~대만·필리핀 외해서 활동\" / 대만 NSC 비서장, 10월 29일 X에 위치 지도 공개 / 34척은 항모 랴오닝함 등 해군 함정 (보도) / 中 군함 3척·해경선 1척 日 오스미 해협 통과 (보도)' 문구가 적힌 카드"
-  caption: 보도 내용을 정리한 카드 이미지(자체 제작)
 og:
   siteName: 뉴스1
 sources:

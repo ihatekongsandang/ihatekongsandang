@@ -10,10 +10,6 @@ speaker:
   name: 김용현
   affiliation: 전 국방부 장관
 useSourceImage: false
-image:
-  src: /images/2026-10-23-eodguri-kimyonghyun-drone-appeal/thumb.jpg
-  alt: "흰 바탕 왼쪽에 붉은 세로 막대가 있고 '\"평양 무인기\" 일반이적 항소심 결심 — 특검, 윤석열·김용현 각 징역 30년 구형 / 10월 16일 서울고법, 선고는 12월 4일 예정 / 김용현 \"무인기 작전으로 오물풍선 도발 억제\" 무죄 호소 / 원문이 전한 \"킬링필드\" 진술은 보도로 미확인' 문구가 적힌 카드"
-  caption: 게시물 요지를 정리한 카드 이미지(자체 제작)
 og:
   siteName: Instagram
 sources:

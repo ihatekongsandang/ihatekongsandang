@@ -2,13 +2,11 @@
 id: 2026-10-05-shindawit-core-tech-leak-china-92
 title: "23 of 25 (92%) overseas leaks of national core technology went to China — cases sent to prosecutors by police from 2022 to August this year; 18 (72%) reportedly involved insiders"
 description: "Instagram @shin_dawit on reports that 23 of 25 national core technology leak cases since 2022 went to China, with 18 reportedly involving insiders."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '23 (92%) of 25 national core technology overseas leak cases sent to prosecutors went to China — 2022 to August this year / 18 of 25 (72%) involved insiders such as employees and researchers / Police data (via the office of People Power Party Rep. Cho Ji-yeon), as reported / Cases of information requests through fake consulting firms too (Oct. 5–6)'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-08
 ---
 
-This post is based on the original caption and its three images (a staged photo, a capture of the Maeil Business Newspaper headline and a summary card). The first image shows a person not confirmed to be linked to any actual case, so we used a card made by this site instead of the original image. Related post (may be available only in Korean): [Report on a statement that CXMT's former CEO pressured ex-Samsung engineers](/post/2026-09-29-shindawit-cxmt-samsung-threat).
+This post is based on the original caption and its three images (a staged photo, a capture of the Maeil Business Newspaper headline and a summary card). The first image shows a person not confirmed to be linked to any actual case, so we did not use the original image. Related post (may be available only in Korean): [Report on a statement that CXMT's former CEO pressured ex-Samsung engineers](/post/2026-09-29-shindawit-cxmt-samsung-threat).
 
 ## What the original post claims (the poster's opinion)
 

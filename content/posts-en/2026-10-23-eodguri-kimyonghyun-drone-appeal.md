@@ -2,8 +2,6 @@
 id: 2026-10-23-eodguri-kimyonghyun-drone-appeal
 title: "\"If South Korea turns communist, a killing field\" — remarks the original attributes to former Defense Minister Kim Yong-hyun's final statement, and the 'Pyongyang drone' benefiting-the-enemy appeal hearing (30 years sought)"
 description: "Instagram @eodguri123 relays 'killing field' remarks it attributes to ex-minister Kim Yong-hyun; prosecutors sought 30 years each for Yoon and Kim on appeal."
-imageAlt: "Card with a red vertical bar on the left of a white background and the text '\"Pyongyang drone\" benefiting-the-enemy appeal closes — special counsel seeks 30 years each for Yoon Suk Yeol and Kim Yong-hyun / Seoul High Court, Oct. 16; ruling scheduled for Dec. 4 / Kim pleads not guilty: \"the drone operation deterred trash balloon provocations\" / The \"killing field\" statement relayed by the original is unconfirmed in reports'"
-imageCaption: "Card image summarizing the gist of the post (made by this site)"
 speakerAffiliation: "Former Minister of National Defense"
 attribution: "Instagram @eodguri123"
 translatedAt: 2026-10-25
