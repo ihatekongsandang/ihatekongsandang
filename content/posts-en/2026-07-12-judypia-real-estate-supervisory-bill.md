@@ -2,6 +2,8 @@
 id: 2026-07-12-judypia-real-estate-supervisory-bill
 title: "Reel opposing the 'Real Estate Supervisory Agency Act' — the original bill was withdrawn in September and reintroduced without the basis for demanding credit information and with inquiries separated from criminal investigations"
 description: "Instagram @hi.judypia calls a real estate agency bill a 'constant surveillance law'; it was reportedly withdrawn Sept. 23 and refiled with limits on its powers."
+imageAlt: "An elevated view of the National Assembly Proceeding Hall, the Han River and roads in front"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @hi.judypia (Judy)"
 translatedAt: 2026-09-30

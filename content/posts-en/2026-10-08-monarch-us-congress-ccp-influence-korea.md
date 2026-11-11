@@ -2,6 +2,8 @@
 id: 2026-10-08-monarch-us-congress-ccp-influence-korea
 title: "U.S. House China committee chair writes Rubio: \"South Korea's shift toward China poses significant risks to the U.S.\" — Senate and House Armed Services Committees also asked the Pentagon, for the first time, to assess CCP influence in South Korea"
 description: "Instagram @monarchreport25 on U.S. Congress concern over Chinese influence in South Korea; Moolenaar wrote Rubio Sept. 28, and NDAA reports seek an assessment."
+imageAlt: "The dome and front steps of the United States Capitol under an overcast sky"
+imageCaption: "Archive photo: United States Capitol (2024) — not taken at the time of this event."
 attribution: "Instagram @monarchreport25 (The Monarch Report)"
 translatedAt: 2026-10-11
 ---

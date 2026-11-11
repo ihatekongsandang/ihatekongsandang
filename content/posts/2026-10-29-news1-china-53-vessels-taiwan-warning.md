@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.news1.kr/world/northeast-asia/6336414
 attribution: 뉴스1
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-29-news1-china-53-vessels-taiwan-warning/thumb.jpg
+  alt: "흐린 하늘 아래 붉은 벽돌 탑이 솟은 대만 총통부 건물과 앞 광장"
+  caption: "자료사진: 대만 타이베이 총통부 건물(2017) — 이 사건 당시 사진이 아닙니다."
+  creditName: Paul Arps
+  creditNameEn: Paul Arps
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Presidential_office_building_(Taipei,_Taiwan_2017)_(38638559425).jpg"
+  sourceSiteName: 위키미디어 공용
+  license: cc-by-2.0
+  licenseUrl: https://creativecommons.org/licenses/by/2.0/
+  workTitle: "Presidential office building (Taipei, Taiwan 2017)"
+  workYear: 2017
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·대만 총통부)
 og:
   siteName: 뉴스1
 sources:

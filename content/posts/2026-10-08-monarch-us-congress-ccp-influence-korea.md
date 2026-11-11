@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DePCdVOFbIr/
 attribution: 인스타그램 @monarchreport25 (The Monarch Report)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-08-monarch-us-congress-ccp-influence-korea/thumb.jpg
+  alt: "흐린 하늘 아래 미국 국회의사당의 돔과 정면 계단"
+  caption: "자료사진: 미국 국회의사당(2024) — 이 사건 당시 사진이 아닙니다."
+  creditName: AramilFeraxa
+  creditNameEn: AramilFeraxa
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:United_States_Capitol_(2024).jpg"
+  sourceSiteName: 위키미디어 공용
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/
+  workTitle: "United States Capitol (2024)"
+  workYear: 2024
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·미국 국회의사당)
 og:
   siteName: Instagram
 sources:

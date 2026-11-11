@@ -2,6 +2,8 @@
 id: 2026-09-29-limjongdeuk-dmz-operation-criticism
 title: "Lim Jong-deuk: \"In 38 years in the military I've never seen an operation like this\" — grills poor preparation of DMZ route-clearing; Kang Shin-chul apologizes for shortcomings"
 description: "Retired general Rep. Lim Jong-deuk grilled the planning of the DMZ route-clearing operation; the defense minister apologized for shortcomings."
+imageAlt: "The National Assembly Proceeding Hall and Yeouido high-rises beyond a riverside road and woods at dusk"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 speakerAffiliation: "People Power Party lawmaker (retired Army major general)"
 attribution: "Threads @lim.jongdeuk (임종득)"
 translatedAt: 2026-09-30

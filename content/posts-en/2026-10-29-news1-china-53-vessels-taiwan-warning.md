@@ -2,6 +2,8 @@
 id: 2026-10-29-news1-china-53-vessels-taiwan-warning
 title: "Taiwan: \"53 Chinese vessels operating from southern Japan to waters off Taiwan and the Philippines, an obvious threat\" — security council chief releases map"
 description: "Taiwan's security council chief posted a map of 53 Chinese vessels on Oct. 29, calling their activity from southern Japan to the Philippines an obvious threat."
+imageAlt: "The Presidential Office Building in Taipei, with its red-brick central tower, and the plaza in front under a cloudy sky"
+imageCaption: "Archive photo: Presidential Office Building, Taipei (2017) — not taken at the time of this event."
 attribution: "News1"
 translatedAt: 2026-11-05
 ---

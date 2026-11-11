@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd9Cem0AU8A/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-01-rekor-15div-mine-field/thumb.jpg
+  alt: "전망대에서 내려다본 비무장지대의 들판과 저수지, 멀리 북한 쪽 산줄기"
+  caption: "자료사진: 파주 도라전망대에서 본 비무장지대 일반 풍경(2018) — 이 사건 당시 사진이 아닙니다. 사건이 일어난 지점도 아닙니다."
+  creditName: Staryu
+  creditNameEn: Staryu
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:North_Korea_from_the_Dora_Observatory,_December_2018.jpg"
+  sourceSiteName: 위키미디어 공용
+  license: cc0-1.0
+  licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+  workTitle: "North Korea from the Dora Observatory, December 2018"
+  workYear: 2018
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·비무장지대 풍경)
 og:
   siteName: Instagram
 sources:
