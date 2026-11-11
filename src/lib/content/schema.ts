@@ -46,7 +46,7 @@ export interface PostSource {
  * 이미지 출처 종류 (프로그래머 13 · `planning/card-image-policy.md` §4.2·§5 P1).
  *  - `self`: 운영자가 만든 이미지(기존 텍스트 카드 등). 생략하면 이 값이다.
  *  - `public`: 공공누리 제1유형 공공저작물. 저장소(`/images/`)에 저장한다.
- *  - `open`: 공공누리 밖 개방 라이선스(CC BY 버전 명시·CC0·퍼블릭 도메인·공유마당 기증 자유이용)로 쓰는
+ *  - `open`: 공공누리 밖 개방 라이선스(CC BY·BY-SA·BY-ND 버전 명시·한국판 2.0 KR·CC0·퍼블릭 도메인·공유마당 기증 자유이용)로 쓰는
  *    **인물 없는 자료사진(A-2)**. 저장소(`/images/`)에 저장한다(프로그래머 19 · 정책 §4.5·§8).
  *  - `news`: 근거 언론 기사의 대표 이미지(`og:image`). **핫링크만** — 저장·프록시·next/image 금지.
  */
@@ -59,26 +59,75 @@ export type ImageKind = (typeof IMAGE_KINDS)[number]
  */
 export const PUBLIC_LICENSES = ['kogl-1'] as const
 /**
- * `kind: open` 라이선스(정책 §4.5-2 표 · 프로그래머 19).
- * - CC BY는 **버전을 적은 값만** 받는다(버전 없는 `cc-by`는 오류). CC 지역판(`cc-by-2.0-kr` 등)은 조문 확인 전이라 값이 없다.
- * - BY-SA·BY-NC·BY-ND·공공누리 제2~4유형·기증 "조건부이용"은 목록에 없어 오류로 막힌다.
- * - `pd`: 근거가 명시된 퍼블릭 도메인만(근거 페이지 = `licenseUrl`). `kcc-donated`: 공유마당 기증저작물 "자유이용"만.
+ * `kind: open` 라이선스(정책 §4.5-2 표 · 프로그래머 19 · 🆕 프로그래머 20 — 기획 20-1 §2 명세 1).
+ * - CC BY·BY-SA·BY-ND는 **버전을 적은 값만** 받는다(버전 없는 `cc-by`·`cc-by-sa`·`cc-by-nd`는 오류).
+ * - CC 지역판은 직접 열람한 **한국판 CC BY 2.0 KR·CC BY-SA 2.0 KR만**(`cc-by-2.0-kr`·`cc-by-sa-2.0-kr`). 한국판 ND·그 밖 포팅 버전은 값이 없다.
+ * - BY-ND는 카드에서 자르지 않고(`object-contain`) 보인다(`resolveCardMedia`의 `contain`).
+ * - BY-NC·공공누리 제2~4유형·기증 "조건부이용"은 목록에 없어 오류로 막힌다.
+ * - `pd`: 근거(`pdBasis`)가 명시된 퍼블릭 도메인만(근거 페이지 = `licenseUrl`). `kcc-donated`: 공유마당 기증저작물 "자유이용"만.
  */
-export const OPEN_LICENSES = ['cc-by-2.0', 'cc-by-3.0', 'cc-by-4.0', 'cc0-1.0', 'pd', 'kcc-donated'] as const
+export const OPEN_LICENSES = [
+  'cc-by-2.0',
+  'cc-by-3.0',
+  'cc-by-4.0',
+  'cc-by-sa-2.0',
+  'cc-by-sa-3.0',
+  'cc-by-sa-4.0',
+  'cc-by-nd-2.0',
+  'cc-by-nd-3.0',
+  'cc-by-nd-4.0',
+  'cc-by-2.0-kr',
+  'cc-by-sa-2.0-kr',
+  'cc0-1.0',
+  'pd',
+  'kcc-donated',
+] as const
 export const IMAGE_LICENSES = [...PUBLIC_LICENSES, ...OPEN_LICENSES] as const
 export type PublicLicense = (typeof PUBLIC_LICENSES)[number]
 export type OpenLicense = (typeof OPEN_LICENSES)[number]
 export type ImageLicense = (typeof IMAGE_LICENSES)[number]
 
 /**
- * CC 라이선스 값 → `licenseUrl`이 가리켜야 할 creativecommons.org 경로 머리(버전까지).
- * 표시 문구("CC BY 4.0")와 다른 버전의 문서를 링크하는 실수를 막는다(deed·legalcode 둘 다 이 머리로 시작한다).
+ * 퍼블릭 도메인 근거(정책 §4.5-2 "퍼블릭 도메인 근거" 표 · 프로그래머 20 명세 4). `license: pd`에서 필수.
+ * - `us-gov`: 미국 연방정부 직원의 직무 저작물(표시는 "미국에서 퍼블릭 도메인"으로 한정)
+ * - `expired-author-death`: 저작자 사망연도(`pdBasisYear`) ≤ max(1962, 올해 − 71)
+ * - `expired-publication`: 업무상·무명 저작물 공표연도(`pdBasisYear`) ≤ max(1962, 올해 − 71)
+ * - `declared`: 저작자 본인의 퍼블릭 도메인 공개
+ */
+export const PD_BASES = ['us-gov', 'expired-author-death', 'expired-publication', 'declared'] as const
+export type PdBasis = (typeof PD_BASES)[number]
+
+/**
+ * 보호기간이 끝났다고 볼 수 있는 마지막 사망·공표연도 = max(1962, 올해 − 71) (정책 §4.5-2 · 기획 20-1 P2-1).
+ * 1962: 70년 연장(2011.6.30 법률 제10807호, 2013.7.1 시행) 전에 종전 50년으로 이미 소멸한 저작물(1962 사망 → 2012.12.31 소멸)은 되살아나지 않는다.
+ * 올해 − 71: 사망·공표 다음 해부터 70년(제44조) — 2034년부터 이쪽이 더 커진다.
+ */
+export function pdExpiredMaxYear(todayYear: number): number {
+  return Math.max(1962, todayYear - 71)
+}
+
+/**
+ * CC 라이선스 값 → `licenseUrl`이 가리켜야 할 creativecommons.org 경로 머리(버전까지, 한국판은 `/kr/`까지).
+ * 표시 문구("CC BY 4.0")와 다른 종류·버전의 문서를 링크하는 실수를 막는다. 머리 뒤에 올 수 있는 것은 `matchesCcLicenseUrl` 참고.
  */
 const CC_LICENSE_PATH: Partial<Record<ImageLicense, string>> = {
   'cc-by-2.0': '/licenses/by/2.0/',
   'cc-by-3.0': '/licenses/by/3.0/',
   'cc-by-4.0': '/licenses/by/4.0/',
+  'cc-by-sa-2.0': '/licenses/by-sa/2.0/',
+  'cc-by-sa-3.0': '/licenses/by-sa/3.0/',
+  'cc-by-sa-4.0': '/licenses/by-sa/4.0/',
+  'cc-by-nd-2.0': '/licenses/by-nd/2.0/',
+  'cc-by-nd-3.0': '/licenses/by-nd/3.0/',
+  'cc-by-nd-4.0': '/licenses/by-nd/4.0/',
+  'cc-by-2.0-kr': '/licenses/by/2.0/kr/',
+  'cc-by-sa-2.0-kr': '/licenses/by-sa/2.0/kr/',
   'cc0-1.0': '/publicdomain/zero/1.0/',
+}
+
+/** CC BY-ND 값인가 — 카드에서 자르지 않고 보인다(정책 §4.5-2 ND 행 · 프로그래머 20 명세 8). */
+export function isNoDerivativesLicense(license: ImageLicense | undefined): boolean {
+  return !!license && license.startsWith('cc-by-nd-')
 }
 
 /**
@@ -90,12 +139,31 @@ export function isCcBy40Label(label: string | undefined): boolean {
   return !!label && label.replace(/\s+/g, '').toUpperCase() === 'CCBY4.0'
 }
 
-/** `licenseUrl`이 creativecommons.org의 그 라이선스·버전 문서인가. */
-function matchesCcLicenseUrl(url: string, pathHead: string): boolean {
+/**
+ * 경로 머리 뒤에 남아도 되는 부분(프로그래머 20 명세 2 · 리뷰 71 P2-4 함정): 비어 있음, 또는 `deed`·`legalcode`
+ * (+ `.ko`·`.en`·`.zh-hant` 같은 언어 접미 — `.txt` 같은 파일 형식 접미는 언어가 아니므로 거부), 끝 `/` 하나.
+ * 그 밖(`kr/`·`igo/`·`us/` 같은 다른 문서)은 모두 거부한다.
+ */
+const CC_LICENSE_TAIL = /^(?:(?:deed|legalcode)(?:\.(?!(?:txt|htm|rdf|pdf|xml)\b)[a-z]{2,3}(?:[-_][a-z0-9]{2,8})*)?\/?)?$/i
+
+/** `licenseUrl`이 creativecommons.org의 바로 그 라이선스·버전(한국판이면 한국판) 문서인가. */
+export function matchesCcLicenseUrl(url: string, pathHead: string): boolean {
   try {
     const parsed = new URL(url)
     const host = parsed.hostname.toLowerCase()
-    return (host === 'creativecommons.org' || host === 'www.creativecommons.org') && parsed.pathname.startsWith(pathHead)
+    if (host !== 'creativecommons.org' && host !== 'www.creativecommons.org') return false
+    if (!parsed.pathname.startsWith(pathHead)) return false
+    return CC_LICENSE_TAIL.test(parsed.pathname.slice(pathHead.length))
+  } catch {
+    return false
+  }
+}
+
+/** `us-gov` 근거 페이지가 위키미디어 호스트인가 — 원 기관 페이지에서 직무 촬영을 확인해야 한다(정책 us-gov 조건 ⓐ). */
+function isWikimediaHost(url: string): boolean {
+  try {
+    const host = new URL(url).hostname.toLowerCase()
+    return ['wikimedia.org', 'wikipedia.org', 'wikidata.org'].some((root) => host === root || host.endsWith(`.${root}`))
   } catch {
     return false
   }
@@ -196,8 +264,12 @@ export interface ImageCredit {
   creditNotice?: string
   /** open·kcc-donated 선택: 기증자가 저작자와 다를 때만. */
   donorName?: string
-  /** open·kcc-donated 필수(pd 선택 — 근거 문구): 상세 페이지에 표시된 이용조건 글자 그대로. */
+  /** open·kcc-donated 필수: 상세 페이지에 표시된 이용조건 글자 그대로(pd에서는 오류 — 프로그래머 20). */
   licenseLabel?: string
+  /** open·pd 필수: 퍼블릭 도메인 근거(표시 문구를 정한다). */
+  pdBasis?: PdBasis
+  /** open·pd의 `expired-*` 필수: 저작자 사망연도 또는 공표연도 `YYYY`. */
+  pdBasisYear?: string
 }
 
 export interface PostImage {
@@ -232,8 +304,12 @@ export interface PostImage {
   creditNotice?: string
   /** open(`kcc-donated`) 선택: 기증자가 저작자와 다를 때만. */
   donorName?: string
-  /** open(`kcc-donated`) 필수 · `pd` 선택(근거 문구): 상세 페이지에 표시된 이용조건 글자 그대로. */
+  /** open(`kcc-donated`) 필수: 상세 페이지에 표시된 이용조건 글자 그대로. `pd`에서 쓰면 오류(표시 문구는 `pdBasis`가 정한다 — 프로그래머 20). */
   licenseLabel?: string
+  /** open(`pd`) 필수: 퍼블릭 도메인 근거 `us-gov`·`expired-author-death`·`expired-publication`·`declared`(정책 §4.5-2). */
+  pdBasis?: PdBasis
+  /** open(`pd`의 `expired-*`) 필수: 저작자 사망연도·공표연도 `YYYY` — max(1962, 올해 − 71) 이하. */
+  pdBasisYear?: string
   /** public·open·news 필수: 확인일 `YYYY-MM-DD`. */
   retrievedAt?: string
   /** public·open·news 필수: 인물·얼굴 판정 근거 한 줄(공인 직위·캡션 출처, 또는 "얼굴 없음"). 화면에는 나오지 않는다. */
@@ -391,7 +467,7 @@ interface ImageContext {
 export const CAPTION_WARN_LENGTH = 160
 
 /** open 전용 필드(프로그래머 19). `workTitle`·`workYear`는 public도 받는다(정책 §4.3 착수 조건). */
-const OPEN_ONLY_FIELDS = ['licenseUrl', 'sourceSiteName', 'creditNotice', 'donorName', 'licenseLabel'] as const
+const OPEN_ONLY_FIELDS = ['licenseUrl', 'sourceSiteName', 'creditNotice', 'donorName', 'licenseLabel', 'pdBasis', 'pdBasisYear'] as const
 const WORK_FIELDS = ['workTitle', 'workYear'] as const
 
 /** public·open·news 전용 필드. self에 들어 있으면 알려 준다(화면에 쓰이지 않는다). */
@@ -407,18 +483,85 @@ const CREDIT_FIELDS = [
 ] as const
 
 /**
- * A-2 자료사진 사진 설명 고정 문구(정책 §4.5-4). 빠지면 경고만 한다(오류 아님 — validate-content 권장 경고, 프로그래머 19).
- * 영어본(`imageCaption`)은 `translation.ts`가 같은 기준으로 본다.
+ * A-2 자료사진 사진 설명 고정 문구(정책 §4.5-3a·3b·4 · 프로그래머 20 명세 5). 빠지면 경고만 한다(오류 아님 — validate-content 권장 경고).
+ * 영어본(`imageCaption`)은 `translation.ts`가 같은 함수(`archiveCaptionNotices`)로 본다.
+ * 허용 형식 세 가지(접두 뒤 ` — {끝 문구}.`):
+ *  ① 기본(장소·건물) `notThen` ② 3a 구역·지점 게시물의 광역 풍경 `notPlace`(en은 `Archive photo: general view of …`로 시작) ③ 3b 같은 기종 장비 `notEquipment`.
  */
 export const ARCHIVE_CAPTION = {
-  ko: { prefix: '자료사진:', notThen: '이 사건 당시 사진이 아닙니다', yearUnknown: '촬영 연도 미상', mayDiffer: '현재 모습과 다를 수 있습니다.' },
+  ko: {
+    prefix: '자료사진:',
+    notThen: '이 사건 당시 사진이 아닙니다',
+    notPlace: '이 사건 지점·당시 사진이 아닙니다',
+    notEquipment: '이 사건의 장비가 아닙니다',
+    placeLead: '자료사진:',
+    yearUnknown: '촬영 연도 미상',
+    mayDiffer: '현재 모습과 다를 수 있습니다.',
+  },
   en: {
     prefix: 'Archive photo:',
     notThen: 'not taken at the time of this event',
+    notPlace: 'not the location or time of this event',
+    notEquipment: 'not the equipment involved in this event',
+    placeLead: 'Archive photo: general view of ',
     yearUnknown: 'year unknown',
     mayDiffer: 'It may differ from how it looks today.',
   },
 } as const
+
+/** A-2 caption 형식: ① 기본 · ② 3a 광역 풍경 · ③ 3b 장비. 셋 다 아니면 undefined. */
+export type ArchiveCaptionForm = 'then' | 'place' | 'equipment'
+
+export function archiveCaptionForm(caption: string, lang: 'ko' | 'en'): ArchiveCaptionForm | undefined {
+  const words = ARCHIVE_CAPTION[lang]
+  if (!caption.startsWith(words.prefix)) return undefined
+  if (caption.includes(` — ${words.notThen}.`)) return 'then'
+  if (caption.startsWith(words.placeLead) && caption.includes(` — ${words.notPlace}.`)) return 'place'
+  if (caption.includes(` — ${words.notEquipment}.`)) return 'equipment'
+  return undefined
+}
+
+/** public A-2 판정(정책 §4.5-14 · 기획 20-1 P3-6): caption이 `자료사진:`(영어 `Archive photo:`)으로 시작하는가. faceNote로는 판정하지 않는다. */
+export function isArchiveCaption(caption: string | undefined, lang: 'ko' | 'en'): boolean {
+  return !!caption && caption.startsWith(ARCHIVE_CAPTION[lang].prefix)
+}
+
+/**
+ * A-2 caption 권장 경고(오류 아님). `field`는 메시지 머리(`image.caption`·`imageCaption`).
+ * - 세 형식 중 하나가 아니면 경고.
+ * - `yearFieldRequired`(open): `workYear`가 없으면 연도 미상 문구가 있어야 한다. public은 workYear가 선택이라 caption의 연도 미상 문구로만 본다.
+ * - 연도 미상이거나 `ARCHIVE_OLD_YEARS`년 이상 전이면 ①②에 "현재 모습과 다를 수 있습니다."(③ 장비는 제외).
+ */
+export function archiveCaptionNotices(
+  caption: string,
+  lang: 'ko' | 'en',
+  options: { field: string; workYear?: string; todayYear: number; yearFieldRequired: boolean },
+): string[] {
+  const words = ARCHIVE_CAPTION[lang]
+  const notices: string[] = []
+  const form = archiveCaptionForm(caption, lang)
+  if (!form) {
+    notices.push(
+      lang === 'ko'
+        ? `${options.field}: A-2 자료사진은 \`${words.prefix} {대상}({촬영연도}) — ${words.notThen}.\`(장소·건물) · \`${words.prefix} {광역} 일반 풍경({촬영연도}) — ${words.notPlace}.\`(구역·지점 게시물) · \`${words.prefix} {기종}({촬영연도}) — ${words.notEquipment}.\`(장비) 중 하나로 적습니다(정책 §4.5-3a·3b·4).`
+        : `${options.field}: A-2 자료사진 영어 설명은 \`${words.prefix} {subject} ({year}) — ${words.notThen}.\`(장소·건물) · \`${words.placeLead}{area} ({year}) — ${words.notPlace}.\`(구역·지점 게시물) · \`${words.prefix} {model} ({year}) — ${words.notEquipment}.\`(장비) 중 하나로 적습니다(정책 §4.5-3a·3b·4).`,
+    )
+  }
+  const unknownInCaption = caption.includes(words.yearUnknown)
+  if (options.yearFieldRequired && !options.workYear && !unknownInCaption) {
+    notices.push(`${options.field}: workYear가 없으면 caption에 '${words.yearUnknown}'을 적습니다(정책 §4.5-4).`)
+  }
+  const unknown = options.workYear ? false : options.yearFieldRequired || unknownInCaption
+  const old = options.workYear ? options.todayYear - Number(options.workYear) >= ARCHIVE_OLD_YEARS : false
+  if (form !== 'equipment' && (unknown || old) && !caption.includes(words.mayDiffer)) {
+    notices.push(
+      unknown
+        ? `${options.field}: 촬영 연도 미상이면 '${words.mayDiffer}'를 붙입니다(정책 §4.5-4 — 장비 caption 제외).`
+        : `${options.field}: 촬영 ${ARCHIVE_OLD_YEARS}년 이상 전 사진(${options.workYear})이면 끝에 '${words.mayDiffer}'를 붙입니다(정책 §4.5-4 — 장비 caption 제외).`,
+    )
+  }
+  return notices
+}
 
 /** 촬영연도가 이만큼(년) 이상 전이면 "현재 모습과 다를 수 있습니다."를 붙인다(정책 §4.5-4). */
 export const ARCHIVE_OLD_YEARS = 10
@@ -451,13 +594,20 @@ function readWorkYear(raw: Record<string, unknown>, label: string, errors: strin
   return { value: text, ok: true }
 }
 
-/** open 라이선스 값이 목록에 없을 때 업로더가 알아들을 사유. */
-function openLicenseRejectReason(value: string): string {
-  const lower = value.toLowerCase().replace(/\s+/g, '-')
-  if (/^cc-?by$/.test(lower)) return '버전 없는 CC BY는 쓸 수 없습니다 — 페이지가 버전을 명시한 것만 cc-by-2.0 / cc-by-3.0 / cc-by-4.0으로 적으세요(정책 §4.5-2)'
+/**
+ * open 라이선스 값이 목록에 없을 때 업로더가 알아들을 사유(프로그래머 20 명세 3).
+ * BY-SA·BY-ND는 버전을 적은 값이 목록에 있으므로 여기까지 오는 것은 버전 없음·잘못된 버전·지역판뿐이다.
+ */
+export function openLicenseRejectReason(value: string): string {
+  const lower = value.toLowerCase().replace(/[\s_]+/g, '-')
   if (/^kogl/.test(lower)) return '공공누리는 kind `public`에 씁니다(제1유형 `kogl-1`만)'
-  if (/^cc-?by-?(sa|nc|nd)/.test(lower)) return 'CC BY-SA·BY-NC·BY-ND는 허용 라이선스가 아닙니다(정책 §4.5-2 제외)'
-  if (/^cc-?by-?\d\.\d-[a-z]{2}$/.test(lower)) return 'CC 지역판(포팅 버전)은 조문을 확인하기 전까지 쓸 수 없습니다(정책 §4.5-2)'
+  if (/^cc-?by-?nc/.test(lower)) return '허용 라이선스가 아닙니다(상업 이용 금지)'
+  if (/^cc-?by(-?(sa|nd))?$/.test(lower)) {
+    return '버전을 적으세요 — 페이지가 버전을 명시한 것만 cc-by(-sa·-nd)-2.0 / 3.0 / 4.0으로 적습니다(정책 §4.5-2)'
+  }
+  if (/^cc-?by(-?(sa|nd))?-?\d\.\d-?[a-z]{2,}$/.test(lower)) {
+    return 'CC 지역판은 한국판 CC BY 2.0 KR·CC BY-SA 2.0 KR만 허용합니다(그 밖은 조문 확인 전)'
+  }
   return '허용 라이선스가 아닙니다'
 }
 
@@ -649,6 +799,8 @@ function validateImageEntry(
   let creditNotice: string | undefined
   let donorName: string | undefined
   let licenseLabel: string | undefined
+  let pdBasis: PdBasis | undefined
+  let pdBasisYear: string | undefined
   let workTitleOk = true
   if (kind === 'news') {
     for (const field of [...WORK_FIELDS, ...OPEN_ONLY_FIELDS]) {
@@ -696,8 +848,52 @@ function validateImageEntry(
       }
     } else {
       if (donor.value) notices.push(`${label}.donorName은 \`kcc-donated\`에서만 쓰입니다 — 무시됩니다.`)
-      if (license === 'pd') licenseLabel = labelText.value
-      else if (labelText.value) notices.push(`${label}.licenseLabel은 \`kcc-donated\`(·\`pd\` 근거 문구)에서만 쓰입니다 — 무시됩니다.`)
+      if (license === 'pd' && labelText.value) {
+        // 프로그래머 20 명세 4 · 정책 §8: pd의 표시 문구는 pdBasis가 정한다 — licenseLabel은 오류.
+        errors.push(`${label}.licenseLabel: \`pd\`에서는 쓰지 않습니다 — 표시 문구는 \`pdBasis\`가 정합니다(licenseLabel은 \`kcc-donated\` 전용). 이 줄을 지우세요.`)
+        ok = false
+      } else if (labelText.value) notices.push(`${label}.licenseLabel은 \`kcc-donated\`에서만 쓰입니다 — 무시됩니다.`)
+    }
+
+    // --- 퍼블릭 도메인 근거(프로그래머 20 명세 4 · 정책 §4.5-2 PD 표) ---
+    const basisRaw = raw.pdBasis
+    const basisYearRaw = raw.pdBasisYear
+    if (license === 'pd') {
+      const basisValue = asTrimmedString(basisRaw)
+      pdBasis = PD_BASES.find((item) => item === basisValue)
+      if (!pdBasis) {
+        errors.push(
+          `${label}.pdBasis: \`pd\`이면 필수이며 ${PD_BASES.join(' / ')} 중 하나여야 합니다 — 근거를 직접 확인한 것만 씁니다(정책 §4.5-2). (받은 값: ${String(basisRaw)})`,
+        )
+        ok = false
+      }
+      const limit = pdExpiredMaxYear(Number(todayYear))
+      const needsYear = pdBasis === 'expired-author-death' || pdBasis === 'expired-publication'
+      if (basisYearRaw !== undefined && basisYearRaw !== null) {
+        const text =
+          typeof basisYearRaw === 'number' && Number.isInteger(basisYearRaw) ? String(basisYearRaw) : typeof basisYearRaw === 'string' ? basisYearRaw.trim() : ''
+        if (!/^\d{4}$/.test(text)) {
+          errors.push(`${label}.pdBasisYear: 4자리 연도여야 합니다(예: 1950). (받은 값: ${JSON.stringify(basisYearRaw)})`)
+          ok = false
+        } else if (needsYear) {
+          if (Number(text) > limit) {
+            errors.push(
+              `${label}.pdBasisYear: ${pdBasis === 'expired-author-death' ? '사망' : '공표'}연도가 ${limit}년 이전이어야 보호기간이 끝난 것으로 봅니다(max(1962, 올해 − 71), 정책 §4.5-2) — ${text}년은 아직 보호될 수 있습니다.`,
+            )
+            ok = false
+          } else {
+            pdBasisYear = text
+          }
+        } else if (pdBasis) {
+          notices.push(`${label}.pdBasisYear는 pdBasis \`expired-author-death\`·\`expired-publication\`에서만 쓰입니다 — 무시됩니다.`)
+        }
+      } else if (needsYear) {
+        errors.push(`${label}.pdBasisYear: pdBasis \`${pdBasis}\`이면 필수입니다 — ${pdBasis === 'expired-author-death' ? '저작자 사망연도' : '공표연도'}(4자리, ${limit}년 이전).`)
+        ok = false
+      }
+    } else {
+      if (basisRaw !== undefined && basisRaw !== null) notices.push(`${label}.pdBasis는 \`license: pd\`에서만 쓰입니다 — 무시됩니다.`)
+      if (basisYearRaw !== undefined && basisYearRaw !== null) notices.push(`${label}.pdBasisYear는 \`license: pd\`에서만 쓰입니다 — 무시됩니다.`)
     }
 
     const licenseUrlRaw = raw.licenseUrl
@@ -711,33 +907,36 @@ function validateImageEntry(
         : undefined
       if (pathHead && !matchesCcLicenseUrl(licenseUrl, pathHead)) {
         errors.push(
-          `${label}.licenseUrl: \`${license}\`${license === 'kcc-donated' ? '(이용조건 CC BY 4.0)' : ''}이면 creativecommons.org${pathHead}… 문서여야 합니다 — 표시하는 라이선스와 버전이 같은 문서를 링크하세요. (받은 값: ${licenseUrl})`,
+          `${label}.licenseUrl: \`${license}\`${license === 'kcc-donated' ? '(이용조건 CC BY 4.0)' : ''}이면 creativecommons.org${pathHead} 문서(뒤에는 deed·legalcode와 언어 접미만)여야 합니다 — 표시하는 라이선스와 종류·버전·판(국제판/한국판 kr)이 같은 문서를 링크하세요. (받은 값: ${licenseUrl})`,
         )
         ok = false
       }
     }
 
     // 권장 경고(오류 아님 — 정책 §4.5-1·4·8·11).
-    if (caption) {
-      const ko = ARCHIVE_CAPTION.ko
-      if (!caption.startsWith(ko.prefix) || !caption.includes(ko.notThen)) {
-        notices.push(`${label}.caption: A-2 자료사진은 \`${ko.prefix} {대상}({촬영연도}) — ${ko.notThen}.\` 형식을 권합니다(정책 §4.5-4).`)
-      }
-      if (!workYear && (!caption.includes(ko.yearUnknown) || !caption.includes(ko.mayDiffer))) {
-        notices.push(`${label}.caption: workYear가 없으면 caption에 '${ko.yearUnknown}'과 '${ko.mayDiffer}'를 함께 적습니다(정책 §4.5-4).`)
-      }
-      if (workYear && Number(todayYear) - Number(workYear) >= ARCHIVE_OLD_YEARS && !caption.includes(ko.mayDiffer)) {
-        notices.push(`${label}.caption: 촬영 ${ARCHIVE_OLD_YEARS}년 이상 전 사진(${workYear})이면 끝에 '${ko.mayDiffer}'를 붙입니다(정책 §4.5-4).`)
-      }
-    }
-    if (faceNote && !faceNote.startsWith('얼굴 없음')) {
-      notices.push(`${label}.faceNote: A-2 자료사진은 사람·얼굴이 없는 사진만 씁니다 — \`얼굴 없음(자료사진·건물)\`로 시작하게 적으세요(정책 §4.5-1·8).`)
-    }
     if (license === 'kcc-donated' && sourceSiteName && sourceSiteName !== '공유마당') {
       notices.push(`${label}.sourceSiteName: 기증저작물 표시는 공유마당 공식 예시대로 '공유마당'으로 나옵니다 — 받은 값(${sourceSiteName})은 상세에 쓰이지 않습니다.`)
     }
-    if (license === 'pd' && !licenseLabel) {
-      notices.push(`${label}.licenseLabel: \`pd\`는 근거 문구(만료 연도·선언·법령)를 적으면 상세에 "근거: …"로 함께 나옵니다(정책 §4.5-11). 지금은 근거 페이지 링크만 나옵니다.`)
+    if (pdBasis === 'us-gov') {
+      if (licenseUrl && isWikimediaHost(licenseUrl)) {
+        notices.push(`${label}.licenseUrl: \`us-gov\`는 위키미디어 틀이 아니라 원 기관 페이지(공식 배포처)에서 직무 촬영을 확인한 근거 페이지를 적습니다(정책 us-gov 조건 ⓐ).`)
+      }
+      if (!creditNotice) {
+        notices.push(`${label}.creditNotice: \`us-gov\`는 기관의 보증 부인 문구를 확인하세요 — 원 기관 페이지에 있으면 원문 그대로 적습니다(정책 us-gov 조건 ⓓ).`)
+      }
+    }
+  }
+
+  // --- A-2 자료사진 권장 경고(프로그래머 20 명세 5): open 전부 + caption이 `자료사진:`으로 시작하는 public ---
+  const isArchive = kind === 'open' || (kind === 'public' && isArchiveCaption(caption, 'ko'))
+  if (isArchive) {
+    if (caption) {
+      notices.push(
+        ...archiveCaptionNotices(caption, 'ko', { field: `${label}.caption`, workYear, todayYear: Number(todayYear), yearFieldRequired: kind === 'open' }),
+      )
+    }
+    if (faceNote && !faceNote.startsWith('얼굴 없음')) {
+      notices.push(`${label}.faceNote: A-2 자료사진은 사람·얼굴이 없는 사진만 씁니다 — \`얼굴 없음(자료사진·건물)\`로 시작하게 적으세요(정책 §4.5-1·8).`)
     }
   }
 
@@ -758,6 +957,8 @@ function validateImageEntry(
     ...(creditNotice ? { creditNotice } : {}),
     ...(donorName ? { donorName } : {}),
     ...(licenseLabel ? { licenseLabel } : {}),
+    ...(pdBasis ? { pdBasis } : {}),
+    ...(pdBasisYear ? { pdBasisYear } : {}),
     retrievedAt,
     faceNote,
   }
@@ -1051,9 +1252,12 @@ export function validatePost(
  * `credit`은 public·open·news 대표 이미지에만 붙는다(상세 figcaption용). self 이미지는 이전과 같은 모양이다.
  * `unoptimized`(local만): next/image 최적화(리사이즈·재인코딩)를 거치지 않고 저장 파일을 그대로 보낸다 —
  * 공유마당 기증저작물(`kcc-donated`) 전부(프로그래머 19, 정책 §4.5-11 기증 줄의 보수안).
+ * `contain`(local만): 자르지 않고 사진 전체를 보인다(`object-contain` + 배경 면) — CC BY-ND 사진(프로그래머 20 명세 8, 정책 §4.5-2 ND 행).
+ *   ND도 리사이즈·재인코딩(next/image)은 허용한다(4.0 §2(a)(4) — 개작이 아님).
+ * 카드 데이터(`toCardView`)에는 `credit`을 싣지 않는다(리뷰 68 P3-1 · 프로그래머 20 명세 11) — 상세만 쓴다.
  */
 export type CardMedia =
-  | { kind: 'local'; src: string; alt: string; credit?: ImageCredit; unoptimized?: true }
+  | { kind: 'local'; src: string; alt: string; credit?: ImageCredit; unoptimized?: true; contain?: true }
   | { kind: 'remote'; src: string; alt: string; credit?: ImageCredit }
   | { kind: 'placeholder' }
 
@@ -1072,6 +1276,8 @@ function imageCredit(image: PostImage): ImageCredit | undefined {
     ...(image.creditNotice ? { creditNotice: image.creditNotice } : {}),
     ...(image.donorName ? { donorName: image.donorName } : {}),
     ...(image.licenseLabel ? { licenseLabel: image.licenseLabel } : {}),
+    ...(image.pdBasis ? { pdBasis: image.pdBasis } : {}),
+    ...(image.pdBasisYear ? { pdBasisYear: image.pdBasisYear } : {}),
   }
 }
 
@@ -1080,7 +1286,8 @@ function imageCredit(image: PostImage): ImageCredit | undefined {
  * 정책 §4.5-11은 "이용조건이 CC BY 4.0으로 표시된 기증 자유이용은 리사이즈·재인코딩 허용, 그렇지 않으면 무변형"이다.
  * 이용조건(`licenseLabel`)은 페이지 글자를 그대로 옮긴 자유 문구라, 글자 판정이 틀리면 무변형이어야 할 사진을 재인코딩하게 된다.
  * 그래서 판정 없이 **기증저작물은 전부** 제외한다(정책 문구보다 보수적이고 허용 범위 안 — 기획자 19-2 §2-3).
- * 그 밖의 라이선스(kogl-1·CC BY·CC0·PD)는 리사이즈·재인코딩을 허용한다.
+ * 그 밖의 라이선스(kogl-1·CC BY·BY-SA·BY-ND·한국판 2.0 KR·CC0·PD)는 리사이즈·재인코딩을 허용한다
+ * (4.0 §2(a)(4) "never produces Adapted Material", 2.0·3.0·KR §3 "기술적 수정" — 프로그래머 20 명세 10).
  */
 function needsUnoptimized(image: PostImage): boolean {
   return image.kind === 'open' && image.license === 'kcc-donated'
@@ -1100,6 +1307,7 @@ export function resolveCardMedia(post: Post, locale: Locale = 'ko'): CardMedia {
       alt: post.image.alt,
       ...(credit ? { credit } : {}),
       ...(needsUnoptimized(post.image) ? { unoptimized: true as const } : {}),
+      ...(post.image.kind === 'open' && isNoDerivativesLicense(post.image.license) ? { contain: true as const } : {}),
     }
   }
   const first = post.images[0]

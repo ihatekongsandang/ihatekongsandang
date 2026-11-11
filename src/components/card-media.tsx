@@ -48,6 +48,7 @@ function Placeholder({ label, text, variant }: { label: string; text: string; va
  * 카드·상세의 대표 이미지 슬롯.
  *
  * - 저장소 보유 이미지(`/images/**` — self·public·open)는 next/image로 최적화한다.
+ *   `media.contain`(CC BY-ND — 프로그래머 20)은 카드·상세 모두 `object-contain`으로 자르지 않고 보인다(같은 16:9 슬롯, 남는 자리는 배경 면).
  *   단 `media.unoptimized`(공유마당 기증저작물 — 정책 §4.5-11 무변형 보수안, 프로그래머 19)는 `unoptimized`로 저장 파일을 그대로 보낸다
  *   (리사이즈·재인코딩 없음 — 최적화 엔드포인트 `/_next/image`를 거치지 않는다).
  * - 원문 썸네일·언론 기사 대표 이미지(핫링크 — `og.image`, `image.kind: news`)는 최적화를 거치지 않는 `<img>`로 렌더한다.
@@ -110,7 +111,9 @@ export function CardMedia({
           priority={priority}
           sizes={SIZES[variant]}
           unoptimized={media.unoptimized}
-          className="object-cover"
+          // CC BY-ND(프로그래머 20 명세 8): 자르지 않고 전체를 보인다 — 남는 자리는 슬롯 배경(`bg-surface`)이 채운다.
+          className={media.contain ? 'object-contain' : 'object-cover'}
+          data-fit={media.contain ? 'contain' : undefined}
         />
       </div>
     )

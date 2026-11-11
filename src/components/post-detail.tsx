@@ -21,10 +21,34 @@ function koglTypeNumber(license: ImageCredit['license']): number | undefined {
   return match ? Number(match[1]) : undefined
 }
 
-/** `cc-by-4.0` → `4.0`. CC BY가 아니면 undefined. */
-function ccByVersion(license: ImageCredit['license']): string | undefined {
-  const match = license?.match(/^cc-by-(\d\.\d)$/)
-  return match ? match[1] : undefined
+/**
+ * CC BY 계열 라이선스 값 → 표시 이름(프로그래머 20, 정책 §4.5-11).
+ * `cc-by-4.0` → `CC BY 4.0` · `cc-by-sa-3.0` → `CC BY-SA 3.0` · `cc-by-nd-2.0` → `CC BY-ND 2.0` · `cc-by-2.0-kr` → `CC BY 2.0 KR`.
+ * `unmodified`: BY-SA·BY-ND(한국판 BY-SA 포함)에는 "(변경 없음·크기 조정 외)"를 항상 붙인다. CC BY(국제판·한국판)에는 붙이지 않는다.
+ * CC BY 계열이 아니면 undefined.
+ */
+function ccByName(license: ImageCredit['license']): { name: string; unmodified: boolean } | undefined {
+  const match = license?.match(/^cc-by(?:-(sa|nd))?-(\d\.\d)(-kr)?$/)
+  if (!match) return undefined
+  const [, kind, version, kr] = match
+  return { name: `CC BY${kind ? `-${kind.toUpperCase()}` : ''} ${version}${kr ? ' KR' : ''}`, unmodified: !!kind }
+}
+
+/** pd 근거별 고정 문구(정책 §4.5-2 PD 표). 근거·연도가 빠진 값은 검증에서 막히므로 여기서는 없으면 문구 없이 둔다. */
+function pdBasisText(credit: ImageCredit, locale: Locale): string | undefined {
+  const words = t(locale).openCredit.pd
+  switch (credit.pdBasis) {
+    case 'us-gov':
+      return words['us-gov']
+    case 'declared':
+      return words.declared
+    case 'expired-author-death':
+      return credit.pdBasisYear ? words['expired-author-death'](credit.pdBasisYear) : undefined
+    case 'expired-publication':
+      return credit.pdBasisYear ? words['expired-publication'](credit.pdBasisYear) : undefined
+    default:
+      return undefined
+  }
 }
 
 /** 값(저작자·저작물명·사이트명 등)을 끼워 넣는 자리 — 영어 페이지에서 한글이면 `lang="ko"`. */
@@ -38,8 +62,10 @@ function Value({ text, locale }: { text: string; locale: Locale }) {
  *          en `Photo: {Author}, "{Title}" ({year}) · {Source site} / CC BY {version}` + [Original] + [License]
  *          — `workYear`가 없으면 ko·en 모두 창작년도 괄호를 통째로 뺀다(리뷰 67-2 P3-3).
  * - CC0: ko `사진: {저작자}(CC0 1.0 — 저작권 포기)` / en `Photo: {Author} (CC0 1.0 — public domain dedication)` + [원 페이지] + [라이선스]
- * - PD: ko `사진: {저작자}(퍼블릭 도메인 — 근거: {licenseLabel})`(근거 문구가 없으면 `(퍼블릭 도메인)`) + [원 페이지] + [근거 페이지].
- *       정책 서식의 링크는 [근거 페이지]뿐이지만, 소개 페이지 A-2 줄이 "원문 링크를 적고"라고 약속하므로 원 페이지도 함께 건다.
+ * - 🆕 CC BY-SA·BY-ND·한국판(프로그래머 20): CC BY 서식에 라이선스 이름만 바꾼다(`CC BY-SA 4.0`·`CC BY-ND 3.0`·`CC BY 2.0 KR`·`CC BY-SA 2.0 KR`).
+ *       BY-SA·BY-ND에는 ` (변경 없음·크기 조정 외)` / ` (unmodified except resizing)`를 항상 붙인다.
+ * - 🆕 PD(프로그래머 20): ko `사진: {저작자 또는 기관} ({pdBasis 문구})` / en `Photo: {Author} ({pdBasis text})` + [원 페이지] + [근거 페이지].
+ *       문구는 `pdBasis`별 고정(us-gov는 "미국에서 퍼블릭 도메인"), `expired-*`는 `pdBasisYear`를 넣는다. us-gov의 보증 부인 문구는 `creditNotice` 줄.
  * - 기증 자유이용: ko `사진: {저작자}, 「{저작물명}」, 기증 {기증자}, 공유마당 / {이용조건}` / en `…, donated by {donor}, Gongu Madang / {label}`
  *       + [원 페이지](+ 이용조건이 CC BY 4.0이면 [라이선스]). 기증자는 `donorName`, 없으면 저작자.
  * 링크는 모두 `ExternalLink`(public·news와 같은 `rel="noopener"`·새 창 안내·높이 44px).
@@ -56,11 +82,11 @@ function OpenCreditLine({ credit, locale }: { credit: ImageCredit; locale: Local
       {words.titleClose}
     </>
   ) : null
-  const version = ccByVersion(credit.license)
+  const cc = ccByName(credit.license)
   let body: ReactNode = null
   let licenseHref: string | undefined
   let basisHref: string | undefined
-  if (version) {
+  if (cc) {
     body = (
       <>
         {title}
@@ -71,7 +97,8 @@ function OpenCreditLine({ credit, locale }: { credit: ImageCredit; locale: Local
             <Value text={credit.sourceSiteName} locale={locale} />
           </>
         ) : null}
-        {` / CC BY ${version}`}
+        {` / ${cc.name}`}
+        {cc.unmodified ? words.unmodified : null}
       </>
     )
     licenseHref = credit.licenseUrl
@@ -79,14 +106,8 @@ function OpenCreditLine({ credit, locale }: { credit: ImageCredit; locale: Local
     body = words.cc0
     licenseHref = credit.licenseUrl
   } else if (credit.license === 'pd') {
-    const pd = words.pd(credit.licenseLabel)
-    body = (
-      <>
-        {pd.before}
-        {credit.licenseLabel ? <Value text={credit.licenseLabel} locale={locale} /> : null}
-        {pd.after}
-      </>
-    )
+    const text = pdBasisText(credit, locale)
+    body = text ? `${words.pdOpen}${text}${words.pdClose}` : null
     basisHref = credit.licenseUrl
   } else if (credit.license === 'kcc-donated') {
     const donor = credit.donorName ?? name

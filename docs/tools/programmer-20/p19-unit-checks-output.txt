@@ -1,0 +1,13 @@
+케이스 244개 · 통과 232 · 실패 12
+FAIL  A pd(근거 문구 있음) 통과 — image.licenseLabel: `pd`에서는 쓰지 않습니다 — 표시 문구는 `pdBasis`가 정합니다(licenseLabel은 `kcc-donated` 전용). 이 줄을 지우세요. | image.pdBasis: `pd`이면 필수이며 us-gov / expired-author-death / expired-publication / declared 중 하나여야 합니다 — 근거를 직접 확인한 것만 씁니다(정책 §4.5-2). (받은 값: undefined)
+FAIL  A pd licenseUrl은 creativecommons.org가 아니어도 됨
+FAIL  B 버전 없는 cc-by 거부(사유: 버전) — image.license: kind `open` — 버전을 적으세요 — 페이지가 버전을 명시한 것만 cc-by(-sa·-nd)-2.0 / 3.0 / 4.0으로 적습니다(정책 §4.5-2). 쓸 수 있는 값: cc-by-2.0 / cc-by-3.0 / cc-by-4.0 / cc-by-sa-2.0 / cc-by-sa-3.0 / cc-by-sa-4.0 / cc-by-nd-2.0 / cc-by-nd-3.0 / cc-by-nd-4.0 / cc-by-2.0-kr / cc-by-sa-2.0-kr / cc0-1.0 / pd / kcc-donated. (받은 값: cc-by)
+FAIL  B "CC BY"(대문자·공백) 거부
+FAIL  B cc-by-sa-4.0 거부 — image.licenseUrl: `cc-by-sa-4.0`이면 creativecommons.org/licenses/by-sa/4.0/ 문서(뒤에는 deed·legalcode와 언어 접미만)여야 합니다 — 표시하는 라이선스와 종류·버전·판(국제판/한국판 kr)이 같은 문서를 링크하세요. (받은 값: https://creativecommons.org/licenses/by/4.0/)
+FAIL  B cc-by-nc-4.0 거부
+FAIL  B cc-by-nd-4.0 거부
+FAIL  B 지역판 cc-by-2.0-kr 거부
+FAIL  C pd 근거 문구 없음 → 경고
+FAIL  D PD 근거 문구 있음: 검증 통과 — image.licenseLabel: `pd`에서는 쓰지 않습니다 — 표시 문구는 `pdBasis`가 정합니다(licenseLabel은 `kcc-donated` 전용). 이 줄을 지우세요. | image.pdBasis: `pd`이면 필수이며 us-gov / expired-author-death / expired-publication / declared 중 하나여야 합니다 — 근거를 직접 확인한 것만 씁니다(정책 §4.5-2). (받은 값: undefined)
+FAIL  D PD 근거 문구 없음: 검증 통과 — image.pdBasis: `pd`이면 필수이며 us-gov / expired-author-death / expired-publication / declared 중 하나여야 합니다 — 근거를 직접 확인한 것만 씁니다(정책 §4.5-2). (받은 값: undefined)
+FAIL  E pd: 검증 통과 — image.pdBasis: `pd`이면 필수이며 us-gov / expired-author-death / expired-publication / declared 중 하나여야 합니다 — 근거를 직접 확인한 것만 씁니다(정책 §4.5-2). (받은 값: undefined)

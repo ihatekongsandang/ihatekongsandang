@@ -53,12 +53,12 @@ export default function EnglishAboutPage() {
                   When we use public photos released under the Korea Open Government License (KOGL), the license type
                   is shown below the photo (none are in use now).
                 </li>
-                {/* 프로그래머 19: 기획자 19-2 §3 A-2 줄 en 문안을 글자 그대로 둔다(KOGL 줄은 유지 — 정책 §4.5). */}
+                {/* 프로그래머 20: 기획자 20-1 §2 명세 9 A-2 줄 en 문안(장비 구절 포함, 슈퍼바이저 결정)을 글자 그대로 둔다(KOGL 줄은 유지 — 정책 §4.5). */}
                 <li>
-                  Archive photos with no people in them (such as places and buildings) are used only if they are marked
-                  as free to use — for example under KOGL, a Creative Commons license or in the public domain. Below
-                  the photo we credit the author, state the license, link to the original, and note that it was not
-                  taken at the time of the event.
+                  Archive photos with no people in them (such as places, buildings and equipment) are used only if they
+                  are marked as free to use — for example under KOGL, a Creative Commons license or in the public domain.
+                  Below the photo we credit the author, state the license, link to the original, and note that it was not
+                  taken at the time of the event (or, for equipment, that it does not show the equipment involved).
                 </li>
                 <li>If a post has no image, or an image fails to load, a replacement image is shown.</li>
               </ul>

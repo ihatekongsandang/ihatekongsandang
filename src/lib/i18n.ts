@@ -96,8 +96,18 @@ interface Dictionary {
     gongu: string
     /** CC0 1.0 표기(크레딧 바로 뒤). */
     cc0: string
-    /** 퍼블릭 도메인 표기(근거 문구가 있으면 함께). */
-    pd: (basis?: string) => { before: string; after: string }
+    /** CC BY-SA·BY-ND 라이선스 이름 뒤에 항상 붙이는 문구(정책 §4.5-11 · 프로그래머 20). */
+    unmodified: string
+    /** 퍼블릭 도메인 표기 — `pdBasis`별 고정 문구(정책 §4.5-2 PD 표 "화면 표시 문구"). 괄호는 호출하는 쪽이 감싼다. */
+    pd: {
+      'us-gov': string
+      'expired-author-death': (year: string) => string
+      'expired-publication': (year: string) => string
+      declared: string
+    }
+    /** pd 문구를 감싸는 괄호(ko·en 모두 앞에 공백 — 정책 §4.5-11 PD 서식 `사진: {저작자 또는 기관} ({pdBasis 문구})`). */
+    pdOpen: string
+    pdClose: string
     /** 링크 문구: 원 페이지 · 라이선스 · (pd) 근거 페이지. */
     original: string
     license: string
@@ -197,7 +207,15 @@ const ko: Dictionary = {
     donatedBy: '기증 ',
     gongu: '공유마당',
     cc0: '(CC0 1.0 — 저작권 포기)',
-    pd: (basis) => (basis ? { before: '(퍼블릭 도메인 — 근거: ', after: ')' } : { before: '(퍼블릭 도메인)', after: '' }),
+    unmodified: ' (변경 없음·크기 조정 외)',
+    pd: {
+      'us-gov': '미국 연방정부 저작물 — 미국에서 퍼블릭 도메인(미국 저작권법 제105조)',
+      'expired-author-death': (year) => `퍼블릭 도메인 — 저작자 ${year} 사망, 보호기간 만료`,
+      'expired-publication': (year) => `퍼블릭 도메인 — ${year} 공표, 보호기간 만료`,
+      declared: '저작자가 퍼블릭 도메인으로 공개함',
+    },
+    pdOpen: ' (',
+    pdClose: ')',
     original: '원 페이지',
     license: '라이선스',
     basis: '근거 페이지',
@@ -292,7 +310,15 @@ const en: Dictionary = {
     donatedBy: 'donated by ',
     gongu: 'Gongu Madang',
     cc0: ' (CC0 1.0 — public domain dedication)',
-    pd: (basis) => (basis ? { before: ' (Public domain — basis: ', after: ')' } : { before: ' (Public domain)', after: '' }),
+    unmodified: ' (unmodified except resizing)',
+    pd: {
+      'us-gov': 'US federal government work — public domain in the United States (17 U.S.C. § 105)',
+      'expired-author-death': (year) => `Public domain — author died in ${year}; the copyright term has expired`,
+      'expired-publication': (year) => `Public domain — published in ${year}; the copyright term has expired`,
+      declared: 'Dedicated to the public domain by the author',
+    },
+    pdOpen: ' (',
+    pdClose: ')',
     original: 'Original',
     license: 'License',
     basis: 'Basis page',

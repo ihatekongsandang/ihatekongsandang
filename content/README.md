@@ -211,23 +211,44 @@ image:
   sourceSiteName: 공유마당           # 필수 — 출처 사이트명(주소에서 자동으로 정하지 않는다)
   creditNotice: "…"                 # 선택 — 원 페이지가 요구한 저작권·면책 고지 원문
   # donorName: "…"                  # 선택(kcc-donated만) — 기증자가 저작자와 다를 때
-  # licenseLabel: "CC BY 4.0"       # kcc-donated 필수 — 상세 페이지에 표시된 이용조건 글자 그대로(pd는 근거 문구, 선택)
+  # licenseLabel: "CC BY 4.0"       # kcc-donated 필수 — 상세 페이지에 표시된 이용조건 글자 그대로(pd에서 쓰면 오류)
+  # pdBasis: us-gov                 # pd 필수 — us-gov · expired-author-death · expired-publication · declared
+  # pdBasisYear: 1950               # pd의 expired-* 필수 — 저작자 사망연도·공표연도(max(1962, 올해 − 71) 이하)
   retrievedAt: 2026-11-11
   faceNote: 얼굴 없음(자료사진·건물)
 ```
 
-`license` 값(open — CC 지역판 `cc-by-2.0-kr` 등은 조문 확인 전이라 값이 없다):
+`license` 값(open — 프로그래머 20에서 BY-SA·BY-ND·한국판 2.0 KR 추가. CC 지역판은 **한국판 CC BY 2.0 KR·CC BY-SA 2.0 KR만**, 한국판 ND·그 밖 포팅 버전(`cc-by-2.0-de` 등)은 값이 없다):
 
 | 값 | 라이선스 | `licenseUrl` | 상세 출처 표시(ko) |
 |---|---|---|---|
-| `cc-by-2.0` · `cc-by-3.0` · `cc-by-4.0` | CC BY(버전을 페이지가 명시한 것만) | `https://creativecommons.org/licenses/by/{버전}/…` — 버전이 다르면 오류 | `사진: {creditName}, 「{workTitle}」({workYear}) · {sourceSiteName} / CC BY {버전}` · 원 페이지 · 라이선스 (`workYear`가 없으면 괄호째 빠진다) |
-| `cc0-1.0` | CC0 1.0 | `https://creativecommons.org/publicdomain/zero/1.0/…` | `사진: {creditName}(CC0 1.0 — 저작권 포기)` · 원 페이지 · 라이선스 |
-| `pd` | 퍼블릭 도메인(근거 명시된 것만) | 근거 페이지 | `사진: {creditName}(퍼블릭 도메인 — 근거: {licenseLabel})`(근거 문구가 없으면 `(퍼블릭 도메인)`) · 원 페이지 · 근거 페이지 |
+| `cc-by-2.0` · `cc-by-3.0` · `cc-by-4.0` | CC BY(버전을 페이지가 명시한 것만) | `https://creativecommons.org/licenses/by/{버전}/` | `사진: {creditName}, 「{workTitle}」({workYear}) · {sourceSiteName} / CC BY {버전}` · 원 페이지 · 라이선스 (`workYear`가 없으면 괄호째 빠진다) |
+| `cc-by-sa-2.0` · `cc-by-sa-3.0` · `cc-by-sa-4.0` | CC BY-SA(버전 명시) — **크기 조정·형식 변환만**(자르기·색 보정·합성·글자 삽입 금지) | `https://creativecommons.org/licenses/by-sa/{버전}/` | `… / CC BY-SA {버전} (변경 없음·크기 조정 외)` · 원 페이지 · 라이선스 |
+| `cc-by-nd-2.0` · `cc-by-nd-3.0` · `cc-by-nd-4.0` | CC BY-ND(버전 명시) — 크기 조정·형식 변환만. **카드·상세에서 자르지 않고 전체를 보인다**(`object-contain`) | `https://creativecommons.org/licenses/by-nd/{버전}/` | `… / CC BY-ND {버전} (변경 없음·크기 조정 외)` · 원 페이지 · 라이선스 |
+| `cc-by-2.0-kr` · `cc-by-sa-2.0-kr` | 한국판 CC BY 2.0 KR · CC BY-SA 2.0 KR | `https://creativecommons.org/licenses/by/2.0/kr/` · `…/by-sa/2.0/kr/` — **`/kr/`까지** | `… / CC BY 2.0 KR` · `… / CC BY-SA 2.0 KR (변경 없음·크기 조정 외)` · 원 페이지 · 라이선스 |
+| `cc0-1.0` | CC0 1.0 | `https://creativecommons.org/publicdomain/zero/1.0/` | `사진: {creditName}(CC0 1.0 — 저작권 포기)` · 원 페이지 · 라이선스 |
+| `pd` | 퍼블릭 도메인 — **근거(`pdBasis`) 4종만** | 근거 페이지(필수) | `사진: {creditName} ({pdBasis 문구})` · 원 페이지 · 근거 페이지 — 아래 pd 표 |
 | `kcc-donated` | 공유마당 기증저작물 "자유이용"(조건부이용은 불가) | 이용조건이 CC BY 4.0이면 그 문서(아니면 오류), 그 밖이면 기증제도 안내 | `사진: {creditName}, 「{workTitle}」, 기증 {donorName 또는 creditName}, 공유마당 / {licenseLabel}` · 원 페이지(· 이용조건이 CC BY 4.0이면 라이선스) |
 
-- 영어 상세는 `Photo: {creditNameEn}, "{workTitle}" ({workYear}) · {sourceSiteName} / CC BY {버전}` 꼴이다(기증은 `…, donated by {donor}, Gongu Madang / {licenseLabel}`). 저작물명·사이트명은 원문 그대로 나온다(영어 필드 없음).
-- 버전 없는 `cc-by`, BY-SA·BY-NC·BY-ND, `kogl-1`(→ public), open 값을 public에 쓴 것은 모두 빌드 중단이다.
-- 기증저작물(`kcc-donated`)은 이용조건과 상관없이 **이미지 최적화(리사이즈·재인코딩)를 거치지 않고** 저장 파일 그대로 나간다. 저장 파일 크기를 미리 알맞게 맞춰 둔다.
+- **`licenseUrl`은 그 라이선스·종류·버전·판의 문서여야 한다.** 경로 머리(위 표) 뒤에는 `deed`·`legalcode`(+ `.ko`·`.en` 같은 언어 접미)와 끝 `/`만 올 수 있다. 국제판 값에 `…/by/2.0/kr/`·`…/by/3.0/igo/`·`…/us/` 같은 다른 문서, 한국판 값에 국제판 주소(`…/by/2.0/`), `cc-by-sa-4.0`에 `…/by/4.0/` 같은 종류 불일치는 모두 빌드 중단이다.
+- 영어 상세는 `Photo: {creditNameEn}, "{workTitle}" ({workYear}) · {sourceSiteName} / CC BY {버전}` 꼴이다(BY-SA·BY-ND는 뒤에 ` (unmodified except resizing)`, 기증은 `…, donated by {donor}, Gongu Madang / {licenseLabel}`). 저작물명·사이트명은 원문 그대로 나온다(영어 필드 없음).
+- 빌드 중단: 버전 없는 `cc-by`·`cc-by-sa`·`cc-by-nd`("버전을 적으세요"), BY-NC("상업 이용 금지"), 한국판 ND·그 밖 지역판("한국판 CC BY 2.0 KR·CC BY-SA 2.0 KR만"), `kogl-1`(→ public), open 값을 public에 쓴 것.
+- **CC BY-ND는 카드에서 자르지 않는 표시(`object-contain`)가 배포된 뒤에만 올린다**(프로그래머 20 구현 — 정책 §4.5-2 ND 행).
+- **저작자 이름이 알려져 있으면 `creditName`에 쓴다** — CC0·pd·`declared`도 같다(저작인격권은 포기되지 않는다). 모르면 제공처·기관.
+- 기증저작물(`kcc-donated`)은 이용조건과 상관없이 **이미지 최적화(리사이즈·재인코딩)를 거치지 않고** 저장 파일 그대로 나간다. 저장 파일 크기를 미리 알맞게 맞춰 둔다. 그 밖(CC BY·BY-SA·BY-ND·한국판·CC0·pd)은 최적화를 거친다(리사이즈·재인코딩은 개작이 아니다).
+
+`pd` 근거(`pdBasis`, 정책 §4.5-2 PD 표):
+
+| `pdBasis` | 조건 | `pdBasisYear` | 상세 표시(ko / en) |
+|---|---|---|---|
+| `us-gov` | 원 기관 페이지(공식 배포처)에서 미국 연방정부 직원의 직무 촬영 확인 · 제3자 크레딧이면 불가 · 군 표장이 주된 피사체이면 불가 · 기관의 보증 부인 문구는 `creditNotice` | 쓰지 않는다 | `미국 연방정부 저작물 — 미국에서 퍼블릭 도메인(미국 저작권법 제105조)` / `US federal government work — public domain in the United States (17 U.S.C. § 105)` |
+| `expired-author-death` | 저작자(사진가) 명시, 사망연도 확인 | **필수** — 사망연도 ≤ max(1962, 올해 − 71) | `퍼블릭 도메인 — 저작자 {pdBasisYear} 사망, 보호기간 만료` / `Public domain — author died in {year}; the copyright term has expired` |
+| `expired-publication` | 업무상·무명 저작물, 공표연도 확인 | **필수** — 공표연도 ≤ max(1962, 올해 − 71) | `퍼블릭 도메인 — {pdBasisYear} 공표, 보호기간 만료` / `Public domain — published in {year}; the copyright term has expired` |
+| `declared` | 저작자 본인이 올린 파일의 퍼블릭 도메인 공개(대체 허락 문구 함께) | 쓰지 않는다 | `저작자가 퍼블릭 도메인으로 공개함` / `Dedicated to the public domain by the author` |
+
+- `pd`에서 `pdBasis`가 없거나 값이 틀리면, `expired-*`에 `pdBasisYear`가 없거나 기준 연도보다 크면(2026년은 1962까지 통과·1963 중단) 빌드 중단이다. **`pd`에서 `licenseLabel`을 쓰면 오류**(표시 문구는 `pdBasis`가 정한다).
+- `us-gov` 권장 경고: `licenseUrl`이 위키미디어 주소(원 기관 페이지 확인 필요), `creditNotice`가 비어 있음(보증 부인 문구 확인).
+- `pdBasis`·`pdBasisYear`를 `pd` 밖에서 쓰면 무시 알림.
 
 open 필드:
 
@@ -237,7 +258,8 @@ open 필드:
 | `license` · `licenseUrl` | 필수 | 위 표 |
 | `workTitle` · `sourceSiteName` | 필수 | 저작물명 · 출처 사이트명 |
 | `workYear` | 창작년도가 있으면 필수 | 4자리 연도, 미래 불가. 없으면 생략(검증은 생략을 막지 못한다 — 업로더가 상세 페이지로 확인) |
-| `licenseLabel` | `kcc-donated` 필수 · `pd` 선택 | 상세 페이지의 이용조건 글자 그대로 / PD 근거 문구 |
+| `licenseLabel` | `kcc-donated` 필수 · `pd`에서는 오류 | 상세 페이지의 이용조건 글자 그대로 |
+| `pdBasis` · `pdBasisYear` | `pd` 필수(연도는 `expired-*`만) | 위 pd 표 |
 | `donorName` | 선택(`kcc-donated`) | 기증자가 저작자와 다를 때만 |
 | `creditNotice` | 선택 | 원 페이지 고지 원문 — 상세 크레딧 줄 아래에 나온다 |
 
@@ -245,7 +267,14 @@ open 필드:
 - public·open·news는 `sourceType: url` 게시물의 `image`에만 쓴다. `images[]`(사진 유형 갤러리)는 self만 받는다. `sources[]` 일치 검사는 news에만 한다.
 - 포털(네이버·다음·네이트·줌 계열·단축·집계 주소, 이미지 CDN 포함) 주소는 `src`·`sourcePageUrl` 모두 막힌다. 원 매체 기사를 쓴다.
 - 상세 사진 아래에 **사진 설명**과 그 아래 `사진: {creditName}` + 원 페이지 링크가 나온다(open은 위 표의 서식, 영어 상세는 `creditNameEn`·`imageCaption`). 카드에는 이미지만 나온다. 공유 미리보기(OG)·구조화 데이터·사이트맵에는 들어가지 않는다.
-- 권장 경고(빌드는 진행): open caption이 `자료사진:`으로 시작하지 않거나 "이 사건 당시 사진이 아닙니다"가 없음(영어 `Archive photo:`·"not taken at the time of this event"), `workYear`가 없는데 '촬영 연도 미상'·'현재 모습과 다를 수 있습니다.'가 없음, 10년 이상 전 사진인데 '현재 모습과 다를 수 있습니다.'가 없음, open faceNote가 '얼굴 없음'으로 시작하지 않음, public·open에서 같은 원본(`sourcePageUrl`)을 3건 넘게 씀, public·open 저장 파일 짧은 변 400px 미만.
+- **A-2 자료사진 판정**: open은 전부, public은 **caption이 `자료사진:`으로 시작하면**(영어 `Archive photo:`) A-2로 본다(faceNote로 판정하지 않는다). 공공누리 제1유형 자료사진도 `kind: public`으로 쓰고 caption·faceNote 규칙은 open과 같다. 예(public A-2): `caption: "자료사진: 정부서울청사(2021) — 이 사건 당시 사진이 아닙니다."` · `faceNote: 얼굴 없음(자료사진·건물)` · `license: kogl-1`.
+- A-2 caption 형식(셋 중 하나):
+  - ① 장소·건물 `자료사진: {대상}({촬영연도}) — 이 사건 당시 사진이 아닙니다.` / `Archive photo: {subject} ({year}) — not taken at the time of this event.`
+  - ② 구역·지점 게시물의 광역 풍경(정책 §4.5-3a) `자료사진: {광역} 일반 풍경({촬영연도}) — 이 사건 지점·당시 사진이 아닙니다.` / `Archive photo: general view of {area} ({year}) — not the location or time of this event.`
+  - ③ 같은 기종 장비(정책 §4.5-3b) `자료사진: {기종}({촬영연도}) — 이 사건의 장비가 아닙니다.` / `Archive photo: {model} ({year}) — not the equipment involved in this event.`
+  - 촬영 연도를 모르면 `({촬영연도})` 자리에 '촬영 연도 미상'(영어 'year unknown'). 연도 미상이거나 10년 이상 전이면 ①②는 끝에 '현재 모습과 다를 수 있습니다.'(영어 'It may differ from how it looks today.')를 붙인다 — ③ 장비는 붙이지 않는다.
+- 권장 경고(빌드는 진행): A-2 caption이 위 세 형식이 아님(ko·영어본), open에서 `workYear`가 없는데 '촬영 연도 미상'이 없음, 연도 미상·10년 이상 전인데 ①②에 '현재 모습과 다를 수 있습니다.'가 없음, A-2 faceNote가 '얼굴 없음'으로 시작하지 않음, 저장 파일 짧은 변 400px 미만(public·open).
+- 같은 원본 사진 반복(경고): 같은 원본 = `sourcePageUrl`이 같거나 **저장 파일 해시가 같은 것**. A-2가 낀 묶음은 **6건**까지(7번째부터 경고), 그 밖 public은 3건까지. 같은 원본을 쓴 두 게시물이 **메인 피드 정렬(`publishedAt` 내림차순, 같은 날은 `id` 오름차순)에서 5칸 미만**으로 붙어 있으면 경고 — **메인 피드만 본다**(태그·검색 페이지 인접은 잡지 못한다).
 - 이미지를 내릴 때는 `image` 블록을 지우고 배포하면 된다(새 대체 카드로 바뀐다). 절차는 `planning/image-removal-procedure.md`.
 - 깨진 핫링크 점검: `npm run check:hotlinks`(빌드를 막지 않는다). **주 1회**, 담당 업로더.
 
@@ -454,8 +483,8 @@ tags: [○○정책]
 | 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
 | `description` 160자 초과, 파일명과 `id` 불일치, 모르는 필드, `speaker`의 모르는 하위 필드 | 경고만 (빌드는 진행) |
 | 본문에 마크다운 이미지(`![…](…)`) — 렌더에서 제거됨 | 경고만 (빌드는 진행) |
-| `image.kind` 값 오류, news `src`가 https 아님·포털, `sourcePageUrl`이 `sources[]` 언론 기사와 다름·포털, public·open·news 필수 필드 누락(`caption` 포함), public `license`가 kogl-1 아님, open `license`가 허용 값 아님(버전 없는 `cc-by`·BY-SA 등), open `licenseUrl`이 표시 라이선스·버전과 다른 CC 문서, news에 `license`, `images[]`나 사진 유형에 public·open·news | 빌드 중단 |
-| open 사진 설명 고정 문구·같은 원본 3건 초과·저장 파일 짧은 변 400px 미만(§3.6) | 경고만 |
+| `image.kind` 값 오류, news `src`가 https 아님·포털, `sourcePageUrl`이 `sources[]` 언론 기사와 다름·포털, public·open·news 필수 필드 누락(`caption` 포함), public `license`가 kogl-1 아님, open `license`가 허용 값 아님(버전 없는 `cc-by`·`cc-by-sa`·`cc-by-nd`, BY-NC, 한국판 ND·그 밖 지역판), open `licenseUrl`이 표시 라이선스의 종류·버전·판과 다른 CC 문서(`kr/`·`igo/` 등 다른 문서 포함), pd의 `pdBasis` 없음·값 오류·`expired-*`의 `pdBasisYear` 없음·기준 연도 초과, pd에 `licenseLabel`, news에 `license`, `images[]`나 사진 유형에 public·open·news | 빌드 중단 |
+| A-2(open·`자료사진:` public) 사진 설명 세 형식·연도 문구, 같은 원본(주소·파일 해시) 6건 초과(A-2)·3건 초과(그 밖 public), 같은 원본 메인 피드 5칸 미만 인접, `us-gov` 위키미디어 근거 주소·`creditNotice` 공란, 저장 파일 짧은 변 400px 미만(§3.6) | 경고만 |
 | self 이미지에 크레딧 필드 | 경고만 |
 
 (위 "폐지된 필드 … `kind`"는 **최상위** `kind`(게시물 종류)다. `image.kind`와 다르다.)

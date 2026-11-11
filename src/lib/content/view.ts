@@ -19,6 +19,17 @@ export interface PostCardView {
 }
 
 /**
+ * 카드 데이터에서 사진 크레딧(`credit`)을 뺀다(리뷰 68 P3-1 · 프로그래머 20 명세 11).
+ * 카드 UI는 크레딧을 그리지 않으므로 클라이언트로 넘기는 RSC 페이로드에 저작자·고지 원문 등을 싣지 않는다. 상세는 `resolveCardMedia`를 직접 쓴다.
+ */
+function withoutCredit(media: CardMedia): CardMedia {
+  if (media.kind === 'placeholder' || !media.credit) return media
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- credit만 빼고 나머지를 그대로 넘긴다
+  const { credit, ...rest } = media
+  return rest
+}
+
+/**
  * `translated`는 영어 피드에서만 의미가 있다 — `false`면 한국어 원본 카드(`koreanOnly`)로 만든다.
  * `today`(Asia/Seoul 날짜)는 갱신 표시 판정 기준이다. 기본값은 이 함수가 실행되는 순간 = 정적 생성(빌드) 시점(오더 11 A안).
  */
@@ -36,7 +47,7 @@ export function toCardView(
     publishedAt: post.publishedAt,
     sourceType: post.sourceType,
     // 영어본 없는 글의 원문 썸네일 alt도 한국어 원본 제목으로 만든다(제목과 같은 언어).
-    media: resolveCardMedia(post, koreanOnly ? 'ko' : locale),
+    media: withoutCredit(resolveCardMedia(post, koreanOnly ? 'ko' : locale)),
     ...(koreanOnly ? { koreanOnly: true as const } : {}),
     ...(renewed && post.updatedAt ? { updatedAt: post.updatedAt } : {}),
   }

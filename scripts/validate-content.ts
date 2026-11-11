@@ -6,15 +6,17 @@
  *
  * 검사 규칙은 `src/lib/content/schema.ts`에 한 벌만 두고 화면 코드와 공유한다.
  */
+import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
 import { collectMovedIdErrors, readMovedIdsText, parseMovedIds, readTranslationIds, translationMismatchErrors } from '../src/lib/content/moved-ids'
 import { readRetiredIds, retiredIdMessage } from '../src/lib/content/retired-ids'
-import { IMAGE_KINDS, validatePost, type Post } from '../src/lib/content/schema'
+import { IMAGE_KINDS, isArchiveCaption, validatePost, type Post } from '../src/lib/content/schema'
 import { validateTranslation } from '../src/lib/content/translation'
 import { readImageSize } from './image-size'
+import { imageReuseNotices, type ReuseEntry } from './image-reuse'
 
 const ROOT = process.cwd()
 const POSTS_DIR = path.join(ROOT, 'content', 'posts')
@@ -28,8 +30,16 @@ function localImageExists(src: string): boolean {
 
 /** 저장 사진(public·open) 짧은 변 최소값(정책 §4.5-7 · §5.3-8). 못 미치면 경고. */
 const MIN_SHORT_SIDE = 400
-/** 같은 원본 사진(public·open의 `sourcePageUrl`)을 쓸 수 있는 게시물 수(guide §4-1 · 정책 §4.5-6 — 4번째부터 불가). 넘으면 경고. */
-const MAX_SAME_SOURCE = 3
+/** 같은 원본 사진 반복 한도·피드 인접 검사는 `scripts/image-reuse.ts`(프로그래머 20 — A-2 6건, 그 밖 3건, 메인 피드 5칸). */
+
+/** 저장 파일 해시(같은 원본 판정용). 읽지 못하면 undefined. */
+function fileHash(filePath: string): string | undefined {
+  try {
+    return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex')
+  } catch {
+    return undefined
+  }
+}
 
 interface FileReport {
   fileName: string
@@ -51,8 +61,8 @@ function main(): void {
   let imageCount = 0
   /** 대표 이미지(`image`) 종류별 수 — self·public·open·news(프로그래머 13 · 19). */
   const imageKindCount = new Map<string, number>()
-  /** public·open 원본 페이지 → 그 사진을 쓴 파일(게시 순서대로). 같은 원본 반복 경고용(프로그래머 19). */
-  const storedSourceUsers = new Map<string, string[]>()
+  /** public·open 대표 이미지를 쓴 게시물 — 같은 원본 반복·피드 인접 경고용(프로그래머 19 · 20). */
+  const reuseEntries: ReuseEntry[] = []
   let sourceCount = 0
   let speakerCount = 0
   /** 검증을 통과한 한국어 원본 — 영어본이 짝을 찾는 대상. id 중복·폐기 id는 제외한다. */
@@ -99,10 +109,16 @@ function main(): void {
           const kind = result.post.image.kind ?? 'self'
           imageKindCount.set(kind, (imageKindCount.get(kind) ?? 0) + 1)
           if ((kind === 'public' || kind === 'open') && result.post.image.sourcePageUrl) {
-            const users = storedSourceUsers.get(result.post.image.sourcePageUrl) ?? []
-            users.push(fileName)
-            storedSourceUsers.set(result.post.image.sourcePageUrl, users)
-            const size = readImageSize(path.join(PUBLIC_DIR, result.post.image.src.replace(/^\//, '')))
+            const storedPath = path.join(PUBLIC_DIR, result.post.image.src.replace(/^\//, ''))
+            reuseEntries.push({
+              fileName,
+              id: result.post.id,
+              publishedAtTime: result.post.publishedAtTime,
+              sourcePageUrl: result.post.image.sourcePageUrl,
+              fileHash: fileHash(storedPath),
+              archive: kind === 'open' || isArchiveCaption(result.post.image.caption, 'ko'),
+            })
+            const size = readImageSize(storedPath)
             if (!size) {
               notices.push(`image.src: 저장 파일의 크기를 읽지 못했습니다(JPEG·PNG·WebP만 읽습니다) — 짧은 변 ${MIN_SHORT_SIDE}px 이상인지 직접 확인하세요.`)
             } else if (Math.min(size.width, size.height) < MIN_SHORT_SIDE) {
@@ -120,15 +136,14 @@ function main(): void {
     reports.push({ fileName, errors, notices })
   }
 
-  // --- 같은 원본 사진 반복(public·open) — 파일 이름 순(= 게시일 순)으로 4번째부터 경고 ---
-  for (const [sourcePageUrl, users] of storedSourceUsers) {
-    if (users.length <= MAX_SAME_SOURCE) continue
-    for (const fileName of users.slice(MAX_SAME_SOURCE)) {
-      const report = reports.find((item) => item.fileName === fileName)
-      report?.notices.push(
-        `image.sourcePageUrl: 같은 원본 사진을 ${users.length}건이 씁니다(${MAX_SAME_SOURCE}건까지) — 4번째부터는 다른 사진이나 대체 카드를 씁니다(정책 §4.5-6). (원본: ${sourcePageUrl} · 먼저 쓴 글: ${users.slice(0, MAX_SAME_SOURCE).join(', ')})`,
-      )
-    }
+  // --- 같은 원본 사진 반복·메인 피드 인접(public·open) — 경고만(프로그래머 20 명세 6, 정책 §4.5-6) ---
+  // 피드는 검증을 통과한 게시물 전체(id 중복·폐기 id 제외 — getAllPosts와 같은 집합)다.
+  const reuse = imageReuseNotices(
+    reuseEntries.filter((entry) => validPosts.get(entry.id)?.fileName === entry.fileName),
+    [...validPosts.values()],
+  )
+  for (const [fileName, messages] of reuse) {
+    reports.find((item) => item.fileName === fileName)?.notices.push(...messages)
   }
 
   // --- 영어본 content/posts-en/*.md ---
