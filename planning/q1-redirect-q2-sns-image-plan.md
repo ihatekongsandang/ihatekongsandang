@@ -4,6 +4,7 @@
 **근거 문서**: `planning/v0.9-copy-and-code-list.md`(§2.2·§3·§4.5) · `planning/card-image-policy.md` · `planning/prd.md` v0.9(§3.1 안정 ID 원칙) · 리뷰 30(`docs/reviews/card-image-policy-legal-review.md`) · 리뷰 32(`docs/reviews/planner-15-prd-v0.9-review.md`)
 **사용자 결정(2026-11-09)**: Q1 = b(#1 주소의 비공인 실명을 없애고 옛 주소는 새 주소로 넘긴다) · Q2 = b(SNS 원문 이미지 저장본의 소개 문구를 사실대로 고치고, 단계적으로 정리한다) · **Q3 = a**(언론 이미지(B)로 바꿀 수 없는 SNS 저장본은 **대체 카드로 내린다**. 저장 파일은 삭제하고, 저장본을 그대로 두는 선택지는 쓰지 않는다). 새 SNS 게시물은 원 이미지를 저장하지 않는다(알림 확인, guide §4 반영됨).
 **기획자 17(2026-11-10)**: §3.4 끝의 완료 조건 ①~④ 상태만 갱신했다(이 문서의 다른 내용은 그대로).
+**기획자 18(2026-11-11)**: 자체 카드 0건 반영 — §2.2 ko·en에서 자체 카드 줄을 뺌(※ 일반 문단 방식), §3.4 ②③ 갱신·⑤ 추가.
 **기획자 17-5(2026-11-10)**: 프로그래머 17의 소개 페이지 SNS 줄 삭제를 반영 — §2.2 ko·en 확정 문안에서 SNS 줄을 빼고 삭제 기록을 남김, §3.4 완료 조건 ③ 갱신.
 **기획자 16-1(2026-11-09)**: 리뷰 34 지적 반영(P2-1~4 + 문서로 고칠 수 있는 P3 2건)과 Q3 = a 기록. 바뀐 곳은 §0·§1.3·§1.7·§2.2·§3.2·§3.3·§3.4·§3.5·§5.
 **측정 도구·기록**: `docs/tools/planner-16/` (받은 파일은 저장소 밖에 두었다)
@@ -145,18 +146,19 @@
 ### 2.1 사실 확인(전부 이번에 직접 센 것)
 - 207건 전체가 `sourceType: url`이고 대표 이미지 `kind`는 모두 `self`(운영자 쪽에 저장된 이미지)다. `public`·`news`는 0건. 갤러리(`images[]`)는 0건.
 - 그 207건 중 **139건**의 이미지는 SNS 원 게시물의 이미지를 가져와 **이 사이트 `public/images/{id}/`에 저장한 것**이다(caption이 "원문 …"으로 시작하는 138건 + 스레드 공유 사진 1건). 파일은 139건 모두 존재한다(0건 누락).
-- 나머지 68건은 이 사이트가 만든 이미지다: 자체 제작 텍스트 카드 67건(교체 대상) + 텍스트 게시물을 요약해 직접 만든 이미지 1건.
+- 나머지 68건은 이 사이트가 만든 이미지다: 자체 제작 텍스트 카드 67건(교체 대상) + 텍스트 게시물을 요약해 직접 만든 이미지 1건. 🆕 18: 자체 제작 카드 67건은 정리 완료(② 10·③ 57, 커밋 e7ff1cd·665f66c·4e732d3·05319ff·253bcef) — 현재 `self` 0건.
 
 ### 2.2 소개 페이지 "인용·저작권" 절 문안 (🆕 16 재정정본 — 15-1 정정본을 대체)
-**ko 확정 문안(목록 4개)** — 🆕 17-5: SNS 줄을 뺀 현재 화면 기준(하위 목록 4개). 아래 표 "15-1 정정본과 달라진 곳"은 16 판 당시의 역사 기록이다. — 🆕 16-1: 2번은 리뷰 34 §2.4 정정 문안을 **글자 그대로** 옮겼다(프로그래머 16 오더는 이 문안을 쓴다). 1·3·4번은 16 재정정본 그대로.
+**ko 확정 문안(목록 4개)** — 🆕 17-5·18: SNS 줄과 자체 카드 줄을 뺀 현재 화면 기준(2번의 하위 목록 3개). 아래 표 "15-1 정정본과 달라진 곳"은 16 판 당시의 역사 기록이다. — 🆕 16-1: 2번은 리뷰 34 §2.4 정정 문안을 **글자 그대로** 옮겼다(프로그래머 16 오더는 이 문안을 쓴다). 1·3·4번은 16 재정정본 그대로.
 
 1. 외부 글은 **본문을 전재하지 않습니다.** 원문의 메타 정보(제목·요약)만 인용하고 원문 링크를 함께 제공합니다.
 2. 카드의 대표 이미지는 글에 따라 다릅니다.
    - **언론 기사의 사진을 쓰는 글**은 그 사진을 이 사이트에 복제해 두지 않고 원 매체 주소에서 그대로 불러와 보여 줍니다. 사진 아래에 출처(사진 권리자 또는 매체)와 원문 링크를 적습니다.
-   - 일부 글은 이 사이트가 게시물 요지를 정리해 만든 카드 이미지를 씁니다. 이 이미지도 차례로 바꿉니다.
    - 공공누리로 개방된 공공 사진을 쓸 때는 사진 아래에 공공누리 유형을 적습니다(현재 쓰는 사진은 없습니다).
    - 사진이 없거나 불러오지 못하면 대체 이미지를 보여 줍니다.
-※ 17-5: 이 목록의 둘째 줄이던 SNS 저장 줄은 프로그래머 17(2026-11-10)이 삭제했다 — 저장본 0건. 위 목록은 현재 화면과 같다.
+
+※ 17-5·18: 이 목록에서 SNS 저장 줄은 프로그래머 17(2026-11-10)이, 사이트가 만든 카드 이미지 줄은 프로그래머 18(2026-11-11, 커밋 f5f2f9e)이 삭제했다 — 저장본 0건·자체 카드 0건. 위 목록(하위 3개)은 현재 화면과 같다.
+
 3. **언론 기사 사진과 공공 사진에 나오는 인물**은 **정치인 등 공인의 공적 활동**(국회·정부 일정, 기자회견, 외교 행사 등)에 한합니다. 공식 일정 사진에는 공무를 수행 중인 수행원·통역·배석자가 함께 나올 수 있습니다. 일반 시민·미성년자·사건 피해자·부상자 등 공인이 아닌 사람이 알아볼 수 있게 나온 사진은 쓰지 않습니다. 사진은 게시물이 다루는 사건과 같은 사건 당시의 것만 쓰며, 사진은 게시물 내용의 근거가 아닙니다. 의혹·수사·재판을 다룬 게시물의 사진에는 누가·언제·어디서 찍은 것인지 사진 설명을 붙입니다.
 4. 공유 미리보기 이미지에는 이 사이트의 자체 이미지를 씁니다.
 
@@ -179,10 +181,11 @@
 > - We quote only the metadata of an external article (title and summary) and link to the original. We do not republish the body.
 > - A card's main image depends on the post.
 >   - When a post uses a photo from a news article, the photo is loaded directly from the news outlet's address rather than copied to this site. Below the photo, we credit the rights holder or outlet and link to the original.
->   - Some posts use a card image this site made to summarize the post. These will also be replaced step by step.
 >   - When we use public photos released under the Korea Open Government License (KOGL), the license type is shown below the photo (none are in use now).
 >   - If a post has no image, or an image fails to load, a replacement image is shown.
-> ※ 17-5: The second item of this list (the stored-SNS-image line) was removed by programmer 17 on 2026-11-10 — stored images: 0. The list above matches the screen.
+>
+> ※ 17-5·18: The SNS stored-image line was removed by programmer 17 (2026-11-10) and the "card image this site made" line by programmer 18 (2026-11-11, commit f5f2f9e) — stored images: 0, self-made cards: 0. The list above (3 sub-items) matches the screen.
+>
 > - Photos from news articles and public sources show people only in the public activities of public figures (for example, parliamentary or government events, press conferences, diplomatic events). Photos of official events may also show staff, interpreters or attendees performing official duties. We do not use photos in which other private individuals, minors, victims, or injured people can be recognized. We use only photos taken at the event the post covers, and a photo is not evidence for what the post says. Photos on posts about allegations, investigations or trials carry a caption saying who took them, when and where.
 > - Share previews use this site's own image.
 
@@ -284,9 +287,10 @@ A 139건의 원 게시물 호스트: 인스타그램 124 · 스레드 14(threads
 | 조건 | 상태 | 근거 |
 |---|---|---|
 | ① 저장본 0건 | ✅ **충족** — 묶음 1~14 완료, 139 → 0(② 22건 · ③ 117건) | 업로더 16 트리거 "SNS 원문 저장본 10 → 0"(`self 67 − 자체 제작 67`), 리뷰 51 "SNS 원문 저장본 0". 기획자 17이 `content/posts/`를 읽기 전용으로 직접 확인: `image.src`가 `/images/…`인 파일 67건 중 caption이 "원문 …"으로 시작하는 것은 1건인데 그 1건은 §3.1이 B로 옮긴 "사이트에서 직접 만든 요약 이미지"(caption "원문이 텍스트 게시물이라 사이트에서 직접 만든 요약 이미지입니다")라 저장본이 아니다 |
-| ② 참조 없는 이미지 0 | ✅ **충족** | 리뷰 51: `public/images/` 안 참조 없는 이미지 파일 0(`.gitkeep` 1개뿐). `public/images/` 폴더 67개 = 자체 제작 카드 67건 |
-| ③ C4 2번 둘째 줄 삭제 오더 완료 | ✅ **오더 발행·실행(프로그래머 17, 2026-11-10), 커밋 대기** | 저장본 0건이 되어 ko `about` 소개의 SNS 저장 줄과 영어 소개의 같은 취지 문장을 삭제했다(빌드·렌더 통과, 하위 목록 4개, 옛 문구 0회 — 프로그래머 17 트리거). 그 외 줄은 한 글자도 바꾸지 않았다. §2.2 문안은 17-5에서 현재 화면에 맞췄다. 셋째 줄(자체 제작 카드 "차례로 바꿉니다")은 67건이 남아 있는 동안 유지 |
+| ② 참조 없는 이미지 0 | ✅ **충족**(🆕 18: 자체 카드 정리 뒤에도) | 리뷰 51: `public/images/` 안 참조 없는 이미지 파일 0. 🆕 18: 자체 카드 67건 정리(묶음 1~5, ② 10·③ 57) 뒤 `public/images/`는 `.gitkeep`만 남았고 `validate:content` self 0 · news 33(리뷰 64) |
+| ③ C4 2번 둘째 줄 삭제 오더 완료 | ✅ **완료·커밋됨**(프로그래머 17, 커밋 059d5a5) | 저장본 0건이 되어 ko `about` 소개의 SNS 저장 줄과 영어 소개의 같은 취지 문장을 삭제했다. 🆕 18: 셋째 줄("사이트가 만든 카드 이미지")도 자체 카드 0건이 되어 프로그래머 18이 삭제(커밋 f5f2f9e) — 소개 하위 목록은 언론 사진·공공누리·대체 이미지 3개. §2.2 문안은 현재 화면에 맞췄다 |
 | ④ prd·정책의 140건 언급 정리 | ✅ **충족** | 기획자 17이 `prd.md`·`card-image-policy.md`·`card-image-uploader-steps.md`를 grep으로 확인: "140건" 언급 0(정책의 "140×84px"는 이미지 크기 예시). 현재 사실(정리 완료·0건)을 PRD §5.1과 정책 §11에 기록 |
+| ⑤ 🆕 자체 제작 카드 0건(18) | ✅ **충족** | 자체 카드 67건 ② 10 · ③ 57, 커밋 e7ff1cd·665f66c·4e732d3·05319ff·253bcef. 리뷰 64가 5번 목록으로 사실과 달라진 문구를 점검 |
 
 - **영어본**: 영어본이 있는 게시물은 `imageAlt`·`imageCaption`도 새 상태에 맞게 고친다(67건 지침과 같음).
 - **정리 도중 요청이 오면**: SNS 저장본은 PRD §6④ 일반 절차(사용 중단 요청 → 대체 카드로 즉시 교체)를 쓴다(리뷰 32 P3-9와 같은 한 줄).
