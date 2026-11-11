@@ -2,6 +2,8 @@
 id: 2026-10-03-rekor-saeul-nuclear-drone
 title: "\"Unidentified drone reaches the doorstep of a nuclear plant\" — MBN reports a drone came within 500 m of the Saeul plant's fence in June, triggering the top 'serious' alert, but the jammer did not work properly and the operator was not caught"
 description: "Instagram @rekor.rgt cites MBN on gaps in anti-drone defense; a drone reportedly came within 500 m of the Saeul nuclear plant in June and the jammer failed."
+imageAlt: "Saeul Nuclear Power Plant Units 1 and 2, with two domed containment buildings"
+imageCaption: "Archive photo: Saeul Nuclear Power Plant Units 1 and 2 (year unknown) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-10-03
 ---

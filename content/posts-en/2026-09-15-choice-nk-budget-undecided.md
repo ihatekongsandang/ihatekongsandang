@@ -2,6 +2,8 @@
 id: 2026-09-15-choice-nk-budget-undecided
 title: "Spending plans for 515.8 billion (77.3%) of the 667.6 billion won humanitarian aid budget for North Korea 'undecided' — actual aid last year was zero won"
 description: "Instagram @choice_301 cites reports that plans for 515.8B of the 667.6B won NK budget were undecided in Sept.; actual aid last year was reportedly zero."
+imageAlt: "Elevated view of the Government Complex Seoul main building and annex, with the plaza and traffic on Sejong-daero in front"
+imageCaption: "Archive photo: Government Complex Seoul (2014) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @choice_301 (초이스 매거진)"
 translatedAt: 2026-09-30
 ---

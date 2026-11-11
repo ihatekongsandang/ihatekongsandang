@@ -7,6 +7,18 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeA_KB1AVFH/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
+image:
+  kind: public
+  src: /images/2026-10-03-rekor-saeul-nuclear-drone/thumb.jpg
+  alt: "돔 지붕 두 개가 있는 새울원자력발전소 1·2호기 건물"
+  caption: "자료사진: 새울원자력발전소 1·2호기(촬영 연도 미상) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "한국수력원자력"
+  creditNameEn: "Korea Hydro & Nuclear Power"
+  sourcePageUrl: "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2278&bbsNo=25&nttNo=45112"
+  license: kogl-1
+  workTitle: "새울 1,2호기"
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물)"
 og:
   siteName: Instagram
 sources:

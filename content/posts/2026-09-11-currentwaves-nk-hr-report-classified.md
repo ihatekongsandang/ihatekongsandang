@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DdJIccOz8Lg/
 attribution: 인스타그램 @current_waves_ (커런트 웨이브스)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-11-currentwaves-nk-hr-report-classified/thumb.jpg
+  alt: "높은 곳에서 내려다본 정부서울청사 본관과 별관, 앞쪽 광장과 세종대로를 지나는 차량들"
+  caption: "자료사진: 정부서울청사(2014) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "서울특별시"
+  creditNameEn: "Seoul Metropolitan Government"
+  sourcePageUrl: "https://data.si.re.kr/node/49311"
+  sourceSiteName: "서울연구데이터서비스"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "정부종합청사(05W10503Dc7000)"
+  workYear: 2014
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 원경 점 크기 인물 있음(얼굴 최대 약 2 px / 짧은 변 600 px)"
 og:
   siteName: Instagram
 sources:

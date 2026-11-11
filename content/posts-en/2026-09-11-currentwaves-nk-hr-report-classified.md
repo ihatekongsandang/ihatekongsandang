@@ -2,6 +2,8 @@
 id: 2026-09-11-currentwaves-nk-hr-report-classified
 title: "Unification Ministry's 'North Korean Human Rights Report' again kept secret as a Level 3 classified document — criticism of flip-flopping on disclosure with each administration"
 description: "Instagram @current_waves_ says the ministry's NK human rights report was again made a Level 3 secret; the opposition reportedly called it arbitrary secrecy."
+imageAlt: "Elevated view of the Government Complex Seoul main building and annex, with the plaza and traffic on Sejong-daero in front"
+imageCaption: "Archive photo: Government Complex Seoul (2014) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @current_waves_ (커런트 웨이브스)"
 translatedAt: 2026-09-30
 ---

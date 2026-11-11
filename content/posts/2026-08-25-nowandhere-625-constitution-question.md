@@ -10,17 +10,17 @@ useSourceImage: false
 image:
   kind: open
   src: /images/2026-08-25-nowandhere-625-constitution-question/thumb.jpg
-  alt: "높은 곳에서 바라본 국회의사당 정면과 앞마당 잔디밭, 앞쪽 교차로"
-  caption: "자료사진: 국회의사당(2014) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  alt: "한강 건너편에서 바라본 국회의사당과 여의도 고층 건물"
+  caption: "자료사진: 국회의사당(2020) — 이 사건 당시 사진이 아닙니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
-  sourcePageUrl: "https://data.si.re.kr/node/48322"
+  sourcePageUrl: https://data.si.re.kr/node/62584
   sourceSiteName: 서울연구데이터서비스
   license: cc-by-4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
-  workTitle: "국회의사당(05T01004Dc8000)"
-  workYear: 2014
-  retrievedAt: 2026-11-11
+  workTitle: "국회의사당(06T05004Dc40053)"
+  workYear: 2020
+  retrievedAt: 2026-11-12
   faceNote: 얼굴 없음(자료사진·국회의사당)
 og:
   siteName: Instagram

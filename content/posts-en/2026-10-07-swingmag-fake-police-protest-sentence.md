@@ -2,6 +2,8 @@
 id: 2026-10-07-swingmag-fake-police-protest-sentence
 title: "Three who surrounded and threatened a police officer, shouting 'fake police,' sentenced to 6 months in prison at first instance — reported as obstruction of official duties at a June protest near the Olympic Park ballot-counting site; 'jailed for shouting' and 'protest and you go straight to prison' differ from the ruling"
 description: "Instagram @swing.mag on prison terms for three who surrounded an officer at a June protest; a court reportedly gave each 6 months on Oct. 6 for obstruction."
+imageAlt: "The World Peace Gate of Olympic Park at the end of a wide stone-paved plaza"
+imageCaption: "Archive photo: World Peace Gate, Olympic Park, Seoul (2020) — not taken at the time of this event. It was not taken at the event location either."
 attribution: "Instagram @swing.mag"
 translatedAt: 2026-10-08
 ---

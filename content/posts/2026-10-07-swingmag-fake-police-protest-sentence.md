@@ -8,6 +8,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeL5PbPBEc-/
 attribution: 인스타그램 @swing.mag
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-07-swingmag-fake-police-protest-sentence/thumb.jpg
+  alt: "넓은 돌바닥 광장 끝에 선 올림픽공원 세계평화의문"
+  caption: "자료사진: 서울 올림픽공원 세계평화의문(2020) — 이 사건 당시 사진이 아닙니다. 사건이 일어난 지점도 아닙니다."
+  creditName: "서울특별시"
+  creditNameEn: "Seoul Metropolitan Government"
+  sourcePageUrl: "https://data.si.re.kr/node/61971"
+  sourceSiteName: "서울연구데이터서비스"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "평화의광장(올림픽공원)(06R03707Ac20000)"
+  workYear: 2020
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 원경 점 크기 인물 있음(얼굴 최대 약 4 px / 짧은 변 600 px)"
 og:
   siteName: Instagram
 sources:

@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeTTEaJPLy3/
 attribution: 인스타그램 @sisa_brieffing
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-10-sisabrieffing-life-sentence-parole/thumb.jpg
+  alt: "관악산 아래 자리한 정부과천청사 건물들과 앞 광장·주차장"
+  caption: "자료사진: 정부과천청사(2025) — 이 사건 당시 사진이 아닙니다."
+  creditName: "Fruitstream"
+  creditNameEn: "Fruitstream"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Government_Complex_Gwacheon.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  workTitle: "Government Complex Gwacheon"
+  workYear: 2025
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 원경 점 크기 인물 있음(얼굴 최대 약 5 px / 짧은 변 6752 px)"
 og:
   siteName: Instagram
 sources:

@@ -2,6 +2,8 @@
 id: 2026-10-10-sisabrieffing-life-sentence-parole
 title: "13 life-sentence prisoners paroled this year — Joo Jin-woo: \"Lifers should be exempt\"; justice ministry: \"Parole expanded with prisons at 125% capacity… recidivism risk carefully reviewed\""
 description: "Instagram @sisa_brieffing on 13 life-sentence prisoners paroled this year; the acting justice minister said parole was widened over crowding."
+imageAlt: "Buildings of the Government Complex Gwacheon below Gwanaksan, with the plaza and parking lot in front"
+imageCaption: "Archive photo: Government Complex Gwacheon (2025) — not taken at the time of this event."
 attribution: "Instagram @sisa_brieffing"
 translatedAt: 2026-10-11
 ---

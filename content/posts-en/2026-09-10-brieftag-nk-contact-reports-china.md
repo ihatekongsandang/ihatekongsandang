@@ -2,6 +2,8 @@
 id: 2026-09-10-brieftag-nk-contact-reports-china
 title: "Reports of contact with North Koreans in China up ninefold after the Lee government took office — Unification Minister Chung Dong-young scrapped the 2023 'contact restriction guidelines'"
 description: "Instagram @brief_tag says NK contact reports in China rose under Lee; they reportedly went from 5 to 45, tied to scrapped rules on contact with NK spy agencies."
+imageAlt: "Elevated view of the Government Complex Seoul main building and annex, with the plaza and traffic on Sejong-daero in front"
+imageCaption: "Archive photo: Government Complex Seoul (2014) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @brief_tag (브리프 태그)"
 translatedAt: 2026-09-30
 ---

@@ -2,8 +2,6 @@
 id: 2026-09-21-oreunboy-dmz-mine-explosion
 title: "\"[Breaking] Accident presumed to be a mine explosion during DMZ operation\" — post summarizing reports of three injured 25th Division officers"
 description: "Instagram user @oreun_boy summarizes reports that three 25th Division officers were hurt in a presumed DMZ mine blast on Sept. 21; who laid it is under probe."
-imageAlt: "Fields and reservoirs of the DMZ seen from an observatory, with North Korean hills in the distance"
-imageCaption: "Archive photo: general view of the DMZ from Dora Observatory, Paju (2018) — not taken at the time of this event. It is not the site of the incident either."
 speakerAffiliation: "Instagram user"
 attribution: "Instagram @oreun_boy"
 translatedAt: 2026-09-30

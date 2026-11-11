@@ -2,6 +2,8 @@
 id: 2026-09-18-newssnap-chung-no-kaesong-lawsuit
 title: "\"Despite a 44.6 billion won damages ruling… Chung Dong-young: 'We will not file damages suits'\" — the decision not to sue over demolished Mt. Kumgang and Kaesong facilities was made in October 2025 as 'ineffective'"
 description: "Instagram @news_snap_kr says that after a 44.6 billion won ruling, Minister Chung said no suits over Kaesong and Mt. Kumgang; that was decided in Oct. 2025."
+imageAlt: "Elevated view of the Government Complex Seoul main building and annex, with the plaza and traffic on Sejong-daero in front"
+imageCaption: "Archive photo: Government Complex Seoul (2014) — not taken at the time of this event. It may differ from how it looks today."
 speakerAffiliation: "Minister of Unification"
 attribution: "Instagram @news_snap_kr (News Snap)"
 translatedAt: 2026-10-15

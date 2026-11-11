@@ -2,8 +2,6 @@
 id: 2026-09-28-todayissuepicks-dmz-hand-pick-escape
 title: "In the DMZ mine accident, troops 'scraped the ground with hand picks to secure an exit' — two explosions, battalion commander also injured during rescue"
 description: "After the DMZ mine blast, combat engineers knelt and scraped the soil with hand picks to clear a roughly 20 m exit route, the JCS said."
-imageAlt: "Fields and reservoirs of the DMZ seen from an observatory, with North Korean hills in the distance"
-imageCaption: "Archive photo: general view of the DMZ from Dora Observatory, Paju (2018) — not taken at the time of this event. It is not the site of the incident either."
 attribution: "Instagram @today_issue_picks (오늘_이슈_픽)"
 translatedAt: 2026-09-30
 ---

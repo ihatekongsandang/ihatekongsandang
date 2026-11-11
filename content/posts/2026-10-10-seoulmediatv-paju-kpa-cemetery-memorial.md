@@ -8,6 +8,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeTY6iSPcKr/
 attribution: 인스타그램 @seoulmediatv
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial/thumb.jpg
+  alt: "풀밭에 줄지어 놓인 작은 묘비들과 그 너머 들판·산"
+  caption: "자료사진: 파주 북한군 묘지(2024) — 이 사건 당시 사진이 아닙니다."
+  creditName: "Mztourist"
+  creditNameEn: "Mztourist"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Cemetery_2_graves_looking_north.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  workTitle: "Cemetery 2 graves looking north"
+  workYear: 2024
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·장소)"
 og:
   siteName: Instagram
 sources:

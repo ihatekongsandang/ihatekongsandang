@@ -2,6 +2,8 @@
 id: 2026-09-28-themove-hongkong-umbrella-12th
 title: "Hong Kong's 'Umbrella Movement,' 12 years ago today — from the 79-day occupation to the 2019 protests, the 2020 security law and activist W's imprisonment"
 description: "Instagram @themovemag_ marks 12 years since Hong Kong's Umbrella Movement, recalling the 2019 crackdown and later repression it likens to Korea 40 years ago."
+imageAlt: "Harcourt Road in Admiralty, Hong Kong, crossed by footbridges between high-rise buildings, with cars on the road"
+imageCaption: "Archive photo: Harcourt Road, Admiralty, Hong Kong (2016) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @themovemag_ (The Move)"
 translatedAt: 2026-09-30
 ---

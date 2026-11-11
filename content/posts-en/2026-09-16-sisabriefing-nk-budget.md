@@ -2,6 +2,8 @@
 id: 2026-09-16-sisabriefing-nk-budget
 title: "Of 667.6 billion won in North Korea aid budget, spending plans for 515.8 billion are 'undecided' and only 994 million won is presented as executable — up 90.6% from last year's reduced budget"
 description: "Instagram @sisa_brieffing on reports that plans for 77.3% of the 667.6B won NK aid budget are undecided and that it is up 90.6% on last year's post-cut level."
+imageAlt: "Elevated view of the Government Complex Seoul main building and annex, with the plaza and traffic on Sejong-daero in front"
+imageCaption: "Archive photo: Government Complex Seoul (2014) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @sisa_brieffing (시사 브리핑)"
 translatedAt: 2026-09-30
 ---

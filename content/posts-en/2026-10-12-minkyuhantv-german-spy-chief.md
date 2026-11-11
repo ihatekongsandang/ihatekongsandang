@@ -2,6 +2,8 @@
 id: 2026-10-12-minkyuhantv-german-spy-chief
 title: "\"The spy-catching intelligence chief was a Russian spy\" — Germany's former BND chief H was arrested on espionage charges, but German media reported the case is not linked to Russia"
 description: "Instagram @minkyuhantv uses a German ex-spy chief's arrest to fault Korean officials; H was held Oct. 6, but German media said it was not Russia-related."
+imageAlt: "The Federal Intelligence Service (BND) headquarters on Chausseestrasse in Berlin, with the street in front"
+imageCaption: "Archive photo: Headquarters of the German Federal Intelligence Service (BND) (2026) — not taken at the time of this event."
 attribution: "Instagram @minkyuhantv (Han Min-kyu TV)"
 translatedAt: 2026-10-12
 ---

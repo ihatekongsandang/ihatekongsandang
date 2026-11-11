@@ -2,6 +2,8 @@
 id: 2026-10-10-seoulmediatv-paju-kpa-cemetery-memorial
 title: "Memorial with a 'remove U.S. Forces Korea' slogan held at the North Korean soldiers' cemetery in Paju — organizers said it was the 21st on Oct. 10; defectors and civic groups held a protest the same day"
 description: "Instagram @seoulmediatv posts protest footage from Paju; reports say a memorial with a 'remove USFK' slogan was held at a North Korean cemetery on Oct. 10."
+imageAlt: "Rows of small grave markers on grass, with fields and hills beyond"
+imageCaption: "Archive photo: Cemetery for North Korean soldiers in Paju (2024) — not taken at the time of this event."
 attribution: "Instagram @seoulmediatv"
 translatedAt: 2026-10-11
 ---

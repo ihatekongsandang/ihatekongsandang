@@ -2,8 +2,6 @@
 id: 2026-10-01-rekor-15div-mine-field
 title: "\"After the 25th Division, a North Korean mine threat is spotted in the 15th Division too\" — MBN reports digging traces north of the MDL and mine boxes being carried in the central-front 15th Division area, but mine-laying south of the MDL is reported only as 'signs'"
 description: "Instagram @rekor.rgt cites MBN on a North Korean mine threat in the 15th Division area; MBN reportedly saw digging north of the MDL and signs of mines south."
-imageAlt: "Fields and reservoirs of the DMZ seen from an observatory, with North Korean hills in the distance"
-imageCaption: "Archive photo: general view of the DMZ from Dora Observatory, Paju (2018) — not taken at the time of this event. It is not the site of the incident either."
 attribution: "Instagram @rekor.rgt (REKOR)"
 translatedAt: 2026-10-02
 ---

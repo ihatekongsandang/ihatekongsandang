@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DeXgot_Tqhk/
 attribution: 인스타그램 @minkyuhantv (한민규TV)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-12-minkyuhantv-german-spy-chief/thumb.jpg
+  alt: "베를린 쇼세슈트라세의 독일 연방정보국 본부 건물과 앞 도로"
+  caption: "자료사진: 독일 연방정보국(BND) 본부(2026) — 이 사건 당시 사진이 아닙니다."
+  creditName: "NutzerAusBerlin"
+  creditNameEn: "NutzerAusBerlin"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Berlin_20260323_Headquarters_of_the_Bundesnachrichtendienst_01.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc0-1.0
+  licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+  workTitle: "Headquarters of the Bundesnachrichtendienst"
+  workYear: 2026
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 원경 점 크기 인물 있음(얼굴 최대 약 18 px / 짧은 변 3000 px)"
 og:
   siteName: Instagram
 sources:

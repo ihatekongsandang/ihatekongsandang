@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd0xv8hzTLQ/
 attribution: 인스타그램 @themovemag_ (The Move)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-28-themove-hongkong-umbrella-12th/thumb.jpg
+  alt: "고층 빌딩 사이로 육교가 가로지르는 홍콩 애드미럴티의 하코트로드와 차량들"
+  caption: "자료사진: 홍콩 애드미럴티 하코트로드(2016) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "Wishds"
+  creditNameEn: "Wishds"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Harcourt_Road,_Admiralty,_Hong_Kong.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+  workTitle: "Harcourt Road, Admiralty, Hong Kong"
+  workYear: 2016
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·거리); 뒷모습 보행자 2명(얼굴 보이지 않음)"
 og:
   siteName: Instagram
 sources:
