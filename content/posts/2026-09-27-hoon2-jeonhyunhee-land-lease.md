@@ -10,6 +10,21 @@ speaker:
   name: "@hoon2_lpg_god"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-27-hoon2-jeonhyunhee-land-lease/thumb.jpg
+  alt: "높은 곳에서 내려다본 국회의사당과 앞마당 광장, 뒤로 흐르는 한강"
+  caption: "자료사진: 국회의사당(2020) — 이 사건 당시 사진이 아닙니다."
+  creditName: 서울특별시
+  creditNameEn: Seoul Metropolitan Government
+  sourcePageUrl: https://data.si.re.kr/node/62226
+  sourceSiteName: 서울연구데이터서비스
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "국회의사당(06T00305Da82000)"
+  workYear: 2020
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·국회의사당)
 og:
   siteName: Threads
 sources:

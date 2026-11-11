@@ -2,6 +2,8 @@
 id: 2026-11-04-leejinsook-martial-law-soldiers-presser
 title: "Rep. Lee Jin-sook: \"Soldiers who followed superiors' orders during the Dec. 3 martial law branded insurrectionists and heavily disciplined\" — National Assembly press conference with Lt. Col. Y"
 description: "Rep. Lee Jin-sook posted a video of a Nov. 4 press conference with Lt. Col. Y criticizing probes and discipline of soldiers over martial law."
+imageAlt: "The National Assembly Proceeding Hall and Yeouido high-rises seen across the Han River"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_leejinsook (Lee Jin-sook)"
 translatedAt: 2026-11-08

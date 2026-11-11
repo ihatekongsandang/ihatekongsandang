@@ -2,6 +2,8 @@
 id: 2026-09-16-pickmag-china-visa-free-petition
 title: "National Assembly public-consent petition to 'abolish visa-free entry for Chinese nationals' passes 60,000 signatures, referred to the Judiciary Committee"
 description: "Instagram @pickmag_zip says a petition to end visa-free entry for Chinese nationals topped 60,000; it was reportedly sent to the Judiciary Committee Sept. 14."
+imageAlt: "An aerial view of the National Assembly Proceeding Hall, its front plaza and the Han River behind it"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 attribution: "Instagram @pickmag_zip (픽 매거진)"
 translatedAt: 2026-10-07
 ---

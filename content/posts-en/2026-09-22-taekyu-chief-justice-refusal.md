@@ -2,6 +2,8 @@
 id: 2026-09-22-taekyu-chief-justice-refusal
 title: "Rep. Kim Tae-gyu: \"Respect for Chief Justice Cho Hee-dae, who defended the power to recommend justices to the end\" — commentary backing his refusal to submit a new recommendation"
 description: "PPP Rep. Kim Tae-gyu hails Chief Justice Cho's refusal to re-recommend; he reportedly said the presidential office tried to use custom to gut that power."
+imageAlt: "An aerial view of the front of the Supreme Court building and its forecourt"
+imageCaption: "Archive photo: Supreme Court building (2020) — not taken at the time of this event."
 speakerAffiliation: "People Power Party lawmaker and chief floor spokesperson"
 attribution: "Instagram @taekyuster (김태규)"
 translatedAt: 2026-09-30

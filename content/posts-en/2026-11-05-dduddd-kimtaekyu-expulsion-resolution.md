@@ -2,6 +2,8 @@
 id: 2026-11-05-dduddd-kimtaekyu-expulsion-resolution
 title: "Threads post labeled \"[Breaking]\": \"Resolution urging expulsion of lawmaker Kim Tae-kyu passes, led by the Democratic Party,\" with 166 in favor as the People Power Party boycotts the vote (reports)"
 description: "Threads @_ddu._dd relays a resolution urging lawmaker Kim Tae-kyu's expulsion; reports say it passed with 166 votes, and actual expulsion needs more steps."
+imageAlt: "An aerial view of the National Assembly Proceeding Hall, its front plaza and the Han River behind it"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 attribution: "Threads @_ddu._dd"
 translatedAt: 2026-11-05
 ---
