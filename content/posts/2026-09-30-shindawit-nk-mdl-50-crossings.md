@@ -8,6 +8,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd6lb3tmA_8/
 attribution: 인스타그램 @shin_dawit
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-30-shindawit-nk-mdl-50-crossings/thumb.jpg
+  alt: "철조망이 겹겹이 얹힌 비무장지대 철책을 비스듬히 본 모습"
+  caption: "자료사진: 비무장지대 철책 일반 풍경(2009) — 이 사건 지점·당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "박종우"
+  creditNameEn: "박종우"
+  sourcePageUrl: "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13320620&menuNo=200018"
+  sourceSiteName: "공유마당"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/
+  workTitle: "DMZ 2701"
+  workYear: 2009
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·비무장지대 풍경)"
 og:
   siteName: Instagram
 sources:

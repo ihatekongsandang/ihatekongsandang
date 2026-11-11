@@ -2,6 +2,8 @@
 id: 2026-09-22-ego-police-republic-concern
 title: "\"A prosecutors' republic hurts politicians; a police republic hurts ordinary people\" — concern over police power concentrating after prosecutors' investigative powers are abolished"
 description: "Instagram @ego_iz_d_enemy posts a one-line card worrying about police power; a bill ending prosecutors' supplementary probes reportedly passed on July 31."
+imageAlt: "The Korean National Police Agency headquarters seen through bare branches, with the road in front"
+imageCaption: "Archive photo: Korean National Police Agency headquarters (Seodaemun-gu, Seoul, 2017) — not taken at the time of this event."
 attribution: "Instagram @ego_iz_d_enemy (EGO)"
 translatedAt: 2026-09-30
 ---

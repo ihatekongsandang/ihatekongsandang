@@ -2,6 +2,8 @@
 id: 2026-10-13-yeong573-police-bodycam-china
 title: "\"14,000 police body cams: Chinese-made passed off as Taiwanese?\" — Rep. Park Sang-woong's questioning at the parliamentary audit and the acting police chief's answers"
 description: "Instagram @yeong573 shares an audit exchange on claims 14,000 police body cams are Chinese-made; a test lab found them near-identical; police found no backdoor."
+imageAlt: "The Korean National Police Agency headquarters seen through bare branches, with the road in front"
+imageCaption: "Archive photo: Korean National Police Agency headquarters (Seodaemun-gu, Seoul, 2017) — not taken at the time of this event."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @yeong573"
 translatedAt: 2026-10-14

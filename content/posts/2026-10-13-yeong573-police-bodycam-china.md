@@ -10,6 +10,21 @@ speaker:
   name: 박상웅
   affiliation: 국민의힘 국회의원
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-13-yeong573-police-bodycam-china/thumb.jpg
+  alt: "나뭇가지 너머로 보이는 경찰청 본관 건물과 앞 도로"
+  caption: "자료사진: 경찰청 본관(서울 서대문구, 2017) — 이 사건 당시 사진이 아닙니다."
+  creditName: "HappyMidnight"
+  creditNameEn: "HappyMidnight"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Korean_National_Police_Agency_Building05.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  workTitle: "Korean National Police Agency Building05"
+  workYear: 2017
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 뒷모습 보행자 2명(얼굴 보이지 않음)"
 og:
   siteName: Instagram
 sources:

@@ -2,6 +2,8 @@
 id: 2026-09-30-shindawit-nk-mdl-50-crossings
 title: "\"North Korea crossed the MDL 50 times in August–September… Kim Yo-jong blames 'daily warning broadcasts and shots'\" — defense intelligence assessed 'about 50'; the claim of 'over 100 in reality' is unconfirmed"
 description: "Instagram @shin_dawit slams Kim Yo-jong's complaint about warning shots; defense intelligence reportedly counted about 50 MDL crossings in Aug.–Sept."
+imageAlt: "An angled view of a DMZ fence topped with layers of barbed wire"
+imageCaption: "Archive photo: general view of the DMZ fence (2009) — not the location or time of this event. It may differ from how it looks today."
 attribution: "Instagram @shin_dawit"
 translatedAt: 2026-10-14
 ---

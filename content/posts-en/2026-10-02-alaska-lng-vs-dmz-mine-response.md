@@ -2,6 +2,8 @@
 id: 2026-10-02-alaska-lng-vs-dmz-mine-response
 title: "Seoul reportedly voiced \"regret\" within a day over Trump's one-sided Alaska LNG announcement — the same week, the North Korean mine blast that cost a soldier a foot drew criticism of a \"muted\" presidential office and an \"unforeseen accident\" remark; the military demanded an apology but reportedly disclosed no countermeasures"
 description: "Seoul reportedly voiced regret a day after Trump's Alaska LNG claim; on the DMZ mine, the military urged an apology but reportedly disclosed no countermeasures."
+imageAlt: "The blue-tiled main building of Cheong Wa Dae below Bugaksan, with the front lawn"
+imageCaption: "Archive photo: Cheong Wa Dae main building (2022) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @kbsnews (KBS 뉴스)"
 translatedAt: 2026-10-06
 ---
