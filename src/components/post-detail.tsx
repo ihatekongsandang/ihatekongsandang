@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { ExternalLink as ExternalLinkIcon } from 'lucide-react'
 import { MediaFigure } from '@/components/card-media'
@@ -9,7 +10,7 @@ import { ShareButtons } from '@/components/share-buttons'
 import { SourceList } from '@/components/source-list'
 import { Badge } from '@/components/ui/badge'
 import { CHIP_LINK, chipFace } from '@/components/tag-nav'
-import { resolveCardMedia, type ImageCredit, type Post } from '@/lib/content/schema'
+import { isCcBy40Label, resolveCardMedia, type ImageCredit, type Post } from '@/lib/content/schema'
 import { aboutPath, formatDate, homePath, langFor, langForTranslatable, postPath, t, type Locale } from '@/lib/i18n'
 import { breadcrumbJsonLd, postJsonLd } from '@/lib/seo'
 import { cn } from '@/lib/utils'
@@ -20,21 +21,146 @@ function koglTypeNumber(license: ImageCredit['license']): number | undefined {
   return match ? Number(match[1]) : undefined
 }
 
+/** `cc-by-4.0` → `4.0`. CC BY가 아니면 undefined. */
+function ccByVersion(license: ImageCredit['license']): string | undefined {
+  const match = license?.match(/^cc-by-(\d\.\d)$/)
+  return match ? match[1] : undefined
+}
+
+/** 값(저작자·저작물명·사이트명 등)을 끼워 넣는 자리 — 영어 페이지에서 한글이면 `lang="ko"`. */
+function Value({ text, locale }: { text: string; locale: Locale }) {
+  return <span lang={langFor(text, locale)}>{text}</span>
+}
+
 /**
- * 대표 이미지 크레딧(프로그래머 13, 정책 P4) — public·news 이미지에만 붙는다. 카드에는 쓰지 않는다.
+ * `kind: open`(A-2 인물 없는 자료사진) 크레딧 줄(프로그래머 19, 정책 §4.5-11 서식 그대로).
+ * - CC BY: ko `사진: {저작자}, 「{저작물명}」({창작년도}) · {출처 사이트명} / CC BY {버전}` + [원 페이지] + [라이선스]
+ *          en `Photo: {Author}, "{Title}" ({year}) · {Source site} / CC BY {version}` + [Original] + [License]
+ *          — `workYear`가 없으면 ko·en 모두 창작년도 괄호를 통째로 뺀다(리뷰 67-2 P3-3).
+ * - CC0: ko `사진: {저작자}(CC0 1.0 — 저작권 포기)` / en `Photo: {Author} (CC0 1.0 — public domain dedication)` + [원 페이지] + [라이선스]
+ * - PD: ko `사진: {저작자}(퍼블릭 도메인 — 근거: {licenseLabel})`(근거 문구가 없으면 `(퍼블릭 도메인)`) + [원 페이지] + [근거 페이지].
+ *       정책 서식의 링크는 [근거 페이지]뿐이지만, 소개 페이지 A-2 줄이 "원문 링크를 적고"라고 약속하므로 원 페이지도 함께 건다.
+ * - 기증 자유이용: ko `사진: {저작자}, 「{저작물명}」, 기증 {기증자}, 공유마당 / {이용조건}` / en `…, donated by {donor}, Gongu Madang / {label}`
+ *       + [원 페이지](+ 이용조건이 CC BY 4.0이면 [라이선스]). 기증자는 `donorName`, 없으면 저작자.
+ * 링크는 모두 `ExternalLink`(public·news와 같은 `rel="noopener"`·새 창 안내·높이 44px).
+ */
+function OpenCreditLine({ credit, locale }: { credit: ImageCredit; locale: Locale }) {
+  const dict = t(locale)
+  const words = dict.openCredit
+  const name = locale === 'en' ? credit.creditNameEn : credit.creditName
+  const title = credit.workTitle ? (
+    <>
+      {', '}
+      {words.titleOpen}
+      <Value text={credit.workTitle} locale={locale} />
+      {words.titleClose}
+    </>
+  ) : null
+  const version = ccByVersion(credit.license)
+  let body: ReactNode = null
+  let licenseHref: string | undefined
+  let basisHref: string | undefined
+  if (version) {
+    body = (
+      <>
+        {title}
+        {credit.workYear ? words.year(credit.workYear) : null}
+        {credit.sourceSiteName ? (
+          <>
+            {' · '}
+            <Value text={credit.sourceSiteName} locale={locale} />
+          </>
+        ) : null}
+        {` / CC BY ${version}`}
+      </>
+    )
+    licenseHref = credit.licenseUrl
+  } else if (credit.license === 'cc0-1.0') {
+    body = words.cc0
+    licenseHref = credit.licenseUrl
+  } else if (credit.license === 'pd') {
+    const pd = words.pd(credit.licenseLabel)
+    body = (
+      <>
+        {pd.before}
+        {credit.licenseLabel ? <Value text={credit.licenseLabel} locale={locale} /> : null}
+        {pd.after}
+      </>
+    )
+    basisHref = credit.licenseUrl
+  } else if (credit.license === 'kcc-donated') {
+    const donor = credit.donorName ?? name
+    body = (
+      <>
+        {title}
+        {', '}
+        {words.donatedBy}
+        <Value text={donor} locale={locale} />
+        {`, ${words.gongu} / `}
+        {credit.licenseLabel ? <Value text={credit.licenseLabel} locale={locale} /> : null}
+      </>
+    )
+    if (isCcBy40Label(credit.licenseLabel)) licenseHref = credit.licenseUrl
+  }
+  return (
+    <p data-open-credit="">
+      {dict.photoCreditLabel}
+      <Value text={name} locale={locale} />
+      {body}
+      {' · '}
+      <ExternalLink href={credit.sourcePageUrl} locale={locale} className="min-h-11 items-center">
+        {words.original}
+      </ExternalLink>
+      {licenseHref ? (
+        <>
+          {' · '}
+          <ExternalLink href={licenseHref} locale={locale} className="min-h-11 items-center">
+            {words.license}
+          </ExternalLink>
+        </>
+      ) : null}
+      {basisHref ? (
+        <>
+          {' · '}
+          <ExternalLink href={basisHref} locale={locale} className="min-h-11 items-center">
+            {words.basis}
+          </ExternalLink>
+        </>
+      ) : null}
+    </p>
+  )
+}
+
+/**
+ * 대표 이미지 크레딧(프로그래머 13, 정책 P4) — public·open·news 이미지에만 붙는다. 카드에는 쓰지 않는다.
  * ko `사진: {creditName}` / en `Photo: {creditNameEn}` + 원 페이지 링크(ExternalLink: `rel="noopener"`, 새 창 sr-only 안내, 높이 44px).
  * 링크 문구는 보강안 목업 그대로(공공누리 "원문 페이지"/"Source page", 언론 "기사 원문"/"Source article").
  * public은 공공누리 유형과 공식 출처 표시 문구의 요지를 함께 적는다.
+ * open(A-2 자료사진, 프로그래머 19)은 `OpenCreditLine`(정책 §4.5-11 서식) + 원 페이지 고지 원문(`creditNotice`, 있으면).
  *
  * 사진 설명(프로그래머 15 C1, 정책 §3.6 · 2b 완화책 ②): `caption`(영어 상세는 영어본 `imageCaption`)을 크레딧 줄 **위**에 적는다
- * — 사진이 무엇인지 먼저 읽고 그다음 출처를 읽는 순서. 이 figcaption은 credit이 있는 public·news에만 그려지므로
- * self 이미지의 caption(내부 판정 메모가 섞인 206건)은 여기로 오지 않고 계속 숨는다.
+ * — 사진이 무엇인지 먼저 읽고 그다음 출처를 읽는 순서. open도 같다(프로그래머 19 — 소개 페이지 A-2 줄의 "사건 당시 사진이 아니라고
+ * 밝힙니다"가 이 줄이다). 이 figcaption은 credit이 있는 public·open·news에만 그려지므로 self 이미지의 caption은 여기로 오지 않고
+ * 계속 숨는다(지금 self 대표 이미지는 0건이다).
  * 영어 상세에서 영어 캡션이 없으면 `localizePost`가 caption을 비우므로 한국어 설명이 영어 페이지에 남지 않는다
- * (public·news는 C2 뒤로 원본 caption이 필수라 영어본 `imageCaption`도 검증에서 필수다).
+ * (public·open·news는 원본 caption이 필수라 영어본 `imageCaption`도 검증에서 필수다).
  */
 function ImageCreditCaption({ credit, caption, locale }: { credit: ImageCredit; caption?: string; locale: Locale }) {
   const dict = t(locale)
   const name = locale === 'en' ? credit.creditNameEn : credit.creditName
+  if (credit.kind === 'open') {
+    return (
+      <figcaption data-credit="" className="mt-1.5 text-[13px] leading-[1.55] text-muted-foreground">
+        {caption ? <p data-image-caption="">{caption}</p> : null}
+        <OpenCreditLine credit={credit} locale={locale} />
+        {credit.creditNotice ? (
+          <p data-credit-notice="">
+            <Value text={credit.creditNotice} locale={locale} />
+          </p>
+        ) : null}
+      </figcaption>
+    )
+  }
   const type = credit.kind === 'public' ? koglTypeNumber(credit.license) : undefined
   return (
     <figcaption data-credit="" className="mt-1.5 text-[13px] leading-[1.55] text-muted-foreground">

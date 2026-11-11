@@ -189,13 +189,63 @@ image:
   creditNameEn: Institution name
   sourcePageUrl: https://…         # 공공누리 마크를 직접 확인한 원문 페이지
   license: kogl-1                  # public만 필수. kogl-1만 받는다
+  workTitle: 저작물명               # 선택(권장) — 공공누리 공식 출처표시의 저작물명
+  workYear: 2024                   # 선택(권장) — 작성연도 4자리
   retrievedAt: 2026-11-09
   faceNote: 얼굴 없음(건물)
 ```
+open (A-2 인물 없는 자료사진 — 공공누리 밖 개방 라이선스, 저장소에 저장. 정책 `planning/card-image-policy.md` §4.5·§8):
+```yaml
+image:
+  kind: open
+  src: /images/{id}/thumb.jpg
+  alt: "사진에 보이는 사실만 쓴 문장"
+  caption: "자료사진: 국회의사당(2019) — 이 사건 당시 사진이 아닙니다."   # 필수. 연도 미상이면 '촬영 연도 미상' + '현재 모습과 다를 수 있습니다.'
+  creditName: 저작자 또는 제공 기관      # 라이선스상 저작자 표기
+  creditNameEn: Author or institution
+  sourcePageUrl: https://…          # 라이선스를 직접 확인한 원 페이지(sources[]와 대조하지 않는다)
+  license: cc-by-4.0                # 아래 값 표 중 하나
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/   # 라이선스 문서(아래 표)
+  workTitle: 저작물명                # 필수
+  workYear: 2019                    # 상세 페이지에 창작년도가 있으면 필수, 없으면 줄을 지운다
+  sourceSiteName: 공유마당           # 필수 — 출처 사이트명(주소에서 자동으로 정하지 않는다)
+  creditNotice: "…"                 # 선택 — 원 페이지가 요구한 저작권·면책 고지 원문
+  # donorName: "…"                  # 선택(kcc-donated만) — 기증자가 저작자와 다를 때
+  # licenseLabel: "CC BY 4.0"       # kcc-donated 필수 — 상세 페이지에 표시된 이용조건 글자 그대로(pd는 근거 문구, 선택)
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·건물)
+```
+
+`license` 값(open — CC 지역판 `cc-by-2.0-kr` 등은 조문 확인 전이라 값이 없다):
+
+| 값 | 라이선스 | `licenseUrl` | 상세 출처 표시(ko) |
+|---|---|---|---|
+| `cc-by-2.0` · `cc-by-3.0` · `cc-by-4.0` | CC BY(버전을 페이지가 명시한 것만) | `https://creativecommons.org/licenses/by/{버전}/…` — 버전이 다르면 오류 | `사진: {creditName}, 「{workTitle}」({workYear}) · {sourceSiteName} / CC BY {버전}` · 원 페이지 · 라이선스 (`workYear`가 없으면 괄호째 빠진다) |
+| `cc0-1.0` | CC0 1.0 | `https://creativecommons.org/publicdomain/zero/1.0/…` | `사진: {creditName}(CC0 1.0 — 저작권 포기)` · 원 페이지 · 라이선스 |
+| `pd` | 퍼블릭 도메인(근거 명시된 것만) | 근거 페이지 | `사진: {creditName}(퍼블릭 도메인 — 근거: {licenseLabel})`(근거 문구가 없으면 `(퍼블릭 도메인)`) · 원 페이지 · 근거 페이지 |
+| `kcc-donated` | 공유마당 기증저작물 "자유이용"(조건부이용은 불가) | 이용조건이 CC BY 4.0이면 그 문서(아니면 오류), 그 밖이면 기증제도 안내 | `사진: {creditName}, 「{workTitle}」, 기증 {donorName 또는 creditName}, 공유마당 / {licenseLabel}` · 원 페이지(· 이용조건이 CC BY 4.0이면 라이선스) |
+
+- 영어 상세는 `Photo: {creditNameEn}, "{workTitle}" ({workYear}) · {sourceSiteName} / CC BY {버전}` 꼴이다(기증은 `…, donated by {donor}, Gongu Madang / {licenseLabel}`). 저작물명·사이트명은 원문 그대로 나온다(영어 필드 없음).
+- 버전 없는 `cc-by`, BY-SA·BY-NC·BY-ND, `kogl-1`(→ public), open 값을 public에 쓴 것은 모두 빌드 중단이다.
+- 기증저작물(`kcc-donated`)은 이용조건과 상관없이 **이미지 최적화(리사이즈·재인코딩)를 거치지 않고** 저장 파일 그대로 나간다. 저장 파일 크기를 미리 알맞게 맞춰 둔다.
+
+open 필드:
+
+| 필드 | 필수 | 내용 |
+|---|---|---|
+| `caption`·`faceNote`·`creditName`·`creditNameEn`·`sourcePageUrl`·`retrievedAt` | 필수 | public·news와 같다. 영어본 `imageCaption`도 필수 |
+| `license` · `licenseUrl` | 필수 | 위 표 |
+| `workTitle` · `sourceSiteName` | 필수 | 저작물명 · 출처 사이트명 |
+| `workYear` | 창작년도가 있으면 필수 | 4자리 연도, 미래 불가. 없으면 생략(검증은 생략을 막지 못한다 — 업로더가 상세 페이지로 확인) |
+| `licenseLabel` | `kcc-donated` 필수 · `pd` 선택 | 상세 페이지의 이용조건 글자 그대로 / PD 근거 문구 |
+| `donorName` | 선택(`kcc-donated`) | 기증자가 저작자와 다를 때만 |
+| `creditNotice` | 선택 | 원 페이지 고지 원문 — 상세 크레딧 줄 아래에 나온다 |
+
 - `kind`를 생략하면 `self`(운영자 제작 카드 이미지)다. SNS 원문 이미지 저장본과 자체 제작 카드는 정리가 끝나 현재 `self` 이미지는 0건이다. `self`에는 크레딧 필드를 쓰지 않는다.
-- public·news는 `sourceType: url` 게시물의 `image`에만 쓴다. `images[]`(사진 유형 갤러리)는 self만 받는다.
+- public·open·news는 `sourceType: url` 게시물의 `image`에만 쓴다. `images[]`(사진 유형 갤러리)는 self만 받는다. `sources[]` 일치 검사는 news에만 한다.
 - 포털(네이버·다음·네이트·줌 계열·단축·집계 주소, 이미지 CDN 포함) 주소는 `src`·`sourcePageUrl` 모두 막힌다. 원 매체 기사를 쓴다.
-- 상세 사진 아래에 `사진: {creditName}` + 원 페이지 링크와 **사진 설명**이 나온다(영어 상세는 `creditNameEn`·`imageCaption`). 카드에는 나오지 않는다. 공유 미리보기(OG)·구조화 데이터에는 들어가지 않는다.
+- 상세 사진 아래에 **사진 설명**과 그 아래 `사진: {creditName}` + 원 페이지 링크가 나온다(open은 위 표의 서식, 영어 상세는 `creditNameEn`·`imageCaption`). 카드에는 이미지만 나온다. 공유 미리보기(OG)·구조화 데이터·사이트맵에는 들어가지 않는다.
+- 권장 경고(빌드는 진행): open caption이 `자료사진:`으로 시작하지 않거나 "이 사건 당시 사진이 아닙니다"가 없음(영어 `Archive photo:`·"not taken at the time of this event"), `workYear`가 없는데 '촬영 연도 미상'·'현재 모습과 다를 수 있습니다.'가 없음, 10년 이상 전 사진인데 '현재 모습과 다를 수 있습니다.'가 없음, open faceNote가 '얼굴 없음'으로 시작하지 않음, public·open에서 같은 원본(`sourcePageUrl`)을 3건 넘게 씀, public·open 저장 파일 짧은 변 400px 미만.
 - 이미지를 내릴 때는 `image` 블록을 지우고 배포하면 된다(새 대체 카드로 바뀐다). 절차는 `planning/image-removal-procedure.md`.
 - 깨진 핫링크 점검: `npm run check:hotlinks`(빌드를 막지 않는다). **주 1회**, 담당 업로더.
 
@@ -404,7 +454,8 @@ tags: [○○정책]
 | 본문에 `<script>`·`<iframe>` 등 | 빌드 중단 |
 | `description` 160자 초과, 파일명과 `id` 불일치, 모르는 필드, `speaker`의 모르는 하위 필드 | 경고만 (빌드는 진행) |
 | 본문에 마크다운 이미지(`![…](…)`) — 렌더에서 제거됨 | 경고만 (빌드는 진행) |
-| `image.kind` 값 오류, news `src`가 https 아님·포털, `sourcePageUrl`이 `sources[]` 언론 기사와 다름·포털, public·news 필수 필드 누락(`caption` 포함), public `license`가 kogl-1 아님, news에 `license`, `images[]`나 사진 유형에 public·news | 빌드 중단 |
+| `image.kind` 값 오류, news `src`가 https 아님·포털, `sourcePageUrl`이 `sources[]` 언론 기사와 다름·포털, public·open·news 필수 필드 누락(`caption` 포함), public `license`가 kogl-1 아님, open `license`가 허용 값 아님(버전 없는 `cc-by`·BY-SA 등), open `licenseUrl`이 표시 라이선스·버전과 다른 CC 문서, news에 `license`, `images[]`나 사진 유형에 public·open·news | 빌드 중단 |
+| open 사진 설명 고정 문구·같은 원본 3건 초과·저장 파일 짧은 변 400px 미만(§3.6) | 경고만 |
 | self 이미지에 크레딧 필드 | 경고만 |
 
 (위 "폐지된 필드 … `kind`"는 **최상위** `kind`(게시물 종류)다. `image.kind`와 다르다.)
@@ -447,7 +498,7 @@ translatedAt: 2026-09-29              # 필수 (YYYY-MM-DD)
 | `attribution`·`speakerAffiliation`이 문자열이 아님(목록·숫자 등 — 무시되고 원본 값이 나감) | 경고만 |
 | 원본이 번역 이후 갱신됨(`updatedAt` > `translatedAt`) · 원본 값을 쓰는 필드를 적음 · 모르는 필드 | 경고만 |
 
-- **대표 이미지 `image.kind`(§3.6)** — `imageAlt`·`imageCaption`은 news·public에서도 필수다(원본에 `caption`이 있으면 `imageCaption` 필수 — 기존 규칙). 크레딧은 영어본에 따로 적지 않는다 — 원본의 `creditNameEn`이 쓰인다.
+- **대표 이미지 `image.kind`(§3.6)** — `imageAlt`·`imageCaption`은 news·public·open에서도 필수다(원본에 `caption`이 있으면 `imageCaption` 필수 — 기존 규칙). 크레딧은 영어본에 따로 적지 않는다 — 원본의 `creditNameEn`이 쓰인다.
 - **출처 표기 `attribution`** — 저작권 표시 성격이라 **플랫폼명만** 영어로 바꾼다(인스타그램 → Instagram, 스레드 → Threads, 유튜브 → YouTube, 페이스북 → Facebook). 계정 핸들과 괄호 안 원문 이름은 원본 그대로 둔다.
   예: 원본 `인스타그램 @im_nowandhere (나우앤히어)` → 영어본 `Instagram @im_nowandhere (나우앤히어)`. 언론사명처럼 공식 영문 표기를 확인하지 못한 이름은 번역하지 않는다(필드를 비우면 원본 값이 나간다).
 - 본문의 내부 링크 `/post/{id}`는 **그 글의 영어본이 있으면** 영어 페이지에서 `/en/post/{id}`로 자동으로 바뀐다. 없으면 한국어 페이지로 그대로 간다.

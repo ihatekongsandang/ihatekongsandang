@@ -1,0 +1,3 @@
+  HEAD /slow.jpg referer=https://site.example.com/
+
+합계 10건 · PASS 10 · FAIL 0

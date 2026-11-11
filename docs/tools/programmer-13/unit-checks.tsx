@@ -132,7 +132,8 @@ function expectReject(name: string, data: Record<string, unknown>, pattern: RegE
 }
 
 // ---------- B. 거부 ----------
-expectReject('kind 값(stock)', base({ ...NEWS, kind: 'stock' }), /image\.kind: self \/ public \/ news/)
+// 프로그래머 19 갱신: kind 목록에 open이 들어가 오류 문구가 바뀌었다(거부는 그대로).
+expectReject('kind 값(stock)', base({ ...NEWS, kind: 'stock' }), /image\.kind: self \/ public \/ open \/ news/)
 expectReject('news src http', base({ ...NEWS, src: 'http://img.example.org/og/1.jpg' }), /image\.src: kind `news`는 .*https/)
 expectReject('news src 저장소 경로', base({ ...NEWS, src: '/images/sample-post/og.jpg' }), /image\.src: kind `news`는 .*https/)
 for (const portal of [
@@ -161,7 +162,8 @@ for (const field of ['creditName', 'creditNameEn', 'retrievedAt', 'faceNote'] as
 }
 expectReject('news faceNote 빈 문자열', base({ ...NEWS, faceNote: '   ' }), /image\.faceNote/)
 expectReject('news retrievedAt 형식', base({ ...NEWS, retrievedAt: '2026/11/09' }), /image\.retrievedAt/)
-expectReject('news에 license', base({ ...NEWS, license: 'kogl-1' }), /image\.license: 공공누리 유형은 kind `public`에만/)
+// 프로그래머 19 갱신: license가 public·open 공용이 되어 오류 문구가 바뀌었다(news 금지는 그대로).
+expectReject('news에 license', base({ ...NEWS, license: 'kogl-1' }), /image\.license: 라이선스는 kind `public`·`open`에만/)
 expectReject('public kogl-3(P5 미구현)', base({ ...PUBLIC, license: 'kogl-3' }), /kogl-3.*P5 미구현/)
 expectReject('public license 누락', base({ ...PUBLIC, license: undefined }), /image\.license: kind `public`이면 필수/)
 expectReject('public license kogl-2', base({ ...PUBLIC, license: 'kogl-2' }), /image\.license: kind `public`이면 필수/)

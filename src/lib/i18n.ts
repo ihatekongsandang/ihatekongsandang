@@ -80,6 +80,29 @@ interface Dictionary {
   koglNotice: (name: string, type: number) => string
   /** 크레딧 옆 원 페이지 링크 문구. */
   photoSourceLink: { public: string; news: string }
+  /**
+   * `kind: open`(A-2 자료사진) 출처 표시의 고정 낱말(프로그래머 19, 정책 §4.5-11). 값(저작자·저작물명·사이트명·이용조건)은
+   * 상세가 `lang`을 붙여 끼워 넣는다.
+   */
+  openCredit: {
+    /** 저작물명 앞뒤(ko 「」, en ""). */
+    titleOpen: string
+    titleClose: string
+    /** 창작년도 괄호(ko는 붙여 쓰고 en은 앞에 공백). */
+    year: (year: string) => string
+    /** 기증저작물: ko `기증 {기증자}` / en `donated by {donor}`. */
+    donatedBy: string
+    /** 기증저작물 출처 사이트(공유마당 공식 표시예시). */
+    gongu: string
+    /** CC0 1.0 표기(크레딧 바로 뒤). */
+    cc0: string
+    /** 퍼블릭 도메인 표기(근거 문구가 있으면 함께). */
+    pd: (basis?: string) => { before: string; after: string }
+    /** 링크 문구: 원 페이지 · 라이선스 · (pd) 근거 페이지. */
+    original: string
+    license: string
+    basis: string
+  }
   photos: string
   photosGroup: (count: number) => string
   body: string
@@ -167,6 +190,18 @@ const ko: Dictionary = {
   koglType: (type) => `(공공누리 제${type}유형)`,
   koglNotice: (name, type) => `본 저작물은 ${name}에서 공공누리 제${type}유형으로 개방한 저작물을 이용하였습니다.`,
   photoSourceLink: { public: '원문 페이지', news: '기사 원문' },
+  openCredit: {
+    titleOpen: '「',
+    titleClose: '」',
+    year: (year) => `(${year})`,
+    donatedBy: '기증 ',
+    gongu: '공유마당',
+    cc0: '(CC0 1.0 — 저작권 포기)',
+    pd: (basis) => (basis ? { before: '(퍼블릭 도메인 — 근거: ', after: ')' } : { before: '(퍼블릭 도메인)', after: '' }),
+    original: '원 페이지',
+    license: '라이선스',
+    basis: '근거 페이지',
+  },
   photos: '사진',
   photosGroup: (count) => `사진 ${count}장 — 가로로 넘겨 보세요`,
   body: '본문',
@@ -250,6 +285,18 @@ const en: Dictionary = {
   koglType: (type) => ` (KOGL Type ${type})`,
   koglNotice: (name, type) => `This work was released by ${name} under KOGL Type ${type} and is used under that license.`,
   photoSourceLink: { public: 'Source page', news: 'Source article' },
+  openCredit: {
+    titleOpen: '"',
+    titleClose: '"',
+    year: (year) => ` (${year})`,
+    donatedBy: 'donated by ',
+    gongu: 'Gongu Madang',
+    cc0: ' (CC0 1.0 — public domain dedication)',
+    pd: (basis) => (basis ? { before: ' (Public domain — basis: ', after: ')' } : { before: ' (Public domain)', after: '' }),
+    original: 'Original',
+    license: 'License',
+    basis: 'Basis page',
+  },
   photos: 'Photos',
   photosGroup: (count) => `${count} photos — swipe horizontally`,
   body: 'Body',

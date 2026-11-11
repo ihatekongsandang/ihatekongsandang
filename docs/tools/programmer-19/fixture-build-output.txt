@@ -1,0 +1,183 @@
+
+> ihatekongsandang@0.1.0 prebuild
+> npm run validate:content
+
+
+> ihatekongsandang@0.1.0 validate:content
+> tsx scripts/validate-content.ts
+
+콘텐츠 검증 — content/posts/*.md 215건 · content/posts-en/*.md 212건
+
+🟡 2026-07-12-judypia-real-estate-supervisory-bill.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-13-idontknowpolitics-yeonpyeong-crab-remark.md
+   · description이 186자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-07-28-geonwoo-yoon-final-statement-australia.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-08-03-pagememo-nk-prosecution-reform-directive.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-08-kimsohee-ppp-seven-pledges.md
+   · description이 173자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-10-brieftag-nk-contact-reports-china.md
+   · description이 163자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-13-geonwoo-518-list-disclosure-citizen.md
+   · description이 178자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-20-hagonolza-constitution-amendment-points.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-21-centrism-dmz-summary.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-23-shindawit-army-lecture-trump.md
+   · description이 166자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-24-hagonolza-kctu-itaewon-claim.md
+   · description이 165자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-25-peoplepower7-tankday-vs-mine.md
+   · description이 171자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-26-neveragain-mexico-tariff-visit.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-facteye-dmz-mine-similar-object.md
+   · description이 167자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-peoplepower7-yuk-youngsoo-east-german-docs.md
+   · description이 180자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-quickpolitics-song-yeonpyeong-bomb-remark.md
+   · description이 162자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-solsol-mexico-17-agreements.md
+   · description이 181자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-28-sonit-nk-aid-vs-elderly-support.md
+   · description이 175자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-2pro-prosecution-sign-removal-cost.md
+   · description이 174자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-leejinsook-assassins-film-distortion.md
+   · description이 169자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-nowandhere-defense-minister-nk-responsibility.md
+   · description이 168자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 2026-09-29-shindawit-cxmt-samsung-threat.md
+   · description이 170자입니다 — 검색 결과에서 잘릴 수 있어 160자 이내를 권합니다.
+
+🟡 p19-fx-a-ccby.md
+   · image.src: 저장 파일이 640×360px입니다 — 짧은 변 400px 이상을 씁니다(정책 §4.5-7 · §5.3-8).
+
+🟡 p19-fx-e-cc0.md
+   · image.sourcePageUrl: 같은 원본 사진을 4건이 씁니다(3건까지) — 4번째부터는 다른 사진이나 대체 카드를 씁니다(정책 §4.5-6). (원본: https://archive.example.org/photo/view/100 · 먼저 쓴 글: p19-fx-a-ccby.md, p19-fx-c-cc0.md, p19-fx-d-cc0.md)
+
+── 요약 ──
+검사 파일 427건(한국어 215 · 영어본 212) · 통과 427건 · 실패 0건 (오류 0개)
+고유 id 215개 · 폐기 id 목록 12개
+옮긴 id 목록(moved-ids.txt) 9건 · 리다이렉트 규칙 18개 · 오류 0개
+유형별: url 215
+배경 보도 출처: 667건 · 발언자 표기: 68건
+검사한 이미지 alt 38개
+대표 이미지 종류: self 0 · public 0 · open 5 · news 33
+영어본 212건 / 전체 215건
+
+✅ 검증 통과
+
+> ihatekongsandang@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.25
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ✓ globalNotFound
+
+   Creating an optimized production build ...
+   Using tsconfig file: tsconfig.build.json
+   Using tsconfig file: tsconfig.build.json
+   Using tsconfig file: tsconfig.build.json
+ ✓ Compiled successfully in 4.1s
+   Linting and checking validity of types ...
+   
+Your tsconfig.json extends another configuration, which means we cannot add the Next.js TypeScript plugin automatically. To improve your development experience, we recommend adding the Next.js plugin (`"plugins": [{ "name": "next" }]`) manually to your TypeScript configuration. Learn more: https://nextjs.org/docs/app/api-reference/config/typescript#the-typescript-plugin
+
+   Collecting page data ...
+   Generating static pages (0/807) ...
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (201/807) 
+   Generating static pages (403/807) 
+   Generating static pages (605/807) 
+ ✓ Generating static pages (807/807)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                             Size  First Load JS
+┌ ○ /                                                                1.29 kB         126 kB
+├ ○ /_not-found                                                        195 B         108 kB
+├ ○ /about                                                             178 B         106 kB
+├ ○ /en                                                              1.29 kB         126 kB
+├ ○ /en/about                                                          178 B         106 kB
+├ ○ /en/opengraph-image-1nh35u                                         136 B         102 kB
+├ ● /en/page/[page]                                                  1.29 kB         126 kB
+├   ├ /en/page/2
+├   ├ /en/page/3
+├   ├ /en/page/4
+├   └ [+14 more paths]
+├ ● /en/post/[id]                                                    2.08 kB         127 kB
+├   ├ /en/post/2026-07-01-amhaengeosa-lee-nk-military-remark
+├   ├ /en/post/2026-07-04-idontknowpolitics-2018-freedom-deletion
+├   ├ /en/post/2026-07-05-idontknowpolitics-kctu-appeal
+├   └ [+209 more paths]
+├ ○ /en/terms                                                          178 B         106 kB
+├ ○ /icon.svg                                                            0 B            0 B
+├ ○ /llms.txt                                                          136 B         102 kB
+├ ○ /opengraph-image                                                   136 B         102 kB
+├ ● /page/[page]                                                     1.29 kB         126 kB
+├   ├ /page/2
+├   ├ /page/3
+├   ├ /page/4
+├   └ [+14 more paths]
+├ ● /post/[id]                                                       2.08 kB         127 kB
+├   ├ /post/2026-11-10-attendkdz-police-university-abolition-review
+├   ├ /post/p19-fx-a-ccby
+├   ├ /post/p19-fx-b-donated
+├   └ [+212 more paths]
+├ ○ /robots.txt                                                        136 B         102 kB
+├ ○ /sitemap.xml                                                       136 B         102 kB
+├ ● /tag/[slug]                                                      1.29 kB         126 kB
+├   ├ /tag/dmz
+├   ├ /tag/이재명
+├   ├ /tag/중국
+├   └ [+314 more paths]
+├ ● /tag/[slug]/page/[page]                                          1.29 kB         126 kB
+├   ├ /tag/dmz/page/2
+├   ├ /tag/dmz/page/3
+├   ├ /tag/dmz/page/4
+├   └ [+10 more paths]
+├ ○ /tags                                                              178 B         106 kB
+└ ○ /terms                                                             178 B         106 kB
++ First Load JS shared by all                                         102 kB
+  ├ chunks/228-138de72909796705.js                                     46 kB
+  ├ chunks/ebeb91c7-fe2aa7601e7e7540.js                              54.2 kB
+  └ other shared chunks (total)                                      1.92 kB
+
+
+ƒ Middleware                                                         33.9 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

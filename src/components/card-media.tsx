@@ -26,7 +26,7 @@ const SIZES: Record<MediaVariant, string> = {
 /**
  * 새 대체 카드(구현 범위 7 · 보강안 notes §1): 연한 면(`--surface`) + 안쪽 1px 장식선 + 이미지 없음 아이콘(`--icon`, 4.4:1)
  * + 폭 200px 이상이면 "대표 이미지 없음" 글자(컨테이너 쿼리). 같은 16:9 슬롯이라 레이아웃 이동이 없다.
- * 옛 회색 + 빨간 줄 텍스트 카드는 쓰지 않는다(그 이미지 파일 207건은 콘텐츠가 바뀔 때까지 `image`로 그대로 보인다).
+ * 옛 회색 + 빨간 줄 텍스트 카드는 쓰지 않는다(그 이미지 파일은 모두 정리돼 지금 `public/images/`에는 `.gitkeep`만 있다).
  */
 function Placeholder({ label, text, variant }: { label: string; text: string; variant: MediaVariant }) {
   return (
@@ -47,7 +47,9 @@ function Placeholder({ label, text, variant }: { label: string; text: string; va
 /**
  * 카드·상세의 대표 이미지 슬롯.
  *
- * - 저장소 보유 이미지(`/images/**` — self·public)는 next/image로 최적화한다.
+ * - 저장소 보유 이미지(`/images/**` — self·public·open)는 next/image로 최적화한다.
+ *   단 `media.unoptimized`(공유마당 기증저작물 — 정책 §4.5-11 무변형 보수안, 프로그래머 19)는 `unoptimized`로 저장 파일을 그대로 보낸다
+ *   (리사이즈·재인코딩 없음 — 최적화 엔드포인트 `/_next/image`를 거치지 않는다).
  * - 원문 썸네일·언론 기사 대표 이미지(핫링크 — `og.image`, `image.kind: news`)는 최적화를 거치지 않는 `<img>`로 렌더한다.
  *   임의 외부 호스트를 next/image `remotePatterns`에 열면 이미지 최적화 엔드포인트가 제3자에게 열린 프록시가 되고,
  *   언론 사진을 복제·전송하게 된다(리뷰 30 L1·L4). `referrerpolicy`는 바꾸지 않는다(정책 P6 — 차단 우회 금지).
@@ -107,6 +109,7 @@ export function CardMedia({
           fill
           priority={priority}
           sizes={SIZES[variant]}
+          unoptimized={media.unoptimized}
           className="object-cover"
         />
       </div>

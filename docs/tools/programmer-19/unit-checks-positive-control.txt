@@ -1,0 +1,85 @@
+케이스 113개 · 통과 29 · 실패 84
+FAIL  A cc-by-4.0 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A cc-by-4.0 정규화: kind·license·licenseUrl
+FAIL  A cc-by-4.0 정규화: workTitle·workYear(문자열 "2019")·sourceSiteName
+FAIL  A licenseUrl legalcode.ko(같은 버전 하위 경로)도 통과
+FAIL  A cc-by-2.0 통과
+FAIL  A cc-by-3.0(deed.ko) 통과
+FAIL  A workYear 문자열 "2019"도 통과
+FAIL  A creditNotice 있음 통과·보존
+FAIL  A cc0-1.0 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A pd(근거 문구 있음) 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A pd licenseUrl은 creativecommons.org가 아니어도 됨
+FAIL  A kcc-donated(CC BY 4.0 표시) 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A kcc-donated licenseLabel·donorName 보존
+FAIL  A kcc-donated(다른 표시 + 기증제도 안내 URL) 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A kcc-donated 표시 "cc by 4.0"(대소문자·공백 차이)도 CC BY 4.0으로 봄 → 기증제도 안내 URL이면 오류
+FAIL  A workYear 생략 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  A public workTitle·workYear 받음
+FAIL  A open도 sources[] 대조 없음
+FAIL  B 버전 없는 cc-by 거부(사유: 버전) — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B "CC BY"(대문자·공백) 거부
+FAIL  B cc-by-sa-4.0 거부 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B cc-by-nc-4.0 거부
+FAIL  B cc-by-nd-4.0 거부
+FAIL  B 지역판 cc-by-2.0-kr 거부
+FAIL  B open + kogl-1 거부(→ public) — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B open license 없음 거부
+FAIL  B open 모르는 값(cc-by-5.0) 거부
+FAIL  B public + cc-by-4.0 거부(→ open) — image.license: kind `public`이면 필수이며 kogl-1만 쓸 수 있습니다. (받은 값: cc-by-4.0)
+FAIL  B public + kcc-donated 거부
+FAIL  B open caption 없음 거부 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B open caption 공백만 거부
+FAIL  B open이 images[]에 들어감 거부 — images[0].kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open) | images: sourceType이 `photo`이면 최소 1장 필요합니다(각 이미지에 alt 필수).
+FAIL  B open을 사진 유형 게시물 image에 거부 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B open workTitle 없음 거부
+FAIL  B open sourceSiteName 없음 거부
+FAIL  B open licenseUrl 없음 거부
+FAIL  B open faceNote 없음 거부
+FAIL  B open creditName 없음 거부
+FAIL  B open creditNameEn 없음 거부
+FAIL  B open sourcePageUrl 없음 거부
+FAIL  B open retrievedAt 없음 거부
+FAIL  B open workTitle 빈 문자열 거부
+FAIL  B open sourceSiteName 숫자 거부
+FAIL  B licenseUrl http(s) 아님 거부
+FAIL  B cc-by-4.0인데 licenseUrl이 2.0 문서 거부 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  B cc-by-4.0인데 licenseUrl이 BY-SA 문서 거부
+FAIL  B cc-by-4.0인데 licenseUrl이 다른 호스트 거부
+FAIL  B cc0인데 licenseUrl이 CC BY 문서 거부
+FAIL  B kcc-donated licenseLabel 없음 거부
+FAIL  B kcc-donated CC BY 4.0 표시인데 licenseUrl이 3.0 문서 거부
+FAIL  B workYear 2자리 거부
+FAIL  B workYear 날짜(1973-05-19) 거부
+FAIL  B workYear 미래(2027) 거부
+FAIL  B workYear 올해(2026) 통과
+FAIL  B public workYear 형식 오류도 거부
+FAIL  B open src가 https 핫링크면 거부(저장소 경로만)
+FAIL  B open sourcePageUrl 포털 거부
+FAIL  C caption 접두·문구 없음 → 경고
+FAIL  C workYear 없음 + 연도 미상 문구 없음 → 경고
+FAIL  C 2010(16년 전) + 다를 수 있음 문구 없음 → 경고
+FAIL  C faceNote가 "얼굴 없음"으로 시작 안 함 → 경고
+FAIL  C kcc-donated sourceSiteName ≠ 공유마당 → 경고
+FAIL  C pd 근거 문구 없음 → 경고
+FAIL  C cc-by에 donorName·licenseLabel → 경고 2·값 버림
+FAIL  C public에 open 전용 필드 → 경고(무시)
+FAIL  C news에 workTitle → 경고(무시)
+FAIL  C self에 licenseUrl → 경고(무시)
+FAIL  C 영어본 Archive photo 문구 → 경고 0 — 한국어 원본이 없습니다 — content/posts/sample-post.md가 없거나 검증을 통과하지 못했습니다. 원본 없는 영어본은 둘 수 없습니다.
+FAIL  C 영어본 Archive photo 접두 없음 → 경고
+FAIL  C 영어본 imageCaption 없음 → 오류(open도 필수) — 한국어 원본이 없습니다 — content/posts/sample-post.md가 없거나 검증을 통과하지 못했습니다. 원본 없는 영어본은 둘 수 없습니다.
+FAIL  C 영어본 연도 미상인데 "It may differ…" 없음 → 경고
+FAIL  D CC BY 4.0: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D CC BY 2.0 workYear 생략: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D CC0: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D PD 근거 문구 있음: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D PD 근거 문구 없음: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D 기증 CC BY 4.0 표시 + donorName: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D 기증 다른 표시(라이선스 링크 없음) · donorName 없음: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  D creditNotice: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  E cc-by-4.0: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  E cc0: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  E pd: 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  E kcc-donated(CC BY 4.0): 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)
+FAIL  E kcc-donated(다른 표시): 검증 통과 — image.kind: self / public / news 중 하나여야 합니다(생략하면 self). (받은 값: open)

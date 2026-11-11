@@ -10,7 +10,7 @@
  * 필드 규칙을 바꾸면 `content/README.md`의 영어본 절도 함께 고친다.
  */
 import { hasHangul, stripParentheses } from '../i18n'
-import { toIsoDate, type Post, type PostImage } from './schema'
+import { ARCHIVE_CAPTION, ARCHIVE_OLD_YEARS, toIsoDate, type Post, type PostImage } from './schema'
 
 export interface PostTranslation {
   /** 한국어 원본과 같은 안정 ID. 파일명도 같다. */
@@ -144,6 +144,20 @@ export function validateTranslation(
       }
       if (!original.image.caption && imageCaption) {
         notices.push('imageCaption: 한국어 원본에 캡션이 없어 쓰이지 않습니다.')
+      }
+      // A-2 자료사진(kind: open) 영어 설명 고정 문구 — 권장 경고(정책 §4.5-4, 프로그래머 19). 한국어 원본 검사와 같은 기준.
+      if (original.image.kind === 'open' && imageCaption) {
+        const en = ARCHIVE_CAPTION.en
+        if (!imageCaption.startsWith(en.prefix) || !imageCaption.includes(en.notThen)) {
+          notices.push(`imageCaption: A-2 자료사진은 \`${en.prefix} {subject} ({year}) — ${en.notThen}.\` 형식을 권합니다(정책 §4.5-4).`)
+        }
+        const year = original.image.workYear
+        const old = year ? Number((translatedAt ?? '').slice(0, 4) || new Date().getFullYear()) - Number(year) >= ARCHIVE_OLD_YEARS : false
+        if (!year && (!imageCaption.includes(en.yearUnknown) || !imageCaption.includes(en.mayDiffer))) {
+          notices.push(`imageCaption: workYear가 없으면 '${en.yearUnknown}'와 '${en.mayDiffer}'를 함께 적습니다(정책 §4.5-4).`)
+        } else if (old && !imageCaption.includes(en.mayDiffer)) {
+          notices.push(`imageCaption: 촬영 ${ARCHIVE_OLD_YEARS}년 이상 전 사진(${year})이면 끝에 '${en.mayDiffer}'를 붙입니다(정책 §4.5-4).`)
+        }
       }
     } else {
       if (imageAlt) notices.push('imageAlt: 한국어 원본에 image가 없어 쓰이지 않습니다.')

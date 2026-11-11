@@ -1,0 +1,10 @@
+# fixture next start -p 3119
+GET /images/p19-fx-b-donated/thumb.jpg → 200 image/jpeg 8593B
+PASS  기증 사진 응답 = 저장 파일과 바이트 단위 같음(8593B)
+GET /_next/image?url=/images/p19-fx-a-ccby/thumb.jpg&w=256&q=75 → 200 image/webp 138B
+원본 a: 4583B (640×360 JPEG)
+GET /post/p19-fx-a-ccby → 200
+GET /post/p19-fx-b-donated → 200
+GET /en/post/p19-fx-a-ccby → 200
+GET /en/post/p19-fx-b-donated → 200
+GET / → 200

@@ -53,6 +53,13 @@ export default function EnglishAboutPage() {
                   When we use public photos released under the Korea Open Government License (KOGL), the license type
                   is shown below the photo (none are in use now).
                 </li>
+                {/* 프로그래머 19: 기획자 19-2 §3 A-2 줄 en 문안을 글자 그대로 둔다(KOGL 줄은 유지 — 정책 §4.5). */}
+                <li>
+                  Archive photos with no people in them (such as places and buildings) are used only if they are marked
+                  as free to use — for example under KOGL, a Creative Commons license or in the public domain. Below
+                  the photo we credit the author, state the license, link to the original, and note that it was not
+                  taken at the time of the event.
+                </li>
                 <li>If a post has no image, or an image fails to load, a replacement image is shown.</li>
               </ul>
             </li>
@@ -61,7 +68,7 @@ export default function EnglishAboutPage() {
               figures (for example, parliamentary or government events, press conferences, diplomatic events).
               Photos of official events may also show staff, interpreters or attendees performing official duties.
               We do not use photos in which other private individuals, minors, victims, or injured people can be
-              recognized. We use only photos taken at the event the post covers, and a photo is not evidence for
+              recognized. Photos showing people are used only if taken at the event the post covers, and a photo is not evidence for
               what the post says. Photos on posts about allegations, investigations or trials carry a caption
               saying who took them, when and where.
             </li>

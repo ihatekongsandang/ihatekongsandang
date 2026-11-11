@@ -12,8 +12,9 @@ import process from 'node:process'
 import matter from 'gray-matter'
 import { collectMovedIdErrors, readMovedIdsText, parseMovedIds, readTranslationIds, translationMismatchErrors } from '../src/lib/content/moved-ids'
 import { readRetiredIds, retiredIdMessage } from '../src/lib/content/retired-ids'
-import { validatePost, type Post } from '../src/lib/content/schema'
+import { IMAGE_KINDS, validatePost, type Post } from '../src/lib/content/schema'
 import { validateTranslation } from '../src/lib/content/translation'
+import { readImageSize } from './image-size'
 
 const ROOT = process.cwd()
 const POSTS_DIR = path.join(ROOT, 'content', 'posts')
@@ -24,6 +25,11 @@ const PUBLIC_DIR = path.join(ROOT, 'public')
 function localImageExists(src: string): boolean {
   return fs.existsSync(path.join(PUBLIC_DIR, src.replace(/^\//, '')))
 }
+
+/** 저장 사진(public·open) 짧은 변 최소값(정책 §4.5-7 · §5.3-8). 못 미치면 경고. */
+const MIN_SHORT_SIDE = 400
+/** 같은 원본 사진(public·open의 `sourcePageUrl`)을 쓸 수 있는 게시물 수(guide §4-1 · 정책 §4.5-6 — 4번째부터 불가). 넘으면 경고. */
+const MAX_SAME_SOURCE = 3
 
 interface FileReport {
   fileName: string
@@ -43,8 +49,10 @@ function main(): void {
   const idOwner = new Map<string, string>()
   const typeCount = new Map<string, number>()
   let imageCount = 0
-  /** 대표 이미지(`image`) 종류별 수 — self·public·news(프로그래머 13). */
+  /** 대표 이미지(`image`) 종류별 수 — self·public·open·news(프로그래머 13 · 19). */
   const imageKindCount = new Map<string, number>()
+  /** public·open 원본 페이지 → 그 사진을 쓴 파일(게시 순서대로). 같은 원본 반복 경고용(프로그래머 19). */
+  const storedSourceUsers = new Map<string, string[]>()
   let sourceCount = 0
   let speakerCount = 0
   /** 검증을 통과한 한국어 원본 — 영어본이 짝을 찾는 대상. id 중복·폐기 id는 제외한다. */
@@ -90,6 +98,19 @@ function main(): void {
         if (result.post.image) {
           const kind = result.post.image.kind ?? 'self'
           imageKindCount.set(kind, (imageKindCount.get(kind) ?? 0) + 1)
+          if ((kind === 'public' || kind === 'open') && result.post.image.sourcePageUrl) {
+            const users = storedSourceUsers.get(result.post.image.sourcePageUrl) ?? []
+            users.push(fileName)
+            storedSourceUsers.set(result.post.image.sourcePageUrl, users)
+            const size = readImageSize(path.join(PUBLIC_DIR, result.post.image.src.replace(/^\//, '')))
+            if (!size) {
+              notices.push(`image.src: 저장 파일의 크기를 읽지 못했습니다(JPEG·PNG·WebP만 읽습니다) — 짧은 변 ${MIN_SHORT_SIDE}px 이상인지 직접 확인하세요.`)
+            } else if (Math.min(size.width, size.height) < MIN_SHORT_SIDE) {
+              notices.push(
+                `image.src: 저장 파일이 ${size.width}×${size.height}px입니다 — 짧은 변 ${MIN_SHORT_SIDE}px 이상을 씁니다(정책 §4.5-7 · §5.3-8).`,
+              )
+            }
+          }
         }
         sourceCount += result.post.sources.length
         if (result.post.speaker) speakerCount += 1
@@ -97,6 +118,17 @@ function main(): void {
     }
 
     reports.push({ fileName, errors, notices })
+  }
+
+  // --- 같은 원본 사진 반복(public·open) — 파일 이름 순(= 게시일 순)으로 4번째부터 경고 ---
+  for (const [sourcePageUrl, users] of storedSourceUsers) {
+    if (users.length <= MAX_SAME_SOURCE) continue
+    for (const fileName of users.slice(MAX_SAME_SOURCE)) {
+      const report = reports.find((item) => item.fileName === fileName)
+      report?.notices.push(
+        `image.sourcePageUrl: 같은 원본 사진을 ${users.length}건이 씁니다(${MAX_SAME_SOURCE}건까지) — 4번째부터는 다른 사진이나 대체 카드를 씁니다(정책 §4.5-6). (원본: ${sourcePageUrl} · 먼저 쓴 글: ${users.slice(0, MAX_SAME_SOURCE).join(', ')})`,
+      )
+    }
   }
 
   // --- 영어본 content/posts-en/*.md ---
@@ -171,7 +203,7 @@ function main(): void {
       `유형별: ${[...typeCount.entries()].map(([key, value]) => `${key} ${value}`).join(' · ') || '없음'}`,
       `배경 보도 출처: ${sourceCount}건 · 발언자 표기: ${speakerCount}건`,
       `검사한 이미지 alt ${imageCount}개`,
-      `대표 이미지 종류: ${['self', 'public', 'news'].map((kind) => `${kind} ${imageKindCount.get(kind) ?? 0}`).join(' · ')}`,
+      `대표 이미지 종류: ${IMAGE_KINDS.map((kind) => `${kind} ${imageKindCount.get(kind) ?? 0}`).join(' · ')}`,
       `영어본 ${enIds.size}건 / 전체 ${validPosts.size}건`,
     ].join('\n'),
   )

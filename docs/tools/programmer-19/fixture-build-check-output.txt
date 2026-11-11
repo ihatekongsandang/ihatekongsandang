@@ -1,0 +1,109 @@
+빌드 산출물 .html·.rsc·.body 1604개
+PASS  post/p19-fx-a-ccby.html: figcaption 첫 줄 = 사진 설명
+PASS  post/p19-fx-a-ccby.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  post/p19-fx-a-ccby.html: creditNotice 줄 있음
+PASS  post/p19-fx-a-ccby.html: 링크 href
+PASS  post/p19-fx-a-ccby.html: 링크 rel = noopener 전부
+PASS  post/p19-fx-a-ccby.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  post/p19-fx-a-ccby.html: JSON-LD 있음
+PASS  post/p19-fx-a-ccby.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  post/p19-fx-a-ccby.html: 상세 사진 /_next/image 최적화
+PASS  en/post/p19-fx-a-ccby.html: figcaption 첫 줄 = 사진 설명
+PASS  en/post/p19-fx-a-ccby.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  en/post/p19-fx-a-ccby.html: creditNotice 줄 있음
+PASS  en/post/p19-fx-a-ccby.html: 링크 href
+PASS  en/post/p19-fx-a-ccby.html: 링크 rel = noopener 전부
+PASS  en/post/p19-fx-a-ccby.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  en/post/p19-fx-a-ccby.html: JSON-LD 있음
+PASS  en/post/p19-fx-a-ccby.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  en/post/p19-fx-a-ccby.html: 상세 사진 /_next/image 최적화
+PASS  p19-fx-a-ccby ko 사진 설명: 나오는 파일 2개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-a-ccby ko 크레딧 줄(화면 글자): 나오는 파일 1개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-a-ccby en 사진 설명: 나오는 파일 2개 — 전부 그 상세(.html·.rsc)
+PASS  post/p19-fx-b-donated.html: figcaption 첫 줄 = 사진 설명
+PASS  post/p19-fx-b-donated.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  post/p19-fx-b-donated.html: creditNotice 줄 없음
+PASS  post/p19-fx-b-donated.html: 링크 href
+PASS  post/p19-fx-b-donated.html: 링크 rel = noopener 전부
+PASS  post/p19-fx-b-donated.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  post/p19-fx-b-donated.html: JSON-LD 있음
+PASS  post/p19-fx-b-donated.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  post/p19-fx-b-donated.html: 상세 사진 src = 저장 파일 그대로(최적화 없음)
+PASS  en/post/p19-fx-b-donated.html: figcaption 첫 줄 = 사진 설명
+PASS  en/post/p19-fx-b-donated.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  en/post/p19-fx-b-donated.html: creditNotice 줄 없음
+PASS  en/post/p19-fx-b-donated.html: 링크 href
+PASS  en/post/p19-fx-b-donated.html: 링크 rel = noopener 전부
+PASS  en/post/p19-fx-b-donated.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  en/post/p19-fx-b-donated.html: JSON-LD 있음
+PASS  en/post/p19-fx-b-donated.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  en/post/p19-fx-b-donated.html: 상세 사진 src = 저장 파일 그대로(최적화 없음)
+PASS  p19-fx-b-donated ko 사진 설명: 나오는 파일 2개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-b-donated ko 크레딧 줄(화면 글자): 나오는 파일 1개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-b-donated en 사진 설명: 나오는 파일 2개 — 전부 그 상세(.html·.rsc)
+PASS  post/p19-fx-c-cc0.html: figcaption 첫 줄 = 사진 설명
+PASS  post/p19-fx-c-cc0.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  post/p19-fx-c-cc0.html: creditNotice 줄 없음
+PASS  post/p19-fx-c-cc0.html: 링크 href
+PASS  post/p19-fx-c-cc0.html: 링크 rel = noopener 전부
+PASS  post/p19-fx-c-cc0.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  post/p19-fx-c-cc0.html: JSON-LD 있음
+PASS  post/p19-fx-c-cc0.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  post/p19-fx-c-cc0.html: 상세 사진 /_next/image 최적화
+PASS  p19-fx-c-cc0 ko 사진 설명: 나오는 파일 6개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-c-cc0 ko 크레딧 줄(화면 글자): 나오는 파일 3개 — 전부 그 상세(.html·.rsc)
+PASS  post/p19-fx-d-cc0.html: figcaption 첫 줄 = 사진 설명
+PASS  post/p19-fx-d-cc0.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  post/p19-fx-d-cc0.html: creditNotice 줄 없음
+PASS  post/p19-fx-d-cc0.html: 링크 href
+PASS  post/p19-fx-d-cc0.html: 링크 rel = noopener 전부
+PASS  post/p19-fx-d-cc0.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  post/p19-fx-d-cc0.html: JSON-LD 있음
+PASS  post/p19-fx-d-cc0.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  post/p19-fx-d-cc0.html: 상세 사진 /_next/image 최적화
+PASS  p19-fx-d-cc0 ko 사진 설명: 나오는 파일 6개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-d-cc0 ko 크레딧 줄(화면 글자): 나오는 파일 3개 — 전부 그 상세(.html·.rsc)
+PASS  post/p19-fx-e-cc0.html: figcaption 첫 줄 = 사진 설명
+PASS  post/p19-fx-e-cc0.html: 둘째 줄 = 크레딧 서식 그대로
+PASS  post/p19-fx-e-cc0.html: creditNotice 줄 없음
+PASS  post/p19-fx-e-cc0.html: 링크 href
+PASS  post/p19-fx-e-cc0.html: 링크 rel = noopener 전부
+PASS  post/p19-fx-e-cc0.html: og:image·twitter:image 있음, 저장 사진 아님
+PASS  post/p19-fx-e-cc0.html: JSON-LD 있음
+PASS  post/p19-fx-e-cc0.html: JSON-LD에 사진 경로·사진 설명·저작자 0
+PASS  post/p19-fx-e-cc0.html: 상세 사진 /_next/image 최적화
+PASS  p19-fx-e-cc0 ko 사진 설명: 나오는 파일 6개 — 전부 그 상세(.html·.rsc)
+PASS  p19-fx-e-cc0 ko 크레딧 줄(화면 글자): 나오는 파일 3개 — 전부 그 상세(.html·.rsc)
+PASS  sitemap.xml.body: /images/ 0
+PASS  robots.txt.body: /images/ 0
+PASS  llms.txt.body: /images/ 0
+PASS  sitemap.xml: fixture 상세 5건 주소는 있음(상세는 정상 등재)
+PASS  sitemap.xml: <image:image> 0
+PASS  index.html p19-fx-a-ccby: 카드 이미지 있음
+PASS  index.html p19-fx-a-ccby: 카드 /_next/image
+PASS  index.html p19-fx-b-donated: 카드 이미지 있음
+PASS  index.html p19-fx-b-donated: 카드 src = 저장 파일 그대로, srcset 없음
+PASS  index.html p19-fx-c-cc0: 카드 이미지 있음
+PASS  index.html p19-fx-c-cc0: 카드 /_next/image
+PASS  index.html p19-fx-d-cc0: 카드 이미지 있음
+PASS  index.html p19-fx-d-cc0: 카드 /_next/image
+PASS  index.html p19-fx-e-cc0: 카드 이미지 있음
+PASS  index.html p19-fx-e-cc0: 카드 /_next/image
+PASS  index.html: 카드 화면 글자에 크레딧·라이선스·사진 설명 0
+PASS  index.html: 카드 RSC 페이로드에도 사진 설명 0
+INFO  index.html: 카드 RSC 페이로드의 open credit 객체 5개(화면 비노출 — 기존 news와 같은 동작)
+PASS  en.html p19-fx-a-ccby: 카드 이미지 있음
+PASS  en.html p19-fx-a-ccby: 카드 /_next/image
+PASS  en.html p19-fx-b-donated: 카드 이미지 있음
+PASS  en.html p19-fx-b-donated: 카드 src = 저장 파일 그대로, srcset 없음
+PASS  en.html p19-fx-c-cc0: 카드 이미지 있음
+PASS  en.html p19-fx-c-cc0: 카드 /_next/image
+PASS  en.html p19-fx-d-cc0: 카드 이미지 있음
+PASS  en.html p19-fx-d-cc0: 카드 /_next/image
+PASS  en.html p19-fx-e-cc0: 카드 이미지 있음
+PASS  en.html p19-fx-e-cc0: 카드 /_next/image
+PASS  en.html: 카드 화면 글자에 크레딧·라이선스·사진 설명 0
+PASS  en.html: 카드 RSC 페이로드에도 사진 설명 0
+INFO  en.html: 카드 RSC 페이로드의 open credit 객체 5개(화면 비노출 — 기존 news와 같은 동작)
+
+104/104 PASS
