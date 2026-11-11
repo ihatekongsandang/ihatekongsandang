@@ -2,6 +2,8 @@
 id: 2026-09-16-hagonolza-country-insult-bill
 title: "\"Up to 5 years in prison for cursing Chinese people?\" — Rep. Yang Bu-nam's Criminal Act amendment punishing 'insults to a specific country or its people'; the 5 years is the false-fact defamation clause"
 description: "Instagram @hagonolza says cursing Chinese people could mean 5 years; Rep. Yang Bu-nam's pending bill sets up to 1 year for insult, 5 for false-fact defamation."
+imageAlt: "The National Assembly Members’ Office Building seen through trees across a road"
+imageCaption: "Archive photo: National Assembly Members’ Office Building (2015) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @hagonolza (하놀)"
 translatedAt: 2026-10-10
 ---

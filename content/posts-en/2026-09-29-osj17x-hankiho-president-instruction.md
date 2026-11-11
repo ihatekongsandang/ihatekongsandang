@@ -2,6 +2,8 @@
 id: 2026-09-29-osj17x-hankiho-president-instruction
 title: "Han Ki-ho: \"The battalion commander was injured — was there no presidential instruction until he returned?\" — ruling party calls it \"fake news\""
 description: "Rep. Han Ki-ho asked whether the president gave no instructions after the DMZ blast; reports do not confirm the JCS chairman said there were none."
+imageAlt: "The front of the National Assembly Proceeding Hall and its lawn seen from a height, with a road junction in front"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2014) — not taken at the time of this event. It may differ from how it looks today."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Threads @osj17x"
 translatedAt: 2026-09-30

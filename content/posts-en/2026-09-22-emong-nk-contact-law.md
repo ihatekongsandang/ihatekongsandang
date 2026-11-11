@@ -2,6 +2,8 @@
 id: 2026-09-22-emong-nk-contact-law
 title: "Amendment easing reports of contact with North Korean residents — thread posting sentences excerpted from an article"
 description: "Threads user @emong0_0_ posts excerpts on an inter-Korean contact amendment; the ministry reportedly accepted dropping its power to refuse contact reports."
+imageAlt: "The National Assembly Members’ Office Building seen through trees across a road"
+imageCaption: "Archive photo: National Assembly Members’ Office Building (2015) — not taken at the time of this event. It may differ from how it looks today."
 speakerAffiliation: "Threads user"
 attribution: "Threads @emong0_0_"
 translatedAt: 2026-09-30

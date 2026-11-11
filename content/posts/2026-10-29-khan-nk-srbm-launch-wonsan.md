@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://khan.co.kr/article/202610291311001
 attribution: 경향신문
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-29-khan-nk-srbm-launch-wonsan/thumb.jpg
+  alt: "물가 산책로와 가로수 뒤로 늘어선 아파트, 멀리 산과 고층 건물이 보이는 원산 시가지"
+  caption: "자료사진: 북한 원산 시내 해안가(2008) — 이 사건 당시 사진이 아닙니다. 발사 지점도 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: Shih Tung Ngiam
+  creditNameEn: Shih Tung Ngiam
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Wonsan_waterfront_(2937890043).jpg"
+  sourceSiteName: 위키미디어 공용
+  license: cc-by-2.0
+  licenseUrl: https://creativecommons.org/licenses/by/2.0/
+  workTitle: "Wonsan waterfront"
+  workYear: 2008
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·원산 시가지)
 og:
   siteName: 경향신문
 sources:

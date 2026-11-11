@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd7Zm8Yk0t2/
 attribution: 인스타그램 @20hoon_lawpro
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-30-20hoon-prosecution-abolition-victim-guide/thumb.jpg
+  alt: "돌기둥에 붙은 세로 현판 '공소청'"
+  caption: "자료사진: 공소청 현판(2026) — 이 사건 당시 사진이 아닙니다."
+  creditName: Sim1992
+  creditNameEn: Sim1992
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Signboard_of_Supreme_prosecutors_office_20261002_112214_HDR.jpg"
+  sourceSiteName: 위키미디어 공용
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/
+  workTitle: "Signboard of Supreme prosecutors office 20261002 112214 HDR"
+  workYear: 2026
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·공소청 현판)
 og:
   siteName: Instagram
 sources:

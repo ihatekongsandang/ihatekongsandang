@@ -2,6 +2,8 @@
 id: 2026-09-17-idontknowpolitics-sergeant-leak-china
 title: "Four-year sentence finalized for a former Army enlisted sergeant who passed Korea–U.S. combined exercise secrets to China — 17.26 million won and a wristwatch camera"
 description: "Instagram @idontknowpolitics questions military security after ex-Army enlisted sergeant's 4-year term for leaks to a Chinese contact was reportedly finalized."
+imageAlt: "An aerial view of the front of the Supreme Court building and its forecourt"
+imageCaption: "Archive photo: Supreme Court building (2020) — not taken at the time of this event."
 attribution: "Instagram @idontknowpolitics (나정치몰라)"
 translatedAt: 2026-10-25
 ---

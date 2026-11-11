@@ -10,6 +10,21 @@ speaker:
   name: 김문수
   affiliation: 제21대 대선 국민의힘 후보
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-21-kimmoonsoo-prosecution-abolition/thumb.jpg
+  alt: "높은 곳에서 바라본 서초동 법조타운의 검찰청·법원 건물과 앞쪽 도로"
+  caption: "자료사진: 서초동 대검찰청 일대(2015) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: 서울특별시
+  creditNameEn: Seoul Metropolitan Government
+  sourcePageUrl: "https://data.si.re.kr/node/47222"
+  sourceSiteName: 서울연구데이터서비스
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "검찰청(05O00802Dc8000)"
+  workYear: 2015
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·대검찰청 일대)
 og:
   siteName: Instagram
 sources:

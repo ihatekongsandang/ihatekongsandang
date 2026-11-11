@@ -10,6 +10,21 @@ speaker:
   name: "@emong0_0_"
   affiliation: 스레드 이용자
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-22-emong-nk-contact-law/thumb.jpg
+  alt: "도로 너머 나무 사이로 보이는 국회의원회관 건물"
+  caption: "자료사진: 국회의원회관(2015) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: 서울특별시
+  creditNameEn: Seoul Metropolitan Government
+  sourcePageUrl: "https://data.si.re.kr/node/48323"
+  sourceSiteName: 서울연구데이터서비스
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "국회의원회관(05T01101Dc2000)"
+  workYear: 2015
+  retrievedAt: 2026-11-11
+  faceNote: 얼굴 없음(자료사진·국회의원회관)
 og:
   siteName: Threads
 sources:

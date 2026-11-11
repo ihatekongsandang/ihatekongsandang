@@ -2,6 +2,8 @@
 id: 2026-08-25-nowandhere-625-constitution-question
 title: "Kim Tae-gyu asks about putting \"the Korean War's spirit of fighting for freedom in the Constitution too\"; PM Han Sung-sook: \"national consensus and procedures needed\" — the thumbnail quote is the lawmaker's interpretation"
 description: "Instagram @im_nowandhere shows Rep. Kim Tae-gyu asking about the Korean War in the Constitution; the thumbnail quote is his rejoinder, not PM Han's words."
+imageAlt: "The front of the National Assembly Proceeding Hall and its lawn seen from a height, with a road junction in front"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2014) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @im_nowandhere (나우앤히어)"
 translatedAt: 2026-09-30
 ---

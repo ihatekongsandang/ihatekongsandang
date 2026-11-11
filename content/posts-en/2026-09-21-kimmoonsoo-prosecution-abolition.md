@@ -2,6 +2,8 @@
 id: 2026-09-21-kimmoonsoo-prosecution-abolition
 title: "Former candidate Kim Moon-soo: \"Stop abolishing the Prosecutors' Office\" — press conference outside the Supreme Prosecutors' Office ahead of the Oct. 2 launch of the Public Prosecution Agency and the Serious Crimes Investigation Agency"
 description: "Ex-PPP candidate Kim Moon-soo holds a presser urging a halt to abolishing the Prosecutors' Office, reportedly set to close Oct. 2 as two new agencies launch."
+imageAlt: "Prosecution and court buildings of the Seocho-dong legal district seen from a height, with roads in front"
+imageCaption: "Archive photo: area around the Supreme Prosecutors’ Office, Seocho-dong (2015) — not taken at the time of this event. It may differ from how it looks today."
 speakerAffiliation: "People Power Party candidate in the 21st presidential election"
 attribution: "Instagram @kimmoonsoo.official (김문수)"
 translatedAt: 2026-09-30

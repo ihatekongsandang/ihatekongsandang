@@ -2,6 +2,8 @@
 id: 2026-09-16-idontknowpolitics-2023-warrant-dismissed
 title: "Prosecutors argued for \"36 years and 6 months or life in prison,\" but Lee Jae-myung's arrest warrant was denied — reel recapping the 2023 warrant request"
 description: "Instagram @idontknowpolitics on the 2023 denial of Lee's arrest warrant despite prosecutors citing up to 36.5 years or life—their claim, it notes, not a ruling."
+imageAlt: "An elevated view of the Seocho-dong legal complex, with the Seoul Court Complex on the right"
+imageCaption: "Archive photo: Seocho-dong legal complex and the Seoul Court Complex (2020) — not taken at the time of this event."
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-09-30
 ---

@@ -2,6 +2,8 @@
 id: 2026-09-28-nakyungwon-mine-report-deletion
 title: "Na Kyung-won: \"The initial military report said 'suspected North Korean box mine,' then it was deleted\" — calls for probe into who removed it and why"
 description: "Rep. Na Kyung-won says the first military report on the DMZ blast said 'suspected North Korean box mine' before it was deleted, and asks why."
+imageAlt: "An elevated view of the National Assembly area in Yeouido, the Han River and roads in front"
+imageCaption: "Archive photo: National Assembly area (2020) — not taken at the time of this event."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @kyungwon.na (나경원)"
 translatedAt: 2026-09-30
