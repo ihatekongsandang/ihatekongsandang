@@ -198,3 +198,6 @@
 ?? public/images/2026-10-29-news1-china-53-vessels-taiwan-warning/
 ?? public/images/2026-11-08-tessa-gop-fence-animal-judgment/
 ```
+
+## 27-1
+- 2026-11-11 20:31 리뷰어 70 P2-1 반영: `2026-11-08-tessa-gop-fence-animal-judgment`의 사진 M을 되돌림. ko image 블록과 en imageAlt·imageCaption을 지우고 `public/images/2026-11-08-tessa-gop-fence-animal-judgment/`를 rm으로 삭제함. 두 파일은 `git diff` 0줄로 HEAD와 같음. validate R=0, 경고 22. 최종 결과는 성공 11건, 사진 6장(M 미사용).
