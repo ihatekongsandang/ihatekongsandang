@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DfRWc36GG_f/
 attribution: 인스타그램 @chanhyeokgim (이대남의 우회전)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-11-03-idaenamright-youth-sns-limit-review/thumb.jpg
+  alt: "북악산 아래 푸른 기와지붕의 청와대 본관과 앞마당 잔디밭"
+  caption: "자료사진: 청와대 본관(2022) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다. 장소는 뉴시스 보도 기준입니다."
+  creditName: "kallerna"
+  creditNameEn: "kallerna"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Blue_House_Seoul_3.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  workTitle: "Blue House Seoul 3"
+  workYear: 2022
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 원경 점 크기 인물 있음(얼굴 최대 약 24 px / 짧은 변 2680 px)"
 og:
   siteName: Instagram
 sources:

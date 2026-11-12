@@ -8,6 +8,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/DeGL5TGJ6RT/
 attribution: 인스타그램 @jeichi_l
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-05-jeichi-front-corps-unloaded-guard/thumb.jpg
+  alt: "마른 숲 사이로 이어진, Y자 지주에 철조망을 얹은 비무장지대 철책"
+  caption: "자료사진: 강원 철원 비무장지대 철책(2009) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "박종우"
+  creditNameEn: "박종우"
+  sourcePageUrl: "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13320631&menuNo=200018"
+  sourceSiteName: "공유마당"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/
+  workTitle: "DMZ 2712"
+  workYear: 2009
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·비무장지대 풍경)"
 og:
   siteName: Instagram
 sources:

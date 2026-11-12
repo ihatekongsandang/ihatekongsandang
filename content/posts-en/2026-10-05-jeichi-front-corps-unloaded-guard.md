@@ -2,6 +2,8 @@
 id: 2026-10-05-jeichi-front-corps-unloaded-guard
 title: "\"Every frontline corps stood guard without live ammunition\" — a defense ministry inspection reportedly found 'empty-gun guard duty' (ammunition not loaded) in the 1st, 2nd, 3rd and 5th Corps and the 2nd Marine Division, leading to institutional warnings; ammunition was carried but not loaded"
 description: "Instagram @jeichi_l faults frontline guard duty; a ministry check reportedly found ammo not loaded at GP/GOP posts in four corps and a Marine division."
+imageAlt: "A DMZ fence with barbed wire on Y-shaped posts running through a bare winter forest"
+imageCaption: "Archive photo: DMZ fence in Cheorwon, Gangwon (2009) — not taken at the time of this event. It may differ from how it looks today."
 attribution: "Instagram @jeichi_l"
 translatedAt: 2026-10-07
 ---

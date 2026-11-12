@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Ddxzk0ZmqsB/
 attribution: 인스타그램 @never_again613
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-26-neveragain-mexico-tariff-visit/thumb.jpg
+  alt: "광장 건너 높은 곳에서 내려다본, 불을 밝힌 멕시코 국립궁전 정면과 밤의 헌법광장"
+  caption: "자료사진: 멕시코 국립궁전 야경(멕시코시티, 2022) — 이 사건 당시 사진이 아닙니다. 장소는 아이뉴스24 보도 기준입니다."
+  creditName: "Darmok and jalad at tanagra"
+  creditNameEn: "Darmok and jalad at tanagra"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_square_at_night.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  workTitle: "Palacio Nacional square at night"
+  workYear: 2022
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물); 광장에 점 크기 원경 인물 있음(전신 높이 약 25 px / 짧은 변 4160 px)"
 og:
   siteName: Instagram
 sources:
@@ -22,6 +37,10 @@ sources:
     name: 파이낸셜뉴스 — 李, 한·멕 FTA 재개 의지…"멕시코 공군 현대화에 FA-50" 세일즈
     url: https://www.fnnews.com/news/202609241357588313
     date: 2026-09-24
+  - type: 언론
+    name: "아이뉴스24 — 李 \"한-멕시코, 원유·공급망 대화 채널 출범…투자보장협정 체결\""
+    url: https://www.inews24.com/view/2009071
+    date: 2026-09-25
 tags:
   - 멕시코
   - 관세

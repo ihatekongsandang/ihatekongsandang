@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/p/Dd9Cem0AU8A/
 attribution: 인스타그램 @rekor.rgt (REKOR)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-10-01-rekor-15div-mine-field/thumb.jpg
+  alt: "마른 풀로 덮인 언덕을 가로지르는 비무장지대 철책과 순찰로"
+  caption: "자료사진: 철원 비무장지대 철책 일반 풍경(2009) — 이 사건 지점·당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
+  creditName: "박종우"
+  creditNameEn: "박종우"
+  sourcePageUrl: "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13320627&menuNo=200018"
+  sourceSiteName: "공유마당"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/
+  workTitle: "DMZ 2708"
+  workYear: 2022
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·비무장지대 풍경)"
 og:
   siteName: Instagram
 sources:

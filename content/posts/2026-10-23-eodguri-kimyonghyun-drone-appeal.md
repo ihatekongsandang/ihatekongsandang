@@ -13,17 +13,17 @@ useSourceImage: false
 image:
   kind: open
   src: /images/2026-10-23-eodguri-kimyonghyun-drone-appeal/thumb.jpg
-  alt: "높은 곳에서 내려다본 서울법원종합청사와 주변 숲·건물"
-  caption: "자료사진: 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다."
+  alt: "높은 곳에서 내려다본 서울법원종합청사 정면과 앞마당"
+  caption: "자료사진: 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다. 재판 결과를 뜻하지 않습니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
-  sourcePageUrl: "https://data.si.re.kr/node/60732"
+  sourcePageUrl: "https://data.si.re.kr/node/60733"
   sourceSiteName: 서울연구데이터서비스
   license: cc-by-4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
-  workTitle: "법조단지(06O02305Dc22000)"
+  workTitle: "법조단지(06O02306Dc82000)"
   workYear: 2020
-  retrievedAt: 2026-11-11
+  retrievedAt: 2026-11-12
   faceNote: 얼굴 없음(자료사진·서울법원종합청사)
 og:
   siteName: Instagram

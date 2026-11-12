@@ -3,7 +3,7 @@ id: 2026-09-24-sewodream-nk-agent-private-detective
 title: "A person in their 40s who gathered information on defectors and active-duty officers on a North Korean agent's orders — even hiring a private detective to tail a captain — gets 5 years at first instance; reportedly received about 660 million won in crypto as 'operating funds'"
 description: "Instagram @sewodream on a 1st-instance ruling: a person who gathered data on defectors and officers on a North Korean agent's orders reportedly got 5 years."
 imageAlt: "An elevated view of the Seocho-dong legal complex, with the Seoul Court Complex on the right"
-imageCaption: "Archive photo: Seocho-dong legal complex and the Seoul Court Complex (2020) — not taken at the time of this event."
+imageCaption: "Archive photo: Seoul Court Complex, Seocho-dong (2020) — not taken at the time of this event. The photo does not indicate the outcome of the trial."
 attribution: "Instagram @sewodream"
 translatedAt: 2026-10-08
 ---

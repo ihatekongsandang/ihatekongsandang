@@ -3,7 +3,7 @@ id: 2026-08-06-owloffreedom-707-commander-sentencing
 title: "Ex-707th Special Mission Group commander K: 18 years sought at the closing hearing, then sentenced to 12 years and taken into custody at first instance — the original relayed a final statement that 'martial law was the president's power, not illegal'"
 description: "Instagram @owl.of.freedom on ex-707th commander K's closing hearing; prosecutors sought 18 years on July 28, and a court reportedly gave 12 years on Aug. 27."
 imageAlt: "An elevated view of the Seoul Court Complex with surrounding woods and buildings"
-imageCaption: "Archive photo: Seoul Court Complex (2020) — not taken at the time of this event."
+imageCaption: "Archive photo: Seoul Court Complex (2020) — not taken at the time of this event. The photo does not indicate the outcome of the trial."
 attribution: "Instagram @owl.of.freedom"
 translatedAt: 2026-11-09
 ---

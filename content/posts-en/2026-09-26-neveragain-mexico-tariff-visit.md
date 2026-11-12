@@ -2,6 +2,8 @@
 id: 2026-09-26-neveragain-mexico-tariff-visit
 title: "\"Couldn't resolve Mexico's tariffs\" — President Lee urges Sheinbaum to resume FTA talks, while Mexico's 5–50% tariffs on non-FTA countries stay in place"
 description: "Instagram @never_again613 says Lee's Mexico visit failed to fix tariffs of up to 50% on Korean firms; the summit reportedly affirmed a will to resume FTA talks."
+imageAlt: "The illuminated front of Mexico's National Palace and the Zócalo at night, seen from across the square"
+imageCaption: "Archive photo: National Palace at night (Mexico City, 2022) — not taken at the time of this event. Location per iNews24 reporting."
 attribution: "Instagram @never_again613"
 translatedAt: 2026-09-30
 ---

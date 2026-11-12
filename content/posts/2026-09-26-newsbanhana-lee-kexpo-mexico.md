@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/DdxrFomyLC4/
 attribution: 인스타그램 @news_banhana (뉴스반하나)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-26-newsbanhana-lee-kexpo-mexico/thumb.jpg
+  alt: "올려다본 멕시코시티 월드트레이드센터 타워의 푸른 유리 외벽"
+  caption: "자료사진: 멕시코시티 월드트레이드센터(2017) — 이 사건 당시 사진이 아닙니다. 장소는 파이낸셜뉴스 보도 기준입니다."
+  creditName: "Lui Piquee"
+  creditNameEn: "Lui Piquee"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:WORLD_TRADE_CENTER,_MEXICO_CITY_(Lui_Piquee)_-_Flickr.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-2.0
+  licenseUrl: https://creativecommons.org/licenses/by/2.0/
+  workTitle: "WORLD TRADE CENTER, MEXICO CITY"
+  workYear: 2017
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·건물)"
 og:
   siteName: Instagram
 sources:
@@ -18,6 +33,10 @@ sources:
     name: 뉴스핌 — [종합] DMZ 수색작전 중 폭발…간부 3명 부상, 北지뢰 가능성 '촉각'
     url: https://www.newspim.com/news/view/20260921001247
     date: 2026-09-21
+  - type: 언론
+    name: "파이낸셜뉴스 — 李대통령 멕시코서 \"관세 얼마나 올랐나\" K엑스포 기업 애로 청취"
+    url: https://www.fnnews.com/news/202609260405526032
+    date: 2026-09-26
 tags:
   - 이재명
   - 멕시코

@@ -2,6 +2,8 @@
 id: 2026-11-03-idaenamright-youth-sns-limit-review
 title: "\"SNS regulation is the start of communization\"? — President Lee told the Cabinet to review limits on 'youth' social media use quickly; the media regulator plans to wrap up public deliberation in the first half of next year"
 description: "Instagram @chanhyeokgim calls the Nov. 3 Cabinet order 'SNS regulation'; reports say it concerned limits on youth use, and 'communization' is the poster's view."
+imageAlt: "The blue-tiled main building of Cheong Wa Dae below Bugaksan, with the front lawn"
+imageCaption: "Archive photo: Cheong Wa Dae main building (2022) — not taken at the time of this event. It may differ from how it looks today. Location per Newsis reporting."
 attribution: "Instagram @chanhyeokgim (Idaenam's Right Turn)"
 translatedAt: 2026-11-09
 ---

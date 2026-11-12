@@ -12,7 +12,7 @@ image:
   kind: open
   src: /images/2026-08-06-owloffreedom-707-commander-sentencing/thumb.jpg
   alt: "높은 곳에서 내려다본 서울법원종합청사와 주변 숲·건물"
-  caption: "자료사진: 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다."
+  caption: "자료사진: 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다. 재판 결과를 뜻하지 않습니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
   sourcePageUrl: "https://data.si.re.kr/node/60732"

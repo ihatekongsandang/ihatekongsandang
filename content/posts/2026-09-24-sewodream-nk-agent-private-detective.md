@@ -11,7 +11,7 @@ image:
   kind: open
   src: /images/2026-09-24-sewodream-nk-agent-private-detective/thumb.jpg
   alt: "높은 곳에서 내려다본 서초동 법조단지, 오른쪽에 서울법원종합청사"
-  caption: "자료사진: 서초동 법조단지와 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다."
+  caption: "자료사진: 서초동 법조단지와 서울법원종합청사(2020) — 이 사건 당시 사진이 아닙니다. 재판 결과를 뜻하지 않습니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
   sourcePageUrl: "https://data.si.re.kr/node/60734"

@@ -2,6 +2,8 @@
 id: 2026-07-05-idontknowpolitics-kctu-appeal
 title: "North Korean directives recognized on appeal too — former KCTU official gets 9 years and 6 months (finalized by the Supreme Court in 2025)"
 description: "Instagram @idontknowpolitics recaps the ex-KCTU official's appeal, which upheld spying on NK orders but cut the term to 9.5 years, reportedly finalized in 2025."
+imageAlt: "An aerial view of the front of the Supreme Court building, its forecourt and the road by the main gate"
+imageCaption: "Archive photo: Supreme Court building (2020) — not taken at the time of this event."
 attribution: "Instagram @idontknowpolitics (나정치)"
 translatedAt: 2026-10-25
 ---

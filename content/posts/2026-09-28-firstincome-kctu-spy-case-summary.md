@@ -8,6 +8,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Da2YKVyRNXZ/
 attribution: 인스타그램 @firstincome_now (퍼스트인컴)
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-28-firstincome-kctu-spy-case-summary/thumb.jpg
+  alt: "길 건너편에서 본 대법원 청사와 앞 도로"
+  caption: "자료사진: 대법원 청사(2020) — 이 사건 당시 사진이 아닙니다."
+  creditName: "서울특별시"
+  creditNameEn: "Seoul Metropolitan Government"
+  sourcePageUrl: "https://data.si.re.kr/node/60611"
+  sourceSiteName: "서울연구데이터서비스"
+  license: cc-by-4.0
+  licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
+  workTitle: "대법원(06O00706Dc80000)"
+  workYear: 2020
+  retrievedAt: 2026-11-12
+  faceNote: "얼굴 없음(자료사진·대법원)"
 og:
   siteName: Instagram
 sources:
