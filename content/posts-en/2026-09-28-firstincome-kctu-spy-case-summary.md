@@ -2,7 +2,7 @@
 id: 2026-09-28-firstincome-kctu-spy-case-summary
 title: "Full recap of the former KCTU official spy case — U.S. base photos, an Itaewon directive, reduced on appeal, then finalized by the Supreme Court"
 description: "Instagram @firstincome_now recaps the ex-KCTU spy case; S's 15-year term was reportedly cut to 9.5 years, finalized Sept. 2025; some were acquitted."
-imageAlt: "The Supreme Court building seen from across the road"
+imageAlt: "The Supreme Court building and nearby court-complex buildings seen from across the road"
 imageCaption: "Archive photo: Supreme Court building (2020) — not taken at the time of this event."
 attribution: "Instagram @firstincome_now (퍼스트인컴)"
 translatedAt: 2026-10-27

@@ -11,7 +11,7 @@ useSourceImage: false
 image:
   kind: open
   src: /images/2026-09-28-firstincome-kctu-spy-case-summary/thumb.jpg
-  alt: "길 건너편에서 본 대법원 청사와 앞 도로"
+  alt: "길 건너편에서 본 대법원 청사와 주변 법조단지 건물, 앞 도로"
   caption: "자료사진: 대법원 청사(2020) — 이 사건 당시 사진이 아닙니다."
   creditName: "서울특별시"
   creditNameEn: "Seoul Metropolitan Government"
