@@ -13,17 +13,17 @@ useSourceImage: false
 image:
   kind: open
   src: /images/2026-09-15-joojinwoo-kimseungwon-hearing/thumb.jpg
-  alt: "한강변 도로와 숲 너머로 보이는 국회의사당과 여의도 고층 건물(해 질 녘)"
-  caption: "자료사진: 국회의사당(2020) — 이 사건 당시 사진이 아닙니다."
+  alt: "한강 건너편에서 바라본 국회의사당과 여의도 고층 건물, 앞쪽 강물"
+  caption: "자료사진: 국회의사당(2015) — 이 사건 당시 사진이 아닙니다. 현재 모습과 다를 수 있습니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
-  sourcePageUrl: "https://data.si.re.kr/node/62222"
+  sourcePageUrl: "https://data.si.re.kr/node/48515"
   sourceSiteName: 서울연구데이터서비스
   license: cc-by-4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
-  workTitle: "국회의사당(06T00301Dc22000)"
-  workYear: 2020
-  retrievedAt: 2026-11-11
+  workTitle: "국회의사당(05T05708Ba4053)"
+  workYear: 2015
+  retrievedAt: 2026-11-13
   faceNote: 얼굴 없음(자료사진·국회의사당)
 og:
   siteName: Instagram

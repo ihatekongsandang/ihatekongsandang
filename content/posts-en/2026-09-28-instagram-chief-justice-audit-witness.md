@@ -2,7 +2,7 @@
 id: 2026-09-28-instagram-chief-justice-audit-witness
 title: "Instagram post: \"If you're going to summon Chief Justice Cho Hee-dae to the audit again, summon Kim Hyun-ji first\" — Judiciary Committee adopts chief justice summons, led by the ruling party"
 description: "Instagram @yeonjae.kang criticizes summoning Chief Justice Cho Hee-dae to the audit again, demanding presidential office director Kim Hyun-ji testify instead."
-imageAlt: "An aerial view of the National Assembly Proceeding Hall, nearby buildings, the Han River and its bridges"
+imageAlt: "The National Assembly Proceeding Hall and Yeouido high-rises seen across the Han River"
 imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
 attribution: "Instagram @yeonjae.kang"
 translatedAt: 2026-09-30

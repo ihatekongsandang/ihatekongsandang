@@ -7,6 +7,21 @@ sourceType: url
 sourceUrl: https://www.instagram.com/reel/Dd1TUsxzATu/
 attribution: 인스타그램 @geonwoo.vibes
 useSourceImage: false
+image:
+  kind: open
+  src: /images/2026-09-28-geonwoo-farmland-bank-expansion/thumb.jpg
+  alt: "'농림축산식품부' 글자가 걸린 곡선형 유리 외벽 청사와 앞쪽 나무들"
+  caption: "자료사진: 농림축산식품부 청사(2019) — 이 사건 당시 사진이 아닙니다. 농지은행 관련 예산 편성은 이 기관 소관입니다. 이 기관의 입장·행위를 뜻하지 않습니다. 현재 모습과 다를 수 있습니다."
+  creditName: "*Youngjin"
+  creditNameEn: "*Youngjin"
+  sourcePageUrl: "https://commons.wikimedia.org/wiki/File:Government_Complex_Sejong_20190611_06.jpg"
+  sourceSiteName: "위키미디어 공용"
+  license: cc-by-sa-3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+  workTitle: "Government Complex Sejong 20190611 06"
+  workYear: 2019
+  retrievedAt: 2026-11-13
+  faceNote: 얼굴 없음(자료사진·청사 건물)
 og:
   siteName: Instagram
 sources:

@@ -2,8 +2,8 @@
 id: 2026-09-15-joojinwoo-kimseungwon-hearing
 title: "Rep. Joo Jin-woo: \"Did you get a directive from Kim Hyun-ji?\" — reel on a shouting clash at Justice Minister nominee Kim Seung-won's confirmation hearing"
 description: "Rep. Joo Jin-woo's reel on a \"Kim Hyun-ji directive\" remark sparking shouting at nominee Kim Seung-won's hearing on alleged co-op favors; Kim was later dropped."
-imageAlt: "The National Assembly Proceeding Hall and Yeouido high-rises beyond a riverside road and woods at dusk"
-imageCaption: "Archive photo: National Assembly Proceeding Hall (2020) — not taken at the time of this event."
+imageAlt: "The National Assembly Proceeding Hall and Yeouido high-rises seen across the Han River"
+imageCaption: "Archive photo: National Assembly Proceeding Hall (2015) — not taken at the time of this event. It may differ from how it looks today."
 speakerAffiliation: "People Power Party lawmaker"
 attribution: "Instagram @_joojinwoo (주진우)"
 translatedAt: 2026-09-30

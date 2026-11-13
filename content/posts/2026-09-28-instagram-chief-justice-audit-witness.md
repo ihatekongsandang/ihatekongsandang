@@ -10,17 +10,17 @@ useSourceImage: false
 image:
   kind: open
   src: /images/2026-09-28-instagram-chief-justice-audit-witness/thumb.jpg
-  alt: "높은 곳에서 내려다본 국회의사당과 주변 건물, 한강과 다리들"
+  alt: "한강 건너편에서 바라본 국회의사당과 여의도 고층 건물"
   caption: "자료사진: 국회의사당(2020) — 이 사건 당시 사진이 아닙니다."
   creditName: 서울특별시
   creditNameEn: Seoul Metropolitan Government
-  sourcePageUrl: https://data.si.re.kr/node/62227
+  sourcePageUrl: "https://data.si.re.kr/node/62584"
   sourceSiteName: 서울연구데이터서비스
   license: cc-by-4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0/deed.ko
-  workTitle: "국회의사당(06T00306Da82000)"
+  workTitle: "국회의사당(06T05004Dc40053)"
   workYear: 2020
-  retrievedAt: 2026-11-11
+  retrievedAt: 2026-11-13
   faceNote: 얼굴 없음(자료사진·국회의사당)
 og:
   siteName: Instagram

@@ -2,6 +2,8 @@
 id: 2026-09-28-geonwoo-farmland-bank-expansion
 title: "\"How far will the state manage farmers' land?\" — criticism of the full farmland survey and the expanded Farmland Bank budget"
 description: "Instagram @geonwoo.vibes says the farmland survey and Farmland Bank expansion breach property rights; the related 2027 budget reportedly hits 2.26 trillion won."
+imageAlt: "A curved glass-walled government building bearing the sign of the Ministry of Agriculture, Food and Rural Affairs, with trees in front"
+imageCaption: "Archive photo: Farm Ministry (2019) — not taken at the time of this event. Budget is its job. Not the agency's position. It may differ from how it looks today."
 attribution: "Instagram @geonwoo.vibes"
 translatedAt: 2026-09-30
 ---
